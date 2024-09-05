@@ -26,11 +26,11 @@
             "text_style": "body"
           }
         },
-        "button": {
+        "buttons_JLFrH9": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_label_1": "Button label",
+            "button_link_1": "shopify:\/\/collections\/heliocare",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -41,7 +41,7 @@
       "block_order": [
         "heading",
         "text",
-        "button"
+        "buttons_JLFrH9"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Heliocare.png",
@@ -50,7 +50,7 @@
         "desktop_content_position": "middle-left",
         "show_text_box": true,
         "desktop_content_alignment": "left",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
@@ -79,8 +79,8 @@
         "text"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
