@@ -104,6 +104,7 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-3",
+    "brand_image": "{{ shop.brand.logo }}",
     "social_facebook_link": "https:\/\/facebook.com\/cantabria-uk",
     "social_instagram_link": "https:\/\/instagram.com\/cantabria-uk",
     "social_youtube_link": "https:\/\/youtube.com\/cantabria-uk",
@@ -209,7 +210,7 @@
       },
       "scheme-2": {
         "settings": {
-          "background": "#FFFFFF",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#f2a900",
           "button": "#f2a900",
@@ -220,34 +221,45 @@
       },
       "scheme-3": {
         "settings": {
-          "background": "#242833",
+          "background": "#ffffff",
           "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#ffffff",
-          "button_label": "#000000",
-          "secondary_button_label": "#ffffff",
+          "text": "#00843d",
+          "button": "#00843d",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#00843d",
           "shadow": "#121212"
         }
       },
       "scheme-4": {
         "settings": {
-          "background": "#121212",
+          "background": "#ffffff",
           "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#ffffff",
-          "button_label": "#121212",
-          "secondary_button_label": "#ffffff",
+          "text": "#653165",
+          "button": "#653165",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#653165",
           "shadow": "#121212"
         }
       },
       "scheme-5": {
         "settings": {
-          "background": "#334fb4",
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#115e67",
+          "button": "#115e67",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#ffffff",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82": {
+        "settings": {
+          "background": "#231f20",
           "background_gradient": "",
           "text": "#ffffff",
-          "button": "#ffffff",
-          "button_label": "#334fb4",
-          "secondary_button_label": "#ffffff",
+          "button": "#165c7d",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
       }
