@@ -1,10 +1,10 @@
-<div class='twcss-w-full twcss-text-right twcss-bg-gray-200 twcss-py-2'>
+<div class='twcss-w-full twcss-text-right twcss-bg-gray-200 twcss-py-2 twcss-hidden md:twcss-block'>
   <div class='twcss-max-w-[1440px] twcss-m-auto twcss-px-20'>
     {% if section.blocks.size > 0 %}
       {% for block in section.blocks %}
         {% if block.settings.menu != blank %}
           {% for link in linklists[block.settings.menu].links %}
-            <a href="{{ link.url }}" class="twcss-mx-2">{{ link.title }}</a>
+            <a href="{{ link.url }}" class="twcss-mx-2 twcss-leading-3 {% unless forloop.last %} twcss-border-r twcss-border-gray-300 twcss-pr-3 {% endunless %}">{{ link.title }}</a>
           {% endfor %}
         {% endif %}
       {% endfor %}
