@@ -23,7 +23,7 @@
         "heading_hAQQBe": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.title }}",
+            "heading": "Find a stockist",
             "heading_size": "h1"
           }
         },
@@ -37,6 +37,29 @@
       "block_order": [
         "heading_hAQQBe",
         "text_kf6V9k"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_UH8FGg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nwV9ya": {
+          "type": "heading",
+          "settings": {
+            "heading": "Search for a stockist ot Clinic",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nwV9ya"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -67,6 +90,7 @@
   "order": [
     "main",
     "rich_text_4xLLgG",
+    "rich_text_UH8FGg",
     "1725973593a9ef3b25"
   ]
 }
