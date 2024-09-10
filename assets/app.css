@@ -558,6 +558,11 @@ video {
   margin: auto;
 }
 
+.twcss-mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .twcss-w-full {
   width: 100%;
 }

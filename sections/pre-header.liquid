@@ -1,5 +1,13 @@
 <div class='twcss-w-full twcss-text-right twcss-bg-gray-200 twcss-py-2'>
-  <div class='twcss-max-w-[1440px] twcss-m-auto twcss-px-20'>Contact us | Find a Stockist | Account</div>
+  <div class='twcss-max-w-[1440px] twcss-m-auto twcss-px-20'>
+    {% if section.settings.menu %}
+      {% for link in linklists[section.settings.menu].links %}
+        <a href="{{ link.url }}" class="twcss-mx-2">{{ link.title }}</a>
+      {% endfor %}
+    {% else %}
+      Contact us | Find a Stockist | Account
+    {% endif %}
+  </div>
 </div>
 
 {% schema %}
@@ -14,6 +22,12 @@
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
       "default": "scheme-4"
+    },
+    {
+      "type": "menu",
+      "id": "menu",
+      "label": "Select Menu",
+      "default": null
     }
   ],
   "presets": [
