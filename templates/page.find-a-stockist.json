@@ -1,0 +1,40 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1725973593a9ef3b25": {
+      "type": "apps",
+      "blocks": {
+        "amai_promap_storelocator_page_block_CmnzTP": {
+          "type": "shopify:\/\/apps\/amai-promap\/blocks\/storelocator-page-block\/acff8fd9-34cc-4a4d-98ed-d7fdb5d3605f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "amai_promap_storelocator_page_block_CmnzTP"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1725973593a9ef3b25"
+  ]
+}
