@@ -15,7 +15,7 @@
         "heading_EG6cQt": {
           "type": "heading",
           "settings": {
-            "heading": "The {{ metaobject.name.value }} Range",
+            "heading": "<strong>The <\/strong><strong>{{ metaobject.name.value }}<\/strong><strong> Range<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -47,8 +47,8 @@
     "featured_collection_qTTAV4": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
+        "title": "<strong>Featured collection<\/strong>",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
