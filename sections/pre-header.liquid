@@ -2,9 +2,11 @@
   <div class='twcss-max-w-[1440px] twcss-m-auto twcss-px-20'>
     {% if section.blocks.size > 0 %}
       {% for block in section.blocks %}
-        {% for link in linklists[block.settings.menu].links %}
-          <a href="{{ link.url }}" class="twcss-mx-2">{{ link.title }}</a>
-        {% endfor %}
+        {% if block.settings.menu != blank %}
+          {% for link in linklists[block.settings.menu].links %}
+            <a href="{{ link.url }}" class="twcss-mx-2">{{ link.title }}</a>
+          {% endfor %}
+        {% endif %}
       {% endfor %}
     {% else %}
       Contact us | Find a Stockist | Account
@@ -15,29 +17,20 @@
 {% schema %}
 {
   "name": "Pre Header",
-  "tag": "section",
   "class": "pre-header",
-  "settings": [
-    {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
-      "default": "scheme-4"
-    }
-  ],
+  "max_blocks": 1,
   "blocks": [
     {
       "type": "menu",
       "name": "Menu Block",
       "settings": [
         {
-          "type": "menu",
+          "type": "link_list",
           "id": "menu",
           "label": "Select Menu",
-          "default": null
+          "info": "Select a menu to display in the pre-header."
         }
-      ],
-      "limit": 1
+      ]
     }
   ],
   "presets": [
@@ -45,15 +38,6 @@
       "name": "Pre Header",
       "category": "Header"
     }
-  ],
-  "locales": {
-    "en": {
-      "title": "Pre Header"
-    }
-  },
-  "enabled_on": {
-    "groups": ["header"],
-    "templates": ["*"]
-  }
+  ]
 }
 {% endschema %}
