@@ -37,8 +37,18 @@
     },
     "pre_header_gnXm3V": {
       "type": "pre-header",
+      "blocks": {
+        "menu_j7mEAe": {
+          "type": "menu",
+          "settings": {
+            "menu": "pre-header"
+          }
+        }
+      },
+      "block_order": [
+        "menu_j7mEAe"
+      ],
       "settings": {
-        "color_scheme": "scheme-3"
       }
     },
     "header": {
