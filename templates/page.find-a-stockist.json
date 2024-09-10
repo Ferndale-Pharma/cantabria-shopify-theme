@@ -17,6 +17,48 @@
         "padding_bottom": 28
       }
     },
+    "rich_text_4xLLgG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hAQQBe": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_kf6V9k": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Some stuff<\/p>"
+          }
+        },
+        "button_BaQMTN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hAQQBe",
+        "text_kf6V9k",
+        "button_BaQMTN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1725973593a9ef3b25": {
       "type": "apps",
       "blocks": {
@@ -36,6 +78,7 @@
   },
   "order": [
     "main",
+    "rich_text_4xLLgG",
     "1725973593a9ef3b25"
   ]
 }
