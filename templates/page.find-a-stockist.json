@@ -32,23 +32,11 @@
           "settings": {
             "text": "<p>Some stuff<\/p>"
           }
-        },
-        "button_BaQMTN": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_hAQQBe",
-        "text_kf6V9k",
-        "button_BaQMTN"
+        "text_kf6V9k"
       ],
       "settings": {
         "desktop_content_position": "center",
