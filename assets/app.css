@@ -607,7 +607,40 @@ video {
   text-align: right;
 }
 
-.twcss-leading-3 {
+.twcss-text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.twcss-text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.twcss-text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.twcss-text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.twcss-text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.twcss-leading-tight {
+  line-height: 1.25;
+}
+
+.twcss-leading-none {
+  line-height: 1;
+}
+
+ .twcss-leading-3 {
   line-height: .75rem;
 }
 
