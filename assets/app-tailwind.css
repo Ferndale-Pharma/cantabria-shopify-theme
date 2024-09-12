@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+form#bh-sl-user-location button#scapl-geocode-btn {
+  @apply twcss-h-[46px] twcss-border twcss-border-solid twcss-border-gray-300;
+  color: #0d374b;
+  background-color: transparent !important;
+  border-color: #231f20;
+}
+
+#bh-sl-address {
+  @apply twcss-border twcss-p-2;
+}
+
+.bh-sl-form-container {
+  @apply twcss-border-0;
+}
+
+.bh-sl-container #page-header {
+  @apply twcss-hidden;
+}
+
+#scasl-app-container {
+  @apply twcss-px-24;
+}
