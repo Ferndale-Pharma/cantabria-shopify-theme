@@ -3,10 +3,18 @@
 @tailwind utilities;
 
 form#bh-sl-user-location button#scapl-geocode-btn {
-  @apply twcss-h-[46px] twcss-border twcss-border-solid twcss-border-gray-300;
+  @apply twcss-border twcss-border-solid twcss-border-2 twcss-border-gray-300 twcss-rounded-l-none;
   color: #0d374b;
   background-color: transparent !important;
   border-color: #231f20;
+}
+
+form#bh-sl-user-location button {
+  @apply twcss-h-[46px];
+}
+
+.bh-sl-form-container #scasl-tab-radius {
+  @apply twcss-p-0;
 }
 
 #bh-sl-address {
@@ -23,4 +31,35 @@ form#bh-sl-user-location button#scapl-geocode-btn {
 
 #scasl-app-container {
   @apply twcss-px-24;
+}
+
+.scasl-see-more-content {
+  @apply twcss-flex twcss-space-x-4 twcss-w-full;
+}
+
+.scasl-address-wrap {
+  @apply twcss-flex;
+}
+
+.scasl-address-wrap {
+  @apply twcss-flex twcss-w-full;
+}
+
+input#bh-sl-address {
+  @apply twcss-w-[90%] !important;
+}
+
+select#scasl-lengthUnit,
+select#scasl-radius-container,
+input#bh-sl-address {
+  border-color: #231f20;
+  border-width: 1px;
+}
+
+input#bh-sl-address {
+  @apply twcss-rounded-r-none;
+}
+
+form#bh-sl-user-location .scasl-search-btn {
+  @apply twcss-border-0 twcss-p-0;
 }
