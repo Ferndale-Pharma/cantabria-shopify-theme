@@ -616,11 +616,6 @@ video {
   line-height: .75rem;
 }
 
-.twcss-text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 form#bh-sl-user-location button#scapl-geocode-btn {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
