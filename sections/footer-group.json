@@ -46,7 +46,7 @@
           "type": "link_list",
           "settings": {
             "heading": "Policies",
-            "menu": "footer"
+            "menu": "policies"
           }
         }
       },
