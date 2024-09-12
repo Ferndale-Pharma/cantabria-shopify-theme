@@ -30,7 +30,7 @@
         "text_kf6V9k": {
           "type": "text",
           "settings": {
-            "text": "<p>Some stuff<\/p>"
+            "text": "<p>Cantabria Labs products are also available from selected approved online retailers and Professional Skin Clinics across the UK.<\/p>"
           }
         }
       },
@@ -53,14 +53,14 @@
         "heading_GEMCDn": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Talk about your brand<\/strong>",
+            "heading": "<strong>Approved Online Retailers<\/strong>",
             "heading_size": "h2"
           }
         },
         "text_aNhDNN": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Cantabria Labs products are also available to buy online from the following official retail partners:<\/p>"
           }
         }
       },
@@ -86,8 +86,8 @@
             "image": "shopify:\/\/shop_images\/newyork.png",
             "title": "",
             "text": "",
-            "link_label": "Website link",
-            "link": ""
+            "link_label": "Look Fantastic",
+            "link": "https:\/\/www.lookfantastic.com\/"
           }
         },
         "column_mcxgj4": {
@@ -96,8 +96,8 @@
             "image": "shopify:\/\/shop_images\/vogue.png",
             "title": "",
             "text": "",
-            "link_label": "Website link",
-            "link": ""
+            "link_label": "Beauty Bay",
+            "link": "https:\/\/www.beautybay.com\/"
           }
         },
         "column_bHLPLF": {
@@ -106,7 +106,7 @@
             "image": "shopify:\/\/shop_images\/newyork.png",
             "title": "",
             "text": "",
-            "link_label": "Website link",
+            "link_label": "Just My Look",
             "link": ""
           }
         },
@@ -116,27 +116,7 @@
             "image": "shopify:\/\/shop_images\/vogue.png",
             "title": "",
             "text": "",
-            "link_label": "Website link",
-            "link": ""
-          }
-        },
-        "column_xVjDt4": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/newyork.png",
-            "title": "",
-            "text": "",
-            "link_label": "Website link",
-            "link": ""
-          }
-        },
-        "column_EhPdyq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "Website link",
+            "link_label": "Face the Future",
             "link": ""
           }
         }
@@ -145,16 +125,14 @@
         "column_RNj9xH",
         "column_mcxgj4",
         "column_bHLPLF",
-        "column_JftEEH",
-        "column_xVjDt4",
-        "column_EhPdyq"
+        "column_JftEEH"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 6,
+        "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
@@ -172,7 +150,7 @@
         "heading_nwV9ya": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Search for a stockist ot Clinic<\/strong>",
+            "heading": "<strong>Search for a stockist or Clinic<\/strong>",
             "heading_size": "h2"
           }
         }
