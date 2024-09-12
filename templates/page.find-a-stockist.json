@@ -23,7 +23,7 @@
         "heading_hAQQBe": {
           "type": "heading",
           "settings": {
-            "heading": "Find a stockist",
+            "heading": "<strong>Find a stockist<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -43,8 +43,38 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "rich_text_FwBakA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GEMCDn": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Talk about your brand<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_aNhDNN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GEMCDn",
+        "text_aNhDNN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "rich_text_UH8FGg": {
@@ -53,7 +83,7 @@
         "heading_nwV9ya": {
           "type": "heading",
           "settings": {
-            "heading": "Search for a stockist ot Clinic",
+            "heading": "<strong>Search for a stockist ot Clinic<\/strong>",
             "heading_size": "h2"
           }
         }
@@ -66,8 +96,8 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "1725973593a9ef3b25": {
@@ -90,6 +120,7 @@
   "order": [
     "main",
     "rich_text_4xLLgG",
+    "rich_text_FwBakA",
     "rich_text_UH8FGg",
     "1725973593a9ef3b25"
   ]
