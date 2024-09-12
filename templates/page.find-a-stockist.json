@@ -123,18 +123,20 @@
         "column_xVjDt4": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/newyork.png",
             "title": "",
             "text": "",
-            "link_label": "wensite l",
+            "link_label": "Website link",
             "link": ""
           }
         },
         "column_EhPdyq": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/vogue.png",
             "title": "",
             "text": "",
-            "link_label": "",
+            "link_label": "Website link",
             "link": ""
           }
         }
