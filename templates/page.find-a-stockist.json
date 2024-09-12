@@ -77,6 +77,93 @@
         "padding_bottom": 16
       }
     },
+    "multicolumn_8YbeMF": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RNj9xH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/newyork.png",
+            "title": "",
+            "text": "",
+            "link_label": "Website link",
+            "link": ""
+          }
+        },
+        "column_mcxgj4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "Website link",
+            "link": ""
+          }
+        },
+        "column_bHLPLF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/newyork.png",
+            "title": "",
+            "text": "",
+            "link_label": "Website link",
+            "link": ""
+          }
+        },
+        "column_JftEEH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "Website link",
+            "link": ""
+          }
+        },
+        "column_xVjDt4": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "wensite l",
+            "link": ""
+          }
+        },
+        "column_EhPdyq": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_RNj9xH",
+        "column_mcxgj4",
+        "column_bHLPLF",
+        "column_JftEEH",
+        "column_xVjDt4",
+        "column_EhPdyq"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
     "rich_text_UH8FGg": {
       "type": "rich-text",
       "blocks": {
@@ -121,6 +208,7 @@
     "main",
     "rich_text_4xLLgG",
     "rich_text_FwBakA",
+    "multicolumn_8YbeMF",
     "rich_text_UH8FGg",
     "1725973593a9ef3b25"
   ]
