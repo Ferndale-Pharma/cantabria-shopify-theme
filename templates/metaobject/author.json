@@ -60,7 +60,7 @@
       "type": "instant-cFhbH9KFWbZjWiYk",
       "settings": {
         "image_U5NcMoIUMGXoq7IV": "{{ metaobject.image.value }}",
-        "text_4vNcYhRTPTcmQLmh": "<p>{{ metaobject.name.value }}<\/p>",
+        "text_4vNcYhRTPTcmQLmh": "<h2>{{ metaobject.name.value }}<\/h2>",
         "text_o2kz3U3HE86QWIGc": "<p>{{ metaobject.job_title.value }}<\/p>",
         "text_3wyA9PeKcm6XSBN9": "<p>{{ metaobject.description | metafield_tag }}<\/p>",
         "padding_top": 0,
