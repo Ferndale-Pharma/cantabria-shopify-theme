@@ -697,7 +697,7 @@ form#bh-sl-user-location .scasl-search-btn {
 }
 
 .permission-error {
-  display: none;
+  display: none !important;
 }
 
 @media (min-width: 750px) {
