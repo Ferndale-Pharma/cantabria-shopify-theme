@@ -189,8 +189,8 @@
         "heading_ypTtcd": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading": "<strong>Interested in becoming a Cantabria Stockist?<\/strong>",
+            "heading_size": "h2"
           }
         },
         "button_LTEffh": {
