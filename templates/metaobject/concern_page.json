@@ -193,13 +193,20 @@
           "settings": {
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<\/p><ul><li>Curabitur rhoncus semper ipsum.<\/li><li>Nunc in justo auctor, dictum est vel.Luctus augue.<\/li><li>Interdum et malesuada.<\/li><\/ul>"
           }
+        },
+        "text_NLnpmN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>"
+          }
         }
       },
       "block_order": [
         "heading_xpUwX4",
         "caption_KGD6kr",
         "text_fcUcN7",
-        "text_taGmzC"
+        "text_taGmzC",
+        "text_NLnpmN"
       ],
       "settings": {
         "desktop_content_position": "center",
