@@ -235,17 +235,13 @@
               {{ shop | login_button: action: 'follow' }}
             </div>
           {%- endif -%}
-
-          {%- if section.settings.show_social and has_social_icons -%}
-            {%- render 'social-icons', class: 'footer__list-social' -%}
-          {%- endif -%}
         </div>
       </div>
     {%- endunless -%}
   {%- endif -%}
 
   <div
-    class="footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    class="footer__content-bottom twcss-border-t-2 twcss-border-white{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
       data-cascade
     {% endif %}
@@ -276,7 +272,12 @@
           </localization-form>
         {%- endif -%}
       </div>
-      <div class="footer__column footer__column--info">
+      <div class="twcss-flex twcss-flex-col md:twcss-flex-row md:twcss-justify-between twcss-w-full md:twcss-items-center twcss-justify-start">
+        <div class="footer__social">
+          {%- if section.settings.show_social and has_social_icons -%}
+            {%- render 'social-icons', class: 'footer__list-social' -%}
+          {%- endif -%}
+        </div>
         {%- if section.settings.payment_enable -%}
           <div class="footer__payment">
             <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
@@ -289,27 +290,29 @@
             </ul>
           </div>
         {%- endif -%}
+        <div class="footer__copyright twcss-mt-0 twcss-p-0">
+          <small class="copyright__content">
+            &copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
+          </small>
+          <small class="copyright__content"></small>
+          {%- if section.settings.show_policy -%}
+            <ul class="policies list-unstyled">
+              {%- for policy in shop.policies -%}
+                {%- if policy != blank -%}
+                  <li>
+                    <small class="copyright__content">
+                      <a href="{{ policy.url }}">{{ policy.title | escape }}</a>
+                    </small>
+                  </li>
+                {%- endif -%}
+              {%- endfor -%}
+            </ul>
+          {%- endif -%}
+        </div>
       </div>
     </div>
     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
       <div class="footer__copyright caption">
-        <small class="copyright__content"
-          >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
-        </small>
-        <small class="copyright__content">{{ powered_by_link }}</small>
-        {%- if section.settings.show_policy -%}
-          <ul class="policies list-unstyled">
-            {%- for policy in shop.policies -%}
-              {%- if policy != blank -%}
-                <li>
-                  <small class="copyright__content"
-                    ><a href="{{ policy.url }}">{{ policy.title | escape }}</a></small
-                  >
-                </li>
-              {%- endif -%}
-            {%- endfor -%}
-          </ul>
-        {%- endif -%}
       </div>
     </div>
   </div>
