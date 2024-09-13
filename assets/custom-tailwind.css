@@ -1,0 +1,96 @@
+/** Custom styling for Store locator **/
+form#bh-sl-user-location button#scapl-geocode-btn {
+  @apply twcss-border twcss-border-solid twcss-border-2 twcss-border-gray-300 twcss-rounded-l-none twcss-mt-0;
+  color: #0d374b;
+  background-color: transparent !important;
+  border-color: #231f20;
+  margin-top: 0px !important;
+}
+
+form#bh-sl-user-location button {
+  @apply twcss-h-[46px];
+}
+
+#bh-sl-address {
+  @apply twcss-border twcss-p-2;
+}
+
+.bh-sl-container #page-header {
+  @apply twcss-hidden;
+}
+
+.bh-sl-form-container {
+  @apply twcss-border-0;
+  #scasl-tab-radius {
+    @apply twcss-p-0;
+  }
+}
+
+#scasl-app-container {
+  @apply md:twcss-px-24;
+}
+
+.scasl-see-more-content {
+  @apply twcss-flex twcss-space-x-4 twcss-w-full;
+}
+
+.scasl-address-wrap {
+  @apply twcss-flex twcss-w-full twcss-flex;
+}
+
+input#bh-sl-address {
+  @apply twcss-w-[90%] !important;
+  @apply twcss-rounded-r-none;
+}
+
+select#scasl-lengthUnit,
+select#scasl-radius-container,
+input#bh-sl-address {
+  border-color: #231f20;
+  border-width: 1px;
+}
+
+form#bh-sl-user-location .scasl-search-btn {
+  @apply twcss-border-0 twcss-p-0;
+}
+
+.bh-sl-filters-container {
+  @apply twcss-flex twcss-flex-col twcss-justify-center twcss-pl-12 twcss-pt-4;
+}
+
+.bh-sl-filters-container label {
+  display: none;
+}
+
+.permission-error {
+  display: none !important;
+}
+
+/* Loyalty overrides */
+._linkPreview_xi026_26 {
+  display: none !important;
+}
+._popupFooter_hytmr_1 {
+  display: none !important;
+}
+
+.footer-block.grid__item a,
+.footer__copyright {
+  @apply twcss-text-white !important;
+  @apply twcss-opacity-100 !important;
+}
+
+.footer__copyright,
+.footer__payment {
+  @apply md:twcss-mt-0 !important;
+}
+
+.footer__social,
+.footer__payment,
+.footer__copyright {
+  @apply md:twcss-flex md:twcss-h-full md:twcss-items-center;
+}
+
+.footer__content-bottom {
+  @apply twcss-border-white !important;
+}
