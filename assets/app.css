@@ -621,6 +621,11 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.twcss-antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 form#bh-sl-user-location button#scapl-geocode-btn {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -708,6 +713,16 @@ form#bh-sl-user-location .scasl-search-btn {
 }
 
 .permission-error {
+  display: none !important;
+}
+
+/* Loyalty overrides */
+
+._linkPreview_xi026_26 {
+  display: none !important;
+}
+
+._popupFooter_hytmr_1 {
   display: none !important;
 }
 
