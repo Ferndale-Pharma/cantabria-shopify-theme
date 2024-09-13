@@ -752,8 +752,10 @@
   row-gap: 32px;
 }
 .__instant.icFhbH9KFWbZjWiYk .iU5NcMoIUMGXoq7IV {
+  aspect-ratio: 3/2;
+  height: auto;
   max-width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   position: relative;
   width: 500px;
 }
