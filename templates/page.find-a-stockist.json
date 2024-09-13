@@ -196,7 +196,7 @@
         "button_LTEffh": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Find out more",
             "button_link": "",
             "button_style_secondary": true,
             "button_label_2": "",
