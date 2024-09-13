@@ -216,12 +216,66 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "multicolumn_GgiLEY": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_9AaxEe": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mLcXKm": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8TjmjY": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_9AaxEe",
+        "column_mLcXKm",
+        "column_8TjmjY"
+      ],
+      "settings": {
+        "title": "Cantabria's Technologies Lorem Ipsum",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
     }
   },
   "order": [
     "image_banner_TWikjP",
     "image_with_text_E9j6Dk",
     "multicolumn_BeGBF7",
-    "rich_text_H7wnr3"
+    "rich_text_H7wnr3",
+    "multicolumn_GgiLEY"
   ]
 }
