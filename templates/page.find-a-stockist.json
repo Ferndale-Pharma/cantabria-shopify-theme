@@ -182,6 +182,41 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "rich_text_fFe8TY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ypTtcd": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Interested in becoming a Cantabria Stockist?<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "button_LTEffh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find out more",
+            "button_link": "shopify:\/\/pages\/become-a-stockist",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ypTtcd",
+        "button_LTEffh"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -190,6 +225,7 @@
     "rich_text_FwBakA",
     "multicolumn_8YbeMF",
     "rich_text_UH8FGg",
-    "1725973593a9ef3b25"
+    "1725973593a9ef3b25",
+    "rich_text_fFe8TY"
   ]
 }
