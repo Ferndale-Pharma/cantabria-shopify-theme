@@ -9,38 +9,111 @@
 */
 {
   "sections": {
-    "rich_text_jLMAVc": {
-      "type": "rich-text",
+    "image_banner_TWikjP": {
+      "type": "image-banner",
       "blocks": {
-        "heading_fCBkLz": {
+        "heading_MeNfzE": {
           "type": "heading",
           "settings": {
             "heading": "{{ metaobject.name.value }}",
             "heading_size": "h1"
           }
         },
-        "text_B76e8e": {
+        "text_p4wyK3": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ metaobject.description | metafield_tag }}<\/p>"
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_WXCGq3": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "shopify:\/\/collections\/spot-acne-prone-skin",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_fCBkLz",
-        "text_B76e8e"
+        "heading_MeNfzE",
+        "text_p4wyK3",
+        "buttons_WXCGq3"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_E9j6Dk": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_zEejax": {
+          "type": "caption",
+          "settings": {
+            "caption": "Caption",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        },
+        "heading_X3wfQG": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Image with text<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_WezjGn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_VgCw8W": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "shopify:\/\/collections\/spot-acne-prone-skin",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "caption_zEejax",
+        "heading_X3wfQG",
+        "text_WezjGn",
+        "button_VgCw8W"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "rich_text_jLMAVc"
+    "image_banner_TWikjP",
+    "image_with_text_E9j6Dk"
   ]
 }
