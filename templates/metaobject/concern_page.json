@@ -163,11 +163,58 @@
         "padding_top": 16,
         "padding_bottom": 16
       }
+    },
+    "rich_text_H7wnr3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xpUwX4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "caption_KGD6kr": {
+          "type": "caption",
+          "settings": {
+            "caption": "Rich Text Subtitle",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "text_fcUcN7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>"
+          }
+        },
+        "text_taGmzC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<\/p><ul><li>Curabitur rhoncus semper ipsum.<\/li><li>Nunc in justo auctor, dictum est vel.Luctus augue.<\/li><li>Interdum et malesuada.<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xpUwX4",
+        "caption_KGD6kr",
+        "text_fcUcN7",
+        "text_taGmzC"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_banner_TWikjP",
     "image_with_text_E9j6Dk",
-    "multicolumn_BeGBF7"
+    "multicolumn_BeGBF7",
+    "rich_text_H7wnr3"
   ]
 }
