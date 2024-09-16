@@ -444,10 +444,10 @@
         "column_TeH9Qd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/Rectangle_34.png",
+            "title": "How to Build an Effective Skincare Routine for Hyperpigmentation",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "link_label": "Read full article",
             "link": ""
           }
         },
@@ -455,20 +455,20 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/hyperpigmentation.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "5 Ingredients for Hyperpigmentation and Achieving Even Skin Tone",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus blandit tortor tempus.<\/p>",
+            "link_label": "Read article",
+            "link": "shopify:\/\/blogs\/blog"
           }
         },
         "column_UQpJxV": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/person.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "Understanding Hyperpigmentation: Causes, Types, and Treatments",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus blandit tortor tempus.<\/p>",
+            "link_label": "Read article",
+            "link": "shopify:\/\/blogs\/expert-advice\/melanoma-and-non-melanoma-skin-cancer-whats-the-difference"
           }
         }
       },
@@ -483,7 +483,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "center",
+        "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
