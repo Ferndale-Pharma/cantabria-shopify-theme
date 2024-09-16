@@ -1,3 +1,10 @@
+/** Typography styles **/
+.h1,
+.h2,
+h3.inline-richtext {
+  @apply twcss-font-bold !important;
+}
+
 /** Custom styling for Store locator **/
 form#bh-sl-user-location button#scapl-geocode-btn {
   @apply twcss-border twcss-border-solid twcss-border-2 twcss-border-gray-300 twcss-rounded-l-none twcss-mt-0;
@@ -74,6 +81,7 @@ form#bh-sl-user-location .scasl-search-btn {
   display: none !important;
 }
 
+/** Footer styles **/
 .footer-block.grid__item a,
 .footer__copyright {
   @apply twcss-text-white !important;
@@ -122,4 +130,20 @@ form#bh-sl-user-location .scasl-search-btn {
 
 .footer-block.grid__item {
   @apply twcss-my-[3rem] !important;
+}
+
+.banner__box.content-container--full-width-mobile {
+  @apply md:twcss-w-1/2;
+}
+
+.image-with-text__text-item.grid__item {
+  @apply twcss-my-auto;
+}
+
+.subtitle {
+  color: #165c7d !important;
+}
+
+.multicolumn .title-wrapper-with-link {
+  @apply twcss-justify-center;
 }
