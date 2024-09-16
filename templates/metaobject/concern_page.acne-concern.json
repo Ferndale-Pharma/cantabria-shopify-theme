@@ -513,8 +513,8 @@
         "button_KDiXhb": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "shopify:\/\/collections\/anti-ageing",
+            "button_label": "Browse products",
+            "button_link": "shopify:\/\/collections\/spot-acne-prone-skin",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
