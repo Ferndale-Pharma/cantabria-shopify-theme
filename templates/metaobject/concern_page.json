@@ -389,7 +389,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/hyperpigmentation.png",
-            "title": "Column",
+            "title": "",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -399,7 +399,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/person.png",
-            "title": "Column",
+            "title": "",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -409,7 +409,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
-            "title": "Column",
+            "title": "",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -422,7 +422,7 @@
         "column_8TjmjY"
       ],
       "settings": {
-        "title": "Cantabria's Technologies Lorem Ipsum",
+        "title": "What people are saying...",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -431,7 +431,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
@@ -445,7 +445,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
-            "title": "Column",
+            "title": "How to Build an Effective Skincare Routine for Hyperpigmentation",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "Read article",
             "link": "shopify:\/\/blogs\/blog"
@@ -455,7 +455,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/hyperpigmentation.png",
-            "title": "Column",
+            "title": "5 Ingredients for Hyperpigmentation and Achieving Even Skin Tone",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "Read artcle",
             "link": ""
@@ -465,7 +465,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/person.png",
-            "title": "Column",
+            "title": "Understanding Hyperpigmentation: Causes, Types, and Treatments",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "Read article",
             "link": ""
@@ -487,7 +487,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
