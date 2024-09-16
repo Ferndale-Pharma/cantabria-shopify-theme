@@ -122,9 +122,81 @@ form#bh-sl-user-location .scasl-search-btn {
   }
 }
 
+.toggle-menu {
+  cursor: pointer;
+  border-style: none;
+  background-color: transparent;
+}
+
+.toggle-menu svg {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+  /* Adjust color as needed */
+}
+
+.footer-block.grid__item {
+  border-bottom-width: 1px;
+}
+
+@media (min-width: 750px) {
+  .footer-block.grid__item {
+    border-width: 0px;
+  }
+}
+
+.footer__bottom {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media (min-width: 750px) {
+  .footer__bottom {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
 .footer__content-bottom {
-  --tw-border-opacity: 1 !important;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity)) !important;
+  border-color: transparent !important;
+}
+
+@media (min-width: 750px) {
+  .footer__content-bottom {
+    --tw-border-opacity: 1 !important;
+    border-color: rgb(255 255 255 / var(--tw-border-opacity)) !important;
+  }
+}
+
+.footer__content-top.page-width {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 0px;
+}
+
+@media (min-width: 750px) {
+  .footer__content-top.page-width {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.footer__blocks-wrapper.grid {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 750px) {
+  .footer__blocks-wrapper.grid {
+    margin-bottom: 2rem;
+  }
+}
+
+.footer-block.grid__item {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
 }
 
 /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
@@ -710,30 +782,21 @@ video {
   max-width: 1440px;
 }
 
-.twcss-flex-col {
-  flex-direction: column;
+.twcss-items-start {
+  align-items: flex-start;
 }
 
-.twcss-justify-start {
-  justify-content: flex-start;
+.twcss-justify-between {
+  justify-content: space-between;
 }
 
 .twcss-border-r {
   border-right-width: 1px;
 }
 
-.twcss-border-t-2 {
-  border-top-width: 2px;
-}
-
 .twcss-border-gray-300 {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
-}
-
-.twcss-border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .twcss-bg-gray-200 {
@@ -787,15 +850,7 @@ video {
     display: block;
   }
 
-  .md\:twcss-flex-row {
-    flex-direction: row;
-  }
-
-  .md\:twcss-items-center {
-    align-items: center;
-  }
-
-  .md\:twcss-justify-between {
-    justify-content: space-between;
+  .md\:twcss-hidden {
+    display: none;
   }
 }
