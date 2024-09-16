@@ -168,9 +168,9 @@
     "featured_collection_JrJFGn": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Relevant products",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p>Some really relevant products that you can use.<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "{{ metaobject.concern_products.value }}",
