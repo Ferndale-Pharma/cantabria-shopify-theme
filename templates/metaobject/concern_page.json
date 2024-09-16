@@ -44,6 +44,7 @@
         "buttons_WXCGq3"
       ],
       "settings": {
+        "image": "{{ metaobject.hero_image.value }}",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
