@@ -252,6 +252,7 @@
         "column_9AaxEe": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Hyperpigmentation-before-after.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -261,6 +262,7 @@
         "column_mLcXKm": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -270,6 +272,7 @@
         "column_8TjmjY": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/hyperpigmentation.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -287,7 +290,63 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "multicolumn_ycheEM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_CzmUaa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pUqR6f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hyperpigmentation-before-after.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aK9r9k": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hyperpigmentation.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_CzmUaa",
+        "column_pUqR6f",
+        "column_aK9r9k"
+      ],
+      "settings": {
+        "title": "Cantabria's Technologies Lorem Ipsum",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -349,6 +408,7 @@
     "featured_collection_JrJFGn",
     "rich_text_H7wnr3",
     "multicolumn_GgiLEY",
+    "multicolumn_ycheEM",
     "rich_text_xN8BKM"
   ]
 }
