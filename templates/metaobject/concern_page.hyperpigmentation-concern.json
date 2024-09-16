@@ -15,7 +15,7 @@
         "heading_MeNfzE": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>{{ metaobject.name.value }}<\/strong>",
+            "heading": "{{ metaobject.name.value }}",
             "heading_size": "h1"
           }
         },
@@ -71,7 +71,7 @@
         "heading_X3wfQG": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Image with text<\/strong>",
+            "heading": "Image with text",
             "heading_size": "h2"
           }
         },
@@ -98,6 +98,7 @@
         "button_VgCw8W"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Hyperpigmentation-before-after.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -118,7 +119,8 @@
         "column_cyFqfy": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/face.png",
+            "title": "Causes and Triggers",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -149,7 +151,7 @@
         "column_cCYqMz"
       ],
       "settings": {
-        "title": "<strong>Understanding <\/strong><strong>{{ metaobject.name.value }}<\/strong>",
+        "title": "Understanding {{ metaobject.name.value }}",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -308,7 +310,7 @@
         "heading_k9bgAG": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Talk about your brand<\/strong>",
+            "heading": "Talk about your brand",
             "heading_size": "h2"
           }
         },
@@ -341,7 +343,7 @@
         "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
         "full_width": true,
         "padding_top": 32,
-        "padding_bottom": 52
+        "padding_bottom": 32
       }
     }
   },
