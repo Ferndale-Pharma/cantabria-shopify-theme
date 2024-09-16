@@ -91,6 +91,35 @@ form#bh-sl-user-location .scasl-search-btn {
   @apply md:twcss-flex md:twcss-h-full md:twcss-items-center;
 }
 
+.toggle-menu {
+  @apply twcss-bg-transparent twcss-border-none twcss-cursor-pointer;
+}
+
+.toggle-menu svg {
+  @apply twcss-text-gray-700; /* Adjust color as needed */
+}
+
+.footer-block.grid__item {
+  @apply twcss-border-b md:twcss-border-0;
+}
+
+.footer__bottom {
+  @apply twcss-flex twcss-flex-col md:twcss-flex-row md:twcss-justify-between twcss-w-full md:twcss-items-center twcss-justify-start;
+}
+
 .footer__content-bottom {
-  @apply twcss-border-white !important;
+  @apply twcss-border-transparent !important;
+  @apply md:twcss-border-white !important;
+}
+
+.footer__content-top.page-width {
+  @apply twcss-pb-0 md:twcss-pb-[5rem] twcss-px-[32px] md:twcss-px-[5rem];
+}
+
+.footer__blocks-wrapper.grid {
+  @apply twcss-mb-0 md:twcss-mb-[2rem];
+}
+
+.footer-block.grid__item {
+  @apply twcss-my-[3rem] !important;
 }
