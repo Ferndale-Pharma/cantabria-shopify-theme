@@ -389,30 +389,30 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/hyperpigmentation.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p><p><strong>Name<\/strong><\/p>",
+            "link_label": "the person",
+            "link": "shopify:\/\/metaobjects\/author\/emma-wedgeworth"
           }
         },
         "column_mLcXKm": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/person.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p><p><strong>Name<\/strong><\/p>",
+            "link_label": "The person",
+            "link": "shopify:\/\/metaobjects\/author\/samantha-hey"
           }
         },
         "column_8TjmjY": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p><p><strong>Name<\/strong><\/p>",
+            "link_label": "The person",
+            "link": "shopify:\/\/metaobjects\/author\/jennifer-scragg"
           }
         }
       },
@@ -422,16 +422,16 @@
         "column_8TjmjY"
       ],
       "settings": {
-        "title": "Cantabria's Technologies Lorem Ipsum",
+        "title": "What people are saying...",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "center",
+        "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
