@@ -252,6 +252,7 @@
         "column_9AaxEe": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -261,6 +262,7 @@
         "column_mLcXKm": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Hyperpigmentation-before-after.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -270,6 +272,7 @@
         "column_8TjmjY": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/hyperpigmentation.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
