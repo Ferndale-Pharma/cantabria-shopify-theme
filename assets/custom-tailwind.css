@@ -5,6 +5,26 @@ h3.inline-richtext {
   @apply twcss-font-bold !important;
 }
 
+ul,
+ol {
+  @apply twcss-py-[16px] !important;
+}
+.rich-text__text {
+  color: #231f20;
+}
+
+.link.animate-arrow {
+  display: flex;
+  align-items: center;
+}
+
+.link .icon-wrap {
+  transform: rotate(-45deg);
+}
+
+svg.icon.icon-arrow path {
+  stroke-width: 3px;
+}
 /** Custom styling for Store locator **/
 form#bh-sl-user-location button#scapl-geocode-btn {
   @apply twcss-border twcss-border-solid twcss-border-2 twcss-border-gray-300 twcss-rounded-l-none twcss-mt-0;
