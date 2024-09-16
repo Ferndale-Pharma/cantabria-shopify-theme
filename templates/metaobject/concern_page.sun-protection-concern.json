@@ -108,8 +108,8 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "multicolumn_BeGBF7": {
@@ -161,8 +161,8 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 16,
-        "padding_bottom": 16
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "featured_collection_JrJFGn": {
@@ -189,8 +189,8 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "rich_text_H7wnr3": {
@@ -242,8 +242,8 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "multicolumn_GgiLEY": {
@@ -298,7 +298,7 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 16,
+        "padding_top": 64,
         "padding_bottom": 16
       }
     },
@@ -355,7 +355,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 16,
-        "padding_bottom": 16
+        "padding_bottom": 64
       }
     },
     "rich_text_xN8BKM": {
@@ -396,8 +396,8 @@
         "content_alignment": "center",
         "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     }
   },
