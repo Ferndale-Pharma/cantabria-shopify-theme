@@ -167,3 +167,16 @@ form#bh-sl-user-location .scasl-search-btn {
 .multicolumn .title-wrapper-with-link {
   @apply twcss-justify-center;
 }
+
+/** Slider buttons **/
+.slider-buttons {
+  @apply twcss-flex twcss-gap-4;
+}
+
+.slider-counter.caption {
+  @apply twcss-hidden;
+}
+
+.slider-buttons button {
+  @apply twcss-bg-[#D0DEE5] twcss-rounded-md; /* Added rounded corners */
+}
