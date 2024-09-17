@@ -157,7 +157,10 @@
               class="full-unstyled-link"
               aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
             >
-              {{ card_product.title | escape }}
+              <h4>{{ card_product.title | escape }}</h4>
+              {% if card_product.metafields.custom.product_subtitle %}
+                <span class="product-subtitle">{{ card_product.metafields.custom.product_subtitle | escape }}</span>
+              {% endif %}
             </a>
           </h3>
           <div class="card-information">
