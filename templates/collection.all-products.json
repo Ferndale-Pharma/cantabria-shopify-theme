@@ -31,6 +31,7 @@
         "heading_pjGXBk",
         "text_NqMN3b"
       ],
+      "disabled": true,
       "settings": {
         "image": "{{ collection.metafields.custom.hero_image_desktop.value }}",
         "image_overlay_opacity": 0,
