@@ -122,7 +122,7 @@
 
 .card--media .card__inner .card__content {
   position: relative;
-  padding: calc(var(--image-padding) + 1rem);
+  padding: 0;
 }
 
 .card__content {
