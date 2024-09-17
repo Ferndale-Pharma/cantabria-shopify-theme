@@ -185,3 +185,11 @@ form#bh-sl-user-location .scasl-search-btn {
 .card__information {
   @apply twcss-flex twcss-flex-col twcss-justify-between twcss-h-full;
 }
+
+.card__content {
+  @apply twcss-px-4 !important;
+}
+
+.collection__title {
+  @apply twcss-text-center;
+}

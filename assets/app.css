@@ -277,6 +277,15 @@ form#bh-sl-user-location .scasl-search-btn {
   justify-content: space-between;
 }
 
+.card__content {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.collection__title {
+  text-align: center;
+}
+
 /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
 
 /*
