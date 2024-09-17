@@ -2,14 +2,20 @@
 .h1,
 .h2,
 .h3,
+.badge,
 h3.inline-richtext {
   @apply twcss-font-bold !important;
+}
+
+.full-unstyled-link:hover {
+  text-decoration: none !important;
 }
 
 ul,
 ol {
   @apply twcss-py-[16px] !important;
 }
+
 .rich-text__text {
   color: #231f20;
 }
@@ -17,10 +23,6 @@ ol {
 .link.animate-arrow {
   display: flex;
   align-items: center;
-}
-
-.link .icon-wrap {
-  transform: rotate(-45deg);
 }
 
 svg.icon.icon-arrow path {
@@ -179,9 +181,15 @@ form#bh-sl-user-location .scasl-search-btn {
 }
 
 .slider-buttons button {
-  @apply twcss-bg-[#D0DEE5] twcss-rounded-md; /* Added rounded corners */
+  @apply twcss-bg-[#D0DEE5] twcss-rounded-md twcss-p-4;
 }
 
+.slider-buttons button svg {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+
+/** Product cards **/
 .card__information {
   @apply twcss-flex twcss-flex-col twcss-justify-between twcss-h-full;
 }
@@ -192,4 +200,12 @@ form#bh-sl-user-location .scasl-search-btn {
 
 .collection__title {
   @apply twcss-text-center;
+}
+
+.card__heading {
+  @apply twcss-gap-4;
+}
+
+.product-title {
+  @apply twcss-mb-4;
 }
