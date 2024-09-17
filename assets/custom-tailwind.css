@@ -1,6 +1,7 @@
 /** Typography styles **/
 .h1,
 .h2,
+.h3,
 h3.inline-richtext {
   @apply twcss-font-bold !important;
 }
@@ -179,4 +180,8 @@ form#bh-sl-user-location .scasl-search-btn {
 
 .slider-buttons button {
   @apply twcss-bg-[#D0DEE5] twcss-rounded-md; /* Added rounded corners */
+}
+
+.card__information {
+  @apply twcss-flex twcss-flex-col twcss-justify-between twcss-h-full;
 }
