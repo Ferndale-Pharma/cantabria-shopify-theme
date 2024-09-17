@@ -201,10 +201,10 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#165c7d",
+          "text": "#0d374b",
           "button": "#165c7d",
           "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
+          "secondary_button_label": "#0d374b",
           "shadow": "#121212"
         }
       },
