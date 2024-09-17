@@ -301,32 +301,32 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_JrJFGn": {
-      "type": "featured-collection",
+    "featured_collection_cl_bhgdEq": {
+      "type": "featured-collection-cl",
       "settings": {
         "title": "Relevant products",
         "heading_size": "h1",
-        "description": "<p>Some really relevant products that you can use.<\/p>",
+        "description": "<p>Some really relevant products<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "{{ metaobject.concern_products.value }}",
-        "products_to_show": 8,
+        "products_to_show": 6,
         "columns_desktop": 4,
-        "full_width": true,
+        "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "standard",
+        "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 64,
-        "padding_bottom": 64
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text_H7wnr3": {
@@ -543,7 +543,7 @@
     "multicolumn_BeGBF7",
     "rich_text_4w8fEB",
     "multicolumn_dR663W",
-    "featured_collection_JrJFGn",
+    "featured_collection_cl_bhgdEq",
     "rich_text_H7wnr3",
     "multicolumn_GgiLEY",
     "multicolumn_VDCjYH",
