@@ -7,3 +7,24 @@
     {% endfor %}
   
 {{ paginate | default_pagination }}
+
+{% endpaginate %}
+{% schema %}
+    {
+      "name": "Ingredient Index",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Ingredients"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Default",
+          "category": "Custom"
+        }
+      ]
+    }
+    {% endschema %}
