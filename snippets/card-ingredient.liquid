@@ -1,5 +1,16 @@
 <div class="ingredient-card">
-    <div class="ingredient-card__title">
+    <h3 class="ingredient-card__title h3">
         {{ card_ingredient.name | escape }}
+    </h3>
+    <div class="ingredient-card__descriptioon">
+        {{ card_ingredient.description | raw }}
+    </div>
+    <div class="ingredients-card__benefits">
+        <h4 class="h4">Benefits</h4>
+        {{ card_ingredient.benefits | metafield_tag }}
+    </div>
+    <div class="ingredients-card__used-in">
+        <div>What it's used in</div>
+
     </div>
 </div>

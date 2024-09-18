@@ -3,6 +3,7 @@
 .h1,
 .h2,
 .h3,
+.h4,
 .badge,
 h3.inline-richtext {
   font-weight: 700 !important;
@@ -973,12 +974,8 @@ ol {
   justify-content: space-between;
 }
 
-.twcss-gap-4 {
-  gap: 1rem;
-}
-
-.twcss-gap-8 {
-  gap: 2rem;
+.twcss-gap-16 {
+  gap: 4rem;
 }
 
 .twcss-rounded-lg {

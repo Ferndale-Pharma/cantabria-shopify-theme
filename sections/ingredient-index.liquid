@@ -1,6 +1,6 @@
 <div class="page-width">
     {% paginate shop.metaobjects.ingredients.values by 100 %}
-        <div class="twcss-grid twcss-grid-cols-1 md:twcss-grid-cols-3 twcss-gap-4">
+        <div class="twcss-grid twcss-grid-cols-1 md:twcss-grid-cols-3 twcss-gap-16">
             {% for metaobject in shop.metaobjects.ingredients.values %}
             <div class="twcss-bg-white twcss-p-4 twcss-shadow twcss-rounded-lg">
                 {% render 'card-ingredient', card_ingredient: metaobject %}

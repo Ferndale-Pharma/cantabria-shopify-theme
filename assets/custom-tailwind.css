@@ -2,6 +2,7 @@
 .h1,
 .h2,
 .h3,
+.h4,
 .badge,
 h3.inline-richtext {
   @apply twcss-font-bold !important;
