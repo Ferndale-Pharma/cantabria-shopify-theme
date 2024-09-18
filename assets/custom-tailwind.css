@@ -212,5 +212,22 @@ form#bh-sl-user-location .scasl-search-btn {
 }
 /** Ingredient filter list **/
 .alpha-list-group {
-  @apply twcss-grid twcss-grid-cols-1 md:twcss-grid-cols-3 twcss-gap-16 twcss-list-none;
+  @apply twcss-grid twcss-grid-cols-1 md:twcss-grid-cols-3 twcss-gap-24 twcss-list-none;
+}
+
+.ingredient-card {
+  @apply twcss-flex-col twcss-gap-2 twcss-text-[#231F20];
+}
+
+.ingredient-card__title {
+  @apply twcss-pb-4;
+}
+
+.ingredient-card__description {
+  @apply twcss-pb-8 twcss-border-b;
+  height: 141px;
+}
+
+.ingredients-card__benefits h4 {
+  @apply twcss-my-4;
 }

@@ -2,17 +2,19 @@
     <h2 class="ingredient-card__title h2">
         {{ card_ingredient.name | escape }}
     </h2>
-    <div class="ingredient-card__descriptioon">
+    <div class="ingredient-card__description">
         {{ card_ingredient.description | raw }}
     </div>
     <div class="ingredients-card__benefits">
-        <h4 class="h4">Benefits</h4>
+        <h4 class="h4">Benefits:</h4>
         {{ card_ingredient.benefits | metafield_tag }}
     </div>
     <div class="ingredients-card__used-in">
-        <div>What it's used in</div>
-        {% for product in card_ingredient.products.value %}
-            <a href="{{ product.url }}">{{ product.title }}</a>
-        {% endfor %}
+        <div class="link">What it's used in</div>
+        <div class="ingredients-card__used-in--products">
+            {% for product in card_ingredient.products.value %}
+                <a href="{{ product.url }}">{{ product.title }}</a>
+            {% endfor %}
+        </div>
     </div>
 </div>

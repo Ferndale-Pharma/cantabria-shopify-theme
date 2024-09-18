@@ -1,5 +1,11 @@
 {{ 'AlphaListNav.css' | asset_url | stylesheet_tag }}
 <div class="page-width">
+    <div class="field twcss-mt-8">
+        <input id="ingredients_search" type="search" name="ingredeients-search" class="field__input" value="" aria-required="true" autocorrect="off" autocapitalize="off" autocomplete="email" placeholder="Email" required="" style="padding-right: 83.2px !important;" data-protonpass-base-css="{&quot;padding-right&quot;:&quot;&quot;}">
+        <label class="field__label" for="NewsletterForm--template--22141026435400__newsletter_Bayzam">
+            Search for an ingredient.
+        </label>
+    </div>
     <div id="alphaNavContainer"></div>
     {% paginate shop.metaobjects.ingredients.values by 100 %}
         <ul id="ingredientIndex" class="">
