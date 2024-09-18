@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
       includeNums: false,
       showCounts: false,
       initLetter: '*',
-      //   navContainer: 'alphaNavContainer',
     });
   }
 });
