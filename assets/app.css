@@ -981,10 +981,6 @@ ol {
   justify-content: space-between;
 }
 
-.twcss-rounded-lg {
-  border-radius: 0.5rem;
-}
-
 .twcss-border-r {
   border-right-width: 1px;
 }
@@ -999,17 +995,8 @@ ol {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
-.twcss-bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .twcss-p-0 {
   padding: 0px;
-}
-
-.twcss-p-4 {
-  padding: 1rem;
 }
 
 .twcss-px-20 {
@@ -1035,11 +1022,6 @@ ol {
   line-height: 1.75rem;
 }
 
-.twcss-text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .twcss-leading-3 {
   line-height: 0.75rem;
 }
@@ -1052,14 +1034,6 @@ ol {
 .twcss-antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.twcss-shadow {
-  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),
-    0 1px 2px -1px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 @media (min-width: 750px) {

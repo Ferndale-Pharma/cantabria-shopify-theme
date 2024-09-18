@@ -11,6 +11,8 @@
     </div>
     <div class="ingredients-card__used-in">
         <div>What it's used in</div>
-
+        {% for product in card_ingredient.products.value %}
+            <a href="{{ product.url }}">{{ product.title }}</a>
+        {% endfor %}
     </div>
 </div>
