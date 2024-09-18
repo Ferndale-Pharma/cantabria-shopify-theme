@@ -340,6 +340,18 @@ form#bh-sl-user-location .scasl-search-btn {
   margin-bottom: 1rem;
 }
 
+.ingredients-card__benefits ul {
+  padding: 0px !important;
+}
+
+.ingredients-card__benefits li {
+  display: inline;
+}
+
+.ingredients-card__used-in--products .link {
+  margin-right: 0.25rem;
+}
+
 /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
 
 /*
