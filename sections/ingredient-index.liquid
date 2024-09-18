@@ -1,6 +1,6 @@
 {% paginate shop.metaobjects.ingredients.values by 25 %}
   
-    {% for metaobject in shop.metaobjects.chef.values %}
+    {% for metaobject in shop.metaobjects.ingredients.values %}
       <li>
         {{ metaobject.name | link_to: metaobject.system.url }}
       </li>
@@ -10,21 +10,13 @@
 
 {% endpaginate %}
 {% schema %}
-    {
-      "name": "Ingredient Index",
-      "settings": [
+{
+    "name": "CL Ingredient list",
+    "settings": [],
+    "presets": [
         {
-          "type": "text",
-          "id": "title",
-          "label": "Title",
-          "default": "Ingredients"
+        "name": "A section that renders ingredients in a list"
         }
-      ],
-      "presets": [
-        {
-          "name": "Default",
-          "category": "Custom"
-        }
-      ]
-    }
-    {% endschema %}
+    ]
+}
+{% endschema %}
