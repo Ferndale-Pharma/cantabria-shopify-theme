@@ -1,0 +1,53 @@
+.alpha-list-wrapper,
+#no-match {
+  display: none;
+}
+
+.alpha-list-wrapper.active,
+#no-match.active {
+  display: block;
+}
+
+#alpha-nav {
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character-element {
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1;
+  white-space: nowrap;
+  padding: 8px 8px;
+  color: #231f20;
+  font-size: 20px;
+  font-family: var(--font-heading-family);
+  font-weight: 800;
+}
+
+@media (max-width: 767px) {
+  .character-element {
+    padding: calc(100% / 50);
+    margin: calc(100% / 50);
+    min-width: calc(100% / 15);
+  }
+}
+
+.character-element:not(.disabled):hover,
+.character-element:not(.disabled):active {
+  cursor: pointer;
+}
+
+.character-element.disabled {
+  color: #cccccc;
+  cursor: default;
+}
+
+.character-element.active {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=alphaListNav.css.map */

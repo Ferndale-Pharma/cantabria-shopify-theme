@@ -303,6 +303,21 @@ form#bh-sl-user-location .scasl-search-btn {
   margin-bottom: 1rem;
 }
 
+/** Ingredient filter list **/
+
+.alpha-list-group {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 4rem;
+}
+
+@media (min-width: 750px) {
+  .alpha-list-group {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
 /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
 
 /*
@@ -946,10 +961,6 @@ ol {
   display: flex;
 }
 
-.twcss-grid {
-  display: grid;
-}
-
 .twcss-hidden {
   display: none;
 }
@@ -962,20 +973,12 @@ ol {
   max-width: 1440px;
 }
 
-.twcss-grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
 .twcss-items-start {
   align-items: flex-start;
 }
 
 .twcss-justify-between {
   justify-content: space-between;
-}
-
-.twcss-gap-16 {
-  gap: 4rem;
 }
 
 .twcss-rounded-lg {
@@ -1032,6 +1035,11 @@ ol {
   line-height: 1.75rem;
 }
 
+.twcss-text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .twcss-leading-3 {
   line-height: 0.75rem;
 }
@@ -1061,9 +1069,5 @@ ol {
 
   .md\:twcss-hidden {
     display: none;
-  }
-
-  .md\:twcss-grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }

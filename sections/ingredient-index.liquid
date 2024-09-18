@@ -1,14 +1,23 @@
+{{ 'AlphaListNav.css' | asset_url | stylesheet_tag }}
 <div class="page-width">
+    <div id="alphaNavContainer"></div>
     {% paginate shop.metaobjects.ingredients.values by 100 %}
-        <div class="twcss-grid twcss-grid-cols-1 md:twcss-grid-cols-3 twcss-gap-16">
+        <ul id="ingredientIndex" class="">
             {% for metaobject in shop.metaobjects.ingredients.values %}
-            <div class="twcss-bg-white twcss-p-4 twcss-shadow twcss-rounded-lg">
-                {% render 'card-ingredient', card_ingredient: metaobject %}
-            </div>
+                <li>
+                    <div class="card-ingredient__name twcss-hidden">{{ metaobject.name | escape }}</div>
+                    {% render 'card-ingredient', card_ingredient: metaobject %}
+                </li>
             {% endfor %}
-        </div>
+        </ul>
     {% endpaginate %}
 </div>
+
+<!-- Include AlphaListNav.js -->
+<script src="{{ 'AlphaListNav.js' | asset_url }}" defer="defer"></script>
+
+<script src="{{ 'ingredient-index.js' | asset_url }}" defer="defer"></script>
+
 {% schema %}
 {
     "name": "CL Ingredient list",
