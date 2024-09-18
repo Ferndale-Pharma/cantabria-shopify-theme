@@ -231,3 +231,15 @@ form#bh-sl-user-location .scasl-search-btn {
 .ingredients-card__benefits h4 {
   @apply twcss-my-4;
 }
+
+.ingredients-card__benefits ul {
+  @apply twcss-p-0 !important;
+}
+
+.ingredients-card__benefits li {
+  @apply twcss-inline;
+}
+
+.ingredients-card__used-in--products .link {
+  @apply twcss-mr-1;
+}
