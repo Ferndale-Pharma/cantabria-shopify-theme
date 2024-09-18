@@ -9,6 +9,42 @@
 */
 {
   "sections": {
+    "image_banner_qjKEJK": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_Fw8Y9T": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Key Ingredients",
+            "heading_size": "h1"
+          }
+        },
+        "text_qRHEQV": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae faucibus augue, sit amet luctus sapien. Nam et est sed eros vestibulum facilisis. Duis et porta ipsum. Etiam tincidunt, risus eu imperdiet mattis, odio lorem finibus ante, sit amet rutrum dui nunc nec velit. Phasellus ornare dapibus finibus. Nullam eu.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Fw8Y9T",
+        "text_qRHEQV"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/aea933814c77358cfe8375181d328aa9.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -24,6 +60,7 @@
     }
   },
   "order": [
+    "image_banner_qjKEJK",
     "main",
     "ingredient_index_rwCMxm"
   ]
