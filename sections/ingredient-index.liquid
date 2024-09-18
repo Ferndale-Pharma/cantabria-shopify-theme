@@ -1,0 +1,9 @@
+{% paginate shop.metaobjects.ingredients.values by 25 %}
+  
+    {% for metaobject in shop.metaobjects.chef.values %}
+      <li>
+        {{ metaobject.name | link_to: metaobject.system.url }}
+      </li>
+    {% endfor %}
+  
+{{ paginate | default_pagination }}
