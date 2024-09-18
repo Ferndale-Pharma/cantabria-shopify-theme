@@ -57,11 +57,46 @@
       "type": "ingredient-index",
       "settings": {
       }
+    },
+    "newsletter_Bayzam": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_VxBDrJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_crkqHi": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email_form_e4pRT6": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_VxBDrJ",
+        "paragraph_crkqHi",
+        "email_form_e4pRT6"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_banner_qjKEJK",
     "main",
-    "ingredient_index_rwCMxm"
+    "ingredient_index_rwCMxm",
+    "newsletter_Bayzam"
   ]
 }
