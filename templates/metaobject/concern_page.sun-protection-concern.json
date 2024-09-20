@@ -244,55 +244,22 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/fernblock-leaves.png",
-            "title": "Column Heading",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.<\/p>",
-            "link_label": "Link",
-            "link": ""
-          }
-        },
-        "column_MPgDQ6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/abstract.png",
-            "title": "Column Heading",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.<\/p>",
-            "link_label": "Link",
-            "link": ""
-          }
-        },
-        "column_aRYDt3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bubbles-2.png",
-            "title": "Column Heading",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.<\/p>",
-            "link_label": "Link",
-            "link": ""
-          }
-        },
-        "column_j4kc9V": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bubbles.png",
-            "title": "Column Heading",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.<\/p>",
+            "title": "Fernblock® Technology",
+            "text": "<p>A powerful, patented plant-based technology that offers multiple levels of protection against UV radiation and environmental stressors. Is clinically proven to prevent and repair the damage caused by daylight (UVA, UVB, visible light and infrared-A), as well as preventing collagen breakdown, protecting skin cell DNA, preventing pigmentation and protecting the skin’s immune system. <\/p>",
             "link_label": "Link",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_z6TDVw",
-        "column_MPgDQ6",
-        "column_aRYDt3",
-        "column_j4kc9V"
+        "column_z6TDVw"
       ],
       "settings": {
-        "title": "Section Title",
+        "title": "Technologies",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
