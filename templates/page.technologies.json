@@ -46,10 +46,157 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "image_with_text_B8Depy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_z7AQeB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fernblock",
+            "heading_size": "h1"
+          }
+        },
+        "text_UpNG8r": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An innovative, patented technology that features in every Heliocare product. Research started on this remarkable technology over 25 years ago and still continues today as new skin benefits are discovered. <\/p><p>Fernblock is a unique extract of the fern <em>Polypodium leucotomos <\/em>which is native to Central America. This once aquatic plant developed its own natural protective mechanism to the sun. It’s this activity that has been harnessed in Fernblock to help protect our skin from damage caused by the sun and our environment. <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_z7AQeB",
+        "text_UpNG8r"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_YprYhg": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_QTwFeG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Sun protection",
+            "icon": "check_mark",
+            "row_content": "<p>Fernblock is clinically proven to help protect the skin from damage caused by UVA, UVB, visible light and infrared-A from the sun. It’s also proven to help improve our skin's resistance to sunburn, and even increase the efficacy of SPF filters.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_AWqtWq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "DNA repair",
+            "icon": "check_mark",
+            "row_content": "<p>Sun exposure causes damage to the DNA in our cells which means that cells can’t function correctly, and can even lead to mutations. Fernblock has been shown to reduce this damage, and increase and accelerate its repair.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jybkqg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Anti-oxidant activity",
+            "icon": "check_mark",
+            "row_content": "<p>Fernblock is a powerful anti-oxidant, helping to boost skin health by neutralising free radicals that are released in the skin during and after sun exposure.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tpzwAi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wrinkle & pigmentation prevention",
+            "icon": "check_mark",
+            "row_content": "<p>Fernblock helps to protect collagen from damage helping to reduce wrinkles from forming. It’s also proven to prevent hyperpigmentation and reduce the intensity and size of existing pigmentation patches.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_QTwFeG",
+        "collapsible_row_AWqtWq",
+        "collapsible_row_jybkqg",
+        "collapsible_row_tpzwAi"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_DhnTHd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bqU4AW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_FpwhwA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_YfDg8L": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bqU4AW",
+        "text_FpwhwA",
+        "button_YfDg8L"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_tdCKdq"
+    "rich_text_tdCKdq",
+    "image_with_text_B8Depy",
+    "collapsible_content_YprYhg",
+    "image_with_text_DhnTHd"
   ]
 }
