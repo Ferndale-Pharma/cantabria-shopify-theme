@@ -62,6 +62,7 @@
       "blocks": {
         "caption_zEejax": {
           "type": "caption",
+          "disabled": true,
           "settings": {
             "caption": "Caption",
             "text_style": "subtitle",
@@ -71,7 +72,7 @@
         "heading_X3wfQG": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "<strong>Sun damage and photoageing<\/strong>",
             "heading_size": "h2"
           }
         },
@@ -84,6 +85,7 @@
         },
         "button_VgCw8W": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "shopify:\/\/collections\/spot-acne-prone-skin",
@@ -120,7 +122,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/face.png",
-            "title": "Causes and Triggers",
+            "title": "What causes sun damage?",
             "text": "<p><strong>UVA rays<\/strong> are present all year round, penetrating deep into the skin and causing premature skin ageing and an increased risk of skin cancer.<\/p><p><strong>UVB rays<\/strong> are strongest in the summer months, causing the redness, blisters and pain of sunburn, as well as increasing the risk of cancer.<\/p><p><strong>Visible light<\/strong>, which is emitted from the sun but also includes blue light from digital devices, increases oxidative stress in the skin.<\/p><p><strong>Infrared-A<\/strong> penetrates even deeper than UV radiation, causing damage to the skin’s structure.<\/p>",
             "link_label": "",
             "link": ""
@@ -130,7 +132,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/chin.png",
-            "title": "Skin Types Affected",
+            "title": "Who is at risk?",
             "text": "<p>Every person, no matter their skin type, is at risk of sun damage. High risk factors include those with fair skin that burns easily, very young or old skin, people living close to the equator or at high altitude, where the ozone layer is low, and those who work outside and are regularly exposed to the sun’s rays. Not using sun protection is also a high risk factor for sun damage and photoageing. <\/p>",
             "link_label": "",
             "link": ""
@@ -140,7 +142,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/dermatologist.png",
-            "title": "Dermatologists Say",
+            "title": "Dermatologists say...",
             "text": "<p><em>“The best way to prevent sun damage is to wear a high-factor, broad-spectrum sunscreen daily, reducing the risk of skin cancer and slowing skin damage from excessive sun exposure.”<\/em> <\/p><p><strong>Dr Emma Wedgeworth <\/strong><\/p><p>Consultant Dermatologist <\/p>",
             "link_label": "",
             "link": ""
@@ -225,6 +227,7 @@
         "text_QiPRCt",
         "text_QknikM"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "left",
@@ -373,6 +376,7 @@
         "text_taGmzC",
         "text_NLnpmN"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "left",
@@ -422,7 +426,7 @@
         "column_8TjmjY"
       ],
       "settings": {
-        "title": "Cantabria's Technologies Lorem Ipsum",
+        "title": "What people are saying…",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
