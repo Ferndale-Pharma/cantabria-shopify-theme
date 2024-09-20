@@ -343,22 +343,12 @@
             "row_content": "<p>Neutralises harmful free radicals helping to keep skin healthy and glowing.<\/p>",
             "page": ""
           }
-        },
-        "collapsible_row_RKMRXG": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "collapsible_row_NGVAXE",
         "collapsible_row_bnRrbT",
-        "collapsible_row_BF6A9N",
-        "collapsible_row_RKMRXG"
+        "collapsible_row_BF6A9N"
       ],
       "settings": {
         "caption": "",
