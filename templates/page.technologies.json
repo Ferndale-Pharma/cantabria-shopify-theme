@@ -484,6 +484,48 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_4pFjUp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FWKALX": {
+          "type": "heading",
+          "settings": {
+            "heading": "CTA Heading",
+            "heading_size": "h1"
+          }
+        },
+        "text_HUfWkT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_GrkLpm": {
+          "type": "button",
+          "settings": {
+            "button_label": "View All Products",
+            "button_link": "shopify:\/\/collections\/all-products",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FWKALX",
+        "text_HUfWkT",
+        "button_GrkLpm"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -499,6 +541,7 @@
     "collapsible_content_iyPCK6",
     "image_with_text_FVGdHq",
     "rich_text_T6YMFN",
-    "collapsible_content_p3wei6"
+    "collapsible_content_p3wei6",
+    "rich_text_4pFjUp"
   ]
 }
