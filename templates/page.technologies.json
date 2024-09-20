@@ -53,7 +53,7 @@
         "heading_z7AQeB": {
           "type": "heading",
           "settings": {
-            "heading": "Fernblock",
+            "heading": "Fernblock® Technology",
             "heading_size": "h1"
           }
         },
@@ -132,8 +132,8 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "",
-        "heading_size": "h1",
+        "heading": "Benefits of Fernblock® Technology",
+        "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
         "color_scheme": "",
@@ -151,30 +151,21 @@
         "heading_bqU4AW": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "RetinSphere® Technology",
             "heading_size": "h1"
           }
         },
         "text_FpwhwA": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>RetinSphere Technology is a patented, next-generation retinoid combination with high efficacy while still being kind to skin.<\/p><p>Retinol is the cornerstone of powerful rejuvenation and spot prone skin regimes because it helps to stimulate skin cell renewal to reveal smoother fresher skin and reduce congestion. However, while retinol is a powerful ingredient it is known to cause irritation and sensitivity. That’s why RetinSphere Technology was created; to maximise the benefits and minimise irritation.<\/p>",
             "text_style": "body"
-          }
-        },
-        "button_YfDg8L": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_bqU4AW",
-        "text_FpwhwA",
-        "button_YfDg8L"
+        "text_FpwhwA"
       ],
       "settings": {
         "height": "adapt",
@@ -190,6 +181,79 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_8JVPJx": {
+      "type": "rich-text",
+      "blocks": {
+        "text_3wVjpi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>RetinSphere Technology combines two stable retinoids to provide immediate and long-lasting results:  <\/p><ul><li>Hydroxypinacolone retinoate: A retinoic acid derivative that gives the same renewing benefits without irritation. <\/li><li>Retinol: Encapsulated in glycospheres to encourage slow release and allow the retinol to be delivered deep into the skin where it needs to get to work.  <\/li><\/ul><p>This combination stimulates the skin cells and kick-starts our natural skin renewal processes with many benefits, which is why it features in several of our skincare ranges including Endocare, Biretix and Neoretin. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_3wVjpi"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_fMfT3f": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_6nAYVx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Reduces lines and wrinkles",
+            "icon": "check_mark",
+            "row_content": "<p>Stimulates collagen production and skin cell turnover to reveal fresh, smooth skin and reduce fine lines and wrinkles.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6XbLNp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Reduces hyperpigmentation ",
+            "icon": "check_mark",
+            "row_content": "<p>Helps to prevent the synthesis of tyrosinase, a key enzyme responsible for creating pigmentation, reducing the appearance of age spots.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Xdj3Yh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Prevents spots",
+            "icon": "check_mark",
+            "row_content": "<p>Normalises the skin’s renewal process reducing congestion that can lead to spots.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_6nAYVx",
+        "collapsible_row_6XbLNp",
+        "collapsible_row_Xdj3Yh"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Benefits of RetinSphere® Technology",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -197,6 +261,8 @@
     "rich_text_tdCKdq",
     "image_with_text_B8Depy",
     "collapsible_content_YprYhg",
-    "image_with_text_DhnTHd"
+    "image_with_text_DhnTHd",
+    "rich_text_8JVPJx",
+    "collapsible_content_fMfT3f"
   ]
 }
