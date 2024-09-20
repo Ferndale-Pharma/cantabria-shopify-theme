@@ -11,7 +11,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -22,33 +21,22 @@
       "blocks": {
         "heading_YAFijH": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Our Skincare Technologies",
             "heading_size": "h1"
           }
         },
         "text_dcG6ch": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button_ztJGYC": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>Innovation, research and clinical data is the foundation for every product created by Cantabria Labs. Patented revolutionary skincare technologies, often harnessing the power of nature, are what set our science-based skincare apart from the crowd.<\/p>"
           }
         }
       },
       "block_order": [
         "heading_YAFijH",
-        "text_dcG6ch",
-        "button_ztJGYC"
+        "text_dcG6ch"
       ],
       "settings": {
         "desktop_content_position": "center",
