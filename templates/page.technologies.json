@@ -108,7 +108,7 @@
         "collapsible_row_jybkqg": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Anti-oxidant activity",
+            "heading": "Antioxidant activity",
             "icon": "check_mark",
             "row_content": "<p>Fernblock is a powerful anti-oxidant, helping to boost skin health by neutralising free radicals that are released in the skin during and after sun exposure.<\/p>",
             "page": ""
@@ -268,7 +268,7 @@
         "text_XFgfiq": {
           "type": "text",
           "settings": {
-            "text": "<p>A patented technology rich in growth factors that stimulates natural skin regeneration processes.  <\/p><p>SCA Growth Factor Technology is derived from the purified secretion of the <em>Cryptomphalus aspersa <\/em>snail, which was found to have unique abilities to regenerate and repair itself. Research and use of this ingredient was initially done to aid recovery following radiation burns and was used for this following the Chernobyl disaster. Since this time it has been the subject of rigorous clinical studies to uncover additional skin benefits.  <\/p><p>Growth factors are the skin’s messengers, instructing our skin cells to behave and respond in a certain way. SCA Growth Factor Technology specifically simulates activities associated with anti-aging and skin regeneration which is why it features in many of the Endocare products. <\/p>",
+            "text": "<p>A patented technology rich in growth factors that stimulates natural skin regeneration processes.  <\/p><p>SCA Growth Factor Technology is derived from the purified secretion of the <em>Cryptomphalus aspersa <\/em>snail, which was found to have unique abilities to regenerate and repair itself. Research and use of this ingredient was initially done to aid recovery following radiation burns and was used for this following the Chernobyl disaster. Since this time it has been the subject of rigorous clinical studies to uncover additional skin benefits.  <\/p>",
             "text_style": "body"
           }
         }
@@ -291,6 +291,209 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_F3Njq3": {
+      "type": "rich-text",
+      "blocks": {
+        "text_KbMgfK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Growth factors are the skin’s messengers, instructing our skin cells to behave and respond in a certain way. SCA Growth Factor Technology specifically simulates activities associated with anti-aging and skin regeneration which is why it features in many of the Endocare products. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_KbMgfK"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_iyPCK6": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_NGVAXE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Skin regeneration",
+            "icon": "check_mark",
+            "row_content": "<p>Reforms and stimulates the production of fibroblasts. Our fibroblasts are the key to skin rejuvenation as they are responsible for the production of new collagen.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bnRrbT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collagen stimulation",
+            "icon": "check_mark",
+            "row_content": "<p>Encourages the production of collagen, elastin and hyaluronic acid - all key components to help keep skin firm, plump and smooth.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BF6A9N": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Antioxidant activity",
+            "icon": "check_mark",
+            "row_content": "<p>Neutralises harmful free radicals helping to keep skin healthy and glowing.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RKMRXG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_NGVAXE",
+        "collapsible_row_bnRrbT",
+        "collapsible_row_BF6A9N",
+        "collapsible_row_RKMRXG"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Benefits of SCA® Growth Factor Technology",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FVGdHq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8X6eTC": {
+          "type": "heading",
+          "settings": {
+            "heading": "EDAFENCE® Technology",
+            "heading_size": "h1"
+          }
+        },
+        "text_T6aYEY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A revolutionary, patented technology proven to help protect the skin from damage caused by pollution.  <\/p><p>EDAFENCE is derived from <em>Deschampsia antarctica<\/em>, an Antarctic plant that thrives in extreme environmental conditions. This powerful ingredient harnesses the power of the plant’s natural protective mechanism to help defend the skin against damage caused by pollution, tobacco smoke, UVA, UVB and visible light. After further rigorous research, EDAFENCE has also been shown to have skin rejuvenation benefits too, by reducing pigmentation and enhancing the skin barrier, which is why it’s the perfect addition to products in the Endocare range.  <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8X6eTC",
+        "text_T6aYEY"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_T6YMFN": {
+      "type": "rich-text",
+      "blocks": {
+        "text_BEWdED": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unlike most anti-pollution ingredients which use antioxidant activity to treat the effects of pollution, EDAFENCE takes a step further by preventing the cascade of damage in the first place, as well as neutralising free radicals.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_BEWdED"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_p3wei6": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_VQjBcN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Pollution defence ",
+            "icon": "check_mark",
+            "row_content": "<p>Defends against damage caused to the skin by pollutants and tobacco smoke.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_y8QNAC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Pigmentation prevention",
+            "icon": "check_mark",
+            "row_content": "<p>Blocks the receptor in the skin that triggers the formation of hyperpigmentation, helping to reduce the appearance of dark spots.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aFdMEi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Improves barrier function",
+            "icon": "check_mark",
+            "row_content": "<p>Combats the damage caused by contaminants in the skin barrier while maintaining levels of loricrin, a protein related to the proper functioning of the skin barrier.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HBYjRV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Antioxidant activity",
+            "icon": "check_mark",
+            "row_content": "<p>Neutralises free radicals in the skin, protecting our fibroblasts - the cells that make new collagen.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_VQjBcN",
+        "collapsible_row_y8QNAC",
+        "collapsible_row_aFdMEi",
+        "collapsible_row_HBYjRV"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Benefits of EDAFENCE® Technology",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -301,6 +504,11 @@
     "image_with_text_DhnTHd",
     "rich_text_8JVPJx",
     "collapsible_content_fMfT3f",
-    "image_with_text_KxCTrM"
+    "image_with_text_KxCTrM",
+    "rich_text_F3Njq3",
+    "collapsible_content_iyPCK6",
+    "image_with_text_FVGdHq",
+    "rich_text_T6YMFN",
+    "collapsible_content_p3wei6"
   ]
 }
