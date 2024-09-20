@@ -11,7 +11,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -22,6 +21,7 @@
       "blocks": {
         "heading_aJwF8m": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Contact us",
             "heading_size": "h1"
