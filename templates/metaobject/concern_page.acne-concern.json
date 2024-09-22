@@ -29,7 +29,7 @@
         "buttons_WXCGq3": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "View Treatments",
+            "button_label_1": "View Products",
             "button_link_1": "shopify:\/\/collections\/spot-acne-prone-skin",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -62,6 +62,7 @@
       "blocks": {
         "caption_zEejax": {
           "type": "caption",
+          "disabled": true,
           "settings": {
             "caption": "Caption",
             "text_style": "subtitle",
@@ -71,19 +72,20 @@
         "heading_X3wfQG": {
           "type": "heading",
           "settings": {
-            "heading": "Lorem Ipsum Overview",
+            "heading": "What is acne?",
             "heading_size": "h2"
           }
         },
         "text_WezjGn": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Acne is caused by overactive sebaceous glands that produce too much oil. It mainly affects areas of the skin with a high concentration of oil glands, including the face, chest, back and shoulders. Common symptoms include a shiny complexion, enlarged pores, breakouts, redness and scarring.<\/p>",
             "text_style": "body"
           }
         },
         "button_VgCw8W": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "shopify:\/\/collections\/spot-acne-prone-skin",
@@ -120,8 +122,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/face.png",
-            "title": "Causes and Triggers",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "What causes acne?",
+            "text": "<p>Acne is caused by overactive oil glands producing too much sebum. This excess oil mixes with dead skin cells, clogging the pores. Here, bacteria thrive, which leads to infection and inflammation. If the clogged pore is close to the surface of the skin, it bulges out as a whitehead. If the skin over the spot opens, oxidisation turns it into a blackhead. Deeper congestion will manifest as a painful cyst. <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -130,8 +132,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/chin.png",
-            "title": "Skin Types Affected",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Who is affected?",
+            "text": "<p>Acne is most common amongst teenagers and young adults, but it can affect people of all ages. Symptoms range from mild to severe. Hormones play a big role in the development of acne, which is why puberty and pregnancy are often triggers. External factors, such as diet, medications, pollution and skincare, may aggravate symptoms. A family history of acne will also increase the likelihood of developing acne.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -140,8 +142,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/dermatologist.png",
-            "title": "Dermatologists Say",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "How to manage acne",
+            "text": "<p>Acne can be difficult to treat. A combination of targeted skincare, professional treatments and lifestyle changes can help to manage its symptoms. Skincare recommendations include regular gentle cleansing, applying a lightweight moisturiser, wearing SPF every day and incorporating oil-controlling ingredients such as retinoids, niacinamide and zinc, as well as antioxidants to boost skin health.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -175,55 +177,20 @@
         "heading_ymAKrk": {
           "type": "heading",
           "settings": {
-            "heading": "Rich Text Title",
+            "heading": "The spot cycle",
             "heading_size": "h2"
-          }
-        },
-        "caption_9QJ7yB": {
-          "type": "caption",
-          "settings": {
-            "caption": "Rich Text Subtitle",
-            "text_style": "subtitle",
-            "text_size": "small"
           }
         },
         "text_QJLXwU": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button_bhUeBz": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "text_QiPRCt": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>"
-          }
-        },
-        "text_QknikM": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p><ul><li>Curabitur rhoncus semper ipsum.<\/li><li>Nunc in justo auctor, dictum est vel.<\/li><li>Luctus augue. Interdum et malesuada.<\/li><\/ul><p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>"
+            "text": "<p>The most effective treatments for acne and spot-prone skin will prevent future breakouts, treat active spots, reduce inflammation and improve acne scarring.<\/p>"
           }
         }
       },
       "block_order": [
         "heading_ymAKrk",
-        "caption_9QJ7yB",
-        "text_QJLXwU",
-        "button_bhUeBz",
-        "text_QiPRCt",
-        "text_QknikM"
+        "text_QJLXwU"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -237,32 +204,12 @@
     "multicolumn_dR663W": {
       "type": "multicolumn",
       "blocks": {
-        "column_z6TDVw": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/fernblock-leaves.png",
-            "title": "Column Heading",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.<\/p>",
-            "link_label": "Link",
-            "link": ""
-          }
-        },
         "column_MPgDQ6": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/abstract.png",
-            "title": "Column Heading",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.<\/p>",
-            "link_label": "Link",
-            "link": ""
-          }
-        },
-        "column_aRYDt3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bubbles-2.png",
-            "title": "Column Heading",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.<\/p>",
+            "title": "RetinSphere® Technology",
+            "text": "<p>An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. Encourages skin cell turnover and stimulates collagen production for smoother, firmer skin and improved appearance of fine lines and wrinkles.<\/p>",
             "link_label": "Link",
             "link": ""
           }
@@ -271,25 +218,23 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/bubbles.png",
-            "title": "Column Heading",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.<\/p>",
+            "title": "BIOPEP-15",
+            "text": "<p>A clinically-proven, plant-based peptide technology that targets 24 different strains of acne-causing bacteria, <em>Cutibacterium acnes<\/em>. This incredible botanical-derived ingredient also targets and binds with Lipoteichoic acid (LTA), a major component within the immune response triggered by <em>C. acnes, <\/em>to help to reduce inflammation.<\/p>",
             "link_label": "Link",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_z6TDVw",
         "column_MPgDQ6",
-        "column_aRYDt3",
         "column_j4kc9V"
       ],
       "settings": {
-        "title": "Cantabria's Technologies Lorem Ipsum",
+        "title": "Technologies",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -304,9 +249,9 @@
     "featured_collection_3XdCid": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Our acne products",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Text goes here<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "{{ metaobject.concern_products.value }}",
@@ -327,59 +272,6 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "rich_text_H7wnr3": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_xpUwX4": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "caption_KGD6kr": {
-          "type": "caption",
-          "settings": {
-            "caption": "Rich Text Subtitle",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        },
-        "text_fcUcN7": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>"
-          }
-        },
-        "text_taGmzC": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<\/p><ul><li>Curabitur rhoncus semper ipsum.<\/li><li>Nunc in justo auctor, dictum est vel.Luctus augue.<\/li><li>Interdum et malesuada.<\/li><\/ul>"
-          }
-        },
-        "text_NLnpmN": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_xpUwX4",
-        "caption_KGD6kr",
-        "text_fcUcN7",
-        "text_taGmzC",
-        "text_NLnpmN"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 64,
-        "padding_bottom": 64
       }
     },
     "multicolumn_GgiLEY": {
@@ -422,7 +314,7 @@
         "column_8TjmjY"
       ],
       "settings": {
-        "title": "What people are saying...",
+        "title": "Testimonials",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -431,7 +323,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
@@ -477,6 +369,7 @@
         "column_gAfnbb",
         "column_UQpJxV"
       ],
+      "disabled": true,
       "settings": {
         "title": "Additional Resources",
         "heading_size": "h2",
@@ -544,7 +437,6 @@
     "rich_text_4w8fEB",
     "multicolumn_dR663W",
     "featured_collection_3XdCid",
-    "rich_text_H7wnr3",
     "multicolumn_GgiLEY",
     "multicolumn_VDCjYH",
     "rich_text_xN8BKM"

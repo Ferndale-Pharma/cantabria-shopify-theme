@@ -1,0 +1,547 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_tdCKdq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YAFijH": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Our Skincare Technologies",
+            "heading_size": "h1"
+          }
+        },
+        "text_dcG6ch": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Innovation, research and clinical data is the foundation for every product created by Cantabria Labs. Patented revolutionary skincare technologies, often harnessing the power of nature, are what set our science-based skincare apart from the crowd.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YAFijH",
+        "text_dcG6ch"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_B8Depy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_z7AQeB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fernblock® Technology",
+            "heading_size": "h1"
+          }
+        },
+        "text_UpNG8r": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An innovative, patented technology that features in every Heliocare product. Research started on this remarkable technology over 25 years ago and still continues today as new skin benefits are discovered. <\/p><p>Fernblock is a unique extract of the fern <em>Polypodium leucotomos <\/em>which is native to Central America. This once aquatic plant developed its own natural protective mechanism to the sun. It’s this activity that has been harnessed in Fernblock to help protect our skin from damage caused by the sun and our environment. <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_z7AQeB",
+        "text_UpNG8r"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_YprYhg": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_QTwFeG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Sun protection",
+            "icon": "check_mark",
+            "row_content": "<p>Fernblock is clinically proven to help protect the skin from damage caused by UVA, UVB, visible light and infrared-A from the sun. It’s also proven to help improve our skin's resistance to sunburn, and even increase the efficacy of SPF filters.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_AWqtWq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "DNA repair",
+            "icon": "check_mark",
+            "row_content": "<p>Sun exposure causes damage to the DNA in our cells which means that cells can’t function correctly, and can even lead to mutations. Fernblock has been shown to reduce this damage, and increase and accelerate its repair.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jybkqg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Antioxidant activity",
+            "icon": "check_mark",
+            "row_content": "<p>Fernblock is a powerful anti-oxidant, helping to boost skin health by neutralising free radicals that are released in the skin during and after sun exposure.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tpzwAi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wrinkle & pigmentation prevention",
+            "icon": "check_mark",
+            "row_content": "<p>Fernblock helps to protect collagen from damage helping to reduce wrinkles from forming. It’s also proven to prevent hyperpigmentation and reduce the intensity and size of existing pigmentation patches.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_QTwFeG",
+        "collapsible_row_AWqtWq",
+        "collapsible_row_jybkqg",
+        "collapsible_row_tpzwAi"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Benefits of Fernblock® Technology",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_DhnTHd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bqU4AW": {
+          "type": "heading",
+          "settings": {
+            "heading": "RetinSphere® Technology",
+            "heading_size": "h1"
+          }
+        },
+        "text_FpwhwA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>RetinSphere Technology is a patented, next-generation retinoid combination with high efficacy while still being kind to skin.<\/p><p>Retinol is the cornerstone of powerful rejuvenation and spot prone skin regimes because it helps to stimulate skin cell renewal to reveal smoother fresher skin and reduce congestion. However, while retinol is a powerful ingredient it is known to cause irritation and sensitivity. That’s why RetinSphere Technology was created; to maximise the benefits and minimise irritation.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bqU4AW",
+        "text_FpwhwA"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_8JVPJx": {
+      "type": "rich-text",
+      "blocks": {
+        "text_3wVjpi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>RetinSphere Technology combines two stable retinoids to provide immediate and long-lasting results:  <\/p><ul><li>Hydroxypinacolone retinoate: A retinoic acid derivative that gives the same renewing benefits without irritation. <\/li><li>Retinol: Encapsulated in glycospheres to encourage slow release and allow the retinol to be delivered deep into the skin where it needs to get to work.  <\/li><\/ul><p>This combination stimulates the skin cells and kick-starts our natural skin renewal processes with many benefits, which is why it features in several of our skincare ranges including Endocare, Biretix and Neoretin. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_3wVjpi"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_fMfT3f": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_6nAYVx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Reduces lines and wrinkles",
+            "icon": "check_mark",
+            "row_content": "<p>Stimulates collagen production and skin cell turnover to reveal fresh, smooth skin and reduce fine lines and wrinkles.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6XbLNp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Reduces hyperpigmentation ",
+            "icon": "check_mark",
+            "row_content": "<p>Helps to prevent the synthesis of tyrosinase, a key enzyme responsible for creating pigmentation, reducing the appearance of age spots.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Xdj3Yh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Prevents spots",
+            "icon": "check_mark",
+            "row_content": "<p>Normalises the skin’s renewal process reducing congestion that can lead to spots.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_6nAYVx",
+        "collapsible_row_6XbLNp",
+        "collapsible_row_Xdj3Yh"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Benefits of RetinSphere® Technology",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_KxCTrM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_qCLamm": {
+          "type": "heading",
+          "settings": {
+            "heading": "SCA® Growth Factor Technology  ",
+            "heading_size": "h1"
+          }
+        },
+        "text_XFgfiq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A patented technology rich in growth factors that stimulates natural skin regeneration processes.  <\/p><p>SCA Growth Factor Technology is derived from the purified secretion of the <em>Cryptomphalus aspersa <\/em>snail, which was found to have unique abilities to regenerate and repair itself. Research and use of this ingredient was initially done to aid recovery following radiation burns and was used for this following the Chernobyl disaster. Since this time it has been the subject of rigorous clinical studies to uncover additional skin benefits.  <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qCLamm",
+        "text_XFgfiq"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_F3Njq3": {
+      "type": "rich-text",
+      "blocks": {
+        "text_KbMgfK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Growth factors are the skin’s messengers, instructing our skin cells to behave and respond in a certain way. SCA Growth Factor Technology specifically simulates activities associated with anti-aging and skin regeneration which is why it features in many of the Endocare products. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_KbMgfK"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_iyPCK6": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_NGVAXE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Skin regeneration",
+            "icon": "check_mark",
+            "row_content": "<p>Reforms and stimulates the production of fibroblasts. Our fibroblasts are the key to skin rejuvenation as they are responsible for the production of new collagen.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bnRrbT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collagen stimulation",
+            "icon": "check_mark",
+            "row_content": "<p>Encourages the production of collagen, elastin and hyaluronic acid - all key components to help keep skin firm, plump and smooth.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BF6A9N": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Antioxidant activity",
+            "icon": "check_mark",
+            "row_content": "<p>Neutralises harmful free radicals helping to keep skin healthy and glowing.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_NGVAXE",
+        "collapsible_row_bnRrbT",
+        "collapsible_row_BF6A9N"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Benefits of SCA® Growth Factor Technology",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FVGdHq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8X6eTC": {
+          "type": "heading",
+          "settings": {
+            "heading": "EDAFENCE® Technology",
+            "heading_size": "h1"
+          }
+        },
+        "text_T6aYEY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A revolutionary, patented technology proven to help protect the skin from damage caused by pollution.  <\/p><p>EDAFENCE is derived from <em>Deschampsia antarctica<\/em>, an Antarctic plant that thrives in extreme environmental conditions. This powerful ingredient harnesses the power of the plant’s natural protective mechanism to help defend the skin against damage caused by pollution, tobacco smoke, UVA, UVB and visible light. After further rigorous research, EDAFENCE has also been shown to have skin rejuvenation benefits too, by reducing pigmentation and enhancing the skin barrier, which is why it’s the perfect addition to products in the Endocare range.  <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8X6eTC",
+        "text_T6aYEY"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_T6YMFN": {
+      "type": "rich-text",
+      "blocks": {
+        "text_BEWdED": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unlike most anti-pollution ingredients which use antioxidant activity to treat the effects of pollution, EDAFENCE takes a step further by preventing the cascade of damage in the first place, as well as neutralising free radicals.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_BEWdED"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_p3wei6": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_VQjBcN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Pollution defence ",
+            "icon": "check_mark",
+            "row_content": "<p>Defends against damage caused to the skin by pollutants and tobacco smoke.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_y8QNAC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Pigmentation prevention",
+            "icon": "check_mark",
+            "row_content": "<p>Blocks the receptor in the skin that triggers the formation of hyperpigmentation, helping to reduce the appearance of dark spots.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aFdMEi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Improves barrier function",
+            "icon": "check_mark",
+            "row_content": "<p>Combats the damage caused by contaminants in the skin barrier while maintaining levels of loricrin, a protein related to the proper functioning of the skin barrier.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HBYjRV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Antioxidant activity",
+            "icon": "check_mark",
+            "row_content": "<p>Neutralises free radicals in the skin, protecting our fibroblasts - the cells that make new collagen.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_VQjBcN",
+        "collapsible_row_y8QNAC",
+        "collapsible_row_aFdMEi",
+        "collapsible_row_HBYjRV"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Benefits of EDAFENCE® Technology",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_4pFjUp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FWKALX": {
+          "type": "heading",
+          "settings": {
+            "heading": "CTA Heading",
+            "heading_size": "h1"
+          }
+        },
+        "text_HUfWkT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_GrkLpm": {
+          "type": "button",
+          "settings": {
+            "button_label": "View All Products",
+            "button_link": "shopify:\/\/collections\/all-products",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FWKALX",
+        "text_HUfWkT",
+        "button_GrkLpm"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_tdCKdq",
+    "image_with_text_B8Depy",
+    "collapsible_content_YprYhg",
+    "image_with_text_DhnTHd",
+    "rich_text_8JVPJx",
+    "collapsible_content_fMfT3f",
+    "image_with_text_KxCTrM",
+    "rich_text_F3Njq3",
+    "collapsible_content_iyPCK6",
+    "image_with_text_FVGdHq",
+    "rich_text_T6YMFN",
+    "collapsible_content_p3wei6",
+    "rich_text_4pFjUp"
+  ]
+}

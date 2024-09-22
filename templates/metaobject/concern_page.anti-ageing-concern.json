@@ -29,8 +29,8 @@
         "buttons_WXCGq3": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "View Treatments",
-            "button_link_1": "shopify:\/\/collections\/spot-acne-prone-skin",
+            "button_label_1": "View Products",
+            "button_link_1": "shopify:\/\/collections\/anti-ageing",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -62,6 +62,7 @@
       "blocks": {
         "caption_zEejax": {
           "type": "caption",
+          "disabled": true,
           "settings": {
             "caption": "Caption",
             "text_style": "subtitle",
@@ -71,19 +72,20 @@
         "heading_X3wfQG": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "The signs of ageing skin",
             "heading_size": "h2"
           }
         },
         "text_WezjGn": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>As we age, our skin functions gradually slow and environmental stressors take their toll. Key signs of skin ageing include fine lines, wrinkles, loss of elasticity, sagging, pigmentation, dullness, dryness, visible blood vessels and thinning, fragile skin. The skin also loses its ability to heal and regenerate.<\/p>",
             "text_style": "body"
           }
         },
         "button_VgCw8W": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "shopify:\/\/collections\/spot-acne-prone-skin",
@@ -120,8 +122,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/face.png",
-            "title": "Causes and Triggers",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "What causes skin ageing?",
+            "text": "<p>As we age, our skin functions gradually slow. Skin cell renewal declines and fibroblast activity reduces, which leads to decline in collagen, elastin and hyaluronic acid production. The natural ageing process is influenced by genetics and hormonal changes, but it is also accelerated by environmental challenges and lifestyle choices, including UV radiation, pollution, smoking and poor diet. <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -130,8 +132,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/chin.png",
-            "title": "Skin Types Affected",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Who is affected?",
+            "text": "<p>Skin ageing affects everyone at some point, but certain factors will make you more susceptible to premature and severe skin ageing. Some skin types will show signs of ageing sooner. People who spend a lot of time in the sun without adequate protection are more prone to skin ageing. Hormonal fluctuations and menopause can also affect the structure of the skin and hydration levels. Stress, poor diet, alcohol and smoking will speed up the skin ageing process, too.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -140,8 +142,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/dermatologist.png",
-            "title": "Dermatologists Say",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "How can we prevent skin ageing?",
+            "text": "<p>The natural skin ageing process cannot be prevented, but there are measures you can take to slow down the signs and promote a healthy and youthful complexion for longer. These include using a high-level, broad-spectrum SPF every day, avoiding sun beds, incorporating retinoids and antioxidants into your skincare routine, moisturising regularly, drinking enough water, avoiding smoking, eating a healthy diet, limiting alcohol, getting enough sleep and managing stress levels.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -175,55 +177,20 @@
         "heading_ymAKrk": {
           "type": "heading",
           "settings": {
-            "heading": "Rich Text Title",
+            "heading": "Fibroblasts and growth factors",
             "heading_size": "h2"
-          }
-        },
-        "caption_9QJ7yB": {
-          "type": "caption",
-          "settings": {
-            "caption": "Rich Text Subtitle",
-            "text_style": "subtitle",
-            "text_size": "small"
           }
         },
         "text_QJLXwU": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button_bhUeBz": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "text_QiPRCt": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>"
-          }
-        },
-        "text_QknikM": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p><ul><li>Curabitur rhoncus semper ipsum.<\/li><li>Nunc in justo auctor, dictum est vel.<\/li><li>Luctus augue. Interdum et malesuada.<\/li><\/ul><p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>"
+            "text": "<p>Fibroblasts and growth factors are incredibly important when it comes to skin ageing. Fibroblasts are specialised cells found in the dermis of the skin, and growth factors are proteins that bind to fibroblasts. They both play a crucial role in maintaining the skin’s health and structural integrity, responsible for collagen production, elastin synthesis, cell repair, skin renewal and hydration levels. This is what keeps the skin looking and feeling healthy and youthful.<\/p>"
           }
         }
       },
       "block_order": [
         "heading_ymAKrk",
-        "caption_9QJ7yB",
-        "text_QJLXwU",
-        "button_bhUeBz",
-        "text_QiPRCt",
-        "text_QknikM"
+        "text_QJLXwU"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -240,9 +207,9 @@
         "column_z6TDVw": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fernblock-leaves.png",
-            "title": "Column Heading",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.<\/p>",
+            "image": "shopify:\/\/shop_images\/abstract.png",
+            "title": "RetinSphere® Technology",
+            "text": "<p>An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. Encourages skin cell turnover and stimulates collagen production for smoother, firmer skin and improved appearance of fine lines and wrinkles.<\/p>",
             "link_label": "Link",
             "link": ""
           }
@@ -250,9 +217,9 @@
         "column_MPgDQ6": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/abstract.png",
-            "title": "Column Heading",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.<\/p>",
+            "image": "shopify:\/\/shop_images\/bubbles-2.png",
+            "title": "<strong>EDAFENCE® Technology<\/strong>",
+            "text": "<p>A unique anti-pollution technology derived from hardy Antarctic grass, clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution. Its antioxidant properties prevent oxidative stress and skin inflammation, strengthening the skin barrier, improving hydration levels and promoting healthy skin.<\/p>",
             "link_label": "Link",
             "link": ""
           }
@@ -260,19 +227,9 @@
         "column_aRYDt3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bubbles-2.png",
-            "title": "Column Heading",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.<\/p>",
-            "link_label": "Link",
-            "link": ""
-          }
-        },
-        "column_j4kc9V": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bubbles.png",
-            "title": "Column Heading",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.<\/p>",
+            "image": "shopify:\/\/shop_images\/fernblock-leaves.png",
+            "title": "Fernblock® Technology",
+            "text": "<p>A powerful, patented plant-based technology that offers multiple levels of protection against UV radiation and environmental stressors. Is clinically proven to prevent and repair the damage caused by daylight (UVA, UVB, visible light and infrared-A), as well as preventing collagen breakdown, protecting skin cell DNA, preventing pigmentation and protecting the skin’s immune system. <\/p>",
             "link_label": "Link",
             "link": ""
           }
@@ -281,15 +238,14 @@
       "block_order": [
         "column_z6TDVw",
         "column_MPgDQ6",
-        "column_aRYDt3",
-        "column_j4kc9V"
+        "column_aRYDt3"
       ],
       "settings": {
-        "title": "Section Title",
+        "title": "Technologies",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
@@ -304,7 +260,7 @@
     "featured_collection_JrJFGn": {
       "type": "featured-collection",
       "settings": {
-        "title": "Relevant products",
+        "title": "Our anti-ageing products",
         "heading_size": "h1",
         "description": "<p>Some really relevant products that you can use.<\/p>",
         "show_description": false,
@@ -325,59 +281,6 @@
         "quick_add": "standard",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "rich_text_H7wnr3": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_xpUwX4": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "caption_KGD6kr": {
-          "type": "caption",
-          "settings": {
-            "caption": "Rich Text Subtitle",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        },
-        "text_fcUcN7": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>"
-          }
-        },
-        "text_taGmzC": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<\/p><ul><li>Curabitur rhoncus semper ipsum.<\/li><li>Nunc in justo auctor, dictum est vel.Luctus augue.<\/li><li>Interdum et malesuada.<\/li><\/ul>"
-          }
-        },
-        "text_NLnpmN": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_xpUwX4",
-        "caption_KGD6kr",
-        "text_fcUcN7",
-        "text_taGmzC",
-        "text_NLnpmN"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -422,7 +325,7 @@
         "column_8TjmjY"
       ],
       "settings": {
-        "title": "Cantabria's Technologies Lorem Ipsum",
+        "title": "Testimonials",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -477,6 +380,7 @@
         "column_gAfnbb",
         "column_UQpJxV"
       ],
+      "disabled": true,
       "settings": {
         "title": "Cantabria's Technologies Lorem Ipsum",
         "heading_size": "h2",
@@ -544,7 +448,6 @@
     "rich_text_4w8fEB",
     "multicolumn_dR663W",
     "featured_collection_JrJFGn",
-    "rich_text_H7wnr3",
     "multicolumn_GgiLEY",
     "multicolumn_VDCjYH",
     "rich_text_xN8BKM"
