@@ -83,8 +83,8 @@
         "button_wpcE7m": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Skin care guides",
+            "button_link": "shopify:\/\/blogs\/skincare-guides",
             "button_style_secondary": false
           }
         }
