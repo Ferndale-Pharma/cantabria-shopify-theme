@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
     button.addEventListener('click', function () {
       const menu = document.getElementById(this.getAttribute('aria-controls'));
       const expanded = this.getAttribute('aria-expanded') === 'true' || false;
-
       this.setAttribute('aria-expanded', !expanded);
       menu.classList.toggle('twcss-hidden');
     });
