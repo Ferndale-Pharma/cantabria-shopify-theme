@@ -247,3 +247,14 @@ form#bh-sl-user-location .scasl-search-btn {
 .ingredient__search {
   @apply md:twcss-w-1/2 twcss-m-auto;
 }
+
+.newsletter__wrapper {
+  @apply twcss-flex twcss-justify-between;
+}
+
+.newsletter__wrapper .newsletter__left {
+  @apply twcss-flex-1 twcss-pl-96;
+}
+.newsletter__wrapper .newsletter__right {
+  @apply twcss-flex-1 twcss-pr-96;
+}
