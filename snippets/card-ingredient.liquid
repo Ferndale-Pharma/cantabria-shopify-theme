@@ -10,8 +10,8 @@
         {{ card_ingredient.benefits | metafield_tag }}
     </div>
     <div class="ingredients-card__used-in">
-        <div class="link">What it's used in</div>
-        <div class="ingredients-card__used-in--products">
+        <div class="toggleLink link cursor-pointer">What it's used in</div>
+        <div class="content ingredients-card__used-in--products twcss-hidden">
             <strong>Used in:</strong>
             {% for product in card_ingredient.products.value %}
                 <a class="link" href="{{ product.url }}">{{ product.title }}</a>
@@ -19,3 +19,6 @@
         </div>
     </div>
 </div>
+<script>
+
+</script>

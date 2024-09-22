@@ -66,7 +66,7 @@ form#bh-sl-user-location button {
 }
 
 .scasl-address-wrap {
-  @apply twcss-flex twcss-w-full twcss-flex;
+  @apply twcss-flex twcss-w-full;
 }
 
 input#bh-sl-address {
@@ -242,4 +242,8 @@ form#bh-sl-user-location .scasl-search-btn {
 
 .ingredients-card__used-in--products .link {
   @apply twcss-mr-1;
+}
+
+.ingredient__search {
+  @apply md:twcss-w-1/2 twcss-m-auto;
 }
