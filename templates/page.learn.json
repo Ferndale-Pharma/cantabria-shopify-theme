@@ -69,14 +69,14 @@
         "heading_bTMYF4": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Skincare Guides",
             "heading_size": "h1"
           }
         },
         "text_c8xa8a": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dolor justo, sagittis at magna sed, vehicula placerat nisi. In ullamcorper laoreet sapien non ultricies. In quis metus molestie, vehicula augue.<\/p>",
             "text_style": "body"
           }
         },
@@ -95,11 +95,12 @@
         "button_wpcE7m"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/8898c7d23d6da522488ea44391f20ea8.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",
