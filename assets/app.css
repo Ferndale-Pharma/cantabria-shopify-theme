@@ -362,6 +362,21 @@ form#bh-sl-user-location .scasl-search-btn {
   }
 }
 
+.newsletter__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter__wrapper .newsletter__left {
+  flex: 1 1 0%;
+  padding-left: 24rem;
+}
+
+.newsletter__wrapper .newsletter__right {
+  flex: 1 1 0%;
+  padding-right: 24rem;
+}
+
 /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
 
 /*

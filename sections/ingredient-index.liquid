@@ -1,4 +1,19 @@
 {{ 'AlphaListNav.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+    .ingredient-index-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+        .ingredient-index-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+    }
+{%- endstyle -%}
+
 <div class="page-width">
     <div class="ingredient__search">
         <div class="field twcss-mt-8">
@@ -26,11 +41,27 @@
 
 {% schema %}
 {
-    "name": "CL Ingredient list",
-    "settings": [],
-    "presets": [
+    "name": "Ingredient Index",
+    "settings": [
         {
-        "name": "A section that renders ingredients in a list"
+            "type": "range",
+            "id": "padding_top",
+            "label": "Padding Top",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "default": 20
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "label": "Padding Bottom",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "default": 20
         }
     ]
 }
