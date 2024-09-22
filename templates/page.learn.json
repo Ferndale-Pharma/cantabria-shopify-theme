@@ -178,7 +178,7 @@
           "type": "button",
           "settings": {
             "button_label": "All Blog Articles",
-            "button_link": "",
+            "button_link": "shopify:\/\/blogs\/blog",
             "button_style_secondary": true
           }
         }
