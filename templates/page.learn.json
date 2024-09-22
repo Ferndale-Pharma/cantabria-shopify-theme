@@ -130,7 +130,7 @@
         "button_tiRMcn": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Ingredients",
             "button_link": "shopify:\/\/pages\/ingredients",
             "button_style_secondary": true
           }
