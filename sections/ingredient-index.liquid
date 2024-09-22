@@ -1,20 +1,20 @@
 {{ 'AlphaListNav.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-    .ingredient-index-padding {
+    .section-{{ section.id }}-padding {
         padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
         padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
 
     @media screen and (min-width: 750px) {
-        .ingredient-index-padding {
+        .section-{{ section.id }}-padding {
             padding-top: {{ section.settings.padding_top }}px;
             padding-bottom: {{ section.settings.padding_bottom }}px;
         }
     }
 {%- endstyle -%}
 
-<div class="page-width">
+<div class="page-width section-{{ section.id }}-padding">
     <div class="ingredient__search">
         <div class="field twcss-mt-8">
             <input id="ingredientsSearch" type="search" name="ingredeients-search" class="field__input" value="" aria-required="true" autocorrect="off" autocapitalize="off" required="">
