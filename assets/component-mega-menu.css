@@ -9,8 +9,6 @@
   border-right: 0;
   left: 0;
   overflow-y: auto;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
   position: absolute;
   right: 0;
   top: 100%;
@@ -35,10 +33,11 @@
 }
 
 .mega-menu__list {
-  display: grid;
-  gap: 1.8rem 4rem;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
   list-style: none;
+  width: 50%;
 }
 
 .mega-menu__link {
@@ -76,10 +75,6 @@
 
 .mega-menu__link--active:hover {
   text-decoration-thickness: 0.2rem;
-}
-
-.mega-menu .mega-menu__list--condensed {
-  display: block;
 }
 
 .mega-menu__list--condensed .mega-menu__link {
