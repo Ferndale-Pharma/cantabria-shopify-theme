@@ -28,3 +28,30 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  // ... existing code ...
+
+  // Setup search filter for ingredients
+  const searchInput = document.getElementById('ingredientsSearch');
+  if (searchInput) {
+    searchInput.addEventListener('input', function () {
+      const searchText = this.value.toLowerCase();
+      const listItems = document.querySelectorAll(
+        '.alpha-list-wrapper.active .alpha-list-group li.ingredient__item',
+      );
+
+      listItems.forEach(function (item) {
+        console.log(item);
+        const name = item
+          .querySelector('.card-ingredient__name')
+          .textContent.toLowerCase();
+        if (name.includes(searchText)) {
+          item.style.display = '';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  }
+});

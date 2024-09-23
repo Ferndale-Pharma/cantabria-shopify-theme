@@ -26,7 +26,7 @@
     {% paginate shop.metaobjects.ingredients.values by 100 %}
         <ul id="ingredientIndex" class="">
             {% for metaobject in shop.metaobjects.ingredients.values %}
-                <li>
+                <li class="ingredient__item">
                     <div class="card-ingredient__name twcss-hidden">{{ metaobject.name | escape }}</div>
                     {% render 'card-ingredient', card_ingredient: metaobject %}
                 </li>
