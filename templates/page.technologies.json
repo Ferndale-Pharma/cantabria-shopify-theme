@@ -30,7 +30,7 @@
         "text_dcG6ch": {
           "type": "text",
           "settings": {
-            "text": "<p>Innovation, research and clinical data is the foundation for every product created by Cantabria Labs. Patented revolutionary skincare technologies, often harnessing the power of nature, are what set our science-based skincare apart from the crowd.<\/p>"
+            "text": "<p>Innovation, research and clinical data is the foundation for every product created by Cantabria Labs. Patented revolutionary skincare technologies, often harnessing the power of nature, are what set our science-based skincare apart from the crowd.</p>"
           }
         }
       },
@@ -60,7 +60,7 @@
         "text_UpNG8r": {
           "type": "text",
           "settings": {
-            "text": "<p>An innovative, patented technology that features in every Heliocare product. Research started on this remarkable technology over 25 years ago and still continues today as new skin benefits are discovered. <\/p><p>Fernblock is a unique extract of the fern <em>Polypodium leucotomos <\/em>which is native to Central America. This once aquatic plant developed its own natural protective mechanism to the sun. It’s this activity that has been harnessed in Fernblock to help protect our skin from damage caused by the sun and our environment. <\/p>",
+            "text": "<p>An innovative, patented technology that features in every Heliocare product. Research started on this remarkable technology over 25 years ago and still continues today as new skin benefits are discovered. </p><p>Fernblock is a unique extract of the fern <em>Polypodium leucotomos </em>which is native to Central America. This once aquatic plant developed its own natural protective mechanism to the sun. It’s this activity that has been harnessed in Fernblock to help protect our skin from damage caused by the sun and our environment. </p>",
             "text_style": "body"
           }
         }
@@ -92,7 +92,7 @@
           "settings": {
             "heading": "Sun protection",
             "icon": "check_mark",
-            "row_content": "<p>Fernblock is clinically proven to help protect the skin from damage caused by UVA, UVB, visible light and infrared-A from the sun. It’s also proven to help improve our skin's resistance to sunburn, and even increase the efficacy of SPF filters.<\/p>",
+            "row_content": "<p>Fernblock is clinically proven to help protect the skin from damage caused by UVA, UVB, visible light and infrared-A from the sun. It’s also proven to help improve our skin's resistance to sunburn, and even increase the efficacy of SPF filters.</p>",
             "page": ""
           }
         },
@@ -101,7 +101,7 @@
           "settings": {
             "heading": "DNA repair",
             "icon": "check_mark",
-            "row_content": "<p>Sun exposure causes damage to the DNA in our cells which means that cells can’t function correctly, and can even lead to mutations. Fernblock has been shown to reduce this damage, and increase and accelerate its repair.<\/p>",
+            "row_content": "<p>Sun exposure causes damage to the DNA in our cells which means that cells can’t function correctly, and can even lead to mutations. Fernblock has been shown to reduce this damage, and increase and accelerate its repair.</p>",
             "page": ""
           }
         },
@@ -110,7 +110,7 @@
           "settings": {
             "heading": "Antioxidant activity",
             "icon": "check_mark",
-            "row_content": "<p>Fernblock is a powerful anti-oxidant, helping to boost skin health by neutralising free radicals that are released in the skin during and after sun exposure.<\/p>",
+            "row_content": "<p>Fernblock is a powerful anti-oxidant, helping to boost skin health by neutralising free radicals that are released in the skin during and after sun exposure.</p>",
             "page": ""
           }
         },
@@ -119,7 +119,7 @@
           "settings": {
             "heading": "Wrinkle & pigmentation prevention",
             "icon": "check_mark",
-            "row_content": "<p>Fernblock helps to protect collagen from damage helping to reduce wrinkles from forming. It’s also proven to prevent hyperpigmentation and reduce the intensity and size of existing pigmentation patches.<\/p>",
+            "row_content": "<p>Fernblock helps to protect collagen from damage helping to reduce wrinkles from forming. It’s also proven to prevent hyperpigmentation and reduce the intensity and size of existing pigmentation patches.</p>",
             "page": ""
           }
         }
@@ -158,7 +158,7 @@
         "text_FpwhwA": {
           "type": "text",
           "settings": {
-            "text": "<p>RetinSphere Technology is a patented, next-generation retinoid combination with high efficacy while still being kind to skin.<\/p><p>Retinol is the cornerstone of powerful rejuvenation and spot prone skin regimes because it helps to stimulate skin cell renewal to reveal smoother fresher skin and reduce congestion. However, while retinol is a powerful ingredient it is known to cause irritation and sensitivity. That’s why RetinSphere Technology was created; to maximise the benefits and minimise irritation.<\/p>",
+            "text": "<p>RetinSphere Technology is a patented, advanced retinoid combination that offers high efficacy while being gentle on the skin.  </p><p>Retinol, often used in anti-ageing and spot-prone skin routines, is powerful at promoting skin cell renewal for smoother, fresher skin, but can also cause skin irritation and sensitivity. RetinSphere Technology combines two stable retinoids, Hydroxypinacolone Retinoate and Retinol, and has been designed to deliver immediate and long-lasting results with minimal irritation. </p><p>This unique blend stimulates skin cells and enhances natural renewal processes, and features in Cantabria Labs' Endocare, Biretix, and Neoretin skincare ranges. </p>",
             "text_style": "body"
           }
         }
@@ -182,28 +182,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_8JVPJx": {
-      "type": "rich-text",
-      "blocks": {
-        "text_3wVjpi": {
-          "type": "text",
-          "settings": {
-            "text": "<p>RetinSphere Technology combines two stable retinoids to provide immediate and long-lasting results:  <\/p><ul><li>Hydroxypinacolone retinoate: A retinoic acid derivative that gives the same renewing benefits without irritation. <\/li><li>Retinol: Encapsulated in glycospheres to encourage slow release and allow the retinol to be delivered deep into the skin where it needs to get to work.  <\/li><\/ul><p>This combination stimulates the skin cells and kick-starts our natural skin renewal processes with many benefits, which is why it features in several of our skincare ranges including Endocare, Biretix and Neoretin. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_3wVjpi"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "collapsible_content_fMfT3f": {
       "type": "collapsible-content",
       "blocks": {
@@ -212,7 +190,7 @@
           "settings": {
             "heading": "Reduces lines and wrinkles",
             "icon": "check_mark",
-            "row_content": "<p>Stimulates collagen production and skin cell turnover to reveal fresh, smooth skin and reduce fine lines and wrinkles.<\/p>",
+            "row_content": "<p>Stimulates collagen production and skin cell turnover to reveal fresh, smooth skin and reduce fine lines and wrinkles.</p>",
             "page": ""
           }
         },
@@ -221,7 +199,7 @@
           "settings": {
             "heading": "Reduces hyperpigmentation ",
             "icon": "check_mark",
-            "row_content": "<p>Helps to prevent the synthesis of tyrosinase, a key enzyme responsible for creating pigmentation, reducing the appearance of age spots.<\/p>",
+            "row_content": "<p>Helps to prevent the synthesis of tyrosinase, a key enzyme responsible for creating pigmentation, reducing the appearance of age spots.</p>",
             "page": ""
           }
         },
@@ -230,7 +208,7 @@
           "settings": {
             "heading": "Prevents spots",
             "icon": "check_mark",
-            "row_content": "<p>Normalises the skin’s renewal process reducing congestion that can lead to spots.<\/p>",
+            "row_content": "<p>Normalises the skin’s renewal process reducing congestion that can lead to spots.</p>",
             "page": ""
           }
         }
@@ -268,7 +246,7 @@
         "text_XFgfiq": {
           "type": "text",
           "settings": {
-            "text": "<p>A patented technology rich in growth factors that stimulates natural skin regeneration processes.  <\/p><p>SCA Growth Factor Technology is derived from the purified secretion of the <em>Cryptomphalus aspersa <\/em>snail, which was found to have unique abilities to regenerate and repair itself. Research and use of this ingredient was initially done to aid recovery following radiation burns and was used for this following the Chernobyl disaster. Since this time it has been the subject of rigorous clinical studies to uncover additional skin benefits.  <\/p>",
+            "text": "<p>Derived from the purified secretion of the <em>Cryptomphalus aspersa </em>snail, SCA Growth Factor Technology is a patented technology rich in growth factors that stimulates natural skin regeneration processes. Initially used to aid recovery from radiation burns, including after the Chernobyl disaster, it has since undergone rigorous clinical studies, revealing further skin benefits. </p><p>Growth factors act as the skin’s messengers, directing cells to behave and respond in specific ways. SCA Growth Factor Technology specifically promotes anti-ageing and skin regeneration, making it a key ingredient in many Endocare products. </p>",
             "text_style": "body"
           }
         }
@@ -292,28 +270,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_F3Njq3": {
-      "type": "rich-text",
-      "blocks": {
-        "text_KbMgfK": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Growth factors are the skin’s messengers, instructing our skin cells to behave and respond in a certain way. SCA Growth Factor Technology specifically simulates activities associated with anti-aging and skin regeneration which is why it features in many of the Endocare products. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_KbMgfK"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "collapsible_content_iyPCK6": {
       "type": "collapsible-content",
       "blocks": {
@@ -322,7 +278,7 @@
           "settings": {
             "heading": "Skin regeneration",
             "icon": "check_mark",
-            "row_content": "<p>Reforms and stimulates the production of fibroblasts. Our fibroblasts are the key to skin rejuvenation as they are responsible for the production of new collagen.<\/p>",
+            "row_content": "<p>Reforms and stimulates the production of fibroblasts. Our fibroblasts are the key to skin rejuvenation as they are responsible for the production of new collagen.</p>",
             "page": ""
           }
         },
@@ -331,7 +287,7 @@
           "settings": {
             "heading": "Collagen stimulation",
             "icon": "check_mark",
-            "row_content": "<p>Encourages the production of collagen, elastin and hyaluronic acid - all key components to help keep skin firm, plump and smooth.<\/p>",
+            "row_content": "<p>Encourages the production of collagen, elastin and hyaluronic acid - all key components to help keep skin firm, plump and smooth.</p>",
             "page": ""
           }
         },
@@ -340,7 +296,7 @@
           "settings": {
             "heading": "Antioxidant activity",
             "icon": "check_mark",
-            "row_content": "<p>Neutralises harmful free radicals helping to keep skin healthy and glowing.<\/p>",
+            "row_content": "<p>Neutralises harmful free radicals helping to keep skin healthy and glowing.</p>",
             "page": ""
           }
         }
@@ -378,7 +334,7 @@
         "text_T6aYEY": {
           "type": "text",
           "settings": {
-            "text": "<p>A revolutionary, patented technology proven to help protect the skin from damage caused by pollution.  <\/p><p>EDAFENCE is derived from <em>Deschampsia antarctica<\/em>, an Antarctic plant that thrives in extreme environmental conditions. This powerful ingredient harnesses the power of the plant’s natural protective mechanism to help defend the skin against damage caused by pollution, tobacco smoke, UVA, UVB and visible light. After further rigorous research, EDAFENCE has also been shown to have skin rejuvenation benefits too, by reducing pigmentation and enhancing the skin barrier, which is why it’s the perfect addition to products in the Endocare range.  <\/p>",
+            "text": "<p>A revolutionary, patented technology derived from <em>Deschampsia antarctica</em>, an Antarctic plant that thrives in extreme environmental conditions.  </p><p>This powerful ingredient harnesses the power of the plant’s natural protective mechanism and is clinically proven to help defend the skin against damage caused by pollution, tobacco smoke, UVA, UVB and visible light.  </p><p>EDAFENCE has also been shown to have skin rejuvenation benefits too, by reducing pigmentation, neutralising free radicals and enhancing the skin barrier, which is why it’s the perfect addition to products in the Endocare range.  </p>",
             "text_style": "body"
           }
         }
@@ -402,28 +358,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_T6YMFN": {
-      "type": "rich-text",
-      "blocks": {
-        "text_BEWdED": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Unlike most anti-pollution ingredients which use antioxidant activity to treat the effects of pollution, EDAFENCE takes a step further by preventing the cascade of damage in the first place, as well as neutralising free radicals.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_BEWdED"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "collapsible_content_p3wei6": {
       "type": "collapsible-content",
       "blocks": {
@@ -432,7 +366,7 @@
           "settings": {
             "heading": "Pollution defence ",
             "icon": "check_mark",
-            "row_content": "<p>Defends against damage caused to the skin by pollutants and tobacco smoke.<\/p>",
+            "row_content": "<p>Defends against damage caused to the skin by pollutants and tobacco smoke.</p>",
             "page": ""
           }
         },
@@ -441,7 +375,7 @@
           "settings": {
             "heading": "Pigmentation prevention",
             "icon": "check_mark",
-            "row_content": "<p>Blocks the receptor in the skin that triggers the formation of hyperpigmentation, helping to reduce the appearance of dark spots.<\/p>",
+            "row_content": "<p>Blocks the receptor in the skin that triggers the formation of hyperpigmentation, helping to reduce the appearance of dark spots.</p>",
             "page": ""
           }
         },
@@ -450,7 +384,7 @@
           "settings": {
             "heading": "Improves barrier function",
             "icon": "check_mark",
-            "row_content": "<p>Combats the damage caused by contaminants in the skin barrier while maintaining levels of loricrin, a protein related to the proper functioning of the skin barrier.<\/p>",
+            "row_content": "<p>Combats the damage caused by contaminants in the skin barrier while maintaining levels of loricrin, a protein related to the proper functioning of the skin barrier.</p>",
             "page": ""
           }
         },
@@ -459,7 +393,7 @@
           "settings": {
             "heading": "Antioxidant activity",
             "icon": "check_mark",
-            "row_content": "<p>Neutralises free radicals in the skin, protecting our fibroblasts - the cells that make new collagen.<\/p>",
+            "row_content": "<p>Neutralises free radicals in the skin, protecting our fibroblasts - the cells that make new collagen.</p>",
             "page": ""
           }
         }
@@ -498,14 +432,14 @@
         "text_HUfWkT": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
         "button_GrkLpm": {
           "type": "button",
           "settings": {
             "button_label": "View All Products",
-            "button_link": "shopify:\/\/collections\/all-products",
+            "button_link": "shopify://collections/all-products",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -534,13 +468,10 @@
     "image_with_text_B8Depy",
     "collapsible_content_YprYhg",
     "image_with_text_DhnTHd",
-    "rich_text_8JVPJx",
     "collapsible_content_fMfT3f",
     "image_with_text_KxCTrM",
-    "rich_text_F3Njq3",
     "collapsible_content_iyPCK6",
     "image_with_text_FVGdHq",
-    "rich_text_T6YMFN",
     "collapsible_content_p3wei6",
     "rich_text_4pFjUp"
   ]
