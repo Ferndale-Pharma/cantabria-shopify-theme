@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "View Products",
-            "button_link_1": "shopify:\/\/collections\/spot-acne-prone-skin",
+            "button_link_1": "shopify://collections/spot-acne-prone-skin",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -79,7 +79,7 @@
         "text_WezjGn": {
           "type": "text",
           "settings": {
-            "text": "<p>Acne is caused by overactive sebaceous glands that produce too much oil. It mainly affects areas of the skin with a high concentration of oil glands, including the face, chest, back and shoulders. Common symptoms include a shiny complexion, enlarged pores, breakouts, redness and scarring.<\/p>",
+            "text": "<p>Acne is caused by overactive sebaceous glands that produce too much oil. It mainly affects areas of the skin with a high concentration of oil glands, including the face, chest, back and shoulders. Common symptoms include a shiny complexion, enlarged pores, breakouts, redness and scarring.</p>",
             "text_style": "body"
           }
         },
@@ -88,7 +88,7 @@
           "disabled": true,
           "settings": {
             "button_label": "Button label",
-            "button_link": "shopify:\/\/collections\/spot-acne-prone-skin",
+            "button_link": "shopify://collections/spot-acne-prone-skin",
             "button_style_secondary": true
           }
         }
@@ -100,7 +100,7 @@
         "button_VgCw8W"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hyperpigmentation-before-after.png",
+        "image": "shopify://shop_images/Hyperpigmentation-before-after.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -121,9 +121,9 @@
         "column_cyFqfy": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/face.png",
+            "image": "shopify://shop_images/face.png",
             "title": "What causes acne?",
-            "text": "<p>Acne is caused by overactive oil glands producing too much sebum. This excess oil mixes with dead skin cells, clogging the pores. Here, bacteria thrive, which leads to infection and inflammation. If the clogged pore is close to the surface of the skin, it bulges out as a whitehead. If the skin over the spot opens, oxidisation turns it into a blackhead. Deeper congestion will manifest as a painful cyst. <\/p>",
+            "text": "<p>Acne is caused by overactive oil glands producing too much sebum. This excess oil mixes with dead skin cells, clogging the pores. Here, bacteria thrive, which leads to infection and inflammation. If the clogged pore is close to the surface of the skin, it bulges out as a whitehead. If the skin over the spot opens, oxidisation turns it into a blackhead. Deeper congestion will manifest as a painful cyst. </p>",
             "link_label": "",
             "link": ""
           }
@@ -131,9 +131,9 @@
         "column_Ry3qYb": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/chin.png",
+            "image": "shopify://shop_images/chin.png",
             "title": "Who is affected?",
-            "text": "<p>Acne is most common amongst teenagers and young adults, but it can affect people of all ages. Symptoms range from mild to severe. Hormones play a big role in the development of acne, which is why puberty and pregnancy are often triggers. External factors, such as diet, medications, pollution and skincare, may aggravate symptoms. A family history of acne will also increase the likelihood of developing acne.<\/p>",
+            "text": "<p>Acne is most common amongst teenagers and young adults, but it can affect people of all ages. Symptoms range from mild to severe. Hormones play a big role in the development of acne, which is why puberty and pregnancy are often triggers. External factors, such as diet, medications, pollution and skincare, may aggravate symptoms. A family history of acne will also increase the likelihood of developing acne.</p>",
             "link_label": "",
             "link": ""
           }
@@ -141,9 +141,9 @@
         "column_cCYqMz": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dermatologist.png",
+            "image": "shopify://shop_images/dermatologist.png",
             "title": "How to manage acne",
-            "text": "<p>Acne can be difficult to treat. A combination of targeted skincare, professional treatments and lifestyle changes can help to manage its symptoms. Skincare recommendations include regular gentle cleansing, applying a lightweight moisturiser, wearing SPF every day and incorporating oil-controlling ingredients such as retinoids, niacinamide and zinc, as well as antioxidants to boost skin health.<\/p>",
+            "text": "<p>Acne can be difficult to treat. A combination of targeted skincare, professional treatments and lifestyle changes can help to manage its symptoms. Skincare recommendations include regular gentle cleansing, applying a lightweight moisturiser, wearing SPF every day and incorporating oil-controlling ingredients such as retinoids, niacinamide and zinc, as well as antioxidants to boost skin health.</p>",
             "link_label": "",
             "link": ""
           }
@@ -184,7 +184,7 @@
         "text_QJLXwU": {
           "type": "text",
           "settings": {
-            "text": "<p>The most effective treatments for acne and spot-prone skin will prevent future breakouts, treat active spots, reduce inflammation and improve acne scarring.<\/p>"
+            "text": "<p>The most effective treatments for acne and spot-prone skin will prevent future breakouts, treat active spots, reduce inflammation and improve acne scarring.</p>"
           }
         }
       },
@@ -207,21 +207,21 @@
         "column_MPgDQ6": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/abstract.png",
+            "image": "shopify://shop_images/abstract.png",
             "title": "RetinSphere® Technology",
-            "text": "<p>An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. Encourages skin cell turnover and stimulates collagen production for smoother, firmer skin and improved appearance of fine lines and wrinkles.<\/p>",
+            "text": "<p>An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. Encourages skin cell turnover and stimulates collagen production for smoother, firmer skin and improved appearance of fine lines and wrinkles.</p>",
             "link_label": "Link",
-            "link": ""
+            "link": "shopify://blogs/expert-advice/what-ingredients-help-spot-prone-skin"
           }
         },
         "column_j4kc9V": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bubbles.png",
+            "image": "shopify://shop_images/bubbles.png",
             "title": "BIOPEP-15",
-            "text": "<p>A clinically-proven, plant-based peptide technology that targets 24 different strains of acne-causing bacteria, <em>Cutibacterium acnes<\/em>. This incredible botanical-derived ingredient also targets and binds with Lipoteichoic acid (LTA), a major component within the immune response triggered by <em>C. acnes, <\/em>to help to reduce inflammation.<\/p>",
+            "text": "<p>A clinically-proven, plant-based peptide technology that targets 24 different strains of acne-causing bacteria, <em>Cutibacterium acnes</em>. This incredible botanical-derived ingredient also targets and binds with Lipoteichoic acid (LTA), a major component within the immune response triggered by <em>C. acnes, </em>to help to reduce inflammation.</p>",
             "link_label": "Link",
-            "link": ""
+            "link": "shopify://blogs/expert-advice/what-ingredients-help-spot-prone-skin"
           }
         }
       },
@@ -234,7 +234,7 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -251,7 +251,7 @@
       "settings": {
         "title": "Our acne products",
         "heading_size": "h2",
-        "description": "<p>Text goes here<\/p>",
+        "description": "<p>Text goes here</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "{{ metaobject.concern_products.value }}",
@@ -280,31 +280,31 @@
         "column_9AaxEe": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hyperpigmentation.png",
+            "image": "shopify://shop_images/hyperpigmentation.png",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p><p><strong>Name<\/strong><\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p><p><strong>Name</strong></p>",
             "link_label": "the person",
-            "link": "shopify:\/\/metaobjects\/author\/emma-wedgeworth"
+            "link": "shopify://metaobjects/author/emma-wedgeworth"
           }
         },
         "column_mLcXKm": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/person.png",
+            "image": "shopify://shop_images/person.png",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p><p><strong>Name<\/strong><\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p><p><strong>Name</strong></p>",
             "link_label": "The person",
-            "link": "shopify:\/\/metaobjects\/author\/samantha-hey"
+            "link": "shopify://metaobjects/author/samantha-hey"
           }
         },
         "column_8TjmjY": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
+            "image": "shopify://shop_images/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p><p><strong>Name<\/strong><\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p><p><strong>Name</strong></p>",
             "link_label": "The person",
-            "link": "shopify:\/\/metaobjects\/author\/jennifer-scragg"
+            "link": "shopify://metaobjects/author/jennifer-scragg"
           }
         }
       },
@@ -336,9 +336,9 @@
         "column_TeH9Qd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_34.png",
+            "image": "shopify://shop_images/Rectangle_34.png",
             "title": "How to Build an Effective Skincare Routine for Hyperpigmentation",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "Read full article",
             "link": ""
           }
@@ -346,21 +346,21 @@
         "column_gAfnbb": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hyperpigmentation.png",
+            "image": "shopify://shop_images/hyperpigmentation.png",
             "title": "5 Ingredients for Hyperpigmentation and Achieving Even Skin Tone",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus blandit tortor tempus.<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus blandit tortor tempus.</p>",
             "link_label": "Read article",
-            "link": "shopify:\/\/blogs\/blog"
+            "link": "shopify://blogs/blog"
           }
         },
         "column_UQpJxV": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/person.png",
+            "image": "shopify://shop_images/person.png",
             "title": "Understanding Hyperpigmentation: Causes, Types, and Treatments",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus blandit tortor tempus.<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus blandit tortor tempus.</p>",
             "link_label": "Read article",
-            "link": "shopify:\/\/blogs\/expert-advice\/melanoma-and-non-melanoma-skin-cancer-whats-the-difference"
+            "link": "shopify://blogs/expert-advice/melanoma-and-non-melanoma-skin-cancer-whats-the-difference"
           }
         }
       },
@@ -393,21 +393,21 @@
         "heading_k9bgAG": {
           "type": "heading",
           "settings": {
-            "heading": "Explore our range of skincare products lorem ipsum\u2028dolor est for name of skin concern",
+            "heading": "Explore our range of skincare products lorem ipsum dolor est for name of skin concern",
             "heading_size": "h2"
           }
         },
         "text_mU4nbB": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>"
           }
         },
         "button_KDiXhb": {
           "type": "button",
           "settings": {
             "button_label": "Browse products",
-            "button_link": "shopify:\/\/collections\/spot-acne-prone-skin",
+            "button_link": "shopify://collections/spot-acne-prone-skin",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
