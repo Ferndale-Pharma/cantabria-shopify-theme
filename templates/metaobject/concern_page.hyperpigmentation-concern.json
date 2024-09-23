@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "{{ metaobject.name.value }}",
-            "heading_size": "hxxl"
+            "heading_size": "hxl"
           }
         },
         "text_p4wyK3": {
@@ -73,7 +73,7 @@
           "type": "heading",
           "settings": {
             "heading": "What is hyperpigmentation?",
-            "heading_size": "h2"
+            "heading_size": "h0"
           }
         },
         "text_WezjGn": {
@@ -156,7 +156,7 @@
       ],
       "settings": {
         "title": "Understanding {{ metaobject.name.value }}",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
