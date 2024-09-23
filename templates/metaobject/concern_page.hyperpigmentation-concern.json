@@ -118,22 +118,22 @@
     "multicolumn_BeGBF7": {
       "type": "multicolumn",
       "blocks": {
-        "column_cyFqfy": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/face.png",
-            "title": "What causes hyperpigmentation?",
-            "text": "<p>Hyperpigmentation occurs when there’s an overproduction or irregular distribution of melanin in the skin, leading to dark patches. Triggers for increased melanin production include UV radiation, skin trauma, inflammation, hormonal changes, medications and certain medical conditions.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_Ry3qYb": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/chin.png",
             "title": "Who is affected?",
             "text": "<p>Hyperpigmentation affects people of all ages, ethnicities and skin types. Skin pigmentation and melanin synthesis differ from person to person, mostly dictated by genetics and hormones. But there are factors that make people more prone to developing the condition, including having a darker skin tone, spending a lot of time in the sun and inflammatory skin conditions.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cyFqfy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/face.png",
+            "title": "What causes hyperpigmentation?",
+            "text": "<p>Hyperpigmentation occurs when there’s an overproduction or irregular distribution of melanin in the skin, leading to dark patches. Triggers for increased melanin production include UV radiation, skin trauma, inflammation, hormonal changes, medications and certain medical conditions.</p>",
             "link_label": "",
             "link": ""
           }
@@ -150,8 +150,8 @@
         }
       },
       "block_order": [
-        "column_cyFqfy",
         "column_Ry3qYb",
+        "column_cyFqfy",
         "column_cCYqMz"
       ],
       "settings": {
