@@ -5,8 +5,10 @@
 .h3,
 .h4,
 .badge,
-h3.inline-richtext,
-h2.inline-richtext,
+.contains-content-container h3,
+.banner__content h2,
+.contains-content-container h2,
+.banner__content h2,
 .button {
   @apply twcss-font-bold !important;
 }
@@ -29,12 +31,24 @@ ol {
 }
 
 .rich-text__text {
-  color: #231f20;
+  @apply twcss-text-[#231F20];
 }
 
 svg.icon.icon-arrow path {
   stroke-width: 3px;
 }
+
+/** Navigation **/
+.header__inline-menu .link {
+  font-size: 1.6rem !important;
+}
+
+a.mega-menu__link.mega-menu__link--level-2 {
+  @apply twcss-font-bold !important;
+  @apply twcss-text-[#231F20];
+  font-size: 1.8rem !important;
+}
+
 /** multi column **/
 .multicolumn-card.content-container {
   @apply twcss-h-full twcss-flex twcss-flex-col;
@@ -147,7 +161,7 @@ form#bh-sl-user-location .scasl-search-btn {
 }
 
 .toggle-menu svg {
-  @apply twcss-text-gray-700; /* Adjust color as needed */
+  @apply twcss-text-gray-700;
 }
 
 .footer-block.grid__item {
