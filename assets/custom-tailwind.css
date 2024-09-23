@@ -212,20 +212,37 @@ form#bh-sl-user-location .scasl-search-btn {
 }
 /** Ingredient filter list **/
 .alpha-list-group {
-  @apply twcss-grid twcss-grid-cols-1 md:twcss-grid-cols-3 twcss-gap-24 twcss-list-none;
+  @apply twcss-grid twcss-grid-cols-1 md:twcss-grid-cols-3 twcss-gap-32 twcss-list-none md:twcss-auto-rows-fr;
 }
 
+.ingredient__search {
+  @apply md:twcss-w-1/2 twcss-m-auto;
+}
+
+.character-element {
+  @apply twcss-cursor-pointer;
+}
+
+.character-element:hover {
+  text-decoration: underline !important;
+}
+
+/** Ingredient card **/
 .ingredient-card {
-  @apply twcss-flex-col twcss-gap-2 twcss-text-[#231F20];
+  @apply twcss-grid twcss-grid-rows-[auto_1fr_auto] twcss-h-full;
+  @apply twcss-text-[#231F20];
 }
 
 .ingredient-card__title {
-  @apply twcss-pb-4;
+  @apply twcss-row-start-1 twcss-row-end-2 twcss-pb-4;
 }
 
 .ingredient-card__description {
-  @apply twcss-pb-8 twcss-border-b;
-  height: 141px;
+  @apply twcss-row-start-2 twcss-row-end-3 twcss-border-b twcss-overflow-hidden twcss-pb-4;
+}
+
+.ingredients-card__benefits {
+  @apply twcss-row-start-3 twcss-row-end-4;
 }
 
 .ingredients-card__benefits h4 {
@@ -244,17 +261,13 @@ form#bh-sl-user-location .scasl-search-btn {
   @apply twcss-mr-1;
 }
 
-.ingredient__search {
-  @apply md:twcss-w-1/2 twcss-m-auto;
-}
-
 .newsletter__wrapper {
-  @apply twcss-flex twcss-justify-between;
+  @apply md:twcss-flex md:twcss-justify-between;
 }
 
 .newsletter__wrapper .newsletter__left {
-  @apply twcss-flex-1 twcss-pl-96;
+  @apply md:twcss-basis-1/2;
 }
 .newsletter__wrapper .newsletter__right {
-  @apply twcss-flex-1 twcss-pr-96;
+  @apply md:twcss-basis-1/2;
 }
