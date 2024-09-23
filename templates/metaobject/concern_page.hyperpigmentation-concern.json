@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "{{ metaobject.name.value }}",
-            "heading_size": "hxl"
+            "heading_size": "hxxl"
           }
         },
         "text_p4wyK3": {
