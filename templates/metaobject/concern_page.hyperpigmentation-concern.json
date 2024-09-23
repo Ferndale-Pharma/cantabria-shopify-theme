@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "View Products",
-            "button_link_1": "shopify:\/\/collections\/hyperpigmentation",
+            "button_link_1": "shopify://collections/hyperpigmentation",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -79,7 +79,7 @@
         "text_WezjGn": {
           "type": "text",
           "settings": {
-            "text": "<p>Hyperpigmentation refers to areas of skin that appear darker than the surrounding skin. It is a result of increased melanin production, the pigment responsible for skin colour. Types of hyperpigmentation include post-inflammatory hyperpigmentation (PIH), where the skin darkens after inflammation or injury; melasma, involving symmetrical patches of pigmentation; and age spots, which develop with ageing and sun exposure.<\/p>",
+            "text": "<p>Hyperpigmentation refers to areas of skin that appear darker than the surrounding skin. It is a result of increased melanin production, the pigment responsible for skin colour. Types of hyperpigmentation include post-inflammatory hyperpigmentation (PIH), where the skin darkens after inflammation or injury; melasma, involving symmetrical patches of pigmentation; and age spots, which develop with ageing and sun exposure.</p>",
             "text_style": "body"
           }
         },
@@ -88,7 +88,7 @@
           "disabled": true,
           "settings": {
             "button_label": "Button label",
-            "button_link": "shopify:\/\/collections\/spot-acne-prone-skin",
+            "button_link": "shopify://collections/spot-acne-prone-skin",
             "button_style_secondary": true
           }
         }
@@ -100,7 +100,7 @@
         "button_VgCw8W"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hyperpigmentation-before-after.png",
+        "image": "shopify://shop_images/Hyperpigmentation-before-after.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -121,9 +121,9 @@
         "column_cyFqfy": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/face.png",
+            "image": "shopify://shop_images/face.png",
             "title": "What causes hyperpigmentation?",
-            "text": "<p>Hyperpigmentation occurs when there’s an overproduction or irregular distribution of melanin in the skin, leading to dark patches. Triggers for increased melanin production include UV radiation, skin trauma, inflammation, hormonal changes, medications and certain medical conditions.<\/p>",
+            "text": "<p>Hyperpigmentation occurs when there’s an overproduction or irregular distribution of melanin in the skin, leading to dark patches. Triggers for increased melanin production include UV radiation, skin trauma, inflammation, hormonal changes, medications and certain medical conditions.</p>",
             "link_label": "",
             "link": ""
           }
@@ -131,9 +131,9 @@
         "column_Ry3qYb": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/chin.png",
+            "image": "shopify://shop_images/chin.png",
             "title": "Who is affected?",
-            "text": "<p>Hyperpigmentation affects people of all ages, ethnicities and skin types. Skin pigmentation and melanin synthesis differ from person to person, mostly dictated by genetics and hormones. But there are factors that make people more prone to developing the condition, including having a darker skin tone, spending a lot of time in the sun and inflammatory skin conditions.<\/p>",
+            "text": "<p>Hyperpigmentation affects people of all ages, ethnicities and skin types. Skin pigmentation and melanin synthesis differ from person to person, mostly dictated by genetics and hormones. But there are factors that make people more prone to developing the condition, including having a darker skin tone, spending a lot of time in the sun and inflammatory skin conditions.</p>",
             "link_label": "",
             "link": ""
           }
@@ -141,9 +141,9 @@
         "column_cCYqMz": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dermatologist.png",
+            "image": "shopify://shop_images/dermatologist.png",
             "title": "How to treat hyperpigmentation",
-            "text": "<p>Look for depigmenting agents in skincare, including retinoids, niacinamide and ascorbic acid, along with azelaic acid, kojic acid and hydroquinone, which inhibit melanin production. Chemical peels and laser therapy will target stubborn areas of pigmentation at a deeper level. The most effective form of treatment, however, is prevention, and so a high-level, broad-spectrum SPF should be applied every day.<\/p>",
+            "text": "<p>Look for depigmenting agents in skincare, including retinoids, niacinamide and ascorbic acid, along with azelaic acid, kojic acid and hydroquinone, which inhibit melanin production. Chemical peels and laser therapy will target stubborn areas of pigmentation at a deeper level. The most effective form of treatment, however, is prevention, and so a high-level, broad-spectrum SPF should be applied every day.</p>",
             "link_label": "",
             "link": ""
           }
@@ -164,7 +164,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
@@ -177,14 +177,14 @@
         "heading_ymAKrk": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Melanin and pigmentation<\/strong>",
+            "heading": "<strong>Melanin and pigmentation</strong>",
             "heading_size": "h2"
           }
         },
         "text_QJLXwU": {
           "type": "text",
           "settings": {
-            "text": "<p>Melanin is a pigment that produces different shades of skin, hair and eye colour. Our colouring is determined by the amount of melanin in our melanocyte cells. Melanin is typically evenly distributed throughout the skin, but sometimes gathers in spots or patches. We all have the same number of melanocytes, but we produce different amounts of melanin. If we produce more melanin, our skin is darker. If we produce less melanin, our skin is lighter. <\/p>"
+            "text": "<p>Melanin is a pigment that produces different shades of skin, hair and eye colour. Our colouring is determined by the amount of melanin in our melanocyte cells. Melanin is typically evenly distributed throughout the skin, but sometimes gathers in spots or patches. We all have the same number of melanocytes, but we produce different amounts of melanin. If we produce more melanin, our skin is darker. If we produce less melanin, our skin is lighter. </p>"
           }
         }
       },
@@ -207,9 +207,9 @@
         "column_z6TDVw": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/abstract.png",
+            "image": "shopify://shop_images/abstract.png",
             "title": "RetinSphere® Technology",
-            "text": "<p>An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. Encourages skin cell turnover and stimulates collagen production for smoother, firmer skin and improved appearance of fine lines and wrinkles.<\/p>",
+            "text": "<p>An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. Encourages skin cell turnover and stimulates collagen production for smoother, firmer skin and improved appearance of fine lines and wrinkles.</p>",
             "link_label": "Link",
             "link": ""
           }
@@ -217,9 +217,9 @@
         "column_MPgDQ6": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bubbles-2.png",
+            "image": "shopify://shop_images/bubbles-2.png",
             "title": "Azelaic Aox-Tech",
-            "text": "<p>A patented delivery-system technology that boosts the action of azelaic acid up to 5 times. Its anxtioxidant properties protect the skin from environmental aggressors and offer incredible efficacy in exfoliating, diminishing the appearance of blemishes, unifying the skin tone, reducing pigmentation and soothing the skin.<\/p>",
+            "text": "<p>A patented delivery-system technology that boosts the action of azelaic acid up to 5 times. Its anxtioxidant properties protect the skin from environmental aggressors and offer incredible efficacy in exfoliating, diminishing the appearance of blemishes, unifying the skin tone, reducing pigmentation and soothing the skin.</p>",
             "link_label": "Link",
             "link": ""
           }
@@ -227,9 +227,9 @@
         "column_aRYDt3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fernblock-leaves.png",
+            "image": "shopify://shop_images/fernblock-leaves.png",
             "title": "Fernblock® Technology",
-            "text": "<p>A powerful, patented plant-based technology that offers multiple levels of protection against UV radiation and environmental stressors. It is clinically proven to prevent and repair the damage caused by daylight (UVA, UVB, visible light and infrared-A), as well as preventing collagen breakdown, protecting skin cell DNA, preventing pigmentation and protecting the skin’s immune system. <\/p>",
+            "text": "<p>A powerful, patented plant-based technology that offers multiple levels of protection against UV radiation and environmental stressors. It is clinically proven to prevent and repair the damage caused by daylight (UVA, UVB, visible light and infrared-A), as well as preventing collagen breakdown, protecting skin cell DNA, preventing pigmentation and protecting the skin’s immune system. </p>",
             "link_label": "Link",
             "link": ""
           }
@@ -246,7 +246,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
@@ -260,9 +260,9 @@
     "featured_collection_JrJFGn": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>Our hyperpigmentation products <\/strong>",
-        "heading_size": "h1",
-        "description": "<p>Some really relevant products that you can use.<\/p>",
+        "title": "<strong>Our hyperpigmentation products </strong>",
+        "heading_size": "h2",
+        "description": "<p>Some really relevant products that you can use.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "{{ metaobject.concern_products.value }}",
@@ -272,7 +272,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
-        "color_scheme": "",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -306,19 +306,19 @@
         "text_fcUcN7": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>"
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
           }
         },
         "text_taGmzC": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<\/p><ul><li>Curabitur rhoncus semper ipsum.<\/li><li>Nunc in justo auctor, dictum est vel.Luctus augue.<\/li><li>Interdum et malesuada.<\/li><\/ul>"
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><ul><li>Curabitur rhoncus semper ipsum.</li><li>Nunc in justo auctor, dictum est vel.Luctus augue.</li><li>Interdum et malesuada.</li></ul>"
           }
         },
         "text_NLnpmN": {
           "type": "text",
           "settings": {
-            "text": "<p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>"
+            "text": "<p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
           }
         }
       },
@@ -345,9 +345,9 @@
         "column_9AaxEe": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hyperpigmentation.png",
+            "image": "shopify://shop_images/hyperpigmentation.png",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -355,9 +355,9 @@
         "column_mLcXKm": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/person.png",
+            "image": "shopify://shop_images/person.png",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -365,11 +365,11 @@
         "column_8TjmjY": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
+            "image": "shopify://shop_images/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
-            "link": ""
+            "link": "shopify://blogs/blog"
           }
         }
       },
@@ -401,9 +401,9 @@
         "column_TeH9Qd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
+            "image": "shopify://shop_images/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -411,9 +411,9 @@
         "column_gAfnbb": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hyperpigmentation.png",
+            "image": "shopify://shop_images/hyperpigmentation.png",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -421,9 +421,9 @@
         "column_UQpJxV": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/person.png",
+            "image": "shopify://shop_images/person.png",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -459,20 +459,20 @@
           "type": "heading",
           "settings": {
             "heading": "Talk about your brand",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "text_mU4nbB": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
         "button_KDiXhb": {
           "type": "button",
           "settings": {
             "button_label": "Button label",
-            "button_link": "shopify:\/\/collections\/anti-ageing",
+            "button_link": "shopify://collections/anti-ageing",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
