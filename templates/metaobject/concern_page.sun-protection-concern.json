@@ -552,6 +552,29 @@
         "padding_top": 32,
         "padding_bottom": 32
       }
+    },
+    "rich_text_CUHwHn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ddd6AR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our technologies",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ddd6AR"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
     }
   },
   "order": [
@@ -560,6 +583,7 @@
     "multicolumn_3aQy7h",
     "image_with_text_Pe4cLC",
     "rich_text_4w8fEB",
+    "rich_text_CUHwHn",
     "slideshow_hiwPRp",
     "featured_collection_JrJFGn",
     "rich_text_H7wnr3",
