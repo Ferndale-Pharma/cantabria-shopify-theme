@@ -233,6 +233,7 @@
         "slide_D4YPt6": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/8898c7d23d6da522488ea44391f20ea8.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
