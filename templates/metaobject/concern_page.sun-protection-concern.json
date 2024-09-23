@@ -281,38 +281,39 @@
         "padding_bottom": 52
       }
     },
-    "multicolumn_dR663W": {
-      "type": "multicolumn",
+    "slideshow_hiwPRp": {
+      "type": "slideshow",
       "blocks": {
-        "column_z6TDVw": {
-          "type": "column",
+        "slide_PrqP9c": {
+          "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/fernblock-leaves.png",
-            "title": "Fernblock® Technology",
-            "text": "<p>A powerful, patented plant-based technology that offers multiple levels of protection against UV radiation and environmental stressors. Is clinically proven to prevent and repair the damage caused by daylight (UVA, UVB, visible light and infrared-A), as well as preventing collagen breakdown, protecting skin cell DNA, preventing pigmentation and protecting the skin’s immune system. </p>",
-            "link_label": "Link",
-            "link": ""
+            "heading": "Fernblock® Technology",
+            "heading_size": "h1",
+            "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer. ",
+            "button_label": "Find out more",
+            "link": "",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "column_z6TDVw"
+        "slide_PrqP9c"
       ],
       "settings": {
-        "title": "Technologies",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "featured_collection_JrJFGn": {
@@ -551,41 +552,6 @@
         "padding_top": 32,
         "padding_bottom": 32
       }
-    },
-    "slideshow_hiwPRp": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_PrqP9c": {
-          "type": "slide",
-          "settings": {
-            "heading": "Fernblock® Technology",
-            "heading_size": "h1",
-            "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer. ",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_PrqP9c"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
     }
   },
   "order": [
@@ -594,12 +560,11 @@
     "multicolumn_3aQy7h",
     "image_with_text_Pe4cLC",
     "rich_text_4w8fEB",
-    "multicolumn_dR663W",
+    "slideshow_hiwPRp",
     "featured_collection_JrJFGn",
     "rich_text_H7wnr3",
     "multicolumn_GgiLEY",
     "multicolumn_VDCjYH",
-    "rich_text_xN8BKM",
-    "slideshow_hiwPRp"
+    "rich_text_xN8BKM"
   ]
 }
