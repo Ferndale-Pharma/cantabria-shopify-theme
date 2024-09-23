@@ -209,6 +209,29 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_WD8i97": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NDmHAN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clinically & Scientifically proven technologies",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NDmHAN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
     "slideshow_dfVbay": {
       "type": "slideshow",
       "blocks": {
@@ -271,6 +294,7 @@
     "featured_collection",
     "collage",
     "multicolumn",
+    "rich_text_WD8i97",
     "slideshow_dfVbay"
   ]
 }
