@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "{{ metaobject.name.value }}",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "text_p4wyK3": {
@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "View Products",
-            "button_link_1": "shopify:\/\/collections\/sun-protection",
+            "button_link_1": "shopify://collections/sun-protection",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -72,14 +72,14 @@
         "heading_X3wfQG": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Sun damage and photoageing<\/strong>",
+            "heading": "<strong>Sun damage and photoageing</strong>",
             "heading_size": "h2"
           }
         },
         "text_WezjGn": {
           "type": "text",
           "settings": {
-            "text": "<p>Sun damage is caused by ultraviolet (UV) radiation from the sun, including UVA, UVB, visible light and infrared-A. It is these rays that lead to sunburn, DNA damage, premature skin ageing and an increased risk of skin cancer. <\/p><p>Photoageing describes the accelerated ageing process of the skin, due to repeated and unprotected sun exposure. This results in fine lines and wrinkles, loss of elasticity, uneven skin tone and hyperpigmentation.<\/p>",
+            "text": "<p>Sun damage is caused by ultraviolet (UV) radiation from the sun, including UVA, UVB, visible light and infrared-A. It is these rays that lead to sunburn, DNA damage, premature skin ageing and an increased risk of skin cancer. </p><p>Photoageing describes the accelerated ageing process of the skin, due to repeated and unprotected sun exposure. This results in fine lines and wrinkles, loss of elasticity, uneven skin tone and hyperpigmentation.</p>",
             "text_style": "body"
           }
         },
@@ -88,7 +88,7 @@
           "disabled": true,
           "settings": {
             "button_label": "Button label",
-            "button_link": "shopify:\/\/collections\/spot-acne-prone-skin",
+            "button_link": "shopify://collections/spot-acne-prone-skin",
             "button_style_secondary": true
           }
         }
@@ -100,7 +100,7 @@
         "button_VgCw8W"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hyperpigmentation-before-after.png",
+        "image": "shopify://shop_images/Hyperpigmentation-before-after.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -121,9 +121,9 @@
         "column_cyFqfy": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/face.png",
+            "image": "shopify://shop_images/face.png",
             "title": "What causes sun damage?",
-            "text": "<p><strong>UVA rays<\/strong> are present all year round, penetrating deep into the skin and causing premature skin ageing and an increased risk of skin cancer.<\/p><p><strong>UVB rays<\/strong> are strongest in the summer months, causing the redness, blisters and pain of sunburn, as well as increasing the risk of cancer.<\/p><p><strong>Visible light<\/strong>, which is emitted from the sun but also includes blue light from digital devices, increases oxidative stress in the skin.<\/p><p><strong>Infrared-A<\/strong> penetrates even deeper than UV radiation, causing damage to the skin’s structure.<\/p>",
+            "text": "<p><strong>UVA rays</strong> are present all year round, penetrating deep into the skin and causing premature skin ageing and an increased risk of skin cancer.</p><p><strong>UVB rays</strong> are strongest in the summer months, causing the redness, blisters and pain of sunburn, as well as increasing the risk of cancer.</p><p><strong>Visible light</strong>, which is emitted from the sun but also includes blue light from digital devices, increases oxidative stress in the skin.</p><p><strong>Infrared-A</strong> penetrates even deeper than UV radiation, causing damage to the skin’s structure.</p>",
             "link_label": "",
             "link": ""
           }
@@ -131,9 +131,9 @@
         "column_Ry3qYb": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/chin.png",
+            "image": "shopify://shop_images/chin.png",
             "title": "Who is at risk?",
-            "text": "<p>Every person, no matter their skin type, is at risk of sun damage. High risk factors include those with fair skin that burns easily, very young or old skin, people living close to the equator or at high altitude, where the ozone layer is low, and those who work outside and are regularly exposed to the sun’s rays. Not using sun protection is also a high risk factor for sun damage and photoageing. <\/p>",
+            "text": "<p>Every person, no matter their skin type, is at risk of sun damage. High risk factors include those with fair skin that burns easily, very young or old skin, people living close to the equator or at high altitude, where the ozone layer is low, and those who work outside and are regularly exposed to the sun’s rays. Not using sun protection is also a high risk factor for sun damage and photoageing. </p>",
             "link_label": "",
             "link": ""
           }
@@ -141,9 +141,9 @@
         "column_cCYqMz": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dermatologist.png",
+            "image": "shopify://shop_images/dermatologist.png",
             "title": "Dermatologists say...",
-            "text": "<p><em>“The best way to prevent sun damage is to wear a high-factor, broad-spectrum sunscreen daily, reducing the risk of skin cancer and slowing skin damage from excessive sun exposure.”<\/em> <\/p><p><strong>Dr Emma Wedgeworth <\/strong><\/p><p>Consultant Dermatologist <\/p>",
+            "text": "<p><em>“The best way to prevent sun damage is to wear a high-factor, broad-spectrum sunscreen daily, reducing the risk of skin cancer and slowing skin damage from excessive sun exposure.”</em> </p><p><strong>Dr Emma Wedgeworth </strong></p><p>Consultant Dermatologist </p>",
             "link_label": "",
             "link": ""
           }
@@ -164,7 +164,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
@@ -192,7 +192,7 @@
         "text_QJLXwU": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
         "button_bhUeBz": {
@@ -209,13 +209,13 @@
         "text_QiPRCt": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>"
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
           }
         },
         "text_QknikM": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p><ul><li>Curabitur rhoncus semper ipsum.<\/li><li>Nunc in justo auctor, dictum est vel.<\/li><li>Luctus augue. Interdum et malesuada.<\/li><\/ul><p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>"
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p><ul><li>Curabitur rhoncus semper ipsum.</li><li>Nunc in justo auctor, dictum est vel.</li><li>Luctus augue. Interdum et malesuada.</li></ul><p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
           }
         }
       },
@@ -243,9 +243,9 @@
         "column_z6TDVw": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fernblock-leaves.png",
+            "image": "shopify://shop_images/fernblock-leaves.png",
             "title": "Fernblock® Technology",
-            "text": "<p>A powerful, patented plant-based technology that offers multiple levels of protection against UV radiation and environmental stressors. Is clinically proven to prevent and repair the damage caused by daylight (UVA, UVB, visible light and infrared-A), as well as preventing collagen breakdown, protecting skin cell DNA, preventing pigmentation and protecting the skin’s immune system. <\/p>",
+            "text": "<p>A powerful, patented plant-based technology that offers multiple levels of protection against UV radiation and environmental stressors. Is clinically proven to prevent and repair the damage caused by daylight (UVA, UVB, visible light and infrared-A), as well as preventing collagen breakdown, protecting skin cell DNA, preventing pigmentation and protecting the skin’s immune system. </p>",
             "link_label": "Link",
             "link": ""
           }
@@ -276,7 +276,7 @@
       "settings": {
         "title": "Daily protection",
         "heading_size": "h1",
-        "description": "<p>Sun protection is the most important step in your daily skincare routine, because no matter the weather, sunlight radiation is present and harmful all year round. The best way to protect the skin from sun damage and photoageing is to apply a high-level, broad-spectrum SPF, every single day. <\/p>",
+        "description": "<p>Sun protection is the most important step in your daily skincare routine, because no matter the weather, sunlight radiation is present and harmful all year round. The best way to protect the skin from sun damage and photoageing is to apply a high-level, broad-spectrum SPF, every single day. </p>",
         "show_description": false,
         "description_style": "body",
         "collection": "{{ metaobject.concern_products.value }}",
@@ -320,19 +320,19 @@
         "text_fcUcN7": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>"
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
           }
         },
         "text_taGmzC": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<\/p><ul><li>Curabitur rhoncus semper ipsum.<\/li><li>Nunc in justo auctor, dictum est vel.Luctus augue.<\/li><li>Interdum et malesuada.<\/li><\/ul>"
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><ul><li>Curabitur rhoncus semper ipsum.</li><li>Nunc in justo auctor, dictum est vel.Luctus augue.</li><li>Interdum et malesuada.</li></ul>"
           }
         },
         "text_NLnpmN": {
           "type": "text",
           "settings": {
-            "text": "<p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>"
+            "text": "<p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
           }
         }
       },
@@ -359,9 +359,9 @@
         "column_9AaxEe": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hyperpigmentation.png",
+            "image": "shopify://shop_images/hyperpigmentation.png",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -369,9 +369,9 @@
         "column_mLcXKm": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/person.png",
+            "image": "shopify://shop_images/person.png",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -379,9 +379,9 @@
         "column_8TjmjY": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
+            "image": "shopify://shop_images/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -415,9 +415,9 @@
         "column_TeH9Qd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
+            "image": "shopify://shop_images/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -425,9 +425,9 @@
         "column_gAfnbb": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hyperpigmentation.png",
+            "image": "shopify://shop_images/hyperpigmentation.png",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -435,9 +435,9 @@
         "column_UQpJxV": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/person.png",
+            "image": "shopify://shop_images/person.png",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -479,14 +479,14 @@
         "text_mU4nbB": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
         "button_KDiXhb": {
           "type": "button",
           "settings": {
             "button_label": "Button label",
-            "button_link": "shopify:\/\/collections\/anti-ageing",
+            "button_link": "shopify://collections/anti-ageing",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
