@@ -369,7 +369,7 @@
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
-            "link": ""
+            "link": "shopify://blogs/blog"
           }
         }
       },
@@ -459,7 +459,7 @@
           "type": "heading",
           "settings": {
             "heading": "Talk about your brand",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "text_mU4nbB": {
