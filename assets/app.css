@@ -51,6 +51,7 @@ svg.icon.icon-arrow path {
 
 a.mega-menu__link.mega-menu__link--level-2 {
   font-weight: 700 !important;
+  margin-right: 1rem;
   --tw-text-opacity: 1;
   color: rgb(35 31 32 / var(--tw-text-opacity));
   font-size: 1.8rem !important;

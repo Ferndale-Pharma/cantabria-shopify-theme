@@ -45,7 +45,7 @@ svg.icon.icon-arrow path {
 
 a.mega-menu__link.mega-menu__link--level-2 {
   @apply twcss-font-bold !important;
-  @apply twcss-text-[#231F20];
+  @apply twcss-text-[#231F20] twcss-mr-4;
   font-size: 1.8rem !important;
 }
 

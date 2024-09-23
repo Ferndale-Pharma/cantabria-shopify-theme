@@ -35,9 +35,9 @@
 .mega-menu__list {
   display: flex;
   flex: 1;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   list-style: none;
-  width: 50%;
 }
 
 .mega-menu__link {
