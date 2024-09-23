@@ -30,8 +30,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-  // ... existing code ...
-
   // Setup search filter for ingredients
   const searchInput = document.getElementById('ingredientsSearch');
   if (searchInput) {
