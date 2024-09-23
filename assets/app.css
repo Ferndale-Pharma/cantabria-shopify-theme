@@ -6,8 +6,8 @@
 .h3,
 .h4,
 .badge,
-h3.inline-richtext,
-h2.inline-richtext,
+.contains-content-container h3,
+.contains-content-container h2,
 .button {
   font-weight: 700 !important;
 }
