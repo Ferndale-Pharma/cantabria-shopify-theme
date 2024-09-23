@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Button label",
-            "button_link_1": "shopify:\/\/collections\/heliocare",
+            "button_link_1": "shopify://collections/heliocare",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -44,7 +44,7 @@
         "buttons_JLFrH9"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Heliocare_61be0d36-18a0-499d-9caf-0bc3cb061b4e.png",
+        "image": "shopify://shop_images/Heliocare_61be0d36-18a0-499d-9caf-0bc3cb061b4e.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -70,7 +70,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -159,31 +159,31 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image.png",
+            "image": "shopify://shop_images/Image.png",
             "title": "",
-            "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.”<\/p><p><strong>Dr. Olivia Falcon<\/strong><\/p>",
+            "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.”</p><p><strong>Dr. Olivia Falcon</strong></p>",
             "link_label": "Read more",
-            "link": "shopify:\/\/pages\/test"
+            "link": "shopify://pages/test"
           }
         },
         "column_qGjQKW": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image.png",
+            "image": "shopify://shop_images/Image.png",
             "title": "",
-            "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.”<\/p><p><strong>Dr. Olivia Falcon<\/strong><\/p>",
+            "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.”</p><p><strong>Dr. Olivia Falcon</strong></p>",
             "link_label": "Read more",
-            "link": "shopify:\/\/pages\/test"
+            "link": "shopify://pages/test"
           }
         },
         "column_84TrPU": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image.png",
+            "image": "shopify://shop_images/Image.png",
             "title": "",
-            "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.”<\/p><p><strong>Dr. Olivia Falcon<\/strong><\/p>",
+            "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.”</p><p><strong>Dr. Olivia Falcon</strong></p>",
             "link_label": "Read more",
-            "link": "shopify:\/\/pages\/test"
+            "link": "shopify://pages/test"
           }
         }
       },
@@ -208,6 +208,61 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "slideshow_dfVbay": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_rqGVNF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Image_52c9f67e-968c-4310-919c-dbf57395e97c.png",
+            "heading": "Fernblock® technology",
+            "heading_size": "h1",
+            "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue.",
+            "button_label": "Find out more",
+            "link": "shopify://blogs/skincare-guides/fernblock-the-next-level-anti-oxidant",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_D4YPt6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/8898c7d23d6da522488ea44391f20ea8.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_rqGVNF",
+        "slide_D4YPt6"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our technologies"
+      }
     }
   },
   "order": [
@@ -215,6 +270,7 @@
     "rich_text",
     "featured_collection",
     "collage",
-    "multicolumn"
+    "multicolumn",
+    "slideshow_dfVbay"
   ]
 }

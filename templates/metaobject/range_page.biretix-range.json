@@ -32,6 +32,7 @@
         "text_RggQnc"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/biretix_range.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -44,22 +45,78 @@
         "show_text_below": true
       }
     },
+    "image_with_text_gDmxyY": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_Eerc3j": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_aNWXxa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_zma3bN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_qi3UgE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "caption_Eerc3j",
+        "heading_aNWXxa",
+        "text_zma3bN",
+        "button_qi3UgE"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/biretix_range_71fbdb72-410e-4f8f-91f5-694f5ed0c282.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
     "featured_collection_qTTAV4": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>Featured collection<\/strong>",
+        "title": "<strong>Title of Section<\/strong>",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sodales eros.<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "{{ metaobject.linked_collection.value }}",
-        "products_to_show": 4,
+        "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -75,6 +132,7 @@
   },
   "order": [
     "image_banner_9qaB4e",
+    "image_with_text_gDmxyY",
     "featured_collection_qTTAV4"
   ]
 }
