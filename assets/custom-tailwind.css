@@ -6,7 +6,8 @@
 .h4,
 .badge,
 h3.inline-richtext,
-h2.inline-richtext {
+h2.inline-richtext,
+.button {
   @apply twcss-font-bold !important;
 }
 
@@ -23,18 +24,30 @@ ol {
   @apply twcss-py-[16px] !important;
 }
 
-.rich-text__text {
-  color: #231f20;
+.link.animate-arrow {
+  @apply twcss-flex twcss-items-center twcss-justify-center;
 }
 
-.link.animate-arrow {
-  display: flex;
-  align-items: center;
+.rich-text__text {
+  color: #231f20;
 }
 
 svg.icon.icon-arrow path {
   stroke-width: 3px;
 }
+/** multi column **/
+.multicolumn-card.content-container {
+  @apply twcss-h-full twcss-flex twcss-flex-col;
+}
+
+.multicolumn-card.content-container > div {
+  @apply twcss-flex twcss-flex-col twcss-h-full;
+}
+
+.multicolumn-card.content-container .multicolumn-card__info .link__wrapper {
+  @apply twcss-mt-auto;
+}
+
 /** Custom styling for Store locator **/
 form#bh-sl-user-location button#scapl-geocode-btn {
   @apply twcss-border twcss-border-solid twcss-border-2 twcss-border-gray-300 twcss-rounded-l-none twcss-mt-0;
