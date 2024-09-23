@@ -115,58 +115,102 @@
         "padding_bottom": 64
       }
     },
-    "multicolumn_BeGBF7": {
+    "multicolumn_3aQy7h": {
       "type": "multicolumn",
       "blocks": {
-        "column_cyFqfy": {
+        "column_fEVE7Y": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/face.png",
-            "title": "What causes sun damage?",
-            "text": "<p><strong>UVA rays</strong> are present all year round, penetrating deep into the skin and causing premature skin ageing and an increased risk of skin cancer.</p><p><strong>UVB rays</strong> are strongest in the summer months, causing the redness, blisters and pain of sunburn, as well as increasing the risk of cancer.</p><p><strong>Visible light</strong>, which is emitted from the sun but also includes blue light from digital devices, increases oxidative stress in the skin.</p><p><strong>Infrared-A</strong> penetrates even deeper than UV radiation, causing damage to the skin’s structure.</p>",
+            "title": "UVA",
+            "text": "<p>UVA rays<strong> </strong>are present all year round, penetrating deep into the skin and causing premature skin ageing and an increased risk of skin cancer.</p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_Ry3qYb": {
+        "column_pXnVVG": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chin.png",
-            "title": "Who is at risk?",
-            "text": "<p>Every person, no matter their skin type, is at risk of sun damage. High risk factors include those with fair skin that burns easily, very young or old skin, people living close to the equator or at high altitude, where the ozone layer is low, and those who work outside and are regularly exposed to the sun’s rays. Not using sun protection is also a high risk factor for sun damage and photoageing. </p>",
+            "title": "UVB",
+            "text": "<p>UVB rays<strong> </strong>are strongest in the summer months, causing the redness, blisters and pain of sunburn, as well as increasing the risk of cancer.</p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_cCYqMz": {
+        "column_FLmb3h": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/dermatologist.png",
-            "title": "Dermatologists say...",
-            "text": "<p><em>“The best way to prevent sun damage is to wear a high-factor, broad-spectrum sunscreen daily, reducing the risk of skin cancer and slowing skin damage from excessive sun exposure.”</em> </p><p><strong>Dr Emma Wedgeworth </strong></p><p>Consultant Dermatologist </p>",
+            "title": "Visible Light",
+            "text": "<p>Visible light, which is emitted from the sun but also includes blue light from digital devices, increases oxidative stress in the skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_g7EGCc": {
+          "type": "column",
+          "settings": {
+            "title": "Infrared-A",
+            "text": "<p>Infrared-A<strong> </strong>penetrates even deeper than UV radiation, causing damage to the skin’s structure.</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_cyFqfy",
-        "column_Ry3qYb",
-        "column_cCYqMz"
+        "column_fEVE7Y",
+        "column_pXnVVG",
+        "column_FLmb3h",
+        "column_g7EGCc"
       ],
       "settings": {
-        "title": "Understanding {{ metaobject.name.value }}",
-        "heading_size": "h2",
+        "title": "What causes sun damage?",
+        "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "center",
-        "background_style": "none",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_Pe4cLC": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6JeqGc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who is it risk?",
+            "heading_size": "h1"
+          }
+        },
+        "text_bpcqXE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every person, no matter their skin type, is at risk of sun damage. High risk factors include those with fair skin that burns easily, very young or old skin, people living close to the equator or at high altitude, where the ozone layer is low, and those who work outside and are regularly exposed to the sun’s rays. Not using sun protection is also a high risk factor for sun damage and photoageing. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6JeqGc",
+        "text_bpcqXE"
+      ],
+      "settings": {
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -360,8 +404,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/hyperpigmentation.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Dermatologists say...",
+            "text": "<p><em>“The best way to prevent sun damage is to wear a high-factor, broad-spectrum sunscreen daily, reducing the risk of skin cancer and slowing skin damage from excessive sun exposure.”</em> </p><p><strong>Dr Emma Wedgeworth </strong></p><p>Consultant Dermatologist </p>",
             "link_label": "",
             "link": ""
           }
@@ -507,18 +551,55 @@
         "padding_top": 32,
         "padding_bottom": 32
       }
+    },
+    "slideshow_hiwPRp": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_PrqP9c": {
+          "type": "slide",
+          "settings": {
+            "heading": "Fernblock® Technology",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_PrqP9c"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
     "image_banner_TWikjP",
     "image_with_text_E9j6Dk",
-    "multicolumn_BeGBF7",
+    "multicolumn_3aQy7h",
+    "image_with_text_Pe4cLC",
     "rich_text_4w8fEB",
     "multicolumn_dR663W",
     "featured_collection_JrJFGn",
     "rich_text_H7wnr3",
     "multicolumn_GgiLEY",
     "multicolumn_VDCjYH",
-    "rich_text_xN8BKM"
+    "rich_text_xN8BKM",
+    "slideshow_hiwPRp"
   ]
 }
