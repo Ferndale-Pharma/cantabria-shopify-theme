@@ -35,7 +35,7 @@
                   role="list"
                 >
                   {%- for childlink in link.links -%}
-                    <li>
+                    <li class="{% if childlink.object.show_image_in_menu != blank %}menu-link__with-image{% else %}menu-link__without-image{% endif %}">
                       <a
                         id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
                         href="{{ childlink.url }}"
@@ -44,10 +44,10 @@
                           aria-current="page"
                         {% endif %}
                       >
-                        {%- if childlink.object.linked_collection != blank -%}
-                          {% assign menu_image_url = childlink.object.linked_collection.value.image | image_url: width: 216 %}
-                          <img src="{{ menu_image_url }}">
-                        {%- endif -%}
+                      {%- if childlink.object.show_image_in_menu != blank -%}
+                        {% assign menu_image_url = childlink.object.linked_collection.value.image | image_url: width: 216 %}
+                        <img src="{{ menu_image_url }}">
+                      {%- endif -%}
                         {{ childlink.title | escape }}
                       </a>
                       {%- if menu_image_url != blank -%}

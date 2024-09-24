@@ -17,8 +17,9 @@
     {%- endif -%}
     {%- if predictive_search.resources.queries.size > 0 or predictive_search.resources.collections.size > 0 -%}
       <div>
-        <h2 id="predictive-search-queries" class="predictive-search__heading text-body caption-with-letter-spacing">
-          {{- 'templates.search.suggestions' | t -}}
+        <h2 id="predictive-search-queries"
+        class="h3">
+           Search Suggestions
         </h2>
         <ul
           id="predictive-search-results-queries-list"
@@ -66,9 +67,9 @@
       <div class="predictive-search__pages-wrapper">
         <h2
           id="predictive-search-pages-desktop"
-          class="predictive-search__heading text-body caption-with-letter-spacing"
+          class="h3"
         >
-          {{- 'templates.search.pages' | t -}}
+          Learn
         </h2>
         <ul
           id="predictive-search-results-pages-list-desktop"
@@ -119,9 +120,9 @@
           <div>
             <h2
               id="predictive-search-products"
-              class="predictive-search__heading text-body caption-with-letter-spacing"
+              class="h3"
             >
-              {{- 'templates.search.products' | t -}}
+              Products <a href="/products/alll" class="link">View all </a>
             </h2>
             <ul
               id="predictive-search-results-products-list"
@@ -172,7 +173,7 @@
           <div class="predictive-search__pages-wrapper">
             <h2
               id="predictive-search-pages-mobile"
-              class="predictive-search__heading text-body caption-with-letter-spacing"
+              class="h3"
             >
               {{- 'templates.search.pages' | t -}}
             </h2>
