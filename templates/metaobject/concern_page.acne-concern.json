@@ -201,49 +201,80 @@
         "padding_bottom": 64
       }
     },
-    "multicolumn_dR663W": {
-      "type": "multicolumn",
+    "rich_text_hRGxBU": {
+      "type": "rich-text",
       "blocks": {
-        "column_MPgDQ6": {
-          "type": "column",
+        "heading_6b9VWR": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/abstract.png",
-            "title": "RetinSphere® Technology",
-            "text": "<p>An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. Encourages skin cell turnover and stimulates collagen production for smoother, firmer skin and improved appearance of fine lines and wrinkles.</p>",
-            "link_label": "Link",
-            "link": "shopify://blogs/expert-advice/what-ingredients-help-spot-prone-skin"
-          }
-        },
-        "column_j4kc9V": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/bubbles.png",
-            "title": "BIOPEP-15",
-            "text": "<p>A clinically-proven, plant-based peptide technology that targets 24 different strains of acne-causing bacteria, <em>Cutibacterium acnes</em>. This incredible botanical-derived ingredient also targets and binds with Lipoteichoic acid (LTA), a major component within the immune response triggered by <em>C. acnes, </em>to help to reduce inflammation.</p>",
-            "link_label": "Link",
-            "link": "shopify://blogs/expert-advice/what-ingredients-help-spot-prone-skin"
+            "heading": "Our technologies",
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "column_MPgDQ6",
-        "column_j4kc9V"
+        "heading_6b9VWR"
       ],
       "settings": {
-        "title": "Technologies",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "full_width": true,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 32
+      }
+    },
+    "slideshow_yiTmXC": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_EH4LBb": {
+          "type": "slide",
+          "settings": {
+            "heading": "RetinSphere® Technology",
+            "heading_size": "h1",
+            "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. ",
+            "button_label": "Find out more",
+            "link": "",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_JmdAmx": {
+          "type": "slide",
+          "settings": {
+            "heading": "BIOPEP-15",
+            "heading_size": "h1",
+            "subheading": "An incredible botanical-derived technology that fights against the main acne-causing bacteria <em>Cutibacterium acnes</em> and helps to reduce inflammation.",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_EH4LBb",
+        "slide_JmdAmx"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our technologies"
       }
     },
     "featured_collection_3XdCid": {
@@ -435,7 +466,8 @@
     "image_with_text_E9j6Dk",
     "multicolumn_BeGBF7",
     "rich_text_4w8fEB",
-    "multicolumn_dR663W",
+    "rich_text_hRGxBU",
+    "slideshow_yiTmXC",
     "featured_collection_3XdCid",
     "multicolumn_GgiLEY",
     "multicolumn_VDCjYH",
