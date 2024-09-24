@@ -45,8 +45,32 @@ svg.icon.icon-arrow path {
 
 a.mega-menu__link.mega-menu__link--level-2 {
   @apply twcss-font-bold !important;
-  @apply twcss-text-[#231F20] twcss-mr-4;
+  @apply twcss-text-[#231F20];
   font-size: 1.8rem !important;
+}
+
+li.menu-link__with-image {
+  @apply twcss-mr-4;
+}
+
+li.menu-link__without-image {
+  @apply twcss-px-16;
+}
+
+.header__icon .icon.icon-search {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.header__icon--search {
+  @apply twcss-mr-4;
+}
+
+.modal__content {
+  @apply md:twcss-bg-transparent !important;
+}
+
+#predictive-search-results {
 }
 
 /** multi column **/
