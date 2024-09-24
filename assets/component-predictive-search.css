@@ -73,10 +73,6 @@ predictive-search[loading] .predictive-search {
   gap: 2rem;
 }
 
-.predictive-search__result-group:first-child .predictive-search__pages-wrapper {
-  display: none;
-}
-
 .predictive-search__heading {
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
   margin: 0 2rem;
