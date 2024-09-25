@@ -8,9 +8,9 @@
   <div id="predictive-search-results" role="listbox">
     <div id="predictive-search-results-groups-wrapper" class="predictive-search__results-groups-wrapper">
       <div class="predictive-search__result-group predictive-search__suggestions">
-        <h2 id="predictive-search-queries" class="h3">
+        <h3 id="predictive-search-queries" class="h3">
           Search Suggestions
-        </h2>
+        </h3>
         {%- if predictive_search.resources.queries.size > 0 or predictive_search.resources.collections.size > 0 -%}
           <ul id="predictive-search-results-queries-list" class="predictive-search__results-list list-unstyled" role="group" aria-labelledby="predictive-search-queries">
             {%- for query in predictive_search.resources.queries -%}
@@ -40,9 +40,9 @@
       </div>
       <div class="predictive-search__result-group predictive-search__products">
         <div>
-          <h2 id="predictive-search-products" class="h3">
-            Products <a href="/collections/all-products" class="link">View all </a>
-          </h2>
+          <h3 id="predictive-search-products">
+            <span class="h3">Products</span> <a href="/collections/all-products" class="link">View all </a>
+          </h3>
           {%- if predictive_search.resources.products.size > 0 -%}
             <ul id="predictive-search-results-products-list" class="predictive-search__results-list list-unstyled" role="group" aria-labelledby="predictive-search-products">
               {%- for product in predictive_search.resources.products -%}
@@ -76,9 +76,9 @@
       </div>
       <div class="predictive-search__result-grou predictive-search__learn">
         <div class="predictive-search__pages-wrapper">
-          <h2 id="predictive-search-pages-desktop" class="h3">
+          <h3 id="predictive-search-pages-desktop" class="h3">
             Learn
-          </h2>
+          </h3>
           {%- if predictive_search.resources.articles.size > 0 or predictive_search.resources.pages.size > 0 -%}
           <ul id="predictive-search-results-pages-list-desktop" class="predictive-search__results-list list-unstyled" role="group" aria-labelledby="predictive-search-pages-desktop">
             {%- for page in predictive_search.resources.pages -%}
@@ -86,6 +86,7 @@
                 <a href="{{ page.url }}" class="predictive-search__item link link--text" tabindex="-1">
                   <div class="predictive-search__item-content predictive-search__item-content--centered">
                     <p class="predictive-search__item-heading h5">{{ page.title | escape }}</p>
+                    <span class="link">Read Page</span>
                   </div>
                 </a>
               </li>
@@ -95,6 +96,7 @@
                 <a href="{{ article.url }}" class="predictive-search__item link link--text" tabindex="-1">
                   <div class="predictive-search__item-content predictive-search__item-content--centered">
                     <p class="predictive-search__item-heading h5">{{ article.title | escape }}</p>
+                    <span class="link">Read Article</span>
                   </div>
                 </a>
               </li>
