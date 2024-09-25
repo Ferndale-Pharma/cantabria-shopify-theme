@@ -7,7 +7,7 @@
   %}
   <div id="predictive-search-results" role="listbox">
     <div id="predictive-search-results-groups-wrapper" class="predictive-search__results-groups-wrapper">
-      <div class="predictive-search__result-group">
+      <div class="predictive-search__result-group predictive-search__suggestions">
         <h2 id="predictive-search-queries" class="h3">
           Search Suggestions
         </h2>
@@ -38,7 +38,7 @@
             <p>No Suggestions</p>
         {%- endif -%}
       </div>
-      <div class="predictive-search__result-group">
+      <div class="predictive-search__result-group predictive-search__products">
         <div>
           <h2 id="predictive-search-products" class="h3">
             Products <a href="/collections/all-products" class="link">View all </a>
@@ -49,19 +49,21 @@
                 <li id="predictive-search-option-product-{{ forloop.index }}" class="predictive-search__list-item" role="option" aria-selected="false">
                   <a href="{{ product.url }}" class="predictive-search__item predictive-search__item--link-with-thumbnail link link--text" tabindex="-1">
                     {%- if product.featured_media != blank -%}
-                      <img class="predictive-search__image" src="{{ product.featured_media | image_url: width: 150 }}" alt="{{ product.featured_media.alt | escape }}" width="50" height="{{ 50 | divided_by: product.featured_media.preview_image.aspect_ratio }}">
+                      <img class="predictive-search__image" src="{{ product.featured_media | image_url: width: 350 }}" alt="{{ product.featured_media.alt | escape }}" width="400" height="{{ 200 | divided_by: product.featured_media.preview_image.aspect_ratio }}">
                     {%- endif -%}
                     <div class="predictive-search__item-content{% unless settings.predictive_search_show_vendor or settings.predictive_search_show_price %} predictive-search__item-content--centered{% endunless %}">
+                      {{ product.metafields.custom.range.value | inspect }}
                       {%- if settings.predictive_search_show_vendor -%}
                         <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
                         <div class="predictive-search__item-vendor caption-with-letter-spacing">
-                          {{ product.vendor }}
+
                         </div>
                       {%- endif -%}
                       <p class="predictive-search__item-heading h5">{{ product.title | escape }}</p>
                       {%- if settings.predictive_search_show_price -%}
                         {% render 'price', product: product, use_variant: true, show_badges: false %}
                       {%- endif -%}
+                      <span class="link">View product</span>
                     </div>
                   </a>
                 </li>
@@ -72,7 +74,7 @@
           {%- endif -%}
         </div>
       </div>
-      <div class="predictive-search__result-group">
+      <div class="predictive-search__result-grou predictive-search__learn">
         <div class="predictive-search__pages-wrapper">
           <h2 id="predictive-search-pages-desktop" class="h3">
             Learn
