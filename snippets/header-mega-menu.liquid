@@ -46,7 +46,7 @@
                       >
                       {%- if childlink.object.show_image_in_menu != blank -%}
                         {% assign menu_image_url = childlink.object.linked_collection.value.image | image_url: width: 216 %}
-                        <img src="{{ menu_image_url }}">
+                        <img src="{{ menu_image_url }}" class="hover:twcss-opacity-75">
                       {%- endif -%}
                         {{ childlink.title | escape }}
                       </a>
