@@ -121,6 +121,7 @@
         "column_fEVE7Y": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/UVA-icon.png",
             "title": "UVA",
             "text": "<p>UVA rays<strong> </strong>are present all year round, penetrating deep into the skin and causing premature skin ageing and an increased risk of skin cancer.</p>",
             "link_label": "",
@@ -130,6 +131,7 @@
         "column_pXnVVG": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/UVB-icon.png",
             "title": "UVB",
             "text": "<p>UVB rays<strong> </strong>are strongest in the summer months, causing the redness, blisters and pain of sunburn, as well as increasing the risk of cancer.</p>",
             "link_label": "",
@@ -139,6 +141,7 @@
         "column_FLmb3h": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/visible-light-icon.png",
             "title": "Visible Light",
             "text": "<p>Visible light, which is emitted from the sun but also includes blue light from digital devices, increases oxidative stress in the skin.</p>",
             "link_label": "",
@@ -148,6 +151,7 @@
         "column_g7EGCc": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/infrared-a-icon.png",
             "title": "Infrared-A",
             "text": "<p>Infrared-A<strong> </strong>penetrates even deeper than UV radiation, causing damage to the skin’s structure.</p>",
             "link_label": "",
@@ -164,7 +168,7 @@
       "settings": {
         "title": "What causes sun damage?",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "center",
@@ -279,6 +283,29 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "rich_text_CUHwHn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ddd6AR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our technologies",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ddd6AR"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 32
       }
     },
     "slideshow_hiwPRp": {
@@ -550,29 +577,6 @@
         "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
         "full_width": true,
         "padding_top": 32,
-        "padding_bottom": 32
-      }
-    },
-    "rich_text_CUHwHn": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_ddd6AR": {
-          "type": "heading",
-          "settings": {
-            "heading": "Our technologies",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_ddd6AR"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 64,
         "padding_bottom": 32
       }
     }
