@@ -29,7 +29,7 @@
             {%- endfor -%}
             {%- for collection in predictive_search.resources.collections -%}
               <li id="predictive-search-option-collection-{{ forloop.index }}" class="predictive-search__list-item" role="option" aria-selected="false">
-                <a href="{{ collection.url }}" class="predictive-search__item link link--text" tabindex="-1">
+                <a href="{{ collection.url }}" class="predictive-search__item link--text" tabindex="-1">
                   <svg class="icon icon-search" aria-hidden="true" focusable="false">
                     <use xlink:href="#icon-search">
                   </svg>
@@ -47,7 +47,7 @@
       <div class="predictive-search__result-group predictive-search__products">
         <div>
           <h3 id="predictive-search-products">
-            <span class="h3">Products</span> <a href="/collections/all-products" class="link">View all </a>
+            <span class="h3">Products</span><a href="/search?q={{- predictive_search.terms -}}&type=product" class="twcss-ml-8 link link--text h5">See all </a>
           </h3>
           {%- if predictive_search.resources.products.size > 0 -%}
             <ul id="predictive-search-results-products-list" class="predictive-search__results-list list-unstyled" role="group" aria-labelledby="predictive-search-products">
