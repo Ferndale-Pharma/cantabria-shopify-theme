@@ -43,10 +43,6 @@ https://flickity.metafizzy.co
   background: #fff;
   cursor: pointer;
 }
-.flickity-button:focus {
-  outline: 0;
-  box-shadow: 0 0 0 5px #19f;
-}
 .flickity-button:active {
   opacity: 0.6;
 }
