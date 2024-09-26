@@ -78,7 +78,7 @@ li.menu-link__without-image {
   @apply twcss-h-full twcss-flex twcss-flex-col;
 }
 
-.multicolumn-card.content-container > div {
+.multicolumn-card.content-container .multicolumn-card__info {
   @apply twcss-flex twcss-flex-col twcss-h-full;
 }
 
@@ -232,10 +232,6 @@ form#bh-sl-user-location .scasl-search-btn {
 /** Slider buttons **/
 .slider-buttons {
   @apply twcss-flex twcss-gap-4;
-}
-
-.slider-counter.caption {
-  @apply twcss-hidden;
 }
 
 .slider-buttons button {
