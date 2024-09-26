@@ -293,6 +293,7 @@
         "slide_6Mj87x": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Image_52c9f67e-968c-4310-919c-dbf57395e97c.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -310,6 +311,7 @@
         "slide_A44Mh7": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Image_d77a233c-4061-496d-85d8-3e6cf08f012f.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
