@@ -1099,20 +1099,16 @@ ol {
   margin-right: 0.5rem;
 }
 
+.twcss-ml-8 {
+  margin-left: 2rem;
+}
+
 .twcss-mt-0 {
   margin-top: 0px;
 }
 
 .twcss-mt-8 {
   margin-top: 2rem;
-}
-
-.twcss-ml-2 {
-  margin-left: 0.5rem;
-}
-
-.twcss-ml-8 {
-  margin-left: 2rem;
 }
 
 .twcss-flex {
