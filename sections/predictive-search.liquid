@@ -16,6 +16,9 @@
             {%- for query in predictive_search.resources.queries -%}
               <li id="predictive-search-option-query-{{ forloop.index }}" class="predictive-search__list-item" role="option" aria-selected="false">
                 <a href="{{ query.url }}" class="predictive-search__item link link--text" tabindex="-1">
+                  <svg class="icon icon-search" aria-hidden="true" focusable="false">
+                    <use xlink:href="#icon-search">
+                  </svg>
                   <div class="predictive-search__item-content predictive-search__item-content--centered">
                     <p class="predictive-search__item-heading predictive-search__item-query-result h5" aria-label="{{ query.text }}">
                       {{ query.styled_text }}
@@ -27,6 +30,9 @@
             {%- for collection in predictive_search.resources.collections -%}
               <li id="predictive-search-option-collection-{{ forloop.index }}" class="predictive-search__list-item" role="option" aria-selected="false">
                 <a href="{{ collection.url }}" class="predictive-search__item link link--text" tabindex="-1">
+                  <svg class="icon icon-search" aria-hidden="true" focusable="false">
+                    <use xlink:href="#icon-search">
+                  </svg>
                   <div class="predictive-search__item-content predictive-search__item-content--centered">
                     <p class="predictive-search__item-heading h5">{{ collection.title | escape }}</p>
                   </div>
@@ -59,7 +65,7 @@
 
                         </div>
                       {%- endif -%}
-                      <p class="predictive-search__item-heading h5">{{ product.title | escape }}</p>
+                      <p class="predictive-search__item-heading h3">{{ product.title | escape }}</p>
                       {%- if settings.predictive_search_show_price -%}
                         {% render 'price', product: product, use_variant: true, show_badges: false %}
                       {%- endif -%}
