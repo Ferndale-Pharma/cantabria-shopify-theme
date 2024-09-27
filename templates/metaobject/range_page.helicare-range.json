@@ -32,6 +32,7 @@
         "text_RggQnc"
       ],
       "settings": {
+        "image": "shopify://shop_images/Heliocare_61be0d36-18a0-499d-9caf-0bc3cb061b4e.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -76,15 +77,15 @@
         "button_Gy8FBp"
       ],
       "settings": {
-        "image": "shopify://shop_images/Image_44dc43db-3185-44ce-b7f8-44d511c9ca2d.png",
-        "height": "adapt",
+        "image": "shopify://shop_images/ProductandBox-ProductImages-1100x1530-PediatricsMineral.jpg",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-3",
-        "color_scheme": "scheme-3",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 64,
