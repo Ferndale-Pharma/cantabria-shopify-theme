@@ -133,13 +133,27 @@
         "text_LUCh8q": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
+          }
+        },
+        "text_yieKYC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><ul><li>Curabitur rhoncus semper ipsum.</li><li>Nunc in justo auctor, dictum est vel.</li><li>Luctus augue. Interdum et malesuada.</li></ul>"
+          }
+        },
+        "text_aAENyi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
           }
         }
       },
       "block_order": [
         "heading_PpNfBL",
-        "text_LUCh8q"
+        "text_LUCh8q",
+        "text_yieKYC",
+        "text_aAENyi"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -149,12 +163,131 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "collage_zFJ9RX": {
+      "type": "collage",
+      "blocks": {
+        "image_iCJGda": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Image_b778c850-95ae-42c2-81d8-4132521ea152.png"
+          }
+        },
+        "image_3tCpmr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Image_68e7b212-5b65-426f-bd2b-7acaf8df9c16.png"
+          }
+        },
+        "video_GKXPyV": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video"
+          }
+        }
+      },
+      "block_order": [
+        "image_iCJGda",
+        "image_3tCpmr",
+        "video_GKXPyV"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_fUzyzm": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_AWm7ky": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ND66wB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YrAVkU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RibJMh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Pg7XCK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_AWm7ky",
+        "column_ND66wB",
+        "column_YrAVkU",
+        "column_RibJMh",
+        "column_Pg7XCK"
+      ],
+      "settings": {
+        "title": "Stockists",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "image_banner_9qaB4e",
     "image_with_text_48BKmX",
     "featured_collection_qTTAV4",
-    "rich_text_xgjXYr"
+    "rich_text_xgjXYr",
+    "collage_zFJ9RX",
+    "multicolumn_fUzyzm"
   ]
 }
