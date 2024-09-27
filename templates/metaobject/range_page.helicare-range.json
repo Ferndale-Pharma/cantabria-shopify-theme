@@ -15,7 +15,7 @@
         "heading_EG6cQt": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>The <\/strong><strong>{{ metaobject.name.value }}<\/strong><strong> Range<\/strong>",
+            "heading": "<strong>The </strong><strong>{{ metaobject.name.value }}</strong><strong> Range</strong>",
             "heading_size": "h1"
           }
         },
@@ -47,19 +47,19 @@
     "featured_collection_qTTAV4": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>Featured collection<\/strong>",
+        "title": "Title of section",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sodales eros.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "{{ metaobject.linked_collection.value }}",
-        "products_to_show": 4,
+        "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -71,10 +71,41 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_xgjXYr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PpNfBL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_LUCh8q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PpNfBL",
+        "text_LUCh8q"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "image_banner_9qaB4e",
-    "featured_collection_qTTAV4"
+    "featured_collection_qTTAV4",
+    "rich_text_xgjXYr"
   ]
 }
