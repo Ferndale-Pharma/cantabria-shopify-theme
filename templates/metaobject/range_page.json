@@ -171,12 +171,52 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "collage_BepK8n": {
+      "type": "collage",
+      "blocks": {
+        "image_JhFang": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Image_68e7b212-5b65-426f-bd2b-7acaf8df9c16.png"
+          }
+        },
+        "image_JayM8E": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Image_b778c850-95ae-42c2-81d8-4132521ea152.png"
+          }
+        },
+        "video_i9qDy6": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video"
+          }
+        }
+      },
+      "block_order": [
+        "image_JhFang",
+        "image_JayM8E",
+        "video_i9qDy6"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "image_banner_9qaB4e",
     "image_with_text_3RMrKq",
     "featured_collection_qTTAV4",
-    "rich_text_BeHYrm"
+    "rich_text_BeHYrm",
+    "collage_BepK8n"
   ]
 }
