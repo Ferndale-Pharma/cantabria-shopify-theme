@@ -298,7 +298,7 @@
       "settings": {
         "layout": "grid",
         "slide_height": "medium",
-        "slider_visual": "None",
+        "slider_visual": "none",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
