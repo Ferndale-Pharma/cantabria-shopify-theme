@@ -296,7 +296,7 @@
         "slide_Ukfd37"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "medium",
         "slider_visual": "None",
         "auto_rotate": false,
