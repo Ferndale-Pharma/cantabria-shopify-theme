@@ -33,7 +33,7 @@
   aria-label="{{ section.settings.accessibility_info | escape }}"
 >
   {%- if section.settings.auto_rotate and section.blocks.size > 1 -%}
-    <div class="slideshow__controls slideshow__controls--top slider-buttons{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
+    <div class="slideshow__controls-{{ section.id }} slideshow__controls slideshow__controls--top slider-buttons{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
       <button
         type="button"
         class="slider-button slider-button--prev"
@@ -177,7 +177,7 @@
   </div>
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
-    <div class="slideshow__controls slider-buttons{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
+    <div class="slideshow__controls-{{ section.id }} slideshow__controls slider-buttons{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
       <button
         type="button"
         class="slider-button slider-button--prev"
@@ -239,18 +239,34 @@
   document.addEventListener('DOMContentLoaded', function() {
     var elem = document.querySelector('.cl-slideshow');
     var flkty = new Flickity(elem, {
-      // options
       cellSelector: '.cl-slideshow__slide',
       wrapAround: true,
-      setGallerySize: false
-      // additional options can be added here
+      setGallerySize: false,
+      prevNextButtons: false, // Disable default prev/next buttons
+      pageDots: false // Disable default dots
     });
+
+    // Custom previous button
+    var prevButton = document.querySelector('.slideshow__controls-{{ section.id }} .slider-button--prev');
+    if (prevButton) {
+      prevButton.addEventListener('click', function() {
+        flkty.previous();
+      });
+    } else {
+      console.error('Previous button not found for slider ID #CL-Slider-{{ section.id }}');
+    }
+
+    // Custom next button
+    var nextButton = document.querySelector('.slideshow__controls-{{ section.id }} .slider-button--next');
+    if (nextButton) {
+      nextButton.addEventListener('click', function() {
+        flkty.next();
+      });
+    } else {
+      console.error('Next button not found for slider ID #CL-Slider-{{ section.id }}');
+    }
   });
 </script>
-
-{%- if request.design_mode -%}
-  <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
-{%- endif -%}
 
 {% schema %}
 {
