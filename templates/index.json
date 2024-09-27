@@ -287,13 +287,12 @@
         "accessibility_info": "Slideshow about our technologies"
       }
     },
-    "cl_slideshow_pJWLLi": {
+    "cl_slideshow_k7Cwe6": {
       "type": "cl-slideshow",
       "blocks": {
-        "slide_6Mj87x": {
+        "slide_GQeYgj": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Image_52c9f67e-968c-4310-919c-dbf57395e97c.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -308,10 +307,9 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_A44Mh7": {
+        "slide_jFXyMQ": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Image_d77a233c-4061-496d-85d8-3e6cf08f012f.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -328,12 +326,12 @@
         }
       },
       "block_order": [
-        "slide_6Mj87x",
-        "slide_A44Mh7"
+        "slide_GQeYgj",
+        "slide_jFXyMQ"
       ],
       "settings": {
         "layout": "grid",
-        "slide_height": "small",
+        "slide_height": "medium",
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
@@ -351,6 +349,6 @@
     "multicolumn",
     "rich_text_WD8i97",
     "slideshow_dfVbay",
-    "cl_slideshow_pJWLLi"
+    "cl_slideshow_k7Cwe6"
   ]
 }
