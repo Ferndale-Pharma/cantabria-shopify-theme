@@ -351,7 +351,7 @@
         "slide_jFXyMQ"
       ],
       "settings": {
-        "layout": "grid",
+        "layout": "full_bleed",
         "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
