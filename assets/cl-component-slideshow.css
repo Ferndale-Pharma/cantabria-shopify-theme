@@ -10,6 +10,7 @@ cl-slideshow-component .cl-slideshow.banner {
   margin: 0;
   gap: 0;
   overflow-y: hidden;
+  box-shadow: none;
 }
 
 .cl-slideshow__slide {
