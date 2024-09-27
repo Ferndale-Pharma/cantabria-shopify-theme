@@ -256,6 +256,16 @@
       console.error('Previous button not found for slider ID #CL-Slider-{{ section.id }}');
     }
 
+        // Custom dot controls if applicable
+    var dotButtons = document.querySelectorAll('.slideshow__controls-{{ section.id }} .slider-counter__link');
+    if(dotButtons){
+        dotButtons.forEach(function(button, index) {
+        button.addEventListener('click', function() {
+          flkty.select(index);
+        });
+      });
+    }
+
     // Custom next button
     var nextButton = document.querySelector('.slideshow__controls-{{ section.id }} .slider-button--next');
     if (nextButton) {
