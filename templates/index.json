@@ -290,9 +290,28 @@
     "cl_slideshow_k7Cwe6": {
       "type": "cl-slideshow",
       "blocks": {
+        "slide_y4RxgA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Image_52c9f67e-968c-4310-919c-dbf57395e97c.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_GQeYgj": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Image_d77a233c-4061-496d-85d8-3e6cf08f012f.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -310,6 +329,7 @@
         "slide_jFXyMQ": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/8898c7d23d6da522488ea44391f20ea8.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -326,6 +346,7 @@
         }
       },
       "block_order": [
+        "slide_y4RxgA",
         "slide_GQeYgj",
         "slide_jFXyMQ"
       ],
