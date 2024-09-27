@@ -327,3 +327,8 @@ form#bh-sl-user-location .scasl-search-btn {
 .newsletter__wrapper .newsletter__right {
   @apply md:twcss-basis-1/2;
 }
+
+/** Slideshow **/
+.slideshow__controls {
+  @apply twcss-border-none !important;
+}
