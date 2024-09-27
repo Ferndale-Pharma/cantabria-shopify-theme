@@ -466,6 +466,12 @@ form#bh-sl-user-location .scasl-search-btn {
   }
 }
 
+/** Slideshow **/
+
+.slideshow__controls {
+  border-style: none !important;
+}
+
 /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
 
 /*
