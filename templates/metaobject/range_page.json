@@ -148,13 +148,20 @@
           "settings": {
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><ul><li>Curabitur rhoncus semper ipsum.</li><li>Nunc in justo auctor, dictum est vel.</li><li>Luctus augue. Interdum et malesuada.</li></ul>"
           }
+        },
+        "text_ANPeiR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
+          }
         }
       },
       "block_order": [
         "heading_pm4D9J",
         "caption_ydpeyT",
         "text_BRdeJd",
-        "text_qFHVRc"
+        "text_qFHVRc",
+        "text_ANPeiR"
       ],
       "settings": {
         "desktop_content_position": "center",
