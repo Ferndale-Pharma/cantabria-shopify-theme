@@ -23,14 +23,14 @@
         "heading_hAQQBe": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Find a stockist<\/strong>",
+            "heading": "<strong>Find a stockist</strong>",
             "heading_size": "h1"
           }
         },
         "text_kf6V9k": {
           "type": "text",
           "settings": {
-            "text": "<p>Cantabria Labs products are also available from selected approved online retailers and Professional Skin Clinics across the UK.<\/p>"
+            "text": "<p>Cantabria Labs products are also available from selected approved online retailers and Professional Skin Clinics across the UK.</p>"
           }
         }
       },
@@ -60,7 +60,7 @@
         "text_aNhDNN": {
           "type": "text",
           "settings": {
-            "text": "<p>Cantabria Labs products are also available to buy online from the following official retail partners:<\/p>"
+            "text": "<p>Cantabria Labs products are also available to buy online from the following official retail partners:</p>"
           }
         }
       },
@@ -83,27 +83,27 @@
         "column_RNj9xH": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/newyork.png",
+            "image": "shopify://shop_images/newyork.png",
             "title": "",
             "text": "",
             "link_label": "Look Fantastic",
-            "link": "https:\/\/www.lookfantastic.com\/"
+            "link": "https://www.lookfantastic.com/"
           }
         },
         "column_mcxgj4": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vogue.png",
+            "image": "shopify://shop_images/vogue.png",
             "title": "",
             "text": "",
             "link_label": "Beauty Bay",
-            "link": "https:\/\/www.beautybay.com\/"
+            "link": "https://www.beautybay.com/"
           }
         },
         "column_bHLPLF": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/newyork.png",
+            "image": "shopify://shop_images/newyork.png",
             "title": "",
             "text": "",
             "link_label": "Just My Look",
@@ -113,7 +113,7 @@
         "column_JftEEH": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vogue.png",
+            "image": "shopify://shop_images/vogue.png",
             "title": "",
             "text": "",
             "link_label": "Face the Future",
@@ -133,7 +133,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
@@ -150,7 +150,7 @@
         "heading_nwV9ya": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Search for a stockist or clinic<\/strong>",
+            "heading": "<strong>Search for a stockist or clinic</strong>",
             "heading_size": "h2"
           }
         }
@@ -171,7 +171,7 @@
       "type": "apps",
       "blocks": {
         "amai_promap_storelocator_page_block_CmnzTP": {
-          "type": "shopify:\/\/apps\/amai-promap\/blocks\/storelocator-page-block\/acff8fd9-34cc-4a4d-98ed-d7fdb5d3605f",
+          "type": "shopify://apps/amai-promap/blocks/storelocator-page-block/acff8fd9-34cc-4a4d-98ed-d7fdb5d3605f",
           "settings": {
           }
         }
@@ -189,7 +189,7 @@
         "heading_ypTtcd": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Interested in becoming a Cantabria Stockist?<\/strong>",
+            "heading": "<strong>Interested in becoming a Cantabria Stockist?</strong>",
             "heading_size": "h2"
           }
         },
@@ -197,7 +197,7 @@
           "type": "button",
           "settings": {
             "button_label": "Find out more",
-            "button_link": "shopify:\/\/pages\/become-a-stockist",
+            "button_link": "shopify://pages/become-a-stockist",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
