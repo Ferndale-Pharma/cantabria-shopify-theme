@@ -358,6 +358,106 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "multicolumn_EPn7gK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bpzjnL": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jdJJMU": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6hVRfc": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bpzjnL",
+        "column_jdJJMU",
+        "column_6hVRfc"
+      ],
+      "settings": {
+        "title": "Learnwith Cantabria Labs",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_ajEfHF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LYkfrn": {
+          "type": "heading",
+          "settings": {
+            "heading": "All About Cantabria Labs",
+            "heading_size": "h1"
+          }
+        },
+        "text_HTbGR6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_jPCTjG": {
+          "type": "button",
+          "settings": {
+            "button_label": "More About Us",
+            "button_link": "shopify://pages/about-cantabria-labs",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_LYkfrn",
+        "text_HTbGR6",
+        "button_jPCTjG"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_d77a233c-4061-496d-85d8-3e6cf08f012f.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -368,6 +468,8 @@
     "multicolumn",
     "rich_text_WD8i97",
     "cl_slideshow_Bdfd6h",
-    "multicolumn_Y9yFp6"
+    "multicolumn_Y9yFp6",
+    "multicolumn_EPn7gK",
+    "image_with_text_ajEfHF"
   ]
 }
