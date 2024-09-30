@@ -511,6 +511,59 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "multicolumn_NeKPxJ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_qBBnmB": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pXVeTF": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tmgBUf": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_qBBnmB",
+        "column_pXVeTF",
+        "column_tmgBUf"
+      ],
+      "settings": {
+        "title": "3 reasons to choose Cantabria Labs",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -524,6 +577,7 @@
     "multicolumn_Y9yFp6",
     "multicolumn_EPn7gK",
     "image_with_text_ajEfHF",
-    "multicolumn_LUcipP"
+    "multicolumn_LUcipP",
+    "multicolumn_NeKPxJ"
   ]
 }
