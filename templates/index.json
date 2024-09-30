@@ -556,11 +556,101 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_DNgG9V": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YdBAyb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/newyork.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CfJpQg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yEBQh8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/newyork.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_YdBAyb",
+        "column_CfJpQg",
+        "column_yEBQh8"
+      ],
+      "settings": {
+        "title": "As seen in",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "newsletter_qHy7Hn": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_Qtpcia": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_nbh67z": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email_form_HHPU7P": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_Qtpcia",
+        "paragraph_nbh67z",
+        "email_form_HHPU7P"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "full_width": true,
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -578,6 +668,8 @@
     "multicolumn_EPn7gK",
     "image_with_text_ajEfHF",
     "multicolumn_LUcipP",
-    "multicolumn_NeKPxJ"
+    "multicolumn_NeKPxJ",
+    "multicolumn_DNgG9V",
+    "newsletter_qHy7Hn"
   ]
 }
