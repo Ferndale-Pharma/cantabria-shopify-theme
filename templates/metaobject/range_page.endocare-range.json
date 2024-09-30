@@ -155,12 +155,36 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "collage_4jzUGM": {
+      "type": "collage",
+      "blocks": {
+        "image_Y4xzN6": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "image_Y4xzN6"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "image_banner_9qaB4e",
     "image_with_text_bTLWD6",
     "featured_collection_qTTAV4",
-    "rich_text_nfE8zx"
+    "rich_text_nfE8zx",
+    "collage_4jzUGM"
   ]
 }
