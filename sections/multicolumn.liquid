@@ -118,6 +118,7 @@
                   </div>
                 </div>
               {%- endif -%}
+              {%- if block.settings.title != blank or block.settings.text != blank or block.settings.link_label != blank -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
                   <h3 class="inline-richtext">{{ block.settings.title }}</h3>
@@ -141,6 +142,7 @@
                   </div>
                 {%- endif -%}
               </div>
+              {%- endif -%}
             </div>
           </li>
         {%- endfor -%}
