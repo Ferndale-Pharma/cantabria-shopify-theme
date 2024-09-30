@@ -159,37 +159,94 @@
     "collage_PRFD3q": {
       "type": "collage",
       "blocks": {
+        "image_6wEtQa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Endocare-Expert-Drops-Illuminating-Serum-Video_4c43fd86-4cf2-4ae4-88e7-9e83b336b6c6.jpg"
+          }
+        },
         "image_np4mtP": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Endocare_Radiance_C_Ferulic_Edafence_Mano_Textura_02.jpg"
           }
         },
-        "product_AHgVyL": {
-          "type": "product",
+        "video_cXVAPN": {
+          "type": "video",
           "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection_UwqJet": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video"
           }
         }
       },
       "block_order": [
+        "image_6wEtQa",
         "image_np4mtP",
-        "product_AHgVyL",
-        "collection_UwqJet"
+        "video_cXVAPN"
       ],
       "settings": {
         "heading": "Multimedia collage",
         "heading_size": "h1",
-        "desktop_layout": "left",
+        "desktop_layout": "right",
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_r6UJcc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YaYfAf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JzB43M": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UCx3hc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_YaYfAf",
+        "column_JzB43M",
+        "column_UCx3hc"
+      ],
+      "settings": {
+        "title": "Stockists",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -200,6 +257,7 @@
     "image_with_text_bTLWD6",
     "featured_collection_qTTAV4",
     "rich_text_nfE8zx",
-    "collage_PRFD3q"
+    "collage_PRFD3q",
+    "multicolumn_r6UJcc"
   ]
 }
