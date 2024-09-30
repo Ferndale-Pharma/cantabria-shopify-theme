@@ -358,46 +358,6 @@
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
-    },
-    "collection_list_KJhW8P": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_PxjUjC": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "biretix"
-          }
-        },
-        "featured_collection_wbhbmY": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "heliocare"
-          }
-        },
-        "featured_collection_xxXqqf": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "neoretin"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_PxjUjC",
-        "featured_collection_wbhbmY",
-        "featured_collection_xxXqqf"
-      ],
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "color_scheme": "scheme-2fdb4257-3deb-4926-b9fc-e6a6a4dc40db",
-        "show_view_all": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
     }
   },
   "order": [
@@ -408,7 +368,6 @@
     "multicolumn",
     "rich_text_WD8i97",
     "cl_slideshow_Bdfd6h",
-    "slideshow_FUheq8",
-    "collection_list_KJhW8P"
+    "slideshow_FUheq8"
   ]
 }
