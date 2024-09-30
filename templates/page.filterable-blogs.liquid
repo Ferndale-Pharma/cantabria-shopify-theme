@@ -1,19 +1,45 @@
 {% layout 'theme' %}
 
-{% assign all_posts = blogs | map: 'articles' | flatten %}
-<div id="blog-posts">
-  {% for post in all_posts %}
-    <div class="blog-post" data-blog-type="{{ post.blog.handle }}">
-      <h2>{{ post.title }}</h2>
-      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-    </div>
-  {% endfor %}
-</div>
+{% comment %} 
+Generate list of mixed articles from all listed blogs, sorted by publish date.
+Add the blog handles you want to include in the output, as many as you need.
+{% endcomment %}
+{% assign all_blogs = "blog,expert-advice,professionals" | split: "," %}
+{% assign article_list = "" | split: "," %}
+{% assign delimiter = "___" %}
+{% for blog_handle in all_blogs %}
+  {%- for item in blogs[blog_handle].articles -%}
+    {% assign identifier = item.published_at | date: "%Y-%m-%d-%H-%M-%S" | append: delimiter | append: item.handle | append: delimiter | append: blog_handle | split: " " %}
+    {% assign article_list = article_list | concat: identifier %}
+  {%- endfor -%}
+{%- endfor -%}
+{% assign article_list = article_list | sort_natural | reverse %}
 
-<button onclick="filterPosts('')">All</button>
-{% for blog in blogs %}
-  <button onclick="filterPosts('{{ blog.handle }}')">{{ blog.title }}</button>
-{% endfor %}
+{% comment %} 
+Create markup for posts 
+{% endcomment %}
+<div class="page-width">
+  <h1 class="h1">{{ page.title }}</h1>
+  {% for blog_handle in all_blogs %}
+    <a class="button" href="/blogs/{{ blog_handle }}">{{ blog_handle | capitalize }}</a>
+  {%- endfor -%}
+  <div class="grid">
+
+  <!-- any container start markup -->
+    {% for identifier in article_list limit:20 %}
+      {% assign identifierParts = identifier | split: delimiter %}
+      {% comment %} Get post from global articles object, using the "handle"/URI {% endcomment %}
+      {% assign item = articles[identifierParts[1]] %}
+      <!-- your per-post markup with variables like item.title, item.url, item.image, etcetera -->
+      <!-- {{ identifier }} -->
+        <div class="card">
+          <h2>{{item.title}}</h2>
+          <span class="label">{{ identifierParts[2] }}</span>
+        </div>
+    {%- endfor -%}
+  <!-- any container end markup -->
+  </div>
+</div>
 
 <script>
 function filterPosts(type) {
