@@ -332,3 +332,7 @@ form#bh-sl-user-location .scasl-search-btn {
 .slideshow__controls {
   @apply twcss-border-none !important;
 }
+
+.button::after {
+  @apply twcss-shadow-none !important;
+}

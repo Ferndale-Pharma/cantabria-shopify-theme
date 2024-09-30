@@ -4,18 +4,18 @@ cl-slideshow-component {
   flex-direction: column;
 }
 
-cl-slideshow-component .cl-slideshow.banner {
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin: 0;
-  gap: 0;
-  overflow-y: hidden;
-  box-shadow: none;
-}
-
 .cl-slideshow__slide {
   padding: 0;
   width: 80%;
   margin-left: 40px;
   height: 100%;
+}
+
+@media screen and (max-width: 749px) {
+  .cl-slideshow {
+    min-height: 320px;
+  }
+  .cl-slideshow__slide {
+    margin-left: 20px;
+  }
 }

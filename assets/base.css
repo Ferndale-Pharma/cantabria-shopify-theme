@@ -1176,6 +1176,11 @@ deferred-media {
   --color-button-text: var(--color-secondary-button-text);
 }
 
+/* Lighten the button */
+.button:hover {
+  background-color: rgba(var(--color-button), 0.8);
+}
+
 .button--tertiary {
   --alpha-button-background: 0;
   --alpha-button-border: 0.2;

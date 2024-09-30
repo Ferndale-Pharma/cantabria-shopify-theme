@@ -115,6 +115,8 @@
       }}
     </div>
   {%- endif -%}
+
+
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
@@ -135,6 +137,7 @@
               class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
               {{ block.shopify_attributes }}
             >
+              
               {%- if block.settings.button_label_1 != blank -%}
                 <a
                   {% if block.settings.button_link_1 == blank %}
@@ -165,7 +168,16 @@
     </div>
   </div>
 </div>
-
+{%- style -%}
+  :root {
+    {% if section.settings.color_scheme.id == 'scheme-1' %}
+      --button-secondary-bg: #8EC2C9;
+      .banner__buttons .button:nth-child(2) {
+        background-color: var(--button-secondary-bg);
+      }
+    {% endif %}
+  }
+{%- endstyle -%}
 {% schema %}
 {
   "name": "t:sections.image-banner.name",
