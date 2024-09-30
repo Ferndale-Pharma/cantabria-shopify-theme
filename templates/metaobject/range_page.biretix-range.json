@@ -15,7 +15,7 @@
         "heading_EG6cQt": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>The <\/strong><strong>{{ metaobject.name.value }}<\/strong><strong> Range<\/strong>",
+            "heading": "<strong>The </strong><strong>{{ metaobject.name.value }}</strong><strong> Range</strong>",
             "heading_size": "h1"
           }
         },
@@ -32,7 +32,7 @@
         "text_RggQnc"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/biretix_range.png",
+        "image": "shopify://shop_images/biretix_range.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -66,7 +66,7 @@
         "text_zma3bN": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>",
             "text_style": "body"
           }
         },
@@ -86,7 +86,7 @@
         "button_qi3UgE"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/biretix_range_71fbdb72-410e-4f8f-91f5-694f5ed0c282.png",
+        "image": "shopify://shop_images/biretix_range_71fbdb72-410e-4f8f-91f5-694f5ed0c282.png",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -104,9 +104,9 @@
     "featured_collection_qTTAV4": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>Title of Section<\/strong>",
+        "title": "<strong>Title of Section</strong>",
         "heading_size": "h2",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sodales eros.<\/p>",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sodales eros.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "{{ metaobject.linked_collection.value }}",
@@ -128,11 +128,168 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_n49MzN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_i6BMdj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_raDx4r": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
+          }
+        },
+        "text_fBAMht": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><ul><li>Curabitur rhoncus semper ipsum.</li><li>Nunc in justo auctor, dictum est vel.</li><li>Luctus augue. Interdum et malesuada.</li></ul><p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_i6BMdj",
+        "text_raDx4r",
+        "text_fBAMht"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "collage_Lf4pCz": {
+      "type": "collage",
+      "blocks": {
+        "image_V6txnT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HandImage-ProductImages-1100x1530-Biretix-Tri-ActiveSpray.jpg"
+          }
+        },
+        "image_qUHNH3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HandImage-ProductImages-1100x1530-Biretix-Tri-ActiveGel.jpg"
+          }
+        },
+        "video_M7E3my": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video"
+          }
+        }
+      },
+      "block_order": [
+        "image_V6txnT",
+        "image_qUHNH3",
+        "video_M7E3my"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_r43h4B": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Xb7mDE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rw3VKw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_c3JDnA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8JGM3L": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YiTmf9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Xb7mDE",
+        "column_rw3VKw",
+        "column_c3JDnA",
+        "column_8JGM3L",
+        "column_YiTmf9"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "image_banner_9qaB4e",
     "image_with_text_gDmxyY",
-    "featured_collection_qTTAV4"
+    "featured_collection_qTTAV4",
+    "rich_text_n49MzN",
+    "collage_Lf4pCz",
+    "multicolumn_r43h4B"
   ]
 }
