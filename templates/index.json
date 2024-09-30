@@ -358,6 +358,46 @@
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "collection_list_KJhW8P": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_PxjUjC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "biretix"
+          }
+        },
+        "featured_collection_wbhbmY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_xxXqqf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_PxjUjC",
+        "featured_collection_wbhbmY",
+        "featured_collection_xxXqqf"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -368,6 +408,7 @@
     "multicolumn",
     "rich_text_WD8i97",
     "cl_slideshow_Bdfd6h",
-    "slideshow_FUheq8"
+    "slideshow_FUheq8",
+    "collection_list_KJhW8P"
   ]
 }
