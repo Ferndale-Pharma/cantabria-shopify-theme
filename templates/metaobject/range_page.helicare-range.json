@@ -277,8 +277,8 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 64
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "multicolumn_hViD4P": {
@@ -355,8 +355,8 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 64
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "newsletter_nVyUck": {
