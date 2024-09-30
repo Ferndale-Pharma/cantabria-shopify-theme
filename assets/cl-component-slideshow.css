@@ -4,6 +4,10 @@ cl-slideshow-component {
   flex-direction: column;
 }
 
+cl-slideshow-component .cl-slideshow.banner {
+  box-shadow: none;
+}
+
 .cl-slideshow__slide {
   padding: 0;
   width: 80%;
