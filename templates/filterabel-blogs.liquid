@@ -1,0 +1,29 @@
+{% layout 'theme' %}
+
+{% assign all_posts = blogs | map: 'articles' | flatten %}
+<div id="blog-posts">
+  {% for post in all_posts %}
+    <div class="blog-post" data-blog-type="{{ post.blog.handle }}">
+      <h2>{{ post.title }}</h2>
+      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+    </div>
+  {% endfor %}
+</div>
+
+<button onclick="filterPosts('')">All</button>
+{% for blog in blogs %}
+  <button onclick="filterPosts('{{ blog.handle }}')">{{ blog.title }}</button>
+{% endfor %}
+
+<script>
+function filterPosts(type) {
+  var posts = document.querySelectorAll('.blog-post');
+  posts.forEach(function(post) {
+    if (type === '' || post.getAttribute('data-blog-type') === type) {
+      post.style.display = 'block';
+    } else {
+      post.style.display = 'none';
+    }
+  });
+}
+</script>
