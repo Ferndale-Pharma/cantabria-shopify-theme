@@ -15,7 +15,7 @@
         "heading_EG6cQt": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>The <\/strong><strong>{{ metaobject.name.value }}<\/strong><strong> Range<\/strong>",
+            "heading": "<strong>The </strong><strong>{{ metaobject.name.value }}</strong><strong> Range</strong>",
             "heading_size": "h1"
           }
         },
@@ -44,16 +44,63 @@
         "show_text_below": true
       }
     },
+    "image_with_text_bTLWD6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7aAg66": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_AYNmBR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_HBTEJm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "shopify://collections/endocare",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_7aAg66",
+        "text_AYNmBR",
+        "button_HBTEJm"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/HandImage-ProductImages-1100x1530-Endocare-RenewalRetinolSerum0.2.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "featured_collection_qTTAV4": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>Featured collection<\/strong>",
+        "title": "<strong>Featured collection</strong>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "{{ metaobject.linked_collection.value }}",
-        "products_to_show": 4,
+        "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -68,13 +115,241 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_nfE8zx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_aVV3f8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_JVKGVy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
+          }
+        },
+        "text_Y3wf8a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><ul><li>Curabitur rhoncus semper ipsum.</li><li>Nunc in justo auctor, dictum est vel.</li><li>Luctus augue. Interdum et malesuada.</li></ul><p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aVV3f8",
+        "text_JVKGVy",
+        "text_Y3wf8a"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "collage_PRFD3q": {
+      "type": "collage",
+      "blocks": {
+        "image_6wEtQa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Endocare-Expert-Drops-Illuminating-Serum-Video_4c43fd86-4cf2-4ae4-88e7-9e83b336b6c6.jpg"
+          }
+        },
+        "image_np4mtP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Endocare_Radiance_C_Ferulic_Edafence_Mano_Textura_02.jpg"
+          }
+        },
+        "video_cXVAPN": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video"
+          }
+        }
+      },
+      "block_order": [
+        "image_6wEtQa",
+        "image_np4mtP",
+        "video_cXVAPN"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_r6UJcc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YaYfAf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JzB43M": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UCx3hc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_YaYfAf",
+        "column_JzB43M",
+        "column_UCx3hc"
+      ],
+      "settings": {
+        "title": "Stockists",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_iTFdEH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_LhwW63": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CkYd33": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CWU34a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LhwW63",
+        "column_CkYd33",
+        "column_CWU34a"
+      ],
+      "settings": {
+        "title": "As seen in",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "newsletter_AwFCKb": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_QXhrey": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_6mXcJA": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email_form_9UiPKc": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_QXhrey",
+        "paragraph_6mXcJA",
+        "email_form_9UiPKc"
+      ],
+      "settings": {
+        "color_scheme": "scheme-c96a5236-5eda-4b29-a1d3-491253493b70",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     }
   },
   "order": [
     "image_banner_9qaB4e",
-    "featured_collection_qTTAV4"
+    "image_with_text_bTLWD6",
+    "featured_collection_qTTAV4",
+    "rich_text_nfE8zx",
+    "collage_PRFD3q",
+    "multicolumn_r6UJcc",
+    "multicolumn_iTFdEH",
+    "newsletter_AwFCKb"
   ]
 }
