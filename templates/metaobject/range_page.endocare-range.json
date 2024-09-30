@@ -156,17 +156,32 @@
         "padding_bottom": 64
       }
     },
-    "collage_4jzUGM": {
+    "collage_PRFD3q": {
       "type": "collage",
       "blocks": {
-        "image_Y4xzN6": {
+        "image_np4mtP": {
           "type": "image",
           "settings": {
+          }
+        },
+        "product_AHgVyL": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection_UwqJet": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
           }
         }
       },
       "block_order": [
-        "image_Y4xzN6"
+        "image_np4mtP",
+        "product_AHgVyL",
+        "collection_UwqJet"
       ],
       "settings": {
         "heading": "Multimedia collage",
@@ -185,6 +200,6 @@
     "image_with_text_bTLWD6",
     "featured_collection_qTTAV4",
     "rich_text_nfE8zx",
-    "collage_4jzUGM"
+    "collage_PRFD3q"
   ]
 }
