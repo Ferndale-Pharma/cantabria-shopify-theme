@@ -363,6 +363,11 @@ ul.collection-list .card__content {
 .article-template__title {
   @apply twcss-font-bold twcss-text-5xl;
 }
+
+.rte img {
+  @apply twcss-border-none !important;
+}
+
 /** Collections **/
 .collection-hero__title {
   @apply twcss-font-bold twcss-text-5xl;
