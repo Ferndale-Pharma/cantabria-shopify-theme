@@ -9,6 +9,24 @@
 */
 {
   "sections": {
+    "button_nav_ry7zxA": {
+      "type": "button-nav",
+      "blocks": {
+        "menu_4Nmw7D": {
+          "type": "menu",
+          "settings": {
+            "menu": "learn"
+          }
+        }
+      },
+      "block_order": [
+        "menu_4Nmw7D"
+      ],
+      "settings": {
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -19,13 +37,6 @@
         "show_author": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "button_nav_ry7zxA": {
-      "type": "button-nav",
-      "settings": {
-        "padding_top": 64,
-        "padding_bottom": 64
       }
     }
   },
