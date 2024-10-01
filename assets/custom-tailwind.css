@@ -366,8 +366,9 @@ ul.collection-list .card__content {
 
 .rte img {
   @apply twcss-border-none !important;
+  @apply twcss-inline-block !important;
+  @apply twcss-py-16;
 }
-
 /** Collections **/
 .collection-hero__title {
   @apply twcss-font-bold twcss-text-5xl;
