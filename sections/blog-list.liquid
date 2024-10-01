@@ -14,10 +14,10 @@
 
 <div class="page-width">
   <div class="blog-nav twcss-pb-16">
-    {% for blog_handle in all_blogs %}
-      <a class="button" href="/blogs/{{ blog_handle }}">{{ blog_handle | capitalize | replace: '-', ' '}}</a>
-    {%- endfor -%}
     <a class="button" href="/pages/ingredients">Ingredeints Gloassary</a>
+    {% for blog_handle in all_blogs %}
+      <a class="button button--secondary" href="/blogs/{{ blog_handle }}">{{ blog_handle | capitalize | replace: '-', ' '}}</a>
+    {%- endfor -%}
   </div>
   <div class="blog-grid">
   <!-- any container start markup -->
@@ -29,7 +29,7 @@
       <!-- {{ identifier }} -->
         <div class="">
           <div class="twcss-relative">
-            <div class="article-card__image media media--hover-effect" style="padding-bottom: {{ 1 | divided_by: item.image.aspect_ratio | times: 100 }}%;">
+            <div class="media twcss-h-[300px]" style="padding-bottom: {{ 1 | divided_by: item.image.aspect_ratio | times: 100 }}%;">
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
               <img
                 srcset="

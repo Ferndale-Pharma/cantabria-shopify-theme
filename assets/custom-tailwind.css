@@ -244,11 +244,8 @@ form#bh-sl-user-location .scasl-search-btn {
 }
 
 /** Product cards **/
-.card__information {
+.product-card-wrapper .card__information {
   @apply twcss-flex twcss-flex-col twcss-justify-between twcss-h-full;
-}
-
-.card__content {
 }
 
 .collection__title {
