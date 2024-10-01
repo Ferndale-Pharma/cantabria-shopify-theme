@@ -514,6 +514,10 @@ ul.collection-list .card__content {
   font-weight: 700;
 }
 
+.rte img {
+  border-style: none !important;
+}
+
 /** Collections **/
 
 .collection-hero__title {
