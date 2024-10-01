@@ -332,11 +332,36 @@ form#bh-sl-user-location .scasl-search-btn {
   @apply twcss-border-none !important;
 }
 
-.button::after {
-  @apply twcss-shadow-none !important;
-}
-
 ul.collection-list .card__information,
 ul.collection-list .card__content {
   @apply twcss-px-0 !important;
+}
+
+/** blogs **/
+.article-template__content {
+  @apply twcss-text-black !important;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    @apply twcss-mb-8;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply twcss-font-bold;
+    @apply twcss-text-black !important;
+  }
+}
+
+.article-template__title {
+  @apply twcss-font-bold twcss-text-5xl;
+}
+/** Collections **/
+.collection-hero__title {
+  @apply twcss-font-bold twcss-text-5xl;
 }
