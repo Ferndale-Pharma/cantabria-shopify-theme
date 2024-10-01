@@ -1,6 +1,61 @@
+<div class=''>
+    <div class=''>
+        {% if section.blocks.size > 0 %}
+            {% for block in section.blocks %}
+                {% if block.settings.menu != blank %}
+                    {% for link in linklists[block.settings.menu].links %}
+                        <a href="{{ link.url }}" class="button button--secondary {% unless forloop.last %} twcss-border-r twcss-border-gray-300 twcss-pr-3 {% endunless %}">{{ link.title }}</a>
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Button Nav",
+    "settings": [
+        {
+            "type": "range",
+            "id": "padding_top",
+            "label": "Padding Top",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "default": 64
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "label": "Padding Bottom",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "default": 64
+
+        }
+    ],
+    "blocks": [
+        {
+            "type": "menu",
+            "name": "Menu Block",
+            "settings": [
+                {
+                    "type": "link_list",
+                    "id": "menu",
+                    "label": "Select Menu",
+                    "info": "Select a menu to display in the pre-header."
+                }
+            ]
+        }
+    ],
+    "presets" [
+        {
+            "name" : "Button nav"
+        }
+    ]
   }
 {% endschema %}
