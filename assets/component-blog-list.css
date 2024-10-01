@@ -6,7 +6,8 @@
 
 .blog-nav {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: center;
-  align-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
 }

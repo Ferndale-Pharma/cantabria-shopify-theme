@@ -244,11 +244,8 @@ form#bh-sl-user-location .scasl-search-btn {
 }
 
 /** Product cards **/
-.card__information {
+.product-card-wrapper .card__information {
   @apply twcss-flex twcss-flex-col twcss-justify-between twcss-h-full;
-}
-
-.card__content {
 }
 
 .collection__title {
@@ -362,6 +359,12 @@ ul.collection-list .card__content {
 
 .article-template__title {
   @apply twcss-font-bold twcss-text-5xl;
+}
+
+.rte img {
+  @apply twcss-border-none !important;
+  @apply twcss-inline-block !important;
+  @apply twcss-py-16;
 }
 /** Collections **/
 .collection-hero__title {
