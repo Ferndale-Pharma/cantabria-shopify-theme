@@ -20,9 +20,17 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "button_nav_ry7zxA": {
+      "type": "button-nav",
+      "settings": {
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
+    "button_nav_ry7zxA",
     "main"
   ]
 }
