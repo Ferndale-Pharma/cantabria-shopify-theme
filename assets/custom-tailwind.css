@@ -344,8 +344,7 @@ ul.collection-list .card__content {
   h2,
   h3,
   h4,
-  h5,
-  p {
+  h5 {
     @apply twcss-mb-8;
   }
   h1,
@@ -355,6 +354,9 @@ ul.collection-list .card__content {
   h5 {
     @apply twcss-font-bold;
     @apply twcss-text-black !important;
+  }
+  p {
+    @apply twcss-mb-4;
   }
 }
 
