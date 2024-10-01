@@ -1,12 +1,6 @@
 {{ 'component-blog-list.css' | asset_url | stylesheet_tag }}
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
 
-{% layout 'theme' %}
-
-{% comment %} 
-Generate list of mixed articles from all listed blogs, sorted by publish date.
-Add the blog handles you want to include in the output, as many as you need.
-{% endcomment %}
 {% assign all_blogs = "blog,expert-advice,professionals,skincare-routines,skincare-guides" | split: "," %}
 {% assign article_list = "" | split: "," %}
 {% assign delimiter = "___" %}
@@ -18,9 +12,6 @@ Add the blog handles you want to include in the output, as many as you need.
 {%- endfor -%}
 {% assign article_list = article_list | sort_natural | reverse %}
 
-{% comment %} 
-Create markup for posts 
-{% endcomment %}
 <div class="page-width">
   <div class="blog-nav twcss-pb-16">
     {% for blog_handle in all_blogs %}
@@ -57,7 +48,6 @@ Create markup for posts
                 width="{{ article.image.width }}"
                 height="{{ article.image.height }}"
               >
-              {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
             </div>
             <span class="twcss-absolute twcss-bottom-4 twcss-left-4 twcss-bg-white twcss-bg-opacity-75 twcss-p-2 twcss-font-bold">{{ identifierParts[2] | capitalize | replace: '-', ' '}}</span>
           </div>
@@ -69,6 +59,32 @@ Create markup for posts
           </div>
         </div>
     {%- endfor -%}
-  <!-- any container end markup -->
   </div>
 </div>
+{% schema %}
+    {
+        "name": "Blog list",
+        "settings": [
+            {
+                "type": "range",
+                "id": "padding_top",
+                "label": "Padding Top",
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "unit": "px",
+                "default": 64
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "label": "Padding Bottom",
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "unit": "px",
+                "default": 64
+            }
+        ]
+    }
+{% endschema %}

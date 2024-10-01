@@ -1177,8 +1177,12 @@ deferred-media {
 }
 
 /* Lighten the button */
-.button:hover {
+.button:hover:not(.button--secondary) {
   background-color: rgba(var(--color-button), 0.8);
+}
+
+.button:hover:not(.button--secondary)::after {
+  box-shadow: 0 0 10px rgba(var(--color-button-shadow), 0.8) !important;
 }
 
 .button--tertiary {
