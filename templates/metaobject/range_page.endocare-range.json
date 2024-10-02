@@ -15,14 +15,14 @@
         "heading_EG6cQt": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>The </strong><strong>{{ metaobject.name.value }}</strong><strong> Range</strong>",
-            "heading_size": "h1"
+            "heading": "<strong>{{ metaobject.name.value }}</strong>",
+            "heading_size": "h0"
           }
         },
         "text_RggQnc": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Innovative anti-ageing skincare, proven by dermatologists.",
             "text_style": "body"
           }
         }
@@ -42,6 +42,36 @@
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "rich_text_w9pUnz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qVeV4W": {
+          "type": "heading",
+          "settings": {
+            "heading": "Target the signs and symptoms of skin ageing",
+            "heading_size": "h1"
+          }
+        },
+        "text_T9yqhc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A dermatological anti-ageing skincare range for smooth, firm and radiant skin. Formulated with gold-standard active ingredients and patented technologies, Endocare is clinically proven to brighten the skin and reduce texture, pigmentation and wrinkles, for visible, radiant results.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qVeV4W",
+        "text_T9yqhc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "image_with_text_bTLWD6": {
@@ -83,40 +113,12 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-3",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-4",
+        "color_scheme": "scheme-4",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 64,
         "padding_bottom": 64
-      }
-    },
-    "featured_collection_qTTAV4": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "<strong>Featured collection</strong>",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "{{ metaobject.linked_collection.value }}",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 32,
-        "padding_bottom": 32
       }
     },
     "rich_text_nfE8zx": {
@@ -156,155 +158,32 @@
         "padding_bottom": 64
       }
     },
-    "collage_PRFD3q": {
-      "type": "collage",
-      "blocks": {
-        "image_6wEtQa": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Endocare-Expert-Drops-Illuminating-Serum-Video_4c43fd86-4cf2-4ae4-88e7-9e83b336b6c6.jpg"
-          }
-        },
-        "image_np4mtP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Endocare_Radiance_C_Ferulic_Edafence_Mano_Textura_02.jpg"
-          }
-        },
-        "video_cXVAPN": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video"
-          }
-        }
-      },
-      "block_order": [
-        "image_6wEtQa",
-        "image_np4mtP",
-        "video_cXVAPN"
-      ],
+    "featured_collection_qTTAV4": {
+      "type": "featured-collection",
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "right",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
+        "title": "<strong>Featured collection</strong>",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "{{ metaobject.linked_collection.value }}",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "multicolumn_r6UJcc": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_YaYfAf": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_JzB43M": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_UCx3hc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_YaYfAf",
-        "column_JzB43M",
-        "column_UCx3hc"
-      ],
-      "settings": {
-        "title": "Stockists",
-        "heading_size": "h1",
-        "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "multicolumn_iTFdEH": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_LhwW63": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_CkYd33": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_CWU34a": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_LhwW63",
-        "column_CkYd33",
-        "column_CWU34a"
-      ],
-      "settings": {
-        "title": "As seen in",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 64
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "newsletter_AwFCKb": {
@@ -344,12 +223,10 @@
   },
   "order": [
     "image_banner_9qaB4e",
+    "rich_text_w9pUnz",
     "image_with_text_bTLWD6",
-    "featured_collection_qTTAV4",
     "rich_text_nfE8zx",
-    "collage_PRFD3q",
-    "multicolumn_r6UJcc",
-    "multicolumn_iTFdEH",
+    "featured_collection_qTTAV4",
     "newsletter_AwFCKb"
   ]
 }
