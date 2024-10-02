@@ -22,7 +22,7 @@
         "text_RggQnc": {
           "type": "text",
           "settings": {
-            "text": "Biretix is a comprehensive, dermatologist proven skincare range designed to purify, treat and care for acne and spot-prone skin. Powered by innovative retinol and antimicrobial technologies, RetinSphere® and BIOPEP-15, Biretix offers skincare solutions for acne-prone skin, rapidly reducing blemishes, preventing future breakouts and promoting a healthier complexion. ",
+            "text": "Biretix is a comprehensive, dermatologist proven skincare range designed to purify, treat and care for acne and spot-prone skin.",
             "text_style": "body"
           }
         },
@@ -70,7 +70,7 @@
         "text_bTDdty": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Powered by innovative retinol and antimicrobial technologies, RetinSphere® and BIOPEP-15, Biretix offers skincare solutions for acne-prone skin, rapidly reducing blemishes, preventing future breakouts and promoting a healthier complexion. </p>"
           }
         }
       },
@@ -329,34 +329,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "featured_collection_qTTAV4": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "<strong>Title of Section</strong>",
-        "heading_size": "h2",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sodales eros.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "{{ metaobject.linked_collection.value }}",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "scheme-3",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_html_NwAPwU": {
       "type": "multicolumn-html",
       "blocks": {
@@ -438,6 +410,34 @@
         "swipe_on_mobile": false,
         "padding_top": 64,
         "padding_bottom": 64
+      }
+    },
+    "featured_collection_qTTAV4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "<strong>Title of Section</strong>",
+        "heading_size": "h2",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sodales eros.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "{{ metaobject.linked_collection.value }}",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-3",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
