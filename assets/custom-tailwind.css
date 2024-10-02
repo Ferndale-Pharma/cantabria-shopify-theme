@@ -243,6 +243,23 @@ form#bh-sl-user-location .scasl-search-btn {
   height: 1.5rem !important;
 }
 
+/** Pagination **/
+.pagination__item,
+.pagination__item.link {
+  @apply twcss-rounded-md twcss-p-4 twcss-border twcss-border-solid twcss-border-gray-300;
+}
+
+a.pagination__item-arrow {
+  @apply twcss-bg-[#D0DEE5] twcss-rounded-md twcss-p-4;
+}
+
+.pagination__item--current {
+  @apply twcss-bg-[#8EC2C9] !important;
+}
+.pagination__item--current::after {
+  @apply twcss-bg-transparent !important;
+}
+
 /** Product cards **/
 .product-card-wrapper .card__information {
   @apply twcss-flex twcss-flex-col twcss-justify-between twcss-h-full;
