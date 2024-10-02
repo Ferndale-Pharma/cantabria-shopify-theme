@@ -271,11 +271,67 @@
             "color_scheme": "scheme-3",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_FqfGhP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Image_52c9f67e-968c-4310-919c-dbf57395e97c.png",
+            "heading": "Glycolic Acid",
+            "heading_size": "h1",
+            "subheading": "An exfoliating alpha hydroxy acid (AHA) that increases skin cell turnover, stimulates collagen production and brightens the complexion.  ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_9pfMq9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Image_52c9f67e-968c-4310-919c-dbf57395e97c.png",
+            "heading": "Salicylic Acid",
+            "heading_size": "h1",
+            "subheading": "A powerful beta hydroxy acid (BHA) that encourages the shedding of dead skin cells, reduces inflammation and redness and speeds up the healing of existing blemishes. ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Q37HX9": {
+          "type": "slide",
+          "settings": {
+            "heading": "Niacinamide",
+            "heading_size": "h1",
+            "subheading": "A form of vitamin B-3 with anti-inflammatory properties, helping to reduce pore size and lock in moisture for a strong, healthy skin barrier.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_gjBeJH",
-        "slide_8Y6YgT"
+        "slide_8Y6YgT",
+        "slide_FqfGhP",
+        "slide_9pfMq9",
+        "slide_Q37HX9"
       ],
       "settings": {
         "layout": "grid",
