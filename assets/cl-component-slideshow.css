@@ -16,10 +16,8 @@ cl-slideshow-component .cl-slideshow.banner {
 }
 
 @media screen and (max-width: 749px) {
-  .cl-slideshow {
-    min-height: 320px;
-  }
   .cl-slideshow__slide {
     margin-left: 20px;
+    height: auto;
   }
 }
