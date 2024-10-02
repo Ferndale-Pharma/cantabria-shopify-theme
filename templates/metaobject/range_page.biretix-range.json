@@ -15,14 +15,14 @@
         "heading_EG6cQt": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>The </strong><strong>{{ metaobject.name.value }}</strong><strong> Range</strong>",
+            "heading": "<strong>{{ metaobject.name.value }}</strong>",
             "heading_size": "h1"
           }
         },
         "text_RggQnc": {
           "type": "text",
           "settings": {
-            "text": "Biretix is a comprehensive, dermatologist proven skincare range designed to purify, treat and care for acne and spot-prone skin.",
+            "text": "Holistic skincare for acne-prone skin, proven by dermatologists.",
             "text_style": "body"
           }
         },
@@ -52,7 +52,7 @@
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -63,14 +63,14 @@
         "heading_f8ge44": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Purify, treat and care",
             "heading_size": "h1"
           }
         },
         "text_bTDdty": {
           "type": "text",
           "settings": {
-            "text": "<p>Powered by innovative retinol and antimicrobial technologies, RetinSphere® and BIOPEP-15, Biretix offers skincare solutions for acne-prone skin, rapidly reducing blemishes, preventing future breakouts and promoting a healthier complexion. </p>"
+            "text": "<p>Biretix is a comprehensive, dermatologist proven skincare range designed to purify, treat and care for acne and spot-prone skin. Powered by innovative retinol and antimicrobial technologies, RetinSphere® and BIOPEP-15, Biretix offers skincare solutions for acne-prone skin, rapidly reducing blemishes, preventing future breakouts and promoting a healthier complexion. </p>"
           }
         }
       },
@@ -194,7 +194,7 @@
         "section_color_scheme": "scheme-3",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 64,
         "padding_bottom": 64
       }
