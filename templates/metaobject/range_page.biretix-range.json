@@ -157,59 +157,6 @@
         "padding_bottom": 64
       }
     },
-    "multicolumn_r43h4B": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_Xb7mDE": {
-          "type": "column",
-          "settings": {
-            "title": "Purifies, treats and cares for spot and acne-prone skin",
-            "text": "<p>Biretix offers a  holistic skincare approach for acne-prone skin with its three product pillars ‘<strong>purify, treat, and care</strong>’, to not only reduce blemishes but improve overall skin health and appearance.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_rw3VKw": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Powered by RetinSphere® Technology and BIOPEP-15 </strong>",
-            "text": "<p>RetinSphere®, the most effective combination of two retinoids for maximum efficacy and tolerability; and Biopep-15, with antimicrobial properties to reduce spot-causing bacteria</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_c3JDnA": {
-          "type": "column",
-          "settings": {
-            "title": "Clinical efficacy, excellent tolerability",
-            "text": "<p>Clinically proven to:  </p><p>Significantly reduce blemishes in 30 days [1,2,3,4] </p><p>Reduce spot-causing bacteria [3] </p><p>Control oil and shine [1] </p><p>Hydrate and care for the skin [5] </p><p>Improve the skin’s texture and firmness in 30 days [2] </p><p>Excellent skin tolerance [1,2,3,4] </p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_Xb7mDE",
-        "column_rw3VKw",
-        "column_c3JDnA"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-3",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 32,
-        "padding_bottom": 32
-      }
-    },
     "multicolumn_html_NwAPwU": {
       "type": "multicolumn-html",
       "blocks": {
@@ -234,8 +181,8 @@
         "column_qMY8cz": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Clinical efficacy, excellent tolerability",
+            "text": "<p>Clinically proven to:</p>\n<ul>\n<li>Significantly reduce blemishes in 30 days<sup>1,2,3,4</sup>\n</li>\n<li>Reduce spot-causing bacteria<sup>3</sup>\n</li>\n<li>Control oil and shine<sup>1</sup>\n</li>\n<li>Hydrate and care for the skin<sup>5</sup>\n</li>\n<li>Improve the skin’s texture and firmness in 30 days<sup>2</sup>\n</li>\n<li>Excellent skin tolerance<sup>1,2,3,4</sup>\n</li>\n</ul>",
             "link_label": "",
             "link": ""
           }
@@ -262,6 +209,84 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "rich_text_HUxECR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qUaY3J": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clinically & scientifically proven technologies",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qUaY3J"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
+    "cl_slideshow_4tCcxJ": {
+      "type": "cl-slideshow",
+      "blocks": {
+        "slide_gjBeJH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/fernblock-leaves.png",
+            "heading": "RetinSphere® Technology",
+            "heading_size": "h1",
+            "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_8Y6YgT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Image_52c9f67e-968c-4310-919c-dbf57395e97c.png",
+            "heading": "BIOPEP-15",
+            "heading_size": "h1",
+            "subheading": "An incredible botanical-derived technology that fights against the main acne-causing bacteria <em>Cutibacterium acnes</em> and helps to reduce inflammation.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_gjBeJH",
+        "slide_8Y6YgT"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "none",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -269,7 +294,8 @@
     "image_with_text_html_DGWMyN",
     "featured_collection_qTTAV4",
     "image_with_text_T8yKPe",
-    "multicolumn_r43h4B",
-    "multicolumn_html_NwAPwU"
+    "multicolumn_html_NwAPwU",
+    "rich_text_HUxECR",
+    "cl_slideshow_4tCcxJ"
   ]
 }
