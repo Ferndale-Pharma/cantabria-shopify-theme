@@ -22,7 +22,7 @@
         "text_RggQnc": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Biretix is a comprehensive, dermatologist proven skincare range designed to purify, treat and care for acne and spot-prone skin. Powered by innovative retinol and antimicrobial technologies, RetinSphere® and BIOPEP-15, Biretix offers skincare solutions for acne-prone skin, rapidly reducing blemishes, preventing future breakouts and promoting a healthier complexion. ",
             "text_style": "body"
           }
         }
@@ -51,7 +51,7 @@
         "caption_Eerc3j": {
           "type": "caption",
           "settings": {
-            "caption": "Add a tagline",
+            "caption": "Campaign",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
@@ -59,14 +59,14 @@
         "heading_aNWXxa": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "<strong>Introducing Biretix Tri-Active Anti-Blemish Gel</strong> ",
             "heading_size": "h1"
           }
         },
         "text_zma3bN": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>",
+            "text": "<p>The Tri-Active Anti-Blemish Gel is clinically proven to significantly reduce blemishes and improve skin texture in just 30 days.&lt;sup&gt;1,2&lt;/sup&gt; Its potent yet gentle triple-action formulation targets blemishes, oil and shine with minimal irritation. The multi-tasking gel also works to improve skin texture and elasticity, while reducing the appearance of scarring and pigmentation. </p>",
             "text_style": "body"
           }
         },
