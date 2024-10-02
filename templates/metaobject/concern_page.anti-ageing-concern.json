@@ -171,34 +171,64 @@
         "padding_bottom": 64
       }
     },
-    "rich_text_4w8fEB": {
-      "type": "rich-text",
+    "image_with_text_XrWyXj": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_ymAKrk": {
+        "heading_AWakpm": {
           "type": "heading",
           "settings": {
             "heading": "Fibroblasts and growth factors",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
-        "text_QJLXwU": {
+        "text_jacpe4": {
           "type": "text",
           "settings": {
-            "text": "<p>Fibroblasts and growth factors are incredibly important when it comes to skin ageing. Fibroblasts are specialised cells found in the dermis of the skin, and growth factors are proteins that bind to fibroblasts. They both play a crucial role in maintaining the skin’s health and structural integrity, responsible for collagen production, elastin synthesis, cell repair, skin renewal and hydration levels. This is what keeps the skin looking and feeling healthy and youthful.</p>"
+            "text": "<p>Fibroblasts and growth factors are incredibly important when it comes to skin ageing. Fibroblasts are specialised cells found in the dermis of the skin, and growth factors are proteins that bind to fibroblasts. They both play a crucial role in maintaining the skin’s health and structural integrity, responsible for collagen production, elastin synthesis, cell repair, skin renewal and hydration levels. This is what keeps the skin looking and feeling healthy and youthful.</p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_ymAKrk",
-        "text_QJLXwU"
+        "heading_AWakpm",
+        "text_jacpe4"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_Awch9g": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JJm8er": {
+          "type": "heading",
+          "settings": {
+            "heading": "Technologies",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JJm8er"
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "left",
+        "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 64,
+        "padding_bottom": 32
       }
     },
     "cl_slideshow_NtcqfV": {
@@ -454,36 +484,13 @@
         "padding_top": 32,
         "padding_bottom": 32
       }
-    },
-    "rich_text_Awch9g": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_JJm8er": {
-          "type": "heading",
-          "settings": {
-            "heading": "Technologies",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_JJm8er"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 64,
-        "padding_bottom": 32
-      }
     }
   },
   "order": [
     "image_banner_TWikjP",
     "image_with_text_E9j6Dk",
     "multicolumn_BeGBF7",
-    "rich_text_4w8fEB",
+    "image_with_text_XrWyXj",
     "rich_text_Awch9g",
     "cl_slideshow_NtcqfV",
     "featured_collection_JrJFGn",
