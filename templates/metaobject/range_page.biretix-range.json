@@ -210,82 +210,57 @@
         "padding_bottom": 32
       }
     },
-    "multicolumn_zHqNtD": {
-      "type": "multicolumn",
+    "multicolumn_html_NwAPwU": {
+      "type": "multicolumn-html",
       "blocks": {
-        "column_GL9XAN": {
+        "column_h4Y3eA": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
+            "title": "Purifies, treats and cares for spot and acne-prone skin",
+            "text": "<p>Biretix offers a  holistic skincare approach for acne-prone skin with its three product pillars ‘<b>purify, treat, and care</b>’, to not only reduce blemishes but improve overall skin health and appearance.</p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_HdjCqp": {
+        "column_it9a8X": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
+            "title": "Powered by RetinSphere® Technology and BIOPEP-15 ",
+            "text": "<p>RetinSphere®, the most effective combination of two retinoids for maximum efficacy and tolerability; and Biopep-15, with antimicrobial properties to reduce spot-causing bacteria</p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_cq3XDD": {
+        "column_qMY8cz": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_KFVEXt": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_MBJGjr": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_GL9XAN",
-        "column_HdjCqp",
-        "column_cq3XDD",
-        "column_KFVEXt",
-        "column_MBJGjr"
+        "column_h4Y3eA",
+        "column_it9a8X",
+        "column_qMY8cz"
       ],
       "settings": {
         "title": "Multicolumn",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 5,
-        "column_alignment": "left",
+        "columns_desktop": 3,
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 32,
-        "padding_bottom": 32
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     }
   },
@@ -295,6 +270,6 @@
     "featured_collection_qTTAV4",
     "image_with_text_T8yKPe",
     "multicolumn_r43h4B",
-    "multicolumn_zHqNtD"
+    "multicolumn_html_NwAPwU"
   ]
 }
