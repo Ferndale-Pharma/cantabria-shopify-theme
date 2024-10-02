@@ -164,7 +164,7 @@
           "type": "column",
           "settings": {
             "title": "Purifies, treats and cares for spot and acne-prone skin",
-            "text": "<p>Biretix offers a  holistic skincare approach for acne-prone skin with its three product pillars ‘<b>purify, treat, and care</b>’, to not only reduce blemishes but improve overall skin health and appearance.</p>",
+            "text": "<p>Biretix offers a  holistic skincare approach for acne-prone skin with its three product pillars ‘purify, treat, and care’, to not only reduce blemishes but improve overall skin health and appearance.</p>",
             "link_label": "",
             "link": ""
           }
@@ -216,7 +216,7 @@
         "heading_qUaY3J": {
           "type": "heading",
           "settings": {
-            "heading": "Clinically & scientifically proven technologies",
+            "heading": "Technologies & ingredients",
             "heading_size": "h1"
           }
         }
