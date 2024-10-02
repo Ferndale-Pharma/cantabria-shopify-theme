@@ -50,12 +50,6 @@
   margin-bottom: 0.6rem;
 }
 
-.blog-articles .article-card .card__information,
-.blog__posts .article-card .card__information {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .article-card__info {
   padding-top: 0.4rem;
 }
