@@ -15,7 +15,7 @@
         "heading_EG6cQt": {
           "type": "heading",
           "settings": {
-            "heading": "BIRETIX",
+            "heading": "{{ metaobject.name.value }}",
             "heading_size": "h0"
           }
         },
