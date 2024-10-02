@@ -132,6 +132,240 @@
         "padding_bottom": 64
       }
     },
+    "video_QDQ3bK": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=Za9qK8RSvqk",
+        "description": "Video explaining about Neoretin Pigment Neutraliser Serum",
+        "full_width": false,
+        "color_scheme": "scheme-5",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_ycKzcY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_AVWfqx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Targeted pigment control solutions, proven by dermatologists",
+            "heading_size": "h1"
+          }
+        },
+        "text_gGNkiH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Neoretin contains a combination of innovative ingredients and patented technologies to promote a smooth, bright and even complexion, with a visible reduction in dark spots. Each formulation features RetinSphere® Technology, a new generation of retinoids offering a dual-delivery system of two types of retinol for immediate and sustained release, along with Azelaic Aox-Tech to boost the action of azelaic acid up to five times. Additional anti-pollution technology fights free radicals, one of the main causes of hyperpigmentation, while a pigment control system regulates melanin synthesis at every stage.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AVWfqx",
+        "text_gGNkiH"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_8RCiF9": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_BArJLk": {
+          "type": "column",
+          "settings": {
+            "title": "Advanced retinol & pigment control technologies ",
+            "text": "<p>Powerful depigmenting active ingredients for the effective reduction and prevention of dark spots and hyperpigmentation.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TJUL9K": {
+          "type": "column",
+          "settings": {
+            "title": "Innovative formulations for maximum results",
+            "text": "<p>Formulations that are designed to act at every stage of the melanin production cycle, for the very best defence against hyperpigmentation</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8akYFr": {
+          "type": "column",
+          "settings": {
+            "title": "Clinical efficacy & excellent tolerability",
+            "text": "<p>High efficacy and excellent tolerability demonstrated in numerous clinical trials.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BArJLk",
+        "column_TJUL9K",
+        "column_8akYFr"
+      ],
+      "settings": {
+        "title": "Heading",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_xhqwCq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fEU7pk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Technologies & ingredients",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fEU7pk"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
+    "cl_slideshow_qNxJrV": {
+      "type": "cl-slideshow",
+      "blocks": {
+        "slide_xe7eLc": {
+          "type": "slide",
+          "settings": {
+            "heading": "RetinSphere® Technology",
+            "heading_size": "h1",
+            "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_cK7qhj": {
+          "type": "slide",
+          "settings": {
+            "heading": "Azelaic Aox-TECH",
+            "heading_size": "h1",
+            "subheading": "A patented delivery-system technology that boosts the action of azelaic acid up to 5 times, for greater efficacy in exfoliating, diminishing the appearance of blemishes, reducing redness and soothing the skin. ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_6U769a": {
+          "type": "slide",
+          "settings": {
+            "heading": "Bakuchiol",
+            "heading_size": "h1",
+            "subheading": "A potent yet soothing antioxidant that visibly reduces discolourations, increases skin firmness and improves the look of fine lines and wrinkles. ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_YRKjmP": {
+          "type": "slide",
+          "settings": {
+            "heading": "Hyaluronic Acid",
+            "heading_size": "h1",
+            "subheading": "A moisturise-retaining antioxidant that gives exceptional hydration, plumping the skin, improving elasticity, speeding up wound healing and reducing fine lines and wrinkles.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_QLfQiK": {
+          "type": "slide",
+          "settings": {
+            "heading": "Niacinamide",
+            "heading_size": "h1",
+            "subheading": "A form of vitamin B3 with anti-inflammatory properties, helping to reduce pore size and lock in moisture for a strong, healthy skin barrier.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_xe7eLc",
+        "slide_cK7qhj",
+        "slide_6U769a",
+        "slide_YRKjmP",
+        "slide_QLfQiK"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "none",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our technologies"
+      }
+    },
     "featured_collection_qTTAV4": {
       "type": "featured-collection",
       "settings": {
@@ -160,16 +394,36 @@
         "padding_bottom": 36
       }
     },
-    "video_QDQ3bK": {
-      "type": "video",
+    "newsletter_YB9rKr": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_MhaTUT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_NQam3G": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email_form_8fGVDq": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_MhaTUT",
+        "paragraph_NQam3G",
+        "email_form_8fGVDq"
+      ],
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=Za9qK8RSvqk",
-        "description": "Video explaining about Neoretin Pigment Neutraliser Serum",
-        "full_width": false,
-        "color_scheme": "scheme-5",
+        "color_scheme": "",
+        "full_width": true,
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -180,6 +434,11 @@
     "rich_text_brBaBU",
     "image_with_text_bJBhDW",
     "video_QDQ3bK",
-    "featured_collection_qTTAV4"
+    "image_with_text_ycKzcY",
+    "multicolumn_8RCiF9",
+    "rich_text_xhqwCq",
+    "cl_slideshow_qNxJrV",
+    "featured_collection_qTTAV4",
+    "newsletter_YB9rKr"
   ]
 }
