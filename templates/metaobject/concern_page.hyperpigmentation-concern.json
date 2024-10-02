@@ -73,7 +73,7 @@
           "type": "heading",
           "settings": {
             "heading": "What is hyperpigmentation?",
-            "heading_size": "h0"
+            "heading_size": "h2"
           }
         },
         "text_WezjGn": {
@@ -314,7 +314,7 @@
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": false,
+        "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "color_scheme": "scheme-1",
