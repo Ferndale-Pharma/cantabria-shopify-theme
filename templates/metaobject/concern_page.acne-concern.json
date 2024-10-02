@@ -29,7 +29,7 @@
         "buttons_WXCGq3": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "View Products",
+            "button_label_1": "View products",
             "button_link_1": "shopify://collections/spot-acne-prone-skin",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -171,32 +171,39 @@
         "padding_bottom": 64
       }
     },
-    "rich_text_4w8fEB": {
-      "type": "rich-text",
+    "image_with_text_pygC74": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_ymAKrk": {
+        "heading_pcmrin": {
           "type": "heading",
           "settings": {
             "heading": "The spot cycle",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
-        "text_QJLXwU": {
+        "text_QnBwed": {
           "type": "text",
           "settings": {
-            "text": "<p>The most effective treatments for acne and spot-prone skin will prevent future breakouts, treat active spots, reduce inflammation and improve acne scarring.</p>"
+            "text": "<p>The most effective treatments for acne and spot-prone skin will prevent future breakouts, treat active spots, reduce inflammation and improve acne scarring.</p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_ymAKrk",
-        "text_QJLXwU"
+        "heading_pcmrin",
+        "text_QnBwed"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "full_width": true,
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -207,7 +214,7 @@
         "heading_6b9VWR": {
           "type": "heading",
           "settings": {
-            "heading": "Our technologies",
+            "heading": "Technologies",
             "heading_size": "h1"
           }
         }
@@ -224,52 +231,52 @@
         "padding_bottom": 32
       }
     },
-    "slideshow_yiTmXC": {
-      "type": "slideshow",
+    "cl_slideshow_NJ8dcF": {
+      "type": "cl-slideshow",
       "blocks": {
-        "slide_EH4LBb": {
+        "slide_4DWbVR": {
           "type": "slide",
           "settings": {
             "heading": "RetinSphere® Technology",
             "heading_size": "h1",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. ",
-            "button_label": "Find out more",
+            "button_label": "",
             "link": "",
-            "button_style_secondary": true,
+            "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "",
             "text_alignment_mobile": "center"
           }
         },
-        "slide_JmdAmx": {
+        "slide_QjVyT8": {
           "type": "slide",
           "settings": {
             "heading": "BIOPEP-15",
             "heading_size": "h1",
             "subheading": "An incredible botanical-derived technology that fights against the main acne-causing bacteria <em>Cutibacterium acnes</em> and helps to reduce inflammation.",
-            "button_label": "Button label",
+            "button_label": "",
             "link": "",
-            "button_style_secondary": true,
+            "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "slide_EH4LBb",
-        "slide_JmdAmx"
+        "slide_4DWbVR",
+        "slide_QjVyT8"
       ],
       "settings": {
         "layout": "grid",
         "slide_height": "medium",
-        "slider_visual": "counter",
+        "slider_visual": "none",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
@@ -465,9 +472,9 @@
     "image_banner_TWikjP",
     "image_with_text_E9j6Dk",
     "multicolumn_BeGBF7",
-    "rich_text_4w8fEB",
+    "image_with_text_pygC74",
     "rich_text_hRGxBU",
-    "slideshow_yiTmXC",
+    "cl_slideshow_NJ8dcF",
     "featured_collection_3XdCid",
     "multicolumn_GgiLEY",
     "multicolumn_VDCjYH",
