@@ -25,11 +25,23 @@
             "text": "Biretix is a comprehensive, dermatologist proven skincare range designed to purify, treat and care for acne and spot-prone skin. Powered by innovative retinol and antimicrobial technologies, RetinSphere® and BIOPEP-15, Biretix offers skincare solutions for acne-prone skin, rapidly reducing blemishes, preventing future breakouts and promoting a healthier complexion. ",
             "text_style": "body"
           }
+        },
+        "buttons_CNCVXP": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "View products",
+            "button_link_1": "shopify://collections/biretix",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "heading_EG6cQt",
-        "text_RggQnc"
+        "text_RggQnc",
+        "buttons_CNCVXP"
       ],
       "settings": {
         "image": "shopify://shop_images/biretix_range.png",
