@@ -15,21 +15,33 @@
         "heading_EG6cQt": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>The </strong><strong>{{ metaobject.name.value }}</strong><strong> Range</strong>",
-            "heading_size": "h1"
+            "heading": "<strong>{{ metaobject.name.value }}</strong>",
+            "heading_size": "h0"
           }
         },
         "text_RggQnc": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Targeted pigment control solutions, proven by dermatologists. ",
             "text_style": "body"
+          }
+        },
+        "buttons_DLchTk": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "View products",
+            "button_link_1": "shopify://collections/neoretin",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading_EG6cQt",
-        "text_RggQnc"
+        "text_RggQnc",
+        "buttons_DLchTk"
       ],
       "settings": {
         "image_overlay_opacity": 0,
@@ -44,6 +56,36 @@
         "show_text_below": true
       }
     },
+    "rich_text_brBaBU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rNTwAE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Visible reduction in hyperpigmentation",
+            "heading_size": "h1"
+          }
+        },
+        "text_Xrkt7L": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Clinically proven to reduce the appearance of dark spots and hyperpigmentation, Neoretin is a dermatologist provenskincare range targeting pigmentation and uneven skin tone. Its combination of innovative retinoid technology and gold-standard depigmenting ingredientsact at every stage of the melanin production cyclefor a more luminous and even complexion.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rNTwAE",
+        "text_Xrkt7L"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "featured_collection_qTTAV4": {
       "type": "featured-collection",
       "settings": {
@@ -53,8 +95,8 @@
         "show_description": false,
         "description_style": "body",
         "collection": "{{ metaobject.linked_collection.value }}",
-        "products_to_show": 2,
-        "columns_desktop": 2,
+        "products_to_show": 8,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -71,10 +113,58 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_bJBhDW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_p4kjXQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Neoretin Pigment Neutraliser Serum",
+            "heading_size": "h1"
+          }
+        },
+        "text_WyKRDG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An ultra-light, hydrating and brightening daily serum that targets dark spots and unifies the skin tone. Our Pigment Neutraliser Serum is a powerhouse of antioxidant activity, featuring Azelaic Aox-Tech for high-efficacy azelaic acid, bakuchiol for skin renewal and hyaluronic acid for long-lasting hydration.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_rJdJBk": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "shopify://products/neoretin-pigment-neutraliser-serum",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_p4kjXQ",
+        "text_WyKRDG",
+        "button_rJdJBk"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "image_banner_9qaB4e",
-    "featured_collection_qTTAV4"
+    "rich_text_brBaBU",
+    "featured_collection_qTTAV4",
+    "image_with_text_bJBhDW"
   ]
 }
