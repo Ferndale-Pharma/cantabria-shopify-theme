@@ -29,7 +29,7 @@
         "buttons_WXCGq3": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "View Products",
+            "button_label_1": "View products",
             "button_link_1": "shopify://collections/sun-protection",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -285,19 +285,19 @@
         "padding_bottom": 52
       }
     },
-    "rich_text_CUHwHn": {
+    "rich_text_3BCLrR": {
       "type": "rich-text",
       "blocks": {
-        "heading_ddd6AR": {
+        "heading_7tjhKG": {
           "type": "heading",
           "settings": {
-            "heading": "Our technologies",
+            "heading": "Technologies",
             "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "heading_ddd6AR"
+        "heading_7tjhKG"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -308,35 +308,34 @@
         "padding_bottom": 32
       }
     },
-    "slideshow_hiwPRp": {
-      "type": "slideshow",
+    "cl_slideshow_YVb49y": {
+      "type": "cl-slideshow",
       "blocks": {
-        "slide_PrqP9c": {
+        "slide_ByWCPV": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Image_52c9f67e-968c-4310-919c-dbf57395e97c.png",
             "heading": "Fernblock® Technology",
             "heading_size": "h1",
             "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer. ",
-            "button_label": "Find out more",
+            "button_label": "",
             "link": "",
-            "button_style_secondary": true,
+            "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "slide_PrqP9c"
+        "slide_ByWCPV"
       ],
       "settings": {
         "layout": "grid",
         "slide_height": "medium",
-        "slider_visual": "counter",
+        "slider_visual": "none",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
@@ -588,8 +587,8 @@
     "multicolumn_3aQy7h",
     "image_with_text_Pe4cLC",
     "rich_text_4w8fEB",
-    "rich_text_CUHwHn",
-    "slideshow_hiwPRp",
+    "rich_text_3BCLrR",
+    "cl_slideshow_YVb49y",
     "featured_collection_JrJFGn",
     "rich_text_H7wnr3",
     "multicolumn_GgiLEY",
