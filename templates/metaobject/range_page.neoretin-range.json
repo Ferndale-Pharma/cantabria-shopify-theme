@@ -86,34 +86,6 @@
         "padding_bottom": 64
       }
     },
-    "featured_collection_qTTAV4": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "<strong>Featured collection</strong>",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "{{ metaobject.linked_collection.value }}",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_bJBhDW": {
       "type": "image-with-text",
       "blocks": {
@@ -159,12 +131,55 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "featured_collection_qTTAV4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "<strong>Featured collection</strong>",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "{{ metaobject.linked_collection.value }}",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_QDQ3bK": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=Za9qK8RSvqk",
+        "description": "Video explaining about Neoretin Pigment Neutraliser Serum",
+        "full_width": false,
+        "color_scheme": "scheme-5",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "image_banner_9qaB4e",
     "rich_text_brBaBU",
-    "featured_collection_qTTAV4",
-    "image_with_text_bJBhDW"
+    "image_with_text_bJBhDW",
+    "video_QDQ3bK",
+    "featured_collection_qTTAV4"
   ]
 }
