@@ -140,7 +140,7 @@
       "settings": {
         "title": "Featured collection",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p>Text goes here</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "endocare-hero-products",
@@ -406,7 +406,7 @@
       "settings": {
         "title": "<strong>Featured collection</strong>",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Text goes here</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "{{ metaobject.linked_collection.value }}",
