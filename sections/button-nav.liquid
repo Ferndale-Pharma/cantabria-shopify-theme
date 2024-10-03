@@ -7,20 +7,28 @@
     {% endif %}
     </div>
 </div>
-<div class='page-width page-width--narrow button-nav'>
-    <div class="twcss-flex twcss-gap-8 twcss-justify-center twcss-overflow-x-auto twcss-whitespace-nowrap">
+<div class='page-width twcss-flex twcss-justify-center button-nav'>
+    <div class="twcss-gap-8 r twcss-overflow-x-auto twcss-whitespace-nowrap twcss-pb-4">
         {% if section.blocks.size > 0 %}
             {% for block in section.blocks %}
                 {% if block.settings.menu != blank %}
                     {% assign current_url = request.path %}
                     {% for link in linklists[block.settings.menu].links %}
-                        <a href="{{ link.url }}" class="button button--secondary{% unless forloop.last %} twcss-border-r twcss-border-gray-300 twcss-pr-3 {% endunless %} {% if link.url == current_url %}active{% endif %}">{{ link.title }}</a>
+                        <a href="{{ link.url }}" class="button button--secondary {% if link.url == current_url %}active {% endif %}">{{ link.title }}</a>
                     {% endfor %}
                 {% endif %}
             {% endfor %}
         {% endif %}
     </div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var activeButton = document.querySelector('.button--secondary.active');
+    if (activeButton) {
+        activeButton.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' });
+    }
+});
+</script>
 
 {% schema %}
   {

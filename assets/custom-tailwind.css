@@ -387,3 +387,7 @@ ul.collection-list .card__content {
 .collection-hero__title {
   @apply twcss-font-bold;
 }
+
+.article-template__back {
+  @apply twcss-hidden;
+}
