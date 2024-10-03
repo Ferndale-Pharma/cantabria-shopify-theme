@@ -186,6 +186,69 @@
         "padding_bottom": 64
       }
     },
+    "multicolumn_3TtWA3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bQYjA9": {
+          "type": "column",
+          "settings": {
+            "title": "High-level, broad-spectrum UV protection",
+            "text": "<p>UVB (SPF50&gt;) and UVA (PA++++).</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EEAafK": {
+          "type": "column",
+          "settings": {
+            "title": "HEVL, IR-A and free radical defence",
+            "text": "<p>With patented Fernblock® antioxidant technology.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yjWteq": {
+          "type": "column",
+          "settings": {
+            "title": "A sunscreen for everyone, for every day",
+            "text": "<p>Unique formulas for different skin types, concerns and finishes.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_r8EQyq": {
+          "type": "column",
+          "settings": {
+            "title": "Holistic skin protection, inside and out",
+            "text": "<p>Topical sunscreens and oral skin supplements.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bQYjA9",
+        "column_EEAafK",
+        "column_yjWteq",
+        "column_r8EQyq"
+      ],
+      "settings": {
+        "title": "Title goes here",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "newsletter_nVyUck": {
       "type": "newsletter",
       "blocks": {
@@ -227,6 +290,7 @@
     "image_with_text_48BKmX",
     "featured_collection_qTTAV4",
     "image_with_text_j7VAgM",
+    "multicolumn_3TtWA3",
     "newsletter_nVyUck"
   ]
 }
