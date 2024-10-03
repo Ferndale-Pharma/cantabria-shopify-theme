@@ -37,9 +37,9 @@
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-5",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -68,7 +68,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-5",
         "full_width": true,
         "padding_top": 64,
         "padding_bottom": 64
@@ -80,22 +80,22 @@
         "heading_7aAg66": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Endocare winter skin renewal",
             "heading_size": "h1"
           }
         },
         "text_AYNmBR": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Discover the Endocare Renewal range, a duo of anti-ageing skin renewal solutions to brighten the skin, reduce pigmentation, improve texture and minimise the appearance of fine lines and wrinkles. The rejuvenating and regenerating formulations contain a powerful combination of AHAs and patented technologies, which cleanse, exfoliate and nourish for a radiant glow.</p>",
             "text_style": "body"
           }
         },
         "button_HBTEJm": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "shopify://collections/endocare",
+            "button_label": "View Products",
+            "button_link": "shopify://collections/endocare-renewal",
             "button_style_secondary": true
           }
         }
@@ -113,47 +113,52 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-4",
-        "color_scheme": "scheme-4",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 64,
         "padding_bottom": 64
       }
     },
-    "rich_text_nfE8zx": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_aVV3f8": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text_JVKGVy": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
-          }
-        },
-        "text_Y3wf8a": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><ul><li>Curabitur rhoncus semper ipsum.</li><li>Nunc in justo auctor, dictum est vel.</li><li>Luctus augue. Interdum et malesuada.</li></ul><p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_aVV3f8",
-        "text_JVKGVy",
-        "text_Y3wf8a"
-      ],
+    "video_pxURAj": {
+      "type": "video",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "scheme-4",
-        "full_width": true,
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=dlPZ3jhUyRE",
+        "description": "Video about the Endocare Renewal Glycoperfect Intensive Serum",
+        "full_width": false,
+        "color_scheme": "scheme-5",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "featured_collection_r67adn": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "endocare-hero-products",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-5",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -172,8 +177,8 @@
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-5",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -181,7 +186,7 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 32,
         "padding_bottom": 32
       }
@@ -225,7 +230,8 @@
     "image_banner_9qaB4e",
     "rich_text_w9pUnz",
     "image_with_text_bTLWD6",
-    "rich_text_nfE8zx",
+    "video_pxURAj",
+    "featured_collection_r67adn",
     "featured_collection_qTTAV4",
     "newsletter_AwFCKb"
   ]

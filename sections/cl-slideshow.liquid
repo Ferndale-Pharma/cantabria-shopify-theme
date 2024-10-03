@@ -1,7 +1,7 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 {{ 'cl-component-slideshow.css' | asset_url | stylesheet_tag }}
-{{ 'flickity.min.css' | asset_url |  stylesheet_tag }}
+{{ 'flickity.min.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
@@ -413,7 +413,7 @@
     {
       "type": "slide",
       "name": "t:sections.slideshow.blocks.slide.name",
-      "limit": 5,
+      "limit": 7,
       "settings": [
         {
           "type": "image_picker",

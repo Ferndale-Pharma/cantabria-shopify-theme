@@ -49,9 +49,9 @@
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-4",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -80,7 +80,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-4",
         "full_width": true,
         "padding_top": 64,
         "padding_bottom": 64
@@ -124,8 +124,8 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-5",
-        "color_scheme": "scheme-5",
+        "section_color_scheme": "scheme-4",
+        "color_scheme": "scheme-4",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 64,
@@ -175,8 +175,8 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-5",
-        "color_scheme": "scheme-5",
+        "section_color_scheme": "scheme-4",
+        "color_scheme": "scheme-4",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 64,
@@ -229,7 +229,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
@@ -253,7 +253,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-4",
         "full_width": true,
         "padding_top": 64,
         "padding_bottom": 32
@@ -275,7 +275,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
+            "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
         },
@@ -292,7 +292,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
+            "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
         },
@@ -309,7 +309,24 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
+            "color_scheme": "scheme-4",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_8jmtFw": {
+          "type": "slide",
+          "settings": {
+            "heading": "Azeloglycine",
+            "heading_size": "h1",
+            "subheading": "A combination of azelaic acid and glycine with numerous skin health benefits, including anti-inflammatory properties, oil regulation and hydration.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
         },
@@ -326,7 +343,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
+            "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
         },
@@ -343,7 +360,24 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
+            "color_scheme": "scheme-4",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_NMGFH8": {
+          "type": "slide",
+          "settings": {
+            "heading": "Kojic Acid",
+            "heading_size": "h1",
+            "subheading": "A powerful natural chemical that inhibits tyrosinase activity and the transformation into melanin, therefore reducing hyperpigmentation, brightening and unifying the skin tone.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
         }
@@ -352,8 +386,10 @@
         "slide_xe7eLc",
         "slide_cK7qhj",
         "slide_6U769a",
+        "slide_8jmtFw",
         "slide_YRKjmP",
-        "slide_QLfQiK"
+        "slide_QLfQiK",
+        "slide_NMGFH8"
       ],
       "settings": {
         "layout": "grid",
@@ -380,8 +416,8 @@
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-4",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -389,7 +425,7 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
