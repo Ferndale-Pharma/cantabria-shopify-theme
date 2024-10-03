@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "{{ metaobject.name.value }}",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "text_RggQnc": {
@@ -93,7 +93,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Introducing Biretix Tri-Active Anti-Blemish Gel</strong> ",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_EeLqga": {
@@ -137,7 +137,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Hero products",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "<p>Text can go here if you want</p>",
         "show_description": false,
         "description_style": "body",
