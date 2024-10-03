@@ -75,7 +75,7 @@
         {%- endif -%}
         <div class="card__content">
           <div class="card__information">
-            <div class="article-card__info caption-with-letter-spacing h5">
+            <div class="article-card__info h5">
               {%- if show_date -%}
                 <span class="circle-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
               {%- endif -%}
@@ -114,7 +114,7 @@
       </div>
       <div class="card__content">
         <div class="card__information">
-          <div class="article-card__info twcss-text-[#666]">
+          <div class="article-card__info twcss-text-[#666] twcss-mb-4">
             {%- if show_date -%}
               <span class="twcss-mr-1 twcss-text-2xl twcss-normal-case">{{ article.published_at |  date: "%d %B  %Y" }}</span>
             {%- endif -%}
@@ -122,7 +122,7 @@
               <span class="twcss-text-2xl twcss-normal-case">By {{ article.metafields.blog_post.author.value.name }}</span>
             {%- endif -%}
           </div>
-          <h3 class="card__heading{% if show_excerpt %} h3{% endif %}">
+          <h3 class="card__heading twcss-min-h-[46.8px]{% if show_excerpt %} h3{% endif %}">
             <a href="{{ article.url }}" class="full-unstyled-link">
               {{ article.title | truncate: 50 | escape }}
             </a>
@@ -131,9 +131,9 @@
             {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
               <p class="article-card__excerpt rte-width">
                 {%- if article.excerpt.size > 0 -%}
-                  {{ article.excerpt | strip_html | truncatewords: 30 }}
+                  {{ article.excerpt | strip_html | truncatewords: 13 }}
                 {%- else -%}
-                  {{ article.content | strip_html | truncatewords: 30 }}
+                  {{ article.content | strip_html | truncatewords: 13 }}
                 {%- endif -%}
               </p>
             {%- endif -%}
@@ -143,6 +143,7 @@
               {%- endif -%}
             </div>
           {%- endif -%}
+          <span class="link">Read article</span>
         </div>
         {%- if show_badge -%}
           <div class="card__badge {{ settings.badge_position }}">

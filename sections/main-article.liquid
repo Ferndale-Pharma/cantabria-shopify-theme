@@ -46,7 +46,7 @@
           class="page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           {{ block.shopify_attributes }}
         >
-          <span class=" twcss-pb-8 twcss-inline-bloc twcss-text-[#666]">
+          <span class=" twcss-pb-8 twcss-inline-block twcss-text-[#666]">
             {%- if block.settings.blog_show_date -%}
               <span class="twcss-mr-1 twcss-normal-case twcss-text-2xl ]">
                 {{- article.published_at |  date: "%d %B  %Y" -}}
