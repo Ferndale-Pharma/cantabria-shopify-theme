@@ -261,6 +261,126 @@
         "padding_bottom": 64
       }
     },
+    "image_with_text_pya9Dp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6tN9CU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Beyond sunscreen",
+            "heading_size": "h1"
+          }
+        },
+        "text_Q7AU4J": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The core technology within Heliocare 360® range is Fernblock®, a supercharged antioxidant exclusive to Cantabria Labs. It is the result of years of scientific research and development, backed by over 80 scientific publications. </p><p></p><p>Fernblock® is an extract derived from the tropical fern <em>Polypodium leucotomos</em>. Originally an aquatic plant, <em>P. leucotomos </em>developed a natural defence mechanism against the sun’s rays and evolved to thrive on land. Fernblock® harnesses this power and protects against daylight damage whilst boosting skin health. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6tN9CU",
+        "text_Q7AU4J"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_3FNRhc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mikMzi": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GzhUjx": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GbqFWG": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3XaAnm": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tKKNJ3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_i9FXm9": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_mikMzi",
+        "column_GzhUjx",
+        "column_GbqFWG",
+        "column_3XaAnm",
+        "column_tKKNJ3",
+        "column_i9FXm9"
+      ],
+      "settings": {
+        "title": "Clinically proven",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "newsletter_nVyUck": {
       "type": "newsletter",
       "blocks": {
@@ -303,6 +423,8 @@
     "featured_collection_qTTAV4",
     "image_with_text_j7VAgM",
     "multicolumn_3TtWA3",
+    "image_with_text_pya9Dp",
+    "multicolumn_3FNRhc",
     "newsletter_nVyUck"
   ]
 }
