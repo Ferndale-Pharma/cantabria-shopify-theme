@@ -313,6 +313,23 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_8jmtFw": {
+          "type": "slide",
+          "settings": {
+            "heading": "Azeloglycine",
+            "heading_size": "h1",
+            "subheading": "A combination of azelaic acid and glycine with numerous skin health benefits, including anti-inflammatory properties, oil regulation and hydration.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_YRKjmP": {
           "type": "slide",
           "settings": {
@@ -346,14 +363,33 @@
             "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_NMGFH8": {
+          "type": "slide",
+          "settings": {
+            "heading": "Kojic Acid",
+            "heading_size": "h1",
+            "subheading": "A powerful natural chemical that inhibits tyrosinase activity and the transformation into melanin, therefore reducing hyperpigmentation, brightening and unifying the skin tone.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_xe7eLc",
         "slide_cK7qhj",
         "slide_6U769a",
+        "slide_8jmtFw",
         "slide_YRKjmP",
-        "slide_QLfQiK"
+        "slide_QLfQiK",
+        "slide_NMGFH8"
       ],
       "settings": {
         "layout": "grid",
