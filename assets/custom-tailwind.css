@@ -71,9 +71,6 @@ li.menu-link__without-image {
   @apply md:twcss-bg-transparent !important;
 }
 
-#predictive-search-results {
-}
-
 /** multi column **/
 .multicolumn-card.content-container {
   @apply twcss-h-full twcss-flex twcss-flex-col;

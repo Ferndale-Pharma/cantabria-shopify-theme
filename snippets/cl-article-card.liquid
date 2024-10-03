@@ -62,7 +62,7 @@
                 src="{{ article.image.src | image_url: width: 533 }}"
                 sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
                 alt="{{ article.image.src.alt | escape }}"
-                class="motion-reduce"
+                class="motion-reduce twcss-rounded-xl"
                 {% unless lazy_load == false %}
                   loading="lazy"
                 {% endunless %}
@@ -75,19 +75,19 @@
         {%- endif -%}
         <div class="card__content">
           <div class="card__information">
-            <h3 class="card__heading{% if show_excerpt %} h2{% endif %}">
-              <a href="{{ article.url }}" class="full-unstyled-link">
-                {{ article.title | truncate: 50 | escape }}
-              </a>
-            </h3>
             <div class="article-card__info caption-with-letter-spacing h5">
               {%- if show_date -%}
                 <span class="circle-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
               {%- endif -%}
               {%- if show_author -%}
-                <span>{{ article.author }}</span>
+                <span>{{ article.metafields.blog_post.author.value.name }}</span>
               {%- endif -%}
             </div>
+            <h3 class="card__heading{% if show_excerpt %} h2{% endif %}">
+              <a href="{{ article.url }}" class="full-unstyled-link">
+                {{ article.title | truncate: 50 | escape }}
+              </a>
+            </h3>
             {%- if show_excerpt -%}
               {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
                 <p class="article-card__excerpt rte-width">
@@ -114,19 +114,19 @@
       </div>
       <div class="card__content">
         <div class="card__information">
-          <h3 class="card__heading{% if show_excerpt %} h2{% endif %}">
+          <div class="article-card__info twcss-text-[#666]">
+            {%- if show_date -%}
+              <span class="twcss-mr-1 twcss-text-2xl twcss-normal-case">{{ article.published_at |  date: "%d %B  %Y" }}</span>
+            {%- endif -%}
+            {%- if show_author -%}
+              <span class="twcss-text-2xl twcss-normal-case">By {{ article.metafields.blog_post.author.value.name }}</span>
+            {%- endif -%}
+          </div>
+          <h3 class="card__heading{% if show_excerpt %} h3{% endif %}">
             <a href="{{ article.url }}" class="full-unstyled-link">
               {{ article.title | truncate: 50 | escape }}
             </a>
           </h3>
-          <div class="article-card__info caption-with-letter-spacing h5">
-            {%- if show_date -%}
-              <span class="circle-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
-            {%- endif -%}
-            {%- if show_author -%}
-              <span>{{ article.author }}</span>
-            {%- endif -%}
-          </div>
           {%- if show_excerpt -%}
             {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
               <p class="article-card__excerpt rte-width">
