@@ -25,11 +25,23 @@
             "text": "Innovative anti-ageing skincare, proven by dermatologists.",
             "text_style": "body"
           }
+        },
+        "buttons_hMa4x9": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "View products",
+            "button_link_1": "shopify://collections/endocare",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "heading_EG6cQt",
-        "text_RggQnc"
+        "text_RggQnc",
+        "buttons_hMa4x9"
       ],
       "settings": {
         "image_overlay_opacity": 0,
