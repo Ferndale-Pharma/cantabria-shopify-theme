@@ -78,7 +78,7 @@ predictive-search[loading] .predictive-search {
 
 ul#predictive-search-results-products-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(36rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(34rem, 1fr));
   gap: 2rem;
 }
 
