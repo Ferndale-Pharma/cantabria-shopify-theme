@@ -33,7 +33,7 @@
       "settings": {
         "layout": "grid",
         "show_image": true,
-        "image_height": "adapt",
+        "image_height": "medium",
         "show_date": true,
         "show_author": true,
         "padding_top": 36,
