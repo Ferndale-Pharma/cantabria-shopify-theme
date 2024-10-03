@@ -8,13 +8,13 @@
     </div>
 </div>
 <div class='page-width twcss-flex twcss-justify-center button-nav'>
-    <div class="twcss-gap-8 r twcss-overflow-x-auto twcss-whitespace-nowrap twcss-pb-4">
+    <div class="twcss-overflow-x-auto twcss-whitespace-nowrap twcss-pb-4">
         {% if section.blocks.size > 0 %}
             {% for block in section.blocks %}
                 {% if block.settings.menu != blank %}
                     {% assign current_url = request.path %}
                     {% for link in linklists[block.settings.menu].links %}
-                        <a href="{{ link.url }}" class="button button--secondary {% if link.url == current_url %}active {% endif %}">{{ link.title }}</a>
+                        <a href="{{ link.url }}" class="button twcss-mx-1 md:twcss-mx-2 button--secondary {% if link.url == current_url %}active {% endif %}">{{ link.title }}</a>
                     {% endfor %}
                 {% endif %}
             {% endfor %}
