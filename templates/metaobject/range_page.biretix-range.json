@@ -44,7 +44,6 @@
         "buttons_CNCVXP"
       ],
       "settings": {
-        "image": "shopify://shop_images/biretix_range.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -412,6 +411,34 @@
         "padding_bottom": 64
       }
     },
+    "featured_collection_qTTAV4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "<strong>Title of Section</strong>",
+        "heading_size": "h2",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sodales eros.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "{{ metaobject.linked_collection.value }}",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-3",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collapsible_content_dgkKCE": {
       "type": "collapsible-content",
       "blocks": {
@@ -441,34 +468,6 @@
         "desktop_layout": "image_second",
         "padding_top": 64,
         "padding_bottom": 64
-      }
-    },
-    "featured_collection_qTTAV4": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "<strong>Title of Section</strong>",
-        "heading_size": "h2",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sodales eros.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "{{ metaobject.linked_collection.value }}",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "scheme-3",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "newsletter_ptPkgb": {
