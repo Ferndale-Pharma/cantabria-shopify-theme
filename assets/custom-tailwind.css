@@ -375,7 +375,7 @@ ul.collection-list .card__content {
 }
 
 .article-template__title {
-  @apply twcss-font-bold twcss-text-5xl;
+  @apply twcss-font-bold;
 }
 
 .rte img {
@@ -385,5 +385,5 @@ ul.collection-list .card__content {
 }
 /** Collections **/
 .collection-hero__title {
-  @apply twcss-font-bold twcss-text-5xl;
+  @apply twcss-font-bold;
 }

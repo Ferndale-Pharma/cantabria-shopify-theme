@@ -46,14 +46,14 @@
           class="page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           {{ block.shopify_attributes }}
         >
-        <span class="circle-divider caption-with-letter-spacing">
+          <span class=" twcss-pb-16 twcss-inline-block">
             {%- if block.settings.blog_show_date -%}
-              <span class="twcss-mr-1">
+              <span class="twcss-mr-1 twcss-normal-case twcss-text-2xl">
                 {{- article.published_at |  date: "%d %B  %Y" -}}
               </span>
             {%- endif -%}
             {%- if block.settings.blog_show_author -%}
-              <span>by {{ article.metafields.blog_post.author.value.name }}</span>
+              <span class="twcss-normal-case">by {{ article.metafields.blog_post.author.value.name }}</span>
             {%- endif %}
           </span>
           <h1 class="article-template__title" >
