@@ -261,6 +261,34 @@
         "padding_bottom": 64
       }
     },
+    "featured_collection_gwfpkN": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Title goes here",
+        "heading_size": "h1",
+        "description": "<p>Text can go here.</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "{{ metaobject.linked_collection.value }}",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "image_with_text_pya9Dp": {
       "type": "image-with-text",
       "blocks": {
@@ -571,6 +599,7 @@
     "featured_collection_qTTAV4",
     "image_with_text_j7VAgM",
     "multicolumn_3TtWA3",
+    "featured_collection_gwfpkN",
     "image_with_text_pya9Dp",
     "multicolumn_html_n7HF8i",
     "rich_text_p3BLWR",
