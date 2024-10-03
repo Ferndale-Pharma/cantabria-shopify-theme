@@ -79,14 +79,14 @@
         "heading_w4rgVR": {
           "type": "heading",
           "settings": {
-            "heading": "Unlock a 10% discount on your first order!",
+            "heading": "Get 10% off your first order",
             "heading_size": "h1"
           }
         },
         "paragraph_ThWJ8E": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suscipit, massa id fermentum sodales, sem urna laoreet ipsum, ac gravida mauris mauris eu ipsum<\/p>"
+            "text": "<p>Join the Cantabria Labs mailing list for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
           }
         },
         "email_form_DUzXUh": {
