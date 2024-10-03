@@ -22,7 +22,7 @@
         "text_RggQnc": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Very high-Level, full-spectrum daily sun protection and skin supplements, proven by dermatologists.",
             "text_style": "body"
           }
         }
@@ -44,13 +44,43 @@
         "show_text_below": true
       }
     },
+    "rich_text_YYXacY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CNqReC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Title goes here",
+            "heading_size": "h1"
+          }
+        },
+        "text_cyAfnX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Heliocare 360° is a dermatologist proven sun protection range providing daily protection against UVA, UVB, visible light and infrared-A. With its unique antioxidant technology Fernblock®, Heliocare 360° is clinically proven to protect beyond typical sunscreen, defending the skin from within and repairing damage caused by daylight.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CNqReC",
+        "text_cyAfnX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "image_with_text_48BKmX": {
       "type": "image-with-text",
       "blocks": {
         "heading_efPgzd": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Heliocare 360° Sensation - Sunscreen designed for every day",
             "heading_size": "h1"
           }
         },
@@ -64,8 +94,8 @@
         "button_Gy8FBp": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "shopify://pages/cookie-policy",
+            "button_label": "View product",
+            "button_link": "",
             "button_style_secondary": true
           }
         }
@@ -94,7 +124,7 @@
     "featured_collection_qTTAV4": {
       "type": "featured-collection",
       "settings": {
-        "title": "Title of section",
+        "title": "Title of section for core products",
         "heading_size": "h2",
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sodales eros.</p>",
         "show_description": false,
@@ -105,7 +135,7 @@
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "scheme-2",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -114,248 +144,46 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "rich_text_xgjXYr": {
-      "type": "rich-text",
+    "image_with_text_j7VAgM": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_PpNfBL": {
+        "heading_Qjfn4L": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Full-spectrum daily sun protection and skin supplement range, proven by dermatologists",
             "heading_size": "h1"
           }
         },
-        "text_LUCh8q": {
+        "text_wnr6Tx": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
-          }
-        },
-        "text_yieKYC": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><ul><li>Curabitur rhoncus semper ipsum.</li><li>Nunc in justo auctor, dictum est vel.</li><li>Luctus augue. Interdum et malesuada.</li></ul>"
-          }
-        },
-        "text_aAENyi": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
+            "text": "<p>Nothing protects skin like Heliocare 360°. The dermatologist proven daily sun protection range that provides high level, full-spectrum protection against UVA, UVB, Visible Light and Infrared-A, for everyone, for every day.  </p><p>The Heliocare 360° range contains Fernblock®+, which is a unique and powerful antioxidant that’s incorporated into both its topical sunscreens and skin health supplements.  </p><p>Fernblock®+ is clinically proven to help prevent and repair damage caused by daylight and environmental free radicals including damage to the skin’s DNA and immune system, and premature skin ageing. </p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_PpNfBL",
-        "text_LUCh8q",
-        "text_yieKYC",
-        "text_aAENyi"
+        "heading_Qjfn4L",
+        "text_wnr6Tx"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
         "color_scheme": "scheme-2",
-        "full_width": true,
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
         "padding_top": 64,
         "padding_bottom": 64
-      }
-    },
-    "collage_zFJ9RX": {
-      "type": "collage",
-      "blocks": {
-        "image_iCJGda": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Image_b778c850-95ae-42c2-81d8-4132521ea152.png"
-          }
-        },
-        "image_3tCpmr": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Image_68e7b212-5b65-426f-bd2b-7acaf8df9c16.png"
-          }
-        },
-        "video_GKXPyV": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video"
-          }
-        }
-      },
-      "block_order": [
-        "image_iCJGda",
-        "image_3tCpmr",
-        "video_GKXPyV"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "right",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-2",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "multicolumn_fUzyzm": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_AWm7ky": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_ND66wB": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_YrAVkU": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_RibJMh": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_Pg7XCK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_AWm7ky",
-        "column_ND66wB",
-        "column_YrAVkU",
-        "column_RibJMh",
-        "column_Pg7XCK"
-      ],
-      "settings": {
-        "title": "Stockists",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 5,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 32,
-        "padding_bottom": 32
-      }
-    },
-    "multicolumn_hViD4P": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_GVpAUF": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_edtMqY": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_BtmaEf": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_iFcadP": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_xDcii9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_GVpAUF",
-        "column_edtMqY",
-        "column_BtmaEf",
-        "column_iFcadP",
-        "column_xDcii9"
-      ],
-      "settings": {
-        "title": "As seen in",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 5,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 32,
-        "padding_bottom": 32
       }
     },
     "newsletter_nVyUck": {
@@ -364,14 +192,14 @@
         "heading_CAtpWk": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
+            "heading": "Get 10% off your first order",
             "heading_size": "h1"
           }
         },
         "paragraph_AWiPwC": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+            "text": "<p>Join the Cantabria Labs mailing list for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
           }
         },
         "email_form_w7wkGx": {
@@ -395,12 +223,10 @@
   },
   "order": [
     "image_banner_9qaB4e",
+    "rich_text_YYXacY",
     "image_with_text_48BKmX",
     "featured_collection_qTTAV4",
-    "rich_text_xgjXYr",
-    "collage_zFJ9RX",
-    "multicolumn_fUzyzm",
-    "multicolumn_hViD4P",
+    "image_with_text_j7VAgM",
     "newsletter_nVyUck"
   ]
 }
