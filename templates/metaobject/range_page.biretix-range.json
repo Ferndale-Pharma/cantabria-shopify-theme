@@ -412,6 +412,37 @@
         "padding_bottom": 64
       }
     },
+    "collapsible_content_dgkKCE": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_4aPfj3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "References",
+            "icon": "question_mark",
+            "row_content": "<ol><li>Hashtroody B, Bellas L, Pérez-Davó A. AEDV Poster, Spain, 2018. </li><li>Martinez J, Pérez-Davó A. GEDET Poster, Spain, 2019. </li><li>Milani M, Gonzales LC, Villalba M. J Clin Dermatol Ther 2021.7: 089. </li><li>Villani A, Annunziata MC, Cinelli E, Donnarumma M, Milani M, Fabbrocini G. G It Dermatol Venereol 2020. 155(5): 676-679. </li><li>Data on file, Zurko Bioresearch Madrid, 2021. </li></ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_4aPfj3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-3",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "featured_collection_qTTAV4": {
       "type": "featured-collection",
       "settings": {
@@ -485,6 +516,7 @@
     "cl_slideshow_4tCcxJ",
     "multicolumn_html_NwAPwU",
     "featured_collection_qTTAV4",
+    "collapsible_content_dgkKCE",
     "newsletter_ptPkgb"
   ]
 }
