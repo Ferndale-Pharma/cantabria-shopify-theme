@@ -374,9 +374,8 @@ ul.collection-list .card__content {
     @apply twcss-mb-4;
   }
 }
-
-.article-template__title {
-  @apply twcss-font-bold;
+.article-template__content h2 {
+  @apply h2;
 }
 
 .rte img {

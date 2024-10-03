@@ -534,8 +534,8 @@ ul.collection-list .card__content {
   }
 }
 
-.article-template__title {
-  font-weight: 700;
+.article-template__content h2 {
+  font-weight: 700 !important;
 }
 
 .rte img {
