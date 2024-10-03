@@ -70,7 +70,7 @@
           "type": "heading",
           "settings": {
             "heading": "Skincare Guides",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_c8xa8a": {
@@ -117,7 +117,7 @@
           "type": "heading",
           "settings": {
             "heading": "Ingredients Glossary",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_gHw3EQ": {
@@ -164,7 +164,7 @@
           "type": "heading",
           "settings": {
             "heading": "All Blog Articles",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_MTexfD": {
@@ -211,7 +211,7 @@
           "type": "heading",
           "settings": {
             "heading": "Subscribe to our emails",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "paragraph_rLNYHz": {
