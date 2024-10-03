@@ -163,6 +163,172 @@
         "padding_bottom": 64
       }
     },
+    "image_with_text_NyW83E": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XgEUcb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Innovative anti-ageing skincare, proven by dermatologists",
+            "heading_size": "h1"
+          }
+        },
+        "text_jTnNqL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Endocare combines powerful active ingredients with patented technologies, targeting the signs and symptoms of skin ageing and leaving the skin visibly radiant and rejuvenated. The range is clinically proven to enhance skin’s firmness and radiance, as well as improving texture, reducing pigmentation and minimising the appearance of lines and wrinkles.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XgEUcb",
+        "text_jTnNqL"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_tidgVq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Yq9kat": {
+          "type": "column",
+          "settings": {
+            "title": "Regenerates, renews and repairs",
+            "text": "<p>An innovative approach to skin ageing, with solutions that activate and regenerate the skin’s renewal and repair cells for maximum efficacy.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tDgdET": {
+          "type": "column",
+          "settings": {
+            "title": "Powerful technologies & innovative formulations",
+            "text": "<p>Patented technologies, including EDAFENCE® anti-pollution technology and RetinSphere® advanced retinoid technology, blended with gold-standard active ingredients for visible results.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tfaxLW": {
+          "type": "column",
+          "settings": {
+            "title": "Clinically proven results",
+            "text": "<p>Backed by more than 20 years of clinical research and numerous studies in leading international scientific and medical journals.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Yq9kat",
+        "column_tDgdET",
+        "column_tfaxLW"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_jBDxCK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pDXz9J": {
+          "type": "heading",
+          "settings": {
+            "heading": "Technologies & ingredients",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pDXz9J"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
+    "cl_slideshow_gDX4yN": {
+      "type": "cl-slideshow",
+      "blocks": {
+        "slide_XXcPLY": {
+          "type": "slide",
+          "settings": {
+            "heading": "EDAFENCE® Technology",
+            "heading_size": "h1",
+            "subheading": "A unique anti-pollution technology, derived from hardy Antarctic grass, that is clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution. ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_w9nqJM": {
+          "type": "slide",
+          "settings": {
+            "heading": "RetinSphere® Technology",
+            "heading_size": "h1",
+            "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_XXcPLY",
+        "slide_w9nqJM"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "none",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our technologies"
+      }
+    },
     "featured_collection_qTTAV4": {
       "type": "featured-collection",
       "settings": {
@@ -232,6 +398,10 @@
     "image_with_text_bTLWD6",
     "video_pxURAj",
     "featured_collection_r67adn",
+    "image_with_text_NyW83E",
+    "multicolumn_tidgVq",
+    "rich_text_jBDxCK",
+    "cl_slideshow_gDX4yN",
     "featured_collection_qTTAV4",
     "newsletter_AwFCKb"
   ]
