@@ -39,7 +39,7 @@
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-2",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -107,7 +107,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/ProductandBox-ProductImages-1100x1530-PediatricsMineral.jpg",
-        "height": "medium",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -116,7 +116,7 @@
         "section_color_scheme": "scheme-2",
         "color_scheme": "scheme-2",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 64,
         "padding_bottom": 64
       }
