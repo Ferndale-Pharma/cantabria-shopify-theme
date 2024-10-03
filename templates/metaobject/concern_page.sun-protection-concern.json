@@ -538,46 +538,38 @@
         "padding_bottom": 64
       }
     },
-    "rich_text_xN8BKM": {
-      "type": "rich-text",
+    "newsletter_ULqMbn": {
+      "type": "newsletter",
       "blocks": {
-        "heading_k9bgAG": {
+        "heading_GFctYy": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h2"
+            "heading": "Get 10% off your first order",
+            "heading_size": "h1"
           }
         },
-        "text_mU4nbB": {
-          "type": "text",
+        "paragraph_DGgPFD": {
+          "type": "paragraph",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Join the Cantabria Labs mailing list for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
           }
         },
-        "button_KDiXhb": {
-          "type": "button",
+        "email_form_MKxHHL": {
+          "type": "email_form",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "shopify://collections/anti-ageing",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_k9bgAG",
-        "text_mU4nbB",
-        "button_KDiXhb"
+        "heading_GFctYy",
+        "paragraph_DGgPFD",
+        "email_form_MKxHHL"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
         "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
         "full_width": true,
-        "padding_top": 32,
-        "padding_bottom": 32
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     }
   },
@@ -593,6 +585,6 @@
     "rich_text_H7wnr3",
     "multicolumn_GgiLEY",
     "multicolumn_VDCjYH",
-    "rich_text_xN8BKM"
+    "newsletter_ULqMbn"
   ]
 }
