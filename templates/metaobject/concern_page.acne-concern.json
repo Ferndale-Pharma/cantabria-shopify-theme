@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "{{ metaobject.name.value }}",
-            "heading_size": "hxl"
+            "heading_size": "h1"
           }
         },
         "text_p4wyK3": {
@@ -73,7 +73,7 @@
           "type": "heading",
           "settings": {
             "heading": "What is acne?",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "text_WezjGn": {
