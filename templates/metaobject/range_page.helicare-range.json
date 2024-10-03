@@ -15,8 +15,8 @@
         "heading_EG6cQt": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>The </strong><strong>{{ metaobject.name.value }}</strong><strong> Range</strong>",
-            "heading_size": "h1"
+            "heading": "<strong>{{ metaobject.name.value }}</strong>",
+            "heading_size": "h0"
           }
         },
         "text_RggQnc": {
@@ -32,7 +32,6 @@
         "text_RggQnc"
       ],
       "settings": {
-        "image": "shopify://shop_images/Heliocare_61be0d36-18a0-499d-9caf-0bc3cb061b4e.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
