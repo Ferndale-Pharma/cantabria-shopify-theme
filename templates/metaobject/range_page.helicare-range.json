@@ -564,7 +564,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "References",
-            "icon": "check_mark",
+            "icon": "question_mark",
             "row_content": "<ol><li> González S, et al. PhotodermatolPhotoimmunol Photomed,1996,12(2):45-56 996 Apr;12(2):45-56.  </li><li>González S, et.al. Int. J. Mol. Sci. 2018. Aug1;19(8):2250. </li><li>Amini S, et al. J Am Acad Dermatol. 2010 Mar;62(3):511-3. </li><li>Maritza A, et al. J. Am Acad Derm, 2004. 51(6):910-8. </li><li>Alonso-Lebrero JL, et.al. PhotochemPhotobiol B. 2003 Apr;70(1):31-7. </li><li>Aguilera J,et al. Front Med (Lausanne). 2021 Jun 2;8:684665.</li></ol>",
             "page": ""
           }
