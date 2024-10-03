@@ -312,11 +312,83 @@
             "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_7ccdwT": {
+          "type": "slide",
+          "settings": {
+            "heading": "Azelaic Aox-TECH",
+            "heading_size": "h1",
+            "subheading": "A patented delivery-system technology that boosts the action of azelaic acid up to 5 times, for greater efficacy in exfoliating, diminishing the appearance of blemishes, reducing redness and soothing the skin.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_94KUyR": {
+          "type": "slide",
+          "settings": {
+            "heading": "Hyaluronic Acid",
+            "heading_size": "h1",
+            "subheading": "A moisturise-retaining antioxidant that gives exceptional hydration, plumping the skin, improving elasticity, speeding up wound healing and reducing fine lines and wrinkles.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_jWGRYq": {
+          "type": "slide",
+          "settings": {
+            "heading": "Niacinamide",
+            "heading_size": "h1",
+            "subheading": "A form of vitamin B3 with anti-inflammatory properties, helping to reduce pore size and lock in moisture for a strong, healthy skin barrier.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_cmXeeH": {
+          "type": "slide",
+          "settings": {
+            "heading": "Vitamin C",
+            "heading_size": "h1",
+            "subheading": "A powerful antioxidant that fights free radicals, protects against environmental stressors, reduces pigmentation and brightens the skin.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_XXcPLY",
-        "slide_w9nqJM"
+        "slide_w9nqJM",
+        "slide_7ccdwT",
+        "slide_94KUyR",
+        "slide_jWGRYq",
+        "slide_cmXeeH"
       ],
       "settings": {
         "layout": "full_bleed",
