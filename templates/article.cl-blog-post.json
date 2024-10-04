@@ -64,13 +64,12 @@
       "settings": {
         "heading": "Blog posts",
         "heading_size": "h1",
-        "blog": "",
         "post_limit": 3,
         "columns_desktop": 3,
         "color_scheme": "",
         "show_image": true,
         "show_date": true,
-        "show_author": false,
+        "show_author": true,
         "show_view_all": true,
         "padding_top": 64,
         "padding_bottom": 64
