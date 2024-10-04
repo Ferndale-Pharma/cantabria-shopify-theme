@@ -29,7 +29,7 @@
       }
     },
     "main": {
-      "type": "main-blog",
+      "type": "cl-main-blog",
       "settings": {
         "layout": "grid",
         "show_image": true,
