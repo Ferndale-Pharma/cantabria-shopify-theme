@@ -10,7 +10,7 @@
 {
   "sections": {
     "main": {
-      "type": "main-product",
+      "type": "cl-main-product",
       "blocks": {
         "text_YCAafg": {
           "type": "text",

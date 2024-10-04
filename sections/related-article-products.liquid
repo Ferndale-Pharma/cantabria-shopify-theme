@@ -93,7 +93,7 @@
           aria-label="{{ 'general.slider.name' | t }}"
         >
           {% assign skip_card_product_styles = false %}
-          {%- for product in article.metafields.blog_post.related_products.value -%}
+          {%- for product in article.metafields.blog_post.related_products.value limit: section.settings.products_to_show -%}
             <li
               id="Slide-{{ section.id }}-{{ forloop.index }}"
               class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
