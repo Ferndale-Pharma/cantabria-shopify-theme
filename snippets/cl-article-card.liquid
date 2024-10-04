@@ -143,7 +143,10 @@
               {%- endif -%}
             </div>
           {%- endif -%}
-          <span class="link">Read article</span>
+          <div class="twcss-flex twcss-items-end">
+            <span class="link twcss-mr-1">Read article</span>
+            {% render 'icon-arrow' %}
+          </div>
         </div>
         {%- if show_badge -%}
           <div class="card__badge {{ settings.badge_position }}">
