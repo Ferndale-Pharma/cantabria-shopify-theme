@@ -16,7 +16,7 @@
   }
 {%- endstyle -%}
 
-{%- paginate blog.articles by 6 -%}
+{%- paginate blog.articles by 9 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
     <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {{ blog.title | escape }}
@@ -31,7 +31,7 @@
             style="--animation-order: {{ forloop.index }};"
           {% endif %}
         >
-          {%- render 'article-card',
+          {%- render 'cl-article-card',
             article: article,
             media_height: section.settings.image_height,
             media_aspect_ratio: article.image.aspect_ratio,
@@ -52,7 +52,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.main-blog.name",
+  "name": "CL Main Blog",
   "tag": "section",
   "class": "section",
   "settings": [
@@ -136,7 +136,7 @@
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_top",
-      "default": 36
+      "default": 64
     },
     {
       "type": "range",
@@ -146,7 +146,7 @@
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
+      "default": 64
     }
   ]
 }
