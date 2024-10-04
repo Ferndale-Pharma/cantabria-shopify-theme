@@ -334,8 +334,9 @@
         "column_h4Y3eA": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-01.png",
             "title": "",
-            "text": "<h3>Significantly reduce blemishes in 30 days<sup>1,2,3,4</sup>\n</h3>",
+            "text": "<h3 style=\"color: #000;\">Significantly reduce blemishes in 30 days<sup>1,2,3,4</sup>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -343,8 +344,9 @@
         "column_it9a8X": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-02.png",
             "title": "",
-            "text": "<h3>Reduce spot-causing bacteria<sup>3</sup>\n</h3>",
+            "text": "<h3 style=\"color: #000;\">Reduce spot-causing bacteria<sup>3</sup>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -352,8 +354,9 @@
         "column_qMY8cz": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-03.png",
             "title": "",
-            "text": "<h3>Control oil and shine<sup>1</sup>\n</h3>",
+            "text": "<h3 style=\"color: #000;\">Control oil and shine<sup>1</sup>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -361,8 +364,9 @@
         "column_9VJPPr": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-04.png",
             "title": "",
-            "text": "<h3>Hydrate and care for the skin<sup>5</sup>\n</h3>",
+            "text": "<h3 style=\"color: #000;\">Hydrate and care for the skin<sup>5</sup>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -370,8 +374,9 @@
         "column_xxGFfd": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-05.png",
             "title": "",
-            "text": "<h3>Improve the skin’s texture and firmness in 30 days<sup>2</sup>\n</h3>",
+            "text": "<h3 style=\"color: #000;\">Improve the skin’s texture and firmness in 30 days<sup>2</sup>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -379,8 +384,9 @@
         "column_VNLyzQ": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-06.png",
             "title": "",
-            "text": "<h3>Excellent skin tolerance<sup>1,2,3,4</sup>\n</h3>",
+            "text": "<h3 style=\"color: #000;\">Excellent skin tolerance<sup>1,2,3,4</sup>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -397,7 +403,7 @@
       "settings": {
         "title": "Proven by dermatologists",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
