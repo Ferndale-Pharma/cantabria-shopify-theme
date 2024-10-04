@@ -336,7 +336,7 @@
           "settings": {
             "image": "shopify://shop_images/BIRETIX_-_ICONS-01.png",
             "title": "",
-            "text": "<h3 style=\"color: #000;\">Significantly reduce blemishes in 30 days<sup>1,2,3,4</sup>\n</h3>",
+            "text": "<h3 style=\"color: #000;\">Significantly reduce blemishes in 30 days <sup>1,2,3,4</sup>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -346,7 +346,7 @@
           "settings": {
             "image": "shopify://shop_images/BIRETIX_-_ICONS-02.png",
             "title": "",
-            "text": "<h3 style=\"color: #000;\">Reduce spot-causing bacteria<sup>3</sup>\n</h3>",
+            "text": "<h3 style=\"color: #000;\">Reduce spot-causing bacteria <sup>3</sup>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -356,7 +356,7 @@
           "settings": {
             "image": "shopify://shop_images/BIRETIX_-_ICONS-03.png",
             "title": "",
-            "text": "<h3 style=\"color: #000;\">Control oil and shine<sup>1</sup>\n</h3>",
+            "text": "<h3 style=\"color: #000;\">Control oil and shine <sup>1</sup>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -366,7 +366,7 @@
           "settings": {
             "image": "shopify://shop_images/BIRETIX_-_ICONS-04.png",
             "title": "",
-            "text": "<h3 style=\"color: #000;\">Hydrate and care for the skin<sup>5</sup>\n</h3>",
+            "text": "<h3 style=\"color: #000;\">Hydrate and care for the skin <sup>5</sup>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -376,7 +376,7 @@
           "settings": {
             "image": "shopify://shop_images/BIRETIX_-_ICONS-05.png",
             "title": "",
-            "text": "<h3 style=\"color: #000;\">Improve the skin’s texture and firmness in 30 days<sup>2</sup>\n</h3>",
+            "text": "<h3 style=\"color: #000;\">Improve the skin’s texture and firmness in 30 days <sup>2</sup>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -386,7 +386,7 @@
           "settings": {
             "image": "shopify://shop_images/BIRETIX_-_ICONS-06.png",
             "title": "",
-            "text": "<h3 style=\"color: #000;\">Excellent skin tolerance<sup>1,2,3,4</sup>\n</h3>",
+            "text": "<h3 style=\"color: #000;\">Excellent skin tolerance <sup>1,2,3,4</sup>\n</h3>",
             "link_label": "",
             "link": ""
           }
