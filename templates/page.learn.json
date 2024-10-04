@@ -29,7 +29,7 @@
         "text_d44P7J": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dolor justo, sagittis at magna sed, vehicula placerat nisi. In ullamcorper laoreet sapien non ultricies. In quis metus molestie, vehicula augue.</p>",
+            "text": "<p>Get expert health and skincare advice from top dermatologists and skincare professionals worldwide, offering in-depth guidance for all your skincare needs.</p>",
             "text_style": "body"
           }
         },
@@ -69,21 +69,21 @@
         "heading_bTMYF4": {
           "type": "heading",
           "settings": {
-            "heading": "Skincare Guides",
+            "heading": "Skincare guides",
             "heading_size": "h2"
           }
         },
         "text_c8xa8a": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dolor justo, sagittis at magna sed, vehicula placerat nisi. In ullamcorper laoreet sapien non ultricies. In quis metus molestie, vehicula augue.</p>",
+            "text": "<p>Learn more about which products and ingredients are right for your skin, helping you make the right choice to achieve your skincare goals.</p>",
             "text_style": "body"
           }
         },
         "button_wpcE7m": {
           "type": "button",
           "settings": {
-            "button_label": "Skin care guides",
+            "button_label": "Skincare guides",
             "button_link": "shopify://blogs/skincare-guides",
             "button_style_secondary": true
           }
@@ -116,14 +116,14 @@
         "heading_iD7Dpr": {
           "type": "heading",
           "settings": {
-            "heading": "Ingredients Glossary",
+            "heading": "Ingredients glossary",
             "heading_size": "h2"
           }
         },
         "text_gHw3EQ": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dolor justo, sagittis at magna sed, vehicula placerat nisi. In ullamcorper laoreet sapien non ultricies. In quis metus molestie, vehicula augue.</p>",
+            "text": "<p>Discover more about the key technologies and ingredients featured in Cantabria Labs’ outstanding product portfolio. Learn how they elevate your skincare routines to the next level, delivering clinically proven results, every time.</p>",
             "text_style": "body"
           }
         },
@@ -163,7 +163,7 @@
         "heading_aCUkbe": {
           "type": "heading",
           "settings": {
-            "heading": "All Blog Articles",
+            "heading": "Blog",
             "heading_size": "h2"
           }
         },
@@ -177,7 +177,7 @@
         "button_9Gf9jL": {
           "type": "button",
           "settings": {
-            "button_label": "All Blog Articles",
+            "button_label": "Blog",
             "button_link": "shopify://blogs/blog",
             "button_style_secondary": true
           }
