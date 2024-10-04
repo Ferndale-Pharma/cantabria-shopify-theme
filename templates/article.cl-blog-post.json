@@ -35,7 +35,7 @@
     "related_article_products_pTftL7": {
       "type": "related-article-products",
       "settings": {
-        "title": "Products Featured",
+        "title": "Featured products",
         "heading_size": "h2",
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sodales eros.</p>",
         "show_description": false,
