@@ -86,9 +86,9 @@
   padding-bottom: 11rem;
 }
 
-.article-card__image--medium .ratio::before {
+/* .article-card__image--medium .ratio::before {
   padding-bottom: 22rem;
-}
+} */
 
 .article-card__image--large .ratio::before {
   padding-bottom: 33rem;
