@@ -115,33 +115,6 @@
               %}
             </li>
             {%- assign skip_card_product_styles = true -%}
-          {%- else -%}
-            {%- for i in (1..section.settings.columns_desktop) -%}
-              <li
-                class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                {% if settings.animations_reveal_on_scroll %}
-                  data-cascade
-                  style="--animation-order: {{ forloop.index }};"
-                {% endif %}
-              >
-                {% liquid
-                  assign ridx = forloop.rindex
-                  case ridx
-                    when 5
-                      assign ridx = 1
-                    when 6
-                      assign ridx = 2
-                  endcase
-                %}
-                {%- assign placeholder_image = 'product-apparel-' | append: ridx -%}
-                {% render 'card-product',
-                  show_vendor: section.settings.show_vendor,
-                  media_aspect_ratio: section.settings.image_ratio,
-                  image_shape: section.settings.image_shape,
-                  placeholder_image: placeholder_image
-                %}
-              </li>
-            {%- endfor -%}
           {%- endfor -%}
         </ul>
         {%- if show_mobile_slider or show_desktop_slider -%}
