@@ -1212,16 +1212,32 @@ ol {
   margin-top: 2rem;
 }
 
-.twcss-mt-1 {
-  margin-top: 0.25rem;
+.twcss--mt-1 {
+  margin-top: -0.25rem;
 }
 
-.twcss-mt-2 {
-  margin-top: 0.5rem;
+.-twcss-mt-4 {
+  margin-top: -1rem;
 }
 
-.twcss-mt-4 {
-  margin-top: 1rem;
+.-twcss-mb-1 {
+  margin-bottom: -0.25rem;
+}
+
+.-twcss-mb-4 {
+  margin-bottom: -1rem;
+}
+
+.twcss-mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.twcss-mb-\[1px\] {
+  margin-bottom: 1px;
+}
+
+.twcss-mb-\[2px\] {
+  margin-bottom: 2px;
 }
 
 .twcss-inline-block {
@@ -1250,14 +1266,6 @@ ol {
 
 .twcss-items-end {
   align-items: flex-end;
-}
-
-.twcss-items-center {
-  align-items: center;
-}
-
-.twcss-items-baseline {
-  align-items: baseline;
 }
 
 .twcss-justify-center {
@@ -1325,14 +1333,6 @@ ol {
   padding-right: 0.75rem;
 }
 
-.twcss-pr-1 {
-  padding-right: 0.25rem;
-}
-
-.twcss-pt-2 {
-  padding-top: 0.5rem;
-}
-
 .twcss-pt-4 {
   padding-top: 1rem;
 }
@@ -1398,5 +1398,19 @@ ol {
 
   .md\:twcss-pb-1 {
     padding-bottom: 0.25rem;
+  }
+}
+
+@media (min-width: 990px) {
+  .lg\:twcss-mb-\[2px\] {
+    margin-bottom: 2px;
+  }
+
+  .lg\:twcss-mb-\[4px\] {
+    margin-bottom: 4px;
+  }
+
+  .lg\:twcss-mb-\[1px\] {
+    margin-bottom: 1px;
   }
 }
