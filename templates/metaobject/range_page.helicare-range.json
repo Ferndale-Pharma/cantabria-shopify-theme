@@ -398,6 +398,9 @@
         "column_GUphPb",
         "column_P8Cced"
       ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
       "settings": {
         "title": "Fernblock is clinically proven to:",
         "heading_size": "h1",
