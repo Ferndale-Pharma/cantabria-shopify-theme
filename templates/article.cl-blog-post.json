@@ -10,7 +10,7 @@
 {
   "sections": {
     "main": {
-      "type": "main-article",
+      "type": "cl-main-article",
       "blocks": {
         "title": {
           "type": "title",
