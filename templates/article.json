@@ -36,7 +36,7 @@
       "type": "related-article-products",
       "settings": {
         "title": "Products Featured",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sodales eros.</p>",
         "show_description": false,
         "description_style": "body",
@@ -63,7 +63,7 @@
       "type": "featured-blog",
       "settings": {
         "heading": "Most read",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "blog": "",
         "post_limit": 3,
         "columns_desktop": 3,
@@ -83,7 +83,7 @@
           "type": "heading",
           "settings": {
             "heading": "Subscribe to our emails",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "paragraph_mn8EWW": {
