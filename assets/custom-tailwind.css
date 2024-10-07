@@ -396,4 +396,5 @@ ul.collection-list .card__content {
 .h4.accordion__title,
 .accordion__content {
   @apply twcss-text-black twcss-text-black;
+  @apply twcss-p-0 !important;
 }

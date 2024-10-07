@@ -243,12 +243,15 @@
                       </div>
                       {% render 'icon-caret' %}
                     </summary>
-                    <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+                    <div class="twcss-pt-8 rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                       {{ block.settings.content }}
-                      <div class="caption">All ingredients</div>
-                      {% for metaobject in product.metafields.custom.key_ingredients.value %}
+                      <div class="twcss-grid twcss-grid-cols-1 md:twcss-grid-cols-2 twcss-gap-8 twcss-list-none md:twcss-auto-rows-fr">
+                        {% for metaobject in product.metafields.custom.key_ingredients.value %}
                           {% render 'card-ingredient', card_ingredient: metaobject %}
                         {% endfor %}
+                      </div>
+                      <div class="h4 twcss-pt-8">All ingredients</div>
+                      <p>Some stuff about all ingredients</p>
                     </div>
                   </details>
                 </div>
