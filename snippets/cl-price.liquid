@@ -98,7 +98,7 @@
         {%- unless product.price_varies == false and product.compare_at_price_varies %}
           <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
           <span>
-            <s class="price-item price-item--regular">
+            <s class="price-item twcss-text-[#666]">
               {% if settings.currency_code_enabled %}
                 {{ compare_at_price | money_with_currency }}
               {% else %}
@@ -138,7 +138,7 @@
   </div>
 {% endunless %}
 <style>
-  .price-item--sale{
+  .price-item--sale, .price-item--regular{
     font-family: var(--font-heading-family);
     font-weight: 700;
     font-size: 2.5rem;
