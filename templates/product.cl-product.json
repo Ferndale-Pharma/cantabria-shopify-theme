@@ -99,7 +99,7 @@
           "settings": {
             "heading": "Ingreidents",
             "icon": "none",
-            "content": "<p>Custom ingredients tab</p>",
+            "content": "<h3>Custom ingredients tab</h3>",
             "all_ingredients": "<p>{{ product.metafields.custom.all_ingredients | metafield_tag }}</p>"
           }
         }
@@ -122,7 +122,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "cover",
