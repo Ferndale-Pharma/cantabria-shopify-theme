@@ -165,6 +165,9 @@
         "column_FLmb3h",
         "column_g7EGCc"
       ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
       "settings": {
         "title": "What causes sun damage?",
         "heading_size": "h1",
