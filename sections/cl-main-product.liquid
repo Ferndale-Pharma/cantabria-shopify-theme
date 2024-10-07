@@ -251,7 +251,7 @@
                         {% endfor %}
                       </div>
                       <div class="h4 twcss-pt-8">All ingredients</div>
-                      <p>Some stuff about all ingredients</p>
+                      <p>{{ block.settings.all_ingredients }}</p>
                     </div>
                   </details>
                 </div>
@@ -1379,6 +1379,11 @@
           "type": "richtext",
           "id": "content",
           "label": "Ingredients Tab text"
+        }
+        {
+          "type": "richtext",
+          "id": "all_ingredients",
+          "label": "All ingredients"
         }
       ]
     },
