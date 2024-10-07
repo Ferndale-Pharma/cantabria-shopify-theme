@@ -99,7 +99,8 @@
           "settings": {
             "heading": "Ingreidents",
             "icon": "none",
-            "content": "<p>Custom ingredients tab</p>"
+            "content": "<p>Custom ingredients tab</p>",
+            "all_ingredients": "<p>{{ product.metafields.custom.all_ingredients | metafield_tag }}</p>"
           }
         }
       },
