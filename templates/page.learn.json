@@ -48,7 +48,6 @@
         "button_qhbfQf"
       ],
       "settings": {
-        "image": "shopify://shop_images/533dac7b9978897d5283954f73064d4f.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -58,7 +57,7 @@
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -95,7 +94,6 @@
         "button_wpcE7m"
       ],
       "settings": {
-        "image": "shopify://shop_images/8898c7d23d6da522488ea44391f20ea8.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -105,7 +103,7 @@
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -142,7 +140,6 @@
         "button_tiRMcn"
       ],
       "settings": {
-        "image": "shopify://shop_images/Image_d77a233c-4061-496d-85d8-3e6cf08f012f.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -152,7 +149,7 @@
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -189,7 +186,6 @@
         "button_9Gf9jL"
       ],
       "settings": {
-        "image": "shopify://shop_images/Image_52c9f67e-968c-4310-919c-dbf57395e97c.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -199,7 +195,7 @@
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -210,14 +206,14 @@
         "heading_wXh4eA": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
+            "heading": "Get 10% off your first order",
             "heading_size": "h2"
           }
         },
         "paragraph_rLNYHz": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suscipit, massa id fermentum sodales, sem urna laoreet ipsum, ac gravida mauris mauris eu ipsum</p>"
+            "text": "<p>Join the Cantabria Labs mailing list for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
           }
         },
         "email_form_h9gp7q": {
