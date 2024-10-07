@@ -94,13 +94,12 @@
             "page": ""
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
+        "ingredients_tab_4mt9Wd": {
+          "type": "ingredients_tab",
           "settings": {
-            "heading": "Ingredients",
+            "heading": "Ingreidents",
             "icon": "none",
-            "content": "{{ product.metafields.custom.key_ingredients | metafield_tag: field: 'name' }}",
-            "page": ""
+            "content": "<p>Custom ingredients tab</p>"
           }
         }
       },
@@ -118,7 +117,7 @@
         "selleasy_lb_upsell_fbt_block_BHQp6b",
         "collapsible-row-1",
         "collapsible-row-2",
-        "collapsible-row-0"
+        "ingredients_tab_4mt9Wd"
       ],
       "settings": {
         "enable_sticky_info": true,
