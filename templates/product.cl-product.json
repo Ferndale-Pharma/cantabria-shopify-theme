@@ -47,6 +47,11 @@
           "settings": {
           }
         },
+        "description_4GfMrB": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -66,21 +71,9 @@
             "show_gift_card_recipient": false
           }
         },
-        "description_4GfMrB": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "selleasy_lb_upsell_fbt_block_BHQp6b": {
           "type": "shopify://apps/selleasy/blocks/lb-upsell-fbt-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
           "settings": {
-          }
-        },
-        "text_YWbJwy": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
           }
         },
         "collapsible-row-1": {
@@ -109,15 +102,6 @@
             "content": "{{ product.metafields.custom.key_ingredients | metafield_tag: field: 'name' }}",
             "page": ""
           }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Reviews",
-            "icon": "none",
-            "content": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -127,16 +111,14 @@
         "rating_Rzyz7i",
         "oneloyalty_point_calculator_nPXPTB",
         "price",
+        "description_4GfMrB",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description_4GfMrB",
         "selleasy_lb_upsell_fbt_block_BHQp6b",
-        "text_YWbJwy",
         "collapsible-row-1",
         "collapsible-row-2",
-        "collapsible-row-0",
-        "collapsible-row-3"
+        "collapsible-row-0"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -156,17 +138,6 @@
     },
     "1725440000dbba4c0d": {
       "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_eNaJcH": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_eNaJcH"
-      ],
       "settings": {
         "include_margins": true
       }
