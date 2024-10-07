@@ -246,6 +246,9 @@
                     <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                       {{ block.settings.content }}
                       <div class="caption">All ingredients</div>
+                      {% for metaobject in product.metafields.custom.key_ingredients.value %}
+                          {% render 'card-ingredient', card_ingredient: metaobject %}
+                        {% endfor %}
                     </div>
                   </details>
                 </div>
