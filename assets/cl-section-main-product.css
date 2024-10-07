@@ -175,7 +175,6 @@ product-info {
   flex: 0 0 100%;
   padding: 0;
   margin: 0 0 1.2rem 0;
-  max-width: 44rem;
   min-width: fit-content;
   border: none;
 }
@@ -356,12 +355,16 @@ a.product__text {
 }
 
 .product-form__buttons {
-  max-width: 44rem;
+  width: 100%;
 }
 
 .product--no-media .product__info-container > modal-opener {
   display: block;
   text-align: center;
+}
+
+.buy-butons {
+  width: 100%;
 }
 
 .product--no-media .product-popup-modal__button {
