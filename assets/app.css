@@ -1190,10 +1190,6 @@ ul,
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.twcss-content-end {
-  align-content: flex-end;
-}
-
 .twcss-items-start {
   align-items: flex-start;
 }
@@ -1208,10 +1204,6 @@ ul,
 
 .twcss-justify-between {
   justify-content: space-between;
-}
-
-.twcss-justify-items-end {
-  justify-items: end;
 }
 
 .twcss-gap-8 {
