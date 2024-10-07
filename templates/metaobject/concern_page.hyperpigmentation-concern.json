@@ -307,7 +307,7 @@
       "settings": {
         "title": "<strong>Our hyperpigmentation products </strong>",
         "heading_size": "h2",
-        "description": "<p>Some really relevant products that you can use.</p>",
+        "description": "<p>Shop the range of Cantabria Labs products, suitable for helping to treat hyperpigmentation. Each product contains a wide range of effective ingredients and patented technologies to protect, correct and create a brighter, more unified skin tone.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "{{ metaobject.concern_products.value }}",
