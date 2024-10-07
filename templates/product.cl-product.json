@@ -47,11 +47,6 @@
           "settings": {
           }
         },
-        "description_4GfMrB": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -69,6 +64,11 @@
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
+          }
+        },
+        "description_4GfMrB": {
+          "type": "description",
+          "settings": {
           }
         },
         "selleasy_lb_upsell_fbt_block_BHQp6b": {
@@ -111,10 +111,10 @@
         "rating_Rzyz7i",
         "oneloyalty_point_calculator_nPXPTB",
         "price",
-        "description_4GfMrB",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "description_4GfMrB",
         "selleasy_lb_upsell_fbt_block_BHQp6b",
         "collapsible-row-1",
         "collapsible-row-2",
