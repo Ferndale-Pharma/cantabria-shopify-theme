@@ -91,7 +91,7 @@
                 {% render block %}
               {%- when 'text' -%}
                 <p
-                  class="product__text inline-richtext twcss-text-[#666]{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
+                  class="product__text product__attributes inline-richtext twcss-text-[#666]{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
                   {{ block.shopify_attributes }}
                 >
                   {{- block.settings.text -}}
@@ -119,7 +119,7 @@
                     <span>{{ 'products.product.volume_pricing.note' | t }}</span>
                   </div>
                 {%- endif -%}
-                {%- if cart.taxes_included or cart.duties_included or shop.shipping_policy.body != blank -%}
+                {% comment %} {%- if cart.taxes_included or cart.duties_included or shop.shipping_policy.body != blank -%}
                   <div class="product__tax caption rte">
                     {%- if cart.duties_included and cart.taxes_included -%}
                       {{ 'products.product.duties_and_taxes_included' | t }}
@@ -132,7 +132,7 @@
                       {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
                     {%- endif -%}
                   </div>
-                {%- endif -%}
+                {%- endif -%} {% endcomment %}
                 <div {{ block.shopify_attributes }}>
                   {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                   {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
@@ -232,7 +232,7 @@
                   </details>
                 </div>
               {%- when 'ingredients_tab' -%}
-                <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
+                <div class="product__accordion accordion product__accordion-ingredients quick-add-hidden" {{ block.shopify_attributes }}>
                   <details id="Details-{{ block.id }}-{{ section.id }}">
                     <summary>
                       <div class="summary__title">
@@ -247,11 +247,11 @@
                       {{ block.settings.content }}
                       <div class="twcss-grid twcss-grid-cols-1 md:twcss-grid-cols-2 twcss-gap-8 twcss-list-none md:twcss-auto-rows-fr">
                         {% for metaobject in product.metafields.custom.key_ingredients.value %}
-                          {% render 'card-ingredient', card_ingredient: metaobject %}
+                          {% render 'card-ingredient', card_ingredient: metaobject, variant: 'product' %}
                         {% endfor %}
                       </div>
                       <div class="h4 twcss-pt-8">All ingredients</div>
-                      <p>{{ block.settings.all_ingredients }}</p>
+                      {{ block.settings.all_ingredients }}
                     </div>
                   </details>
                 </div>

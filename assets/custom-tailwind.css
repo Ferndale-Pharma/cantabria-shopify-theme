@@ -398,3 +398,11 @@ ul.collection-list .card__content {
   @apply twcss-text-black twcss-text-black;
   @apply twcss-p-0 !important;
 }
+
+.accordion {
+  border-top: none !important;
+}
+
+.product__accordion-ingredients .metafield-multi_line_text_field {
+  @apply twcss-text-lg;
+}
