@@ -59,6 +59,11 @@
             "swatch_shape": "circle"
           }
         },
+        "selleasy_lb_upsell_fbt_block_BHQp6b": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-fbt-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -69,11 +74,6 @@
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
-          }
-        },
-        "selleasy_lb_upsell_fbt_block_BHQp6b": {
-          "type": "shopify://apps/selleasy/blocks/lb-upsell-fbt-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "settings": {
           }
         },
         "collapsible-row-1": {
@@ -113,9 +113,9 @@
         "price",
         "description_4GfMrB",
         "variant_picker",
+        "selleasy_lb_upsell_fbt_block_BHQp6b",
         "quantity_selector",
         "buy_buttons",
-        "selleasy_lb_upsell_fbt_block_BHQp6b",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-0"
