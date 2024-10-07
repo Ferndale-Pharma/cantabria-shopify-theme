@@ -36,15 +36,15 @@
           "settings": {
           }
         },
-        "oneloyalty_point_calculator_nPXPTB": {
-          "type": "shopify://apps/oneloyalty/blocks/pointCalculator/6119b281-36ce-42b5-93ab-6aaf5fb224ce",
-          "settings": {
-            "alignment_component": "left"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "joy_loyalty_program_joy_points_calculator_block_3E4En6": {
+          "type": "shopify://apps/joy-loyalty-program/blocks/joy-points-calculator-block/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
+          "settings": {
+            "points_calculator_alignment": "left"
           }
         },
         "variant_picker": {
@@ -109,8 +109,8 @@
         "title",
         "text_txweDz",
         "rating_Rzyz7i",
-        "oneloyalty_point_calculator_nPXPTB",
         "price",
+        "joy_loyalty_program_joy_points_calculator_block_3E4En6",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
