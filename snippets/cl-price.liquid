@@ -43,7 +43,7 @@
 {%- unless target == null and placeholder == null -%}
   <div
     class="
-      price twcss-flex twcss-items-end
+      cl-price price twcss-flex twcss-items-end
       {%- if price_class %} {{ price_class }}{% endif -%}
       {%- if available == false %} price--sold-out{% endif -%}
       {%- if compare_at_price > price and product.quantity_price_breaks_configured? != true %} price--on-sale{% endif -%}
@@ -138,12 +138,12 @@
   </div>
 {% endunless %}
 <style>
-  .price-item--sale, .price-item--regular{
+  .cl-price .price-item--sale, .cl-price .price-item--regular{
     font-family: var(--font-heading-family);
     font-weight: 700;
     font-size: 2.5rem;
   }
-  .price__badge-sale{
+  .cl-price .price__badge-sale{
     background-color: rgb(208,222,229);
   }
 </style>
