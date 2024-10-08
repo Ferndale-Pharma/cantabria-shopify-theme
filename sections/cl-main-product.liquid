@@ -233,7 +233,7 @@
                 </div>
               {%- when 'ingredients_tab' -%}
                 <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
-                  <details id="Details-{{ block.id }}-{{ section.id }}">
+                  <details class="twcss-pb-8" id="Details-{{ block.id }}-{{ section.id }}">
                     <summary>
                       <div class="summary__title">
                         {% render 'icon-accordion', icon: block.settings.icon %}
@@ -244,14 +244,16 @@
                       {% render 'icon-caret' %}
                     </summary>
                     <div class="twcss-pt-8 rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
-                      {{ block.settings.content }}
+                      <div class="ingredients__accordion-content twcss-pb-8">
+                        {{ block.settings.content }}
+                        </div>
                       <div class="twcss-grid twcss-grid-cols-1 md:twcss-grid-cols-2 twcss-gap-8 twcss-list-none md:twcss-auto-rows-fr">
                         {% for metaobject in product.metafields.custom.key_ingredients.value %}
-                          {% render 'card-ingredient', card_ingredient: metaobject %}
+                          {% render 'card-ingredient', card_ingredient: metaobject, variant: 'product' %}
                         {% endfor %}
                       </div>
-                      <div class="h4 twcss-pt-8">All ingredients</div>
-                      <p>{{ block.settings.all_ingredients }}</p>
+                      <div class="twcss-text-black twcss-font-bold twcss-py-8">All ingredients</div>
+                      {{ block.settings.all_ingredients }}
                     </div>
                   </details>
                 </div>

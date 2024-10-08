@@ -28,7 +28,7 @@
             {% for metaobject in shop.metaobjects.ingredients.values %}
                 <li class="ingredient__item">
                     <div class="card-ingredient__name twcss-hidden">{{ metaobject.name | escape }}</div>
-                    {% render 'card-ingredient', card_ingredient: metaobject %}
+                    {% render 'card-ingredient', card_ingredient: metaobject, variant: 'page' %}
                 </li>
             {% endfor %}
         </ul>

@@ -6,6 +6,12 @@
 .h4,
 .hxl,
 .badge,
+.ingredients__accordion-content h1,
+.ingredients__accordion-content h2,
+.ingredients__accordion-content h3 {
+  @apply twcss-font-bold !important;
+  @apply twcss-text-black;
+}
 .contains-content-container h3,
 .banner__content h2,
 .contains-content-container h2,
