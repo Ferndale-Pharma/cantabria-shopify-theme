@@ -90,7 +90,7 @@
           "settings": {
             "heading": "How to use",
             "icon": "none",
-            "content": "",
+            "content": "{{ product.metafields.custom.how_to_use | metafield_tag }}",
             "page": ""
           }
         },
