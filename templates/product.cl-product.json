@@ -31,8 +31,8 @@
             "text_style": "body"
           }
         },
-        "rating_Rzyz7i": {
-          "type": "rating",
+        "judge_me_reviews_preview_badge_fmp8CP": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -108,7 +108,7 @@
         "text_YCAafg",
         "title",
         "text_txweDz",
-        "rating_Rzyz7i",
+        "judge_me_reviews_preview_badge_fmp8CP",
         "price",
         "joy_loyalty_program_joy_points_calculator_block_3E4En6",
         "variant_picker",
@@ -138,6 +138,17 @@
     },
     "1725440000dbba4c0d": {
       "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_aJb67R": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_aJb67R"
+      ],
       "settings": {
         "include_margins": true
       }
