@@ -185,7 +185,7 @@
         "heading_NDmHAN": {
           "type": "heading",
           "settings": {
-            "heading": "Clinically & Scientifically proven technologies",
+            "heading": "Leaders in dermatological innovation",
             "heading_size": "h1"
           }
         }
@@ -208,12 +208,11 @@
         "slide_CG69ez": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Image_52c9f67e-968c-4310-919c-dbf57395e97c.png",
-            "heading": "Image slide",
+            "heading": "Fernblock® Technology",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "shopify://metaobjects/range_page/endocare",
+            "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer.",
+            "button_label": "",
+            "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -226,11 +225,10 @@
         "slide_YXx9Kj": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Image_d77a233c-4061-496d-85d8-3e6cf08f012f.png",
-            "heading": "Image slide",
+            "heading": "BIOPEP-15",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "An incredible botanical-derived technology that fights against the main acne-causing bacteria <em>Cutibacterium acnes</em> and helps to reduce inflammation.",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -244,11 +242,44 @@
         "slide_Ukfd37": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/8898c7d23d6da522488ea44391f20ea8.png",
-            "heading": "Image slide",
+            "heading": "RetinSphere® Technology",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_d7ANrH": {
+          "type": "slide",
+          "settings": {
+            "heading": "EDAFENCE® Technology",
+            "heading_size": "h1",
+            "subheading": "A unique anti-pollution technology derived from hardy Antarctic grass, clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution. Its antioxidant properties prevent oxidative stress and skin inflammation, strengthening the skin barrier, improving hydration levels and promoting healthy skin.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_E6LWAC": {
+          "type": "slide",
+          "settings": {
+            "heading": "SCA® Growth Factor Technology",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -263,7 +294,9 @@
       "block_order": [
         "slide_CG69ez",
         "slide_YXx9Kj",
-        "slide_Ukfd37"
+        "slide_Ukfd37",
+        "slide_d7ANrH",
+        "slide_E6LWAC"
       ],
       "settings": {
         "layout": "grid",
@@ -313,7 +346,7 @@
         "column_LkpPbJ"
       ],
       "settings": {
-        "title": "What people are saying",
+        "title": "Skincare specialists trust Cantabria Labs",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -335,28 +368,28 @@
         "column_bpzjnL": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "title": "Expert Advice",
+            "text": "<p>Health and skincare advice from top dermatologists and skincare professionals worldwide.</p>",
+            "link_label": "Learn more",
+            "link": "shopify://blogs/expert-advice"
           }
         },
         "column_jdJJMU": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "title": "Skincare Guides",
+            "text": "<p>In depth guides to help you make the right choice for your skin and achieve your skincare goals.</p>",
+            "link_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides"
           }
         },
         "column_6hVRfc": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "title": "Ingredients Glossary",
+            "text": "<p>The key technologies and ingredients featured in Cantabria Labs’ outstanding product portfolio.</p>",
+            "link_label": "Learn more",
+            "link": "shopify://pages/ingredients"
           }
         }
       },
@@ -366,12 +399,12 @@
         "column_6hVRfc"
       ],
       "settings": {
-        "title": "Learnwith Cantabria Labs",
+        "title": "Innovation and scientific excellence",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
@@ -388,21 +421,21 @@
         "heading_LYkfrn": {
           "type": "heading",
           "settings": {
-            "heading": "All About Cantabria Labs",
+            "heading": "Global leaders in dermatology",
             "heading_size": "h1"
           }
         },
         "text_HTbGR6": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Cantabria Labs is a pharmaceutical company who have specialised in dermatological skincare for over 35 years. Based in Spain, and with a presence in more than 85 countries worldwide, Cantabria Labs are a leading name in groundbreaking skin health research, development and innovation.</p>",
             "text_style": "body"
           }
         },
         "button_jPCTjG": {
           "type": "button",
           "settings": {
-            "button_label": "More About Us",
+            "button_label": "More about us",
             "button_link": "shopify://pages/about-cantabria-labs",
             "button_style_secondary": true
           }
@@ -414,7 +447,6 @@
         "button_jPCTjG"
       ],
       "settings": {
-        "image": "shopify://shop_images/Image_d77a233c-4061-496d-85d8-3e6cf08f012f.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -465,6 +497,7 @@
         "column_LpjWdF",
         "column_G9RbmJ"
       ],
+      "disabled": true,
       "settings": {
         "title": "Multicolumn",
         "heading_size": "h1",
@@ -488,8 +521,8 @@
         "column_qBBnmB": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Dermatologist proven efficacy",
+            "text": "<p>Cantabria Labs skincare ranges are dermatologist-proven to target, prevent, and improve key skin concerns like sun protection, acne-prone skin, ageing, and hyperpigmentation.</p>",
             "link_label": "",
             "link": ""
           }
@@ -497,8 +530,8 @@
         "column_pXVeTF": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Expert recommended",
+            "text": "<p>Cantabria Labs products are the top dermatological prescription in Spain, Italy, Portugal, and recommended by skin experts across the globe.</p>",
             "link_label": "",
             "link": ""
           }
@@ -506,8 +539,8 @@
         "column_tmgBUf": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Personalised skincare",
+            "text": "<p>With ranges specifically designed to cover every skin type, indication and concern, there’s always a Cantabria Labs product to suit <em>your</em> skin.</p>",
             "link_label": "",
             "link": ""
           }
@@ -519,12 +552,12 @@
         "column_tmgBUf"
       ],
       "settings": {
-        "title": "3 reasons to choose Cantabria Labs",
+        "title": "Why choose Cantabria Labs?",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -597,14 +630,14 @@
         "heading_Qtpcia": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
+            "heading": "Get 10% off your first order",
             "heading_size": "h1"
           }
         },
         "paragraph_nbh67z": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+            "text": "<p>Join the Cantabria Labs mailing list for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
           }
         },
         "email_form_HHPU7P": {
