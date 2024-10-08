@@ -452,3 +452,6 @@ ul.collection-list .card__content {
 }
 
 /** Points **/
+.Avada-PointsCalculator__Container {
+  @apply twcss-font-bold twcss-border-b-2;
+}
