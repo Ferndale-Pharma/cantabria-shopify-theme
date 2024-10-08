@@ -78,7 +78,7 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "standard",
+        "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 28,
@@ -436,7 +436,7 @@
           "type": "button",
           "settings": {
             "button_label": "More about us",
-            "button_link": "shopify://pages/about-us",
+            "button_link": "shopify://pages/about-cantabria-labs",
             "button_style_secondary": true
           }
         }
