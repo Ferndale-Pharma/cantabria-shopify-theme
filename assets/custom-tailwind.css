@@ -8,10 +8,12 @@
 .badge,
 .ingredients__accordion-content h1,
 .ingredients__accordion-content h2,
-.ingredients__accordion-content h3 {
+.ingredients__accordion-content h3,
+.jdgm-carousel-title {
   @apply twcss-font-bold !important;
   @apply twcss-text-black;
 }
+
 .contains-content-container h3,
 .banner__content h2,
 .contains-content-container h2,
@@ -158,12 +160,32 @@ form#bh-sl-user-location .scasl-search-btn {
   display: none !important;
 }
 
-/* Loyalty overrides */
-._linkPreview_xi026_26 {
-  display: none !important;
+/** reviews **/
+.jdgm-carousel-title {
+  @apply twcss-pb-8;
 }
-._popupFooter_hytmr_1 {
-  display: none !important;
+.jdgm-all-reviews-rating-wrapper {
+  @apply twcss-py-4 !important;
+}
+
+.jdgm-carousel-number-of-reviews {
+  @apply twcss-text-black twcss-font-bold twcss-pt-4 !important;
+}
+
+.jdgm-carousel-item__review-body,
+.jdgm-carousel-item__review-rating,
+.jdgm-carousel-item__review-title,
+.jdgm-carousel-item__reviewer-name {
+  @apply twcss-text-left;
+}
+
+.jdgm-carousel-item__review-rating {
+  @apply twcss-mb-8 !important;
+}
+
+.jdgm-carousel-item__reviewer-name.jdgm-ellipsis {
+  @apply twcss-text-black !important;
+  @apply twcss-font-bold !important;
 }
 
 /** Footer styles **/
@@ -264,6 +286,13 @@ a.pagination__item-arrow {
   @apply twcss-bg-transparent !important;
 }
 
+.jdgm-carousel__arrows {
+  @apply twcss-pt-16;
+}
+.jdgm-carousel-wrapper {
+  @apply twcss-pb-0 !important;
+}
+
 /** Product cards **/
 .product-card-wrapper .card__information {
   @apply twcss-flex twcss-flex-col twcss-justify-between twcss-h-full;
@@ -310,7 +339,7 @@ a.pagination__item-arrow {
 }
 
 .ingredient-card__description {
-  @apply twcss-row-start-2 twcss-row-end-3 twcss-border-b twcss-overflow-hidden;
+  @apply twcss-row-start-2 twcss-row-end-3 twcss-border-b twcss-overflow-hidden twcss-pb-4;
 }
 
 .ingredients-card__benefits {
@@ -405,10 +434,14 @@ ul.collection-list .card__content {
   @apply twcss-p-0 !important;
 }
 
+.collapsible-content .accordion__content {
+  @apply twcss-py-8 !important;
+}
+
 .accordion {
   border-top: none !important;
 }
 
-.product__accordion-ingredients .metafield-multi_line_text_field {
-  @apply twcss-text-lg;
+.ingredient__accordion span.metafield-multi_line_text_field {
+  @apply twcss-text-xl !important;
 }

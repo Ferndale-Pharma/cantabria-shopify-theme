@@ -9,7 +9,8 @@
 .badge,
 .ingredients__accordion-content h1,
 .ingredients__accordion-content h2,
-.ingredients__accordion-content h3 {
+.ingredients__accordion-content h3,
+.jdgm-carousel-title {
   font-weight: 700 !important;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -199,14 +200,39 @@ form#bh-sl-user-location .scasl-search-btn {
   display: none !important;
 }
 
-/* Loyalty overrides */
+/** reviews **/
 
-._linkPreview_xi026_26 {
-  display: none !important;
+.jdgm-carousel-title {
+  padding-bottom: 2rem;
 }
 
-._popupFooter_hytmr_1 {
-  display: none !important;
+.jdgm-all-reviews-rating-wrapper {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.jdgm-carousel-number-of-reviews {
+  padding-top: 1rem !important;
+  font-weight: 700 !important;
+  --tw-text-opacity: 1 !important;
+  color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
+}
+
+.jdgm-carousel-item__review-body,
+.jdgm-carousel-item__review-rating,
+.jdgm-carousel-item__review-title,
+.jdgm-carousel-item__reviewer-name {
+  text-align: left;
+}
+
+.jdgm-carousel-item__review-rating {
+  margin-bottom: 2rem !important;
+}
+
+.jdgm-carousel-item__reviewer-name.jdgm-ellipsis {
+  --tw-text-opacity: 1 !important;
+  color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
+  font-weight: 700 !important;
 }
 
 /** Footer styles **/
@@ -377,6 +403,14 @@ a.pagination__item-arrow {
   background-color: transparent !important;
 }
 
+.jdgm-carousel__arrows {
+  padding-top: 4rem;
+}
+
+.jdgm-carousel-wrapper {
+  padding-bottom: 0px !important;
+}
+
 /** Product cards **/
 
 .product-card-wrapper .card__information {
@@ -454,6 +488,7 @@ a.pagination__item-arrow {
   grid-row-end: 3;
   overflow: hidden;
   border-bottom-width: 1px;
+  padding-bottom: 1rem;
 }
 
 .ingredients-card__benefits {
@@ -575,13 +610,18 @@ ul.collection-list .card__content {
   padding: 0px !important;
 }
 
+.collapsible-content .accordion__content {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
 .accordion {
   border-top: none !important;
 }
 
-.product__accordion-ingredients .metafield-multi_line_text_field {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.ingredient__accordion span.metafield-multi_line_text_field {
+  font-size: 1.25rem !important;
+  line-height: 1.75rem !important;
 }
 
 /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
@@ -1336,19 +1376,14 @@ ol {
   padding-bottom: 0.5rem;
 }
 
-.twcss-py-\[28px\] {
-  padding-top: 28px;
-  padding-bottom: 28px;
-}
-
-.twcss-px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .twcss-py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.twcss-py-\[28px\] {
+  padding-top: 28px;
+  padding-bottom: 28px;
 }
 
 .twcss-pb-4 {

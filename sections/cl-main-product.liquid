@@ -232,8 +232,8 @@
                   </details>
                 </div>
               {%- when 'ingredients_tab' -%}
-                <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
-                  <details class="twcss-pb-8" id="Details-{{ block.id }}-{{ section.id }}">
+                <div class="product__accordion accordion quick-add-hidden ingredient__accordion" {{ block.shopify_attributes }}>
+                  <details id="Details-{{ block.id }}-{{ section.id }}">
                     <summary>
                       <div class="summary__title">
                         {% render 'icon-accordion', icon: block.settings.icon %}
