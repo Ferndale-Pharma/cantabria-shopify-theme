@@ -450,3 +450,5 @@ ul.collection-list .card__content {
 .ingredient__accordion span.metafield-multi_line_text_field {
   @apply twcss-text-xl !important;
 }
+
+/** Points **/

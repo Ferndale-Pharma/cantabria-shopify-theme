@@ -84,11 +84,13 @@
           class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
         >
           {%- assign product_form_id = 'product-form-' | append: section.id -%}
-
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when '@app' -%}
-                {% render block %}
+                {% comment %} Not ideal but stops loyalty rednering out. {% endcomment %}
+                {%- if block.id != 'joy_loyalty_program_joy_points_calculator_block_3E4En6' -%}
+                  {% render block %}
+                {%- endif -%}
               {%- when 'text' -%}
                 <p
                   class="product__text inline-richtext twcss-text-[#666]{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
@@ -106,18 +108,28 @@
                   </a>
                 </div>
               {%- when 'price' -%}
-                <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-                  {%- render 'cl-price',
-                    product: product,
-                    use_variant: true,
-                    show_badges: true,
-                    price_class: 'price--large'
-                  -%}
-                </div>
+                <div class="price-row twcss-flex twcss-justify-between">
+                  <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }} class="twcss-flex-1">
+                    {%- render 'cl-price',
+                      product: product,
+                      use_variant: true,
+                      show_badges: true,
+                      price_class: 'price--large'
+                    -%}
+                  </div>
+                {% comment %} Not ideal but couldn't get it to work any other way, {% endcomment %}
+                {%- for block in section.blocks -%}
+                  {%- if block.id == 'joy_loyalty_program_joy_points_calculator_block_3E4En6' -%}
+                    <div class="my-points twcss-justify-end twcss-flex twcss-flex-1">
+                      {% render block %}
+                    </div>
+                  {%- endif -%}
+                {%- endfor -%}
                 {%- if product.quantity_price_breaks_configured? -%}
                   <div class="volume-pricing-note" id="Volume-Note-{{ section.id }}">
                     <span>{{ 'products.product.volume_pricing.note' | t }}</span>
                   </div>
+                  {% render 'judge_me_reviews_preview_badge_fmp8CP' %}
                 {%- endif -%}
                 {% comment %} {%- if cart.taxes_included or cart.duties_included or shop.shipping_policy.body != blank -%}
                   <div class="product__tax caption rte">
@@ -139,6 +151,7 @@
                     <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                     {{ form | payment_terms }}
                   {%- endform -%}
+                </div>
                 </div>
               {%- when 'inventory' -%}
                 <p
@@ -269,7 +282,7 @@
                     | item_count_for_variant: product.selected_or_first_available_variant.id
                   -%}
                   {% # theme-check-enable %}
-                  <label class="quantity__label form__label" for="Quantity-{{ section.id }}">
+                  {% comment %} <label class="quantity__label form__label" for="Quantity-{{ section.id }}">
                     {{ 'products.product.quantity.label' | t }}
                     <span class="quantity__rules-cart{% if cart_qty == 0 %} hidden{% endif %}">
                       {%- render 'loading-spinner' -%}
@@ -279,7 +292,7 @@
                         )</span
                       >
                     </span>
-                  </label>
+                  </label> {% endcomment %}
                   <div class="price-per-item__container">
                     <quantity-input class="quantity" data-url="{{ product.url }}" data-section="{{ section.id }}">
                       <button class="quantity__button" name="minus" type="button">

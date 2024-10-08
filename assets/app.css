@@ -630,6 +630,8 @@ ul.collection-list .card__content {
   line-height: 1.75rem !important;
 }
 
+/** Points **/
+
 /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
 
 /*
@@ -1314,6 +1316,10 @@ ol {
   max-width: 1440px;
 }
 
+.twcss-flex-1 {
+  flex: 1 1 0%;
+}
+
 .twcss-list-none {
   list-style-type: none;
 }
@@ -1328,6 +1334,10 @@ ol {
 
 .twcss-items-end {
   align-items: flex-end;
+}
+
+.twcss-justify-end {
+  justify-content: flex-end;
 }
 
 .twcss-justify-center {
