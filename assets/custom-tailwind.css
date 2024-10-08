@@ -310,6 +310,11 @@ a.pagination__item-arrow {
   @apply twcss-mb-4;
 }
 
+/** Product **/
+.ingredient__accordion-content p:last-child {
+  @apply twcss-pb-8;
+}
+
 /** Ingredient filter list **/
 .alpha-list-group {
   @apply twcss-grid twcss-grid-cols-1 md:twcss-grid-cols-3 twcss-gap-32 twcss-list-none md:twcss-auto-rows-fr;

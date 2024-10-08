@@ -243,7 +243,7 @@
                       </div>
                       {% render 'icon-caret' %}
                     </summary>
-                    <div class="twcss-pt-8 rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+                    <div class="twcss-pt-8 ingredient__accordion-content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                       <div class="ingredients__accordion-content twcss-pb-8">
                         {{ block.settings.content }}
                         </div>
@@ -252,7 +252,7 @@
                           {% render 'card-ingredient', card_ingredient: metaobject, variant: 'product' %}
                         {% endfor %}
                       </div>
-                      <div class="twcss-text-black twcss-font-bold twcss-py-8">All ingredients</div>
+                      <div class="twcss-text-black twcss-font-bold twcss-py-4">All ingredients</div>
                       {{ block.settings.all_ingredients }}
                     </div>
                   </details>
