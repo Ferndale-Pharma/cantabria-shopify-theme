@@ -208,6 +208,7 @@
         "slide_CG69ez": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/FERNBLOCK_1.jpg",
             "heading": "Fernblock® Technology",
             "heading_size": "h1",
             "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer.",
@@ -225,6 +226,7 @@
         "slide_YXx9Kj": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/BIOPEP-15.jpg",
             "heading": "BIOPEP-15",
             "heading_size": "h1",
             "subheading": "An incredible botanical-derived technology that fights against the main acne-causing bacteria <em>Cutibacterium acnes</em> and helps to reduce inflammation.",
@@ -242,6 +244,7 @@
         "slide_Ukfd37": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/RETINSPHERE_1.jpg",
             "heading": "RetinSphere® Technology",
             "heading_size": "h1",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. ",
@@ -259,6 +262,7 @@
         "slide_d7ANrH": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/EDAFENCE_1.jpg",
             "heading": "EDAFENCE® Technology",
             "heading_size": "h1",
             "subheading": "A unique anti-pollution technology derived from hardy Antarctic grass, clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution. Its antioxidant properties prevent oxidative stress and skin inflammation, strengthening the skin barrier, improving hydration levels and promoting healthy skin.",
@@ -276,6 +280,7 @@
         "slide_E6LWAC": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/SCA_GROWTH_FACTOR.jpg",
             "heading": "SCA® Growth Factor Technology",
             "heading_size": "h1",
             "subheading": "",
