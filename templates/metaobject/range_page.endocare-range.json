@@ -44,6 +44,7 @@
         "buttons_hMa4x9"
       ],
       "settings": {
+        "image": "shopify://shop_images/Endocare_Range_Banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -118,7 +119,7 @@
         "button_HBTEJm"
       ],
       "settings": {
-        "image": "shopify://shop_images/HandImage-ProductImages-1100x1530-Endocare-RenewalRetinolSerum0.2.jpg",
+        "image": "shopify://shop_images/CL-WEB-0005_-_Endocare_Brand_Page_-_Endocare_Winter_Renewal.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",

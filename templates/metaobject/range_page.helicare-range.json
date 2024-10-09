@@ -44,7 +44,7 @@
         "buttons_Ptfz3f"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Banner_1.jpg",
+        "image": "shopify://shop_images/Heliocare_Range_Banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -119,6 +119,7 @@
         "button_Gy8FBp"
       ],
       "settings": {
+        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Sensation_5fb555bd-bcfb-43bc-98db-0e795e671431.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -184,7 +185,7 @@
         "text_wnr6Tx"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Full_Spectrum_Daily_Sun_Protection_1.jpg",
+        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Full_Spectrum_Daily_Sun_Protection.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -320,7 +321,7 @@
         "text_Q7AU4J"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Beyond_Sunscreen_1.jpg",
+        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Beyond_Sunscreen.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
