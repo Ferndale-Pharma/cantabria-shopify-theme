@@ -48,6 +48,7 @@
         "button_qhbfQf"
       ],
       "settings": {
+        "image": "shopify://shop_images/expert_advice.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -94,6 +95,7 @@
         "button_wpcE7m"
       ],
       "settings": {
+        "image": "shopify://shop_images/SKINCARE_GUIDES.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -140,6 +142,7 @@
         "button_tiRMcn"
       ],
       "settings": {
+        "image": "shopify://shop_images/TECH_INGREDIENTS.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -186,6 +189,7 @@
         "button_9Gf9jL"
       ],
       "settings": {
+        "image": "shopify://shop_images/BLOG.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
