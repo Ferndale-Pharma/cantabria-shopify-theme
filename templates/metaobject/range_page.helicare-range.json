@@ -44,6 +44,7 @@
         "buttons_Ptfz3f"
       ],
       "settings": {
+        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Banner_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -183,6 +184,7 @@
         "text_wnr6Tx"
       ],
       "settings": {
+        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Full_Spectrum_Daily_Sun_Protection_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -318,6 +320,7 @@
         "text_Q7AU4J"
       ],
       "settings": {
+        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Beyond_Sunscreen_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -338,6 +341,7 @@
         "column_9GGYJn": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/UV_PROTECTION.png",
             "title": "",
             "text": "<h3>Protect the skin against damage caused by daylight: UVA, UVB, visible light and infrared-A<sup>1,2,3</sup>\n</h3>",
             "link_label": "",
@@ -347,6 +351,7 @@
         "column_g4L7DY": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/PREVENT_COLLAGEN_BREAKDOWN.png",
             "title": "",
             "text": "<h3>Prevent collagen breakdown<sup>2</sup>\n</h3>",
             "link_label": "",
@@ -356,6 +361,7 @@
         "column_w3UFqf": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/REPAIR_DNA.png",
             "title": "",
             "text": "<h3>Protect and repairs skin cell DNA<sup>4</sup>\n</h3>",
             "link_label": "",
@@ -365,6 +371,7 @@
         "column_XYc9rf": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/PREVENT_PIGMENTATION.png",
             "title": "",
             "text": "<h3>Prevent light-induced pigmentation<sup>5</sup>\n</h3>",
             "link_label": "",
@@ -374,6 +381,7 @@
         "column_GUphPb": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/PROTECT_SKIN_IMMUNE_SYSTEM.png",
             "title": "",
             "text": "<h3>Protect the skin’s immune system<sup>5</sup>\n</h3>",
             "link_label": "",
@@ -383,6 +391,7 @@
         "column_P8Cced": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/IMPROVE_SPF_FILTERS.png",
             "title": "",
             "text": "<h3>Improve the efficacy of SPF filters by up to 14%<sup>6</sup>\n</h3>",
             "link_label": "",
@@ -404,8 +413,8 @@
       "settings": {
         "title": "Fernblock is clinically proven to:",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
+        "image_width": "third",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
