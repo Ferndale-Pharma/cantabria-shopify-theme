@@ -120,7 +120,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/CL-WEB-0005_-_Endocare_Brand_Page_-_Endocare_Winter_Renewal.jpg",
-        "height": "medium",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -199,6 +199,7 @@
         "text_jTnNqL"
       ],
       "settings": {
+        "image": "shopify://shop_images/CL-WEB-0005_-_Endocare_Brand_Page_-_Innovative_Anti-Ageing_Skincare.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
