@@ -457,6 +457,7 @@
         "slide_FcdjDV": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/FERNBLOCK_1.jpg",
             "heading": "Fernblock®",
             "heading_size": "h1",
             "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer.",
@@ -474,6 +475,7 @@
         "slide_rCUptt": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/VITAMIN_C.jpg",
             "heading": "Vitamin C",
             "heading_size": "h1",
             "subheading": "A powerful antioxidant that fights free radicals, protects against environmental stressors, reduces pigmentation and brightens the skin.",
@@ -491,6 +493,7 @@
         "slide_EK3KiX": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/VITAMIN_E.jpg",
             "heading": "Vitamin E",
             "heading_size": "h1",
             "subheading": "A moisturising antioxidant that neutralises free radicals to reduce damage and prevent lipid peroxidation while hydrating the skin.",
@@ -508,6 +511,7 @@
         "slide_XYMwYW": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/GREEN_TEA.jpg",
             "heading": "Green Tea",
             "heading_size": "h1",
             "subheading": "A calming and protective antioxidant that reduces inflammation, slows collagen breakdown and helps to prevent premature skin ageing.",
@@ -525,6 +529,7 @@
         "slide_tK7eCG": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/DNA_REPAIR_ENZYMES.jpg",
             "heading": "DNA Repair Enzymes",
             "heading_size": "h1",
             "subheading": "Roxisomes repair the nucleus and mitochondria of DNA, resolving and preventing deep DNA damage.",
@@ -542,6 +547,7 @@
         "slide_fBRAbm": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/UV_FILTERS.jpg",
             "heading": "UV Filters",
             "heading_size": "h1",
             "subheading": "UV filters protect the skin from UVA and UVB radiation, preventing sunburn and long-term skin damage.",
