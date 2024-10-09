@@ -296,6 +296,7 @@
         "slide_XXcPLY": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/EDAFENCE_1.jpg",
             "heading": "EDAFENCE® Technology",
             "heading_size": "h1",
             "subheading": "A unique anti-pollution technology, derived from hardy Antarctic grass, that is clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution. ",
@@ -313,6 +314,7 @@
         "slide_w9nqJM": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/RETINSPHERE_1.jpg",
             "heading": "RetinSphere® Technology",
             "heading_size": "h1",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation.",
@@ -330,6 +332,7 @@
         "slide_7ccdwT": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/AZELAIC_AOX_TECH.jpg",
             "heading": "Azelaic Aox-TECH",
             "heading_size": "h1",
             "subheading": "A patented delivery-system technology that boosts the action of azelaic acid up to 5 times, for greater efficacy in exfoliating, diminishing the appearance of blemishes, reducing redness and soothing the skin.",
@@ -347,6 +350,7 @@
         "slide_94KUyR": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/HYALURONIC_ACID.jpg",
             "heading": "Hyaluronic Acid",
             "heading_size": "h1",
             "subheading": "A moisturise-retaining antioxidant that gives exceptional hydration, plumping the skin, improving elasticity, speeding up wound healing and reducing fine lines and wrinkles.",
@@ -364,6 +368,7 @@
         "slide_jWGRYq": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/NIACINAMIDE.jpg",
             "heading": "Niacinamide",
             "heading_size": "h1",
             "subheading": "A form of vitamin B3 with anti-inflammatory properties, helping to reduce pore size and lock in moisture for a strong, healthy skin barrier.",
@@ -381,6 +386,7 @@
         "slide_cmXeeH": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/VITAMIN_C.jpg",
             "heading": "Vitamin C",
             "heading_size": "h1",
             "subheading": "A powerful antioxidant that fights free radicals, protects against environmental stressors, reduces pigmentation and brightens the skin.",
