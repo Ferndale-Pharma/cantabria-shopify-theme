@@ -44,7 +44,7 @@
         "buttons_WXCGq3"
       ],
       "settings": {
-        "image": "{{ metaobject.hero_image.value }}",
+        "image": "shopify://shop_images/SUN_PROTECTION_BANNER.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -100,7 +100,7 @@
         "button_VgCw8W"
       ],
       "settings": {
-        "image": "shopify://shop_images/Hyperpigmentation-before-after.png",
+        "image": "shopify://shop_images/AdobeStock_289047894.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -208,6 +208,7 @@
         "text_bpcqXE"
       ],
       "settings": {
+        "image": "shopify://shop_images/AdobeStock_357594600.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -317,6 +318,7 @@
         "slide_ByWCPV": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/FERNBLOCK_1.jpg",
             "heading": "Fernblock® Technology",
             "heading_size": "h1",
             "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer. ",

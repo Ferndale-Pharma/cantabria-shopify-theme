@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "{{ metaobject.name.value }}",
-            "heading_size": "hxl"
+            "heading_size": "h0"
           }
         },
         "text_p4wyK3": {
@@ -44,7 +44,7 @@
         "buttons_WXCGq3"
       ],
       "settings": {
-        "image": "{{ metaobject.hero_image.value }}",
+        "image": "shopify://shop_images/HYPERPIGMENTATION_BANNER_-_2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -100,7 +100,7 @@
         "button_VgCw8W"
       ],
       "settings": {
-        "image": "shopify://shop_images/Hyperpigmentation-before-after.png",
+        "image": "shopify://shop_images/AdobeStock_513036292.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -121,7 +121,7 @@
         "column_Ry3qYb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chin.png",
+            "image": "shopify://shop_images/AdobeStock_561013549.jpg",
             "title": "Who is affected?",
             "text": "<p>Hyperpigmentation affects people of all ages, ethnicities and skin types. Skin pigmentation and melanin synthesis differ from person to person, mostly dictated by genetics and hormones. But there are factors that make people more prone to developing the condition, including having a darker skin tone, spending a lot of time in the sun and inflammatory skin conditions.</p>",
             "link_label": "",
@@ -131,7 +131,7 @@
         "column_cyFqfy": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/face.png",
+            "image": "shopify://shop_images/WHAT_CAUSES_HYPERPIGMENTATION.jpg",
             "title": "What causes hyperpigmentation?",
             "text": "<p>Hyperpigmentation occurs when there’s an overproduction or irregular distribution of melanin in the skin, leading to dark patches. Triggers for increased melanin production include UV radiation, skin trauma, inflammation, hormonal changes, medications and certain medical conditions.</p>",
             "link_label": "",
@@ -141,7 +141,7 @@
         "column_cCYqMz": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/dermatologist.png",
+            "image": "shopify://shop_images/LASER_TREATMENT_-_HYPERPIGMENTATION.jpg",
             "title": "How to treat hyperpigmentation",
             "text": "<p>Look for depigmenting agents in skincare, including retinoids, niacinamide and ascorbic acid, along with azelaic acid, kojic acid and hydroquinone, which inhibit melanin production. Chemical peels and laser therapy will target stubborn areas of pigmentation at a deeper level. The most effective form of treatment, however, is prevention, and so a high-level, broad-spectrum SPF should be applied every day.</p>",
             "link_label": "",
@@ -194,6 +194,7 @@
         "text_6mVWqQ"
       ],
       "settings": {
+        "image": "shopify://shop_images/MELANIN_IMAGE_-_3.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -237,6 +238,7 @@
         "slide_4QFCTj": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/RETINSPHERE_1.jpg",
             "heading": "RetinSphere® Technology",
             "heading_size": "h1",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. Encourages skin cell turnover and stimulates collagen production for smoother, firmer skin and improved appearance of fine lines and wrinkles.",
@@ -254,6 +256,7 @@
         "slide_MaQyiz": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/FERNBLOCK_1.jpg",
             "heading": "Fernblock® Technology",
             "heading_size": "h1",
             "subheading": "A powerful, patented plant-based technology that offers multiple levels of protection against UV radiation and environmental stressors. It is clinically proven to prevent and repair the damage caused by daylight (UVA, UVB, visible light and infrared-A), as well as preventing collagen breakdown, protecting skin cell DNA, preventing pigmentation and protecting the skin’s immune system. ",
@@ -271,6 +274,7 @@
         "slide_cG996y": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/AZELAIC_AOX_TECH.jpg",
             "heading": "Azelaic Aox-Tech",
             "heading_size": "h1",
             "subheading": "A patented delivery-system technology that boosts the action of azelaic acid up to 5 times. Its anxtioxidant properties protect the skin from environmental aggressors and offer incredible efficacy in exfoliating, diminishing the appearance of blemishes, unifying the skin tone, reducing pigmentation and soothing the skin.",

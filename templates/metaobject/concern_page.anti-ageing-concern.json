@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "{{ metaobject.name.value }}",
-            "heading_size": "hxl"
+            "heading_size": "h0"
           }
         },
         "text_p4wyK3": {
@@ -43,14 +43,17 @@
         "text_p4wyK3",
         "buttons_WXCGq3"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
-        "image": "{{ metaobject.hero_image.value }}",
+        "image": "shopify://shop_images/ANTI_AGING_-_INDICATIONS_-_BANNER.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -100,7 +103,7 @@
         "button_VgCw8W"
       ],
       "settings": {
-        "image": "shopify://shop_images/Hyperpigmentation-before-after.png",
+        "image": "shopify://shop_images/AdobeStock_423948460.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -121,7 +124,7 @@
         "column_Ry3qYb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chin.png",
+            "image": "shopify://shop_images/ANTIAGING_-_MODEL_SMILING.jpg",
             "title": "Who is affected?",
             "text": "<p>Skin ageing affects everyone at some point, but certain factors will make you more susceptible to premature and severe skin ageing. Some skin types will show signs of ageing sooner. People who spend a lot of time in the sun without adequate protection are more prone to skin ageing. Hormonal fluctuations and menopause can also affect the structure of the skin and hydration levels. Stress, poor diet, alcohol and smoking will speed up the skin ageing process, too.</p>",
             "link_label": "",
@@ -131,7 +134,7 @@
         "column_cyFqfy": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/face.png",
+            "image": "shopify://shop_images/AdobeStock_123434717.jpg",
             "title": "What causes skin ageing?",
             "text": "<p>As we age, our skin functions gradually slow. Skin cell renewal declines and fibroblast activity reduces, which leads to decline in collagen, elastin and hyaluronic acid production. The natural ageing process is influenced by genetics and hormonal changes, but it is also accelerated by environmental challenges and lifestyle choices, including UV radiation, pollution, smoking and poor diet. </p>",
             "link_label": "",
@@ -141,7 +144,7 @@
         "column_cCYqMz": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/dermatologist.png",
+            "image": "shopify://shop_images/ANTIAGING_-_PREVENTION.jpg",
             "title": "How can we prevent skin ageing?",
             "text": "<p>The natural skin ageing process cannot be prevented, but there are measures you can take to slow down the signs and promote a healthy and youthful complexion for longer. These include using a high-level, broad-spectrum SPF every day, avoiding sun beds, incorporating retinoids and antioxidants into your skincare routine, moisturising regularly, drinking enough water, avoiding smoking, eating a healthy diet, limiting alcohol, getting enough sleep and managing stress levels.</p>",
             "link_label": "",
@@ -194,6 +197,7 @@
         "text_jacpe4"
       ],
       "settings": {
+        "image": "shopify://shop_images/AdobeStock_621996535.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -237,6 +241,7 @@
         "slide_iq8WC9": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/RETINSPHERE_1.jpg",
             "heading": "RetinSphere® Technology",
             "heading_size": "h1",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. Encourages skin cell turnover and stimulates collagen production for smoother, firmer skin and improved appearance of fine lines and wrinkles.",
@@ -254,6 +259,7 @@
         "slide_EH9Kjh": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/FERNBLOCK_1.jpg",
             "heading": "Fernblock® Technology",
             "heading_size": "h1",
             "subheading": "A powerful, patented plant-based technology that offers multiple levels of protection against UV radiation and environmental stressors. Is clinically proven to prevent and repair the damage caused by daylight (UVA, UVB, visible light and infrared-A), as well as preventing collagen breakdown, protecting skin cell DNA, preventing pigmentation and protecting the skin’s immune system.",
@@ -271,6 +277,7 @@
         "slide_rNAePz": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/EDAFENCE_1.jpg",
             "heading": "EDAFENCE® Technology",
             "heading_size": "h1",
             "subheading": "A unique anti-pollution technology derived from hardy Antarctic grass, clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution. Its antioxidant properties prevent oxidative stress and skin inflammation, strengthening the skin barrier, improving hydration levels and promoting healthy skin.",

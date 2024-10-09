@@ -70,6 +70,7 @@
         "text_UpNG8r"
       ],
       "settings": {
+        "image": "shopify://shop_images/FERNBLOCK.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -168,6 +169,7 @@
         "text_FpwhwA"
       ],
       "settings": {
+        "image": "shopify://shop_images/RETINSPHERE.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -256,6 +258,7 @@
         "text_XFgfiq"
       ],
       "settings": {
+        "image": "shopify://shop_images/SCA_GROWTH.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -344,6 +347,7 @@
         "text_T6aYEY"
       ],
       "settings": {
+        "image": "shopify://shop_images/EDAFENCE.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",

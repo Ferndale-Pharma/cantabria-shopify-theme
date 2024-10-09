@@ -44,6 +44,7 @@
         "buttons_DLchTk"
       ],
       "settings": {
+        "image": "shopify://shop_images/Neoretin_Range_Banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -118,6 +119,7 @@
         "button_rJdJBk"
       ],
       "settings": {
+        "image": "shopify://shop_images/CL-WEB-0004_-_Neoretin_Brand_Page_-_Neoretin_Pigment_Neutraliser_Serum.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -169,6 +171,7 @@
         "text_gGNkiH"
       ],
       "settings": {
+        "image": "shopify://shop_images/CL-WEB-0004_-_Neoretin_Brand_Page_-_Targeted_Pigment_Control.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -265,6 +268,7 @@
         "slide_xe7eLc": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/RETINSPHERE_1.jpg",
             "heading": "RetinSphere® Technology",
             "heading_size": "h1",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. ",
@@ -282,6 +286,7 @@
         "slide_cK7qhj": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/AZELAIC_AOX_TECH.jpg",
             "heading": "Azelaic Aox-TECH",
             "heading_size": "h1",
             "subheading": "A patented delivery-system technology that boosts the action of azelaic acid up to 5 times, for greater efficacy in exfoliating, diminishing the appearance of blemishes, reducing redness and soothing the skin. ",
@@ -299,6 +304,7 @@
         "slide_6U769a": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/BAKUCHIOL.jpg",
             "heading": "Bakuchiol",
             "heading_size": "h1",
             "subheading": "A potent yet soothing antioxidant that visibly reduces discolourations, increases skin firmness and improves the look of fine lines and wrinkles. ",
@@ -316,6 +322,7 @@
         "slide_8jmtFw": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/AZELOGLYCINE.jpg",
             "heading": "Azeloglycine",
             "heading_size": "h1",
             "subheading": "A combination of azelaic acid and glycine with numerous skin health benefits, including anti-inflammatory properties, oil regulation and hydration.",
@@ -333,6 +340,7 @@
         "slide_YRKjmP": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/HYALURONIC_ACID.jpg",
             "heading": "Hyaluronic Acid",
             "heading_size": "h1",
             "subheading": "A moisturise-retaining antioxidant that gives exceptional hydration, plumping the skin, improving elasticity, speeding up wound healing and reducing fine lines and wrinkles.",
@@ -350,6 +358,7 @@
         "slide_QLfQiK": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/NIACINAMIDE.jpg",
             "heading": "Niacinamide",
             "heading_size": "h1",
             "subheading": "A form of vitamin B3 with anti-inflammatory properties, helping to reduce pore size and lock in moisture for a strong, healthy skin barrier.",
@@ -367,6 +376,7 @@
         "slide_NMGFH8": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/KOJIC_ACID.jpg",
             "heading": "Kojic Acid",
             "heading_size": "h1",
             "subheading": "A powerful natural chemical that inhibits tyrosinase activity and the transformation into melanin, therefore reducing hyperpigmentation, brightening and unifying the skin tone.",

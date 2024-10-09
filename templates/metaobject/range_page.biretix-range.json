@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "{{ metaobject.name.value }}",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "text_RggQnc": {
@@ -44,6 +44,7 @@
         "buttons_CNCVXP"
       ],
       "settings": {
+        "image": "shopify://shop_images/Biretix_Range_Banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -184,7 +185,7 @@
         "text_n6dA8K"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_Brand_Page_-_Holistic_Skincare_1.jpg",
+        "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_Brand_Page_-_Holistic_Skincare.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -228,6 +229,7 @@
         "slide_gjBeJH": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/RETINSPHERE_1.jpg",
             "heading": "RetinSphere® Technology",
             "heading_size": "h1",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. ",
@@ -245,6 +247,7 @@
         "slide_8Y6YgT": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/BIOPEP-15.jpg",
             "heading": "BIOPEP-15",
             "heading_size": "h1",
             "subheading": "An incredible botanical-derived technology that fights against the main acne-causing bacteria <em>Cutibacterium acnes</em> and helps to reduce inflammation.",
@@ -262,6 +265,7 @@
         "slide_FqfGhP": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/GLYCOLIC_ACID.jpg",
             "heading": "Glycolic Acid",
             "heading_size": "h1",
             "subheading": "An exfoliating alpha hydroxy acid (AHA) that increases skin cell turnover, stimulates collagen production and brightens the complexion.  ",
@@ -279,6 +283,7 @@
         "slide_9pfMq9": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/SALICYLIC_ACID.jpg",
             "heading": "Salicylic Acid",
             "heading_size": "h1",
             "subheading": "A powerful beta hydroxy acid (BHA) that encourages the shedding of dead skin cells, reduces inflammation and redness and speeds up the healing of existing blemishes. ",
@@ -296,9 +301,10 @@
         "slide_Q37HX9": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/NIACINAMIDE.jpg",
             "heading": "Niacinamide",
             "heading_size": "h1",
-            "subheading": "A form of vitamin B-3 with anti-inflammatory properties, helping to reduce pore size and lock in moisture for a strong, healthy skin barrier.",
+            "subheading": "A form of vitamin B3 with anti-inflammatory properties, helping to reduce pore size and lock in moisture for a strong, healthy skin barrier.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,

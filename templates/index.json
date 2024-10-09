@@ -44,7 +44,7 @@
         "buttons_JLFrH9"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0001_-_Homepage_-_Banner_1.jpg",
+        "image": "shopify://shop_images/CL-WEB-0001_-_Homepage_-_Banner_-_1_246a759e-6650-4cea-a617-f0899f458b2d.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -131,7 +131,7 @@
           "settings": {
             "image": "shopify://shop_images/Image.png",
             "title": "",
-            "text": "<p>“I’m a huge fan of Heliocare and will often recommend it to my patients…With so many great products for different skin types there really is something for everyone!”</p><p><strong>Dr. Emma Wedgeworth</strong></p>",
+            "text": "<p><em>“I’m a huge fan of Heliocare and will often recommend it to my patients…With so many great products for different skin types there really is something for everyone!”</em></p><p><strong>Dr. Emma Wedgeworth<br/></strong>Consultant Dermatologist</p>",
             "link_label": "",
             "link": ""
           }
@@ -141,7 +141,7 @@
           "settings": {
             "image": "shopify://shop_images/Image.png",
             "title": "",
-            "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.”</p><p><strong>Dr. Olivia Falcon</strong></p>",
+            "text": "<p><em>“Biretix is created by dermatologists, led by science and backed by clinical data. It has been developed to be the most effective pharmacological monotherapy for acne-prone skin and the best complementary dermo-cosmetics solution for alternative treatments.” </em></p><p><strong>Dr Massimo Milani </strong></p><p>Medical Director, Cantabria Labs Italy </p>",
             "link_label": "Read more",
             "link": "shopify://pages/test"
           }
@@ -208,6 +208,7 @@
         "slide_CG69ez": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/FERNBLOCK_1.jpg",
             "heading": "Fernblock® Technology",
             "heading_size": "h1",
             "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer.",
@@ -225,6 +226,7 @@
         "slide_YXx9Kj": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/BIOPEP-15.jpg",
             "heading": "BIOPEP-15",
             "heading_size": "h1",
             "subheading": "An incredible botanical-derived technology that fights against the main acne-causing bacteria <em>Cutibacterium acnes</em> and helps to reduce inflammation.",
@@ -242,6 +244,7 @@
         "slide_Ukfd37": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/RETINSPHERE_1.jpg",
             "heading": "RetinSphere® Technology",
             "heading_size": "h1",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. ",
@@ -259,6 +262,7 @@
         "slide_d7ANrH": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/EDAFENCE_1.jpg",
             "heading": "EDAFENCE® Technology",
             "heading_size": "h1",
             "subheading": "A unique anti-pollution technology derived from hardy Antarctic grass, clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution. Its antioxidant properties prevent oxidative stress and skin inflammation, strengthening the skin barrier, improving hydration levels and promoting healthy skin.",
@@ -276,6 +280,7 @@
         "slide_E6LWAC": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/SCA_GROWTH_FACTOR.jpg",
             "heading": "SCA® Growth Factor Technology",
             "heading_size": "h1",
             "subheading": "",
@@ -447,6 +452,7 @@
         "button_jPCTjG"
       ],
       "settings": {
+        "image": "shopify://shop_images/CL-WEB-0001_-_Homepage_-_Global_Leaders_-_2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -456,7 +462,7 @@
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 64,
         "padding_bottom": 64
       }
