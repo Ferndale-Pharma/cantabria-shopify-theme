@@ -1297,6 +1297,10 @@ ol {
   margin-top: 2rem;
 }
 
+.twcss-block {
+  display: block;
+}
+
 .twcss-inline-block {
   display: inline-block;
 }
@@ -1313,8 +1317,24 @@ ol {
   display: none;
 }
 
+.twcss-h-16 {
+  height: 4rem;
+}
+
+.twcss-h-32 {
+  height: 8rem;
+}
+
 .twcss-w-full {
   width: 100%;
+}
+
+.twcss-w-16 {
+  width: 4rem;
+}
+
+.twcss-w-32 {
+  width: 8rem;
 }
 
 .twcss-max-w-\[1440px\] {
