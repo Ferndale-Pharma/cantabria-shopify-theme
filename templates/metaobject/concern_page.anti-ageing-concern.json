@@ -43,6 +43,9 @@
         "text_p4wyK3",
         "buttons_WXCGq3"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "image": "shopify://shop_images/ANTI_AGING_-_INDICATIONS_-_BANNER.jpg",
         "image_overlay_opacity": 0,
@@ -50,7 +53,7 @@
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -238,6 +241,7 @@
         "slide_iq8WC9": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/RETINSPHERE_1.jpg",
             "heading": "RetinSphere® Technology",
             "heading_size": "h1",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. Encourages skin cell turnover and stimulates collagen production for smoother, firmer skin and improved appearance of fine lines and wrinkles.",
@@ -255,6 +259,7 @@
         "slide_EH9Kjh": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/FERNBLOCK_1.jpg",
             "heading": "Fernblock® Technology",
             "heading_size": "h1",
             "subheading": "A powerful, patented plant-based technology that offers multiple levels of protection against UV radiation and environmental stressors. Is clinically proven to prevent and repair the damage caused by daylight (UVA, UVB, visible light and infrared-A), as well as preventing collagen breakdown, protecting skin cell DNA, preventing pigmentation and protecting the skin’s immune system.",
@@ -272,6 +277,7 @@
         "slide_rNAePz": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/EDAFENCE_1.jpg",
             "heading": "EDAFENCE® Technology",
             "heading_size": "h1",
             "subheading": "A unique anti-pollution technology derived from hardy Antarctic grass, clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution. Its antioxidant properties prevent oxidative stress and skin inflammation, strengthening the skin barrier, improving hydration levels and promoting healthy skin.",
