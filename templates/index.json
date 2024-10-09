@@ -131,7 +131,7 @@
           "settings": {
             "image": "shopify://shop_images/Image.png",
             "title": "",
-            "text": "<p>“I’m a huge fan of Heliocare and will often recommend it to my patients…With so many great products for different skin types there really is something for everyone!”</p><p><strong>Dr. Emma Wedgeworth</strong></p>",
+            "text": "<p><em>“I’m a huge fan of Heliocare and will often recommend it to my patients…With so many great products for different skin types there really is something for everyone!”</em></p><p><strong>Dr. Emma Wedgeworth<br/></strong>Consultant Dermatologist</p>",
             "link_label": "",
             "link": ""
           }
@@ -141,7 +141,7 @@
           "settings": {
             "image": "shopify://shop_images/Image.png",
             "title": "",
-            "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.”</p><p><strong>Dr. Olivia Falcon</strong></p>",
+            "text": "<p><em>“Biretix is created by dermatologists, led by science and backed by clinical data. It has been developed to be the most effective pharmacological monotherapy for acne-prone skin and the best complementary dermo-cosmetics solution for alternative treatments.” </em></p><p><strong>Dr Massimo Milani </strong></p><p>Medical Director, Cantabria Labs Italy </p>",
             "link_label": "Read more",
             "link": "shopify://pages/test"
           }
