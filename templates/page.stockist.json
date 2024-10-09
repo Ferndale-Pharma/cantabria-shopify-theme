@@ -15,9 +15,112 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_dy3dYP": {
+      "type": "rich-text",
+      "blocks": {
+        "text_iz3Q73": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cantabria Labs products are available to stock in Professional Skin Clinics via Ferndale Pharmaceuticals’ professional division, <a href=\"https://aestheticare.co.uk\" title=\"AESTHETICARE Website\">AESTHETICARE</a>.</p><p>AESTHETICARE helps skincare professionals prevent and treat skin indications in synergy with professional, in-clinic treatments. This provides a holistic and tailored skincare strategy for every patient. We collaborate with a network of dermatology experts, professional skin clinics and skincare enthusiasts to offer the very best, evidence-based dermatological innovations.  </p><p>When you partner with AESTHETICARE, we provide you with the best evidence-based ingredients & technologies on the market, helping you to achieve the best results for your patients. We will also provide continued support to help drive your business forward. This includes the latest products and treatment plans, high-level training, marketing guidance and continual customer support.  </p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_iz3Q73"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_EfwMPq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_DdyaPL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ALLSKIN-MED-range-1.jpg",
+            "title": "ALLSKIN | MED",
+            "text": "<p>An exceptional range of dermo-cosmetic skincare products with clinically-proven formulations, exclusive to professional skin clinics.</p>",
+            "link_label": "Learn more",
+            "link": ""
+          }
+        },
+        "column_JJiG3q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/heliocare-brand-b2b_1.jpg",
+            "title": "Heliocare",
+            "text": "<p>An advanced, scientifically-proven daily sun protection range, featuring topical formulations and skin supplements for all skin types. </p>",
+            "link_label": "Learn more",
+            "link": "https://aestheticare.co.uk/heliocare-360/"
+          }
+        },
+        "column_NDMRQD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Biretix-range-1.jpg",
+            "title": "Biretix",
+            "text": "<p>An innovative & holistic skincare range that is specifically formulated to purify, treat and care, for oily and spot-prone skin types.</p>",
+            "link_label": "Learn more",
+            "link": "https://aestheticare.co.uk/biretix/"
+          }
+        }
+      },
+      "block_order": [
+        "column_DdyaPL",
+        "column_JJiG3q",
+        "column_NDMRQD"
+      ],
+      "settings": {
+        "title": "Brands",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_TbJcMY": {
+      "type": "rich-text",
+      "blocks": {
+        "text_UUaaJH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To begin stocking Cantabria Labs products in your clinic, complete the form below and one of our expert Business Development Managers will be in touch shortly to discuss your options in more detail and develop the right offering for you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_UUaaJH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_dy3dYP",
+    "multicolumn_EfwMPq",
+    "rich_text_TbJcMY"
   ]
 }
