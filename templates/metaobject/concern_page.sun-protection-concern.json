@@ -318,6 +318,7 @@
         "slide_ByWCPV": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/FERNBLOCK_1.jpg",
             "heading": "Fernblock® Technology",
             "heading_size": "h1",
             "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer. ",
