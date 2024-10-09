@@ -142,7 +142,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "biretix-hero-products",
-        "products_to_show": 4,
+        "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -156,7 +156,7 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -184,6 +184,7 @@
         "text_n6dA8K"
       ],
       "settings": {
+        "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_Brand_Page_-_Holistic_Skincare_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
