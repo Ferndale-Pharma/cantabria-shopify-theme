@@ -16,7 +16,6 @@
     {% assign hex_code = light_hex %}
   {% endif %}
 
-
 <input
     type="radio"
     id="{{ input_id }}"
@@ -32,6 +31,6 @@
     {{ input_dataset }}
 >
 <label for="{{ input_id }}">
-    <span class="twcss-block twcss-h-16 twcss-w-16" style="background-color: {{ hex_code }};"> </span>
+    <span class="cl-swatch twcss-block twcss-h-16 twcss-w-16" style="background-color: {{ hex_code }};"> </span>
     <span>{{ value }}</span>
 </label>

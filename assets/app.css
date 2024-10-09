@@ -637,6 +637,56 @@ ul.collection-list .card__content {
   font-weight: 700;
 }
 
+/** Product Media **/
+
+@media (min-width: 750px) {
+  .cl-product__media {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+
+  .cl-slider-media {
+    width: 75%;
+  }
+}
+
+.cl-slider-media {
+  order: 2;
+}
+
+@media (min-width: 750px) {
+  .cl-thumbnail-slider {
+    width: 25%;
+    justify-content: flex-start;
+  }
+
+  .cl-thumbnail-slider .thumbnail-list {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+.product-form__input--pill input[type='radio'] + label {
+  border-style: none !important;
+}
+
+.product-form__input--pill input[type='radio']:checked + label {
+  background-color: transparent !important;
+  --tw-text-opacity: 1 !important;
+  color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
+}
+
+.product-form__input--pill input[type='radio'] + label {
+  margin: 0px;
+  padding: 0px;
+}
+
+.product-form__input--pill input[type='radio']:checked + label span.cl-swatch {
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
 
 /*
@@ -1321,20 +1371,12 @@ ol {
   height: 4rem;
 }
 
-.twcss-h-32 {
-  height: 8rem;
-}
-
-.twcss-w-full {
-  width: 100%;
-}
-
 .twcss-w-16 {
   width: 4rem;
 }
 
-.twcss-w-32 {
-  width: 8rem;
+.twcss-w-full {
+  width: 100%;
 }
 
 .twcss-max-w-\[1440px\] {

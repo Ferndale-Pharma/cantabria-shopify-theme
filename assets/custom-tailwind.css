@@ -455,3 +455,38 @@ ul.collection-list .card__content {
 .Avada-PointsCalculator__Container {
   @apply twcss-font-bold twcss-border-b-2;
 }
+
+/** Product Media **/
+.cl-product__media {
+  @apply md:twcss-flex md:twcss-flex-row !important;
+}
+
+.cl-slider-media {
+  @apply md:twcss-w-9/12;
+  order: 2;
+}
+
+.cl-thumbnail-slider {
+  @apply md:twcss-w-3/12 md:twcss-justify-start;
+}
+
+.cl-thumbnail-slider .thumbnail-list {
+  @apply md:twcss-flex-col md:twcss-justify-start;
+}
+
+.product-form__input--pill input[type='radio'] + label {
+  @apply twcss-border-none !important;
+}
+
+.product-form__input--pill input[type='radio']:checked + label {
+  @apply twcss-bg-transparent !important;
+  @apply twcss-text-black !important;
+}
+
+.product-form__input--pill input[type='radio'] + label {
+  @apply twcss-p-0 twcss-m-0;
+}
+
+.product-form__input--pill input[type='radio']:checked + label span.cl-swatch {
+  @apply twcss-border-black twcss-border-2;
+}
