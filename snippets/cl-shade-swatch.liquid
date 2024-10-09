@@ -1,0 +1,37 @@
+{% assign bronze_hex = "#BE8051" %}
+{% assign beige_hex = "#D1A075" %}
+{% assign brown_hex = "#BE8051" %}
+{% assign light_hex = "#D1A075" %}
+
+{% assign color_to_find = value |  downcase %}
+{% assign hex_code = "Not found" %}
+
+{% if color_to_find == "bronze" %}
+    {% assign hex_code = bronze_hex %}
+  {% elsif color_to_find == "beige" %}
+    {% assign hex_code = beige_hex %}
+  {% elsif color_to_find == "brown" %}
+    {% assign hex_code = brown_hex %}
+  {% elsif color_to_find == "light" %}
+    {% assign hex_code = light_hex %}
+  {% endif %}
+
+
+<input
+    type="radio"
+    id="{{ input_id }}"
+    name="{{ input_name | escape }}"
+    value="{{ value | escape }}"
+    form="{{ product_form_id }}"
+    {% if value.selected %}
+        checked
+    {% endif %}
+    {% if option_disabled %}
+        class="disabled"
+    {% endif %}
+    {{ input_dataset }}
+>
+<label for="{{ input_id }}">
+    <span class="twcss-block twcss-h-16 twcss-w-16" style="background-color: {{ hex_code }};"> </span>
+    <span>{{ value }}</span>
+</label>
