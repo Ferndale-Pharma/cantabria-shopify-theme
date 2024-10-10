@@ -279,6 +279,7 @@
         },
         "slide_E6LWAC": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCA_GROWTH_FACTOR.jpg",
             "heading": "SCA® Growth Factor Technology",
