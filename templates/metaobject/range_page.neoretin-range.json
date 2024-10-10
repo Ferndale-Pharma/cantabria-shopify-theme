@@ -141,6 +141,7 @@
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https://www.youtube.com/watch?v=Za9qK8RSvqk",
+        "cover_image": "shopify://shop_images/neoretin-pigment-video-cover-1.jpg",
         "description": "Video explaining about Neoretin Pigment Neutraliser Serum",
         "full_width": false,
         "color_scheme": "scheme-5",
@@ -161,7 +162,7 @@
         "text_gGNkiH": {
           "type": "text",
           "settings": {
-            "text": "<p>Neoretin contains a combination of innovative ingredients and patented technologies to promote a smooth, bright and even complexion, with a visible reduction in dark spots. Each formulation features RetinSphere® Technology, a new generation of retinoids offering a dual-delivery system of two types of retinol for immediate and sustained release, along with Azelaic Aox-Tech to boost the action of azelaic acid up to five times. Additional anti-pollution technology fights free radicals, one of the main causes of hyperpigmentation, while a pigment control system regulates melanin synthesis at every stage.</p>",
+            "text": "<p>Neoretin contains a combination of innovative ingredients and patented technologies to promote a smooth, bright and even complexion, with a visible reduction in dark spots. Each formulation features RetinSphere® Technology, a new generation of retinoids offering a dual-delivery system of two types of retinol for immediate and sustained release, along with Azelaic Aox-TECH to boost the action of azelaic acid up to five times. Additional anti-pollution technology fights free radicals, one of the main causes of hyperpigmentation, while a pigment control system regulates melanin synthesis at every stage.</p>",
             "text_style": "body"
           }
         }
