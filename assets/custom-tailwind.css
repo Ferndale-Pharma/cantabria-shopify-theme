@@ -474,19 +474,38 @@ ul.collection-list .card__content {
   @apply md:twcss-flex-col md:twcss-justify-start;
 }
 
-.product-form__input--pill input[type='radio'] + label {
+/** Shade swatch **/
+.product-form__input--pill--shade {
+  @apply twcss-flex;
+}
+
+.product-form__input--pill--shade label {
+  @apply twcss-flex twcss-items-center;
+}
+
+.product-form__input--pill--shade input[type='radio'] + label {
   @apply twcss-border-none !important;
 }
 
-.product-form__input--pill input[type='radio']:checked + label {
-  @apply twcss-bg-transparent !important;
-  @apply twcss-text-black !important;
+.product-form__input--pill--shade input[type='radio']:checked + label {
+  @apply twcss-bg-transparent twcss-text-black !important;
 }
 
-.product-form__input--pill input[type='radio'] + label {
-  @apply twcss-p-0 twcss-m-0;
+.product-form__input--pill--shade input[type='radio'] + label {
+  @apply twcss-p-0 twcss-m-0 twcss-flex twcss-flex-row !important;
 }
 
-.product-form__input--pill input[type='radio']:checked + label span.cl-swatch {
+.product-form__input--pill--shade input[type='radio'] + label span {
+  @apply twcss-mr-4;
+}
+
+.product-form__input--pill--shade
+  input[type='radio']:checked
+  + label
+  span.cl-swatch {
   @apply twcss-border-black twcss-border-2;
+}
+
+span.cl-swatch {
+  @apply twcss-block twcss-h-16 twcss-w-16 twcss-rounded-md;
 }

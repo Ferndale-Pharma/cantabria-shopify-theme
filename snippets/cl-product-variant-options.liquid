@@ -78,14 +78,14 @@
       additional_props: input_dataset
     %}
     {%- elsif picker_type == 'button' and option_downcase == 'shade'-%}
-    {% render 'cl-shade-swatch',
-      input_id: input_id,
-      input_name: input_name,
-      value: value,
-      product_form_id: product_form_id,
-      option_disabled: option_disabled,
-      input_dataset: input_dataset,
-    %}
+      {% render 'cl-shade-swatch',
+        input_id: input_id,
+        input_name: input_name,
+        value: value,
+        product_form_id: product_form_id,
+        option_disabled: option_disabled,
+        input_dataset: input_dataset,
+      %}
   {%- elsif picker_type == 'button' -%}
     <input
       type="radio"
