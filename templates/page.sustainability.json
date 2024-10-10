@@ -192,40 +192,116 @@
         "padding_bottom": 64
       }
     },
-    "image_with_text_RT9rmQ": {
-      "type": "image-with-text",
+    "rich_text_34gUUw": {
+      "type": "rich-text",
       "blocks": {
-        "heading_bL73rk": {
+        "heading_VFt3Nq": {
           "type": "heading",
           "settings": {
             "heading": "Social responsibility initiatives",
             "heading_size": "h1"
           }
         },
-        "text_BxPXX3": {
+        "text_f69tm7": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
+            "text": "<p>Cantabria Labs are involved in several initiatives and projects across the world to help improve quality of life and health, some of these projects include:</p>"
           }
         }
       },
       "block_order": [
-        "heading_bL73rk",
-        "text_BxPXX3"
+        "heading_VFt3Nq",
+        "text_f69tm7"
       ],
       "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "full_width": true,
         "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
+    "multicolumn_mqccF6": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_AUnTLm": {
+          "type": "column",
+          "settings": {
+            "title": "The Rafa Nadal Foundation",
+            "text": "<p>An educational programme that helps to support vulnerable children reach their potential.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zNpnfq": {
+          "type": "column",
+          "settings": {
+            "title": "The DerMalawi Project",
+            "text": "<p>A voluntary project that has so far helped 2,600 people with dermatological problems, including 42 surgeries for malignant tumours.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BV6Tkr": {
+          "type": "column",
+          "settings": {
+            "title": "Emalaikat Foundation",
+            "text": "<p>Improving the chances and quality of life of people in the Turkana region (Kenya) on the African continent.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pirzPB": {
+          "type": "column",
+          "settings": {
+            "title": "The Rainbow Foundation",
+            "text": "<p>Supporting people with disabilities (physical, psychic and sensory) through training and creation of stable employment.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PCkNgk": {
+          "type": "column",
+          "settings": {
+            "title": "Astor",
+            "text": "<p>An association that works to guarantee equal opportunities to people with learning disabilities and to offer support to both them and their families.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WYa8Lp": {
+          "type": "column",
+          "settings": {
+            "title": "STANPA Foundation",
+            "text": "<p>Helping to improve quality of life and self-esteem for those going through cancer treatment.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_AUnTLm",
+        "column_zNpnfq",
+        "column_BV6Tkr",
+        "column_pirzPB",
+        "column_PCkNgk",
+        "column_WYa8Lp"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
         "padding_bottom": 64
       }
     }
@@ -237,6 +313,7 @@
     "multicolumn_4UcdGk",
     "video_X3FEiL",
     "image_with_text_MWFeXt",
-    "image_with_text_RT9rmQ"
+    "rich_text_34gUUw",
+    "multicolumn_mqccF6"
   ]
 }
