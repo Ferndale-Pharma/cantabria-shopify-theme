@@ -729,6 +729,11 @@ span.cl-swatch {
   border-radius: 0.375rem;
 }
 
+.collection-hero__description {
+  --tw-text-opacity: 1;
+  color: rgb(35 31 32 / var(--tw-text-opacity));
+}
+
 /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
 
 /*

@@ -520,3 +520,7 @@ ul.collection-list .card__content {
 span.cl-swatch {
   @apply twcss-block twcss-h-16 twcss-w-16 twcss-rounded-md;
 }
+
+.collection-hero__description {
+  @apply twcss-text-[#231F20];
+}
