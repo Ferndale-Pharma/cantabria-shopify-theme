@@ -404,8 +404,9 @@ ul.collection-list .card__content {
   @apply twcss-px-0 !important;
 }
 
-/** blogs **/
-.article-template__content {
+/** blogs & pages **/
+.article-template__content,
+.shopify-policy__container {
   @apply twcss-text-black !important;
   h1,
   h2,
@@ -448,6 +449,10 @@ ul.collection-list .card__content {
 
 .article-template__back {
   @apply twcss-hidden;
+}
+
+.shopify-policy__container {
+  @apply twcss-pt-8 twcss-mb-32;
 }
 
 /* Collapsable Row */
