@@ -141,6 +141,7 @@
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https://www.youtube.com/watch?v=Za9qK8RSvqk",
+        "cover_image": "shopify://shop_images/neoretin-pigment-video-cover-1.jpg",
         "description": "Video explaining about Neoretin Pigment Neutraliser Serum",
         "full_width": false,
         "color_scheme": "scheme-5",
