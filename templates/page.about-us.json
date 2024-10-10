@@ -24,22 +24,98 @@
           "settings": {
             "text": "<p>Cantabria Labs is a worldwide dermatology company renowned for innovation and research, bringing you some of the best skincare brands in the world. </p><p>Established in Spain in 1989, Cantabria Labs remains a family-owned business today with real heart and soul. The philosophy of ‘celebrate life’ resonates throughout the Cantabria Labs and its global subsidiaries, with every employee and partner empowered and encouraged to think and work creatively to help achieve our goal: improving the health and quality of life for all people. </p><p>With subsidiaries and distributors in over 85 countries, Cantabria Labs has earned global recognition for its contribution to the world of dermatology. </p>"
           }
-        },
-        "button_iU36h7": {
-          "type": "button",
+        }
+      },
+      "block_order": [
+        "text_yqmDCa"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_MLzaPP": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_XTpXen": {
+          "type": "text",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>We specialise in developing innovative, patented ingredients by harnessing the power of nature and repurposing it to improve or protect the skin. Our expertise lies not only in revolutionary technology but formulation too, creating products that feel beautiful on the skin and that you’ll love to use every day. </p><p>Rigorous research, development and clinical study is the foundation for every product in our dermatologically tested skincare ranges. Working with renowned dermatologists worldwide, Cantabria Labs brings together leading scientific innovation with expertise and the highest quality standards to bring you the future of skincare. This is recognised by multiple industry award wins for Cantabria Labs products across the globe every year.</p><p><a href=\"/pages/our-technologies\" title=\"Our Technologies\">Read more about the patented technologies behind Heliocare, Biretix, Neoretin and Endocare.</a></p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "text_yqmDCa",
-        "button_iU36h7"
+        "text_XTpXen"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_pLnpF9": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_hr9b4h": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As well as manufacturing the best products for dermatological health, Cantabria Labs is passionate about charitable work across Spain and the rest of the world.</p><p>The initiative, #togetherwewillgofar, aims to promote good health and fight against poverty, hunger and sickness.  Cantabria Labs is dedicated to caring for and conserving the environment. We are incredibly proud of La Concha, an environmentally sustainable production centre based in Cantabria in northern Spain. La Concha leverages the power of a geothermal spring to produce renewable energy for the laboratories and provide mineral-rich, medicinal water. </p><p><a href=\"/pages/sustainability\" title=\"Sustainability\">Read more about our sustainability work. </a></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_hr9b4h"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_rn83FK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YQKBi7": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Ferndale Pharma Health & Beauty",
+            "heading_size": "h1"
+          }
+        },
+        "text_YQYgBr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CantabriaLabs.co.uk is operated by FERNDALE PHARMA Health & Beauty, a division of Ferndale Pharmaceuticals Ltd. Ferndale Pharmaceuticals Ltd. are proud to be the exclusive UK distributor partner of Cantabria Labs since 20?? [N.B. CHECK DATE WITH ROGER/RO] </p><p></p><p>Ferndale Pharma Health & Beauty offers dermo-cosmetic brands to skin-savvy customers, promoting skin health, beauty, and well-being. As a division of Ferndale Pharmaceuticals Ltd, a global dermatological skincare company, we work with leading dermatologists and professional skin clinics, providing clinically proven solutions to a wide range of skincare conditions and indications. As partners with Cantabria Labs, we share a common culture… to explore possibilities, be adventurous and, most importantly, always put people first. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YQKBi7",
+        "text_YQYgBr"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -53,6 +129,9 @@
   },
   "order": [
     "main",
-    "rich_text_bT7PLh"
+    "rich_text_bT7PLh",
+    "image_with_text_MLzaPP",
+    "image_with_text_pLnpF9",
+    "rich_text_rn83FK"
   ]
 }
