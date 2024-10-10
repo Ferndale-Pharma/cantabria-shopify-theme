@@ -15,9 +15,44 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_bT7PLh": {
+      "type": "rich-text",
+      "blocks": {
+        "text_yqmDCa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cantabria Labs is a worldwide dermatology company renowned for innovation and research, bringing you some of the best skincare brands in the world. </p><p>Established in Spain in 1989, Cantabria Labs remains a family-owned business today with real heart and soul. The philosophy of ‘celebrate life’ resonates throughout the Cantabria Labs and its global subsidiaries, with every employee and partner empowered and encouraged to think and work creatively to help achieve our goal: improving the health and quality of life for all people. </p><p>With subsidiaries and distributors in over 85 countries, Cantabria Labs has earned global recognition for its contribution to the world of dermatology. </p>"
+          }
+        },
+        "button_iU36h7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_yqmDCa",
+        "button_iU36h7"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_bT7PLh"
   ]
 }
