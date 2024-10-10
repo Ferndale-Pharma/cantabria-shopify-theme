@@ -373,6 +373,7 @@
         "column_bpzjnL": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/expert_advice.jpg",
             "title": "Expert Advice",
             "text": "<p>Health and skincare advice from top dermatologists and skincare professionals worldwide.</p>",
             "link_label": "Learn more",
@@ -382,6 +383,7 @@
         "column_jdJJMU": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/SKINCARE_GUIDES.jpg",
             "title": "Skincare Guides",
             "text": "<p>In depth guides to help you make the right choice for your skin and achieve your skincare goals.</p>",
             "link_label": "Learn more",
@@ -391,6 +393,7 @@
         "column_6hVRfc": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/TECH_INGREDIENTS.jpg",
             "title": "Ingredients Glossary",
             "text": "<p>The key technologies and ingredients featured in Cantabria Labs’ outstanding product portfolio.</p>",
             "link_label": "Learn more",
