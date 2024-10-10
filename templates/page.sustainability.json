@@ -15,9 +15,70 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_GV4EpK": {
+      "type": "rich-text",
+      "blocks": {
+        "text_NXydq9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our goal of improving the health and quality of life for all would simply not be possible without caring for the environment too. That’s why Cantabria Labs are committed to building sustainable practice into every element of the business and beyond, caring for the environment and supporting communities and vulnerable groups across the world.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_NXydq9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_H94BV4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hUxgi6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sustainability in manufacturing",
+            "heading_size": "h1"
+          }
+        },
+        "text_n3Ntt6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La Concha is Cantabria Labs’ environmentally sustainable production centre, set in 32,000m2 of green space. La Concha was designed to enable us to reach our sustainability goals with state-of-the-art production facilities powered by geothermal springs. The springs are at the heart of the Water Laboratory, which was created to begin a new field of research into its mineral medicinal properties for skincare, and to provide drinking water. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hUxgi6",
+        "text_n3Ntt6"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_GV4EpK",
+    "image_with_text_H94BV4"
   ]
 }
