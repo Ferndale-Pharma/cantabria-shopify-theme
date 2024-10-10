@@ -233,6 +233,11 @@ form#bh-sl-user-location .scasl-search-btn {
   margin-bottom: 2rem !important;
 }
 
+.jdgm-rev__media {
+  display: none !important;
+  height: 0px !important;
+}
+
 .jdgm-carousel-item__reviewer-name.jdgm-ellipsis {
   --tw-text-opacity: 1 !important;
   color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
@@ -571,7 +576,9 @@ ul.collection-list .card__content {
   h2,
   h3,
   h4,
-  h5 {
+  h5,
+  blockquote,
+  .embed-container {
     margin-bottom: 2rem;
   }
   h1,
@@ -591,6 +598,10 @@ ul.collection-list .card__content {
   }
   p {
     margin-bottom: 1rem;
+  }
+  blockquote,
+  .embed-container {
+    margin-top: 1rem;
   }
 }
 

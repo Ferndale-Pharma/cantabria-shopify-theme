@@ -188,6 +188,10 @@ form#bh-sl-user-location .scasl-search-btn {
   @apply twcss-mb-8 !important;
 }
 
+.jdgm-rev__media {
+  @apply twcss-hidden twcss-h-0 !important;
+}
+
 .jdgm-carousel-item__reviewer-name.jdgm-ellipsis {
   @apply twcss-text-black !important;
   @apply twcss-font-bold !important;
@@ -407,7 +411,9 @@ ul.collection-list .card__content {
   h2,
   h3,
   h4,
-  h5 {
+  h5,
+  blockquote,
+  .embed-container {
     @apply twcss-mb-8;
   }
   h1,
@@ -420,6 +426,10 @@ ul.collection-list .card__content {
   }
   p {
     @apply twcss-mb-4;
+  }
+  blockquote,
+  .embed-container {
+    @apply twcss-mt-4;
   }
 }
 .article-template__content h2 {
