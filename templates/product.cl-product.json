@@ -144,10 +144,16 @@
           "settings": {
             "maxwidth": 1080
           }
+        },
+        "judge_me_reviews_review_widget_D8HWxR": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "judge_me_reviews_featured_carousel_aJb67R"
+        "judge_me_reviews_featured_carousel_aJb67R",
+        "judge_me_reviews_review_widget_D8HWxR"
       ],
       "settings": {
         "include_margins": true
