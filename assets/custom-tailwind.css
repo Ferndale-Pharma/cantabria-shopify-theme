@@ -9,7 +9,7 @@
 .ingredients__accordion-content h1,
 .ingredients__accordion-content h2,
 .ingredients__accordion-content h3,
-.jdgm-carousel-title {
+.jdgm-rev-widg__title {
   @apply twcss-font-bold !important;
   @apply twcss-text-black;
 }
@@ -161,9 +161,14 @@ form#bh-sl-user-location .scasl-search-btn {
 }
 
 /** reviews **/
-.jdgm-carousel-title {
+.jdgm-rev-widg__header {
+  @apply twcss-pt-8;
+}
+
+.jdgm-rev-widg__title {
   @apply twcss-pb-8;
 }
+
 .jdgm-all-reviews-rating-wrapper {
   @apply twcss-py-4 !important;
 }
@@ -186,6 +191,12 @@ form#bh-sl-user-location .scasl-search-btn {
 .jdgm-carousel-item__reviewer-name.jdgm-ellipsis {
   @apply twcss-text-black !important;
   @apply twcss-font-bold !important;
+}
+.jdgm-row-readmore {
+  @apply twcss-hidden !important;
+}
+.jdgm-rev-carousel .jdgm-rev {
+  @apply twcss-shadow-none	!important;
 }
 
 /** Footer styles **/
