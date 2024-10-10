@@ -65,7 +65,7 @@
         "description": "<p>Experience the transformative effects of Cantabria Labs dermatological skincare.</p>",
         "show_description": false,
         "description_style": "subtitle",
-        "collection": "all",
+        "collection": "cantabria-labs-hero-products",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
