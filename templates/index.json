@@ -225,6 +225,7 @@
         },
         "slide_YXx9Kj": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/BIOPEP-15.jpg",
             "heading": "BIOPEP-15",
@@ -295,6 +296,24 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_PjHGWp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AZELAIC_AOX_TECH.jpg",
+            "heading": "Azeilaic Aox-TECH",
+            "heading_size": "h1",
+            "subheading": "A patented delivery-system technology that boosts the action of azelaic acid up to 5 times. Its anxtioxidant properties protect the skin from environmental aggressors and offer incredible efficacy in exfoliating, diminishing the appearance of blemishes, unifying the skin tone, reducing pigmentation and soothing the skin.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
@@ -302,7 +321,8 @@
         "slide_YXx9Kj",
         "slide_Ukfd37",
         "slide_d7ANrH",
-        "slide_E6LWAC"
+        "slide_E6LWAC",
+        "slide_PjHGWp"
       ],
       "settings": {
         "layout": "grid",
