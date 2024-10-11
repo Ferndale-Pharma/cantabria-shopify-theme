@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_9qaB4e": {
@@ -119,7 +119,7 @@
         "button_Gy8FBp"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Sensation_5fb555bd-bcfb-43bc-98db-0e795e671431.jpg",
+        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Full_Spectrum_Daily_Sun_Protection_9c940737-70a3-46ef-8d3b-fd5628d790c2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
