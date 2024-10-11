@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -301,7 +301,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/AZELAIC_AOX_TECH.jpg",
-            "heading": "Azeilaic Aox-TECH",
+            "heading": "Azelaic Aox-TECH",
             "heading_size": "h1",
             "subheading": "A patented delivery-system technology that boosts the action of azelaic acid up to 5 times. Its anxtioxidant properties protect the skin from environmental aggressors and offer incredible efficacy in exfoliating, diminishing the appearance of blemishes, unifying the skin tone, reducing pigmentation and soothing the skin.",
             "button_label": "",
