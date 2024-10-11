@@ -17,7 +17,7 @@
 
 <div class="newsletter center {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}">
   <div class="newsletter__wrapper color-{{ section.settings.color_scheme }} gradient content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
-  <div class="newsletter__left">
+  <div class="newsletter__left twcss-pb-8">
   {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when '@app' -%}
@@ -35,7 +35,7 @@
           </h2>
         {%- when 'paragraph' -%}
           <div
-            class="newsletter__subheading rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
@@ -45,8 +45,11 @@
             {{ block.settings.text }}
           </div>
           </div>
-          <div class="newsletter__right">
+        <div class="newsletter__right">
         {%- when 'email_form' -%}
+          <label for="NewsletterForm--{{ section.id }}">
+            {{ 'newsletter.label' | t }}
+          </label>
           <div {{ block.shopify_attributes }}>
             {% form 'customer', class: 'newsletter-form' %}
               <input type="hidden" name="contact[tags]" value="newsletter">
@@ -57,7 +60,7 @@
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
-                <div class="field">
+                <div class="field ">
                   <input
                     id="NewsletterForm--{{ section.id }}"
                     type="email"
@@ -78,16 +81,18 @@
                     placeholder="{{ 'newsletter.label' | t }}"
                     required
                   >
-                  <label class="field__label" for="NewsletterForm--{{ section.id }}">
-                    {{ 'newsletter.label' | t }}
-                  </label>
+                </div>
+                <div class="newsletter-form__field-wrapper twcss-my-8">
+                  <input type="checkbox" id="terms" name="terms" required>
+                  <label for="terms">I agree with terms and conditions</label>
                 </div>
                 <button
                   type="submit"
-                  class="button"
+                  class="button twcss-bg-black"
                   name="commit"
                   id="Subscribe"
                   aria-label="{{ 'newsletter.button_label' | t }}"
+                  disabled
                 >
                 Sign up
                 </button>
@@ -117,7 +122,16 @@
     </div>
   </div>
 </div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const termsCheckbox = document.getElementById('terms');
+    const subscribeButton = document.getElementById('Subscribe');
 
+    termsCheckbox.addEventListener('change', function() {
+      subscribeButton.disabled = !termsCheckbox.checked;
+    });
+  });
+</script>
 {% schema %}
 {
   "name": "t:sections.newsletter.name",
