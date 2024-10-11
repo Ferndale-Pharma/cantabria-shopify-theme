@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_9qaB4e": {
@@ -141,6 +141,7 @@
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https://www.youtube.com/watch?v=dlPZ3jhUyRE",
+        "cover_image": "shopify://shop_images/endocare-renewal-serum-video-cover.jpg",
         "description": "Video about the Endocare Renewal Glycoperfect Intensive Serum",
         "full_width": false,
         "color_scheme": "scheme-5",
