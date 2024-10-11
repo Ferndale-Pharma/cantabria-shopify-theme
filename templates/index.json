@@ -551,6 +551,7 @@
         "column_qBBnmB": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Derm_Proven_Efficacy.png",
             "title": "Dermatologist proven efficacy",
             "text": "<p>Cantabria Labs skincare ranges are dermatologist-proven to target, prevent, and improve key skin concerns like sun protection, acne-prone skin, ageing, and hyperpigmentation.</p>",
             "link_label": "",
@@ -560,6 +561,7 @@
         "column_pXVeTF": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Expert_Recommended.png",
             "title": "Expert recommended",
             "text": "<p>Cantabria Labs products are the top dermatological prescription in Spain, Italy, Portugal, and recommended by skin experts across the globe.</p>",
             "link_label": "",
@@ -569,6 +571,7 @@
         "column_tmgBUf": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Personalised_Skincare.png",
             "title": "Personalised skincare",
             "text": "<p>With ranges specifically designed to cover every skin type, indication and concern, there’s always a Cantabria Labs product to suit <em>your</em> skin.</p>",
             "link_label": "",
@@ -584,7 +587,7 @@
       "settings": {
         "title": "Why choose Cantabria Labs?",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
