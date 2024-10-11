@@ -604,7 +604,7 @@
         "column_YdBAyb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/newyork.png",
+            "image": "shopify://shop_images/lookfantastic.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -614,7 +614,7 @@
         "column_CfJpQg": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/vogue.png",
+            "image": "shopify://shop_images/bazaar.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -624,7 +624,37 @@
         "column_yEBQh8": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/newyork.png",
+            "image": "shopify://shop_images/justmylook.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MDMk7Q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/tatler.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MeYeb4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/beauty-bay.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_abgqf9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue_a980ca0a-3db4-49a9-9081-42fa23fbec92.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -635,21 +665,24 @@
       "block_order": [
         "column_YdBAyb",
         "column_CfJpQg",
-        "column_yEBQh8"
+        "column_yEBQh8",
+        "column_MDMk7Q",
+        "column_MeYeb4",
+        "column_abgqf9"
       ],
       "settings": {
         "title": "As seen in",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 6,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 64,
         "padding_bottom": 64
       }
