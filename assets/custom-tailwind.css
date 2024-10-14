@@ -59,6 +59,9 @@ a.mega-menu__link.mega-menu__link--level-2 {
   font-size: 1.8rem !important;
 }
 
+.menu-link__with-image span.caption {
+  @apply twcss-text-[#231F20];
+}
 li.menu-link__with-image {
   @apply twcss-mr-4;
 }
