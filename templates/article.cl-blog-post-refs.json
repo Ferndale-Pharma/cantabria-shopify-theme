@@ -79,9 +79,9 @@
         "collapsible_row_me8TrN": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "References",
             "icon": "question_mark",
-            "row_content": "",
+            "row_content": "<p>{{ article.metafields.blog_post.references | metafield_tag }}</p>",
             "page": ""
           }
         }
