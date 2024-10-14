@@ -21,7 +21,7 @@
 <div class="color-{{ section.settings.color_scheme }} gradient isolate">
   <div class="page-width section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
-      <h2 class="cl- inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <h2 class="cl-collage-wrapper-title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {{ section.settings.heading }}
       </h2>
     {%- endif -%}
@@ -344,6 +344,18 @@
           "type": "image_picker",
           "id": "image",
           "label": "t:sections.collage.blocks.image.settings.image.label"
+        },
+        {
+          "type": "text",
+          "id": "image_caption",
+          "label": "Caption",
+          "default": "Default caption text"
+        },
+        {
+          "type": "text",
+          "id": "image_sub_caption",
+          "label": "Sub Caption",
+          "default": "Default caption text"
         }
       ]
     },
