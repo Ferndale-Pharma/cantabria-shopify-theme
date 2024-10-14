@@ -85,44 +85,6 @@
         "padding_bottom": 36
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "image_gFMGhK": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_gFMGhK",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -723,12 +685,50 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "cl_collage_diBjWc": {
+      "type": "cl-collage",
+      "blocks": {
+        "image_68wjfp": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "product_djJKnp": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection_7BhHGK": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_68wjfp",
+        "product_djJKnp",
+        "collection_7BhHGK"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "collage",
+    "cl_collage_diBjWc",
     "multicolumn",
     "rich_text_WD8i97",
     "cl_slideshow_Bdfd6h",
