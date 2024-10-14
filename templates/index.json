@@ -94,30 +94,30 @@
             "image": "shopify://shop_images/Image_861c4764-0449-4c0a-9658-de40710deab9.png"
           }
         },
+        "collection_ieYt8B": {
+          "type": "collection",
+          "settings": {
+            "collection": "neoretin"
+          }
+        },
         "image_xF6NYc": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Biretix.png"
           }
         },
-        "image_TBndzj": {
-          "type": "image",
+        "collection_Yi3aP4": {
+          "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/endocare.png"
-          }
-        },
-        "image_eBYdhm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Neoretin.png"
+            "collection": "endocare"
           }
         }
       },
       "block_order": [
         "image_68wjfp",
+        "collection_ieYt8B",
         "image_xF6NYc",
-        "image_TBndzj",
-        "image_eBYdhm"
+        "collection_Yi3aP4"
       ],
       "settings": {
         "heading": "Multimedia collage",
