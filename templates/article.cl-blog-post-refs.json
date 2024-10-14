@@ -81,7 +81,7 @@
           "settings": {
             "heading": "References",
             "icon": "question_mark",
-            "row_content": "<p>{{ article.metafields.blog_post.references | metafield_tag }}</p>",
+            "row_content": "",
             "page": ""
           }
         }
