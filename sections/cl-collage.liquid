@@ -19,7 +19,7 @@
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient isolate">
-  <div class="page-width section-{{ section.id }}-padding">
+  <div class="cl-collage-page-width section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
       <h2 class="cl-collage-wrapper-title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {{ section.settings.heading }}
@@ -103,12 +103,16 @@
               %}
               {% assign skip_card_product_styles = true %}
             {%- when 'collection' -%}
+              {% assign cl_media_aspect_ratio = 'adapt' %}
+              {% if forloop.index == 1 %}
+                {% assign cl_media_aspect_ratio = 'portrait' %}
+              {% endif %}
               {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
-              {% render 'card-collection',
+              {% render 'cl-card-collection',
                 card_collection: block.settings.collection,
-                media_aspect_ratio: 'adapt',
+                media_aspect_ratio: cl_media_aspect_ratio ,
                 columns: 2,
-                extend_height: true,
+                extend_height: false,
                 wrapper_class: section.settings.card_styles,
                 placeholder_image: placeholder_image
               %}

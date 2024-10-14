@@ -565,3 +565,8 @@ span.cl-swatch {
   @apply twcss-text-black twcss-font-bold twcss-mb-1;
 }
 /** Forms **/
+
+/** Custom Collage **/
+.cl-collage-page-width {
+  @apply md:twcss-px-[400px];
+}

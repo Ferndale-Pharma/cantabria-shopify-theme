@@ -788,6 +788,15 @@ span.cl-swatch {
 
 /** Forms **/
 
+/** Custom Collage **/
+
+@media (min-width: 750px) {
+  .cl-collage-page-width {
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+}
+
 /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
 
 /*
