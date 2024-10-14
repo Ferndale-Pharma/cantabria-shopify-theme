@@ -88,43 +88,43 @@
     "cl_collage_diBjWc": {
       "type": "cl-collage",
       "blocks": {
-        "image_68wjfp": {
-          "type": "image",
+        "collection_NTUdVh": {
+          "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/Image_861c4764-0449-4c0a-9658-de40710deab9.png"
+            "collection": "heliocare"
           }
         },
-        "image_xF6NYc": {
-          "type": "image",
+        "collection_rbhL9w": {
+          "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/Biretix.png"
+            "collection": "biretix"
           }
         },
-        "image_TBndzj": {
-          "type": "image",
+        "collection_ieYt8B": {
+          "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/endocare.png"
+            "collection": "neoretin"
           }
         },
-        "image_eBYdhm": {
-          "type": "image",
+        "collection_Yi3aP4": {
+          "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/Neoretin.png"
+            "collection": "endocare"
           }
         }
       },
       "block_order": [
-        "image_68wjfp",
-        "image_xF6NYc",
-        "image_TBndzj",
-        "image_eBYdhm"
+        "collection_NTUdVh",
+        "collection_rbhL9w",
+        "collection_ieYt8B",
+        "collection_Yi3aP4"
       ],
       "settings": {
         "heading": "Multimedia collage",
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
+        "card_styles": "none",
         "color_scheme": "",
         "padding_top": 64,
         "padding_bottom": 64
