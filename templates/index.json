@@ -100,24 +100,24 @@
             "collection": "biretix"
           }
         },
-        "collection_ieYt8B": {
-          "type": "collection",
-          "settings": {
-            "collection": "neoretin"
-          }
-        },
         "collection_Yi3aP4": {
           "type": "collection",
           "settings": {
             "collection": "endocare"
+          }
+        },
+        "collection_ieYt8B": {
+          "type": "collection",
+          "settings": {
+            "collection": "neoretin"
           }
         }
       },
       "block_order": [
         "collection_NTUdVh",
         "collection_rbhL9w",
-        "collection_ieYt8B",
-        "collection_Yi3aP4"
+        "collection_Yi3aP4",
+        "collection_ieYt8B"
       ],
       "settings": {
         "heading": "Multimedia collage",
