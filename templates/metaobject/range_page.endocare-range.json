@@ -221,6 +221,7 @@
         "column_Yq9kat": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/ENDOCARE_-_SKIN_REGENERATION.png",
             "title": "Regenerates, renews and repairs",
             "text": "<p>An innovative approach to skin ageing, with solutions that activate and regenerate the skin’s renewal and repair cells for maximum efficacy.</p>",
             "link_label": "",
@@ -230,6 +231,7 @@
         "column_tDgdET": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/ENDOCARE_-_INNOVTIVE_FORMULATIONS.png",
             "title": "Powerful technologies & innovative formulations",
             "text": "<p>Patented technologies, including EDAFENCE® anti-pollution technology and RetinSphere® advanced retinoid technology, blended with gold-standard active ingredients for visible results.</p>",
             "link_label": "",
@@ -239,6 +241,7 @@
         "column_tfaxLW": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/ENDOCARE_-_CLINICALLY_PROVEN.png",
             "title": "Clinically proven results",
             "text": "<p>Backed by more than 20 years of clinical research and numerous studies in leading international scientific and medical journals.</p>",
             "link_label": "",
@@ -254,8 +257,8 @@
       "settings": {
         "title": "Multicolumn",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
+        "image_width": "third",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
