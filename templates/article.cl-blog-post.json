@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -38,12 +38,10 @@
         "title": "Featured products",
         "heading_size": "h2",
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sodales eros.</p>",
-        "show_description": false,
         "description_style": "body",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "color_scheme": "",
