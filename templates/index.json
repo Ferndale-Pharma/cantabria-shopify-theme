@@ -91,21 +91,25 @@
         "image_68wjfp": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Image_861c4764-0449-4c0a-9658-de40710deab9.png"
           }
         },
         "image_xF6NYc": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Biretix.png"
           }
         },
         "image_TBndzj": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/endocare.png"
           }
         },
         "image_eBYdhm": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Neoretin.png"
           }
         }
       },
