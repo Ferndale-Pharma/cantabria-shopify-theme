@@ -100,24 +100,24 @@
             "collection": "neoretin"
           }
         },
-        "image_xF6NYc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Biretix.png"
-          }
-        },
         "collection_Yi3aP4": {
           "type": "collection",
           "settings": {
             "collection": "endocare"
+          }
+        },
+        "collection_rbhL9w": {
+          "type": "collection",
+          "settings": {
+            "collection": "biretix"
           }
         }
       },
       "block_order": [
         "image_68wjfp",
         "collection_ieYt8B",
-        "image_xF6NYc",
-        "collection_Yi3aP4"
+        "collection_Yi3aP4",
+        "collection_rbhL9w"
       ],
       "settings": {
         "heading": "Multimedia collage",
