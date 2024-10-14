@@ -88,10 +88,16 @@
     "cl_collage_diBjWc": {
       "type": "cl-collage",
       "blocks": {
-        "image_68wjfp": {
-          "type": "image",
+        "collection_NTUdVh": {
+          "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/Image_861c4764-0449-4c0a-9658-de40710deab9.png"
+            "collection": "heliocare"
+          }
+        },
+        "collection_rbhL9w": {
+          "type": "collection",
+          "settings": {
+            "collection": "biretix"
           }
         },
         "collection_ieYt8B": {
@@ -105,19 +111,13 @@
           "settings": {
             "collection": "endocare"
           }
-        },
-        "collection_rbhL9w": {
-          "type": "collection",
-          "settings": {
-            "collection": "biretix"
-          }
         }
       },
       "block_order": [
-        "image_68wjfp",
+        "collection_NTUdVh",
+        "collection_rbhL9w",
         "collection_ieYt8B",
-        "collection_Yi3aP4",
-        "collection_rbhL9w"
+        "collection_Yi3aP4"
       ],
       "settings": {
         "heading": "Multimedia collage",
