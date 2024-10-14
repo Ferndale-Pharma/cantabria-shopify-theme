@@ -85,6 +85,47 @@
         "padding_bottom": 36
       }
     },
+    "cl_collage_diBjWc": {
+      "type": "cl-collage",
+      "blocks": {
+        "image_68wjfp": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "image_xF6NYc": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "image_TBndzj": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "image_eBYdhm": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "image_68wjfp",
+        "image_xF6NYc",
+        "image_TBndzj",
+        "image_eBYdhm"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -682,44 +723,6 @@
       "settings": {
         "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
         "full_width": true,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "cl_collage_diBjWc": {
-      "type": "cl-collage",
-      "blocks": {
-        "image_68wjfp": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "product_djJKnp": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection_7BhHGK": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_68wjfp",
-        "product_djJKnp",
-        "collection_7BhHGK"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
         "padding_top": 64,
         "padding_bottom": 64
       }
