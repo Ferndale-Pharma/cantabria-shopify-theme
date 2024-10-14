@@ -73,6 +73,37 @@
         "padding_bottom": 64
       }
     },
+    "collapsible_content_yjd4N4": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_me8TrN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "References",
+            "icon": "question_mark",
+            "row_content": "<p>{{ article.metafields.blog_post.references.value }}</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_me8TrN"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "newsletter_iPBtE9": {
       "type": "newsletter",
       "blocks": {
@@ -112,6 +143,7 @@
     "main",
     "related_article_products_pTftL7",
     "cl_featured_blog_nfwBkM",
+    "collapsible_content_yjd4N4",
     "newsletter_iPBtE9"
   ]
 }

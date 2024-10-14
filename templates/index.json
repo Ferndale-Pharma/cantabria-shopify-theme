@@ -72,7 +72,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -118,7 +118,7 @@
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -172,7 +172,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -219,7 +219,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
             "text_alignment_mobile": "center"
           }
         },
@@ -256,7 +256,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
             "text_alignment_mobile": "center"
           }
         },
@@ -274,7 +274,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
             "text_alignment_mobile": "center"
           }
         },
@@ -311,7 +311,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
             "text_alignment_mobile": "center"
           }
         }
@@ -381,7 +381,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
@@ -437,7 +437,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
@@ -483,8 +483,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 64,
@@ -551,6 +551,7 @@
         "column_qBBnmB": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Derm_Proven_Efficacy.png",
             "title": "Dermatologist proven efficacy",
             "text": "<p>Cantabria Labs skincare ranges are dermatologist-proven to target, prevent, and improve key skin concerns like sun protection, acne-prone skin, ageing, and hyperpigmentation.</p>",
             "link_label": "",
@@ -560,6 +561,7 @@
         "column_pXVeTF": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Expert_Recommended.png",
             "title": "Expert recommended",
             "text": "<p>Cantabria Labs products are the top dermatological prescription in Spain, Italy, Portugal, and recommended by skin experts across the globe.</p>",
             "link_label": "",
@@ -569,6 +571,7 @@
         "column_tmgBUf": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Personalised_Skincare.png",
             "title": "Personalised skincare",
             "text": "<p>With ranges specifically designed to cover every skin type, indication and concern, there’s always a Cantabria Labs product to suit <em>your</em> skin.</p>",
             "link_label": "",
@@ -584,14 +587,14 @@
       "settings": {
         "title": "Why choose Cantabria Labs?",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
@@ -604,7 +607,7 @@
         "column_YdBAyb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/newyork.png",
+            "image": "shopify://shop_images/lookfantastic.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -614,7 +617,7 @@
         "column_CfJpQg": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/vogue.png",
+            "image": "shopify://shop_images/bazaar.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -624,7 +627,37 @@
         "column_yEBQh8": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/newyork.png",
+            "image": "shopify://shop_images/justmylook.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MDMk7Q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/tatler.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MeYeb4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/beauty-bay.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_abgqf9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vogue_a980ca0a-3db4-49a9-9081-42fa23fbec92.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -635,21 +668,24 @@
       "block_order": [
         "column_YdBAyb",
         "column_CfJpQg",
-        "column_yEBQh8"
+        "column_yEBQh8",
+        "column_MDMk7Q",
+        "column_MeYeb4",
+        "column_abgqf9"
       ],
       "settings": {
         "title": "As seen in",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 6,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 64,
         "padding_bottom": 64
       }

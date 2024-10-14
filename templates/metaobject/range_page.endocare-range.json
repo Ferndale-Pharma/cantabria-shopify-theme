@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_9qaB4e": {
@@ -141,6 +141,7 @@
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https://www.youtube.com/watch?v=dlPZ3jhUyRE",
+        "cover_image": "shopify://shop_images/endocare-renewal-serum-video-cover.jpg",
         "description": "Video about the Endocare Renewal Glycoperfect Intensive Serum",
         "full_width": false,
         "color_scheme": "scheme-5",
@@ -220,6 +221,7 @@
         "column_Yq9kat": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/ENDOCARE_-_SKIN_REGENERATION.png",
             "title": "Regenerates, renews and repairs",
             "text": "<p>An innovative approach to skin ageing, with solutions that activate and regenerate the skin’s renewal and repair cells for maximum efficacy.</p>",
             "link_label": "",
@@ -229,6 +231,7 @@
         "column_tDgdET": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/ENDOCARE_-_INNOVTIVE_FORMULATIONS.png",
             "title": "Powerful technologies & innovative formulations",
             "text": "<p>Patented technologies, including EDAFENCE® anti-pollution technology and RetinSphere® advanced retinoid technology, blended with gold-standard active ingredients for visible results.</p>",
             "link_label": "",
@@ -238,6 +241,7 @@
         "column_tfaxLW": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/ENDOCARE_-_CLINICALLY_PROVEN.png",
             "title": "Clinically proven results",
             "text": "<p>Backed by more than 20 years of clinical research and numerous studies in leading international scientific and medical journals.</p>",
             "link_label": "",
@@ -253,8 +257,8 @@
       "settings": {
         "title": "Multicolumn",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
+        "image_width": "third",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
