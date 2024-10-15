@@ -568,5 +568,5 @@ span.cl-swatch {
 
 /** Custom Collage **/
 .cl-collage-page-width {
-  @apply md:twcss-px-[400px];
+  @apply lg:twcss-px-[20%] md:twcss-px-[10%] twcss-px-8;
 }
