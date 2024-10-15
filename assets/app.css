@@ -804,9 +804,13 @@ span.cl-swatch {
 
 @media (min-width: 990px) {
   .cl-collage-page-width {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 25%;
+    padding-right: 25%;
   }
+}
+
+.cl-collage .card__information {
+  padding-bottom: 0px !important;
 }
 
 /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
