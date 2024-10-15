@@ -564,4 +564,12 @@ span.cl-swatch {
 .newsletter__right label {
   @apply twcss-text-black twcss-font-bold twcss-mb-1;
 }
-/** Forms **/
+
+/** Custom Collage **/
+.cl-collage-page-width {
+  @apply lg:twcss-px-[25%] md:twcss-px-[10%] twcss-px-8;
+}
+
+.cl-collage .card__information {
+  @apply twcss-pb-0 !important;
+}
