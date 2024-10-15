@@ -148,7 +148,7 @@
           "settings": {
             "image": "shopify://shop_images/Image.png",
             "title": "",
-            "text": "<p><em>“Biretix is created by dermatologists, led by science and backed by clinical data. It has been developed to be the most effective pharmacological monotherapy for acne-prone skin and the best complementary dermo-cosmetics solution for alternative treatments.” </em></p><p><strong>Dr Massimo Milani </strong></p><p>Medical Director, Cantabria Labs Italy </p>",
+            "text": "<p><em>“Biretixis created by dermatologists, led by science and backed by clinical data. Ithas been developed to be the most effective complementary dermocosmetic skincare solution for acne-prone skin.”</em></p><p><strong>Dr Massimo Milani </strong></p><p>Medical Director, Cantabria Labs Italy </p>",
             "link_label": "Read more",
             "link": "shopify://pages/test"
           }
@@ -504,28 +504,31 @@
         "column_i3eaNw": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/Rafa-Resized.jpg",
+            "title": "Rafael Nadal",
+            "text": "<p>Legendary Grand-Slam winning Tennis Player</p>",
+            "link_label": "Read more",
+            "link": "shopify://blogs/blog/heliocare-and-rafa-nadal-together-for-good-sun-protection-and-healthy-activity-in-the-sun"
           }
         },
         "column_LpjWdF": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/Real-Madrid-Resized.jpg",
+            "title": "Real Madrid C.F.",
+            "text": "<p>15x European Football Champions</p>",
+            "link_label": "Read more",
+            "link": "shopify://blogs/blog/real-madrid-cantabria-labs-partnership-train-your-skin-campaign"
           }
         },
         "column_G9RbmJ": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/Sara-Andres-Resized-2.jpg",
+            "title": "Sara Andrés Barrio",
+            "text": "<p>Spanish Paralympic Athlete</p>",
+            "link_label": "Read more",
+            "link": "shopify://blogs/blog/cantabria-labs-with-rafa-nadal-sara-andres-and-real-madrid-together-against-melanoma"
           }
         }
       },
@@ -534,18 +537,17 @@
         "column_LpjWdF",
         "column_G9RbmJ"
       ],
-      "disabled": true,
       "settings": {
-        "title": "Multicolumn",
+        "title": "Our ambassadors",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Our Ambassadors",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
