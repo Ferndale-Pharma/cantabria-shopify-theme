@@ -37,7 +37,7 @@
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sodales eros.</p>",
+        "description": "",
         "description_style": "body",
         "products_to_show": 12,
         "columns_desktop": 4,
