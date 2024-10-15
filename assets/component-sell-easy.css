@@ -205,9 +205,24 @@ lb-product-page-cross-sell-ew .ppcse-card-tot-text {
 }
 @media only screen and (min-width: 1024px) {
   lb-product-page-cross-sell-ew .ppcse-confirm-button-div {
-    margin-left: 21px;
+    margin-left: 18px;
   }
   lb-product-page-cross-sell-ew .ppcse-card-tot-footer {
     justify-content: flex-start;
+  }
+  lb-product-page-cross-sell-ew lb-product-card {
+    display: flex;
+  }
+  lb-product-page-cross-sell-ew .lb-spc-details-variants {
+      padding: 4px 10px 4px 0px;
+  }
+  lb-product-page-cross-sell-ew .ppcse-card-lt-cont .lb-spc-cont {
+  	display: flex;
+  } 
+  lb-product-page-cross-sell-ew .lb-spc-details-checkbox-cont {
+  	margin-top: auto;
+  }
+  lb-product-page-cross-sell-ew .lb-spc-details-price-cont {
+  	order: 1;
   }
 }
