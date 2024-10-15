@@ -12,19 +12,13 @@
   Usage:
   {% render 'card-collection' %}
 {% endcomment %}
-{%- liquid
-  assign image_to_display = card_collection.featured_image
-  if card_collection.metafields.custom.collage_image != blank
-    assign image_to_display = card_collection.metafields.custom.collage_image
-  endif
--%}
 
 {%- liquid
   assign ratio = 1
-  if image_to_display and media_aspect_ratio == 'portrait'
+  if card_collection.featured_image and media_aspect_ratio == 'portrait'
     assign ratio = 0.75
-  elsif image_to_display and media_aspect_ratio == 'adapt'
-    assign ratio = image_to_display.aspect_ratio
+  elsif card_collection.featured_image and media_aspect_ratio == 'adapt'
+    assign ratio = card_collection.featured_image.aspect_ratio
   elsif media_aspect_ratio == 'landscape'
     assign ratio = 1.54
   endif
@@ -81,6 +75,7 @@
               width="{{ card_collection.featured_image.width }}"
               loading="lazy"
               class="motion-reduce"
+              {% if ratio == 1.54 %} style="object-position:50% 100%;" {% endif %}
             >
           </div>
         </div>
