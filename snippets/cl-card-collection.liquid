@@ -12,15 +12,21 @@
   Usage:
   {% render 'card-collection' %}
 {% endcomment %}
+{%- liquid
+  assign image_to_display = card_collection.featured_image
+  if card_collection.metafields.custom.collage_image != blank
+    assign image_to_display = card_collection.metafields.custom.collage_image
+  endif
+-%}
 
 {%- liquid
   assign ratio = 1
-  if card_collection.featured_image and media_aspect_ratio == 'portrait'
-    assign ratio = 0.7
-  elsif card_collection.featured_image and media_aspect_ratio == 'adapt'
-    assign ratio = card_collection.featured_image.aspect_ratio
+  if image_to_display and media_aspect_ratio == 'portrait'
+    assign ratio = 0.75
+  elsif image_to_display and media_aspect_ratio == 'adapt'
+    assign ratio = image_to_display.aspect_ratio
   elsif media_aspect_ratio == 'landscape'
-    assign ratio = 1.35
+    assign ratio = 1.54
   endif
   if ratio == 0 or ratio == null
     assign ratio = 1
