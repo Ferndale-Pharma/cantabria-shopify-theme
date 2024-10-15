@@ -147,16 +147,10 @@ lb-product-page-cross-sell-ew .lb-spc-details-price-cont {
 lb-product-page-cross-sell-ew .ppcse-confirm-button-div {
   max-width: 100%;
   width: 230px;
-  border-radius: 30px;
 }
 
 lb-product-page-cross-sell-ew .ppcse-card-tot-text {
   font-weight: 600;
-}
-
-lb-product-page-cross-sell-ew .lb-upsell-tot-btn {
-  background: #a5ced4;
-  color: #165c7d;
 }
 
 @media only screen and (max-width: 630px) {
