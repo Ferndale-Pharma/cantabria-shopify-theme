@@ -568,5 +568,9 @@ span.cl-swatch {
 
 /** Custom Collage **/
 .cl-collage-page-width {
-  @apply lg:twcss-px-[20%] md:twcss-px-[10%] twcss-px-8;
+  @apply lg:twcss-px-[25%] md:twcss-px-[10%] twcss-px-8;
+}
+
+.cl-collage .card__information {
+  @apply twcss-pb-0 !important;
 }
