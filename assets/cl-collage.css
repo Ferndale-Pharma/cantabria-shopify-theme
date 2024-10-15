@@ -210,3 +210,13 @@
   outline: none;
   box-shadow: none;
 }
+
+/** Custom Collage **/
+.cl-collage-page-width {
+  padding: 0 22%;
+  @apply lg:twcss-px-[25%] md:twcss-px-[10%] twcss-px-8;
+}
+
+.cl-collage .card__information {
+  @apply twcss-pb-0 !important;
+}
