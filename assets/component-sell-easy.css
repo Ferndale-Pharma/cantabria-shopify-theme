@@ -153,6 +153,10 @@ lb-product-page-cross-sell-ew .ppcse-card-tot-text {
   font-weight: 600;
 }
 
+lb-product-page-cross-sell-ew .lb-spc-details-variants {
+  padding: 4px 10px 4px 0px;
+}
+
 @media only screen and (max-width: 630px) {
   lb-product-page-cross-sell-ew .lb-spc-image-cont {
     width: 100% !important;
@@ -213,9 +217,7 @@ lb-product-page-cross-sell-ew .ppcse-card-tot-text {
   lb-product-page-cross-sell-ew lb-product-card {
     display: flex;
   }
-  lb-product-page-cross-sell-ew .lb-spc-details-variants {
-      padding: 4px 10px 4px 0px;
-  }
+  
   lb-product-page-cross-sell-ew .ppcse-card-lt-cont .lb-spc-cont {
   	display: flex;
   } 
