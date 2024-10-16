@@ -472,7 +472,7 @@
           "type": "button",
           "settings": {
             "button_label": "More about us",
-            "button_link": "shopify://pages/about-cantabria-labs",
+            "button_link": "shopify://pages/about-us",
             "button_style_secondary": true
           }
         }
