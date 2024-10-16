@@ -816,6 +816,7 @@
         "column_MdDtAi": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/facethefuture.png",
             "title": "",
             "text": "",
             "link_label": "FACE THE FUTURE",
