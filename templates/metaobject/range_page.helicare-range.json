@@ -63,14 +63,14 @@
         "heading_CNqReC": {
           "type": "heading",
           "settings": {
-            "heading": "Title goes here",
+            "heading": "Nothing protects skin like Heliocare 360°",
             "heading_size": "h1"
           }
         },
         "text_cyAfnX": {
           "type": "text",
           "settings": {
-            "text": "<p>Heliocare 360° is a dermatologist proven sun protection range providing daily protection against UVA, UVB, visible light and infrared-A. With its unique antioxidant technology Fernblock®, Heliocare 360° is clinically proven to protect beyond typical sunscreen, defending the skin from within and repairing damage caused by daylight.</p>"
+            "text": "<p>Heliocare 360° is a dermatologist proven sun protection range providing very high level, full-spectrum daily protection against UVA, UVB, visible light and infrared-A. With its unique antioxidant technology Fernblock®+, Heliocare 360° is clinically proven to protect beyond typical sunscreen, defending the skin from within and repairing damage caused by daylight.</p>"
           }
         }
       },
@@ -94,22 +94,22 @@
         "heading_efPgzd": {
           "type": "heading",
           "settings": {
-            "heading": "Heliocare 360° Sensation - Sunscreen designed for every day",
+            "heading": "For everyone, every day…because sun damage happens all year-round",
             "heading_size": "h1"
           }
         },
         "text_6ktVBh": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Even in autumn and winter, harmful UVA, visible light, and Infrared-A rays are present throughout the day. These rays penetrate deeper into the skin, contributing to premature skin aging, dark spots, and DNA damage. </p><p>With unique formulas tailored for all skin types, special skin care concerns, finish and coverage preferences, as well as a range of oral skin supplements, Heliocare 360° is dermatologically proven to provide the highest protection for your skin all year round, whatever the weather. </p>",
             "text_style": "body"
           }
         },
         "button_Gy8FBp": {
           "type": "button",
           "settings": {
-            "button_label": "View product",
-            "button_link": "",
+            "button_label": "View products",
+            "button_link": "shopify://collections/heliocare",
             "button_style_secondary": true
           }
         }
@@ -120,7 +120,6 @@
         "button_Gy8FBp"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Full_Spectrum_Daily_Sun_Protection_9c940737-70a3-46ef-8d3b-fd5628d790c2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -138,9 +137,9 @@
     "featured_collection_qTTAV4": {
       "type": "featured-collection",
       "settings": {
-        "title": "Title of section for core products",
+        "title": "Ideal for use every day",
         "heading_size": "h2",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sodales eros.</p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "heliocare-hero-products",
@@ -163,44 +162,6 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_j7VAgM": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_Qjfn4L": {
-          "type": "heading",
-          "settings": {
-            "heading": "Full-spectrum daily sun protection and skin supplement range, proven by dermatologists",
-            "heading_size": "h1"
-          }
-        },
-        "text_wnr6Tx": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Nothing protects skin like Heliocare 360°. The dermatologist proven daily sun protection range that provides high level, full-spectrum protection against UVA, UVB, Visible Light and Infrared-A, for everyone, for every day.  </p><p>The Heliocare 360° range contains Fernblock®+, which is a unique and powerful antioxidant that’s incorporated into both its topical sunscreens and skin health supplements.  </p><p>Fernblock®+ is clinically proven to help prevent and repair damage caused by daylight and environmental free radicals including damage to the skin’s DNA and immune system, and premature skin ageing. </p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Qjfn4L",
-        "text_wnr6Tx"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Full_Spectrum_Daily_Sun_Protection.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-2",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
     "multicolumn_3TtWA3": {
       "type": "multicolumn",
       "blocks": {
@@ -208,7 +169,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/High-Level_Broad-Spectrum_Protection.jpg",
-            "title": "High-level, broad-spectrum UV protection",
+            "title": "Very high-level, broad-spectrum UV protection",
             "text": "<p>UVB (SPF50&gt;) and UVA (PA++++).</p>",
             "link_label": "",
             "link": ""
@@ -218,8 +179,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/HEVL_IR-A_Free-Radical_defence.jpg",
-            "title": "HEVL, IR-A and free radical defence",
-            "text": "<p>With patented Fernblock® antioxidant technology.</p>",
+            "title": "Fernblock®+ Antioxidant Technology",
+            "text": "<p>Proven by dermatologists to help enhance protection from UVA, Visible Light, IR-A and free radical and repair DNA damage.</p>",
             "link_label": "",
             "link": ""
           }
@@ -229,7 +190,7 @@
           "settings": {
             "image": "shopify://shop_images/Innovative_Unique_Formulations.jpg",
             "title": "A sunscreen for everyone, for every day",
-            "text": "<p>Unique formulas for different skin types, concerns and finishes.</p>",
+            "text": "<p>With unique formulas tailored for different skin types and special skin care concerns, finish and coverage preferences.</p>",
             "link_label": "",
             "link": ""
           }
@@ -239,7 +200,7 @@
           "settings": {
             "image": "shopify://shop_images/DNA_Repair_Activity.jpg",
             "title": "Holistic skin protection, inside and out",
-            "text": "<p>Topical sunscreens and oral skin supplements.</p>",
+            "text": "<p>With topical sunscreens and oral skin supplements.</p>",
             "link_label": "",
             "link": ""
           }
@@ -255,7 +216,7 @@
         "h3 {color: #000;}"
       ],
       "settings": {
-        "title": "Title goes here",
+        "title": "Why choose Heliocare 360°?",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
@@ -271,58 +232,30 @@
         "padding_bottom": 64
       }
     },
-    "featured_collection_gwfpkN": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Title goes here",
-        "heading_size": "h1",
-        "description": "<p>Text can go here.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "{{ metaobject.linked_collection.value }}",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "scheme-2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "image_with_text_pya9Dp": {
+    "image_with_text_j7VAgM": {
       "type": "image-with-text",
       "blocks": {
-        "heading_6tN9CU": {
+        "heading_Qjfn4L": {
           "type": "heading",
           "settings": {
-            "heading": "Beyond sunscreen",
+            "heading": "Effective ingredients, proven by dermatologists",
             "heading_size": "h1"
           }
         },
-        "text_Q7AU4J": {
+        "text_wnr6Tx": {
           "type": "text",
           "settings": {
-            "text": "<p>The core technology within Heliocare 360° range is Fernblock®, a supercharged antioxidant exclusive to Cantabria Labs. It is the result of years of scientific research and development, backed by over 80 scientific publications. </p><p></p><p>Fernblock® is an extract derived from the tropical fern <em>Polypodium leucotomos</em>. Originally an aquatic plant, <em>P. leucotomos </em>developed a natural defence mechanism against the sun’s rays and evolved to thrive on land. Fernblock® harnesses this power and protects against daylight damage whilst boosting skin health. </p>",
+            "text": "<p>All Heliocare 360° products contain a unique combination of UV filters, ingredients and technologies like no other, protecting the skin from harmful UVA, UVB, Visible light and Infrared-A, as well as oxidative stress, premature skin ageing, hyperpigmentation and indirect DNA damage. </p><p>Fernblock®+ is the exclusive, dermatologically proven, powerful antioxidant that’s incorporated into every Heliocare 360° topical sunscreen and skin health supplement. It is clinically proven to help prevent and repair damage caused by daylight and environmental free radicals, including damage to the skin’s DNA and immune system, and premature skin ageing.  </p><p>Fernblock®+’s efficacy is unsurpassed in photo protection, and is the result of decades of research and development by leading dermatologists. Backed by more than 50 scientific and clinical studies,<strong> </strong> nothing protects your skin like Heliocare 360° with Fernblock®+. </p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_6tN9CU",
-        "text_Q7AU4J"
+        "heading_Qjfn4L",
+        "text_wnr6Tx"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Beyond_Sunscreen.jpg",
+        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Full_Spectrum_Daily_Sun_Protection.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -425,6 +358,81 @@
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "featured_collection_gwfpkN": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Find the right Heliocare product for you",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "{{ metaobject.linked_collection.value }}",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_pya9Dp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6tN9CU": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Introducing NEW Heliocare 360° Sensation​</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_Q7AU4J": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>The ultra-light very high protection sunscreen for everyone, every day.</strong></p><p>Suitable for all skin types and tones. Heliocare 360° Sensation is an ultra-light, oil-free daily sunscreen. In dermatological tests, 100% of users agreed that Heliocare 360° Sensation absorbs quickly, melts into the skin and provides a light sensation with a matte finish to reduce shine – perfect for daily use under makeup*REF, enhancing any daily skincare routine. </p><p>Like every Heliocare 360° product, Heliocare 360° Sensation provides very high SPF50+ & PA++++,  full-spectrum coverage. Infused with Fernblock®+ Antioxidant Technology, it protects skin against damage from UVA, visible light, infrared-A, free radicals and helps repair DNA damage. The additional Ginger Root extract provides enhanced skin calming antioxidant activity.  </p>",
+            "text_style": "body"
+          }
+        },
+        "button_mcMYUp": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "shopify://products/heliocare-360-sensation",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6tN9CU",
+        "text_Q7AU4J",
+        "button_mcMYUp"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Full_Spectrum_Daily_Sun_Protection_9c940737-70a3-46ef-8d3b-fd5628d790c2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -655,11 +663,11 @@
     "rich_text_YYXacY",
     "image_with_text_48BKmX",
     "featured_collection_qTTAV4",
-    "image_with_text_j7VAgM",
     "multicolumn_3TtWA3",
+    "image_with_text_j7VAgM",
+    "multicolumn_html_n7HF8i",
     "featured_collection_gwfpkN",
     "image_with_text_pya9Dp",
-    "multicolumn_html_n7HF8i",
     "rich_text_p3BLWR",
     "cl_slideshow_9QxUaB",
     "collapsible_content_aFz6wc",
