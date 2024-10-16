@@ -83,6 +83,7 @@
         "content_alignment": "center",
         "color_scheme": "scheme-2",
         "full_width": true,
+        "is_heading": true,
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -447,6 +448,7 @@
         "content_alignment": "center",
         "color_scheme": "scheme-2",
         "full_width": true,
+        "is_heading": false,
         "padding_top": 64,
         "padding_bottom": 32
       }
