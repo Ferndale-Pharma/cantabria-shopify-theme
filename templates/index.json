@@ -57,10 +57,34 @@
         "show_text_below": true
       }
     },
+    "rich_text_amGfhA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PgVz3R": {
+          "type": "heading",
+          "settings": {
+            "heading": "Skincare proven by dermatologists",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PgVz3R"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Skincare proven by dermatologists",
+        "title": "",
         "heading_size": "h2",
         "description": "<p>Experience the transformative effects of Cantabria Labs dermatological skincare.</p>",
         "show_description": false,
@@ -121,7 +145,7 @@
       ],
       "settings": {
         "heading": "Ranges and indications",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "column",
         "card_styles": "none",
@@ -205,6 +229,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
+        "is_heading": false,
         "padding_top": 64,
         "padding_bottom": 32
       }
@@ -736,6 +761,7 @@
   },
   "order": [
     "image_banner",
+    "rich_text_amGfhA",
     "featured_collection",
     "cl_collage_diBjWc",
     "multicolumn",
