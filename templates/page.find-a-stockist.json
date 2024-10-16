@@ -43,6 +43,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
+        "is_heading": false,
         "padding_top": 16,
         "padding_bottom": 16
       }
@@ -73,6 +74,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
+        "is_heading": false,
         "padding_top": 16,
         "padding_bottom": 16
       }
@@ -86,7 +88,7 @@
             "image": "shopify://shop_images/lookfantastic_7106d244-6132-4b97-a6c4-4fb91c61394b.png",
             "title": "",
             "text": "",
-            "link_label": "Look Fantastic",
+            "link_label": "LOOK FANTASTIC",
             "link": "https://www.lookfantastic.com/brands/heliocare.list/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_lfref_2024&utm_content=CL-URL-0003"
           }
         },
@@ -96,7 +98,7 @@
             "image": "shopify://shop_images/beautybay.png",
             "title": "",
             "text": "",
-            "link_label": "Beauty Bay",
+            "link_label": "BEAUTY BAY",
             "link": "https://www.beautybay.com/l/heliocare/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_bbref_2024&utm_content=CL-URL-0004"
           }
         },
@@ -106,7 +108,7 @@
             "image": "shopify://shop_images/justmylook_9f41bdda-51ac-4f56-9e7e-063ef9b89eaf.png",
             "title": "",
             "text": "",
-            "link_label": "Just My Look",
+            "link_label": "JUST MY LOOK",
             "link": "https://www.justmylook.com/heliocare-m330/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_jmlref_2024&utm_content=CL-URL-0001"
           }
         },
@@ -116,7 +118,7 @@
             "image": "shopify://shop_images/facethefuture.png",
             "title": "",
             "text": "",
-            "link_label": "Face the Future",
+            "link_label": "FACE THE FUTURE",
             "link": "https://www.facethefuture.co.uk/collections/heliocare/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_ftfref_2024&utm_content=CL-URL-0002"
           }
         }
@@ -163,6 +165,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
+        "is_heading": false,
         "padding_top": 16,
         "padding_bottom": 16
       }
@@ -214,6 +217,7 @@
         "content_alignment": "center",
         "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
         "full_width": true,
+        "is_heading": false,
         "padding_top": 40,
         "padding_bottom": 52
       }
