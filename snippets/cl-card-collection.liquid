@@ -20,7 +20,7 @@
   elsif card_collection.featured_image and media_aspect_ratio == 'adapt'
     assign ratio = card_collection.featured_image.aspect_ratio
   elsif media_aspect_ratio == 'landscape'
-    assign ratio = 1.54
+    assign ratio = 1.5
   endif
   if ratio == 0 or ratio == null
     assign ratio = 1
@@ -36,6 +36,7 @@
 <div class="card-wrapper animate-arrow {% if wrapper_class and wrapper_class != 'none' %}{{ wrapper_class }}{% else %}collection-card-wrapper{% endif %}">
   <div
     class="
+      cl-card--collection
       card
       card--{{ card_style }}
       {% if card_collection.featured_image %} card--media{% else %} card--text{% endif %}
@@ -46,7 +47,7 @@
     style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
   >
     <div
-      class="card__inner {% if card_style == 'standard' %}color-{{ card_color_scheme }} gradient{% endif %}{% if card_collection.featured_image or card_style == 'standard' %} ratio{% endif %}"
+      class="cl-card__inner card__inner {% if card_style == 'standard' %}color-{{ card_color_scheme }} gradient{% endif %}{% if card_collection.featured_image or card_style == 'standard' %} ratio{% endif %}"
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
 
@@ -75,7 +76,7 @@
               width="{{ card_collection.featured_image.width }}"
               loading="lazy"
               class="motion-reduce"
-              {% if ratio == 1.54 %} style="object-position:50% 100%;" {% endif %}
+              {% if ratio == 1.5 %} style="object-position:50% 100%;" {% endif %}
             >
           </div>
         </div>

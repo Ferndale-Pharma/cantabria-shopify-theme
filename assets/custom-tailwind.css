@@ -399,7 +399,6 @@ ul.collection-list .card__content {
 /** blogs & pages **/
 .rte,
 .shopify-policy__container {
-  @apply twcss-text-black !important;
   h1,
   h2,
   h3,
@@ -418,8 +417,13 @@ ul.collection-list .card__content {
     @apply twcss-font-bold;
   }
 
-  p {
+  p,
+  li {
     @apply twcss-mb-4;
+  }
+  ul,
+  ol {
+    @apply twcss-text-black;
   }
 
   blockquote,
@@ -436,6 +440,10 @@ ul.collection-list .card__content {
 
 .article-template__back {
   @apply twcss-hidden;
+}
+
+.cl-article-card .media {
+  @apply twcss-bg-transparent !important;
 }
 
 .shopify-policy__container {
@@ -572,4 +580,32 @@ span.cl-swatch {
 
 .cl-collage .card__information {
   @apply twcss-pb-0 !important;
+}
+
+/** Forms **/
+.field__input:focus {
+  @apply twcss-py-0 !important;
+}
+.newsletter__right button:after {
+  @apply twcss-shadow-none !important;
+}
+
+/** Powerful contact form builder **/
+.globo-form-control input,
+.globo-form-control textarea,
+.globo-form-control select {
+  @apply twcss-bg-transparent twcss-border-2 twcss-border-black twcss-border-solid !important;
+}
+.globo-form-control input,
+.globo-form-control select {
+  @apply twcss-h-[50px];
+}
+
+.globo-form-control .label-content,
+.globo-form-control .checkbox-wrapper .checkbox-label {
+  @apply twcss-font-bold !important;
+}
+
+.globo-form-control label {
+  @apply twcss-text-2xl !important;
 }

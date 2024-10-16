@@ -21,7 +21,7 @@
 <div class="color-{{ section.settings.color_scheme }} gradient isolate">
   <div class="cl-collage-page-width section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
-      <h2 class="cl-collage-wrapper-title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <h2 class="cl-collage-wrapper-title inline-richtext twcss-text-center {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {{ section.settings.heading }}
       </h2>
     {%- endif -%}

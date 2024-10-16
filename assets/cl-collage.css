@@ -210,3 +210,11 @@
   outline: none;
   box-shadow: none;
 }
+
+/** Custom styling for collection cards **/
+@media (max-width: 750px) {
+  .cl-card--collection.ratio:before,
+  .cl-card__inner.ratio:before {
+    padding-bottom: 100%;
+  }
+}
