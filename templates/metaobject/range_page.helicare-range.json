@@ -437,6 +437,69 @@
         "padding_bottom": 64
       }
     },
+    "multicolumn_zjQz6Y": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_eHycbX": {
+          "type": "column",
+          "settings": {
+            "title": "Heliocare 360° Sensation Sunscreen",
+            "text": "<p>Very high-level ultra-light protection for all skin types.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tMz6zF": {
+          "type": "column",
+          "settings": {
+            "title": "Heliocare 360° Tinted Sunscreens",
+            "text": "<p>Very high-level protection with skin perfecting coverage.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HTfgMi": {
+          "type": "column",
+          "settings": {
+            "title": "Heliocare 360° Special Care Sunscreens",
+            "text": "<p>Very high-level protection for specific skin concerns.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PCbzKa": {
+          "type": "column",
+          "settings": {
+            "title": "Heliocare 360° Oral Skin Supplements",
+            "text": "<p>Enhance topical protection and support skin health from within.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_eHycbX",
+        "column_tMz6zF",
+        "column_HTfgMi",
+        "column_PCbzKa"
+      ],
+      "settings": {
+        "title": "Personalised facial sun protection for everyone, for every day",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "View products",
+        "button_link": "shopify://collections/heliocare",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "rich_text_p3BLWR": {
       "type": "rich-text",
       "blocks": {
@@ -668,6 +731,7 @@
     "multicolumn_html_n7HF8i",
     "featured_collection_gwfpkN",
     "image_with_text_pya9Dp",
+    "multicolumn_zjQz6Y",
     "rich_text_p3BLWR",
     "cl_slideshow_9QxUaB",
     "collapsible_content_aFz6wc",
