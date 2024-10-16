@@ -228,6 +228,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
+        "is_heading": false,
         "padding_top": 64,
         "padding_bottom": 32
       }
@@ -292,7 +293,7 @@
       "settings": {
         "title": "Our acne products",
         "heading_size": "h2",
-        "description": "<p>Text goes here</p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "{{ metaobject.concern_products.value }}",
