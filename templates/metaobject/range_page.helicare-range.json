@@ -691,6 +691,95 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "multicolumn_VxRL3F": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_XKp4W6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/tatler_22b63812-3b52-4b1b-b1dc-8ef1d9aba79d.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_67Ve9x": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/harpersbazaar.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nwfnWD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/telegraph.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nNpKHB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sundaytimesstyle.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GAjnK7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/getthegloss.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9LbDbp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/marieclaire.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_XKp4W6",
+        "column_67Ve9x",
+        "column_nwfnWD",
+        "column_nNpKHB",
+        "column_GAjnK7",
+        "column_9LbDbp"
+      ],
+      "settings": {
+        "title": "As seen in",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "collapsible_content_aFz6wc": {
       "type": "collapsible-content",
       "blocks": {
@@ -770,6 +859,7 @@
     "multicolumn_zjQz6Y",
     "rich_text_p3BLWR",
     "cl_slideshow_9QxUaB",
+    "multicolumn_VxRL3F",
     "collapsible_content_aFz6wc",
     "newsletter_nVyUck"
   ]
