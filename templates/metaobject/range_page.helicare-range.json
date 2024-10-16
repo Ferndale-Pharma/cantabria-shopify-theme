@@ -533,7 +533,25 @@
             "image": "shopify://shop_images/FERNBLOCK_1.jpg",
             "heading": "Fernblock®",
             "heading_size": "h1",
-            "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer.",
+            "subheading": "Fernblock is a natural plant extract derived from the tropical fern Polypodium Leucotomas which provides strong antioxidant activity, helping to prevent and repair skin damage caused by solar radiation (UVA, UVB, Visible Light and Infrared A). It helps prevent sunburn and inflammation, reduces redness, improves skin elasticity, and supports overall skin health. ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_fBRAbm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/UV_FILTERS.jpg",
+            "heading": "UV Filters",
+            "heading_size": "h1",
+            "subheading": "A unique combination of advanced UV filters protect the skin from UVA and UVB radiation, preventing sunburn and long-term skin damage. Including: Tinosorb S | Bemotrizinol | Octisalate | Diethylamino Hydroxybenzoyl Hexyl Benzoate | Diethylhexyl Butamido Triazone  | Octocrylene.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -599,13 +617,12 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_tK7eCG": {
+        "slide_kGVXGX": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/DNA_REPAIR_ENZYMES.jpg",
-            "heading": "DNA Repair Enzymes",
+            "heading": "Citric Acid",
             "heading_size": "h1",
-            "subheading": "Roxisomes repair the nucleus and mitochondria of DNA, resolving and preventing deep DNA damage.",
+            "subheading": "Citric Acid is an alpha hydroxy acid (AHA) that exfoliates the skin, promoting cell turnover and a brighter complexion. It helps even skin tone, smooths texture, and reduces the appearance of fine lines.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -617,13 +634,12 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_fBRAbm": {
+        "slide_GrxUb8": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/UV_FILTERS.jpg",
-            "heading": "UV Filters",
+            "heading": "Ginger Root Extract",
             "heading_size": "h1",
-            "subheading": "UV filters protect the skin from UVA and UVB radiation, preventing sunburn and long-term skin damage.",
+            "subheading": "Ginger Root Extract is a natural antioxidant that helps soothe and protect the skin from environmental damage, while also improving skin tone and radiance.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -634,15 +650,35 @@
             "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_XyHrUm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/NIACINAMIDE.jpg",
+            "heading": "Niacinamide",
+            "heading_size": "h1",
+            "subheading": "Niacinamide, also known as Vitamin B3, is a versatile skincare ingredient that improves skin elasticity, enhances barrier function, evens skin tone, and reduces inflammation.",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_FcdjDV",
+        "slide_fBRAbm",
         "slide_rCUptt",
         "slide_EK3KiX",
         "slide_XYMwYW",
-        "slide_tK7eCG",
-        "slide_fBRAbm"
+        "slide_kGVXGX",
+        "slide_GrxUb8",
+        "slide_XyHrUm"
       ],
       "settings": {
         "layout": "full_bleed",
