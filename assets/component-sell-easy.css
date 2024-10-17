@@ -238,7 +238,7 @@ lb-product-page-cross-sell-ew .lb-spc-details-variants {
 	font-weight: 600;
 }
 
-.lb-spc-details-name {
+lb-upsell-product-page-addon .lb-upsell-ppa-card-cont .lb-spc-details-name {
 	font-weight: 600;
     color: #165c7d;
 }
