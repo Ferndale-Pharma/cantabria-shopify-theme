@@ -98,7 +98,7 @@
                 class="full-unstyled-link"
               >
                 {%- if collection.metafields.custom.collage_title != blank -%}
-                  {{- collection.metafields.custom.collage_title | escape -}}
+                  {{- collection.metafields.custom.collage_title.value | escape -}}
                 {%- elsif card_collection.title != blank -%}
                   {{- card_collection.title | escape -}}
                 {%- else -%}
