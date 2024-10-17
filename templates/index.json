@@ -462,7 +462,7 @@
       ],
       "settings": {
         "title": "Innovation and scientific excellence",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -565,7 +565,7 @@
       ],
       "settings": {
         "title": "Our ambassadors",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -573,7 +573,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
