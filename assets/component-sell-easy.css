@@ -1,3 +1,4 @@
+/* Frequently bought together widget */
 lb-product-page-cross-sell-ew .ppcse-card-lt-cont {
   display: flex;
   flex-wrap: wrap;
@@ -227,4 +228,30 @@ lb-product-page-cross-sell-ew .lb-spc-details-variants {
   lb-product-page-cross-sell-ew .lb-spc-details-price-cont {
   	order: 1;
   }
+}
+
+/* Product add-ons widget - for bundles */
+.lb-upsell-ppa-title {
+	display: none;
+}
+.lb-upsell-ppa-offer-desc {
+	color: #000;
+	font-weight: 600;
+}
+.lb-upsell-ppa-title-cont small, 
+.lb-upsell-money-2,
+ {
+	color: #000;
+}
+.lb-spc-details-name {
+	font-weight: 600;
+}
+.selleasy-block-product-addon {
+	display: flex;
+}
+@media only screen and (max-width: 1023px) {
+	.selleasy-block-product-addon {
+		justify-content: center;
+		text-align: center;
+	}
 }
