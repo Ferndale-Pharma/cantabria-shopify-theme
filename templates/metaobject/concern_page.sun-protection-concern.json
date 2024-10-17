@@ -351,34 +351,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "featured_collection_JrJFGn": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Daily protection",
-        "heading_size": "h1",
-        "description": "<p>Sun protection is the most important step in your daily skincare routine, because no matter the weather, sunlight radiation is present and harmful all year round. The best way to protect the skin from sun damage and photoageing is to apply a high-level, broad-spectrum SPF, every single day. </p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "{{ metaobject.concern_products.value }}",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "standard",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
     "cl_featured_collection_caYFjf": {
       "type": "cl-featured-collection",
       "settings": {
@@ -618,7 +590,6 @@
     "rich_text_4w8fEB",
     "rich_text_3BCLrR",
     "cl_slideshow_YVb49y",
-    "featured_collection_JrJFGn",
     "cl_featured_collection_caYFjf",
     "rich_text_H7wnr3",
     "multicolumn_GgiLEY",
