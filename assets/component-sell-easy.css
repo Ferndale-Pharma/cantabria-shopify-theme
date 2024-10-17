@@ -238,8 +238,8 @@ lb-product-page-cross-sell-ew .lb-spc-details-variants {
 	color: #000;
 	font-weight: 600;
 }
-lb-product-page-cross-sell-ew .lb-upsell-ppa-title-cont small, 
-lb-product-page-cross-sell-ew .lb-spc-details-sale-price,
+lb-upsell-product-page-addon .lb-upsell-ppa-title-cont small, 
+lb-upsell-product-page-addon .lb-spc-details-sale-price,
  {
 	color: #000;
 }
