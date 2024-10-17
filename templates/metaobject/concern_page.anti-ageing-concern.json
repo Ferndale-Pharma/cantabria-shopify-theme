@@ -311,34 +311,6 @@
         "accessibility_info": "Slideshow about our technologies"
       }
     },
-    "featured_collection_JrJFGn": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Our anti-ageing products",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "{{ metaobject.concern_products.value }}",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "standard",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
     "cl_featured_collection_QGTmJM": {
       "type": "cl-featured-collection",
       "settings": {
@@ -360,7 +332,7 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
+        "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 64,
@@ -522,7 +494,6 @@
     "image_with_text_XrWyXj",
     "rich_text_Awch9g",
     "cl_slideshow_NtcqfV",
-    "featured_collection_JrJFGn",
     "cl_featured_collection_QGTmJM",
     "multicolumn_GgiLEY",
     "multicolumn_VDCjYH",
