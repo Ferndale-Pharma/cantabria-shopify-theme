@@ -147,7 +147,7 @@
         {%- endfor -%}
       </ul>
       {%- if show_mobile_slider or show_desktop_slider -%}
-        <div class="slider-buttons">
+        <div class="slider-buttons twcss-p-0">
           <button
             type="button"
             class="slider-button slider-button--prev"
@@ -157,12 +157,6 @@
           >
             {% render 'icon-caret' %}
           </button>
-          <div class="slider-counter caption">
-            <span class="slider-counter--current">1</span>
-            <span aria-hidden="true"> / </span>
-            <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
-            <span class="slider-counter--total">{{ products_to_display }}</span>
-          </div>
           <button
             type="button"
             class="slider-button slider-button--next"

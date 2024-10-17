@@ -28,7 +28,7 @@ ol {
 }
 
 .link.animate-arrow {
-  @apply twcss-flex twcss-items-center twcss-justify-center;
+  @apply twcss-flex twcss-items-center;
 }
 
 .rich-text__text {
@@ -77,6 +77,10 @@ li.menu-link__without-image {
 /** multi column **/
 .multicolumn-card.content-container {
   @apply twcss-h-full twcss-flex twcss-flex-col;
+}
+
+.multicolumn-card__info {
+  @apply twcss-px-0 !important;
 }
 
 .multicolumn-card.content-container .multicolumn-card__info {
@@ -586,6 +590,9 @@ span.cl-swatch {
 }
 .newsletter__right button:after {
   @apply twcss-shadow-none !important;
+}
+.contact__button {
+  @apply twcss-flex twcss-justify-center;
 }
 
 /** Powerful contact form builder **/
