@@ -138,7 +138,7 @@
           </h3>
           {%- if card_collection.metafields.custom.collage_title != blank -%}
             <p class="card__caption">
-              {{- card_collection.metafields.custom.collage_title.value -}}
+              {{- card_collection.metafields.custom.collage_title.value | escape |  truncatewords: 12 -}}
             </p>
           {%- endif -%}
         </div>
