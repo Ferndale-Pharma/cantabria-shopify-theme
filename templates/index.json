@@ -151,7 +151,7 @@
         "mobile_layout": "column",
         "card_styles": "none",
         "color_scheme": "scheme-1",
-        "padding_top": 64,
+        "padding_top": 32,
         "padding_bottom": 64
       }
     },
