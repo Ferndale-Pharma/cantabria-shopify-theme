@@ -278,7 +278,7 @@
         "slide_QjVyT8"
       ],
       "settings": {
-        "layout": "grid",
+        "layout": "full_bleed",
         "slide_height": "medium",
         "slider_visual": "none",
         "auto_rotate": false,
