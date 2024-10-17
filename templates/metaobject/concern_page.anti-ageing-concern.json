@@ -311,8 +311,8 @@
         "accessibility_info": "Slideshow about our technologies"
       }
     },
-    "featured_collection_JrJFGn": {
-      "type": "featured-collection",
+    "cl_featured_collection_QGTmJM": {
+      "type": "cl-featured-collection",
       "settings": {
         "title": "Our anti-ageing products",
         "heading_size": "h1",
@@ -333,7 +333,7 @@
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "standard",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 64,
         "padding_bottom": 64
@@ -494,7 +494,7 @@
     "image_with_text_XrWyXj",
     "rich_text_Awch9g",
     "cl_slideshow_NtcqfV",
-    "featured_collection_JrJFGn",
+    "cl_featured_collection_QGTmJM",
     "multicolumn_GgiLEY",
     "multicolumn_VDCjYH",
     "newsletter_8ptbGw"
