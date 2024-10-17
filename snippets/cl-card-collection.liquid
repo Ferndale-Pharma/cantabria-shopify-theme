@@ -97,9 +97,7 @@
                 {% endif %}
                 class="full-unstyled-link"
               >
-                {%- if collection.metafields.custom.collage_title != blank -%}
-                  {{- collection.metafields.custom.collage_title.value -}}
-                {%- elsif card_collection.title != blank -%}
+                {%- if card_collection.title != blank -%}
                   {{- card_collection.title | escape -}}
                 {%- else -%}
                   {{ 'onboarding.collection_title' | t }}
@@ -138,9 +136,9 @@
               {%- endif -%}
             </a>
           </h3>
-          {%- if card_collection.title != blank -%}
+          {%- if collection.metafields.custom.collage_title != blank -%}
             <p class="card__caption">
-              {{- card_collection.title | strip_html | truncatewords: 12 -}}
+              {{- collection.metafields.custom.collage_title.value -}}
             </p>
           {%- endif -%}
         </div>
