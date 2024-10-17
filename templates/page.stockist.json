@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -34,6 +34,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
+        "is_heading": false,
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -97,6 +98,13 @@
     "rich_text_TbJcMY": {
       "type": "rich-text",
       "blocks": {
+        "heading_GFdcgT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Apply now",
+            "heading_size": "h1"
+          }
+        },
         "text_UUaaJH": {
           "type": "text",
           "settings": {
@@ -105,6 +113,7 @@
         }
       },
       "block_order": [
+        "heading_GFdcgT",
         "text_UUaaJH"
       ],
       "settings": {
@@ -112,6 +121,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
+        "is_heading": false,
         "padding_top": 64,
         "padding_bottom": 64
       }
