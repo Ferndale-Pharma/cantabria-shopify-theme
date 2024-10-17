@@ -289,30 +289,30 @@
         "accessibility_info": "Slideshow about our technologies"
       }
     },
-    "featured_collection_3XdCid": {
-      "type": "featured-collection",
+    "cl_featured_collection_bPWHQJ": {
+      "type": "cl-featured-collection",
       "settings": {
         "title": "Our acne products",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "{{ metaobject.concern_products.value }}",
-        "products_to_show": 8,
+        "collection": "spot-acne-prone-skin",
+        "products_to_show": 16,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "color_scheme": "",
-        "image_ratio": "portrait",
+        "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "standard",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -472,7 +472,7 @@
     "image_with_text_pygC74",
     "rich_text_hRGxBU",
     "cl_slideshow_NJ8dcF",
-    "featured_collection_3XdCid",
+    "cl_featured_collection_bPWHQJ",
     "multicolumn_GgiLEY",
     "multicolumn_VDCjYH",
     "newsletter_hhQfYj"
