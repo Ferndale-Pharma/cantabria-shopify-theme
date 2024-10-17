@@ -235,14 +235,10 @@ lb-product-page-cross-sell-ew .lb-spc-details-variants {
 	display: none;
 }
 .lb-upsell-ppa-offer-desc {
-	color: #000;
+	
 	font-weight: 600;
 }
-lb-upsell-product-page-addon .lb-upsell-ppa-title-cont small, 
-lb-upsell-product-page-addon .lb-spc-details-sale-price,
- {
-	color: #000;
-}
+
 .lb-spc-details-name {
 	font-weight: 600;
 }
