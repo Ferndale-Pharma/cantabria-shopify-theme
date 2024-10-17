@@ -136,9 +136,9 @@
               {%- endif -%}
             </a>
           </h3>
-          {%- if card_collection.title != blank -%}
+          {%- if card_collection.metafields.custom.collage_title != blank -%}
             <p class="card__caption">
-              {{- card_collection.title | strip_html | truncatewords: 12 -}}
+              {{- card_collection.metafields.custom.collage_title.value -}}
             </p>
           {%- endif -%}
         </div>
