@@ -540,7 +540,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/FERNBLOCK_1.jpg",
-            "heading": "Fernblock®",
+            "heading": "Fernblock® Technology",
             "heading_size": "h1",
             "subheading": "Fernblock is a natural plant extract derived from the tropical fern Polypodium Leucotomas which provides strong antioxidant activity, helping to prevent and repair skin damage caused by solar radiation (UVA, UVB, Visible Light and Infrared A). It helps prevent sunburn and inflammation, reduces redness, improves skin elasticity, and supports overall skin health. ",
             "button_label": "",
@@ -667,7 +667,7 @@
             "heading": "Niacinamide",
             "heading_size": "h1",
             "subheading": "Niacinamide, also known as Vitamin B3, is a versatile skincare ingredient that improves skin elasticity, enhances barrier function, evens skin tone, and reduces inflammation.",
-            "button_label": "Button label",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
