@@ -195,6 +195,7 @@
         "column_BArJLk": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/NEORETIN_-_PIGMENT_CONTROL_7937bb21-e7c5-49a8-974e-50f6bc609a72.png",
             "title": "Advanced retinol & pigment control technologies ",
             "text": "<p>Powerful depigmenting active ingredients for the effective reduction and prevention of dark spots and hyperpigmentation.</p>",
             "link_label": "",
@@ -204,6 +205,7 @@
         "column_TJUL9K": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/NEORETIN_-_INNOVATIVE_FORMULATIONS.png",
             "title": "Innovative formulations for maximum results",
             "text": "<p>Formulations that are designed to act at every stage of the melanin production cycle, for the very best defence against hyperpigmentation</p>",
             "link_label": "",
@@ -213,6 +215,7 @@
         "column_8akYFr": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/NEORETIN_-_SKIN_TOLERABILITY.png",
             "title": "Proven clinical efficacy & excellent skin tolerability",
             "text": "<p>High efficacy and excellent tolerability demonstrated in numerous clinical trials.</p>",
             "link_label": "",
@@ -226,10 +229,10 @@
         "column_8akYFr"
       ],
       "settings": {
-        "title": "Heading",
+        "title": "Why choose Neoretin?",
         "heading_size": "h2",
         "image_width": "third",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
@@ -419,13 +422,13 @@
     "cl_featured_collection_PFMcJn": {
       "type": "cl-featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Find the right Neoretin products for your skin",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "neoretin",
-        "products_to_show": 4,
+        "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
