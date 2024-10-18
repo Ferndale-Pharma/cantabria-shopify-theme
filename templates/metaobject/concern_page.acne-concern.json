@@ -44,7 +44,7 @@
         "buttons_WXCGq3"
       ],
       "settings": {
-        "image": "shopify://shop_images/ACNE_-_INDICATION_S-_BANNER.jpg",
+        "image": "shopify://shop_images/CL-WEB_-_Banner_-_Acne.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -122,7 +122,7 @@
         "column_cyFqfy": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ACNE_-_SIDE_PROFILE.jpg",
+            "image": "shopify://shop_images/CL-WEB_-_Banner_-_Acne_-_2.jpg",
             "title": "What causes acne?",
             "text": "<p>Acne is caused by overactive oil glands producing too much sebum. This excess oil mixes with dead skin cells, clogging the pores. Here, bacteria thrive, which leads to infection and inflammation. If the clogged pore is close to the surface of the skin, it bulges out as a whitehead. If the skin over the spot opens, oxidisation turns it into a blackhead. Deeper congestion will manifest as a painful cyst. </p>",
             "link_label": "",
@@ -132,7 +132,7 @@
         "column_Ry3qYb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ACNE_-_WHO_IS_AFFECTED.jpg",
+            "image": "shopify://shop_images/CL-WEB_-_Banner_-_Acne_-_1.jpg",
             "title": "Who is affected?",
             "text": "<p>Acne is most common amongst teenagers and young adults, but it can affect people of all ages. Symptoms range from mild to severe. Hormones play a big role in the development of acne, which is why puberty and pregnancy are often triggers. External factors, such as diet, medications, pollution and skincare, may aggravate symptoms. A family history of acne will also increase the likelihood of developing acne.</p>",
             "link_label": "",
@@ -142,7 +142,7 @@
         "column_cCYqMz": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ACNE_TREATMENT.jpg",
+            "image": "shopify://shop_images/CL-WEB_-_Banner_-_Acne_-_3.jpg",
             "title": "How to manage acne",
             "text": "<p>Acne can be difficult to treat. A combination of targeted skincare, professional treatments and lifestyle changes can help to manage its symptoms. Skincare recommendations include regular gentle cleansing, applying a lightweight moisturiser, wearing SPF every day and incorporating oil-controlling ingredients such as retinoids, niacinamide and zinc, as well as antioxidants to boost skin health.</p>",
             "link_label": "",
