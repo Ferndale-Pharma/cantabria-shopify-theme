@@ -65,7 +65,7 @@
           "type": "heading",
           "settings": {
             "heading": "Target the signs and symptoms of skin ageing",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_T9yqhc": {
@@ -96,7 +96,7 @@
           "type": "heading",
           "settings": {
             "heading": "Endocare winter skin renewal",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_AYNmBR": {
@@ -151,16 +151,16 @@
         "padding_bottom": 64
       }
     },
-    "featured_collection_r67adn": {
-      "type": "featured-collection",
+    "cl_featured_collection_K3bAHf": {
+      "type": "cl-featured-collection",
       "settings": {
         "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "<p>Text goes here</p>",
+        "heading_size": "h2",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "endocare-hero-products",
-        "products_to_show": 4,
+        "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -172,7 +172,7 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
+        "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 64,
@@ -186,7 +186,7 @@
           "type": "heading",
           "settings": {
             "heading": "Innovative anti-ageing skincare, proven by dermatologists",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_jTnNqL": {
@@ -258,7 +258,7 @@
       ],
       "settings": {
         "title": "Multicolumn",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -280,7 +280,7 @@
           "type": "heading",
           "settings": {
             "heading": "Technologies & ingredients",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         }
       },
@@ -428,15 +428,15 @@
         "accessibility_info": "Slideshow about our technologies"
       }
     },
-    "featured_collection_qTTAV4": {
-      "type": "featured-collection",
+    "cl_featured_collection_bMdr3z": {
+      "type": "cl-featured-collection",
       "settings": {
-        "title": "<strong>Featured collection</strong>",
+        "title": "Featured collection",
         "heading_size": "h2",
-        "description": "<p>Text goes here</p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "{{ metaobject.linked_collection.value }}",
+        "collection": "endocare",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
@@ -449,11 +449,11 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
+        "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 32,
-        "padding_bottom": 32
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "newsletter_AwFCKb": {
@@ -496,12 +496,12 @@
     "rich_text_w9pUnz",
     "image_with_text_bTLWD6",
     "video_pxURAj",
-    "featured_collection_r67adn",
+    "cl_featured_collection_K3bAHf",
     "image_with_text_NyW83E",
     "multicolumn_tidgVq",
     "rich_text_jBDxCK",
     "cl_slideshow_gDX4yN",
-    "featured_collection_qTTAV4",
+    "cl_featured_collection_bMdr3z",
     "newsletter_AwFCKb"
   ]
 }
