@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -34,6 +34,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
+        "is_heading": false,
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -45,7 +46,7 @@
           "type": "heading",
           "settings": {
             "heading": "Sustainability in manufacturing",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_n3Ntt6": {
@@ -161,7 +162,7 @@
           "type": "heading",
           "settings": {
             "heading": "Sustainability in skincare packaging",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_A3DMjp": {
@@ -199,7 +200,7 @@
           "type": "heading",
           "settings": {
             "heading": "Social responsibility initiatives",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_f69tm7": {
@@ -218,6 +219,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
+        "is_heading": false,
         "padding_top": 64,
         "padding_bottom": 32
       }
