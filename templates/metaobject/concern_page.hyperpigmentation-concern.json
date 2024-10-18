@@ -44,7 +44,7 @@
         "buttons_WXCGq3"
       ],
       "settings": {
-        "image": "shopify://shop_images/HYPERPIGMENTATION_BANNER_-_2.jpg",
+        "image": "shopify://shop_images/CL-WEB_-_Banner_-_Hyperpigmentation_4d663e13-3a3f-42b8-bfec-be071fd63e06.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -101,7 +101,7 @@
         "button_VgCw8W"
       ],
       "settings": {
-        "image": "shopify://shop_images/AdobeStock_513036292.jpg",
+        "image": "shopify://shop_images/CL-WEB_-_Banner_-_Hyperpigmentation_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -122,7 +122,7 @@
         "column_Ry3qYb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/AdobeStock_561013549.jpg",
+            "image": "shopify://shop_images/CL-WEB_-_Banner_-_Hyperpigmentation_-_2.jpg",
             "title": "Who is affected?",
             "text": "<p>Hyperpigmentation affects people of all ages, ethnicities and skin types. Skin pigmentation and melanin synthesis differ from person to person, mostly dictated by genetics and hormones. But there are factors that make people more prone to developing the condition, including having a darker skin tone, spending a lot of time in the sun and inflammatory skin conditions.</p>",
             "link_label": "",
@@ -132,7 +132,7 @@
         "column_cyFqfy": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/WHAT_CAUSES_HYPERPIGMENTATION.jpg",
+            "image": "shopify://shop_images/CL-WEB_-_Banner_-_Hyperpigmentation_-_3.jpg",
             "title": "What causes hyperpigmentation?",
             "text": "<p>Hyperpigmentation occurs when there’s an overproduction or irregular distribution of melanin in the skin, leading to dark patches. Triggers for increased melanin production include UV radiation, skin trauma, inflammation, hormonal changes, medications and certain medical conditions.</p>",
             "link_label": "",
@@ -142,7 +142,7 @@
         "column_cCYqMz": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/LASER_TREATMENT_-_HYPERPIGMENTATION.jpg",
+            "image": "shopify://shop_images/CL-WEB_-_Banner_-_Hyperpigmentation_-_4.jpg",
             "title": "How to treat hyperpigmentation",
             "text": "<p>Look for depigmenting agents in skincare, including retinoids, niacinamide and ascorbic acid, along with azelaic acid, kojic acid and hydroquinone, which inhibit melanin production. Chemical peels and laser therapy will target stubborn areas of pigmentation at a deeper level. The most effective form of treatment, however, is prevention, and so a high-level, broad-spectrum SPF should be applied every day.</p>",
             "link_label": "",
@@ -195,7 +195,7 @@
         "text_6mVWqQ"
       ],
       "settings": {
-        "image": "shopify://shop_images/MELANIN_IMAGE_-_3.jpg",
+        "image": "shopify://shop_images/CL-WEB_-_Banner_-_Hyperpigmentation_5.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

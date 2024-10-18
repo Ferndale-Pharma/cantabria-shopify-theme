@@ -47,7 +47,7 @@
 
       ],
       "settings": {
-        "image": "shopify://shop_images/ANTI_AGING_-_INDICATIONS_-_BANNER.jpg",
+        "image": "shopify://shop_images/CL-WEB_-_Banner_-_Anti_Ageing.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -104,7 +104,7 @@
         "button_VgCw8W"
       ],
       "settings": {
-        "image": "shopify://shop_images/AdobeStock_423948460.jpg",
+        "image": "shopify://shop_images/CL-WEB_-_Banner_-_Anti_Ageing_-_4.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -125,7 +125,7 @@
         "column_Ry3qYb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ANTIAGING_-_MODEL_SMILING.jpg",
+            "image": "shopify://shop_images/CL-WEB_-_Banner_-_Anti_Ageing_-_1.jpg",
             "title": "Who is affected?",
             "text": "<p>Skin ageing affects everyone at some point, but certain factors will make you more susceptible to premature and severe skin ageing. Some skin types will show signs of ageing sooner. People who spend a lot of time in the sun without adequate protection are more prone to skin ageing. Hormonal fluctuations and menopause can also affect the structure of the skin and hydration levels. Stress, poor diet, alcohol and smoking will speed up the skin ageing process, too.</p>",
             "link_label": "",
@@ -135,7 +135,7 @@
         "column_cyFqfy": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/AdobeStock_123434717.jpg",
+            "image": "shopify://shop_images/CL-WEB_-_Banner_-_Anti_Ageing_-_2.jpg",
             "title": "What causes skin ageing?",
             "text": "<p>As we age, our skin functions gradually slow. Skin cell renewal declines and fibroblast activity reduces, which leads to decline in collagen, elastin and hyaluronic acid production. The natural ageing process is influenced by genetics and hormonal changes, but it is also accelerated by environmental challenges and lifestyle choices, including UV radiation, pollution, smoking and poor diet. </p>",
             "link_label": "",
@@ -145,7 +145,7 @@
         "column_cCYqMz": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ANTIAGING_-_PREVENTION.jpg",
+            "image": "shopify://shop_images/CL-WEB_-_Banner_-_Anti_Ageing_-_3.jpg",
             "title": "How can we prevent skin ageing?",
             "text": "<p>The natural skin ageing process cannot be prevented, but there are measures you can take to slow down the signs and promote a healthy and youthful complexion for longer. These include using a high-level, broad-spectrum SPF every day, avoiding sun beds, incorporating retinoids and antioxidants into your skincare routine, moisturising regularly, drinking enough water, avoiding smoking, eating a healthy diet, limiting alcohol, getting enough sleep and managing stress levels.</p>",
             "link_label": "",
@@ -198,7 +198,7 @@
         "text_jacpe4"
       ],
       "settings": {
-        "image": "shopify://shop_images/AdobeStock_621996535.jpg",
+        "image": "shopify://shop_images/CL-WEB_-_Banner_-_Anti_Ageing_-_5.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
