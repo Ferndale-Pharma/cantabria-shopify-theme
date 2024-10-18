@@ -430,20 +430,14 @@
         "heading_FWKALX": {
           "type": "heading",
           "settings": {
-            "heading": "CTA Heading",
+            "heading": "Find the right Cantabria Labs products for your skin",
             "heading_size": "h1"
-          }
-        },
-        "text_HUfWkT": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
         "button_GrkLpm": {
           "type": "button",
           "settings": {
-            "button_label": "View All Products",
+            "button_label": "View all products",
             "button_link": "shopify://collections/all-products",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -454,7 +448,6 @@
       },
       "block_order": [
         "heading_FWKALX",
-        "text_HUfWkT",
         "button_GrkLpm"
       ],
       "settings": {
