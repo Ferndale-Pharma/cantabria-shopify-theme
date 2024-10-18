@@ -80,7 +80,7 @@ li.menu-link__without-image {
 }
 
 .multicolumn-card__info {
-  @apply twcss-px-0 !important;
+  @apply twcss-px-0 twcss-pt-4 !important;
 }
 
 .multicolumn-card.content-container .multicolumn-card__info {
