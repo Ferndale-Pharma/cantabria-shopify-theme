@@ -105,7 +105,7 @@
         "show_rating": false,
         "quick_add": "standard",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 32,
         "padding_bottom": 32
       }
@@ -173,7 +173,7 @@
           "settings": {
             "image": "shopify://shop_images/Image.png",
             "title": "",
-            "text": "<p><em>“Biretixis created by dermatologists, led by science and backed by clinical data. Ithas been developed to be the most effective complementary dermocosmetic skincare solution for acne-prone skin.”</em></p><p><strong>Dr Massimo Milani </strong></p><p>Medical Director, Cantabria Labs Italy </p>",
+            "text": "<p><em>“Biretix is created by dermatologists, led by science and backed by clinical data. Ithas been developed to be the most effective complementary dermocosmetic skincare solution for acne-prone skin.”</em></p><p><strong>Dr Massimo Milani </strong></p><p>Medical Director, Cantabria Labs Italy </p>",
             "link_label": "Read more",
             "link": "shopify://pages/test"
           }
@@ -642,7 +642,7 @@
         "column_YdBAyb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/lookfantastic_7106d244-6132-4b97-a6c4-4fb91c61394b.png",
+            "image": "shopify://shop_images/Lookfantastic_d75aa81e-ed92-4c79-a42e-697b2bb891e7.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -652,7 +652,7 @@
         "column_CfJpQg": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/harpersbazaar.png",
+            "image": "shopify://shop_images/Harpers_Bazaar.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -662,7 +662,7 @@
         "column_yEBQh8": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/justmylook_9f41bdda-51ac-4f56-9e7e-063ef9b89eaf.png",
+            "image": "shopify://shop_images/Just_My_Look.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -672,7 +672,7 @@
         "column_MDMk7Q": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/tatler_22b63812-3b52-4b1b-b1dc-8ef1d9aba79d.png",
+            "image": "shopify://shop_images/Tatler_562f82d2-602a-48ec-866c-fdf144e847a4.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -682,7 +682,7 @@
         "column_MeYeb4": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/beautybay.png",
+            "image": "shopify://shop_images/Beauty_Bay.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -692,7 +692,7 @@
         "column_abgqf9": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/vogue_de6074c5-dba1-4f91-9657-090518a6329d.png",
+            "image": "shopify://shop_images/Vogue_9fc08d0e-439d-4d80-82f1-05367d8fc54a.png",
             "title": "",
             "text": "",
             "link_label": "",
