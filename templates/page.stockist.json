@@ -80,7 +80,7 @@
       ],
       "settings": {
         "title": "Brands",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -102,7 +102,7 @@
           "type": "heading",
           "settings": {
             "heading": "Apply now",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_UUaaJH": {
