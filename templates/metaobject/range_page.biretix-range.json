@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "{{ metaobject.name.value }}",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "text_RggQnc": {
@@ -234,7 +234,7 @@
           "settings": {
             "image": "shopify://shop_images/RETINSPHERE_1.jpg",
             "heading": "RetinSphere® Technology",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. ",
             "button_label": "",
             "link": "",
@@ -252,7 +252,7 @@
           "settings": {
             "image": "shopify://shop_images/BIOPEP-15.jpg",
             "heading": "BIOPEP-15",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "An incredible botanical-derived technology that fights against the main acne-causing bacteria <em>Cutibacterium acnes</em> and helps to reduce inflammation.",
             "button_label": "",
             "link": "",
@@ -270,7 +270,7 @@
           "settings": {
             "image": "shopify://shop_images/GLYCOLIC_ACID.jpg",
             "heading": "Glycolic Acid",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "An exfoliating alpha hydroxy acid (AHA) that increases skin cell turnover, stimulates collagen production and brightens the complexion.  ",
             "button_label": "",
             "link": "",
@@ -288,7 +288,7 @@
           "settings": {
             "image": "shopify://shop_images/SALICYLIC_ACID.jpg",
             "heading": "Salicylic Acid",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "A powerful beta hydroxy acid (BHA) that encourages the shedding of dead skin cells, reduces inflammation and redness and speeds up the healing of existing blemishes. ",
             "button_label": "",
             "link": "",
@@ -306,7 +306,7 @@
           "settings": {
             "image": "shopify://shop_images/NIACINAMIDE.jpg",
             "heading": "Niacinamide",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "A form of vitamin B3 with anti-inflammatory properties, helping to reduce pore size and lock in moisture for a strong, healthy skin barrier.",
             "button_label": "",
             "link": "",

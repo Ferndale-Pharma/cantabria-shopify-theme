@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>{{ metaobject.name.value }}</strong>",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "text_RggQnc": {
@@ -533,7 +533,7 @@
           "settings": {
             "image": "shopify://shop_images/FERNBLOCK_1.jpg",
             "heading": "Fernblock®",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "Fernblock is a natural plant extract derived from the tropical fern Polypodium Leucotomas which provides strong antioxidant activity, helping to prevent and repair skin damage caused by solar radiation (UVA, UVB, Visible Light and Infrared A). It helps prevent sunburn and inflammation, reduces redness, improves skin elasticity, and supports overall skin health. ",
             "button_label": "",
             "link": "",
@@ -551,7 +551,7 @@
           "settings": {
             "image": "shopify://shop_images/UV_FILTERS.jpg",
             "heading": "UV Filters",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "A unique combination of advanced UV filters protect the skin from UVA and UVB radiation, preventing sunburn and long-term skin damage. Including: Tinosorb S | Bemotrizinol | Octisalate | Diethylamino Hydroxybenzoyl Hexyl Benzoate | Diethylhexyl Butamido Triazone  | Octocrylene.",
             "button_label": "",
             "link": "",
@@ -569,7 +569,7 @@
           "settings": {
             "image": "shopify://shop_images/VITAMIN_C.jpg",
             "heading": "Vitamin C",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "A powerful antioxidant that fights free radicals, protects against environmental stressors, reduces pigmentation and brightens the skin.",
             "button_label": "",
             "link": "",
@@ -587,7 +587,7 @@
           "settings": {
             "image": "shopify://shop_images/VITAMIN_E.jpg",
             "heading": "Vitamin E",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "A moisturising antioxidant that neutralises free radicals to reduce damage and prevent lipid peroxidation while hydrating the skin.",
             "button_label": "",
             "link": "",
@@ -605,7 +605,7 @@
           "settings": {
             "image": "shopify://shop_images/GREEN_TEA.jpg",
             "heading": "Green Tea",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "A calming and protective antioxidant that reduces inflammation, slows collagen breakdown and helps to prevent premature skin ageing.",
             "button_label": "",
             "link": "",
@@ -622,7 +622,7 @@
           "type": "slide",
           "settings": {
             "heading": "Citric Acid",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "Citric Acid is an alpha hydroxy acid (AHA) that exfoliates the skin, promoting cell turnover and a brighter complexion. It helps even skin tone, smooths texture, and reduces the appearance of fine lines.",
             "button_label": "",
             "link": "",
@@ -639,7 +639,7 @@
           "type": "slide",
           "settings": {
             "heading": "Ginger Root Extract",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "Ginger Root Extract is a natural antioxidant that helps soothe and protect the skin from environmental damage, while also improving skin tone and radiance.",
             "button_label": "",
             "link": "",
@@ -657,7 +657,7 @@
           "settings": {
             "image": "shopify://shop_images/NIACINAMIDE.jpg",
             "heading": "Niacinamide",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "Niacinamide, also known as Vitamin B3, is a versatile skincare ingredient that improves skin elasticity, enhances barrier function, evens skin tone, and reduces inflammation.",
             "button_label": "Button label",
             "link": "",
