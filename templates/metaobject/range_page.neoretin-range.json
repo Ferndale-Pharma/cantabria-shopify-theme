@@ -228,6 +228,9 @@
         "column_TJUL9K",
         "column_8akYFr"
       ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
       "settings": {
         "title": "Why choose Neoretin?",
         "heading_size": "h2",
