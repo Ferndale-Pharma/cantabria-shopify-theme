@@ -311,9 +311,9 @@
     "cl_featured_collection_kRyFif": {
       "type": "cl-featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Find the right hyperpigmentation products for your skin",
         "heading_size": "h2",
-        "description": "<p>Shop the range of Cantabria Labs products, suitable for helping to treat hyperpigmentation. Each product contains a wide range of effective ingredients and patented technologies to protect, correct and create a brighter, more unified skin tone.</p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "{{ metaobject.concern_products.value }}",
@@ -375,6 +375,7 @@
         "column_mLcXKm",
         "column_8TjmjY"
       ],
+      "disabled": true,
       "settings": {
         "title": "Testimonials",
         "heading_size": "h2",

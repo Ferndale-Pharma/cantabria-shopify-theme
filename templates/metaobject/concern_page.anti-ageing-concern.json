@@ -314,7 +314,7 @@
     "cl_featured_collection_QGTmJM": {
       "type": "cl-featured-collection",
       "settings": {
-        "title": "Our anti-ageing products",
+        "title": "Find the right anti-ageing products for your skin",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -378,6 +378,7 @@
         "column_mLcXKm",
         "column_8TjmjY"
       ],
+      "disabled": true,
       "settings": {
         "title": "Testimonials",
         "heading_size": "h2",

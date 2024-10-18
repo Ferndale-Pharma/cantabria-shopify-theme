@@ -194,6 +194,7 @@
         "heading_pcmrin",
         "text_QnBwed"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/AdobeStock_409585665.jpg",
         "height": "adapt",
@@ -292,13 +293,13 @@
     "cl_featured_collection_bPWHQJ": {
       "type": "cl-featured-collection",
       "settings": {
-        "title": "Our acne products",
+        "title": "Find the right acne products for your skin",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "spot-acne-prone-skin",
-        "products_to_show": 16,
+        "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -356,6 +357,7 @@
         "column_mLcXKm",
         "column_8TjmjY"
       ],
+      "disabled": true,
       "settings": {
         "title": "Testimonials",
         "heading_size": "h2",

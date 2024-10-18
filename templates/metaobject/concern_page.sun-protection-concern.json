@@ -199,7 +199,7 @@
         "text_bpcqXE": {
           "type": "text",
           "settings": {
-            "text": "<p>Every person, no matter their skin type, is at risk of sun damage. High risk factors include those with fair skin that burns easily, very young or old skin, people living close to the equator or at high altitude, where the ozone layer is low, and those who work outside and are regularly exposed to the sun’s rays. Not using sun protection is also a high risk factor for sun damage and photoageing. </p>",
+            "text": "<p>Every person, no matter their skin type, is at risk of sun damage. High risk factors include those with fair skin that burns easily, very young or old skin, people living close to the equator or at high altitude, where the ozone layer is low, and those who work outside and are regularly exposed to the sun’s rays. Not using sun protection is also a high risk factor for sun damage and photoageing.</p><p>Sun protection is the most important step in your daily skincare routine, because no matter the weather, sunlight radiation is present and harmful all year round. The best way to protect the skin from sun damage and photoageing is to apply a high-level, broad-spectrum SPF, every single day. </p>",
             "text_style": "body"
           }
         }
@@ -354,9 +354,9 @@
     "cl_featured_collection_caYFjf": {
       "type": "cl-featured-collection",
       "settings": {
-        "title": "Daily protection",
+        "title": "Find the right sun protection product for your skin",
         "heading_size": "h2",
-        "description": "<p>Sun protection is the most important step in your daily skincare routine, because no matter the weather, sunlight radiation is present and harmful all year round. The best way to protect the skin from sun damage and photoageing is to apply a high-level, broad-spectrum SPF, every single day. </p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "{{ metaobject.concern_products.value }}",
@@ -473,6 +473,7 @@
         "column_mLcXKm",
         "column_8TjmjY"
       ],
+      "disabled": true,
       "settings": {
         "title": "Testimonials",
         "heading_size": "h2",
