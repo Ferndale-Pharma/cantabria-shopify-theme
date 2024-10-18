@@ -257,7 +257,7 @@
         "column_tfaxLW"
       ],
       "custom_css": [
-        "h3 {color: #000;}"
+
       ],
       "settings": {
         "title": "Why choose Endocare?",
@@ -317,7 +317,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
             "text_alignment_mobile": "center"
           }
         },
@@ -335,7 +335,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
             "text_alignment_mobile": "center"
           }
         },
@@ -353,7 +353,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
             "text_alignment_mobile": "center"
           }
         },
@@ -371,7 +371,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
             "text_alignment_mobile": "center"
           }
         },
@@ -389,7 +389,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
             "text_alignment_mobile": "center"
           }
         },
@@ -407,7 +407,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
             "text_alignment_mobile": "center"
           }
         }
