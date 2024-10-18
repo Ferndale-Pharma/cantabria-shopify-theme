@@ -157,7 +157,7 @@
       ],
       "settings": {
         "title": "Understanding hyperpigmentation",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -179,7 +179,7 @@
           "type": "heading",
           "settings": {
             "heading": "Melanin and pigmentation",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_6mVWqQ": {
@@ -217,7 +217,7 @@
           "type": "heading",
           "settings": {
             "heading": "Technologies",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         }
       },
@@ -312,7 +312,7 @@
       "type": "cl-featured-collection",
       "settings": {
         "title": "Featured collection",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "<p>Shop the range of Cantabria Labs products, suitable for helping to treat hyperpigmentation. Each product contains a wide range of effective ingredients and patented technologies to protect, correct and create a brighter, more unified skin tone.</p>",
         "show_description": false,
         "description_style": "body",
@@ -329,7 +329,7 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
+        "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 64,

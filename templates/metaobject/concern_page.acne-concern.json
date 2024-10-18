@@ -74,7 +74,7 @@
           "type": "heading",
           "settings": {
             "heading": "What is acne?",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_WezjGn": {
@@ -179,7 +179,7 @@
           "type": "heading",
           "settings": {
             "heading": "The spot cycle",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_QnBwed": {
@@ -217,7 +217,7 @@
           "type": "heading",
           "settings": {
             "heading": "Technologies",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         }
       },
