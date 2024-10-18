@@ -174,8 +174,8 @@
             "image": "shopify://shop_images/Image.png",
             "title": "",
             "text": "<p><em>“Biretix is created by dermatologists, led by science and backed by clinical data. Ithas been developed to be the most effective complementary dermocosmetic skincare solution for acne-prone skin.”</em></p><p><strong>Dr Massimo Milani </strong></p><p>Medical Director, Cantabria Labs Italy </p>",
-            "link_label": "Read more",
-            "link": "shopify://pages/test"
+            "link_label": "",
+            "link": ""
           }
         },
         "column_84TrPU": {
@@ -184,8 +184,8 @@
             "image": "shopify://shop_images/Image.png",
             "title": "",
             "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.”</p><p><strong>Dr. Olivia Falcon</strong></p>",
-            "link_label": "Read more",
-            "link": "shopify://pages/test"
+            "link_label": "",
+            "link": ""
           }
         }
       },
