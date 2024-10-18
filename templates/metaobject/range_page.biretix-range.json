@@ -65,7 +65,7 @@
           "type": "heading",
           "settings": {
             "heading": "Purify, treat and care",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_bTDdty": {
@@ -136,16 +136,16 @@
         "padding_bottom": 64
       }
     },
-    "featured_collection_XPwkGj": {
-      "type": "featured-collection",
+    "cl_featured_collection_MbjxVd": {
+      "type": "cl-featured-collection",
       "settings": {
         "title": "Hero products",
         "heading_size": "h2",
-        "description": "<p>Text can go here if you want</p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "biretix-hero-products",
-        "products_to_show": 8,
+        "collection": "",
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -157,7 +157,7 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
+        "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 64,
@@ -171,7 +171,7 @@
           "type": "heading",
           "settings": {
             "heading": "Holistic skincare for spot-prone skin",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_n6dA8K": {
@@ -209,7 +209,7 @@
           "type": "heading",
           "settings": {
             "heading": "Technologies & ingredients",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         }
       },
@@ -234,7 +234,7 @@
           "settings": {
             "image": "shopify://shop_images/RETINSPHERE_1.jpg",
             "heading": "RetinSphere® Technology",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. ",
             "button_label": "",
             "link": "",
@@ -252,7 +252,7 @@
           "settings": {
             "image": "shopify://shop_images/BIOPEP-15.jpg",
             "heading": "BIOPEP-15",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "An incredible botanical-derived technology that fights against the main acne-causing bacteria <em>Cutibacterium acnes</em> and helps to reduce inflammation.",
             "button_label": "",
             "link": "",
@@ -270,7 +270,7 @@
           "settings": {
             "image": "shopify://shop_images/GLYCOLIC_ACID.jpg",
             "heading": "Glycolic Acid",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "An exfoliating alpha hydroxy acid (AHA) that increases skin cell turnover, stimulates collagen production and brightens the complexion.  ",
             "button_label": "",
             "link": "",
@@ -288,7 +288,7 @@
           "settings": {
             "image": "shopify://shop_images/SALICYLIC_ACID.jpg",
             "heading": "Salicylic Acid",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "A powerful beta hydroxy acid (BHA) that encourages the shedding of dead skin cells, reduces inflammation and redness and speeds up the healing of existing blemishes. ",
             "button_label": "",
             "link": "",
@@ -306,7 +306,7 @@
           "settings": {
             "image": "shopify://shop_images/NIACINAMIDE.jpg",
             "heading": "Niacinamide",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "A form of vitamin B3 with anti-inflammatory properties, helping to reduce pore size and lock in moisture for a strong, healthy skin barrier.",
             "button_label": "",
             "link": "",
@@ -415,7 +415,7 @@
       ],
       "settings": {
         "title": "Proven by dermatologists",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -430,15 +430,15 @@
         "padding_bottom": 64
       }
     },
-    "featured_collection_qTTAV4": {
-      "type": "featured-collection",
+    "cl_featured_collection_gPpbQz": {
+      "type": "cl-featured-collection",
       "settings": {
-        "title": "<strong>Title of Section</strong>",
+        "title": "Featured collection",
         "heading_size": "h2",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sodales eros.</p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "{{ metaobject.linked_collection.value }}",
+        "collection": "biretix",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
@@ -451,11 +451,11 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
+        "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "collapsible_content_dgkKCE": {
@@ -528,12 +528,12 @@
     "image_banner_9qaB4e",
     "rich_text_CcYqft",
     "image_with_text_html_DGWMyN",
-    "featured_collection_XPwkGj",
+    "cl_featured_collection_MbjxVd",
     "image_with_text_T8yKPe",
     "rich_text_HUxECR",
     "cl_slideshow_4tCcxJ",
     "multicolumn_html_NwAPwU",
-    "featured_collection_qTTAV4",
+    "cl_featured_collection_gPpbQz",
     "collapsible_content_dgkKCE",
     "newsletter_ptPkgb"
   ]
