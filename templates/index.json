@@ -196,7 +196,7 @@
       ],
       "settings": {
         "title": "Researched and recommended by experts around the world",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -218,7 +218,7 @@
           "type": "heading",
           "settings": {
             "heading": "Leaders in dermatological innovation",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         }
       },
@@ -470,7 +470,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
@@ -484,7 +484,7 @@
           "type": "heading",
           "settings": {
             "heading": "Global leaders in dermatology",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_HTbGR6": {
@@ -517,7 +517,7 @@
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 64,
@@ -573,7 +573,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
@@ -621,7 +621,7 @@
       ],
       "settings": {
         "title": "Why choose Cantabria Labs?",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -718,7 +718,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 64,
