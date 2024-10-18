@@ -413,7 +413,7 @@
           "settings": {
             "button_label": "View product",
             "button_link": "shopify://products/heliocare-360-sensation",
-            "button_style_secondary": false
+            "button_style_secondary": true
           }
         }
       },
@@ -483,6 +483,9 @@
         "column_tMz6zF",
         "column_HTfgMi",
         "column_PCbzKa"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
       ],
       "settings": {
         "title": "Personalised facial sun protection for everyone, for every day",
