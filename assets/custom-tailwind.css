@@ -28,7 +28,7 @@ ol {
 }
 
 .link.animate-arrow {
-  @apply twcss-flex twcss-items-center;
+  @apply twcss-flex;
 }
 
 .rich-text__text {
