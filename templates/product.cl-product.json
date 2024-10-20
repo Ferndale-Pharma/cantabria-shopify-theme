@@ -12,13 +12,6 @@
     "main": {
       "type": "cl-main-product",
       "blocks": {
-        "text_YCAafg": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.custom.range.value }}",
-            "text_style": "body"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -110,7 +103,6 @@
         }
       },
       "block_order": [
-        "text_YCAafg",
         "title",
         "text_txweDz",
         "judge_me_reviews_preview_badge_fmp8CP",
