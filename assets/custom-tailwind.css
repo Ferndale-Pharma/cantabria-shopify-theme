@@ -87,6 +87,10 @@ li.menu-link__without-image {
   @apply twcss-flex twcss-flex-col twcss-h-full;
 }
 
+.background-none .multicolumn-card__image-wrapper + .multicolumn-card__info {
+  @apply twcss-pt-2 !important;
+}
+
 .multicolumn-card.content-container .multicolumn-card__info .link__wrapper {
   @apply twcss-mt-auto;
 }

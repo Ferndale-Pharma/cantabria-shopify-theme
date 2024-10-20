@@ -103,6 +103,10 @@ li.menu-link__without-image {
   flex-direction: column;
 }
 
+.background-none .multicolumn-card__image-wrapper + .multicolumn-card__info {
+  padding-top: 0.5rem !important;
+}
+
 .multicolumn-card.content-container .multicolumn-card__info .link__wrapper {
   margin-top: auto;
 }
