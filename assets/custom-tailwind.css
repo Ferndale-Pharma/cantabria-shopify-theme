@@ -80,7 +80,7 @@ li.menu-link__without-image {
 }
 
 .multicolumn-card__info {
-  @apply twcss-px-0 twcss-pt-4 !important;
+  @apply twcss-px-0 !important;
 }
 
 .multicolumn-card.content-container .multicolumn-card__info {
@@ -338,7 +338,8 @@ a.pagination__item-arrow {
 
 /** Ingredient filter list **/
 .alpha-list-group {
-  @apply twcss-grid twcss-grid-cols-1 md:twcss-grid-cols-3 twcss-gap-32 twcss-list-none md:twcss-auto-rows-fr;
+  @apply twcss-list-none;
+  @apply twcss-grid twcss-grid-cols-[repeat(auto-fill,minmax(400px,1fr))] twcss-gap-[4rem];
 }
 
 .ingredient__search {
@@ -354,34 +355,36 @@ a.pagination__item-arrow {
   text-decoration: underline !important;
 }
 
+.alpha-list-heading {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
 /** Ingredient card **/
 .ingredient-card {
-  @apply twcss-grid twcss-grid-rows-[auto_1fr_auto] twcss-h-full;
-  @apply twcss-text-[#231F20];
+  @apply twcss-text-[#231F20] twcss-flex twcss-flex-col twcss-h-full;
 }
 
-.ingredient-card__title {
-  @apply twcss-row-start-1 twcss-row-end-2;
+.ingredient-card__top {
 }
 
-.ingredient-card__description {
-  @apply twcss-row-start-2 twcss-row-end-3 twcss-border-b twcss-overflow-hidden twcss-pb-4;
+.ingredient-card__bottom {
 }
 
 .ingredients-card__benefits {
-  @apply twcss-row-start-3 twcss-row-end-4;
+  @apply twcss-mt-auto;
 }
 
 .ingredients-card__benefits h4 {
   @apply twcss-my-4;
 }
 
-.ingredients-card__benefits ul {
-  @apply twcss-p-0 !important;
-}
-
 .ingredients-card__benefits li {
   @apply twcss-inline;
+}
+
+.ingredients-card__used-in--products {
+  @apply twcss-relative;
 }
 
 .ingredients-card__used-in--products .link {
@@ -399,7 +402,8 @@ ul.collection-list .card__content {
 }
 
 /** blogs & pages **/
-.rte,
+.metafield-rich_text_field,
+.article-template,
 .shopify-policy__container {
   h1,
   h2,
@@ -467,6 +471,9 @@ ul.collection-list .card__content {
   @apply twcss-p-0 !important;
 }
 
+.ingredients__accordion-content h3 {
+  @apply twcss-font-bold;
+}
 .collapsible-content .accordion__content {
   @apply twcss-py-8 !important;
 }
