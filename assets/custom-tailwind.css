@@ -626,6 +626,7 @@ span.cl-swatch {
   @apply twcss-text-2xl !important;
 }
 
-.cl-related-grid {
+.cl-related-grid,
+.grid.product-grid.contains-card.contains-card--product {
   justify-content: center;
 }
