@@ -864,7 +864,8 @@ span.cl-swatch {
   line-height: 2rem !important;
 }
 
-.cl-related-grid {
+.cl-related-grid,
+.grid.product-grid.contains-card.contains-card--product {
   justify-content: center;
 }
 
