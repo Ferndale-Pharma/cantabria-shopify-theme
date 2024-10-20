@@ -31,6 +31,7 @@ ol {
 
 .link.animate-arrow {
   display: flex;
+  align-items: center;
 }
 
 .rich-text__text {
