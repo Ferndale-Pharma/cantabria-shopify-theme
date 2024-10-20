@@ -626,7 +626,17 @@ span.cl-swatch {
   @apply twcss-text-2xl !important;
 }
 
-.cl-related-grid,
-.grid.product-grid.contains-card.contains-card--product {
-  justify-content: center;
+/** Makes sure that collections with 4 or less are centralised. **/
+@media screen and (min-width: 750px) {
+  .cl-related-grid-4 {
+    justify-content: center;
+  }
+  .grid.product-grid.contains-card.contains-card--product:not(.grid.product-grid.contains-card.contains-card--product.slider.slider--desktop) {
+    justify-content: center;
+    gap: 4rem;
+  }
+}
+
+.product-range__link {
+  @apply twcss-mr-4;
 }
