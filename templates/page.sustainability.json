@@ -230,6 +230,7 @@
         "column_AUnTLm": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Cantabria_Labs_Initiatives-01_654587eb-abab-4d36-8f7f-8fab006bd0e1.jpg",
             "title": "The Rafa Nadal Foundation",
             "text": "<p>An educational programme that helps to support vulnerable children reach their potential.</p>",
             "link_label": "",
@@ -239,6 +240,7 @@
         "column_zNpnfq": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Cantabria_Labs_Initiatives-02_a6fd2e0c-648c-46f3-b9b7-398d0d24098f.jpg",
             "title": "The DerMalawi Project",
             "text": "<p>A voluntary project that has so far helped 2,600 people with dermatological problems, including 42 surgeries for malignant tumours.</p>",
             "link_label": "",
@@ -248,6 +250,7 @@
         "column_BV6Tkr": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Cantabria_Labs_Initiatives-06_9bd16660-b90c-4b45-9333-f688536cb2a9.jpg",
             "title": "Emalaikat Foundation",
             "text": "<p>Improving the chances and quality of life of people in the Turkana region (Kenya) on the African continent.</p>",
             "link_label": "",
@@ -257,6 +260,7 @@
         "column_pirzPB": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Cantabria_Labs_Initiatives-03_45e0a712-452e-4bc8-b365-e6acc5a7ddb8.jpg",
             "title": "The Rainbow Foundation",
             "text": "<p>Supporting people with disabilities (physical, psychic and sensory) through training and creation of stable employment.</p>",
             "link_label": "",
@@ -266,6 +270,7 @@
         "column_PCkNgk": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Cantabria_Labs_Initiatives-04_26a1a710-4fca-4390-b7bf-3985bcc874c2.jpg",
             "title": "Astor",
             "text": "<p>An association that works to guarantee equal opportunities to people with learning disabilities and to offer support to both them and their families.</p>",
             "link_label": "",
@@ -275,6 +280,7 @@
         "column_WYa8Lp": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Cantabria_Labs_Initiatives-05_c99e0200-a2e8-4c9c-8288-bc1351e1648a.jpg",
             "title": "STANPA Foundation",
             "text": "<p>Helping to improve quality of life and self-esteem for those going through cancer treatment.</p>",
             "link_label": "",
