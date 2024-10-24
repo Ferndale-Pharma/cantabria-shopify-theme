@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Celebrate Life</strong> ",
+            "heading": "Dermatological expertise, proven results",
             "heading_size": "h1"
           }
         },
@@ -44,7 +44,7 @@
         "buttons_JLFrH9"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0001_-_Homepage_-_Banner_-_1_246a759e-6650-4cea-a617-f0899f458b2d.jpg",
+        "image": "shopify://shop_images/CL-WEB-0001_-_Banner_-_Homepage_-_1_ce2d93ec-4bb8-49f8-b799-38f6ba1bdb6a.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -161,9 +161,9 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Image.png",
+            "image": "shopify://shop_images/CL-WEB-0001_-_Homepage_-_Skincare_Experts_-_Dr_EW.jpg",
             "title": "",
-            "text": "<p><em>“I’m a huge fan of Heliocare and will often recommend it to my patients…With so many great products for different skin types there really is something for everyone!”</em></p><p><strong>Dr. Emma Wedgeworth<br/></strong>Consultant Dermatologist</p>",
+            "text": "<p><em>“I’m a huge fan of Heliocare and will often recommend it to my patients…With so many great products for different skin types there really is something for everyone!”<br/><br/></em><strong>Dr. Emma Wedgeworth<br/></strong>Consultant Dermatologist</p>",
             "link_label": "",
             "link": ""
           }
@@ -171,9 +171,9 @@
         "column_qGjQKW": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Image.png",
+            "image": "shopify://shop_images/CL-WEB-0001_-_Homepage_-_Skincare_Experts_-_Dr_MM.jpg",
             "title": "",
-            "text": "<p><em>“Biretix is created by dermatologists, led by science and backed by clinical data. Ithas been developed to be the most effective complementary dermocosmetic skincare solution for acne-prone skin.”</em></p><p><strong>Dr Massimo Milani </strong></p><p>Medical Director, Cantabria Labs Italy </p>",
+            "text": "<p><em>“Biretix is created by dermatologists, led by science and backed by clinical data. It has been developed to be the most effective complementary dermocosmetic skincare solution for acne-prone skin.”<br/><br/></em><strong>Dr Massimo Milani </strong></p><p>Medical Director, Cantabria Labs Italy </p>",
             "link_label": "",
             "link": ""
           }
@@ -374,8 +374,9 @@
         "column_FTdCM4": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Expert_Quotes_1ddf1900-7482-4e16-922b-36f64e64190e.png",
             "title": "",
-            "text": "<p><em>\"Heliocare is one of my absolute go-to SPFs for both myself and my family. The science behind it is absolutely A* packed with superior, hard working ingredients giving you the best protection possible from sun damage. It's top of the list among so many doctors I work with and everyone I have recommended it to have never looked back.\"</em></p><p><strong>Astrid Joss<br/></strong>Tatler Beauty Director</p>",
+            "text": "<p><em>\"Heliocare is one of my absolute go-to SPFs for both myself and my family. The science behind it is absolutely A* packed with superior, hard working ingredients giving you the best protection possible from sun damage. It's top of the list among so many doctors I work with and everyone I have recommended it to have never looked back.\"<br/><br/></em><strong>Astrid Joss<br/></strong>Beauty Director, Tatler</p>",
             "link_label": "",
             "link": ""
           }
@@ -383,8 +384,9 @@
         "column_9QM6wy": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Expert_Quotes_copy.png",
             "title": "",
-            "text": "<p><em>\"You know you are in sun-safe hands with Heliocare. There is something for every age and skin concern, the tinted formulations are as a good as any makeup product and as a former sun allergy sufferer I always travel with the Fernblock capsules.\"</em></p><p><strong>Victoria Woodhall <br/></strong>Get The Gloss Editorial Director</p>",
+            "text": "<p><em>\"You know you are in sun-safe hands with Heliocare. There is something for every age and skin concern, the tinted formulations are as a good as any makeup product and as a former sun allergy sufferer I always travel with the Fernblock capsules.\"</em></p><p><strong><br/>Victoria Woodhall <br/></strong>Editorial Director, Get The Gloss</p>",
             "link_label": "",
             "link": ""
           }
@@ -392,8 +394,9 @@
         "column_LkpPbJ": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Expert_Quotes_1ddf1900-7482-4e16-922b-36f64e64190e.png",
             "title": "",
-            "text": "<p><em>\"Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.\"</em></p><p><strong>Expert Review<br/></strong>Expert Company</p>",
+            "text": "<p><em>\"Of all the sunscreens I have been recommended by dermatologists and aestheticians, this one from Heliocare has been the most consistent ...While I've personally tried a number of sunscreens over the years, this is the one I come back to time and time again.\"<br/><br/></em><strong>Shannon Lawlor<br/></strong>Executive Beauty Editor, Marie Claire</p>",
             "link_label": "",
             "link": ""
           }
@@ -586,7 +589,7 @@
         "column_qBBnmB": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Derm_Proven_Efficacy.png",
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Derm_Proven_Efficacy.png",
             "title": "Dermatologist proven efficacy",
             "text": "<p>Cantabria Labs skincare ranges are dermatologist-proven to target, prevent, and improve key skin concerns like sun protection, acne-prone skin, ageing, and hyperpigmentation.</p>",
             "link_label": "",
@@ -596,7 +599,7 @@
         "column_pXVeTF": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Expert_Recommended.png",
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Expert_Recommended.png",
             "title": "Expert recommended",
             "text": "<p>Cantabria Labs products are the top dermatological prescription in Spain, Italy, Portugal, and recommended by skin experts across the globe.</p>",
             "link_label": "",
@@ -606,7 +609,7 @@
         "column_tmgBUf": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Personalised_Skincare.png",
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Personalised_Skincare.png",
             "title": "Personalised skincare",
             "text": "<p>With ranges specifically designed to cover every skin type, indication and concern, there’s always a Cantabria Labs product to suit <em>your</em> skin.</p>",
             "link_label": "",
