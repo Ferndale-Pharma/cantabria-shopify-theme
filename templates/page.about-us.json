@@ -16,25 +16,41 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_bT7PLh": {
-      "type": "rich-text",
+    "image_with_text_BXbgYE": {
+      "type": "image-with-text",
       "blocks": {
-        "text_yqmDCa": {
+        "heading_pXGpNC": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_6hTGYR": {
           "type": "text",
           "settings": {
-            "text": "<p>Cantabria Labs is a worldwide dermatology company renowned for innovation and research, bringing you some of the best skincare brands in the world. </p><p>Established in Spain in 1989, Cantabria Labs remains a family-owned business today with real heart and soul. The philosophy of ‘celebrate life’ resonates throughout the Cantabria Labs and its global subsidiaries, with every employee and partner empowered and encouraged to think and work creatively to help achieve our goal: improving the health and quality of life for all people. </p><p>With subsidiaries and distributors in over 85 countries, Cantabria Labs has earned global recognition for its contribution to the world of dermatology. </p>"
+            "text": "<p>Cantabria Labs is a worldwide dermatology company renowned for innovation and research, bringing you some of the best skincare brands in the world. </p><p>Established in Spain in 1989, Cantabria Labs remains a family-owned business today with real heart and soul. The philosophy of ‘celebrate life’ resonates throughout the Cantabria Labs and its global subsidiaries, with every employee and partner empowered and encouraged to think and work creatively to help achieve our goal: improving the health and quality of life for all people. </p><p>With subsidiaries and distributors in over 85 countries, Cantabria Labs has earned global recognition for its contribution to the world of dermatology. </p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "text_yqmDCa"
+        "heading_pXGpNC",
+        "text_6hTGYR"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image": "shopify://shop_images/CL-WEB-0006_-_CL_Team_Photo.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "full_width": true,
-        "is_heading": false,
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -45,19 +61,28 @@
         "text_XTpXen": {
           "type": "text",
           "settings": {
-            "text": "<p>We specialise in developing innovative, patented ingredients by harnessing the power of nature and repurposing it to improve or protect the skin. Our expertise lies not only in revolutionary technology but formulation too, creating products that feel beautiful on the skin and that you’ll love to use every day. </p><p>Rigorous research, development and clinical study is the foundation for every product in our dermatologically tested skincare ranges. Working with renowned dermatologists worldwide, Cantabria Labs brings together leading scientific innovation with expertise and the highest quality standards to bring you the future of skincare. This is recognised by multiple industry award wins for Cantabria Labs products across the globe every year.</p><p><a href=\"/pages/our-technologies\" title=\"Our Technologies\">Read more about the patented technologies behind Heliocare, Biretix, Neoretin and Endocare.</a></p>",
+            "text": "<p>We specialise in developing innovative, patented ingredients by harnessing the power of nature and repurposing it to improve or protect the skin. Our expertise lies not only in revolutionary technology but formulation too, creating products that feel beautiful on the skin and that you’ll love to use every day. </p><p>Rigorous research, development and clinical study is the foundation for every product in our dermatologically tested skincare ranges. Working with renowned dermatologists worldwide, Cantabria Labs brings together leading scientific innovation with expertise and the highest quality standards to bring you the future of skincare. This is recognised by multiple industry award wins for Cantabria Labs products across the globe every year.</p>",
             "text_style": "body"
+          }
+        },
+        "button_QRXtif": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more about patented technologies",
+            "button_link": "shopify://pages/our-technologies",
+            "button_style_secondary": true
           }
         }
       },
       "block_order": [
-        "text_XTpXen"
+        "text_XTpXen",
+        "button_QRXtif"
       ],
       "settings": {
         "image": "shopify://shop_images/CantabriaLabs6774provia_1_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
@@ -75,16 +100,63 @@
         "text_hr9b4h": {
           "type": "text",
           "settings": {
-            "text": "<p>As well as manufacturing the best products for dermatological health, Cantabria Labs is passionate about charitable work across Spain and the rest of the world.</p><p>The initiative, #togetherwewillgofar, aims to promote good health and fight against poverty, hunger and sickness.  Cantabria Labs is dedicated to caring for and conserving the environment. We are incredibly proud of La Concha, an environmentally sustainable production centre based in Cantabria in northern Spain. La Concha leverages the power of a geothermal spring to produce renewable energy for the laboratories and provide mineral-rich, medicinal water. </p><p><a href=\"/pages/sustainability\" title=\"Sustainability\">Read more about our sustainability work. </a></p>",
+            "text": "<p>As well as manufacturing the best products for dermatological health, Cantabria Labs is passionate about charitable work across Spain and the rest of the world.</p><p>The initiative, #togetherwewillgofar, aims to promote good health and fight against poverty, hunger and sickness.  Cantabria Labs is dedicated to caring for and conserving the environment. We are incredibly proud of La Concha, an environmentally sustainable production centre based in Cantabria in northern Spain. La Concha leverages the power of a geothermal spring to produce renewable energy for the laboratories and provide mineral-rich, medicinal water.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_jM8apV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more about our sustainability work",
+            "button_link": "shopify://pages/sustainability",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "text_hr9b4h",
+        "button_jM8apV"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/2.CantabriaLabs6473velvia_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_KP3xN3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_qaqnef": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Ferndale Pharma Health & Beauty",
+            "heading_size": "h2"
+          }
+        },
+        "text_dd3ddY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CantabriaLabs.co.uk is operated by FERNDALE PHARMA Health & Beauty, a division of Ferndale Pharmaceuticals Ltd. Ferndale Pharmaceuticals Ltd. are proud to be the exclusive UK distributor partner of Cantabria Labs since 2008.</p><p>Ferndale Pharma Health & Beauty offers dermo-cosmetic brands to skin-savvy customers, promoting skin health, beauty, and well-being. As a division of Ferndale Pharmaceuticals Ltd, a global dermatological skincare company, we work with leading dermatologists and professional skin clinics, providing clinically proven solutions to a wide range of skincare conditions and indications. As partners with Cantabria Labs, we share a common culture… to explore possibilities, be adventurous and, most importantly, always put people first. </p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
-        "text_hr9b4h"
+        "heading_qaqnef",
+        "text_dd3ddY"
       ],
       "settings": {
-        "image": "shopify://shop_images/2.CantabriaLabs6473velvia_1.jpg",
+        "image": "shopify://shop_images/CL-WEB-0006_-_FPH_B_CL_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -98,44 +170,13 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
-    },
-    "rich_text_rn83FK": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_YQKBi7": {
-          "type": "heading",
-          "settings": {
-            "heading": "About Ferndale Pharma Health & Beauty",
-            "heading_size": "h2"
-          }
-        },
-        "text_YQYgBr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>CantabriaLabs.co.uk is operated by FERNDALE PHARMA Health & Beauty, a division of Ferndale Pharmaceuticals Ltd. Ferndale Pharmaceuticals Ltd. are proud to be the exclusive UK distributor partner of Cantabria Labs since 2008.</p><p></p><p>Ferndale Pharma Health & Beauty offers dermo-cosmetic brands to skin-savvy customers, promoting skin health, beauty, and well-being. As a division of Ferndale Pharmaceuticals Ltd, a global dermatological skincare company, we work with leading dermatologists and professional skin clinics, providing clinically proven solutions to a wide range of skincare conditions and indications. As partners with Cantabria Labs, we share a common culture… to explore possibilities, be adventurous and, most importantly, always put people first. </p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_YQKBi7",
-        "text_YQYgBr"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
     }
   },
   "order": [
     "main",
-    "rich_text_bT7PLh",
+    "image_with_text_BXbgYE",
     "image_with_text_MLzaPP",
     "image_with_text_pLnpF9",
-    "rich_text_rn83FK"
+    "image_with_text_KP3xN3"
   ]
 }
