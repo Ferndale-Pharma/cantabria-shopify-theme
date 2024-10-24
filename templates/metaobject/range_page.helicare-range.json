@@ -139,7 +139,7 @@
     "cl_featured_collection_wkhxrk": {
       "type": "cl-featured-collection",
       "settings": {
-        "title": "Ideal for use every day",
+        "title": "Facial sun protection, ideal for every day use",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -160,6 +160,53 @@
         "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_pya9Dp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6tN9CU": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Introducing NEW Heliocare 360° Sensation​</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_Q7AU4J": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>The ultra-light very high protection sunscreen for everyone, every day.</strong></p><p>Suitable for all skin types and tones. Heliocare 360° Sensation is an ultra-light, oil-free daily sunscreen. In dermatological tests, 100% of users agreed that Heliocare 360° Sensation absorbs quickly, melts into the skin and provides a light sensation with a matte finish to reduce shine – perfect for daily use under makeup, enhancing any daily skincare routine. </p><p>Like every Heliocare 360° product, Heliocare 360° Sensation provides very high SPF50+ & PA++++,  full-spectrum coverage. Infused with Fernblock®+ Antioxidant Technology, it protects skin against damage from UVA, visible light, infrared-A, free radicals and helps repair DNA damage. The additional Ginger Root extract provides enhanced skin calming antioxidant activity.  </p>",
+            "text_style": "body"
+          }
+        },
+        "button_mcMYUp": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "shopify://products/heliocare-360-sensation",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_6tN9CU",
+        "text_Q7AU4J",
+        "button_mcMYUp"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Full_Spectrum_Daily_Sun_Protection_9c940737-70a3-46ef-8d3b-fd5628d790c2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -240,7 +287,7 @@
         "heading_Qjfn4L": {
           "type": "heading",
           "settings": {
-            "heading": "Effective ingredients, proven by dermatologists",
+            "heading": "Fernblock®+ antioxidant technology",
             "heading_size": "h2"
           }
         },
@@ -257,7 +304,7 @@
         "text_wnr6Tx"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Full_Spectrum_Daily_Sun_Protection.jpg",
+        "image": "shopify://shop_images/FERNBLOCK.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -388,53 +435,6 @@
         "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "image_with_text_pya9Dp": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_6tN9CU": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Introducing NEW Heliocare 360° Sensation​</strong>",
-            "heading_size": "h2"
-          }
-        },
-        "text_Q7AU4J": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>The ultra-light very high protection sunscreen for everyone, every day.</strong></p><p>Suitable for all skin types and tones. Heliocare 360° Sensation is an ultra-light, oil-free daily sunscreen. In dermatological tests, 100% of users agreed that Heliocare 360° Sensation absorbs quickly, melts into the skin and provides a light sensation with a matte finish to reduce shine – perfect for daily use under makeup, enhancing any daily skincare routine. </p><p>Like every Heliocare 360° product, Heliocare 360° Sensation provides very high SPF50+ & PA++++,  full-spectrum coverage. Infused with Fernblock®+ Antioxidant Technology, it protects skin against damage from UVA, visible light, infrared-A, free radicals and helps repair DNA damage. The additional Ginger Root extract provides enhanced skin calming antioxidant activity.  </p>",
-            "text_style": "body"
-          }
-        },
-        "button_mcMYUp": {
-          "type": "button",
-          "settings": {
-            "button_label": "View product",
-            "button_link": "shopify://products/heliocare-360-sensation",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_6tN9CU",
-        "text_Q7AU4J",
-        "button_mcMYUp"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Full_Spectrum_Daily_Sun_Protection_9c940737-70a3-46ef-8d3b-fd5628d790c2.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-2",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -927,12 +927,12 @@
     "rich_text_YYXacY",
     "image_with_text_48BKmX",
     "cl_featured_collection_wkhxrk",
+    "image_with_text_pya9Dp",
     "multicolumn_3TtWA3",
     "image_with_text_j7VAgM",
     "multicolumn_html_n7HF8i",
-    "cl_featured_collection_UQd4Xn",
-    "image_with_text_pya9Dp",
     "multicolumn_zjQz6Y",
+    "cl_featured_collection_UQd4Xn",
     "rich_text_p3BLWR",
     "cl_slideshow_9QxUaB",
     "multicolumn_VxRL3F",
