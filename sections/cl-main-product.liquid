@@ -269,8 +269,10 @@
                           {% render 'card-ingredient', card_ingredient: metaobject, variant: 'product' %}
                         {% endfor %}
                       </div>
+                      {% if template.name != 'product.cl-product-bundle' %}
                       <div class="twcss-text-black twcss-font-bold twcss-py-4">All ingredients</div>
                       {{ block.settings.all_ingredients }}
+                      {% endif %}
                     </div>
                   </details>
                 </div>
