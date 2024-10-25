@@ -281,6 +281,30 @@
         "padding_bottom": 64
       }
     },
+    "rich_text_p3BLWR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8gjeEy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Technologies & ingredients",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8gjeEy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
     "cl_slideshow_9QxUaB": {
       "type": "cl-slideshow",
       "blocks": {
@@ -676,30 +700,6 @@
         "padding_bottom": 64
       }
     },
-    "rich_text_p3BLWR": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_8gjeEy": {
-          "type": "heading",
-          "settings": {
-            "heading": "Technologies & ingredients",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_8gjeEy"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 32
-      }
-    },
     "multicolumn_VxRL3F": {
       "type": "multicolumn",
       "blocks": {
@@ -929,12 +929,12 @@
     "cl_featured_collection_wkhxrk",
     "image_with_text_pya9Dp",
     "multicolumn_3TtWA3",
+    "rich_text_p3BLWR",
     "cl_slideshow_9QxUaB",
     "image_with_text_j7VAgM",
     "multicolumn_html_n7HF8i",
     "multicolumn_zjQz6Y",
     "cl_featured_collection_UQd4Xn",
-    "rich_text_p3BLWR",
     "multicolumn_VxRL3F",
     "multicolumn_4BEDzV",
     "collapsible_content_aFz6wc",
