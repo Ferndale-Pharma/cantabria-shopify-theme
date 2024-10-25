@@ -22,7 +22,7 @@
         "text_RggQnc": {
           "type": "text",
           "settings": {
-            "text": "Innovative anti-ageing skincare, proven by dermatologists.",
+            "text": "Scientific anti-ageing skincare.",
             "text_style": "body"
           }
         },
@@ -64,14 +64,14 @@
         "heading_qVeV4W": {
           "type": "heading",
           "settings": {
-            "heading": "Target the signs and symptoms of skin ageing",
+            "heading": "<strong>Address every stage and symptom of skin ageing</strong>",
             "heading_size": "h2"
           }
         },
         "text_T9yqhc": {
           "type": "text",
           "settings": {
-            "text": "<p>A dermatological anti-ageing skincare range for smooth, firm and radiant skin. Formulated with gold-standard active ingredients and patented technologies, Endocare is clinically proven to brighten the skin and reduce texture, pigmentation and wrinkles, for visible, radiant results.</p>"
+            "text": "<p>Endocare is a scientific anti-ageing specialist skincare<br/>range, dermatologically proven address every stage and symptom of skin ageing.</p><p>Formulated with dermatological expertise, gold-standard<br/>active ingredients and unique patented technologies, Endocare products are<br/>clinically proven to brighten the skin and reduce texture, pigmentation and<br/>wrinkles, for visible, radiant results.</p>"
           }
         }
       },
@@ -120,6 +120,7 @@
         "text_AYNmBR",
         "button_HBTEJm"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/CL-WEB-0005_-_Endocare_Brand_Page_-_Endocare_Winter_Renewal.jpg",
         "height": "adapt",
@@ -138,6 +139,7 @@
     },
     "video_pxURAj": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -154,7 +156,7 @@
     "cl_featured_collection_K3bAHf": {
       "type": "cl-featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Formulated with dermatological expertise, for proven results",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
