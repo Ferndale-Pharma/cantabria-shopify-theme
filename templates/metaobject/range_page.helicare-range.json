@@ -151,7 +151,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-2",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -262,7 +262,7 @@
         "column_r8EQyq"
       ],
       "custom_css": [
-
+        "h3 {color: #000;}"
       ],
       "settings": {
         "title": "Why choose Heliocare 360°?",
@@ -274,7 +274,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
@@ -327,7 +327,7 @@
           "settings": {
             "image": "shopify://shop_images/UV_PROTECTION.png",
             "title": "",
-            "text": "<h3>Protect the skin against damage caused by daylight: UVA, UVB, visible light and infrared-A<sup>1,2,3</sup>\n</h3>",
+            "text": "<h3><b>Protect the skin against damage caused by daylight: UVA, UVB, visible light and infrared-A<sup>1,2,3</sup>\n</b></h3>",
             "link_label": "",
             "link": ""
           }
@@ -337,7 +337,7 @@
           "settings": {
             "image": "shopify://shop_images/PREVENT_COLLAGEN_BREAKDOWN.png",
             "title": "",
-            "text": "<h3>Prevent collagen breakdown<sup>2</sup>\n</h3>",
+            "text": "<h3>\n<b>Prevent collagen breakdown<sup>2</sup></b>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -347,7 +347,7 @@
           "settings": {
             "image": "shopify://shop_images/REPAIR_DNA.png",
             "title": "",
-            "text": "<h3>Protect and repairs skin cell DNA<sup>4</sup>\n</h3>",
+            "text": "<h3>\n<b>Protect and repairs skin cell DNA<sup>4</sup></b>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -357,7 +357,7 @@
           "settings": {
             "image": "shopify://shop_images/PREVENT_PIGMENTATION.png",
             "title": "",
-            "text": "<h3>Prevent light-induced pigmentation<sup>5</sup>\n</h3>",
+            "text": "<h3>\n<b>Prevent light-induced pigmentation<sup>5</sup></b>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -367,7 +367,7 @@
           "settings": {
             "image": "shopify://shop_images/PROTECT_SKIN_IMMUNE_SYSTEM.png",
             "title": "",
-            "text": "<h3>Protect the skin’s immune system<sup>5</sup>\n</h3>",
+            "text": "<h3>\n<b>Protect the skin’s immune system<sup>5</sup></b>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -377,7 +377,7 @@
           "settings": {
             "image": "shopify://shop_images/IMPROVE_SPF_FILTERS.png",
             "title": "",
-            "text": "<h3>Improve the efficacy of SPF filters by up to 14%<sup>6</sup>\n</h3>",
+            "text": "<h3>\n<b>Improve the efficacy of SPF filters by up to 14%<sup>6</sup></b>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -392,7 +392,7 @@
         "column_P8Cced"
       ],
       "custom_css": [
-
+        "h3 {color: #000;}"
       ],
       "settings": {
         "title": "Fernblock is clinically proven to:",
@@ -404,7 +404,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
@@ -462,7 +462,7 @@
         "column_PCbzKa"
       ],
       "custom_css": [
-
+        "h3 {color: #000;}"
       ],
       "settings": {
         "title": "Personalised facial sun protection for everyone, for every day",
@@ -474,7 +474,7 @@
         "background_style": "none",
         "button_label": "View products",
         "button_link": "shopify://collections/heliocare",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
@@ -496,7 +496,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-2",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -782,7 +782,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 64,
@@ -849,7 +849,7 @@
         "background_style": "none",
         "button_label": "View products",
         "button_link": "shopify://collections/all-products",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 64,
