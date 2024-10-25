@@ -364,7 +364,7 @@
           "settings": {
             "image": "shopify://shop_images/BIRETIX_-_ICONS-01.png",
             "title": "",
-            "text": "<h3>Significantly reduce blemishes in 30 days<sup>1,2,3,4</sup>\n</h3>",
+            "text": "<h3>\n<b>Significantly reduce blemishes in 30 days<sup>1,2,3,4</sup></b>\n</h3>",
             "link_label": "",
             "link": ""
           }
