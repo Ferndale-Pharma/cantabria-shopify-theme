@@ -170,6 +170,7 @@
         "column_me8NzQ": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_Triple_Action_Ingredients_1_145ff651-ab2b-469e-9eed-3abef3ba712d.jpg",
             "title": "Exfoliates & clears pores",
             "text": "<p>Helps prevent clogged pores, reducing imperfections, blemishes and the likelihood of breakouts, leaving your skin clearer.</p>",
             "link_label": "",
@@ -179,6 +180,7 @@
         "column_7gzgrd": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_Triple_Action_Ingredients_2.jpg",
             "title": "Regulates bacteria and sebum",
             "text": "<p>Balances oil production, reducing shine and helps combat acne-causing bacteria that can lead to spots and help prevent future breakouts.</p>",
             "link_label": "",
@@ -188,6 +190,7 @@
         "column_4AXCtL": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_Triple_Action_Ingredients_3.jpg",
             "title": "Anti-redness effects",
             "text": "<p>Soothes irritated skin, reducing redness for a calmer, more even complexion.</p>",
             "link_label": "",
