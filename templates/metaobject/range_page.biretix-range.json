@@ -22,7 +22,7 @@
         "text_RggQnc": {
           "type": "text",
           "settings": {
-            "text": "Holistic skincare for acne-prone skin, proven by dermatologists.",
+            "text": "Dermatologist proven skincare for every stage of acne-prone skin.",
             "text_style": "body"
           }
         },
@@ -64,14 +64,14 @@
         "heading_f8ge44": {
           "type": "heading",
           "settings": {
-            "heading": "Purify, treat and care",
+            "heading": "Dermatologist proven blemish control for acne prone skin",
             "heading_size": "h2"
           }
         },
         "text_bTDdty": {
           "type": "text",
           "settings": {
-            "text": "<p>Biretix is a comprehensive, dermatologist proven skincare range designed to purify, treat and care for acne and spot-prone skin. Powered by innovative retinol and antimicrobial technologies, RetinSphere® and BIOPEP-15, Biretix offers skincare solutions for acne-prone skin, rapidly reducing blemishes, preventing future breakouts and promoting a healthier complexion. </p>"
+            "text": "<p>Powered by innovative retinol and antimicrobial technologies, RetinSphere® and BIOPEP-15, as well as scientifically proven powerhouse ingredients such as Glycolic acid, salicylic acid and niacinamide, Biretix offers a holistic skincare solution for acne-prone skin.  </p><p>Use regularly to target every stage of the acne-prone skin cycle to significantly reduce imperfections and blemishes and promote a healthier complexion.  </p>"
           }
         }
       },
@@ -102,7 +102,7 @@
         "text_EeLqga": {
           "type": "text",
           "settings": {
-            "text": "<p>The Tri-Active Anti-Blemish Gel is clinically proven to significantly reduce blemishes and improve skin texture in just 30 days.<sup>1,2</sup> Its potent yet gentle triple-action formulation targets blemishes, oil and shine with minimal irritation. The multi-tasking gel also works to improve skin texture and elasticity, while reducing the appearance of scarring and pigmentation. </p>",
+            "text": "<p>Biretix Tri-Active Anti-Blemish Gel’s effective and caring triple-action formulation significantly reduces imperfections, blemishes, oil and shine to make the skin feel softer, with improved skin texture, and a more uniform complexion.<sup>1</sup></p>\n<p>After just 28 days use, Biretix Tri-Active Anti-Blemish Gel is dermatologically proven to significantly reduce imperfections by 61%, and blemishes by up to 76%.<sup>1,2</sup></p>",
             "text_style": "body"
           }
         },
@@ -164,40 +164,55 @@
         "padding_bottom": 64
       }
     },
-    "image_with_text_T8yKPe": {
-      "type": "image-with-text",
+    "multicolumn_CQCX7D": {
+      "type": "multicolumn",
       "blocks": {
-        "heading_647LAQ": {
-          "type": "heading",
+        "column_me8NzQ": {
+          "type": "column",
           "settings": {
-            "heading": "Holistic skincare for spot-prone skin",
-            "heading_size": "h2"
+            "title": "Exfoliates & clears pores",
+            "text": "<p>Helps prevent clogged pores, reducing imperfections, blemishes and the likelihood of breakouts, leaving your skin clearer.</p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "text_n6dA8K": {
-          "type": "text",
+        "column_7gzgrd": {
+          "type": "column",
           "settings": {
-            "text": "<p>Biretix takes a holistic approach to caring for oily and spot-prone skin, with formulations designed to purify, treat and care. The range works synergistically to first purify the skin and regulate sebum production, before clarifying and rapidly reducing oil and imperfections, then finally hydrating the skin and restoring the skin barrier. Its combination of unique technologies is clinically proven to prevent and reduce spots, as well as reducing inflammation and post-inflammatory hyperpigmentation (PIH).</p>",
-            "text_style": "body"
+            "title": "Regulates bacteria and sebum",
+            "text": "<p>Balances oil production, reducing shine and helps combat acne-causing bacteria that can lead to spots and help prevent future breakouts.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4AXCtL": {
+          "type": "column",
+          "settings": {
+            "title": "Anti-redness effects",
+            "text": "<p>Soothes irritated skin, reducing redness for a calmer, more even complexion.</p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "heading_647LAQ",
-        "text_n6dA8K"
+        "column_me8NzQ",
+        "column_7gzgrd",
+        "column_4AXCtL"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_Brand_Page_-_Holistic_Skincare.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-3",
+        "title": "<strong> Biretix Tri-Active Anti-Blemish Gel’s expert triple-action dermatological ingredients target every aspect of acne-prone skin</strong>",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -235,25 +250,7 @@
             "image": "shopify://shop_images/RETINSPHERE_1.jpg",
             "heading": "RetinSphere® Technology",
             "heading_size": "h1",
-            "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. ",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_8Y6YgT": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/BIOPEP-15.jpg",
-            "heading": "BIOPEP-15",
-            "heading_size": "h1",
-            "subheading": "An incredible botanical-derived technology that fights against the main acne-causing bacteria <em>Cutibacterium acnes</em> and helps to reduce inflammation.",
+            "subheading": "The unique Cantabria Labs patented retinoid technology combines retinol in glycospheres and the hydroxypinacolone retinoate intensively works on clearing blocked pores and renewing acne-prone skin helping reduce blemishes without irritation.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -271,7 +268,7 @@
             "image": "shopify://shop_images/GLYCOLIC_ACID.jpg",
             "heading": "Glycolic Acid",
             "heading_size": "h1",
-            "subheading": "An exfoliating alpha hydroxy acid (AHA) that increases skin cell turnover, stimulates collagen production and brightens the complexion.  ",
+            "subheading": "An exfoliating alpha hydroxy acid (AHA) that increases skin cell turnover, helping to normalise blocked pores to soften and improve skin texture.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -301,13 +298,31 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_8Y6YgT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/BIOPEP-15.jpg",
+            "heading": "BIOPEP-15",
+            "heading_size": "h1",
+            "subheading": "An incredible botanical-derived technology that fights against the main acne-causing bacteria <em>Cutibacterium acnes</em> and helps to reduce inflammation.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_Q37HX9": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/NIACINAMIDE.jpg",
             "heading": "Niacinamide",
             "heading_size": "h1",
-            "subheading": "A form of vitamin B3 with anti-inflammatory properties, helping to reduce pore size and lock in moisture for a strong, healthy skin barrier.",
+            "subheading": "A form of Vitamin B3 proven by dermatologists to be a key ingredient in managing acne-prone skin; reducing redness, regulating sebum control and helping prevent skin hyperpigmentation caused by blemishes.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -322,9 +337,9 @@
       },
       "block_order": [
         "slide_gjBeJH",
-        "slide_8Y6YgT",
         "slide_FqfGhP",
         "slide_9pfMq9",
+        "slide_8Y6YgT",
         "slide_Q37HX9"
       ],
       "settings": {
@@ -376,7 +391,7 @@
           "settings": {
             "image": "shopify://shop_images/BIRETIX_-_ICONS-04.png",
             "title": "",
-            "text": "<h3>Hydrate and care for the skin<sup>5</sup>\n</h3>",
+            "text": "<h3>Hydrate and care for the skin<sup>1,2,3,4</sup>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -411,7 +426,7 @@
         "column_VNLyzQ"
       ],
       "custom_css": [
-
+        "h3 {color: #000;}"
       ],
       "settings": {
         "title": "Proven by dermatologists",
@@ -426,6 +441,105 @@
         "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_Q9V4Kp": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Qq4TY7": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_L4KqUB": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7tN6mb": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Qq4TY7",
+        "column_L4KqUB",
+        "column_7tN6mb"
+      ],
+      "settings": {
+        "title": "<strong>Effective and caring blemish control</strong>",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_html_LYKX9k": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_KFxkbD": {
+          "type": "heading",
+          "settings": {
+            "heading": "A simple 3 step daily skin regime",
+            "heading_size": "h2"
+          }
+        },
+        "text_qbkYTr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Biretix Tri-Active Gel, combined with Biretix Cleanser and Biretix Hydramat Fluid, form the perfect three step daily skin regime to significantly reduce imperfections, blemishes and sebum while taking care of the skin. The regime is dermatologically proven to have excellent skin tolerance, significantly increase skin moisturisation and reduce redness, even in sensitive acne-prone skin.<sup>6</sup></p>",
+            "text_style": "body"
+          }
+        },
+        "button_qRFm9h": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_KFxkbD",
+        "text_qbkYTr",
+        "button_qRFm9h"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -466,7 +580,7 @@
           "settings": {
             "heading": "References",
             "icon": "question_mark",
-            "row_content": "<ol><li>Hashtroody B, Bellas L, Pérez-Davó A. AEDV Poster, Spain, 2018. </li><li>Martinez J, Pérez-Davó A. GEDET Poster, Spain, 2019. </li><li>Milani M, Gonzales LC, Villalba M. J Clin Dermatol Ther 2021.7: 089. </li><li>Villani A, Annunziata MC, Cinelli E, Donnarumma M, Milani M, Fabbrocini G. G It Dermatol Venereol 2020. 155(5): 676-679. </li><li>Data on file, Zurko Bioresearch Madrid, 2021. </li></ol>",
+            "row_content": "<ol><li>Hashtroody B, Bellas L, Pérez-Davó A. AEDV Poster, Spain, 2018. </li><li>Martinez J, Pérez-Davó A. GEDET Poster, Spain, 2019. </li><li>Milani M, Gonzales LC, Villalba M. J Clin Dermatol Ther 2021.7: 089. </li><li>Villani A, Annunziata MC, Cinelli E, Donnarumma M, Milani M, Fabbrocini G. G It Dermatol Venereol 2020. 155(5): 676-679. </li><li>Data on file, Zurko Bioresearch Madrid, 2021.</li><li>Massimo M, Colombo F  (2023). Clinical-instrumental assessment of a daily cosmetic regimen in ensuring improved skin barrier and tolerability in sensitive skin undergoing acne treatment: a prospective open trial. <em>Int J Clin Expl Dermatol</em>, 8(1), 08-15.20. (20 patients (18 to 45 years) with sensitive and acne prone skin)</li></ol>",
             "page": ""
           }
         }
@@ -529,10 +643,12 @@
     "rich_text_CcYqft",
     "image_with_text_html_DGWMyN",
     "cl_featured_collection_MbjxVd",
-    "image_with_text_T8yKPe",
+    "multicolumn_CQCX7D",
     "rich_text_HUxECR",
     "cl_slideshow_4tCcxJ",
     "multicolumn_html_NwAPwU",
+    "multicolumn_Q9V4Kp",
+    "image_with_text_html_LYKX9k",
     "cl_featured_collection_gPpbQz",
     "collapsible_content_dgkKCE",
     "newsletter_ptPkgb"
