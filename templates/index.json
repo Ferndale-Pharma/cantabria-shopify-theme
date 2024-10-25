@@ -464,6 +464,9 @@
         "column_jdJJMU",
         "column_6hVRfc"
       ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
       "settings": {
         "title": "Innovation and scientific excellence",
         "heading_size": "h2",
@@ -474,7 +477,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,

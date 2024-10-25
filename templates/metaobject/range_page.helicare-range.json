@@ -44,7 +44,7 @@
         "buttons_Ptfz3f"
       ],
       "settings": {
-        "image": "shopify://shop_images/Heliocare_Range_Banner.jpg",
+        "image": "shopify://shop_images/CL-WEB-0002_-_Banner_-_Heliocare.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -411,34 +411,6 @@
         "padding_bottom": 64
       }
     },
-    "cl_featured_collection_UQd4Xn": {
-      "type": "cl-featured-collection",
-      "settings": {
-        "title": "Find the right Heliocare product for you",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "heliocare",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "standard",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
     "multicolumn_zjQz6Y": {
       "type": "multicolumn",
       "blocks": {
@@ -505,6 +477,34 @@
         "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "cl_featured_collection_UQd4Xn": {
+      "type": "cl-featured-collection",
+      "settings": {
+        "title": "Find the right Heliocare product for you",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "heliocare",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 64,
         "padding_bottom": 64
       }
