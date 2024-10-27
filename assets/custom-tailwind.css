@@ -343,7 +343,7 @@ a.pagination__item-arrow {
 /** Ingredient filter list **/
 .alpha-list-group {
   @apply twcss-list-none;
-  @apply twcss-grid twcss-grid-cols-[repeat(auto-fill,minmax(400px,1fr))] twcss-gap-[4rem];
+  @apply twcss-grid md:twcss-grid-cols-[repeat(auto-fill,minmax(400px,1fr))] twcss-gap-[4rem];
 }
 
 .ingredient__search {
@@ -633,7 +633,6 @@ span.cl-swatch {
   }
   .grid.product-grid.contains-card.contains-card--product:not(.grid.product-grid.contains-card.contains-card--product.slider.slider--desktop) {
     justify-content: center;
-    gap: 4rem;
   }
 }
 
