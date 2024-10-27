@@ -44,7 +44,7 @@
         "buttons_Ptfz3f"
       ],
       "settings": {
-        "image": "shopify://shop_images/Heliocare_Range_Banner.jpg",
+        "image": "shopify://shop_images/CL-WEB-0002_-_Banner_-_Heliocare.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -121,7 +121,7 @@
         "button_Gy8FBp"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_All_Year_Round.jpg",
+        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_All_Year_Round_ee4ff99d-dbca-43ba-b4ee-6c40d805f396.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -139,7 +139,7 @@
     "cl_featured_collection_wkhxrk": {
       "type": "cl-featured-collection",
       "settings": {
-        "title": "Ideal for use every day",
+        "title": "Facial sun protection, ideal for every day use",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -151,235 +151,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "standard",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "multicolumn_3TtWA3": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_bQYjA9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/High-Level_Broad-Spectrum_Protection.jpg",
-            "title": "Very high-level, broad-spectrum UV protection",
-            "text": "<p>UVB (SPF50&gt;) and UVA (PA++++).</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_EEAafK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/HEVL_IR-A_Free-Radical_defence.jpg",
-            "title": "Fernblock®+ Antioxidant Technology",
-            "text": "<p>Proven by dermatologists to help enhance protection from UVA, Visible Light, IR-A and free radical and repair DNA damage.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_yjWteq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Innovative_Unique_Formulations.jpg",
-            "title": "A sunscreen for everyone, for every day",
-            "text": "<p>With unique formulas tailored for different skin types and special skin care concerns, finish and coverage preferences.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_r8EQyq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/DNA_Repair_Activity.jpg",
-            "title": "Holistic skin protection, inside and out",
-            "text": "<p>With topical sunscreens and oral skin supplements.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_bQYjA9",
-        "column_EEAafK",
-        "column_yjWteq",
-        "column_r8EQyq"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "Why choose Heliocare 360°?",
-        "heading_size": "h2",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "image_with_text_j7VAgM": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_Qjfn4L": {
-          "type": "heading",
-          "settings": {
-            "heading": "Effective ingredients, proven by dermatologists",
-            "heading_size": "h2"
-          }
-        },
-        "text_wnr6Tx": {
-          "type": "text",
-          "settings": {
-            "text": "<p>All Heliocare 360° products contain a unique combination of UV filters, ingredients and technologies like no other, protecting the skin from harmful UVA, UVB, Visible light and Infrared-A, as well as oxidative stress, premature skin ageing, hyperpigmentation and indirect DNA damage. </p><p>Fernblock®+ is the exclusive, dermatologically proven, powerful antioxidant that’s incorporated into every Heliocare 360° topical sunscreen and skin health supplement. It is clinically proven to help prevent and repair damage caused by daylight and environmental free radicals, including damage to the skin’s DNA and immune system, and premature skin ageing.  </p><p>Fernblock®+’s efficacy is unsurpassed in photo protection, and is the result of decades of research and development by leading dermatologists. Backed by more than 50 scientific and clinical studies,<strong> </strong> nothing protects your skin like Heliocare 360° with Fernblock®+. </p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Qjfn4L",
-        "text_wnr6Tx"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Full_Spectrum_Daily_Sun_Protection.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-2",
         "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "multicolumn_html_n7HF8i": {
-      "type": "multicolumn-html",
-      "blocks": {
-        "column_9GGYJn": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/UV_PROTECTION.png",
-            "title": "",
-            "text": "<h3>Protect the skin against damage caused by daylight: UVA, UVB, visible light and infrared-A<sup>1,2,3</sup>\n</h3>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_g4L7DY": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/PREVENT_COLLAGEN_BREAKDOWN.png",
-            "title": "",
-            "text": "<h3>Prevent collagen breakdown<sup>2</sup>\n</h3>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_w3UFqf": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/REPAIR_DNA.png",
-            "title": "",
-            "text": "<h3>Protect and repairs skin cell DNA<sup>4</sup>\n</h3>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_XYc9rf": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/PREVENT_PIGMENTATION.png",
-            "title": "",
-            "text": "<h3>Prevent light-induced pigmentation<sup>5</sup>\n</h3>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_GUphPb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/PROTECT_SKIN_IMMUNE_SYSTEM.png",
-            "title": "",
-            "text": "<h3>Protect the skin’s immune system<sup>5</sup>\n</h3>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_P8Cced": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/IMPROVE_SPF_FILTERS.png",
-            "title": "",
-            "text": "<h3>Improve the efficacy of SPF filters by up to 14%<sup>6</sup>\n</h3>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_9GGYJn",
-        "column_g4L7DY",
-        "column_w3UFqf",
-        "column_XYc9rf",
-        "column_GUphPb",
-        "column_P8Cced"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "Fernblock is clinically proven to:",
-        "heading_size": "h2",
-        "image_width": "third",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "cl_featured_collection_UQd4Xn": {
-      "type": "cl-featured-collection",
-      "settings": {
-        "title": "Find the right Heliocare product for you",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "heliocare",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -439,6 +211,206 @@
         "padding_bottom": 64
       }
     },
+    "multicolumn_3TtWA3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bQYjA9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/High-Level_Broad-Spectrum_Protection.jpg",
+            "title": "Very high-level, broad-spectrum UV protection",
+            "text": "<p>UVB (SPF50&gt;) and UVA (PA++++).</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EEAafK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/HEVL_IR-A_Free-Radical_defence.jpg",
+            "title": "Fernblock®+ Antioxidant Technology",
+            "text": "<p>Proven by dermatologists to help enhance protection from UVA, Visible Light, IR-A and free radical and repair DNA damage.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yjWteq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Innovative_Unique_Formulations.jpg",
+            "title": "A sunscreen for everyone, for every day",
+            "text": "<p>With unique formulas tailored for different skin types and special skin care concerns, finish and coverage preferences.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_r8EQyq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DNA_Repair_Activity.jpg",
+            "title": "Holistic skin protection, inside and out",
+            "text": "<p>With topical sunscreens and oral skin supplements.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bQYjA9",
+        "column_EEAafK",
+        "column_yjWteq",
+        "column_r8EQyq"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "Why choose Heliocare 360°?",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_j7VAgM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Qjfn4L": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fernblock®+ antioxidant technology",
+            "heading_size": "h2"
+          }
+        },
+        "text_wnr6Tx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All Heliocare 360° products contain a unique combination of UV filters, ingredients and technologies like no other, protecting the skin from harmful UVA, UVB, Visible light and Infrared-A, as well as oxidative stress, premature skin ageing, hyperpigmentation and indirect DNA damage. </p><p>Fernblock®+ is the exclusive, dermatologically proven, powerful antioxidant that’s incorporated into every Heliocare 360° topical sunscreen and skin health supplement. It is clinically proven to help prevent and repair damage caused by daylight and environmental free radicals, including damage to the skin’s DNA and immune system, and premature skin ageing.  </p><p>Fernblock®+’s efficacy is unsurpassed in photo protection, and is the result of decades of research and development by leading dermatologists. Backed by more than 50 scientific and clinical studies,<strong> </strong> nothing protects your skin like Heliocare 360° with Fernblock®+. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Qjfn4L",
+        "text_wnr6Tx"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/FERNBLOCK.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_html_n7HF8i": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_9GGYJn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/UV_PROTECTION.png",
+            "title": "",
+            "text": "<h3><b>Protect the skin against damage caused by daylight: UVA, UVB, visible light and infrared-A<sup>1,2,3</sup>\n</b></h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_g4L7DY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PREVENT_COLLAGEN_BREAKDOWN.png",
+            "title": "",
+            "text": "<h3>\n<b>Prevent collagen breakdown<sup>2</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_w3UFqf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/REPAIR_DNA.png",
+            "title": "",
+            "text": "<h3>\n<b>Protect and repairs skin cell DNA<sup>4</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XYc9rf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PREVENT_PIGMENTATION.png",
+            "title": "",
+            "text": "<h3>\n<b>Prevent light-induced pigmentation<sup>5</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GUphPb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PROTECT_SKIN_IMMUNE_SYSTEM.png",
+            "title": "",
+            "text": "<h3>\n<b>Protect the skin’s immune system<sup>5</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_P8Cced": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMPROVE_SPF_FILTERS.png",
+            "title": "",
+            "text": "<h3>\n<b>Improve the efficacy of SPF filters by up to 14%<sup>6</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_9GGYJn",
+        "column_g4L7DY",
+        "column_w3UFqf",
+        "column_XYc9rf",
+        "column_GUphPb",
+        "column_P8Cced"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "Fernblock is clinically proven to:",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "multicolumn_zjQz6Y": {
       "type": "multicolumn",
       "blocks": {
@@ -490,7 +462,7 @@
         "column_PCbzKa"
       ],
       "custom_css": [
-
+        "h3 {color: #000;}"
       ],
       "settings": {
         "title": "Personalised facial sun protection for everyone, for every day",
@@ -502,9 +474,37 @@
         "background_style": "none",
         "button_label": "View products",
         "button_link": "shopify://collections/heliocare",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "cl_featured_collection_UQd4Xn": {
+      "type": "cl-featured-collection",
+      "settings": {
+        "title": "Find the right Heliocare product for you",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "heliocare",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -782,7 +782,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 64,
@@ -849,7 +849,7 @@
         "background_style": "none",
         "button_label": "View products",
         "button_link": "shopify://collections/all-products",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 64,
@@ -927,12 +927,12 @@
     "rich_text_YYXacY",
     "image_with_text_48BKmX",
     "cl_featured_collection_wkhxrk",
+    "image_with_text_pya9Dp",
     "multicolumn_3TtWA3",
     "image_with_text_j7VAgM",
     "multicolumn_html_n7HF8i",
-    "cl_featured_collection_UQd4Xn",
-    "image_with_text_pya9Dp",
     "multicolumn_zjQz6Y",
+    "cl_featured_collection_UQd4Xn",
     "rich_text_p3BLWR",
     "cl_slideshow_9QxUaB",
     "multicolumn_VxRL3F",

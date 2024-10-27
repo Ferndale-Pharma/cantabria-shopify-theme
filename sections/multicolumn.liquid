@@ -129,7 +129,7 @@
                 {%- if block.settings.link_label != blank -%}
                   <div class="link__wrapper">
                     <a
-                      class="link animate-arrow"
+                      class="link animate-arrow{% if section.settings.column_alignment == 'center' %} twcss-justify-center{% endif %}"
                       {% if block.settings.link == blank %}
                         role="link" aria-disabled="true"
                       {% else %}

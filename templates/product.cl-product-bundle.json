@@ -98,7 +98,7 @@
             "heading": "Ingredients",
             "icon": "none",
             "content": "<h3>Key Ingredients</h3>",
-            "all_ingredients": "<p><strong>All ingredients</strong></p><p>{{ product.metafields.custom.all_ingredients | metafield_tag }}</p>"
+            "all_ingredients": "<p>{{ product.metafields.custom.all_ingredients | metafield_tag }}</p>"
           }
         }
       },

@@ -44,7 +44,7 @@
         "buttons_JLFrH9"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0001_-_Banner_-_Homepage_-_1_ce2d93ec-4bb8-49f8-b799-38f6ba1bdb6a.jpg",
+        "image": "shopify://shop_images/CL-WEB_-_Banner_-_Homepage.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -180,6 +180,7 @@
         },
         "column_84TrPU": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Image.png",
             "title": "",
@@ -199,7 +200,7 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
@@ -463,6 +464,9 @@
         "column_jdJJMU",
         "column_6hVRfc"
       ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
       "settings": {
         "title": "Innovation and scientific excellence",
         "heading_size": "h2",
@@ -473,7 +477,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
