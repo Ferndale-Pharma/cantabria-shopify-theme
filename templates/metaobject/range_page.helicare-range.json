@@ -629,6 +629,7 @@
         "slide_kGVXGX": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/CITRIC_ADIC.jpg",
             "heading": "Citric Acid",
             "heading_size": "h1",
             "subheading": "Citric Acid is an alpha hydroxy acid (AHA) that exfoliates the skin, promoting cell turnover and a brighter complexion. It helps even skin tone, smooths texture, and reduces the appearance of fine lines.",
@@ -646,6 +647,7 @@
         "slide_GrxUb8": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/GINGER_ROOT_EXTRACT.jpg",
             "heading": "Ginger Root Extract",
             "heading_size": "h1",
             "subheading": "Ginger Root Extract is a natural antioxidant that helps soothe and protect the skin from environmental damage, while also improving skin tone and radiance.",
