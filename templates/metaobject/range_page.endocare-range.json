@@ -640,6 +640,37 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "collapsible_key_ingredients_9erVrD": {
+      "type": "collapsible-key-ingredients",
+      "blocks": {
+        "collapsible_row_rCMfYF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "References",
+            "icon": "question_mark",
+            "row_content": "<ol><li>Corneometer®, TEWAmeter®, Primos 3D®, efficacy and tolerability test in 20 subjects (30-57 years of age), twice daily, 28 days. Complife, Madrid, 2022  </li><li>Evaluation of product subjective efficacy. Subjective evaluation: 20 patients (25-60 years old) ;  28 days, 1-2 times daily. Madrid: Zurko Research S.L; 2018. Data on file </li><li>100% subjects report improvements in skin HYDRATION. 95% subjects report improvements in skin TEXTURE, BRIGHTNESS and RADIANCE. Subjective evaluation in 20 subjects of all skin types between 25-60 years of age. 28 days of continuous use twice daily. Zurko Bioresearch, Madrid, 2019. Data on file </li><li>Evaluation of product subjective efficacy. 20 women aged 30-55 years with non-sensitive skin and mild-moderate photoaging.<em> </em>28 days with 1 application (at night). Madrid: Zurko Research S.L; 2022. Data on file </li><li>Subjective evaluation of 20 females 18-65 years with sensitive and resistant skin at least 50% with sensitive eyes and contact lenses. Makeup removal included eyelashes, mascara and waterproof lipstick. 28 days use. Zurko Bioresearch, Madrid, 2018. Data on file. </li></ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_rCMfYF"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-5",
+        "container_color_scheme": "scheme-5",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -656,6 +687,7 @@
     "rich_text_jBDxCK",
     "cl_slideshow_gDX4yN",
     "cl_featured_collection_bMdr3z",
-    "newsletter_AwFCKb"
+    "newsletter_AwFCKb",
+    "collapsible_key_ingredients_9erVrD"
   ]
 }
