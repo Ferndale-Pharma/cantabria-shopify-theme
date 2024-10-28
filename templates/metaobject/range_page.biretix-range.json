@@ -525,7 +525,7 @@
           "type": "button",
           "settings": {
             "button_label": "View product",
-            "button_link": "",
+            "button_link": "shopify://products/biretix-regime",
             "button_style_secondary": true
           }
         }
