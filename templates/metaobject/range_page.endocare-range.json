@@ -71,7 +71,7 @@
         "text_T9yqhc": {
           "type": "text",
           "settings": {
-            "text": "<p>Endocare is a scientific anti-ageing specialist skincare<br/>range, dermatologically proven address every stage and symptom of skin ageing.</p><p>Formulated with dermatological expertise, gold-standard<br/>active ingredients and unique patented technologies, Endocare products are<br/>clinically proven to brighten the skin and reduce texture, pigmentation and<br/>wrinkles, for visible, radiant results.</p>"
+            "text": "<p>Endocare is a scientific anti-ageing specialist skincare range, dermatologically proven to address every stage and symptom of skin ageing. </p><p>Formulated with dermatological expertise, gold-standard active ingredients and unique patented technologies, Endocare products are clinically proven to brighten the skin and reduce texture, pigmentation and wrinkles, for visible, radiant results. </p>"
           }
         }
       },
@@ -181,33 +181,179 @@
         "padding_bottom": 64
       }
     },
-    "image_with_text_NyW83E": {
-      "type": "image-with-text",
+    "image_with_text_html_UwaK9a": {
+      "type": "image-with-text-html",
       "blocks": {
-        "heading_XgEUcb": {
+        "heading_nqmfe6": {
           "type": "heading",
           "settings": {
-            "heading": "Innovative anti-ageing skincare, proven by dermatologists",
+            "heading": "Endocare Age Barrier",
             "heading_size": "h2"
           }
         },
-        "text_jTnNqL": {
+        "text_FnPaY3": {
           "type": "text",
           "settings": {
-            "text": "<p>Endocare combines powerful active ingredients with patented technologies, targeting the signs and symptoms of skin ageing and leaving the skin visibly radiant and rejuvenated. The range is clinically proven to enhance skin’s firmness and radiance, as well as improving texture, reducing pigmentation and minimising the appearance of lines and wrinkles.</p>",
+            "text": "<p>The Endocare Age Barrier range is dermatologically proven to promote a healthy skin barrier function, increases hydration &amp; plumpness and boosts skin health. It’s ideal for helping prevent the signs of premature ageing in younger skin, and for older skin showing signs of ageing such as dehydration, fine lines and wrinkles.</p>\n\n<p>Endocare Hyaluboost Serum, is expertly formulated with Hyaluronic Acid, B5, Niacinamide and the exclusive, patented Cantabria Labs technology EDAFENCE to hydrate, plump and reinforce the skin barrier. </p>\n<p><b>When tested under dermatological conditions, significant improvements were visible after just one week’s daily use, with 90% finding the skin more hydrated, firmer and with fewer wrinkles.<sup>1</sup></b></p> \n\n<p><b>Even better results in skin hydration, skin barrier reinforcement were found with ongoing use, as well as improvements in elasticity and firmness of the skin.<sup>1</sup></b></p>",
             "text_style": "body"
+          }
+        },
+        "button_m6G4Db": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "shopify://products/endocare-age-barrier-hyaluboost-serum",
+            "button_style_secondary": true
           }
         }
       },
       "block_order": [
-        "heading_XgEUcb",
-        "text_jTnNqL"
+        "heading_nqmfe6",
+        "text_FnPaY3",
+        "button_m6G4Db"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0005_-_Endocare_Brand_Page_-_Innovative_Anti-Ageing_Skincare.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_html_HgWF39": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_GzapQr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Endocare Radiance",
+            "heading_size": "h1"
+          }
+        },
+        "text_RPAUqp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Endocare Radiance products protect the skin against external aggressors, free radicals and pollution, and provide unrivalled anti-oxidant, brightening and anti-ageing activity.</p>  \n<p>Endocare Radiance C Ferulic EDAFENCE Serum uses patented EDAFENCE® technology to protect against pollution and free radicals. Combined with growth factors, Vitamin C, and Ferulic Acid, it brightens, firms, and stimulates collagen for a more radiant and youthful complexion.</p> \n\n<p>Its powerful anti-pollution, anti-oxidant and skin regeneration action helps protect against and correct environmental skin damage caused by sun, daylight and pollution exposure. With only 28 days use<sup>2,3</sup>:</p>\n\n<p><b>95% have brighter more luminous skin with a more even skin tone</b></p>\n\n<p><b>95% have visible improvement in skin texture</b></p> \n\n<p><b>100% have improved skin hydration</b></p>",
+            "text_style": "body"
+          }
+        },
+        "button_rnpU3m": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "shopify://products/endocare-radiance-c-ferulic-edafence-serum",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_GzapQr",
+        "text_RPAUqp",
+        "button_rnpU3m"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_html_67cwVE": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_Y4DNc9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Endocare Renewal",
+            "heading_size": "h2"
+          }
+        },
+        "text_aE8zB7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Endocare Renewal range has been dermatologically formulated to combat the visible signs of skin ageing and sun damage, delivering skin that is retexturized, smoother and softer with a more unified tone and luminosity. </p>\n\n<p>Ideal for visibly ageing skin with impaired skin texture and uneven skin tone, Endocare Renewal Glycoperfect (Az) Intensive Serum has been expertly formulated with the patented Azelaic Aox technology by Cantabria Labs, alongside intensive AHA Glycolic Acid.</p>  \n\n<p>After just 28 days, it is dermatologically proven to deliver exceptional results<sup>4:</sup></p> \n\n<p><b>100% have smoother skin</b></p>  \n\n<p><b>95% have a more even complexion with softer renewed skin</b></p> \n\n<p><b>90% have visible improvement in skin texture</b></p>",
+            "text_style": "body"
+          }
+        },
+        "button_eBgBPL": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "shopify://products/endocare-renewal-glycoperfect-intensive-serum",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y4DNc9",
+        "text_aE8zB7",
+        "button_eBgBPL"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_html_eXNQiE": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_36Gd8w": {
+          "type": "heading",
+          "settings": {
+            "heading": "Endocare Cleanse & Prepare",
+            "heading_size": "h2"
+          }
+        },
+        "text_MYRE7R": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Endocare Cleanse &amp; Prepare range is the perfect foundation for ENDOCARE’s dermatologically proven anti-ageing technologies. It uses expert ingredients including Niacinamide, Ecoskin and Xylitol to provide daily cleansing, moisturising and skin barrier function protection.</p>  \n\n<p>Endocare Micellar Solution is a deep and gentle daily cleanser which is perfect for removing impurities and makeup without the need for rinsing. The dermatologically proven ingredients help restore the skin barrier and microbiome while protecting against environmental stress, including pollution, and boost cell vitality.</p> \n\n<p>In dermatological tests<sup>5</sup>:</p>\n\n<p><b>89% reported smoother skin</b></p>\n\n<p><b>87% reported cleaner pores</b></p>  \n\n<p><b>80% reported more radiant skin</b></p> \n\n<p><b>100% had excellent skin tolerance</b></p>",
+            "text_style": "body"
+          }
+        },
+        "button_axWbnr": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "shopify://products/endocare-hydraactive-micellar-solution",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_36Gd8w",
+        "text_MYRE7R",
+        "button_axWbnr"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
@@ -259,7 +405,7 @@
         "column_tfaxLW"
       ],
       "custom_css": [
-
+        "h3 {color: #000;}"
       ],
       "settings": {
         "title": "Why choose Endocare?",
@@ -502,7 +648,10 @@
     "image_with_text_bTLWD6",
     "video_pxURAj",
     "cl_featured_collection_K3bAHf",
-    "image_with_text_NyW83E",
+    "image_with_text_html_UwaK9a",
+    "image_with_text_html_HgWF39",
+    "image_with_text_html_67cwVE",
+    "image_with_text_html_eXNQiE",
     "multicolumn_tidgVq",
     "rich_text_jBDxCK",
     "cl_slideshow_gDX4yN",
