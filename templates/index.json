@@ -592,7 +592,7 @@
           "settings": {
             "image": "shopify://shop_images/CL-WEB_-_Expert_Advice.jpg",
             "title": "Expert Advice",
-            "text": "<p>Health and skincare advice from top dermatologists and skincare professionals worldwide.</p>",
+            "text": "<p>Health and skincare advice from top dermatologists and skincare professionals.</p>",
             "link_label": "Learn more",
             "link": "shopify://blogs/expert-advice"
           }
