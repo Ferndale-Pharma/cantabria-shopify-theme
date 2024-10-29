@@ -87,7 +87,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "description": "<p>Dermatological skincare expertly<br/>researched and developed to deliver proven results.</p>",
+        "description": "<p>Experience Cantabria Labs dermatological skincare, expertly<br/>researched and developed to deliver proven results.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "cantabria-labs-hero-products",
@@ -425,65 +425,6 @@
         "padding_bottom": 64
       }
     },
-    "multicolumn_EPn7gK": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_bpzjnL": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/CL-WEB_-_Expert_Advice.jpg",
-            "title": "Expert Advice",
-            "text": "<p>Health and skincare advice from top dermatologists and skincare professionals worldwide.</p>",
-            "link_label": "Learn more",
-            "link": "shopify://blogs/expert-advice"
-          }
-        },
-        "column_jdJJMU": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/CL-WEB_-_Skincare_Guide.jpg",
-            "title": "Skincare Guides",
-            "text": "<p>In depth guides to help you make the right choice for your skin and achieve your skincare goals.</p>",
-            "link_label": "Learn more",
-            "link": "shopify://blogs/skincare-guides"
-          }
-        },
-        "column_6hVRfc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/CL-WEB_-_Ingredients_Glossary.jpg",
-            "title": "Ingredients Glossary",
-            "text": "<p>The key technologies and ingredients featured in Cantabria Labs’ outstanding product portfolio.</p>",
-            "link_label": "Learn more",
-            "link": "shopify://pages/ingredients"
-          }
-        }
-      },
-      "block_order": [
-        "column_bpzjnL",
-        "column_jdJJMU",
-        "column_6hVRfc"
-      ],
-      "custom_css": [
-        "h3 {color: #000;}"
-      ],
-      "settings": {
-        "title": "Innovation and scientific excellence",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
     "image_with_text_ajEfHF": {
       "type": "image-with-text",
       "blocks": {
@@ -643,6 +584,65 @@
         "padding_bottom": 64
       }
     },
+    "multicolumn_EPn7gK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bpzjnL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB_-_Expert_Advice.jpg",
+            "title": "Expert Advice",
+            "text": "<p>Health and skincare advice from top dermatologists and skincare professionals worldwide.</p>",
+            "link_label": "Learn more",
+            "link": "shopify://blogs/expert-advice"
+          }
+        },
+        "column_jdJJMU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB_-_Skincare_Guide.jpg",
+            "title": "Skincare Guides",
+            "text": "<p>In depth guides to help you make the right choice for your skin and achieve your skincare goals.</p>",
+            "link_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides"
+          }
+        },
+        "column_6hVRfc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB_-_Ingredients_Glossary.jpg",
+            "title": "Ingredients Glossary",
+            "text": "<p>The key technologies and ingredients featured in Cantabria Labs’ outstanding product portfolio.</p>",
+            "link_label": "Learn more",
+            "link": "shopify://pages/ingredients"
+          }
+        }
+      },
+      "block_order": [
+        "column_bpzjnL",
+        "column_jdJJMU",
+        "column_6hVRfc"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "Innovation and scientific excellence",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "multicolumn_DNgG9V": {
       "type": "multicolumn",
       "blocks": {
@@ -776,10 +776,10 @@
     "rich_text_WD8i97",
     "cl_slideshow_Bdfd6h",
     "multicolumn_Y9yFp6",
-    "multicolumn_EPn7gK",
     "image_with_text_ajEfHF",
     "multicolumn_LUcipP",
     "multicolumn_NeKPxJ",
+    "multicolumn_EPn7gK",
     "multicolumn_DNgG9V",
     "newsletter_qHy7Hn"
   ]
