@@ -343,7 +343,7 @@
           "type": "button",
           "settings": {
             "button_label": "View product",
-            "button_link": "shopify://products/endocare-hydraactive-micellar-solution",
+            "button_link": "shopify://products/endocare-hydractive-micellar-solution",
             "button_style_secondary": true
           }
         }
