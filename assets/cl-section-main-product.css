@@ -1519,3 +1519,6 @@ a.product__text {
     border: none;
   }
 }
+.product__description p:not(:last-child) {
+  margin-bottom: 1rem;
+}
