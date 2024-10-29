@@ -22,7 +22,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Welcome to Cantabria Labs - leaders in dermatologist prescription and recommendation in Europe",
+            "text": "Welcome to Cantabria Labs, the home of dermatological skincare expertly researched and developed to deliver proven results",
             "text_style": "subtitle"
           }
         },
@@ -87,7 +87,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "description": "<p>Experience Cantabria Labs dermatological skincare, expertly<br/>researched and developed to deliver proven results.</p>",
+        "description": "<p><strong>Our portfolio is a leader in dermatological prescription and recommendation in Europe.</strong> </p><p>Our goal is to help you manage your skin concerns, improve your skin health and celebrate life.</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "cantabria-labs-hero-products",
