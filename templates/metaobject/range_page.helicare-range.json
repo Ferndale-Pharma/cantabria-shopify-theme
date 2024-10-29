@@ -15,7 +15,7 @@
         "heading_EG6cQt": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>{{ metaobject.name.value }}</strong>",
+            "heading": "HELIOCARE",
             "heading_size": "h1"
           }
         },
@@ -64,14 +64,14 @@
         "heading_CNqReC": {
           "type": "heading",
           "settings": {
-            "heading": "Nothing protects skin like Heliocare 360°",
+            "heading": "Nothing protects skin like HELIOCARE 360°",
             "heading_size": "h2"
           }
         },
         "text_cyAfnX": {
           "type": "text",
           "settings": {
-            "text": "<p>Heliocare 360° is a dermatologist proven sun protection range providing very high level, full-spectrum daily protection against UVA, UVB, visible light and infrared-A. With its unique antioxidant technology Fernblock®+, Heliocare 360° is clinically proven to protect beyond typical sunscreen, defending the skin from within and repairing damage caused by daylight.</p>"
+            "text": "<p>HELIOCARE 360° is a dermatologist proven sun protection range providing very high level, full-spectrum daily protection against UVA, UVB, visible light and infrared-A. With its unique antioxidant technology Fernblock®+, HELIOCARE 360° is clinically proven to protect beyond typical sunscreen, defending the skin from within and repairing damage caused by daylight.</p>"
           }
         }
       },
@@ -102,7 +102,7 @@
         "text_6ktVBh": {
           "type": "text",
           "settings": {
-            "text": "<p>Even in autumn and winter, harmful UVA, visible light, and Infrared-A rays are present throughout the day. These rays penetrate deeper into the skin, contributing to premature skin aging, dark spots, and DNA damage. </p><p>With unique formulas tailored for all skin types, special skin care concerns, finish and coverage preferences, as well as a range of oral skin supplements, Heliocare 360° is dermatologically proven to provide the highest protection for your skin all year round, whatever the weather. </p>",
+            "text": "<p>Even in autumn and winter, harmful UVA, visible light, and Infrared-A rays are present throughout the day. These rays penetrate deeper into the skin, contributing to premature skin aging, dark spots, and DNA damage. </p><p>With unique formulas tailored for all skin types, special skin care concerns, finish and coverage preferences, as well as a range of oral skin supplements, HELIOCARE 360° is dermatologically proven to provide the highest protection for your skin all year round, whatever the weather. </p>",
             "text_style": "body"
           }
         },
@@ -170,14 +170,14 @@
         "heading_6tN9CU": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Introducing NEW Heliocare 360° Sensation​</strong>",
+            "heading": "Introducing NEW HELIOCARE 360° Sensation​",
             "heading_size": "h2"
           }
         },
         "text_Q7AU4J": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>The ultra-light very high protection sunscreen for everyone, every day.</strong></p><p>Suitable for all skin types and tones. Heliocare 360° Sensation is an ultra-light, oil-free daily sunscreen. In dermatological tests, 100% of users agreed that Heliocare 360° Sensation absorbs quickly, melts into the skin and provides a light sensation with a matte finish to reduce shine – perfect for daily use under makeup, enhancing any daily skincare routine. </p><p>Like every Heliocare 360° product, Heliocare 360° Sensation provides very high SPF50+ & PA++++,  full-spectrum coverage. Infused with Fernblock®+ Antioxidant Technology, it protects skin against damage from UVA, visible light, infrared-A, free radicals and helps repair DNA damage. The additional Ginger Root extract provides enhanced skin calming antioxidant activity.  </p>",
+            "text": "<p><strong>The ultra-light very high protection sunscreen for everyone, every day.</strong></p><p>Suitable for all skin types and tones. HELIOCARE 360° Sensation is an ultra-light, oil-free daily sunscreen. In dermatological tests, 100% of users agreed that HELIOCARE 360° Sensation absorbs quickly, melts into the skin and provides a light sensation with a matte finish to reduce shine – perfect for daily use under makeup, enhancing any daily skincare routine. </p><p>Like every HELIOCARE 360° product, HELIOCARE 360° Sensation provides very high SPF50+ & PA++++,  full-spectrum coverage. Infused with Fernblock®+ Antioxidant Technology, it protects skin against damage from UVA, visible light, infrared-A, free radicals and helps repair DNA damage. The additional Ginger Root extract provides enhanced skin calming antioxidant activity.  </p>",
             "text_style": "body"
           }
         },
@@ -265,7 +265,7 @@
         "h3 {color: #000;}"
       ],
       "settings": {
-        "title": "Why choose Heliocare 360°?",
+        "title": "Why choose HELIOCARE 360°?",
         "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "adapt",
@@ -294,7 +294,7 @@
         "text_wnr6Tx": {
           "type": "text",
           "settings": {
-            "text": "<p>All Heliocare 360° products contain a unique combination of UV filters, ingredients and technologies like no other, protecting the skin from harmful UVA, UVB, Visible light and Infrared-A, as well as oxidative stress, premature skin ageing, hyperpigmentation and indirect DNA damage. </p><p>Fernblock®+ is the exclusive, dermatologically proven, powerful antioxidant that’s incorporated into every Heliocare 360° topical sunscreen and skin health supplement. It is clinically proven to help prevent and repair damage caused by daylight and environmental free radicals, including damage to the skin’s DNA and immune system, and premature skin ageing.  </p><p>Fernblock®+’s efficacy is unsurpassed in photo protection, and is the result of decades of research and development by leading dermatologists. Backed by more than 50 scientific and clinical studies,<strong> </strong> nothing protects your skin like Heliocare 360° with Fernblock®+. </p>",
+            "text": "<p>All HELIOCARE 360° products contain a unique combination of UV filters, ingredients and technologies like no other, protecting the skin from harmful UVA, UVB, Visible light and Infrared-A, as well as oxidative stress, premature skin ageing, hyperpigmentation and indirect DNA damage. </p><p>Fernblock®+ is the exclusive, dermatologically proven, powerful antioxidant that’s incorporated into every HELIOCARE 360° topical sunscreen and skin health supplement. It is clinically proven to help prevent and repair damage caused by daylight and environmental free radicals, including damage to the skin’s DNA and immune system, and premature skin ageing.  </p><p>Fernblock®+’s efficacy is unsurpassed in photo protection, and is the result of decades of research and development by leading dermatologists. Backed by more than 50 scientific and clinical studies,<strong> </strong> nothing protects your skin like HELIOCARE 360° with Fernblock®+. </p>",
             "text_style": "body"
           }
         }
@@ -418,7 +418,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Personalised_Sunscreen_-_Sensation.jpg",
-            "title": "Heliocare 360° Sensation Sunscreen",
+            "title": "HELIOCARE 360° Sensation Sunscreen",
             "text": "<p>Very high-level ultra-light protection for all skin types.</p>",
             "link_label": "",
             "link": ""
@@ -428,7 +428,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Personalised_Sunscreen_-_Tinted_Sunscreens_6055ddfc-ca84-40d8-85ae-ee6249ed80ba.jpg",
-            "title": "Heliocare 360° Tinted Sunscreens",
+            "title": "HELIOCARE 360° Tinted Sunscreens",
             "text": "<p>Very high-level protection with skin perfecting coverage.</p>",
             "link_label": "",
             "link": ""
@@ -438,7 +438,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Personalised_Sunscreen_-_Special_Care_e2fab4c8-2ac5-42fc-8025-4df0abc6fa8f.jpg",
-            "title": "Heliocare 360° Special Care Sunscreens",
+            "title": "HELIOCARE 360° Special Care Sunscreens",
             "text": "<p>Very high-level protection for specific skin concerns.</p>",
             "link_label": "",
             "link": ""
@@ -448,7 +448,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Personalised_Sunscreen_-_Capsules.jpg",
-            "title": "Heliocare 360° Oral Skin Supplements",
+            "title": "HELIOCARE 360° Oral Skin Supplements",
             "text": "<p>Enhance topical protection and support skin health from within.</p>",
             "link_label": "",
             "link": ""
@@ -484,7 +484,7 @@
     "cl_featured_collection_UQd4Xn": {
       "type": "cl-featured-collection",
       "settings": {
-        "title": "Find the right Heliocare product for you",
+        "title": "Find the right HELIOCARE product for you",
         "heading_size": "h2",
         "description": "",
         "show_description": false,

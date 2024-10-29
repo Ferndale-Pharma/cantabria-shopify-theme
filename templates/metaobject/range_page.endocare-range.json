@@ -15,7 +15,7 @@
         "heading_EG6cQt": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>{{ metaobject.name.value }}</strong>",
+            "heading": "ENDOCARE",
             "heading_size": "h0"
           }
         },
@@ -71,7 +71,7 @@
         "text_T9yqhc": {
           "type": "text",
           "settings": {
-            "text": "<p>Endocare is a scientific anti-ageing specialist skincare range, dermatologically proven to address every stage and need of the skin ageing process. </p><p>Formulated with dermatological expertise, gold-standard active ingredients and unique patented technologies, Endocare products are clinically proven to brighten the skin and reduce texture, pigmentation and wrinkles, for visible, radiant results. </p>"
+            "text": "<p>ENDOCARE is a scientific anti-ageing specialist skincare range, dermatologically proven to address every stage and need of the skin ageing process. </p><p>Formulated with dermatological expertise, gold-standard active ingredients and unique patented technologies, ENDOCARE products are clinically proven to brighten the skin and reduce texture, pigmentation and wrinkles, for visible, radiant results. </p>"
           }
         }
       },
@@ -412,7 +412,7 @@
         "h3 {color: #000;}"
       ],
       "settings": {
-        "title": "Why choose Endocare?",
+        "title": "Why choose ENDOCARE?",
         "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "square",
@@ -586,7 +586,7 @@
     "cl_featured_collection_bMdr3z": {
       "type": "cl-featured-collection",
       "settings": {
-        "title": "Find the right Endocare products for your skin",
+        "title": "Find the right ENDOCARE products for your skin",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
