@@ -15,7 +15,7 @@
         "heading_EG6cQt": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>{{ metaobject.name.value }}</strong>",
+            "heading": "NEORETIN",
             "heading_size": "h1"
           }
         },
@@ -71,7 +71,7 @@
         "text_Xrkt7L": {
           "type": "text",
           "settings": {
-            "text": "<p>Clinically proven to reduce the appearance of dark spots and hyperpigmentation, Neoretin is a dermatologist provenskincare range targeting pigmentation and uneven skin tone. Its combination of innovative retinoid technology and gold-standard depigmenting ingredientsact at every stage of the melanin production cyclefor a more luminous and even complexion.</p>"
+            "text": "<p>Clinically proven to reduce the appearance of dark spots and hyperpigmentation, NEORETIN is a dermatologist proven skincare range targeting pigmentation and uneven skin tone. Its combination of innovative retinoid technology and gold-standard depigmenting ingredients act at every stage of the melanin production cycle for a more luminous and even complexion.</p>"
           }
         }
       },
@@ -95,7 +95,7 @@
         "heading_p4kjXQ": {
           "type": "heading",
           "settings": {
-            "heading": "Neoretin Pigment Neutraliser Serum",
+            "heading": "NEORETIN DISCROM CONTROL Pigment Neutraliser Serum",
             "heading_size": "h2"
           }
         },
@@ -164,7 +164,7 @@
         "text_gGNkiH": {
           "type": "text",
           "settings": {
-            "text": "<p>Neoretin contains a combination of innovative ingredients and patented technologies to promote a smooth, bright and even complexion, with a visible reduction in dark spots. Each formulation features RetinSphere® Technology, a new generation of retinoids offering a dual-delivery system of two types of retinol for immediate and sustained release, along with Azelaic Aox-TECH to boost the action of azelaic acid up to five times. Additional anti-pollution technology fights free radicals, one of the main causes of hyperpigmentation, while a pigment control system regulates melanin synthesis at every stage.</p>",
+            "text": "<p>NEORETIN contains a combination of innovative ingredients and patented technologies to promote a smooth, bright and even complexion, with a visible reduction in dark spots. Each formulation features RetinSphere® Technology, a new generation of retinoids offering a dual-delivery system of two types of retinol for immediate and sustained release, along with Azelaic Aox-TECH to boost the action of azelaic acid up to five times. Additional anti-pollution technology fights free radicals, one of the main causes of hyperpigmentation, while a pigment control system regulates melanin synthesis at every stage.</p>",
             "text_style": "body"
           }
         }
@@ -232,7 +232,7 @@
         "h3 {color: #000;}"
       ],
       "settings": {
-        "title": "Why choose Neoretin?",
+        "title": "Why choose NEORETIN?",
         "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "square",
@@ -425,7 +425,7 @@
     "cl_featured_collection_PFMcJn": {
       "type": "cl-featured-collection",
       "settings": {
-        "title": "Find the right Neoretin products for your skin",
+        "title": "Find the right NEORETIN products for your skin",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
