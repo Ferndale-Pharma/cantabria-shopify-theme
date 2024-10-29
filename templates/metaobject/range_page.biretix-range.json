@@ -15,7 +15,7 @@
         "heading_EG6cQt": {
           "type": "heading",
           "settings": {
-            "heading": "{{ metaobject.name.value }}",
+            "heading": "BIRETIX",
             "heading_size": "h1"
           }
         },
@@ -71,7 +71,7 @@
         "text_bTDdty": {
           "type": "text",
           "settings": {
-            "text": "<p>Powered by innovative retinol and antimicrobial technologies, RetinSphere® and BIOPEP-15, as well as scientifically proven powerhouse ingredients such as glycolic acid, salicylic acid and niacinamide, Biretix offers a holistic skincare solution for acne-prone skin.  </p><p>Use regularly to target every stage of the acne-prone skin cycle to significantly reduce imperfections and blemishes and promote a healthier complexion.  </p>"
+            "text": "<p>Powered by innovative retinol and antimicrobial technologies, RetinSphere® and BIOPEP-15, as well as scientifically proven powerhouse ingredients such as glycolic acid, salicylic acid and niacinamide, BIRETIX offers a holistic skincare solution for acne-prone skin.  </p><p>Use regularly to target every stage of the acne-prone skin cycle to significantly reduce imperfections and blemishes and promote a healthier complexion.  </p>"
           }
         }
       },
@@ -95,14 +95,14 @@
         "heading_UHmHqx": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Biretix Tri-Active Anti-Blemish Gel</strong> ",
+            "heading": "BIRETIX Tri-Active Anti-Blemish Gel ",
             "heading_size": "h2"
           }
         },
         "text_EeLqga": {
           "type": "text",
           "settings": {
-            "text": "<p>Biretix Tri-Active Anti-Blemish Gel’s effective and caring triple-action formulation significantly reduces imperfections, blemishes, oil and shine to make the skin feel softer, with improved skin texture, and a more uniform complexion.<sup>1</sup></p>\n<p>After just 28 days use, Biretix Tri-Active Anti-Blemish Gel is dermatologically proven to significantly reduce imperfections by 61%, and blemishes by up to 76%.<sup>1,2</sup></p>",
+            "text": "<p>BIRETIX Tri-Active Anti-Blemish Gel’s effective and caring triple-action formulation significantly reduces imperfections, blemishes, oil and shine to make the skin feel softer, with improved skin texture, and a more uniform complexion.<sup>1</sup></p>\n<p>After just 28 days use, BIRETIX Tri-Active Anti-Blemish Gel is dermatologically proven to significantly reduce imperfections by 61%, and blemishes by up to 76%.<sup>1,2</sup></p>",
             "text_style": "body"
           }
         },
@@ -517,7 +517,7 @@
         "text_qbkYTr": {
           "type": "text",
           "settings": {
-            "text": "<p>Biretix Tri-Active Gel, combined with Biretix Cleanser and Biretix Hydramat Fluid, form the perfect three step daily skin regime to significantly reduce imperfections, blemishes and sebum while taking care of the skin. The regime is dermatologically proven to have excellent skin tolerance, significantly increase skin moisturisation and reduce redness, even in sensitive acne-prone skin.<sup>6</sup></p>",
+            "text": "<p>BIRETIX Tri-Active Gel, combined with BIRETIX Cleanser and BIRETIX Hydramat Fluid, form the perfect three step daily skin regime to significantly reduce imperfections, blemishes and sebum while taking care of the skin. The regime is dermatologically proven to have excellent skin tolerance, significantly increase skin moisturisation and reduce redness, even in sensitive acne-prone skin.<sup>6</sup></p>",
             "text_style": "body"
           }
         },
@@ -554,7 +554,7 @@
     "cl_featured_collection_gPpbQz": {
       "type": "cl-featured-collection",
       "settings": {
-        "title": "Find the right Biretix products for your skin",
+        "title": "Find the right BIRETIX products for your skin",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
