@@ -454,7 +454,7 @@
         "column_Qq4TY7": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_B_A_s.jpg",
+            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_B_A_s_1aea7c4d-049c-468d-bdaf-10e4ed97d77a.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -464,7 +464,7 @@
         "column_L4KqUB": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_B_A_s_2.jpg",
+            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_B_A_s_3_3a790d8d-b525-475c-9d25-3dcb0bb9b29e.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -474,7 +474,7 @@
         "column_7tN6mb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_B_A_s_3.jpg",
+            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_B_A_s_2_c65f8849-bab6-4951-862d-2ec791305b0f.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -487,7 +487,6 @@
         "column_L4KqUB",
         "column_7tN6mb"
       ],
-      "disabled": true,
       "settings": {
         "title": "<strong>Effective and caring blemish control</strong>",
         "heading_size": "h2",
