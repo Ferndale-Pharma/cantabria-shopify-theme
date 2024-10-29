@@ -110,28 +110,28 @@
         "padding_bottom": 32
       }
     },
-    "cl_collage_diBjWc": {
-      "type": "cl-collage",
+    "cl_collage_ranges_UM4mMA": {
+      "type": "cl-collage-ranges",
       "blocks": {
-        "collection_NTUdVh": {
+        "collection_U9C7wy": {
           "type": "collection",
           "settings": {
             "collection": "heliocare"
           }
         },
-        "collection_rbhL9w": {
+        "collection_X43qCC": {
           "type": "collection",
           "settings": {
             "collection": "biretix"
           }
         },
-        "collection_Yi3aP4": {
+        "collection_YUE6tg": {
           "type": "collection",
           "settings": {
             "collection": "endocare"
           }
         },
-        "collection_ieYt8B": {
+        "collection_6RqkiX": {
           "type": "collection",
           "settings": {
             "collection": "neoretin"
@@ -139,19 +139,19 @@
         }
       },
       "block_order": [
-        "collection_NTUdVh",
-        "collection_rbhL9w",
-        "collection_Yi3aP4",
-        "collection_ieYt8B"
+        "collection_U9C7wy",
+        "collection_X43qCC",
+        "collection_YUE6tg",
+        "collection_6RqkiX"
       ],
       "settings": {
         "heading": "Ranges and indications",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "column",
-        "card_styles": "none",
-        "color_scheme": "scheme-1",
-        "padding_top": 32,
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 64,
         "padding_bottom": 64
       }
     },
@@ -771,7 +771,7 @@
     "image_banner",
     "rich_text_amGfhA",
     "cl_featured_collection_rx4MFi",
-    "cl_collage_diBjWc",
+    "cl_collage_ranges_UM4mMA",
     "multicolumn",
     "rich_text_WD8i97",
     "cl_slideshow_Bdfd6h",
