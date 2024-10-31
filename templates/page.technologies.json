@@ -258,6 +258,7 @@
         "heading_qCLamm",
         "text_XFgfiq"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/SCA_GROWTH.jpg",
         "height": "medium",
@@ -310,6 +311,7 @@
         "collapsible_row_bnRrbT",
         "collapsible_row_BF6A9N"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Benefits of SCA® Growth Factor Technology",
