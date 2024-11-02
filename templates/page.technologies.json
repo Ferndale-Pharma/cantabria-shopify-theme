@@ -440,7 +440,7 @@
           "type": "button",
           "settings": {
             "button_label": "View all products",
-            "button_link": "shopify://collections/all-products",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",

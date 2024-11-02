@@ -850,7 +850,7 @@
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "View products",
-        "button_link": "shopify://collections/all-products",
+        "button_link": "shopify://collections/all",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
