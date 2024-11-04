@@ -119,16 +119,16 @@
             "collection": "heliocare"
           }
         },
-        "collection_X43qCC": {
-          "type": "collection",
-          "settings": {
-            "collection": "biretix"
-          }
-        },
         "collection_YUE6tg": {
           "type": "collection",
           "settings": {
             "collection": "endocare"
+          }
+        },
+        "collection_X43qCC": {
+          "type": "collection",
+          "settings": {
+            "collection": "biretix"
           }
         },
         "collection_6RqkiX": {
@@ -140,8 +140,8 @@
       },
       "block_order": [
         "collection_U9C7wy",
-        "collection_X43qCC",
         "collection_YUE6tg",
+        "collection_X43qCC",
         "collection_6RqkiX"
       ],
       "settings": {
