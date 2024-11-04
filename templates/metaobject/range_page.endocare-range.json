@@ -71,7 +71,7 @@
         "text_T9yqhc": {
           "type": "text",
           "settings": {
-            "text": "<p>ENDOCARE is a scientific anti-ageing specialist skincare range, dermatologically proven to address every stage and need of the skin ageing process. </p><p>Formulated with dermatological expertise, gold-standard active ingredients and unique patented technologies, ENDOCARE products are clinically proven to brighten the skin and reduce texture, pigmentation and wrinkles, for visible, radiant results. </p>"
+            "text": "<p><strong>ENDOCARE is a scientifically advanced, anti-ageing skincare<br/>range, dermatologically proven to address each stage and need in the skin<br/>ageing process. </strong></p><p>Formulated with expert dermatological knowledge,<br/>gold-standard active ingredients, and patented technologies, ENDOCARE products<br/>have been clinically proven to brighten skin and improve texture, reduce<br/>pigmentation, and diminish wrinkles for visibly radiant results.</p>"
           }
         }
       },
@@ -194,7 +194,7 @@
         "text_FnPaY3": {
           "type": "text",
           "settings": {
-            "text": "<p>A healthy skin barrier is the skin’s first line of defence and is visible to the outside world every day of our lives. Defending, repairing and reinforcing the skin barrier is essential in any dermatological skincare regime and for everyone on a dermatological skincare journey.</p>\n\n<p><b>ENDOCARE AGE BARRIER</b> products are expertly formulated with proven skin barrier dermatological ingredients such as Hyaluronic Acid, Vitamin B5 and Niacinamide and the unique Cantabria Labs EDAFENCE technology. </p>\n\n<p><b>Find out more about ENDOCARE AGE BARRIER Hyaluboost Serum proven to strengthen and intensively hydrate the skin barrier</b></p>",
+            "text": "<p>A healthy skin barrier is the skin’s first line of defence, visible every day of our lives. Protecting, repairing, and strengthening the skin barrier is essential for anyone on a skincare journey.</p>\n\n<p><b>ENDOCARE AGE BARRIER</b> products are carefully formulated with proven dermatological skin barrier-supporting ingredients such as Hyaluronic Acid, Vitamin B5, Niacinamide, and Cantabria Labs’ unique EDAFENCE® technology.</p>\n\n<p><b>Discover more about ENDOCARE AGE BARRIER Hyaluboost Serum, clinically proven to intensively hydrate and reinforce the skin barrier.</b></p>",
             "text_style": "body"
           }
         },
@@ -234,14 +234,14 @@
         "heading_GzapQr": {
           "type": "heading",
           "settings": {
-            "heading": "Skin anti-oxidant and anti-pollution protection & correction",
+            "heading": "Antioxidant and anti-pollution protection & correction",
             "heading_size": "h1"
           }
         },
         "text_RPAUqp": {
           "type": "text",
           "settings": {
-            "text": "<p>The skin faces challenges from its external environment and the natural ageing process every day. External challenges from sun and daylight UVB, UVA, the full spectrum of high energy visible light (or blue light), and Infra Red-A (IR-A) combine with pollution and lifestyle stresses.</p>\n\n<p><b>ENDOCARE RADIANCE</b> provides powerful anti-pollution, anti-oxidant and skin regeneration action to provide proven protection against and correction of environmental skin damage caused by sun, daylight and pollution exposure and enabling the skin to reveal its inner radiance.</p>\n\n<p><b>Find out more about ENDOCARE RADIANCE C Ferulic Edafence Serum's powerful and proven anti-pollution, anti-oxidant and skin regenerating dermatological ingredients which visibly improve skin, making it more luminous, with enhanced and even tone</b></p>",
+            "text": "<p>Every day, the skin faces challenges from environmental factors and natural ageing. External stressors, including UVB, UVA, high-energy visible (blue) light, and infrared-A (IR-A), combine with pollution and lifestyle stress to damage the skin and dull its appearance.</p>\n\n<p><b>ENDOCARE RADIANCE</b> offers powerful anti-pollution, antioxidant, and skin-regenerating actions to protect against and correct this environmental skin damage, helping to reveal its natural inner radiance.</p>\n\n<p><b>Learn more about ENDOCARE RADIANCE C Ferulic Edafence Serum’s potent, clinically proven ingredients that help to visibly enhance skin luminosity, evenness, and tone.</b></p>",
             "text_style": "body"
           }
         },
@@ -288,7 +288,7 @@
         "text_aE8zB7": {
           "type": "text",
           "settings": {
-            "text": "<p>As the skin ages and environmental sun, daylight and pollution take effect, skin renewal slows and becomes impaired. Its ability to replenish essential natural skin hydrating molecules such as Hyaluronic Acid and to regenerate structural tissue such as collagen and elastin is reduced.</p>\n\n<p><b>ENDOCARE RENEWAL</b> provides high-level dermatologist proven ingredients Alpha Hydroxy Acids (AHAs) (such as Glycolic Acid),  Retinoids, Azelaic Acid and unique Cantabria Labs innovations to deliver proven skin renewal results.</p>\n\n<p><b>Find out more about ENDOCARE RENEWAL Glycoperfect (Az) Intensive Serum – a powerful, dermatologically formulated anti-aging serum with high-strength AHA Glycolic Acid. This serum exfoliates, retexturizes, and promotes skin renewal, helping to soften, smooth, and reduce wrinkles in facial skin showing visible signs of aging and sun damage. </b></p>",
+            "text": "<p>As skin ages, environmental factors like sun and pollution affect its ability to renew. The skin’s capacity to replenish essential hydrating molecules like Hyaluronic Acid, and regenerate structural components like collagen and elastin, diminishes.</p>\n\n<p><b>ENDOCARE RENEWAL</b> provides high-strength, dermatologist proven ingredients, including Alpha Hydroxy Acids (AHAs) such as Glycolic Acid, Retinoids, Azelaic Acid, and Cantabria Labs’ unique innovations for effective skin renewal.</p>\n\n<p><b>Find out more about ENDOCARE RENEWAL Glycoperfect (Az) Intensive Serum – a powerful anti-ageing serum formulated with high-strength AHA Glycolic Acid. This serum exfoliates, retexturises, and promotes renewal, helping to soften, smooth, and reduce wrinkles in facial skin affected by ageing and sun damage.</b></p>",
             "text_style": "body"
           }
         },
@@ -335,7 +335,7 @@
         "text_MYRE7R": {
           "type": "text",
           "settings": {
-            "text": "<p>Cleansing the skin of impurities and dirt is the first step in any dermatological skincare routine helping prepare it for morning and nighttime protecting, correcting and renewing anti-aging regimes. An expert cleanser needs to be developed and formulated with dermatological ingredients for specific skin needs and types. </p>\n\n<p><b>Find out more about ENDOCARE HYDRACTIVE Micellar Solution for daily deep and gentle no-rinse cleansing and makeup removal; restores the skin barrier preserving the microbiome, protects against environmental stress, and boosts cell vitality</b></p>",
+            "text": "<p>Cleansing impurities and dirt is the first step in any skincare routine, preparing the skin for protective, corrective, and renewing anti-ageing treatments. An effective cleanser must be used with dermatologically approved ingredients suited to different skin types and needs.</p>\n\n<p><b>Discover ENDOCARE HYDRACTIVE Micellar Solution, a gentle, no-rinse cleansing option for deep daily cleansing and makeup removal. It restores the skin barrier, preserves the microbiome, protects against environmental stress, and boosts cellular vitality.</b></p>",
             "text_style": "body"
           }
         },
@@ -377,7 +377,7 @@
           "settings": {
             "image": "shopify://shop_images/ENDOCARE_-_SKIN_REGENERATION.png",
             "title": "Regenerates, renews and repairs",
-            "text": "<p>An innovative approach to skin ageing, with solutions that activate and regenerate the skin’s renewal and repair cells for maximum efficacy.</p>",
+            "text": "<p>An innovative approach to skin ageing, with solutions that<br/>activate the skin’s renewal and repair mechanisms for maximum efficacy.</p>",
             "link_label": "",
             "link": ""
           }
@@ -387,7 +387,7 @@
           "settings": {
             "image": "shopify://shop_images/ENDOCARE_-_INNOVTIVE_FORMULATIONS.png",
             "title": "Powerful technologies & innovative formulations",
-            "text": "<p>Patented technologies, including EDAFENCE® anti-pollution technology and RetinSphere® advanced retinoid technology, blended with gold-standard active ingredients for visible results.</p>",
+            "text": "<p>Patented technologies, including EDAFENCE® anti-pollution and RetinSphere® advanced retinoid technology, combined with gold-standard active ingredients for visible results.</p>",
             "link_label": "",
             "link": ""
           }
@@ -397,7 +397,7 @@
           "settings": {
             "image": "shopify://shop_images/ENDOCARE_-_CLINICALLY_PROVEN.png",
             "title": "Clinically proven results",
-            "text": "<p>Backed by more than 20 years of clinical research and numerous studies in leading international scientific and medical journals.</p>",
+            "text": "<p>Backed by over 20 years of clinical research and numerous<br/>studies published in leading scientific and medical journals worldwide.</p>",
             "link_label": "",
             "link": ""
           }
