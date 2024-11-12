@@ -1522,8 +1522,11 @@ a.product__text {
 .product__description p:not(:last-child) {
   margin-bottom: 1rem;
 }
-@media screen and (max-width: 1023px){
+@screen only and (max-width: 1023px){
 	.product-form {
-		margin: 1rem 0 2.5rem;
+		margin: 1rem 0 2.5rem!important;
+	}
+	.product-form__input {
+		margin-top: 4rem!important;
 	}
 }
