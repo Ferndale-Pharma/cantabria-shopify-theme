@@ -71,6 +71,6 @@ volume-pricing show-more-button {
 @media screen and (max-width: 1023px){
 	.price-per-item__container {
 		flex-direction: column;
-		margin-top: 5rem;
+		margin-top: 5rem!important;
 	}
 }
