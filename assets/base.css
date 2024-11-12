@@ -3658,3 +3658,8 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+@screen only and (max-width: 1023px){
+	.price-per-item__container .quantity {
+		width: 100%;
+	}
+}
