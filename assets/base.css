@@ -1958,7 +1958,7 @@ input[type='checkbox'] {
 
 .quantity__button {
   width: calc(4.5rem / var(--font-body-scale));
-  flex-shrink: 1;
+  flex-shrink: 0;
   font-size: 1.8rem;
   border: 0;
   background-color: transparent;
