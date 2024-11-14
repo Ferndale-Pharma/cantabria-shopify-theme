@@ -37,6 +37,10 @@
             "points_calculator_alignment": "left"
           }
         },
+        "getsale_timer_block_f69UM3": {
+          "type": "shopify://apps/getsale/blocks/timer-block/dae9396b-6892-475e-8260-9c39c0a67574",
+          "settings": {}
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -101,6 +105,7 @@
         "judge_me_reviews_preview_badge_fmp8CP",
         "price",
         "joy_loyalty_program_joy_points_calculator_block_3E4En6",
+        "getsale_timer_block_f69UM3",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
