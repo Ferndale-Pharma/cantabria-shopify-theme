@@ -92,7 +92,7 @@
             {%- case block.type -%}
               {%- when '@app' -%}
                 {% comment %} Not ideal but stops loyalty rednering out. {% endcomment %}
-                {%- if block.id contains 'joy_loyalty_program_joy_points_calculator_block' -%}
+                {%- if block.id != 'shopify-block-joy_loyalty_program_joy_points_calculator_block_3E4En6' -%}
                   {% render block %}
                 {%- endif -%}
               {%- when 'text' -%}
