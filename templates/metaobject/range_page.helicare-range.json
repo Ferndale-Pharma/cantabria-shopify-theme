@@ -22,7 +22,7 @@
         "text_RggQnc": {
           "type": "text",
           "settings": {
-            "text": "The expert, very high-level, full-spectrum daily sun protection range",
+            "text": "Expert, very high-level, full-spectrum sun protection",
             "text_style": "body"
           }
         },
@@ -935,8 +935,7 @@
         },
         "email_form_w7wkGx": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
