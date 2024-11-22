@@ -22,7 +22,7 @@
         "text_RggQnc": {
           "type": "text",
           "settings": {
-            "text": "Scientific anti-ageing skincare.",
+            "text": "Scientific anti-aging skincare.",
             "text_style": "body"
           }
         },
@@ -629,8 +629,7 @@
         },
         "email_form_9UiPKc": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
