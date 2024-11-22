@@ -22,7 +22,7 @@
         "text_RggQnc": {
           "type": "text",
           "settings": {
-            "text": "Advanced pigment control skincare",
+            "text": "Advanced pigment control",
             "text_style": "body"
           }
         },
@@ -468,8 +468,7 @@
         },
         "email_form_8fGVDq": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
