@@ -27,7 +27,7 @@
       <meta name='description' content='{{ page_description | escape }}'>
     {% endif %}
 
-    {% if template contains 'noindexnofollow' %}
+    {% if template contains 'noindexnofollow' or collection.handle == 'discount' %}
       <meta name='robots' content='noindex,nofollow'>
     {% endif %}
 
