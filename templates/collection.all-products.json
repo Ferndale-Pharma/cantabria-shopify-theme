@@ -43,7 +43,8 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "is_heading": false
       }
     },
     "banner": {
@@ -87,13 +88,12 @@
         "paragraph_ThWJ8E": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join the Cantabria Labs mailing list for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
+            "text": "<p>Join the Cantabria Labs community for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
           }
         },
         "email_form_DUzXUh": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

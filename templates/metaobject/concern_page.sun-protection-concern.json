@@ -166,9 +166,7 @@
         "column_FLmb3h",
         "column_g7EGCc"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "What causes sun damage?",
         "heading_size": "h2",
@@ -561,13 +559,12 @@
         "paragraph_DGgPFD": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join the Cantabria Labs mailing list for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
+            "text": "<p>Join the Cantabria Labs community for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
           }
         },
         "email_form_MKxHHL": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
