@@ -14,8 +14,7 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_txweDz": {
           "type": "text",
@@ -26,13 +25,11 @@
         },
         "judge_me_reviews_preview_badge_fmp8CP": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "joy_loyalty_program_joy_points_calculator_block_3E4En6": {
           "type": "shopify://apps/joy-loyalty-program/blocks/joy-points-calculator-block/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
@@ -49,8 +46,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -61,18 +57,15 @@
         },
         "description_4GfMrB": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "selleasy_lb_upsell_fbt_block_BHQp6b": {
           "type": "shopify://apps/selleasy/blocks/lb-upsell-fbt-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "settings": {
-          }
+          "settings": {}
         },
         "selleasy_lb_upsell_addon_block_NiQk44": {
           "type": "shopify://apps/selleasy/blocks/lb-upsell-addon-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
@@ -139,8 +132,7 @@
       "blocks": {
         "judge_me_reviews_review_widget_D8HWxR": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -188,13 +180,12 @@
         "paragraph_rpRJba": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join the Cantabria Labs mailing list for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
+            "text": "<p>Join the Cantabria Labs community for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
           }
         },
         "email_form_WnUWfi": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
