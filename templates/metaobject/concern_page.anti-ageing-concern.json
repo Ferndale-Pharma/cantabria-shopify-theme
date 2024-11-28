@@ -43,9 +43,7 @@
         "text_p4wyK3",
         "buttons_WXCGq3"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/CL-WEB_-_Banner_-_Anti_Ageing.jpg",
         "image_overlay_opacity": 0,
@@ -466,13 +464,12 @@
         "paragraph_DMF7Tw": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join the Cantabria Labs mailing list for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
+            "text": "<p>Join the Cantabria Labs community for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
           }
         },
         "email_form_DCLyE6": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

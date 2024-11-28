@@ -445,13 +445,12 @@
         "paragraph_NJQRX6": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join the Cantabria Labs mailing list for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
+            "text": "<p>Join the Cantabria Labs community for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
           }
         },
         "email_form_D9nT8k": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
