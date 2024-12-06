@@ -95,22 +95,22 @@
         "heading_7aAg66": {
           "type": "heading",
           "settings": {
-            "heading": "Endocare winter skin renewal",
+            "heading": "Discover the power of ENDOCARE RADIANCE",
             "heading_size": "h2"
           }
         },
         "text_AYNmBR": {
           "type": "text",
           "settings": {
-            "text": "<p>Discover the Endocare Renewal range, a duo of anti-ageing skin renewal solutions to brighten the skin, reduce pigmentation, improve texture and minimise the appearance of fine lines and wrinkles. The rejuvenating and regenerating formulations contain a powerful combination of AHAs and patented technologies, which cleanse, exfoliate and nourish for a radiant glow.</p>",
+            "text": "<p>Discover the power of ENDOCARE RADIANCE for a skincare solution that protects your skin against environmental stressors and reveal its natural inner glow. <br/><br/>The ENDOCARE C Ferulic Edafence Serum is your shield against daily environmental stressors, combining potent antioxidants with anti-pollution technology to boost skin brightness and firmness. Meanwhile, the Eye Contour treatment works to visibly reduce dark circles and puffiness, giving your eyes a refreshed, well-rested appearance.</p><p>For a limited time, receive a free ENDOCARE RADIANCE Eye Contour worth £40.00 when you purchase the C Ferulic Edafence Serum. It’s the perfect opportunity to try both products and experience their transformative benefits together.</p>",
             "text_style": "body"
           }
         },
         "button_HBTEJm": {
           "type": "button",
           "settings": {
-            "button_label": "View Products",
-            "button_link": "shopify://collections/endocare-renewal",
+            "button_label": "Shop offer",
+            "button_link": "shopify://products/endocare-radiance-c-ferulic-edafence-serum",
             "button_style_secondary": true
           }
         }
@@ -120,10 +120,9 @@
         "text_AYNmBR",
         "button_HBTEJm"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0005_-_Endocare_Brand_Page_-_Endocare_Winter_Renewal.jpg",
-        "height": "adapt",
+        "image": "shopify://shop_images/endocare-radiance-serum-and-eye-cream.jpg",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
