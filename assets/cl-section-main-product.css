@@ -1534,3 +1534,9 @@ a.product__text {
 .jdgm-glider-track {
   margin: 0 auto !important;
 }
+.product-offer {
+  background-color: #f3f4f6;
+  padding: 10px;
+  text-align: center;
+  margin: 2em 0;
+}
