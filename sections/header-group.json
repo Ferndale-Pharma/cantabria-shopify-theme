@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to CantabriaLabs.co.uk - the new home of Heliocare 360°",
+            "text": "Heliocare.co.uk is now CantabriaLabs.co.uk!",
             "link": ""
           }
         }
@@ -48,8 +48,7 @@
       "block_order": [
         "menu_j7mEAe"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "header": {
       "type": "header",
