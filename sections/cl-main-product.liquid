@@ -92,9 +92,9 @@
             {%- case block.type -%}
               {%- when '@app' -%}
                 {% comment %} Not ideal but stops loyalty rednering out. {% endcomment %}
-                {%- if block.id != 'joy_loyalty_program_joy_points_calculator_block_3E4En6' -%}
+                {%- unless block.id contains 'joy_loyalty_program_joy_points_calculator_block' -%}
                   {% render block %}
-                {%- endif -%}
+                {%- endunless -%}
               {%- when 'text' -%}
                 <p
                   class="product__text inline-richtext twcss-text-[#666]{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
@@ -121,7 +121,13 @@
                       price_class: 'price--large'
                     -%}
                   </div>
+                  <div class="my-points twcss-justify-end twcss-flex twcss-flex-1">
+                    <p class="my-points-text">
+                      <span id="my-points-value">Earn {{ product.selected_or_first_available_variant.price | divided_by: 10 }} points</span>
+                    </p>
+                  </div>
                 {% comment %} Not ideal but couldn't get it to work any other way, {% endcomment %}
+                 {% comment %}
                 {%- for block in section.blocks -%}
                   {%- if block.id contains 'joy_loyalty_program_joy_points_calculator_block' -%}
                     <div class="my-points twcss-justify-end twcss-flex twcss-flex-1">
@@ -129,6 +135,7 @@
                     </div>
                   {%- endif -%}
                 {%- endfor -%}
+                 {% endcomment  %}
                 {%- if product.quantity_price_breaks_configured? -%}
                   <div class="volume-pricing-note" id="Volume-Note-{{ section.id }}">
                     <span>{{ 'products.product.volume_pricing.note' | t }}</span>
@@ -762,6 +769,48 @@
 
     <script type="application/ld+json">
       {{ product | structured_data }}
+    </script>
+    
+
+    {%- comment -%}Add product JSON with explicit section ID{%- endcomment -%}
+    <script type="application/json" id="ProductJSON-{{ section.id }}">
+      {{ product | json }}
+    </script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const form = document.querySelector('form[action*="/cart/add"]');
+        const pointsElement = document.getElementById('my-points-value');
+
+        if (form) {
+          const variantInput = form.querySelector('input[name="id"]');
+          if (variantInput) {
+            const productJsonId = form.closest('[data-section]')?.dataset.section;
+
+            const observer = new MutationObserver(function(mutations) {
+              mutations.forEach(function(mutation) {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'value') {
+                  const productJson = document.getElementById(`ProductJSON-${productJsonId}`);
+                  
+                  if (productJson) {
+                    const productData = JSON.parse(productJson.textContent);
+                    const variant = productData.variants.find(v => v.id == variantInput.value);
+                    
+                    if (variant && pointsElement) {
+                      const points = Math.floor(variant.price / 10);
+                      pointsElement.textContent = `Earn ${points} points`;
+                    }
+                  }
+                }
+              });
+            });
+
+            observer.observe(variantInput, {
+              attributes: true
+            });
+          }
+        }
+      });
     </script>
   </div>
 </product-info>
