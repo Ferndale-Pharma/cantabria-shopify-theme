@@ -1540,3 +1540,17 @@ a.product__text {
   text-align: center;
   margin: 2em 0;
 }
+.my-points {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  margin-top: 5px;
+}
+.my-points-text {
+  font-family: inherit;
+  font-weight: 600;
+  color: #6b6767;
+  border-bottom: 2px solid #e5e7eb;
+  font-size: 18px;
+  line-height: 26px;
+}
