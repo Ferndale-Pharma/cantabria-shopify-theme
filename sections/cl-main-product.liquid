@@ -777,41 +777,7 @@
       {{ product | json }}
     </script>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const form = document.querySelector('form[action*="/cart/add"]');
-        const pointsElement = document.getElementById('my-points-value');
-
-        if (form) {
-          const variantInput = form.querySelector('input[name="id"]');
-          if (variantInput) {
-            const productJsonId = form.closest('[data-section]')?.dataset.section;
-
-            const observer = new MutationObserver(function(mutations) {
-              mutations.forEach(function(mutation) {
-                if (mutation.type === 'attributes' && mutation.attributeName === 'value') {
-                  const productJson = document.getElementById(`ProductJSON-${productJsonId}`);
-                  
-                  if (productJson) {
-                    const productData = JSON.parse(productJson.textContent);
-                    const variant = productData.variants.find(v => v.id == variantInput.value);
-                    
-                    if (variant && pointsElement) {
-                      const points = Math.floor(variant.price / 10);
-                      pointsElement.textContent = `Earn ${points} points`;
-                    }
-                  }
-                }
-              });
-            });
-
-            observer.observe(variantInput, {
-              attributes: true
-            });
-          }
-        }
-      });
-    </script>
+    <script src="{{ 'cl-points-calculator.js' | asset_url }}" defer></script>
   </div>
 </product-info>
 
