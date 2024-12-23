@@ -301,11 +301,14 @@
 
 .card__media .media img {
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center center;
   width: 100%;
 }
-
+.collection .product-card-wrapper .card__media .media img,
+.related-products .product-card-wrapper .card__media .media img {
+  object-fit: contain;
+}
 .card__inner:not(.ratio) > .card__content {
   height: 100%;
 }
