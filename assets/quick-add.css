@@ -417,3 +417,6 @@ quick-add-bulk .quantity__input {
 .quantity__input-disabled {
   pointer-events: none;
 }
+.product__view-details svg {
+  display: inline-block;
+}
