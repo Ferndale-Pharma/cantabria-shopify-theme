@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_p3nTcy": {
@@ -22,14 +22,26 @@
         "text_NqMN3b": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "{{ collection.metafields.custom.hero_text.value }}",
             "text_style": "body"
+          }
+        },
+        "buttons_McGzE7": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop offer now",
+            "button_link_1": "shopify://products/endocare-radiance-c-ferulic-edafence-serum",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading_pjGXBk",
-        "text_NqMN3b"
+        "text_NqMN3b",
+        "buttons_McGzE7"
       ],
       "settings": {
         "image": "{{ collection.metafields.custom.hero_image_desktop.value }}",
@@ -42,7 +54,8 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "is_heading": false
       }
     },
     "banner": {
@@ -86,13 +99,12 @@
         "paragraph_ThWJ8E": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join the Cantabria Labs mailing list for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
+            "text": "<p>Join the Cantabria Labs community for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
           }
         },
         "email_form_DUzXUh": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

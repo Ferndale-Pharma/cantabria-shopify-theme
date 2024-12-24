@@ -22,15 +22,15 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Welcome to Cantabria Labs, the home of dermatological skincare expertly researched and developed to deliver proven results",
+            "text": "<strong>LIMITED TIME OFFER! </strong>Save 20% on selected Cantabria Labs Hero products and ranges.",
             "text_style": "subtitle"
           }
         },
         "buttons_JLFrH9": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "View all products",
-            "button_link_1": "shopify://collections/all",
+            "button_label_1": "Shop sale now",
+            "button_link_1": "shopify://collections/promotions",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -87,7 +87,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "description": "<p><strong>Our portfolio is a leader in dermatological prescription and recommendation in Europe.</strong> </p><p>Our goal is to help you manage your skin concerns, improve your skin health and celebrate life.</p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "cantabria-labs-hero-products",
