@@ -46,7 +46,7 @@
             {%- if section.blocks.first.settings.link != blank -%}
               {% assign icon_color = section.settings.color_scheme %}
               <!-- Debug: icon-color1:[{{ icon_color }}] -->
-              {% render 'icon-arrow', iconColor:  icon_color  %}
+              {% render 'icon-arrow' with icon_color as icolor  %}
             {%- endif -%}
           </p>
           {%- if section.blocks.first.settings.link != blank -%}
