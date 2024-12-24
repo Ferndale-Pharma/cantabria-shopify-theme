@@ -44,7 +44,8 @@
           <p class="announcement-bar__message h5">
             <span>{{ section.blocks.first.settings.text | escape }}</span>
             {%- if section.blocks.first.settings.link != blank -%}
-              {% render 'icon-arrow' %}
+              {% assign icon_color = section.settings.color_scheme.text %}
+              {% render 'icon-arrow', iconColor:  icon_color  %}
             {%- endif -%}
           </p>
           {%- if section.blocks.first.settings.link != blank -%}
