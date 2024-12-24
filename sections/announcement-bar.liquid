@@ -44,7 +44,7 @@
           <p class="announcement-bar__message h5">
             <span>{{ section.blocks.first.settings.text | escape }}</span>
             {%- if section.blocks.first.settings.link != blank -%}
-              {% assign icon_color = section.settings.color_scheme.text %}
+              {% assign icon_color = section.settings.color_scheme %}
               <!-- Debug: icon-color1:[{{ icon_color | json }}] -->
               {% render 'icon-arrow', iconColor:  icon_color  %}
             {%- endif -%}
