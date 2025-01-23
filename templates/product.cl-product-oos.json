@@ -39,6 +39,7 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button",
             "swatch_shape": "square"
@@ -46,13 +47,29 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
+          }
+        },
+        "text_aKwCcF": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Sorry, this product is currently out of stock.  If you would like to be notified as soon as this product in back in stock please enter your email below.",
+            "text_style": "subtitle"
+          }
+        },
+        "powerful_form_builder_app_block_DPtpre": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"NzMwOTk=\"></div>"
           }
         },
         "description_4GfMrB": {
@@ -104,6 +121,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "text_aKwCcF",
+        "powerful_form_builder_app_block_DPtpre",
         "description_4GfMrB",
         "selleasy_lb_upsell_fbt_block_BHQp6b",
         "selleasy_lb_upsell_addon_block_NiQk44",
