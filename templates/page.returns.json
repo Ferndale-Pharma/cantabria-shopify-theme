@@ -111,13 +111,37 @@
         "padding_bottom": 64
       }
     },
+    "rich_text_nmBp9j": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BUr3in": {
+          "type": "heading",
+          "settings": {
+            "heading": "Download free returns note",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BUr3in"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 16
+      }
+    },
     "1737977962f3a95610": {
       "type": "apps",
       "blocks": {
         "powerful_form_builder_app_block_7GrFie": {
           "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
           "settings": {
-            "shortcode": ""
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"NzM1Njc=\"></div>"
           }
         }
       },
@@ -133,6 +157,7 @@
     "main",
     "rich_text_PiVnWe",
     "multicolumn_html_Rwc37x",
+    "rich_text_nmBp9j",
     "1737977962f3a95610"
   ]
 }
