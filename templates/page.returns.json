@@ -11,13 +11,128 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_PiVnWe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nyebkq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Need to return your product?",
+            "heading_size": "h1"
+          }
+        },
+        "text_GRjqDY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nyebkq",
+        "text_GRjqDY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_html_Rwc37x": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_BxyVMU": {
+          "type": "column",
+          "settings": {
+            "title": "Step 1",
+            "text": "<p>Complete the form below to download your FREE returns note and delivery labels.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3zMjx8": {
+          "type": "column",
+          "settings": {
+            "title": "Step 2",
+            "text": "<p>Complete the returns note and place it in the box with your product.</p><br><p>Ensure that you re-package your returned products using strong packaging and seal securely to avoid damage during transit.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xHRX8i": {
+          "type": "column",
+          "settings": {
+            "title": "Step 3",
+            "text": "<p>Return the package to us for FREE using the returns address label or by writing the address on the package:</p><br> <p>FREEPOST <br>AESTHETICARE <br>RTEE-AKRR-XZBB <br>LS23 7FX</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FYG9VD": {
+          "type": "column",
+          "settings": {
+            "title": "Step 4",
+            "text": "<p>Please allow 7-10 working days after we receive your return for funds to transfer back into your account.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BxyVMU",
+        "column_3zMjx8",
+        "column_xHRX8i",
+        "column_FYG9VD"
+      ],
+      "settings": {
+        "title": "How to return your product",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "1737977962f3a95610": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_7GrFie": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": ""
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_7GrFie"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_PiVnWe",
+    "multicolumn_html_Rwc37x",
+    "1737977962f3a95610"
   ]
 }
