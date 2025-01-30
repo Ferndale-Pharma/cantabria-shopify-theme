@@ -394,6 +394,9 @@ a.pagination__item-arrow {
 .ingredients-card__used-in--products .link {
   @apply twcss-mr-1;
 }
+.ingredient-card__title {
+  @apply twcss-mb-4;
+}
 
 /** Slideshow **/
 .slideshow__controls {
@@ -441,7 +444,32 @@ ul.collection-list .card__content {
     @apply twcss-mt-4;
   }
 }
-
+.article-template {
+  h2,
+  h3,
+  h4 {
+    @apply twcss-mt-12;
+  }
+  h3,
+  .h3 {
+    @apply twcss-text-3xl md:twcss-text-4xl;
+  }
+}
+.rte {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply twcss-mb-4;
+  }
+}
+.rte li {
+  @apply twcss-text-[#231F20];
+}
+.rte p {
+  @apply twcss-mb-4;
+}
 .rte img {
   @apply twcss-border-none !important;
   @apply twcss-inline-block !important;
