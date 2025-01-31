@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 /*! alphaListNav.js - v0.7.2
 Build Date: 06-11-2022
 Author: [Bryan Elliott] (https://github.com/elliottprogrammer/)
@@ -15,21 +15,21 @@ class AlphaListNav {
   constructor(listElem, options = {}) {
     const defaultOptions = {
       initHidden: true,
-      initHiddenText: 'Tap a letter above to view matching items', // string or boolean false
-      initLetter: '',
+      initHiddenText: "Tap a letter above to view matching items", // string or boolean false
+      initLetter: "",
       includeAll: true,
-      allText: 'All',
-      noMatchText: 'No matching entries',
+      allText: "All",
+      noMatchText: "No matching entries",
       includeNums: true,
       concatenateNums: true, // 0 - 9
       includeOther: false,
       flagDisabled: true,
       removeDisabled: false,
       prefixes: [], // array of strings and/or RegEx's
-      filterSelector: '',
+      filterSelector: "",
       showCounts: true,
       showLetterHeadings: true,
-      letterHeadingTag: 'h3',
+      letterHeadingTag: "h3",
     };
 
     this.listElem = this._isDomElement(listElem)
@@ -48,15 +48,15 @@ class AlphaListNav {
     // if there is options.prefixes[], check if any are strings, if so, convert to them to RegEx's
     if (this.options.prefixes.length) {
       const regexes = this.options.prefixes.map((val) => {
-        if (typeof val === 'string') {
-          val = val.replace(/[.*+?^${}()|[\]\\]/, '\\$&');
-          return val + '\\s';
+        if (typeof val === "string") {
+          val = val.replace(/[.*+?^${}()|[\]\\]/, "\\$&");
+          return val + "\\s";
         }
-        if (typeof val === 'object' && val instanceof RegExp) {
-          return val.source + '\\s';
+        if (typeof val === "object" && val instanceof RegExp) {
+          return val.source + "\\s";
         }
       });
-      this.options.prefixes = new RegExp(regexes.join('|'), 'gi');
+      this.options.prefixes = new RegExp(regexes.join("|"), "gi");
     }
 
     this.init();
@@ -66,7 +66,7 @@ class AlphaListNav {
     // if first arg is not an HTMLElement, return
     if (!this.listElem) {
       console.error(
-        'The supplied argument must be a HTML DOM element or a valid element id (string)',
+        "The supplied argument must be a HTML DOM element or a valid element id (string)"
       );
       return;
     }
@@ -88,30 +88,30 @@ class AlphaListNav {
     this.initAlphaListNav(this.newListHTML, this.alphaNav, this.alphaObj);
 
     // Add event listener to alpha-nav buttons
-    this.alphaNav.addEventListener('click', (e) => {
+    this.alphaNav.addEventListener("click", (e) => {
       // TODO: replace with create selectLetter() function
       e.preventDefault();
       if (!e.target.dataset.filter) return;
       const letter = e.target.dataset.filter;
       // remove active class from all buttons
       for (let btn of this.alphaNav.children) {
-        btn.classList.remove('active');
+        btn.classList.remove("active");
       }
       // remove active class from all lists
       for (let ul of this.newListHTML.children) {
-        ul.classList.remove('active');
+        ul.classList.remove("active");
       }
       // add active class to button clicked
-      e.target.classList.add('active');
+      e.target.classList.add("active");
       // add active class to the list matching the cooresponding clicked letter
-      if (letter === '*') {
+      if (letter === "*") {
         for (let div of this.newListHTML.children) {
-          if (div.id !== 'no-match') div.classList.add('active');
+          if (div.id !== "no-match") div.classList.add("active");
         }
       } else {
         this.newListHTML
-          .querySelector(`#${letter.replace(/[-]/, '\\$&')}`)
-          .classList.add('active');
+          .querySelector(`#${letter.replace(/[-]/, "\\$&")}`)
+          .classList.add("active");
       }
     });
 
@@ -120,12 +120,12 @@ class AlphaListNav {
       Array.prototype.slice
         .call(this.alphaNav.children)
         .forEach((alphaLink) => {
-          alphaLink.addEventListener('mouseover', (e) => {
+          alphaLink.addEventListener("mouseover", (e) => {
             let count = 0;
             if (e.target.dataset.filter) {
               const filter = e.target.dataset.filter;
-              if (filter !== 'no-match') {
-                if (filter === '*') {
+              if (filter !== "no-match") {
+                if (filter === "*") {
                   count = Object.keys(this.alphaObj).reduce((accum, key) => {
                     return accum + this.alphaObj[key].length;
                   }, 0);
@@ -134,12 +134,12 @@ class AlphaListNav {
                 }
               }
             }
-            const countElem = document.createElement('span');
-            countElem.className = 'alphaNav-count-elem';
+            const countElem = document.createElement("span");
+            countElem.className = "alphaNav-count-elem";
             countElem.style.cssText = `position:absolute;left:0;width:100%;text-align:center;font-size:75%;`;
             countElem.textContent = count;
             // inject into dom, but with no visibility so we can calculate the element height
-            countElem.style.visibility = 'none';
+            countElem.style.visibility = "none";
             e.target.appendChild(countElem);
             const countElemHeight = countElem.getBoundingClientRect().height;
             // top position is -count elem height + 3.
@@ -147,10 +147,10 @@ class AlphaListNav {
             // set count elem top position
             countElem.style.top = `-${countTopPos}px`;
             // and make visible
-            countElem.style.visibility = 'visible';
+            countElem.style.visibility = "visible";
           });
 
-          alphaLink.addEventListener('mouseout', (e) => {
+          alphaLink.addEventListener("mouseout", (e) => {
             e.target.removeChild(e.target.children[0]);
           });
         });
@@ -161,7 +161,7 @@ class AlphaListNav {
   // Taken from jQuery (source: https://github.com/jquery/jquery/blob/master/src/core.js)
   _getText = (elem) => {
     let node,
-      ret = '',
+      ret = "",
       i = 0,
       nodeType = elem.nodeType;
     if (!nodeType) {
@@ -172,7 +172,7 @@ class AlphaListNav {
       }
     } else if (nodeType === 1 || nodeType === 9 || nodeType === 11) {
       // Use textContent for elements
-      if (typeof elem.textContent === 'string') {
+      if (typeof elem.textContent === "string") {
         return elem.textContent;
       } else {
         // Traverse its children
@@ -190,18 +190,18 @@ class AlphaListNav {
     // if initLetter is set, show that letter first
     if (this.options.initLetter) {
       // if init letter is All(*), show all
-      if (this.options.initLetter === '*' && this.options.includeAll) {
+      if (this.options.initLetter === "*" && this.options.includeAll) {
         alphaNavElem
           .querySelector(
-            `a[data-filter="${this.options.initLetter.toLowerCase()}"]`,
+            `a[data-filter="${this.options.initLetter.toLowerCase()}"]`
           )
-          .classList.add('active');
+          .classList.add("active");
         const allListGroups = newListElem.querySelectorAll(
-          'div.alpha-list-wrapper',
+          "div.alpha-list-wrapper"
         );
         Array.prototype.slice
           .call(allListGroups)
-          .forEach((div) => div.classList.add('active'));
+          .forEach((div) => div.classList.add("active"));
         // else show init letter, if it exists..
       } else if (
         alphaObj.hasOwnProperty(this.options.initLetter.toLowerCase())
@@ -209,29 +209,29 @@ class AlphaListNav {
         // TODO: replace with create selectLetter() function
         alphaNavElem
           .querySelector(
-            `a[data-filter="${this.options.initLetter.toLowerCase()}"]`,
+            `a[data-filter="${this.options.initLetter.toLowerCase()}"]`
           )
-          .classList.add('active');
+          .classList.add("active");
         newListElem
           .querySelector(`#${this.options.initLetter.toLowerCase()}`)
-          .classList.add('active');
+          .classList.add("active");
       }
     } else {
       // if initHidden set, don't show list
       if (this.options.initHidden) {
         if (this.options.initHiddenText)
-          document.getElementById('initText').classList.add('active');
+          document.getElementById("initText").classList.add("active");
         // if includeAll is set, show all list
       } else if (this.options.includeAll) {
         const allListGroups = newListElem.querySelectorAll(
-          'div.alpha-list-wrapper',
+          "div.alpha-list-wrapper"
         );
         Array.prototype.slice
           .call(allListGroups)
-          .forEach((div) => div.classList.add('active'));
+          .forEach((div) => div.classList.add("active"));
         alphaNavElem
           .querySelector(`a[data-filter="*"]`)
-          .classList.add('active');
+          .classList.add("active");
         // if none of above, find first letter with with list items, and show that first.
       } else {
         const firstLetter = this._getArrayAtoZ()
@@ -241,8 +241,8 @@ class AlphaListNav {
         // TODO: replace with/create selectLetter() function
         alphaNavElem
           .querySelector(`a[data-filter="${firstLetter}"]`)
-          .classList.add('active');
-        document.getElementById(firstLetter).classList.add('active');
+          .classList.add("active");
+        document.getElementById(firstLetter).classList.add("active");
       }
     }
   };
@@ -253,19 +253,19 @@ class AlphaListNav {
   }
 
   _isDomElement(elem) {
-    return typeof HTMLElement === 'object'
+    return typeof HTMLElement === "object"
       ? elem instanceof HTMLElement //DOM2
       : elem &&
-          typeof elem === 'object' &&
+          typeof elem === "object" &&
           elem !== null &&
           elem.nodeType === 1 &&
-          typeof elem.nodeName === 'string';
+          typeof elem.nodeName === "string";
   }
 
   // create object of list items ordered by each alphabet letter
   _getAlphaObj = (listItemsArray) => {
     const alphaList = listItemsArray.reduce((accum, val) => {
-      let text = '';
+      let text = "";
       if (this.options.filterSelector) {
         const filterElem = val.querySelector(this.options.filterSelector);
         text = filterElem ? this._getText(filterElem) : this._getText(val);
@@ -274,7 +274,7 @@ class AlphaListNav {
       }
       if (text) {
         // if text first char is (-_*) for some reason, remove it because it will cause problems.
-        text.trim().replace(/^[_*-]/, '');
+        text.trim().replace(/^[_*-]/, "");
         let letter;
         if (this.options.prefixes instanceof RegExp) {
           let result;
@@ -289,11 +289,11 @@ class AlphaListNav {
         if (letter.match(/[0-9A-Za-z]/)) {
           if (this.options.concatenateNums) {
             if (letter.match(/[0-9]/)) {
-              letter = '_';
+              letter = "_";
             }
           }
         } else {
-          letter = '-';
+          letter = "-";
         }
 
         if (accum[letter]) {
@@ -304,26 +304,26 @@ class AlphaListNav {
       }
       return accum;
     }, {});
-    if (this.options.initHidden) {
-      const initHiddenTextLi = document.createElement('li');
-      initHiddenTextLi.className = 'init-hidden-text';
-      initHiddenTextLi.textContent = this.options.initHiddenText;
-      alphaList['initText'] = [initHiddenTextLi];
-    }
+    //if (this.options.initHidden) {
+    //const initHiddenTextLi = document.createElement('li');
+    //initHiddenTextLi.className = 'init-hidden-text';
+    //initHiddenTextLi.textContent = this.options.initHiddenText;
+    //alphaList['initText'] = [initHiddenTextLi];
+    //}
     return alphaList;
   };
 
   _getHeading(key) {
-    let headingText = '';
+    let headingText = "";
     switch (true) {
       case /^[*]$/.test(key):
         headingText = this.options.allText;
         break;
       case /^[_]$/.test(key):
-        headingText = '0 - 9';
+        headingText = "0 - 9";
         break;
       case /^[-]$/.test(key):
-        headingText = 'Others';
+        headingText = "Others";
         break;
       case /^initText$/.test(key):
         break;
@@ -335,47 +335,47 @@ class AlphaListNav {
 
   // generate new list HTML markup
   _generateNewListHTML = (alphaObj) => {
-    const wrapper = document.createElement('div');
-    wrapper.id = 'alpha-list';
-    wrapper.className = 'alpha-list';
+    const wrapper = document.createElement("div");
+    wrapper.id = "alpha-list";
+    wrapper.className = "alpha-list";
     const NewList = Object.keys(alphaObj)
       .sort((a, b) => {
-        if (a === '-') return 1;
-        if (b === '-') return -1;
+        if (a === "-") return 1;
+        if (b === "-") return -1;
         if (a < b) return -1;
         if (a > b) return 1;
         return 0;
       })
       .map((key) => {
-        const div = document.createElement('div');
+        const div = document.createElement("div");
         div.id = key;
-        div.className = 'alpha-list-wrapper';
+        div.className = "alpha-list-wrapper";
         if (this.options.showLetterHeadings) {
           const allowedHeadingTags = [
-            'h1',
-            'h2',
-            'h3',
-            'h4',
-            'h5',
-            'h6',
-            'p',
-            'span',
-            'div',
+            "h1",
+            "h2",
+            "h3",
+            "h4",
+            "h5",
+            "h6",
+            "p",
+            "span",
+            "div",
           ];
           // Sanitize headingTag
           const headingTag = allowedHeadingTags.includes(
-            this.options.letterHeadingTag,
+            this.options.letterHeadingTag
           )
             ? this.options.letterHeadingTag
-            : 'h3';
+            : "h3";
           const heading = document.createElement(headingTag);
-          heading.className = 'alpha-list-heading';
-          heading.id = this._getHeading(key).replace(/\s/g, '');
+          heading.className = "alpha-list-heading";
+          heading.id = this._getHeading(key).replace(/\s/g, "");
           heading.textContent = this._getHeading(key);
           if (heading.textContent) div.appendChild(heading);
         }
-        const ul = document.createElement('ul');
-        ul.className = 'alpha-list-group';
+        const ul = document.createElement("ul");
+        ul.className = "alpha-list-group";
 
         alphaObj[key].forEach((node) => {
           ul.appendChild(node.cloneNode(true));
@@ -384,11 +384,11 @@ class AlphaListNav {
         wrapper.appendChild(div);
         return div;
       });
-    const noMatchDiv = document.createElement('div');
-    noMatchDiv.id = 'no-match';
-    const noMatchUl = document.createElement('ul');
-    noMatchUl.className = 'no-match-group';
-    const noMatchLi = document.createElement('li');
+    const noMatchDiv = document.createElement("div");
+    noMatchDiv.id = "no-match";
+    const noMatchUl = document.createElement("ul");
+    noMatchUl.className = "no-match-group";
+    const noMatchLi = document.createElement("li");
     noMatchLi.textContent = this.options.noMatchText;
 
     noMatchUl.appendChild(noMatchLi);
@@ -399,9 +399,9 @@ class AlphaListNav {
 
   // Generate alphabet navigation HTML markup
   _generateAlphaNav = (alphaObj) => {
-    const alphaNav = document.createElement('div');
-    alphaNav.id = 'alpha-nav';
-    alphaNav.className = 'character-container';
+    const alphaNav = document.createElement("div");
+    alphaNav.id = "alpha-nav";
+    alphaNav.className = "character-container";
     const abcChars = this._getArrayAtoZ();
     if (this.options.includeNums) {
       if (!this.options.concatenateNums) {
@@ -409,22 +409,22 @@ class AlphaListNav {
           .reverse()
           .forEach((val) => abcChars.unshift(val.toString()));
       } else {
-        abcChars.unshift('_');
+        abcChars.unshift("_");
       }
     }
-    if (this.options.includeOther) abcChars.push('-');
-    if (this.options.includeAll) abcChars.unshift('*');
+    if (this.options.includeOther) abcChars.push("-");
+    if (this.options.includeAll) abcChars.unshift("*");
     //console.log(abcChars);
     const navigationEntries = abcChars.reduce((block, navChar) => {
       if (alphaObj[navChar.toLowerCase()]) {
-        if (navChar === '_') {
+        if (navChar === "_") {
           return (
             block +
             '<a class="character-element" data-filter="' +
             navChar.toLowerCase() +
             '" href="#">0 - 9</a>'
           );
-        } else if (navChar === '-') {
+        } else if (navChar === "-") {
           return (
             block +
             '<a class="character-element" data-filter="' +
@@ -438,33 +438,33 @@ class AlphaListNav {
             navChar.toLowerCase() +
             '" href="#">' +
             navChar +
-            '</a>'
+            "</a>"
           );
         }
-      } else if (navChar === '*') {
+      } else if (navChar === "*") {
         return (
           block +
           '<a class="character-element" data-filter="' +
           navChar.toLowerCase() +
           '" href="#">' +
           this.options.allText +
-          '</a>'
+          "</a>"
         );
       }
       if (this.options.flagDisabled) {
         if (this.options.removeDisabled) {
           return block;
         }
-        if (navChar === '_') {
+        if (navChar === "_") {
           return block + '<div class="character-element disabled">0 - 9</div>';
-        } else if (navChar === '-') {
+        } else if (navChar === "-") {
           return block + '<div class="character-element disabled">...</div>';
         } else {
           return (
             block +
             '<div class="character-element disabled">' +
             navChar +
-            '</div>'
+            "</div>"
           );
         }
       }
@@ -472,9 +472,9 @@ class AlphaListNav {
         block +
         '<a class="character-element" data-filter="no-match" href="#">' +
         navChar +
-        '</a>'
+        "</a>"
       );
-    }, '');
+    }, "");
     alphaNav.innerHTML = navigationEntries;
     return alphaNav;
   };
@@ -482,7 +482,7 @@ class AlphaListNav {
   // generate array of alphebet, a - z
   _getArrayAtoZ = () => {
     return Array.apply(null, { length: 26 }).map((x, i) =>
-      String.fromCharCode(65 + i),
+      String.fromCharCode(65 + i)
     );
   };
 
