@@ -1540,6 +1540,9 @@ a.product__text {
   text-align: center;
   margin: 2em 0;
 }
+.product-offer a {
+  color: #0d374b;
+}
 .my-points {
   display: flex;
   align-items: center;
