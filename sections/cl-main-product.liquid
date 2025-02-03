@@ -709,6 +709,8 @@
                 </product-recommendations>
               {%- when 'icon-with-text' -%}
                 {% render 'icon-with-text', block: block %}
+              {%- when 'text_area' -%}
+                {{ block.settings.text_area }}
             {%- endcase -%}
           {%- endfor -%}
           <a href="{{ product.url }}" class="link product__view-details animate-arrow">
@@ -2518,6 +2520,11 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 64
+    },
+    {
+    "type":"textarea",
+    "id":"text_area",
+    "label":"Custom Text Area"
     }
   ]
 }
