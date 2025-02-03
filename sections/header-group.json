@@ -17,8 +17,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Heliocare.co.uk is now CantabriaLabs.co.uk - Celebrate with 20% off selected hero products!",
-            "link": "shopify://collections/promotions"
+            "text": "Heliocare.co.uk is now CantabriaLabs.co.uk",
+            "link": ""
           }
         }
       },
