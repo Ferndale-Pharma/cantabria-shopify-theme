@@ -59,6 +59,12 @@
           "type": "description",
           "settings": {}
         },
+        "textarea_jUnP9Y": {
+          "type": "textarea",
+          "settings": {
+            "text_area": "<p>{{ product.metafields.custom.product_offer_text.value }}</p>"
+          }
+        },
         "selleasy_lb_upsell_fbt_block_BHQp6b": {
           "type": "shopify://apps/selleasy/blocks/lb-upsell-fbt-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
           "settings": {}
@@ -105,6 +111,7 @@
         "quantity_selector",
         "buy_buttons",
         "description_4GfMrB",
+        "textarea_jUnP9Y",
         "selleasy_lb_upsell_fbt_block_BHQp6b",
         "selleasy_lb_upsell_addon_block_NiQk44",
         "collapsible-row-1",
