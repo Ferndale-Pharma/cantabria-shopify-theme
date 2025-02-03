@@ -9,15 +9,777 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dermatological expertise, proven results",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Welcome to Cantabria Labs, the home of dermatological skincare expertly researched and developed to deliver proven results",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_JLFrH9": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "buttons_JLFrH9"
+      ],
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "image": "shopify://shop_images/CL-WEB_-_Banner_-_Homepage.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "is_heading": false
+      }
+    },
+    "rich_text_amGfhA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PgVz3R": {
+          "type": "heading",
+          "settings": {
+            "heading": "Innovators in dermatological skincare research & development",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PgVz3R"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "cl_featured_collection_rx4MFi": {
+      "type": "cl-featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "cantabria-labs-hero-products",
+        "products_to_show": 16,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "cl_collage_ranges_UM4mMA": {
+      "type": "cl-collage-ranges",
+      "blocks": {
+        "collection_U9C7wy": {
+          "type": "collection",
+          "settings": {
+            "collection": "heliocare"
+          }
+        },
+        "collection_YUE6tg": {
+          "type": "collection",
+          "settings": {
+            "collection": "endocare"
+          }
+        },
+        "collection_X43qCC": {
+          "type": "collection",
+          "settings": {
+            "collection": "biretix"
+          }
+        },
+        "collection_6RqkiX": {
+          "type": "collection",
+          "settings": {
+            "collection": "neoretin"
+          }
+        }
+      },
+      "block_order": [
+        "collection_U9C7wy",
+        "collection_YUE6tg",
+        "collection_X43qCC",
+        "collection_6RqkiX"
+      ],
+      "settings": {
+        "heading": "Ranges and indications",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0001_-_Homepage_-_Skincare_Experts_-_Dr_EW.jpg",
+            "title": "",
+            "text": "<p><em>“I’m a huge fan of Heliocare and will often recommend it to my patients…With so many great products for different skin types there really is something for everyone!”<br/><br/></em><strong>Dr. Emma Wedgeworth<br/></strong>Consultant Dermatologist</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qGjQKW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0001_-_Homepage_-_Skincare_Experts_-_Dr_MM.jpg",
+            "title": "",
+            "text": "<p><em>“Biretix is created by dermatologists, led by science and backed by clinical data. It has been developed to be the most effective complementary dermocosmetic skincare solution for acne-prone skin.”<br/><br/></em><strong>Dr Massimo Milani </strong></p><p>Medical Director, Cantabria Labs Italy </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_84TrPU": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Image.png",
+            "title": "",
+            "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.”</p><p><strong>Dr. Olivia Falcon</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column_qGjQKW",
+        "column_84TrPU"
+      ],
+      "settings": {
+        "title": "Researched and recommended by experts around the world",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_WD8i97": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NDmHAN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Leaders in dermatological innovation",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NDmHAN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
+    "cl_slideshow_Bdfd6h": {
+      "type": "cl-slideshow",
+      "blocks": {
+        "slide_CG69ez": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FERNBLOCK_1.jpg",
+            "heading": "Fernblock® Technology",
+            "heading_size": "h1",
+            "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_YXx9Kj": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BIOPEP-15.jpg",
+            "heading": "BIOPEP-15",
+            "heading_size": "h1",
+            "subheading": "An incredible botanical-derived technology that fights against the main acne-causing bacteria <em>Cutibacterium acnes</em> and helps to reduce inflammation.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Ukfd37": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/RETINSPHERE_1.jpg",
+            "heading": "RetinSphere® Technology",
+            "heading_size": "h1",
+            "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_d7ANrH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/EDAFENCE_1.jpg",
+            "heading": "EDAFENCE® Technology",
+            "heading_size": "h1",
+            "subheading": "A unique anti-pollution technology derived from hardy Antarctic grass, clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution. Its antioxidant properties prevent oxidative stress and skin inflammation, strengthening the skin barrier, improving hydration levels and promoting healthy skin.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_E6LWAC": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/SCA_GROWTH_FACTOR.jpg",
+            "heading": "SCA® Growth Factor Technology",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_PjHGWp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AZELAIC_AOX_TECH.jpg",
+            "heading": "Azelaic Aox-TECH",
+            "heading_size": "h1",
+            "subheading": "A patented delivery-system technology that boosts the action of azelaic acid up to 5 times. Its anxtioxidant properties protect the skin from environmental aggressors and offer incredible efficacy in exfoliating, diminishing the appearance of blemishes, unifying the skin tone, reducing pigmentation and soothing the skin.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_CG69ez",
+        "slide_YXx9Kj",
+        "slide_Ukfd37",
+        "slide_d7ANrH",
+        "slide_E6LWAC",
+        "slide_PjHGWp"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "none",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "multicolumn_Y9yFp6": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FTdCM4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Expert_Quotes_1ddf1900-7482-4e16-922b-36f64e64190e.png",
+            "title": "",
+            "text": "<p><em>\"Heliocare is one of my absolute go-to SPFs for both myself and my family. The science behind it is absolutely A* packed with superior, hard working ingredients giving you the best protection possible from sun damage. It's top of the list among so many doctors I work with and everyone I have recommended it to have never looked back.\"<br/><br/></em><strong>Astrid Joss<br/></strong>Beauty Director, Tatler</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9QM6wy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Expert_Quotes_copy.png",
+            "title": "",
+            "text": "<p><em>\"You know you are in sun-safe hands with Heliocare. There is something for every age and skin concern, the tinted formulations are as a good as any makeup product and as a former sun allergy sufferer I always travel with the Fernblock capsules.\"</em></p><p><strong><br/>Victoria Woodhall <br/></strong>Editorial Director, Get The Gloss</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LkpPbJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Expert_Quotes_1ddf1900-7482-4e16-922b-36f64e64190e.png",
+            "title": "",
+            "text": "<p><em>\"Of all the sunscreens I have been recommended by dermatologists and aestheticians, this one from Heliocare has been the most consistent ...While I've personally tried a number of sunscreens over the years, this is the one I come back to time and time again.\"<br/><br/></em><strong>Shannon Lawlor<br/></strong>Executive Beauty Editor, Marie Claire</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_FTdCM4",
+        "column_9QM6wy",
+        "column_LkpPbJ"
+      ],
+      "settings": {
+        "title": "Skincare experts trust Cantabria Labs",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_ajEfHF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LYkfrn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Global leaders in dermatology",
+            "heading_size": "h2"
+          }
+        },
+        "text_HTbGR6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cantabria Labs is a pharmaceutical company who have specialised in dermatological skincare for over 35 years. Based in Spain, and with a presence in more than 85 countries worldwide, Cantabria Labs are a leading name in groundbreaking skin health research, development and innovation.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_jPCTjG": {
+          "type": "button",
+          "settings": {
+            "button_label": "More about us",
+            "button_link": "shopify://pages/about-us",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_LYkfrn",
+        "text_HTbGR6",
+        "button_jPCTjG"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/CL-WEB-0001_-_Homepage_-_Global_Leaders_-_2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_LUcipP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_i3eaNw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Rafa-Resized.jpg",
+            "title": "Rafael Nadal",
+            "text": "<p>Legendary Grand-Slam winning Tennis Player</p>",
+            "link_label": "Read more",
+            "link": "shopify://blogs/blog/heliocare-and-rafa-nadal-together-for-good-sun-protection-and-healthy-activity-in-the-sun"
+          }
+        },
+        "column_LpjWdF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Real-Madrid-Resized.jpg",
+            "title": "Real Madrid C.F.",
+            "text": "<p>15x European Football Champions</p>",
+            "link_label": "Read more",
+            "link": "shopify://blogs/blog/real-madrid-cantabria-labs-partnership-train-your-skin-campaign"
+          }
+        },
+        "column_G9RbmJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sara-Andres-Resized-2.jpg",
+            "title": "Sara Andrés Barrio",
+            "text": "<p>Spanish Paralympic Athlete</p>",
+            "link_label": "Read more",
+            "link": "shopify://blogs/blog/cantabria-labs-with-rafa-nadal-sara-andres-and-real-madrid-together-against-melanoma"
+          }
+        }
+      },
+      "block_order": [
+        "column_i3eaNw",
+        "column_LpjWdF",
+        "column_G9RbmJ"
+      ],
+      "settings": {
+        "title": "Our ambassadors",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_NeKPxJ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_qBBnmB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Derm_Proven_Efficacy.png",
+            "title": "Dermatologist proven efficacy",
+            "text": "<p>Cantabria Labs skincare ranges are dermatologist-proven to target, prevent, and improve key skin concerns like sun protection, acne-prone skin, ageing, and hyperpigmentation.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pXVeTF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Expert_Recommended.png",
+            "title": "Expert recommended",
+            "text": "<p>Cantabria Labs products are the top dermatological prescription in Spain, Italy, Portugal, and recommended by skin experts across the globe.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tmgBUf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Personalised_Skincare.png",
+            "title": "Personalised skincare",
+            "text": "<p>With ranges specifically designed to cover every skin type, indication and concern, there’s always a Cantabria Labs product to suit <em>your</em> skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_qBBnmB",
+        "column_pXVeTF",
+        "column_tmgBUf"
+      ],
+      "settings": {
+        "title": "Why choose Cantabria Labs?",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_EPn7gK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bpzjnL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB_-_Expert_Advice.jpg",
+            "title": "Expert Advice",
+            "text": "<p>Health and skincare advice from top dermatologists and skincare professionals.</p>",
+            "link_label": "Learn more",
+            "link": "shopify://blogs/expert-advice"
+          }
+        },
+        "column_jdJJMU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB_-_Skincare_Guide.jpg",
+            "title": "Skincare Guides",
+            "text": "<p>In depth guides to help you make the right choice for your skin and achieve your skincare goals.</p>",
+            "link_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides"
+          }
+        },
+        "column_6hVRfc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB_-_Ingredients_Glossary.jpg",
+            "title": "Ingredients Glossary",
+            "text": "<p>The key technologies and ingredients featured in Cantabria Labs’ outstanding product portfolio.</p>",
+            "link_label": "Learn more",
+            "link": "shopify://pages/ingredients"
+          }
+        }
+      },
+      "block_order": [
+        "column_bpzjnL",
+        "column_jdJJMU",
+        "column_6hVRfc"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "Innovation and scientific excellence",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_DNgG9V": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YdBAyb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Lookfantastic_d75aa81e-ed92-4c79-a42e-697b2bb891e7.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CfJpQg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Harpers_Bazaar.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yEBQh8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Just_My_Look.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MDMk7Q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tatler_562f82d2-602a-48ec-866c-fdf144e847a4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MeYeb4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Beauty_Bay.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_abgqf9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Vogue_9fc08d0e-439d-4d80-82f1-05367d8fc54a.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_YdBAyb",
+        "column_CfJpQg",
+        "column_yEBQh8",
+        "column_MDMk7Q",
+        "column_MeYeb4",
+        "column_abgqf9"
+      ],
+      "settings": {
+        "title": "As seen in",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "newsletter_qHy7Hn": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_Qtpcia": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get 10% off your first order",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_nbh67z": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join the Cantabria Labs community for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
+          }
+        },
+        "email_form_HHPU7P": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_Qtpcia",
+        "paragraph_nbh67z",
+        "email_form_HHPU7P"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     }
   },
   "order": [
-    "main"
+    "image_banner",
+    "rich_text_amGfhA",
+    "cl_featured_collection_rx4MFi",
+    "cl_collage_ranges_UM4mMA",
+    "multicolumn",
+    "rich_text_WD8i97",
+    "cl_slideshow_Bdfd6h",
+    "multicolumn_Y9yFp6",
+    "image_with_text_ajEfHF",
+    "multicolumn_LUcipP",
+    "multicolumn_NeKPxJ",
+    "multicolumn_EPn7gK",
+    "multicolumn_DNgG9V",
+    "newsletter_qHy7Hn"
   ]
 }
