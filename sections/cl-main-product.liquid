@@ -709,7 +709,7 @@
                 </product-recommendations>
               {%- when 'icon-with-text' -%}
                 {% render 'icon-with-text', block: block %}
-              {%- when 'text_area' -%}
+              {%- when 'textarea' -%}
                 {{ block.settings.text_area }}
             {%- endcase -%}
           {%- endfor -%}
@@ -823,6 +823,17 @@
           "label": "t:sections.main-product.blocks.text.settings.text_style.label"
         }
       ]
+    },
+    {
+    "type": "textarea",
+    "name": "Custom Text Area",
+    "settings": [
+      {
+        "id": "text_area",
+        "type": "textarea",
+        "label": "Custom Text Area"
+      }
+    ]
     },
     {
       "type": "title",
@@ -2520,11 +2531,6 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 64
-    },
-    {
-    "type":"textarea",
-    "id":"text_area",
-    "label":"Custom Text Area"
     }
   ]
 }
