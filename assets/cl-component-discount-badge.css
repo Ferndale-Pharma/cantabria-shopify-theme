@@ -1,0 +1,99 @@
+.discount-badge-container {
+  position: relative;
+  top: 10%;
+  left: 2%;
+}
+.discount-badge-short-text {
+  background-color: #D0DEE5;
+  color: #165c7d;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  text-align: center;"
+}
+.discount-container {
+  position: relative!important;
+  right: -55%!important;
+}
+.discount-main-offer {
+  text-align: center;
+  flex-direction: column;
+  background-color: #d0dee5;
+  color: #457d97;
+  margin-top: 1rem;
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+  padding: 0.75em 0.5em 0.5em; 
+  font-size: 0.65em;
+  line-height: 1.2em;
+  border-radius: 4px;
+}
+.discount-text-emphasis {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+.discount-text-emphasis-code {
+  font-size: 1.3em;
+  line-height: 1.4em;
+  font-weight: bold;
+  display: inline-block;
+}
+.discount-extra-offer {
+  background-color: #457d97;
+  color: #d0dee5;
+  display: block;
+  width: 40%;
+  text-align: center;
+  padding: 0.5em;
+  font-size: 0.6em;
+  line-height: 1.1em;
+  border-radius: 0 0 4px 4px;
+}
+.remove-border-radius {
+  border-radius: 4px 4px 0 0;
+}
+.product-media-container .discount-container {
+  position: absolute !important;
+  top: 0;
+  right: -65%!important;
+  width: 100%;
+  z-index: 99;
+}
+@media screen and (min-width: 1280px) {
+  .discount-badge-container {
+    top: 25%;
+    left: 10%;
+  }
+  .discount-container,
+  .product-media-container .discount-container {
+    right: -65%!important;
+  }
+  .discount-main-offer {
+    width: 30%;
+    font-size: 0.8em;
+  }
+  .discount-extra-offer {
+    width: 30%;
+    font-size: 0.75em;
+  }
+}
+@media screen and (max-device-width: 375px) { 
+  .discount-main-offer,
+  .discount-extra-offer {
+      width: 45%;
+    }
+}
+@media screen and (max-device-width: 767px) { 
+  .product-media-container .discount-main-offer,
+  .product-media-container .discount-extra-offer {
+      width: 25%;
+    }
+}
