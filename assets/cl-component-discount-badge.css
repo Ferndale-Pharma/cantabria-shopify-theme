@@ -20,6 +20,7 @@
 .discount-container {
   position: relative!important;
   right: -55%!important;
+  width: 40%;
 }
 .discount-main-offer {
   text-align: center;
@@ -28,7 +29,7 @@
   color: #457d97;
   margin-top: 1rem;
   width: 40%;
-  display: inline-block;
+  display: block;
   text-align: center;
   padding: 0.75em 0.5em 0.5em; 
   font-size: 0.65em;
@@ -50,7 +51,6 @@
   background-color: #457d97;
   color: #d0dee5;
   display: block;
-  width: 40%;
   text-align: center;
   padding: 0.5em;
   font-size: 0.6em;
@@ -63,8 +63,8 @@
 .product-media-container .discount-container {
   position: absolute !important;
   top: 0;
-  right: -65%!important;
-  width: 100%;
+  right: 2%!important;
+  width: 40%;
   z-index: 99;
 }
 @media screen and (min-width: 1280px) {
@@ -72,28 +72,32 @@
     top: 25%;
     left: 10%;
   }
-  .discount-container,
-  .product-media-container .discount-container {
+  .discount-container {
+    width: 30%;
     right: -65%!important;
   }
-  .discount-main-offer {
+  .product-media-container .discount-container {
+    right: 5%!important;
     width: 30%;
+  }
+  .discount-main-offer {
+    width: 100%;
     font-size: 0.8em;
   }
   .discount-extra-offer {
-    width: 30%;
+    width: 100%;
     font-size: 0.75em;
   }
 }
 @media screen and (max-device-width: 375px) { 
   .discount-main-offer,
   .discount-extra-offer {
-      width: 45%;
+      width: 80%;
     }
 }
 @media screen and (max-device-width: 767px) { 
   .product-media-container .discount-main-offer,
   .product-media-container .discount-extra-offer {
-      width: 25%;
+      width: 80%;
     }
 }
