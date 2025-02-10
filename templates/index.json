@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Dermatological expertise, proven results",
+            "heading": "Your best skin for less",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Welcome to Cantabria Labs, the home of dermatological skincare expertly researched and developed to deliver proven results",
+            "text": "Enjoy 20% off selected Cantabria Labs Skincare Heroes with code HERO20",
             "text_style": "subtitle"
           }
         },
@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify://collections/promotions",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
