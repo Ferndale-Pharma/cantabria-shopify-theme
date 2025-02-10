@@ -28,7 +28,6 @@
   background-color: #d0dee5;
   color: #457d97;
   margin-top: 1rem;
-  width: 40%;
   display: block;
   text-align: center;
   padding: 0.75em 0.5em 0.5em; 
@@ -81,10 +80,10 @@
   }
   .product-media-container .discount-container {
     right: 5%!important;
-    width: 30%;
+    width: 30%!important;
   }
   .related-products .discount-container {
-	width: 30%;
+    width: 30%;
   }
   .discount-main-offer {
     width: 100%;
@@ -106,4 +105,11 @@
   .product-media-container .discount-extra-offer {
       width: 80%;
     }
+  .related-products .discount-container {
+    width: 45%;
+  }
+  .related-products .discount-main-offer,
+  .related-products .discount-extra-offer {
+    width: 100%;
+  }
 }
