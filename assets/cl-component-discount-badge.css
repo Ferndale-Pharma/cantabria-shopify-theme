@@ -67,6 +67,9 @@
   width: 40%;
   z-index: 99;
 }
+.related-products .discount-container {
+	width: 40%;
+}
 @media screen and (min-width: 1280px) {
   .discount-badge-container {
     top: 25%;
@@ -79,6 +82,9 @@
   .product-media-container .discount-container {
     right: 5%!important;
     width: 30%;
+  }
+  .related-products .discount-container {
+	width: 30%;
   }
   .discount-main-offer {
     width: 100%;
