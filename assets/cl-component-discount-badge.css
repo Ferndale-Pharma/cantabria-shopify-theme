@@ -56,6 +56,10 @@
   line-height: 1.1em;
   border-radius: 0 0 4px 4px;
 }
+.free-gift-main-offer {
+  background-color: #457d97;
+  color: #d0dee5;
+}
 .remove-border-radius {
   border-radius: 4px 4px 0 0;
 }
