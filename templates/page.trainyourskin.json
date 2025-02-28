@@ -15,9 +15,135 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_gh9p6W": {
+      "type": "rich-text",
+      "blocks": {
+        "text_PG6DjH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Just like elite athletes train their bodies for peak performance, your skin needs the right routine to stay healthy, strong, and protected.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_PG6DjH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "video_YcxppM": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Train Your Skin Video.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_7HLYRh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gFT89g": {
+          "type": "heading",
+          "settings": {
+            "heading": "Train your skin with Cantabria Labs– trusted by Real Madrid, powered by dermatological science.",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gFT89g"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_9kHwec": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_xGhVJ7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Just as footballers train their bodies for endurance, strength, and resilience, your skin needs the right protection and care to thrive.</p><p></p><p>With advanced formulas trusted by elite athletes, Cantabria Labs helps you train your skin to be stronger, healthier, and more resilient every day.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_xGhVJ7"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_1.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_UNNChw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_pbkzkP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You wouldn’t step onto the pitch without your boots—so why leave your skin unprotected? </p><p>Sun damage is the #1 cause of premature ageing and skin health issues, even in the UK’s unpredictable weather. </p><p>Whether it's match day or a training session, Heliocare 360° is your skin’s ultimate defence.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_pbkzkP"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_gh9p6W",
+    "video_YcxppM",
+    "rich_text_7HLYRh",
+    "image_with_text_9kHwec",
+    "image_with_text_UNNChw"
   ]
 }
