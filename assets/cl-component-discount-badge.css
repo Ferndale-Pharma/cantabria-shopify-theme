@@ -117,6 +117,9 @@
     width: 100%;
     font-size: 0.75em;
   }
+  slider-component .grid--5-col-desktop .discount-container {
+	width: 35%;
+  }
 }
 @media screen and (min-width: 1024px) {
   .new-product-badge {
