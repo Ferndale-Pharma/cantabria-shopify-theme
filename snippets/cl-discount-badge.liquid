@@ -13,6 +13,17 @@
   
 </div>
 {% endcomment %}
+<div class="discount-flex-container{% if product.tags contains 'new-product' %} flex-between{% endif %}">
+{%- if product.tags contains 'new-product' -%}
+  <div class="discount-container">
+    <span
+      id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}-1"
+      class="discount-main-offer new-product-badge"
+    >
+      <span class="discount-extra-offer-large-text">&#9733; NEW!</span>
+    </span>
+</div>
+{%- endif  -%}
 {%- if product.tags contains 'HERO20' -%}
   <div class="discount-container">
     <span
@@ -45,5 +56,6 @@
     >
       <span class="discount-extra-offer-large-text">+ FREE GIFT</span><br/><span class="discount-long-text-emphasis">worth £24</span>
     </span>
-</div>
+  </div>
 {%- endif -%}
+</div>

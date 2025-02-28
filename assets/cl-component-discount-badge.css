@@ -1,3 +1,8 @@
+.discount-flex-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
 .discount-badge-container {
   position: relative;
   top: 10%;
@@ -19,8 +24,9 @@
 }
 .discount-container {
   position: relative!important;
-  right: -55%!important;
   width: 40%;
+  display: flex;
+  flex-direction: column;
 }
 .discount-main-offer {
   text-align: center;
@@ -73,14 +79,28 @@
 .related-products .discount-container {
 	width: 40%;
 }
+.flex-between {
+  justify-content: space-between;
+}
+.new-product-badge {
+    display: flex;
+    justify-content: center;
+    background-color: #e9e9e9;
+    color: #575353;
+    font-size: 0.7em;
+    width: 60px!important;
+}
 @media screen and (min-width: 1280px) {
   .discount-badge-container {
     top: 25%;
     left: 10%;
   }
+  .discount-flex-container {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
   .discount-container {
     width: 30%;
-    right: -65%!important;
   }
   .product-media-container .discount-container {
     right: 5%!important;
@@ -98,6 +118,11 @@
     font-size: 0.75em;
   }
 }
+@media screen and (min-width: 1024px) {
+  .new-product-badge {
+    width: 65px!important;
+  }
+}
 @media screen and (max-device-width: 375px) { 
   .discount-main-offer,
   .discount-extra-offer {
@@ -105,6 +130,9 @@
     }
 }
 @media screen and (max-device-width: 767px) { 
+  .discount-container {
+    width: 50%;
+  }
   .product-media-container .discount-main-offer,
   .product-media-container .discount-extra-offer {
       width: 80%;
