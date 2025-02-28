@@ -149,6 +149,9 @@
   .discount-container {
     width: 45%!important;
   }
+  .product-media-container .discount-container {
+    width: 35%!important;
+  }
   .discount-main-offer,
   .discount-extra-offer {
       width: 100%;
