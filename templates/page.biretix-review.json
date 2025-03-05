@@ -23,7 +23,7 @@
         "heading_QkzePh": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.title }}We value your feedback – Share your BIRETIX skincare experience with us!",
+            "heading": "{{ page.title }}",
             "heading_size": "h1"
           }
         },
