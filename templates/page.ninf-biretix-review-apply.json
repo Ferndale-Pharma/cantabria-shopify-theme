@@ -323,7 +323,7 @@
       ],
       "custom_css": [
         ".globo-form-control .gfb__image-option__list {display: flex; flex-wrap: wrap; justify-content: space-between;}",
-        ".globo-form-control .gfb__image-option__wrapper {display: flex; border: 2px solid #000; border-radius: 2px; width: calc(33% - 8px);}",
+        ".globo-form-control .gfb__image-option__wrapper {display: flex; border: 2px solid #000; border-radius: 2px; width: calc(100% / 6 - 8px);}",
         "@media screen and (max-width: 767px) {.globo-form-control .gfb__image-option__wrapper {width: calc(50% - 8px); }}"
       ],
       "settings": {
