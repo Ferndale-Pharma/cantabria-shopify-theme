@@ -75,8 +75,8 @@
         "color_scheme": "scheme-3",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 32
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "17411687961e2d1126": {
