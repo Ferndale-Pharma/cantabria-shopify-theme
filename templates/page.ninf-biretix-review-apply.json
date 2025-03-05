@@ -193,7 +193,7 @@
         "color_scheme": "scheme-3",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 0,
+        "padding_top": 64,
         "padding_bottom": 32
       }
     },
@@ -324,7 +324,40 @@
         "color_scheme": "scheme-3",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 0,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "newsletter_ykrRnC": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_JheaYm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get 10% off your first order",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_KeVBzg": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join the Cantabria Labs community for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
+          }
+        },
+        "email_form_J9y9MU": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_JheaYm",
+        "paragraph_KeVBzg",
+        "email_form_J9y9MU"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 64,
         "padding_bottom": 64
       }
     }
@@ -336,6 +369,7 @@
     "image_with_text_zrzXHf",
     "rich_text_UAnx4F",
     "cl_slideshow_8QJhMA",
-    "rich_text_GWUMNe"
+    "rich_text_GWUMNe",
+    "newsletter_ykrRnC"
   ]
 }
