@@ -321,7 +321,10 @@
         "text_GMzi9R",
         "text_m9R8Ac"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".globo-form-control .gfb__image-option__list {display: flex;flex-wrap: wrap;justify-content: space-between;}",
+        ".globo-form-control .gfb__image-option__wrapper {display: flex;border: 2px solid #000;border-radius: 2px;width: calc(33% - 8px);}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
