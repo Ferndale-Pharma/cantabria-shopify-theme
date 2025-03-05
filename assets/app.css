@@ -914,6 +914,14 @@ span.cl-swatch {
   line-height: 2rem !important;
 }
 
+.globo-form-control .gfb__rating-stars fieldset label {
+  max-width: 60px;
+}
+
+.globo-form-control .gfb__rating-stars fieldset {
+  justify-content: center !important;
+}
+
 /** Makes sure that collections with 4 or less are centralised. **/
 
 @media screen and (min-width: 750px) {
