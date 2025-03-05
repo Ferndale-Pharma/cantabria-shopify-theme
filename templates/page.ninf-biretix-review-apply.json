@@ -322,7 +322,7 @@
         "text_m9R8Ac"
       ],
       "custom_css": [
-        "select {border-width: 2px !important; border-style: solid !important; --tw-border-opacity: 1 !important; border-color: rgb(0 0 0 / 1 !important) !important; background-color: transparent !important;}"
+        ".gfb__image-dropdown {border-width: 2px !important; border-style: solid !important; --tw-border-opacity: 1 !important; border-color: rgb(0 0 0 / 1 !important) !important; background-color: transparent !important;}"
       ],
       "settings": {
         "desktop_content_position": "center",
