@@ -654,12 +654,6 @@ span.cl-swatch {
   @apply twcss-text-2xl !important;
 }
 
-.globo-form-control .gfb__rating-stars fieldset label {
-	max-width: 60px;
-}
-.globo-form-control .gfb__rating-stars fieldset {
-	justify-content: center;
-}
 
 /** Makes sure that collections with 4 or less are centralised. **/
 @media screen and (min-width: 750px) {
