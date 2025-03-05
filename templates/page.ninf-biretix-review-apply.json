@@ -110,6 +110,9 @@
         "column_mxYNTm",
         "column_69CGQM"
       ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
       "settings": {
         "title": "{{ page.metafields.custom.section_2_title.value }}",
         "heading_size": "h1",
@@ -317,6 +320,9 @@
         "heading_ha9Kmz",
         "text_GMzi9R",
         "text_m9R8Ac"
+      ],
+      "custom_css": [
+        "select {border-width: 2px !important; border-style: solid !important; --tw-border-opacity: 1 !important; border-color: rgb(0 0 0 / 1 !important) !important; background-color: transparent !important;}"
       ],
       "settings": {
         "desktop_content_position": "center",
