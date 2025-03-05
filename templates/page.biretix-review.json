@@ -85,7 +85,7 @@
         "powerful_form_builder_app_block_qDriRt": {
           "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
           "settings": {
-            "shortcode": ""
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"NzkyODM=\"></div>"
           }
         }
       },
@@ -95,12 +95,36 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "rich_text_GWUMNe": {
+      "type": "rich-text",
+      "blocks": {
+        "text_m9R8Ac": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ page.metafields.custom.form_shortcode.value }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_m9R8Ac"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "main",
     "rich_text_LmyULX",
     "rich_text_UAnx4F",
-    "17411687961e2d1126"
+    "17411687961e2d1126",
+    "rich_text_GWUMNe"
   ]
 }
