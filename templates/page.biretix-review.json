@@ -24,7 +24,7 @@
           "type": "heading",
           "settings": {
             "heading": "{{ page.title }}",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "text_gV9i98": {
@@ -43,14 +43,64 @@
         "content_alignment": "center",
         "color_scheme": "scheme-3",
         "full_width": true,
+        "is_heading": true,
+        "padding_top": 32,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_UAnx4F": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7wybAd": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.metafields.custom.section_2_title.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_3KirBe": {
+          "type": "text",
+          "settings": {
+            "text": "{{ page.metafields.custom.section_2_body_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7wybAd",
+        "text_3KirBe"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
         "is_heading": false,
         "padding_top": 64,
         "padding_bottom": 64
+      }
+    },
+    "17411687961e2d1126": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_qDriRt": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": ""
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_qDriRt"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
     "main",
-    "rich_text_LmyULX"
+    "rich_text_LmyULX",
+    "rich_text_UAnx4F",
+    "17411687961e2d1126"
   ]
 }
