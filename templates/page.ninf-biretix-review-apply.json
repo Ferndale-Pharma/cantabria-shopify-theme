@@ -32,11 +32,23 @@
           "settings": {
             "text": "{{ page.metafields.custom.section_1_body_text | metafield_tag }}"
           }
+        },
+        "button_E7qRPR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try BIRETIX Tri-Active Anti-Blemish Gel",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "heading_QkzePh",
-        "text_gV9i98"
+        "text_gV9i98",
+        "button_E7qRPR"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -48,13 +60,119 @@
         "padding_bottom": 64
       }
     },
+    "multicolumn_html_JMWzrD": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_GrqRHB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-CL-WEB-00121_-_IMG_-_03.jpg",
+            "title": "Triple-action formula",
+            "text": "<p>Fights blemishes, exfoliates, and soothes skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eMgMh8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-CL-WEB-00121_-_IMG_-_07.jpg",
+            "title": "Powered by RetinSphere® Technology",
+            "text": "<p>A unique retinoid complex that speeds up cell renewal without irritation.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mxYNTm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-CL-WEB-00121_-_IMG_-_05.jpg",
+            "title": "Salicylic Acid & BIOPEP-15",
+            "text": "<p>Targets acne-causing bacteria while keeping pores clear.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_69CGQM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-CL-WEB-00121_-_IMG_-_04.jpg",
+            "title": "Clinically proven results",
+            "text": "<p>After just 28 days use, BIRETIX Tri-Active Anti-Blemish Gel is dermatologically proven to significantly reduce imperfections by 61%, and blemishes by up to 76%.<sup>1,2<sup></sup></sup></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_GrqRHB",
+        "column_eMgMh8",
+        "column_mxYNTm",
+        "column_69CGQM"
+      ],
+      "settings": {
+        "title": "{{ page.metafields.custom.section_2_title.value }}",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Try BIRETIX Tri-Active Anti-Blemish Gel",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_zrzXHf": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_RKq3Cx": {
+          "type": "text",
+          "settings": {
+            "text": "{{ page.metafields.custom.section_3_body_text | metafield_tag }}",
+            "text_style": "body"
+          }
+        },
+        "button_n9mAyD": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try BIRETIX Tri-Active Anti-Blemish Gel",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "text_RKq3Cx",
+        "button_n9mAyD"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/FERN-CL-WEB-00121_-_IMG_-_01.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "rich_text_UAnx4F": {
       "type": "rich-text",
       "blocks": {
         "heading_7wybAd": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.metafields.custom.section_2_title.value }}",
+            "heading": "{{ page.metafields.custom.section_4_title.value }}",
             "heading_size": "h1"
           }
         },
@@ -79,15 +197,115 @@
         "padding_bottom": 32
       }
     },
-    "17411687961e2d1126": {
-      "type": "apps",
+    "cl_slideshow_8QJhMA": {
+      "type": "cl-slideshow",
+      "blocks": {
+        "slide_UKkgee": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/RETINSPHERE_1.jpg",
+            "heading": "RetinSphere® Technology",
+            "heading_size": "h1",
+            "subheading": "Aunique, stabilized retinoid complex that gently accelerates cell renewal,helping to fade blemishes and refine skin texture. ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_bNChTE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SALICYLIC_ACID.jpg",
+            "heading": "Salicylic Acid",
+            "heading_size": "h1",
+            "subheading": "Apowerful BHA that exfoliates deep within pores, reducing congestion andpreventing new breakouts. ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_gniRrw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/BIOPEP-15.jpg",
+            "heading": "BIOPEP-15",
+            "heading_size": "h1",
+            "subheading": "A unique peptide technology that helps reduce the presence of blemish-causing bacteria, promoting a clearer complexion.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_CQXn3J": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/NIACINAMIDE.jpg",
+            "heading": "Niacinamide",
+            "heading_size": "h1",
+            "subheading": "Known for its anti-inflammatory and redness-reducing properties, helping to calm irritated skin. ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_UKkgee",
+        "slide_bNChTE",
+        "slide_gniRrw",
+        "slide_CQXn3J"
+      ],
       "settings": {
-        "include_margins": true
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "none",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "rich_text_GWUMNe": {
       "type": "rich-text",
       "blocks": {
+        "heading_ha9Kmz": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.metafields.custom.section_5_title.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_GMzi9R": {
+          "type": "text",
+          "settings": {
+            "text": "{{ page.metafields.custom.section_5_body_text | metafield_tag }}"
+          }
+        },
         "text_m9R8Ac": {
           "type": "text",
           "settings": {
@@ -96,12 +314,14 @@
         }
       },
       "block_order": [
+        "heading_ha9Kmz",
+        "text_GMzi9R",
         "text_m9R8Ac"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "full_width": true,
         "is_heading": false,
         "padding_top": 0,
@@ -112,8 +332,10 @@
   "order": [
     "main",
     "rich_text_LmyULX",
+    "multicolumn_html_JMWzrD",
+    "image_with_text_zrzXHf",
     "rich_text_UAnx4F",
-    "17411687961e2d1126",
+    "cl_slideshow_8QJhMA",
     "rich_text_GWUMNe"
   ]
 }
