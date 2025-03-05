@@ -34,7 +34,7 @@
       <meta name='description' content='{{ page_description | escape }}'>
     {% endif %}
 
-    {% if template contains 'noindexnofollow' %}
+    {% if template contains 'noindexnofollow' or template contains 'ninf' %}
       <meta name='robots' content='noindex,nofollow'>
     {% endif %}
 
