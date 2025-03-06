@@ -123,7 +123,7 @@
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "Try BIRETIX Tri-Active Anti-Blemish Gel",
-        "button_link": "",
+        "button_link": "#contact",
         "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -145,7 +145,7 @@
           "type": "button",
           "settings": {
             "button_label": "Try BIRETIX Tri-Active Anti-Blemish Gel",
-            "button_link": "",
+            "button_link": "#contact",
             "button_style_secondary": false
           }
         }
