@@ -328,7 +328,7 @@
         ".globo-form-control .gfb__image-option__wrapper {display: flex; border: 2px solid #000; border-radius: 2px; width: calc(16% - 4px); min-width: initial !important;}",
         ".gfb__image-option__thumb img {padding-top: 0.5rem !important; padding-bottom: 0.5rem !important;}",
         "@media screen and (max-width: 767px) {.globo-form-control .gfb__image-option__wrapper {width: calc(50% - 8px); }}",
-        ".test {height: inital;}"
+        ".test {height: initial;}"
       ],
       "settings": {
         "desktop_content_position": "center",
