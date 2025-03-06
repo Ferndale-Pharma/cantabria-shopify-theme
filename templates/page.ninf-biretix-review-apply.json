@@ -57,7 +57,8 @@
         "full_width": true,
         "is_heading": true,
         "padding_top": 32,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "multicolumn_html_JMWzrD": {
@@ -197,7 +198,8 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
-        "padding_bottom": 32
+        "padding_bottom": 32,
+        "container_id": ""
       }
     },
     "cl_slideshow_8QJhMA": {
@@ -323,7 +325,7 @@
       ],
       "custom_css": [
         ".globo-form-control .gfb__image-option__list {display: flex; flex-wrap: wrap; justify-content: space-between;}",
-        ".globo-form-control .gfb__image-option__wrapper {display: flex; border: 2px solid #000; border-radius: 2px; width: calc(16% - 8px); min-width: initial!important;}",
+        ".globo-form-control .gfb__image-option__wrapper {display: flex; border: 2px solid #000; border-radius: 2px; width: calc(16% - 8px); min-width: initial !important;}",
         "@media screen and (max-width: 767px) {.globo-form-control .gfb__image-option__wrapper {width: calc(50% - 8px); }}"
       ],
       "settings": {
@@ -333,7 +335,8 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": "contact"
       }
     },
     "newsletter_ykrRnC": {
