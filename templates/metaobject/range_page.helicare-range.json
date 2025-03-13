@@ -86,7 +86,8 @@
         "full_width": true,
         "is_heading": true,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "image_with_text_48BKmX": {
@@ -342,7 +343,7 @@
         "text_wnr6Tx": {
           "type": "text",
           "settings": {
-            "text": "<p>All HELIOCARE 360° products contain a unique combination of UV filters, ingredients and technologies like no other, protecting the skin from harmful UVA, UVB, Visible light and Infrared-A, as well as oxidative stress, premature skin ageing, hyperpigmentation and indirect DNA damage. </p><p>Fernblock®+ is the exclusive, dermatologically proven, powerful antioxidant that’s incorporated into every HELIOCARE 360° topical sunscreen and skin health supplement. It is clinically proven to help prevent and repair damage caused by daylight and environmental free radicals, including damage to the skin’s DNA and immune system, and premature skin ageing.  </p><p>Fernblock®+’s efficacy is unsurpassed in photo protection, and is the result of decades of research and development by leading dermatologists. Backed by more than 50 scientific and clinical studies,<strong> </strong> nothing protects your skin like HELIOCARE 360° with Fernblock®+. </p>",
+            "text": "<p>All HELIOCARE 360° products contain a unique combination of UV filters, ingredients and technologies like no other, protecting the skin from harmful UVA, UVB, Visible light and Infrared-A, as well as oxidative stress, premature skin ageing, hyperpigmentation and indirect DNA damage. </p><p><a href=\"/blogs/skincare-guides/6-benefits-of-fernblock\" title=\"6 Benefits of Fernblock®\"><strong>Fernblock®+</strong></a> is the exclusive, dermatologically proven, powerful antioxidant that’s incorporated into every HELIOCARE 360° topical sunscreen and skin health supplement. It is clinically proven to help prevent and repair damage caused by daylight and environmental free radicals, including damage to the skin’s DNA and immune system, and premature skin ageing.  </p><p>Fernblock®+’s efficacy is unsurpassed in photo protection, and is the result of decades of research and development by leading dermatologists. Backed by more than 50 scientific and clinical studies,<strong> </strong> nothing protects your skin like HELIOCARE 360° with Fernblock®+. </p>",
             "text_style": "body"
           }
         }
@@ -350,6 +351,9 @@
       "block_order": [
         "heading_Qjfn4L",
         "text_wnr6Tx"
+      ],
+      "custom_css": [
+        "a {color: initial;}"
       ],
       "settings": {
         "image": "shopify://shop_images/FERNBLOCK.jpg",
@@ -578,7 +582,8 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
-        "padding_bottom": 32
+        "padding_bottom": 32,
+        "container_id": ""
       }
     },
     "cl_slideshow_9QxUaB": {
@@ -931,7 +936,8 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 0,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "collapsible_content_aFz6wc": {
