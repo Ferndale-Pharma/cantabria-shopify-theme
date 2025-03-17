@@ -345,7 +345,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "image_with_text_j7VAgM": {
@@ -606,7 +607,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "cl_featured_collection_UQd4Xn": {
@@ -936,7 +938,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "multicolumn_4BEDzV": {
@@ -1003,7 +1006,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 64,
-        "padding_bottom": 32
+        "padding_bottom": 32,
+        "container_id": "retailers"
       }
     },
     "rich_text_amwKDD": {
