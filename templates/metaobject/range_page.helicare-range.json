@@ -12,6 +12,13 @@
     "image_banner_9qaB4e": {
       "type": "image-banner",
       "blocks": {
+        "text_RVaThd": {
+          "type": "text",
+          "settings": {
+            "text": "The official UK Home of HELIOCARE",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
         "heading_EG6cQt": {
           "type": "heading",
           "settings": {
@@ -39,6 +46,7 @@
         }
       },
       "block_order": [
+        "text_RVaThd",
         "heading_EG6cQt",
         "text_RggQnc",
         "buttons_Ptfz3f"
@@ -73,11 +81,21 @@
           "settings": {
             "text": "<p>HELIOCARE 360° is a dermatologist proven sun protection range providing very high level, full-spectrum daily protection against UVA, UVB, visible light and infrared-A. With its unique antioxidant technology Fernblock®+, HELIOCARE 360° is clinically proven to protect beyond typical sunscreen, defending the skin from within and repairing damage caused by daylight.</p>"
           }
+        },
+        "text_EAdF6y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HELIOCARE is <a href=\"/collections/heliocare\" title=\"HELIOCARE Products\"><strong>available to buy now direct from Cantabria Labs UK</strong></a>, the manufacturers of HELIOCARE and a leading name worldwide in ground-breaking skin health research, development and innovation, as well as from your favourite <a href=\"/pages/find-a-stockist\" title=\"Find a stockist\"><strong>professional skin clinics</strong></a> and <a href=\"#retailers\" title=\"#retailers\"><strong>specialist skincare retailers</strong></a>. </p>"
+          }
         }
       },
       "block_order": [
         "heading_CNqReC",
-        "text_cyAfnX"
+        "text_cyAfnX",
+        "text_EAdF6y"
+      ],
+      "custom_css": [
+        "a {color: #000;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -96,14 +114,14 @@
         "heading_efPgzd": {
           "type": "heading",
           "settings": {
-            "heading": "For everyone, every day…because sun damage happens all year-round",
+            "heading": "For everyone, every day…",
             "heading_size": "h2"
           }
         },
         "text_6ktVBh": {
           "type": "text",
           "settings": {
-            "text": "<p>Even in autumn and winter, harmful UVA, visible light, and Infrared-A rays are present throughout the day. These rays penetrate deeper into the skin, contributing to premature skin aging, dark spots, and DNA damage. </p><p>With unique formulas tailored for all skin types, special skin care concerns, finish and coverage preferences, as well as a range of oral skin supplements, HELIOCARE 360° is dermatologically proven to provide the highest protection for your skin all year round, whatever the weather. </p>",
+            "text": "<p>With unique formulas tailored for all skin types, special skin care concerns, finish and coverage preferences, as well as a range of oral skin supplements, HELIOCARE 360° is dermatologically proven to provide the highest protection for your skin all year round, whatever the weather.</p>",
             "text_style": "body"
           }
         },
@@ -122,7 +140,7 @@
         "button_Gy8FBp"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_All_Year_Round_ee4ff99d-dbca-43ba-b4ee-6c40d805f396.jpg",
+        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_SpringModelImage.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -343,7 +361,7 @@
         "text_wnr6Tx": {
           "type": "text",
           "settings": {
-            "text": "<p>All HELIOCARE 360° products contain a unique combination of UV filters, ingredients and technologies like no other, protecting the skin from harmful UVA, UVB, Visible light and Infrared-A, as well as oxidative stress, premature skin ageing, hyperpigmentation and indirect DNA damage. </p><p><a href=\"/blogs/skincare-guides/6-benefits-of-fernblock\" title=\"6 Benefits of Fernblock®\"><strong>Fernblock®+</strong></a> is the exclusive, dermatologically proven, powerful antioxidant that’s incorporated into every HELIOCARE 360° topical sunscreen and skin health supplement. It is clinically proven to help prevent and repair damage caused by daylight and environmental free radicals, including damage to the skin’s DNA and immune system, and premature skin ageing.  </p><p>Fernblock®+’s efficacy is unsurpassed in photo protection, and is the result of decades of research and development by leading dermatologists. Backed by more than 50 scientific and clinical studies,<strong> </strong> nothing protects your skin like HELIOCARE 360° with Fernblock®+. </p>",
+            "text": "<p>All HELIOCARE 360° products contain a unique combination of UV filters, ingredients and technologies like no other, protecting the skin from harmful UVA, UVB, Visible light and Infrared-A, as well as oxidative stress, premature skin ageing, hyperpigmentation and indirect DNA damage.</p><p><a href=\"/blogs/skincare-guides/6-benefits-of-fernblock\" title=\"6 Benefits of Fernblock®\"><strong>Fernblock®+</strong></a> is the exclusive, dermatologically proven, powerful antioxidant that’s incorporated into every HELIOCARE 360° topical sunscreen and skin health supplement. It is clinically proven to help prevent and repair damage caused by daylight and environmental free radicals, including damage to the skin’s DNA and immune system, and premature skin ageing.</p><p>Fernblock®+’s efficacy is unsurpassed in photo protection, and is the result of decades of research and development by leading dermatologists. Backed by more than 50 scientific and clinical studies, nothing protects your skin like HELIOCARE 360° with Fernblock®+.</p>",
             "text_style": "body"
           }
         }
@@ -461,6 +479,64 @@
         "swipe_on_mobile": false,
         "padding_top": 64,
         "padding_bottom": 64
+      }
+    },
+    "rich_text_JRTRpd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_K46GHr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introducing NEW ASPA-FERNBLOCK",
+            "heading_size": "h1"
+          }
+        },
+        "text_FBGXzx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Building on the proven benefits of Fernblock®, this revolutionary bioactive skin technology introduces the power of <em>Aspalathus linearis</em> (Rooibos) extract. Native to South Africa, Rooibos is rich in flavonoids and well-documented for its potent antioxidant and skin-protective properties.</p>"
+          }
+        },
+        "text_AzCayH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>By combining Fernblock® with ASPA extracts, NEW ASPA-Fernblock® enhances photoprotection, strengthening the skin’s defences further against sun-induced damage while neutralising harmful free radicals. Its unique OptiD effect also supports the skin’s ability to optimise Vitamin D synthesis, allowing you to benefit from the sun’s essential nutrients while maintaining superior protection.</p>"
+          }
+        },
+        "text_PrGxVB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience the next level in daily skin defence.</p>"
+          }
+        },
+        "button_TQtKj9": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discover HELIOCARE products powered by ASPA-Fernblock®",
+            "button_link": "shopify://collections/aspa-fernblock",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_K46GHr",
+        "text_FBGXzx",
+        "text_AzCayH",
+        "text_PrGxVB",
+        "button_TQtKj9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "multicolumn_zjQz6Y": {
@@ -607,6 +683,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_QW877E": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0002_-_HELIOCARE_BRAND_PAGE_-_TECH_INGREDIENTS_-_ASPA_FERNBLOCK_1.jpg",
+            "heading": "ASPA-Fernblock®",
+            "heading_size": "h1",
+            "subheading": "ASPA-Fernblock® is a skin bioactive technology combining Fernblock®, a tropical fern extract, with Aspalathus Linearis (ASPA), a South African plant. It delivers powerful antioxidant protection, helping to prevent and repair sun-induced skin damage (UVA, UVB, Visible Light, Infrared A). It reduces redness, prevents sunburn, boosts elasticity, and enhances Vitamin D optimisation - ensuring you get the best from the sun while protecting your skin.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_fBRAbm": {
           "type": "slide",
           "settings": {
@@ -736,6 +830,7 @@
       },
       "block_order": [
         "slide_FcdjDV",
+        "slide_QW877E",
         "slide_fBRAbm",
         "slide_rCUptt",
         "slide_EK3KiX",
@@ -1015,6 +1110,7 @@
     "multicolumn_3TtWA3",
     "image_with_text_j7VAgM",
     "multicolumn_html_n7HF8i",
+    "rich_text_JRTRpd",
     "multicolumn_zjQz6Y",
     "cl_featured_collection_UQd4Xn",
     "rich_text_p3BLWR",
