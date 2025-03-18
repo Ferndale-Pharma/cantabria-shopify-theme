@@ -79,7 +79,8 @@
         "full_width": true,
         "is_heading": true,
         "padding_top": 32,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "container_id": ""
       }
     },
     "cl_featured_collection_rx4MFi": {
@@ -209,7 +210,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "container_id": ""
       }
     },
     "rich_text_WD8i97": {
@@ -233,7 +235,8 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
-        "padding_bottom": 32
+        "padding_bottom": 32,
+        "container_id": ""
       }
     },
     "cl_slideshow_Bdfd6h": {
@@ -246,6 +249,24 @@
             "heading": "Fernblock® Technology",
             "heading_size": "h1",
             "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_cU8ABe": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0002_-_HELIOCARE_BRAND_PAGE_-_TECH_INGREDIENTS_-_ASPA_FERNBLOCK_1.jpg",
+            "heading": "ASPA-Fernblock®",
+            "heading_size": "h1",
+            "subheading": "ASPA-Fernblock® is a skin bioactive technology combining Fernblock®, a tropical fern extract, with Aspalathus Linearis (ASPA), a South African plant. It delivers powerful antioxidant protection, helping to prevent and repair sun-induced skin damage (UVA, UVB, Visible Light, Infrared A). It reduces redness, prevents sunburn, boosts elasticity, and enhances Vitamin D optimisation - ensuring you get the best from the sun while protecting your skin.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -352,6 +373,7 @@
       },
       "block_order": [
         "slide_CG69ez",
+        "slide_cU8ABe",
         "slide_YXx9Kj",
         "slide_Ukfd37",
         "slide_d7ANrH",
@@ -422,7 +444,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "image_with_text_ajEfHF": {
@@ -525,7 +548,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "multicolumn_NeKPxJ": {
@@ -581,7 +605,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "multicolumn_EPn7gK": {
@@ -640,7 +665,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "multicolumn_DNgG9V": {
@@ -729,7 +755,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "newsletter_qHy7Hn": {
@@ -771,9 +798,9 @@
     "rich_text_amGfhA",
     "cl_featured_collection_rx4MFi",
     "cl_collage_ranges_UM4mMA",
-    "multicolumn",
     "rich_text_WD8i97",
     "cl_slideshow_Bdfd6h",
+    "multicolumn",
     "multicolumn_Y9yFp6",
     "image_with_text_ajEfHF",
     "multicolumn_LUcipP",
