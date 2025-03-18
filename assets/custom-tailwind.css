@@ -587,7 +587,7 @@ span.cl-swatch {
 }
 
 .newsletter__wrapper .newsletter__left {
-  @apply md:twcss-basis-1/2 twcss-text-left lg:twcss-pl-64;
+  @apply md:twcss-basis-1/2 twcss-text-left md:twcss-pl-64;
 }
 
 .newsletter__wrapper .newsletter__right {
