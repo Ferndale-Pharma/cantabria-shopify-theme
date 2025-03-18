@@ -802,6 +802,11 @@ span.cl-swatch {
 @media (min-width: 750px) {
   .newsletter__wrapper .newsletter__left {
     flex-basis: 50%;
+  }
+}
+
+@media (min-width: 990px) {
+  .newsletter__wrapper .newsletter__left {
     padding-left: 16rem;
   }
 }
@@ -857,10 +862,10 @@ span.cl-swatch {
   }
 }
 
-@media (min-width: 990px) {
+@media (min-width: 1440px) {
   .cl-collage-page-width {
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 22%;
+    padding-right: 22%;
   }
 }
 
