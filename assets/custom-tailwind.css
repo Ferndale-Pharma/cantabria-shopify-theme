@@ -587,7 +587,7 @@ span.cl-swatch {
 }
 
 .newsletter__wrapper .newsletter__left {
-  @apply md:twcss-basis-1/2 twcss-text-left md:twcss-pl-64;
+  @apply md:twcss-basis-1/2 twcss-text-left lg:twcss-pl-64;
 }
 
 .newsletter__wrapper .newsletter__right {
@@ -616,7 +616,7 @@ span.cl-swatch {
 
 /** Custom Collage **/
 .cl-collage-page-width {
-  @apply lg:twcss-px-[25%] md:twcss-px-[10%] twcss-px-8;
+  @apply xlg:twcss-px-[22%] md:twcss-px-[10%] twcss-px-8;
 }
 
 .cl-collage .card__information {

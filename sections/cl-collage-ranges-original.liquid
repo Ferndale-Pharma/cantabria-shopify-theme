@@ -1,4 +1,4 @@
-{{ 'cl-collage.css' | asset_url | stylesheet_tag }}
+{{ 'cl-collage-original.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-modal-video.css' | asset_url | stylesheet_tag }}
@@ -42,7 +42,7 @@
               {% if forloop.first %}
                 {% assign cl_media_aspect_ratio = 'portrait' %}
               {% endif %}
-              {% if forloop.index0 == 1 %}
+              {% if forloop.last %}
                   {% assign cl_media_aspect_ratio = 'landscape' %}
                 {% endif %}
               {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
@@ -63,7 +63,7 @@
 
 {% schema %}
 {
-  "name": "CL Collage Range Pages v2",
+  "name": "CL Collage Range Pages v1",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -201,7 +201,7 @@
   "max_blocks": 4,
   "presets": [
     {
-      "name": "CL Collage Range Pages v2",
+      "name": "CL Collage Range Pages Original",
       "blocks": [
         {
           "type": "collection"
