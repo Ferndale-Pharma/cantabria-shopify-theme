@@ -533,6 +533,127 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "multicolumn_E3Gq6a": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_V7meXf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tatler_562f82d2-602a-48ec-866c-fdf144e847a4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7ypYXc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Harpers_Bazaar.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bUwwEN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Telegraph_d9aaf191-f9ed-4b67-afde-7693c5c035e3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kityJb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sunday_Times_Style.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_znCgEj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Get_the_gloss.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_w4zcWn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Marie_Claire.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_V7meXf",
+        "column_7ypYXc",
+        "column_bUwwEN",
+        "column_kityJb",
+        "column_znCgEj",
+        "column_w4zcWn"
+      ],
+      "settings": {
+        "title": "As seen in",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "collapsible_content_V3kJN7": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_DprGzM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "References",
+            "icon": "question_mark",
+            "row_content": "<ol><li> González S, et al. PhotodermatolPhotoimmunol Photomed,1996,12(2):45-56 996 Apr;12(2):45-56.  </li><li>González S, et.al. Int. J. Mol. Sci. 2018. Aug1;19(8):2250. </li><li>Amini S, et al. J Am Acad Dermatol. 2010 Mar;62(3):511-3. </li><li>Maritza A, et al. J. Am Acad Derm, 2004. 51(6):910-8. </li><li>Alonso-Lebrero JL, et.al. PhotochemPhotobiol B. 2003 Apr;70(1):31-7. </li><li>Aguilera J,et al. Front Med (Lausanne). 2021 Jun 2;8:684665.</li></ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_DprGzM"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-2",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -547,6 +668,8 @@
     "multicolumn_ibWqcz",
     "multicolumn_JJ4kVD",
     "rich_text_FQ9WL3",
-    "17431563177635ae7a"
+    "17431563177635ae7a",
+    "multicolumn_E3Gq6a",
+    "collapsible_content_V3kJN7"
   ]
 }
