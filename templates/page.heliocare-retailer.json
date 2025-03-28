@@ -350,6 +350,74 @@
         "padding_bottom": 64,
         "container_id": ""
       }
+    },
+    "multicolumn_ibWqcz": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YLERjj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Clinically_proven_icon_5e3c216c-e0e8-49fa-a382-cbf035584b13.png",
+            "title": "",
+            "text": "<p>Clinically proven results that build trust and drive repeat purchases.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MCBPRp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Boost_sales_icon_84c761a0-50d0-4110-8251-c0a4adaab426.png",
+            "title": "",
+            "text": "<p>Comprehensive marketing support to boost visibility and sales.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QmAhtw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Training_icon_09cc76ac-0145-430b-8367-f02444dcfc74.png",
+            "title": "",
+            "text": "<p>Professional training to educate and empower your team.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Hkb8Jz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/POS_materials_icon_c872ece4-a243-41f2-b0a4-6ad3a0838bdc.png",
+            "title": "",
+            "text": "<p>Point-of-sale materials to drive in-store engagement.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_YLERjj",
+        "column_MCBPRp",
+        "column_QmAhtw",
+        "column_Hkb8Jz"
+      ],
+      "settings": {
+        "title": "Why stock HELIOCARE 360°?",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Become a stockist",
+        "button_link": "#contact",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
@@ -360,6 +428,7 @@
     "image_with_text_zAYJhA",
     "multicolumn_html_8PPXcx",
     "rich_text_hk3hMh",
-    "multicolumn_Yn7DAK"
+    "multicolumn_Yn7DAK",
+    "multicolumn_ibWqcz"
   ]
 }
