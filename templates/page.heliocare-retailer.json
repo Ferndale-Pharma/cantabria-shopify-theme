@@ -484,6 +484,55 @@
         "padding_bottom": 64,
         "container_id": ""
       }
+    },
+    "rich_text_FQ9WL3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9qNKnM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a stockist",
+            "heading_size": "h1"
+          }
+        },
+        "text_W9FgNd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ready to offer your clients next-generation sun protection with visible skin health benefits?<br/>Join the growing network of HELIOCARE 360° stockists today. <br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9qNKnM",
+        "text_W9FgNd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": "contact"
+      }
+    },
+    "17431563177635ae7a": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_zxbgeM": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"ODI5MDc=\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_zxbgeM"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -496,6 +545,8 @@
     "rich_text_hk3hMh",
     "multicolumn_Yn7DAK",
     "multicolumn_ibWqcz",
-    "multicolumn_JJ4kVD"
+    "multicolumn_JJ4kVD",
+    "rich_text_FQ9WL3",
+    "17431563177635ae7a"
   ]
 }
