@@ -11,13 +11,95 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_DijfAB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4kNwTJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introduce advanced sun protection to your clients",
+            "heading_size": "h1"
+          }
+        },
+        "text_kzj3wk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join leading skin clinics, pharmacies, and specialist skincare retailers across the UK in offering HELIOCARE 360° – the clinically proven, dermatologically developed sun protection range from Cantabria Labs.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4kNwTJ",
+        "text_kzj3wk"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 64,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "video_tEL9tc": {
+      "type": "video",
+      "custom_css": [
+        "@media screen and (min-width: 1440px) {div {width: 80%; margin: auto; }}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://vimeo.com/954719682?share=copy#t=0",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_qzBQQN": {
+      "type": "rich-text",
+      "blocks": {
+        "button_jFQf4x": {
+          "type": "button",
+          "settings": {
+            "button_label": "Become a stockist",
+            "button_link": "#contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_jFQf4x"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_DijfAB",
+    "video_tEL9tc",
+    "rich_text_qzBQQN"
   ]
 }
