@@ -30,13 +30,16 @@
         "text_kzj3wk": {
           "type": "text",
           "settings": {
-            "text": "<p>Join leading skin clinics, pharmacies, and specialist skincare retailers across the UK in offering HELIOCARE 360° – the clinically proven, dermatologically developed sun protection range from Cantabria Labs.</p>"
+            "text": "<p>Join leading skin clinics, pharmacies, and specialist skincare retailers across the UK in offering <a href=\"/pages/range_page/heliocare\" title=\"Heliocare\"><strong>HELIOCARE 360°</strong></a> – the clinically proven, dermatologically developed sun protection range from Cantabria Labs.</p>"
           }
         }
       },
       "block_order": [
         "heading_4kNwTJ",
         "text_kzj3wk"
+      ],
+      "custom_css": [
+        "a {color: #000;}"
       ],
       "settings": {
         "desktop_content_position": "center",
