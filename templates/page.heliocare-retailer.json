@@ -112,11 +112,20 @@
             "text": "<p>HELIOCARE 360° offers more than broad-spectrum SPF. Powered by exclusive <a href=\"/blogs/skincare-guides/6-benefits-of-fernblock\" title=\"6 Benefits of Fernblock®\"><strong>Fernblock® technology</strong></a>, the range provides advanced protection against UVA, UVB, visible light and infrared-A – alongside powerful antioxidants that defend against photoageing and free radical damage.</p><p>Fernblock®+ is a patented, dermatologically proven antioxidant complex found in every HELIOCARE 360° topical sunscreen and oral supplement. Clinically proven to help prevent and repair damage caused by sunlight and environmental stressors, it protects the skin’s DNA and immune system while reducing signs of premature ageing.</p><p>Backed by over 50 scientific and clinical studies, Fernblock®+ delivers unrivalled photoprotection – the result of decades of dermatological research. Trusted by professionals, HELIOCARE 360° supports healthy, radiant skin, even in sensitive or compromised skin types. <br/></p>",
             "text_style": "body"
           }
+        },
+        "button_a8MQxw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Become a stockist",
+            "button_link": "#contact",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "heading_iWjjVw",
-        "text_4WymLJ"
+        "text_4WymLJ",
+        "button_a8MQxw"
       ],
       "custom_css": [
         "a {color: #000;}"
@@ -400,6 +409,9 @@
         "column_MCBPRp",
         "column_QmAhtw",
         "column_Hkb8Jz"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info {padding-left: 8px !important; padding-right: 8px !important;}"
       ],
       "settings": {
         "title": "Why stock HELIOCARE 360°?",
