@@ -430,6 +430,60 @@
         "padding_bottom": 64,
         "container_id": ""
       }
+    },
+    "multicolumn_JJ4kVD": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_LRpKhB": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><em>“Absolutely love it! Have been using and stocking it for years! Wouldn’t use or have any other SPF! There’s one for every skin type – you literally can’t go wrong!”<br/><br/></em><strong>Chandani Bhuida<br/></strong>Senior Aesthetician, Mayfair Practice</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hdMqAc": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><em>“I’m a huge fan of HELIOCARE and will often recommend it to my patients…With so many great products for different skin types there really is something for everyone!”<br/><br/></em><strong>Dr. Emma Wedgeworth<br/></strong>Consultant Dermatologist</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wNYtH4": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LRpKhB",
+        "column_hdMqAc",
+        "column_wNYtH4"
+      ],
+      "settings": {
+        "title": "What professionals say",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
@@ -441,6 +495,7 @@
     "multicolumn_html_8PPXcx",
     "rich_text_hk3hMh",
     "multicolumn_Yn7DAK",
-    "multicolumn_ibWqcz"
+    "multicolumn_ibWqcz",
+    "multicolumn_JJ4kVD"
   ]
 }
