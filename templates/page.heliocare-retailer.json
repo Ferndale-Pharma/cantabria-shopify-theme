@@ -254,7 +254,7 @@
         "text_XG8qkq": {
           "type": "text",
           "settings": {
-            "text": "<p>Building on the proven benefits of Fernblock®, our newest innovation introduces <strong>ASPA-Fernblock®</strong> – a breakthrough bioactive complex featuring Aspalathus linearis (Rooibos) extract. Native to South Africa, Rooibos is rich in flavonoids and renowned for its antioxidant and skin-protective properties.</p>"
+            "text": "<p>Building on the proven benefits of Fernblock®, our newest innovation introduces <a href=\"/blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation\" title=\"Introducing ASPA-Fernblock®: The next generation of sunscreen innovation\"><strong>ASPA-Fernblock®</strong></a> – a breakthrough bioactive complex featuring Aspalathus linearis (Rooibos) extract. Native to South Africa, Rooibos is rich in flavonoids and renowned for its antioxidant and skin-protective properties.</p>"
           }
         },
         "text_FmBUU9": {
@@ -280,6 +280,9 @@
         "text_XG8qkq",
         "text_FmBUU9",
         "button_gG8xDM"
+      ],
+      "custom_css": [
+        "a {color: #000;}"
       ],
       "settings": {
         "desktop_content_position": "center",
