@@ -279,6 +279,77 @@
         "padding_bottom": 64,
         "container_id": ""
       }
+    },
+    "multicolumn_Yn7DAK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_aJNELW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Personalised_Sunscreen_-_Sensation.jpg",
+            "title": "HELIOCARE 360° Sensation Sunscreen",
+            "text": "<p>Ultra-light, very high-level protection for all skin types and tones.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3wnA4W": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Personalised_Sunscreen_-_Special_Care.jpg",
+            "title": "HELIOCARE 360° Special Care Sunscreens",
+            "text": "<p>Targeted protection for specific concerns, including pigmentation, acne-prone skin, and redness.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RXgRJP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Personalised_Sunscreen_-_Tinted_Sunscreens_6055ddfc-ca84-40d8-85ae-ee6249ed80ba.jpg",
+            "title": "HELIOCARE 360° Tinted Sunscreens",
+            "text": "<p>Very high-level protection with skin-perfecting coverage.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_en7yhq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Personalised_Sunscreen_-_Capsules.jpg",
+            "title": "HELIOCARE 360° Oral Skin Supplements",
+            "text": "<p>Support topical protection and promote skin health from within.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_aJNELW",
+        "column_3wnA4W",
+        "column_RXgRJP",
+        "column_en7yhq"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "A range designed for every skin type",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Become a stockist",
+        "button_link": "#contact",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
@@ -288,6 +359,7 @@
     "rich_text_qzBQQN",
     "image_with_text_zAYJhA",
     "multicolumn_html_8PPXcx",
-    "rich_text_hk3hMh"
+    "rich_text_hk3hMh",
+    "multicolumn_Yn7DAK"
   ]
 }
