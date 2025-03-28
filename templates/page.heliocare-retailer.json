@@ -59,6 +59,7 @@
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https://vimeo.com/954719682?share=copy#t=0",
+        "cover_image": "shopify://shop_images/thumb.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
@@ -94,12 +95,199 @@
         "padding_bottom": 64,
         "container_id": ""
       }
+    },
+    "image_with_text_zAYJhA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iWjjVw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Scientifically proven, professionally recommended",
+            "heading_size": "h1"
+          }
+        },
+        "text_4WymLJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HELIOCARE 360° offers more than broad-spectrum SPF. Powered by exclusive <a href=\"/blogs/skincare-guides/6-benefits-of-fernblock\" title=\"6 Benefits of Fernblock®\"><strong>Fernblock® technology</strong></a>, the range provides advanced protection against UVA, UVB, visible light and infrared-A – alongside powerful antioxidants that defend against photoageing and free radical damage.</p><p>Fernblock®+ is a patented, dermatologically proven antioxidant complex found in every HELIOCARE 360° topical sunscreen and oral supplement. Clinically proven to help prevent and repair damage caused by sunlight and environmental stressors, it protects the skin’s DNA and immune system while reducing signs of premature ageing.</p><p>Backed by over 50 scientific and clinical studies, Fernblock®+ delivers unrivalled photoprotection – the result of decades of dermatological research. Trusted by professionals, HELIOCARE 360° supports healthy, radiant skin, even in sensitive or compromised skin types. <br/></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iWjjVw",
+        "text_4WymLJ"
+      ],
+      "custom_css": [
+        "a {color: #000;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/FERNBLOCK.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_html_8PPXcx": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_LgkFV3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/UV_PROTECTION.png",
+            "title": "",
+            "text": "<h3><b>Defend against damage caused by UVA, UVB, visible light and infrared-A<sup>1,2,3</sup></b></h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JrKmg9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PREVENT_COLLAGEN_BREAKDOWN.png",
+            "title": "",
+            "text": "<h3><b>Prevent collagen breakdown<sup>2</sup></b></h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cRPaiz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/REPAIR_DNA.png",
+            "title": "",
+            "text": "<h3><b>Protect and repair skin cell DNA<sup>4</sup></b></h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dJaFEV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PREVENT_PIGMENTATION.png",
+            "title": "",
+            "text": "<h3><b>Prevent light-induced pigmentation<sup>5</sup></b></h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TCnWUn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PROTECT_SKIN_IMMUNE_SYSTEM.png",
+            "title": "",
+            "text": "<h3><b>Support the skin’s immune system<sup>5</sup></b></h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LyPGJG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMPROVE_SPF_FILTERS.png",
+            "title": "",
+            "text": "<h3><b>Enhance the efficacy of SPF filters<sup>6</sup></b></h3>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LgkFV3",
+        "column_JrKmg9",
+        "column_cRPaiz",
+        "column_dJaFEV",
+        "column_TCnWUn",
+        "column_LyPGJG"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "Fernblock is clinically proven to:",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_hk3hMh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hyTRL6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introducing NEW ASPA-FERNBLOCK",
+            "heading_size": "h1"
+          }
+        },
+        "text_XG8qkq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Building on the proven benefits of Fernblock®, our newest innovation introduces <strong>ASPA-Fernblock®</strong> – a breakthrough bioactive complex featuring Aspalathus linearis (Rooibos) extract. Native to South Africa, Rooibos is rich in flavonoids and renowned for its antioxidant and skin-protective properties.</p>"
+          }
+        },
+        "text_FmBUU9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>By combining Fernblock® with Rooibos-derived ASPA extracts, <strong>ASPA-Fernblock®</strong> enhances photoprotection and reinforces the skin’s defences against sun-induced damage. Its unique <strong>OptiD effect</strong> also supports the skin’s natural ability to synthesise vitamin D – allowing your clients to gain the benefits of sunlight, while maintaining superior protection. </p>"
+          }
+        },
+        "button_gG8xDM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Become a stockist",
+            "button_link": "#contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hyTRL6",
+        "text_XG8qkq",
+        "text_FmBUU9",
+        "button_gG8xDM"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
     "main",
     "rich_text_DijfAB",
     "video_tEL9tc",
-    "rich_text_qzBQQN"
+    "rich_text_qzBQQN",
+    "image_with_text_zAYJhA",
+    "multicolumn_html_8PPXcx",
+    "rich_text_hk3hMh"
   ]
 }
