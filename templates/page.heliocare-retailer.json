@@ -11,7 +11,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -20,13 +19,6 @@
     "rich_text_DijfAB": {
       "type": "rich-text",
       "blocks": {
-        "heading_4kNwTJ": {
-          "type": "heading",
-          "settings": {
-            "heading": "Become a HELIOCARE 360° stockist",
-            "heading_size": "h1"
-          }
-        },
         "text_kzj3wk": {
           "type": "text",
           "settings": {
@@ -35,7 +27,6 @@
         }
       },
       "block_order": [
-        "heading_4kNwTJ",
         "text_kzj3wk"
       ],
       "custom_css": [
@@ -46,8 +37,8 @@
         "content_alignment": "center",
         "color_scheme": "scheme-2",
         "full_width": true,
-        "is_heading": true,
-        "padding_top": 64,
+        "is_heading": false,
+        "padding_top": 32,
         "padding_bottom": 32,
         "container_id": ""
       }
@@ -443,6 +434,7 @@
         "column_LRpKhB": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_-_Icons_-_Speech_Bubble_-_Yellow.png",
             "title": "",
             "text": "<p><em>“Absolutely love it! Have been using and stocking it for years! Wouldn’t use or have any other SPF! There’s one for every skin type – you literally can’t go wrong!”<br/><br/></em><strong>Chandani Bhuida<br/></strong>Senior Aesthetician, Mayfair Practice</p>",
             "link_label": "",
