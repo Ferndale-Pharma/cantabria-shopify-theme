@@ -85,7 +85,7 @@
           "settings": {
             "heading": "Social Media",
             "icon": "question_mark",
-            "row_content": "<p><strong>FB</strong>: @CantabriaLabsUK </p><p><strong>IG</strong>: @CantabriaLabsUK </p>",
+            "row_content": "<p><strong>FB</strong>: <a href=\"https://www.facebook.com/Cantabrialabsuk/\" title=\"Cantabria Labs UK Facebook\">@CantabriaLabsUK </a></p><p><strong>IG</strong>: <a href=\"https://www.instagram.com/Cantabrialabsuk/\" title=\"Cantabria Labs UK Instagram\">@CantabriaLabsUK </a></p>",
             "page": ""
           }
         }
