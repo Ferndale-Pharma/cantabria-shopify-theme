@@ -23,8 +23,8 @@
         "heading_hAQQBe": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Find a stockist</strong>",
-            "heading_size": "h1"
+            "heading": "Find a stockist",
+            "heading_size": "h0"
           }
         },
         "text_kf6V9k": {
@@ -43,9 +43,10 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "is_heading": false,
+        "is_heading": true,
         "padding_top": 16,
-        "padding_bottom": 16
+        "padding_bottom": 16,
+        "container_id": ""
       }
     },
     "rich_text_FwBakA": {
@@ -76,7 +77,8 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 16,
-        "padding_bottom": 16
+        "padding_bottom": 16,
+        "container_id": ""
       }
     },
     "multicolumn_8YbeMF": {
@@ -143,7 +145,8 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 16,
-        "padding_bottom": 16
+        "padding_bottom": 16,
+        "container_id": ""
       }
     },
     "rich_text_UH8FGg": {
@@ -167,7 +170,8 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 16,
-        "padding_bottom": 16
+        "padding_bottom": 16,
+        "container_id": ""
       }
     },
     "1725973593a9ef3b25": {
@@ -175,8 +179,7 @@
       "blocks": {
         "amai_promap_storelocator_page_block_CmnzTP": {
           "type": "shopify://apps/amai-promap/blocks/storelocator-page-block/acff8fd9-34cc-4a4d-98ed-d7fdb5d3605f",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -219,7 +222,8 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "container_id": ""
       }
     }
   },
