@@ -495,8 +495,9 @@
         "column_wNYtH4": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/CL.CO.UK_-_Icons_-_Speech_Bubble_-_Yellow.png",
+            "title": "",
+            "text": "<p><em>“</em>We view the Heliocare 360 range as the “gold standard” in sun protection, allowing us to provide our patients with complete peace of mind that they are protecting their skin daily.<em>”<br/><br/></em><strong>Lauren MacKenzie<br/></strong>Transform Hospital Group</p>",
             "link_label": "",
             "link": ""
           }
