@@ -21,7 +21,7 @@
       "settings": {
         "custom_liquid": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/250901731012038\"></script>",
         "color_scheme": "",
-        "padding_top": 64,
+        "padding_top": 0,
         "padding_bottom": 64
       }
     }
