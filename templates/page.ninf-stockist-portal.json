@@ -56,7 +56,7 @@
           "settings": {
             "image": "shopify://shop_images/cl-mixed.jpg",
             "title": "Order Form",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Order extra products quickly and easily online.</p>",
             "link_label": "View Order Form",
             "link": "shopify://pages/stockist-hub"
           }
@@ -66,7 +66,7 @@
           "settings": {
             "image": "shopify://shop_images/marketing_toolkit.png",
             "title": "Marketing Toolkit",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Promote Cantabria Labs easily with ready-made marketing materials.</p>",
             "link_label": "View Marketing Toolkit",
             "link": "https://ferndalepharma.sharepoint.com/:f:/s/StockistTrainingMarketing/EhJAhOnwF6NMsQ31LOwT9Z0BfkvMI3SbwAWxT8yM3Aa2qA?e=3YQwF4"
           }
@@ -76,7 +76,7 @@
           "settings": {
             "image": "shopify://shop_images/image_1.png",
             "title": "Training",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Boost your brand knowledge with downloadable clinical resources.</p>",
             "link_label": "View Training Resources",
             "link": "https://ferndalepharma.sharepoint.com/:f:/s/StockistTrainingMarketing/EgISUFzX8VpArWEyYzvgQuIBZRimpOJMG1pPuuYq2gX_gA?e=wa1EIj"
           }
