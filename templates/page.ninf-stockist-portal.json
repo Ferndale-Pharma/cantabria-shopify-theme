@@ -19,6 +19,16 @@
     "multicolumn_aD9PPk": {
       "type": "multicolumn",
       "blocks": {
+        "column_RG8ahK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cl-mixed.jpg",
+            "title": "Order Form",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "View Order Form",
+            "link": "shopify://pages/stockist-portal"
+          }
+        },
         "column_XdVGzN": {
           "type": "column",
           "settings": {
@@ -38,21 +48,12 @@
             "link_label": "View Training Resources",
             "link": "https://ferndalepharma.sharepoint.com/:f:/s/StockistTrainingMarketing/EgISUFzX8VpArWEyYzvgQuIBZRimpOJMG1pPuuYq2gX_gA?e=wa1EIj"
           }
-        },
-        "column_RG8ahK": {
-          "type": "column",
-          "settings": {
-            "title": "Order Form",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "View Order Form",
-            "link": "shopify://pages/stockist-portal"
-          }
         }
       },
       "block_order": [
+        "column_RG8ahK",
         "column_XdVGzN",
-        "column_be8G6j",
-        "column_RG8ahK"
+        "column_be8G6j"
       ],
       "settings": {
         "title": "",
