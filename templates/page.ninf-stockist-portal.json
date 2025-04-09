@@ -16,6 +16,38 @@
         "padding_bottom": 28
       }
     },
+    "rich_text_MMigDe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TE4FeQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to the Stockist Hub",
+            "heading_size": "h0"
+          }
+        },
+        "text_U3jr8a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Here you’ll find everything you need to support your success – from clinical training and marketing resources to convenient stock ordering, all designed to help you grow with confidence.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TE4FeQ",
+        "text_U3jr8a"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 16,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
     "multicolumn_aD9PPk": {
       "type": "multicolumn",
       "blocks": {
@@ -76,6 +108,7 @@
   },
   "order": [
     "main",
+    "rich_text_MMigDe",
     "multicolumn_aD9PPk"
   ]
 }
