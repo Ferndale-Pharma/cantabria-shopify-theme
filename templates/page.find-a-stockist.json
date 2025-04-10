@@ -84,6 +84,16 @@
     "multicolumn_8YbeMF": {
       "type": "multicolumn",
       "blocks": {
+        "column_RTadV8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Boots_-_Logo_-_Black_-_600x448px.png",
+            "title": "",
+            "text": "",
+            "link_label": "BOOTS",
+            "link": "https://www.boots.com/StoreLookupView?catalogId=28501&storeId=11352&langId=-1&utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_boots_2025&utm_content=CL-URL-0019"
+          }
+        },
         "column_RNj9xH": {
           "type": "column",
           "settings": {
@@ -126,6 +136,7 @@
         }
       },
       "block_order": [
+        "column_RTadV8",
         "column_RNj9xH",
         "column_mcxgj4",
         "column_bHLPLF",
@@ -136,7 +147,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
