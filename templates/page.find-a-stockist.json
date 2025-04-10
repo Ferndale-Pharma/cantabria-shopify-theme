@@ -195,7 +195,7 @@
         "heading_ypTtcd": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Interested in becoming a Cantabria Stockist?</strong>",
+            "heading": "<strong>Interested in becoming a Heliocare 360° Stockist?</strong>",
             "heading_size": "h2"
           }
         },
@@ -203,7 +203,7 @@
           "type": "button",
           "settings": {
             "button_label": "Find out more",
-            "button_link": "shopify://pages/become-a-stockist",
+            "button_link": "shopify://pages/become-a-heliocare-360-stockist",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
