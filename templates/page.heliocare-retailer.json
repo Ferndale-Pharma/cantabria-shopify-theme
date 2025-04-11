@@ -469,6 +469,55 @@
         "container_id": ""
       }
     },
+    "multicolumn_giJmhR": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_KkQRyT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL_-_Skin_Clinic_-_Image.jpg",
+            "title": "Professional Skin Clinics",
+            "text": "<p>Heliocare 360° supports your patient’s skin health, enhances your professional treatment outcomes and provides additional retail opportunities.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YUJqXa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL_-_Pharmacy_-_Image.jpg",
+            "title": "Pharmacies & Dermatological Skincare Retailers",
+            "text": "<p>Heliocare 360° helps you meet growing consumer demand for high-efficacy skincare with proven results and strong retail support.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_KkQRyT",
+        "column_YUJqXa"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "Who should stock Heliocare 360°?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
     "multicolumn_JJ4kVD": {
       "type": "multicolumn",
       "blocks": {
@@ -711,6 +760,7 @@
     "multicolumn_Yn7DAK",
     "rich_text_cTjjyT",
     "multicolumn_ibWqcz",
+    "multicolumn_giJmhR",
     "multicolumn_JJ4kVD",
     "rich_text_FQ9WL3",
     "17431563177635ae7a",
