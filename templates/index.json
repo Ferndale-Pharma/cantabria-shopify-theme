@@ -15,15 +15,22 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Dermatological expertise, proven results",
+            "heading": "Spring into Radiance with 20% Off Sitewide*",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Welcome to Cantabria Labs, the home of dermatological skincare expertly researched and developed to deliver proven results",
+            "text": "Limited-time Easter Sale – save on your favourite dermatological skincare ranges now. Live until 12pm 23/04/2025.",
             "text_style": "subtitle"
+          }
+        },
+        "text_ifhaEi": {
+          "type": "text",
+          "settings": {
+            "text": "*Excludes Bundles & Heliocare Advanced, Color & Ultra ranges.",
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "buttons_JLFrH9": {
@@ -41,7 +48,11 @@
       "block_order": [
         "heading",
         "text",
+        "text_ifhaEi",
         "buttons_JLFrH9"
+      ],
+      "custom_css": [
+        ".banner__text.caption-with-letter-spacing {text-transform: inherit;}"
       ],
       "settings": {
         "image": "shopify://shop_images/CL-WEB_-_Banner_-_Homepage.jpg",

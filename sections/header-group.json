@@ -17,8 +17,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Heliocare.co.uk is now CantabriaLabs.co.uk",
-            "link": ""
+            "text": "Heliocare.co.uk is now CantabriaLabs.co.uk - Spring into Radiance with 20% Off Sitewide*",
+            "link": "shopify://collections/promotions"
           }
         }
       },
