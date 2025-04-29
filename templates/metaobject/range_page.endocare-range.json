@@ -86,7 +86,8 @@
         "full_width": true,
         "is_heading": true,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "image_with_text_bTLWD6": {
@@ -102,14 +103,14 @@
         "text_AYNmBR": {
           "type": "text",
           "settings": {
-            "text": "<p>An anti-ageing skincare solution to protect your skin against environmental stressors and reveal its natural inner glow. </p><p>The ENDOCARE C Ferulic EDAFENCE Serum is your shield against daily environmental stressors, combining potent antioxidants with anti-pollution technology to boost skin brightness and firmness. Meanwhile, the Eye Contour treatment works to visibly reduce dark circles and puffiness, giving your eyes a refreshed, well-rested appearance.</p><p><strong>For a limited time, receive a free ENDOCARE RADIANCE Eye Contour worth £40.00 when you purchase the C Ferulic EDAFENCE Serum</strong></p>",
+            "text": "<p>An anti-ageing skincare solution to protect your skin against environmental stressors and reveal its natural inner glow. </p><p>The ENDOCARE C Ferulic EDAFENCE Serum is your shield against daily environmental stressors, combining potent antioxidants with anti-pollution technology to boost skin brightness and firmness. Meanwhile, the Eye Contour treatment works to visibly reduce dark circles and puffiness, giving your eyes a refreshed, well-rested appearance.</p><p><strong>Discover more about ENDOCARE C Ferulic EDAFENCE Serum for radiant, firm skin.</strong></p>",
             "text_style": "body"
           }
         },
         "button_HBTEJm": {
           "type": "button",
           "settings": {
-            "button_label": "Shop offer",
+            "button_label": "View product",
             "button_link": "shopify://products/endocare-radiance-c-ferulic-edafence-serum",
             "button_style_secondary": true
           }
@@ -424,7 +425,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "rich_text_jBDxCK": {
@@ -448,7 +450,8 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
-        "padding_bottom": 32
+        "padding_bottom": 32,
+        "container_id": ""
       }
     },
     "cl_slideshow_gDX4yN": {
