@@ -965,14 +965,14 @@
             "link": "https://www.lookfantastic.com/brands/heliocare.list/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_lfref_2024&utm_content=CL-URL-0003"
           }
         },
-        "column_NXz3EE": {
+        "column_MdDtAi": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Beauty_Bay.png",
+            "image": "shopify://shop_images/Face_the_future.png",
             "title": "",
             "text": "",
-            "link_label": "BEAUTY BAY",
-            "link": "https://www.beautybay.com/l/heliocare/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_bbref_2024&utm_content=CL-URL-0004"
+            "link_label": "FACE THE FUTURE",
+            "link": "https://www.facethefuture.co.uk/collections/heliocare/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_ftfref_2024&utm_content=CL-URL-0002"
           }
         },
         "column_HkPAkk": {
@@ -985,23 +985,23 @@
             "link": "https://www.justmylook.com/heliocare-m330/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_jmlref_2024&utm_content=CL-URL-0001"
           }
         },
-        "column_MdDtAi": {
+        "column_NXz3EE": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Face_the_future.png",
+            "image": "shopify://shop_images/Beauty_Bay.png",
             "title": "",
             "text": "",
-            "link_label": "FACE THE FUTURE",
-            "link": "https://www.facethefuture.co.uk/collections/heliocare/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_ftfref_2024&utm_content=CL-URL-0002"
+            "link_label": "BEAUTY BAY",
+            "link": "https://www.beautybay.com/l/heliocare/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_bbref_2024&utm_content=CL-URL-0004"
           }
         }
       },
       "block_order": [
         "column_rY8qx7",
         "column_gri3Gg",
-        "column_NXz3EE",
+        "column_MdDtAi",
         "column_HkPAkk",
-        "column_MdDtAi"
+        "column_NXz3EE"
       ],
       "settings": {
         "title": "Stockists and partners",

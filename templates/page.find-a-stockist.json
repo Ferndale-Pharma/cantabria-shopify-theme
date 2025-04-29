@@ -91,7 +91,7 @@
             "title": "",
             "text": "",
             "link_label": "BOOTS",
-            "link": "https://www.boots.com/StoreLookupView?catalogId=28501&storeId=11352&langId=-1&utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_boots_2025&utm_content=CL-URL-0019"
+            "link": "https://www.boots.com/sitesearch?searchTerm=heliocare&utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_boots_2025&utm_content=CL-URL-0019"
           }
         },
         "column_RNj9xH": {
@@ -104,14 +104,14 @@
             "link": "https://www.lookfantastic.com/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_lfref_2024&utm_content=CL-URL-0008"
           }
         },
-        "column_mcxgj4": {
+        "column_JftEEH": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Beauty_Bay.png",
+            "image": "shopify://shop_images/Face_the_future.png",
             "title": "",
             "text": "",
-            "link_label": "BEAUTY BAY",
-            "link": "https://www.beautybay.com/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_bbref_2024&utm_content=CL-URL-0009"
+            "link_label": "FACE THE FUTURE",
+            "link": "https://www.facethefuture.com/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_ftfref_2024&utm_content=CL-URL-0011"
           }
         },
         "column_bHLPLF": {
@@ -124,23 +124,23 @@
             "link": "https://www.justmylook.com/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_jmlref_2024&utm_content=CL-URL-0010"
           }
         },
-        "column_JftEEH": {
+        "column_mcxgj4": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Face_the_future.png",
+            "image": "shopify://shop_images/Beauty_Bay.png",
             "title": "",
             "text": "",
-            "link_label": "FACE THE FUTURE",
-            "link": "https://www.facethefuture.com/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_ftfref_2024&utm_content=CL-URL-0011"
+            "link_label": "BEAUTY BAY",
+            "link": "https://www.beautybay.com/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_bbref_2024&utm_content=CL-URL-0009"
           }
         }
       },
       "block_order": [
         "column_RTadV8",
         "column_RNj9xH",
-        "column_mcxgj4",
+        "column_JftEEH",
         "column_bHLPLF",
-        "column_JftEEH"
+        "column_mcxgj4"
       ],
       "settings": {
         "title": "",
