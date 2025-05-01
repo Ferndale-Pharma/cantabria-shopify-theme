@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Dermatological expertise, proven results",
+            "heading": "Skin Cancer Awareness Month 2025",
             "heading_size": "h1"
           }
         },
@@ -43,11 +43,61 @@
         "text",
         "buttons_JLFrH9"
       ],
+      "disabled": true,
       "custom_css": [
         ".banner__text.caption-with-letter-spacing {text-transform: inherit;}"
       ],
       "settings": {
         "image": "shopify://shop_images/CL-WEB_-_Banner_-_Homepage.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "is_heading": false
+      }
+    },
+    "image_banner_Gzhfhh": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_aYcLWa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Skin Cancer Awareness Month - May 2025",
+            "heading_size": "h1"
+          }
+        },
+        "text_kyA6LM": {
+          "type": "text",
+          "settings": {
+            "text": "This Skin Cancer Awareness Month, get 20% off clinically-proven Heliocare 360° sun protection - includes the NEW ASPA-Fernblock® range!",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_RkjPdk": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify://collections/heliocare",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_aYcLWa",
+        "text_kyA6LM",
+        "buttons_RkjPdk"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Heliocare_Core_Face_Capsules.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -798,6 +848,7 @@
   },
   "order": [
     "image_banner",
+    "image_banner_Gzhfhh",
     "rich_text_amGfhA",
     "cl_featured_collection_rx4MFi",
     "cl_collage_ranges_UM4mMA",
