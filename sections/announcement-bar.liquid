@@ -45,22 +45,12 @@
             <span>{{ section.blocks.first.settings.text | escape }}</span>
             {%- if section.blocks.first.settings.link != blank -%}
               {%- assign scheme_id  = section.settings.color_scheme -%}
-{%- assign scheme     = settings.color_schemes
+              {%- assign scheme     = settings.color_schemes
                          | where: 'id', scheme_id
                          | first -%}
-{%- assign text_colour = scheme.settings.text | default: 'nil' -%}
-{%- assign arrow_color = text_colour         | default: '#0D374B' -%}
-
-<script>
-    console.log('⮕ Announcement‑bar debug',
-    'scheme_id:',       {{ scheme_id  | json }},
-    'scheme_found:',    {% if scheme %}true{% else %}false{% endif %},
-    'text_colour_raw:', {{ text_colour | json }},
-    'arrow_color:',     {{ arrow_color | json }}
-  );
-  </script>
-
-{% render 'icon-arrow', icolor: arrow_color %}
+              {%- assign text_colour = scheme.settings.text | default: 'nil' -%}
+              {%- assign arrow_color = text_colour | default: '#0D374B' -%}
+              {% render 'icon-arrow', icolor: arrow_color %}
             {%- endif -%}
           </p>
           {%- if section.blocks.first.settings.link != blank -%}
@@ -119,7 +109,13 @@
                     <p class="announcement-bar__message h5">
                       <span>{{ block.settings.text | escape }}</span>
                       {%- if block.settings.link != blank -%}
-                        {% render 'icon-arrow' %}
+                        {%- assign scheme_id  = section.settings.color_scheme -%}
+              {%- assign scheme     = settings.color_schemes
+                         | where: 'id', scheme_id
+                         | first -%}
+              {%- assign text_colour = scheme.settings.text | default: 'nil' -%}
+              {%- assign arrow_color = text_colour | default: '#0D374B' -%}
+              {% render 'icon-arrow', icolor: arrow_color %}
                       {%- endif -%}
                     </p>
                     {%- if block.settings.link != blank -%}
