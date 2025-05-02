@@ -9,44 +9,6 @@
  */
 {
   "sections": {
-    "image_banner_p3nTcy": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_pjGXBk": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ collection.metafields.custom.hero_title.value }}",
-            "heading_size": "h1"
-          }
-        },
-        "text_NqMN3b": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_pjGXBk",
-        "text_NqMN3b"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "{{ collection.metafields.custom.hero_image_desktop.value }}",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "is_heading": false
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -73,6 +35,31 @@
         "columns_mobile": "2",
         "padding_top": 16,
         "padding_bottom": 16
+      }
+    },
+    "rich_text_DENXfb": {
+      "type": "rich-text",
+      "blocks": {
+        "text_dDdXKg": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.metafields.custom.additional_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_dDdXKg"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "newsletter_7xiQeE": {
@@ -110,9 +97,9 @@
     }
   },
   "order": [
-    "image_banner_p3nTcy",
     "banner",
     "product-grid",
+    "rich_text_DENXfb",
     "newsletter_7xiQeE"
   ]
 }
