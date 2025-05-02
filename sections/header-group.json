@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Supporting Skin Cancer Awareness Month 2025 - Save 20% on ALL Heliocare 360° Products - Click Here to Shop Now",
+            "text": "Supporting Skin Cancer Awareness Month 2025 - Save 20% on ALL Heliocare 360° Products",
             "link": "https://cantabrialabs.co.uk/collections/promotions"
           }
         },
@@ -32,6 +32,11 @@
       "block_order": [
         "announcement-bar-0",
         "announcement_H6wiei"
+      ],
+      "custom_css": [
+        ".slider-buttons button {background-color: initial;}",
+        ".slider-buttons {padding-top: 0.5em; padding-bottom: 0.5em;}",
+        ".announcement-bar__message svg {color: #fff;}"
       ],
       "settings": {
         "color_scheme": "scheme-fe2caf85-447f-433a-bc45-dfb94474e084",
