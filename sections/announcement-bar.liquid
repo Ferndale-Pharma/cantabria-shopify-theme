@@ -50,26 +50,21 @@
                        | first -%}
 
 {%- if scheme -%}
-  {%- assign text_colour_raw = scheme.settings.text | default: 'nil / empty' -%}
+  {%- assign text_colour_raw = scheme.settings.text -%}
 {%- else -%}
-  {%- assign text_colour_raw = 'nil (scheme missing)' -%}
+  {%- assign text_colour_raw = nil -%}
 {%- endif -%}
 
 {%- assign arrow_color = text_colour_raw | default: '#0D374B' -%}
 
-{% if request.design_mode %}
-<!--
-  DEBUG – Announcement‑bar colour probe
-  ------------------------------------
-  section.settings.color_scheme (ID): {{ scheme_id | default: 'none / not set' }}
-
-  scheme object exists?            : {% if scheme %}true{% else %}false{% endif %}
-
-  scheme.settings.text (raw value) : {{ text_colour_raw }}
-
-  arrow_color after fallback       : {{ arrow_color }}
--->
-{% endif %}
+<script>
+    console.log('⮕ Announcement‑bar colour debug', {
+      scheme_id: {{ scheme_id | json }},
+      scheme_exists: {% if scheme %}true{% else %}false{% endif %},
+      text_colour_raw: {{ text_colour_raw | json }},
+      arrow_color: {{ arrow_color | json }}
+    });
+  </script>
 
 {% render 'icon-arrow', icolor: arrow_color %}
             {%- endif -%}
