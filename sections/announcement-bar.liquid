@@ -44,26 +44,20 @@
           <p class="announcement-bar__message h5">
             <span>{{ section.blocks.first.settings.text | escape }}</span>
             {%- if section.blocks.first.settings.link != blank -%}
-              {%- assign scheme_id = section.settings.color_scheme -%}
-{%- assign scheme    = settings.color_schemes
-                       | where: 'id', scheme_id
-                       | first -%}
-
-{%- if scheme -%}
-  {%- assign text_colour_raw = scheme.settings.text -%}
-{%- else -%}
-  {%- assign text_colour_raw = nil -%}
-{%- endif -%}
-
-{%- assign arrow_color = text_colour_raw | default: '#0D374B' -%}
+              {%- assign scheme_id  = section.settings.color_scheme -%}
+{%- assign scheme     = settings.color_schemes
+                         | where: 'id', scheme_id
+                         | first -%}
+{%- assign text_colour = scheme.settings.text | default: 'nil' -%}
+{%- assign arrow_color = text_colour         | default: '#0D374B' -%}
 
 <script>
-    console.log('⮕ Announcement‑bar colour debug', {
-      scheme_id: {{ scheme_id | json }},
-      scheme_exists: {% if scheme %}true{% else %}false{% endif %},
-      text_colour_raw: {{ text_colour_raw | json }},
-      arrow_color: {{ arrow_color | json }}
-    });
+    console.log('⮕ Announcement‑bar debug',
+    'scheme_id:',       {{ scheme_id  | json }},
+    'scheme_found:',    {% if scheme %}true{% else %}false{% endif %},
+    'text_colour_raw:', {{ text_colour | json }},
+    'arrow_color:',     {{ arrow_color | json }}
+  );
   </script>
 
 {% render 'icon-arrow', icolor: arrow_color %}
