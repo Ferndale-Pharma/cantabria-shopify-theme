@@ -44,15 +44,34 @@
           <p class="announcement-bar__message h5">
             <span>{{ section.blocks.first.settings.text | escape }}</span>
             {%- if section.blocks.first.settings.link != blank -%}
-              {% assign scheme = settings.color_schemes | where: 'id', section.settings.color_scheme | first %}
-              {% assign arrow_color = scheme.settings.text | color_to_hex | default: '#0D374B' %}
-            {% comment %}
-  DEBUG
-  scheme‑id: {{ section.settings.color_scheme | default:'none' }}
-  scheme?   {{ scheme != nil }}
-  text hex: {{ scheme.settings.text | default:'none' }}
-{% endcomment %}
-              {% render 'icon-arrow', icolor: arrow_color %}
+              {%- assign scheme_id = section.settings.color_scheme -%}
+{%- assign scheme    = settings.color_schemes
+                       | where: 'id', scheme_id
+                       | first -%}
+
+{%- if scheme -%}
+  {%- assign text_colour_raw = scheme.settings.text | default: 'nil / empty' -%}
+{%- else -%}
+  {%- assign text_colour_raw = 'nil (scheme missing)' -%}
+{%- endif -%}
+
+{%- assign arrow_color = text_colour_raw | default: '#0D374B' -%}
+
+{% if request.design_mode %}
+<!--
+  DEBUG – Announcement‑bar colour probe
+  ------------------------------------
+  section.settings.color_scheme (ID): {{ scheme_id | default: 'none / not set' }}
+
+  scheme object exists?            : {% if scheme %}true{% else %}false{% endif %}
+
+  scheme.settings.text (raw value) : {{ text_colour_raw }}
+
+  arrow_color after fallback       : {{ arrow_color }}
+-->
+{% endif %}
+
+{% render 'icon-arrow', icolor: arrow_color %}
             {%- endif -%}
           </p>
           {%- if section.blocks.first.settings.link != blank -%}
