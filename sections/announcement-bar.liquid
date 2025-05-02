@@ -45,7 +45,7 @@
             <span>{{ section.blocks.first.settings.text | escape }}</span>
             {%- if section.blocks.first.settings.link != blank -%}
               {% assign scheme = settings.color_schemes | where: 'id', section.settings.color_scheme | first %}
-              {% assign arrow_color = scheme.settings.text | default: '#0D374B' %}
+              {% assign arrow_color = scheme.settings.text | color_to_hex | default: '#0D374B' %}
               {% render 'icon-arrow', icolor: arrow_color %}
             {%- endif -%}
           </p>
