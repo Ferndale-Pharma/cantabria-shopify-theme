@@ -62,7 +62,7 @@
         "textarea_JJyhGD": {
           "type": "textarea",
           "settings": {
-            "text_area": ""
+            "text_area": "<p>{{ product.metafields.custom.product_offer_text.value }}</p>"
           }
         },
         "collapsible-row-1": {
