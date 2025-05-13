@@ -582,13 +582,24 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_t8jnT3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/heliocare-pediatrics-flat-lay.jpg",
+            "title": "HELIOCARE 360° Pediatrics Sunscreens",
+            "text": "<p>Gentle, very high-level protection specifically designed for babies and children from 6 months old and over.</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_eHycbX",
         "column_tMz6zF",
         "column_HTfgMi",
-        "column_PCbzKa"
+        "column_PCbzKa",
+        "column_t8jnT3"
       ],
       "custom_css": [
         "h3 {color: #000;}"
@@ -598,7 +609,7 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "View products",
