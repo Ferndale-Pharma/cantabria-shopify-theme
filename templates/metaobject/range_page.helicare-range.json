@@ -164,7 +164,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "heliocare-hero-products",
-        "products_to_show": 8,
+        "products_to_show": 14,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
