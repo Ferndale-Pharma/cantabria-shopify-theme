@@ -75,14 +75,7 @@
         "text_kyA6LM": {
           "type": "text",
           "settings": {
-            "text": "This Skin Cancer Awareness Month, get 20% off all clinically-proven Heliocare 360° sun protection!",
-            "text_style": "subtitle"
-          }
-        },
-        "text_trrWbg": {
-          "type": "text",
-          "settings": {
-            "text": "Plus get a FREE full-size ENDOCARE RADIANCE C Ferulic Edafence Serum (worth £54.99) when you buy selected Heliocare 360° products until 18th May.",
+            "text": "This Skin Cancer Awareness Month, get 20% off clinically-proven Heliocare 360° sun protection - includes the NEW ASPA-Fernblock® range!",
             "text_style": "subtitle"
           }
         },
@@ -101,7 +94,6 @@
       "block_order": [
         "heading_aYcLWa",
         "text_kyA6LM",
-        "text_trrWbg",
         "buttons_RkjPdk"
       ],
       "settings": {
