@@ -205,7 +205,7 @@
           "settings": {
             "button_label": "View product",
             "button_link": "shopify://products/heliocare-360-sport-transparent-stick",
-            "button_style_secondary": false
+            "button_style_secondary": true
           }
         }
       },
@@ -624,6 +624,7 @@
     },
     "cl_featured_collection_UQd4Xn": {
       "type": "cl-featured-collection",
+      "custom_css": [],
       "settings": {
         "title": "Find the right HELIOCARE product for you",
         "heading_size": "h2",
@@ -685,14 +686,14 @@
             "heading": "Fernblock® Technology",
             "heading_size": "h1",
             "subheading": "Fernblock is a natural plant extract derived from the tropical fern Polypodium Leucotomas which provides strong antioxidant activity, helping to prevent and repair skin damage caused by solar radiation (UVA, UVB, Visible Light and Infrared A). It helps prevent sunburn and inflammation, reduces redness, improves skin elasticity, and supports overall skin health. ",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/6-benefits-of-fernblock",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
         },
@@ -703,14 +704,14 @@
             "heading": "ASPA-Fernblock®",
             "heading_size": "h1",
             "subheading": "ASPA-Fernblock® is a skin bioactive technology combining Fernblock®, a tropical fern extract, with Aspalathus Linearis (ASPA), a South African plant. It delivers powerful antioxidant protection, helping to prevent and repair sun-induced skin damage (UVA, UVB, Visible Light, Infrared A). It reduces redness, prevents sunburn, boosts elasticity, and enhances vitamin D optimisation - ensuring you get the best from the sun while protecting your skin.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
         },
@@ -851,6 +852,9 @@
         "slide_kGVXGX",
         "slide_GrxUb8",
         "slide_XyHrUm"
+      ],
+      "custom_css": [
+        ".banner__heading {color: #000;}"
       ],
       "settings": {
         "layout": "full_bleed",

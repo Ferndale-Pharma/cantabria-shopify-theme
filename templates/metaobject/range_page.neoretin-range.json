@@ -86,7 +86,8 @@
         "full_width": true,
         "is_heading": true,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "image_with_text_bJBhDW": {
@@ -245,7 +246,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "rich_text_xhqwCq": {
@@ -269,7 +271,8 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
-        "padding_bottom": 32
+        "padding_bottom": 32,
+        "container_id": ""
       }
     },
     "cl_slideshow_qNxJrV": {
@@ -282,14 +285,14 @@
             "heading": "RetinSphere® Technology",
             "heading_size": "h1",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. ",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/retinsphere-technology",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
         },
@@ -410,6 +413,9 @@
         "slide_YRKjmP",
         "slide_QLfQiK",
         "slide_NMGFH8"
+      ],
+      "custom_css": [
+        ".banner__heading {color: #000;}"
       ],
       "settings": {
         "layout": "full_bleed",

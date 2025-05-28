@@ -465,14 +465,14 @@
             "heading": "EDAFENCE® Technology",
             "heading_size": "h1",
             "subheading": "A unique anti-pollution technology, derived from hardy Antarctic grass, that is clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution. ",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/edafence-technology",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
         },
@@ -483,14 +483,14 @@
             "heading": "RetinSphere® Technology",
             "heading_size": "h1",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/retinsphere-technology",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
         },
@@ -508,7 +508,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
         },
@@ -526,7 +526,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
         },
@@ -544,7 +544,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
         },
@@ -562,7 +562,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
         }
@@ -574,6 +574,9 @@
         "slide_94KUyR",
         "slide_jWGRYq",
         "slide_cmXeeH"
+      ],
+      "custom_css": [
+        ".banner__heading {color: #000;}"
       ],
       "settings": {
         "layout": "full_bleed",
