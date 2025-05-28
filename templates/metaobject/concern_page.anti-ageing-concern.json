@@ -170,7 +170,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "image_with_text_XrWyXj": {
@@ -232,7 +233,8 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
-        "padding_bottom": 32
+        "padding_bottom": 32,
+        "container_id": ""
       }
     },
     "cl_slideshow_NtcqfV": {
@@ -245,14 +247,14 @@
             "heading": "RetinSphere® Technology",
             "heading_size": "h1",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. Encourages skin cell turnover and stimulates collagen production for smoother, firmer skin and improved appearance of fine lines and wrinkles.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/retinsphere-technology",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
@@ -263,14 +265,14 @@
             "heading": "Fernblock® Technology",
             "heading_size": "h1",
             "subheading": "A powerful, patented plant-based technology that offers multiple levels of protection against UV radiation and environmental stressors. Is clinically proven to prevent and repair the damage caused by daylight (UVA, UVB, visible light and infrared-A), as well as preventing collagen breakdown, protecting skin cell DNA, preventing pigmentation and protecting the skin’s immune system.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/6-benefits-of-fernblock",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
@@ -281,14 +283,14 @@
             "heading": "EDAFENCE® Technology",
             "heading_size": "h1",
             "subheading": "A unique anti-pollution technology derived from hardy Antarctic grass, clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution. Its antioxidant properties prevent oxidative stress and skin inflammation, strengthening the skin barrier, improving hydration levels and promoting healthy skin.",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/edafence-technology",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         }
@@ -297,6 +299,9 @@
         "slide_iq8WC9",
         "slide_EH9Kjh",
         "slide_rNAePz"
+      ],
+      "custom_css": [
+        ".banner__heading {color: #000;}"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -391,7 +396,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "multicolumn_VDCjYH": {
@@ -448,7 +454,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "newsletter_8ptbGw": {

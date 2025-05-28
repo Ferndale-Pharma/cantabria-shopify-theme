@@ -169,7 +169,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "image_with_text_pygC74": {
@@ -232,7 +233,8 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
-        "padding_bottom": 32
+        "padding_bottom": 32,
+        "container_id": ""
       }
     },
     "cl_slideshow_NJ8dcF": {
@@ -245,14 +247,14 @@
             "heading": "RetinSphere® Technology",
             "heading_size": "h1",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. ",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/retinsphere-technology",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
@@ -263,14 +265,14 @@
             "heading": "BIOPEP-15",
             "heading_size": "h1",
             "subheading": "An incredible botanical-derived technology that fights against the main acne-causing bacteria <em>Cutibacterium acnes</em> and helps to reduce inflammation.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/biopep-15",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         }
@@ -278,6 +280,9 @@
       "block_order": [
         "slide_4DWbVR",
         "slide_QjVyT8"
+      ],
+      "custom_css": [
+        ".banner__heading {color: #000;}"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -314,8 +319,8 @@
         "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 32,
-        "padding_bottom": 32
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "multicolumn_GgiLEY": {
@@ -372,7 +377,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "multicolumn_VDCjYH": {
@@ -429,7 +435,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "newsletter_hhQfYj": {
