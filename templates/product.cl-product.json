@@ -61,7 +61,6 @@
         },
         "textarea_jUnP9Y": {
           "type": "textarea",
-          "disabled": true,
           "settings": {
             "text_area": "<p>{{ product.metafields.custom.product_offer_text.value }}</p>"
           }
