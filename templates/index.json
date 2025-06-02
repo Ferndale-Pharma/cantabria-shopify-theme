@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Skin Cancer Awareness Month 2025",
+            "heading": "Dermatological expertise, proven results",
             "heading_size": "h1"
           }
         },
@@ -43,7 +43,6 @@
         "text",
         "buttons_JLFrH9"
       ],
-      "disabled": true,
       "custom_css": [
         ".banner__text.caption-with-letter-spacing {text-transform: inherit;}"
       ],
@@ -96,6 +95,7 @@
         "text_kyA6LM",
         "buttons_RkjPdk"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/FERN-IMG-00035_CantabriaLabs_HomepageBanner_HeliocareSwatches_2560x960_May25.jpg",
         "image_overlay_opacity": 0,

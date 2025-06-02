@@ -190,7 +190,7 @@
           "type": "heading",
           "settings": {
             "heading": "Introducing HELIOCARE 360° SPORT Transparent Stick",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_hDPGUf": {
@@ -376,7 +376,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/FERNBLOCK.jpg",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -488,7 +488,7 @@
         "heading_K46GHr": {
           "type": "heading",
           "settings": {
-            "heading": "Introducing NEW ASPA-FERNBLOCK",
+            "heading": "Introducing NEW ASPA-FERNBLOCK®",
             "heading_size": "h1"
           }
         },
@@ -538,6 +538,57 @@
         "padding_top": 64,
         "padding_bottom": 64,
         "container_id": ""
+      }
+    },
+    "image_with_text_NbbRcx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_gEYXfN": {
+          "type": "heading",
+          "settings": {
+            "heading": "NEW! HELIOCARE 360° Advanced Body Gel",
+            "heading_size": "h2"
+          }
+        },
+        "text_7zxmzG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The first body sunscreen that prevents and repairs sun damage and enhances the functionality of vitamin D in the skin. A dermatologically advanced sunscreen that provides comprehensive, high-level protection against sun damage.</p><p>Powered by innovative <a href=\"/blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation\" title=\"Introducing ASPA-Fernblock®: The next generation of sunscreen innovation\"><strong>ASPA-Fernblock® technology</strong></a> and its unique OptiD effect, this fast-absorbing, lightweight gel formula helps prevent and repair sun damage while enhancing the skin’s natural vitamin D functionality. </p><p>Ideal for the whole family, it’s suitable for all skin types, including sensitive skin, and is even safe for children aged 2 years and above.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_PV6JRJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "shopify://products/heliocare-360-advanced-gel-body",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_gEYXfN",
+        "text_7zxmzG",
+        "button_PV6JRJ"
+      ],
+      "custom_css": [
+        "p > a {color: #000;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Image_Advanced_Girl_Boy_LIFESTYLE-1.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "multicolumn_zjQz6Y": {
@@ -952,7 +1003,7 @@
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 64,
+        "padding_top": 96,
         "padding_bottom": 64,
         "container_id": ""
       }
@@ -1141,6 +1192,7 @@
     "image_with_text_j7VAgM",
     "multicolumn_html_n7HF8i",
     "rich_text_JRTRpd",
+    "image_with_text_NbbRcx",
     "multicolumn_zjQz6Y",
     "cl_featured_collection_UQd4Xn",
     "rich_text_p3BLWR",
