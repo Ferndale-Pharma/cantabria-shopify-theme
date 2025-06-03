@@ -183,53 +183,6 @@
         "padding_bottom": 64
       }
     },
-    "image_with_text_kQqhCQ": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_r6Ltfr": {
-          "type": "heading",
-          "settings": {
-            "heading": "Introducing HELIOCARE 360° SPORT Transparent Stick",
-            "heading_size": "h2"
-          }
-        },
-        "text_hDPGUf": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The first ever stick photoprotection designed specifically to keep up with your active lifestyle. The NEW HELIOCARE 360° SPORT Transparent Stick provides powerful on-the-go protection against UVA, UVB, visible light an infrared-A, so you can focus on performance while safeguarding your skin.</p><p>Suitable for all skin types, including sensitive skin, its easy-to-apply water and sweat-resistant formula ensures long-lasting defence with an invisible finish.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_6mpALj": {
-          "type": "button",
-          "settings": {
-            "button_label": "View product",
-            "button_link": "shopify://products/heliocare-360-sport-transparent-stick",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_r6Ltfr",
-        "text_hDPGUf",
-        "button_6mpALj"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Real_Madrid_1.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-2",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
     "image_with_text_pya9Dp": {
       "type": "image-with-text",
       "blocks": {
@@ -656,7 +609,7 @@
         "h3 {color: #000;}"
       ],
       "settings": {
-        "title": "Personalised facial sun protection for everyone, for every day",
+        "title": "Personalised sun protection for everyone, for every day",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -698,6 +651,53 @@
         "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_kQqhCQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_r6Ltfr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introducing HELIOCARE 360° SPORT Transparent Stick",
+            "heading_size": "h2"
+          }
+        },
+        "text_hDPGUf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The first ever stick photoprotection designed specifically to keep up with your active lifestyle. The NEW HELIOCARE 360° SPORT Transparent Stick provides powerful on-the-go protection against UVA, UVB, visible light an infrared-A, so you can focus on performance while safeguarding your skin.</p><p>Suitable for all skin types, including sensitive skin, its easy-to-apply water and sweat-resistant formula ensures long-lasting defence with an invisible finish.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_6mpALj": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "shopify://products/heliocare-360-sport-transparent-stick",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_r6Ltfr",
+        "text_hDPGUf",
+        "button_6mpALj"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Real_Madrid_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -1186,7 +1186,6 @@
     "rich_text_YYXacY",
     "image_with_text_48BKmX",
     "cl_featured_collection_wkhxrk",
-    "image_with_text_kQqhCQ",
     "image_with_text_pya9Dp",
     "multicolumn_3TtWA3",
     "image_with_text_j7VAgM",
@@ -1195,6 +1194,7 @@
     "image_with_text_NbbRcx",
     "multicolumn_zjQz6Y",
     "cl_featured_collection_UQd4Xn",
+    "image_with_text_kQqhCQ",
     "rich_text_p3BLWR",
     "cl_slideshow_9QxUaB",
     "multicolumn_VxRL3F",
