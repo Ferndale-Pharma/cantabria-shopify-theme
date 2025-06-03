@@ -55,6 +55,12 @@
             "show_gift_card_recipient": false
           }
         },
+        "textarea_qfmAHK": {
+          "type": "textarea",
+          "settings": {
+            "text_area": "<p>{{ product.metafields.custom.form_shortcode.value }}</p>"
+          }
+        },
         "description_4GfMrB": {
           "type": "description",
           "settings": {}
@@ -102,6 +108,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "textarea_qfmAHK",
         "description_4GfMrB",
         "textarea_JJyhGD",
         "collapsible-row-1",
