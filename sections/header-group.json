@@ -14,15 +14,23 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_dP3e9T": {
+          "type": "announcement",
+          "settings": {
+            "text": "See the Latest Promotions for Fantastic Summer Savings!",
+            "link": "shopify://collections/promotions"
+          }
+        },
         "announcement_H6wiei": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to CantabriaLabs.co.uk - The official UK home of Heliocare 360° - Free Gift with ALL Orders!",
+            "text": "Welcome to CantabriaLabs.co.uk - The Official UK Home of HELIOCARE 360° - Free Gift with ALL Orders!",
             "link": ""
           }
         }
       },
       "block_order": [
+        "announcement_dP3e9T",
         "announcement_H6wiei"
       ],
       "custom_css": [
