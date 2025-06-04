@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Dermatological expertise, proven results",
+            "heading": "Double Up on Protection – Buy One, Get Second Half Price on HELIOCARE 360°!",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Welcome to Cantabria Labs, the home of dermatological skincare expertly researched and developed to deliver proven results",
+            "text": "Add any two qualifying products to your basket and your discount will be automatically applied at checkout. <a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>Exclusions apply.</em></a>",
             "text_style": "subtitle"
           }
         },
@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify://collections/heliocare",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -47,7 +47,7 @@
         ".banner__text.caption-with-letter-spacing {text-transform: inherit;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB_-_Banner_-_Homepage.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00035_CantabriaLabs_HomepageBanner_HeliocareSwatches_2560x960_May25.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
