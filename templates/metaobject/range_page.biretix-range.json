@@ -362,12 +362,12 @@
             "subheading": "An incredible botanical-derived technology that fights against the main acne-causing bacteria <em>Cutibacterium acnes</em> and helps to reduce inflammation.",
             "button_label": "Learn more",
             "link": "shopify://blogs/expert-advice/biopep-15",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-3",
             "text_alignment_mobile": "center"
           }
         },
