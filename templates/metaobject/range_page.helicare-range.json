@@ -104,7 +104,56 @@
         "full_width": true,
         "is_heading": true,
         "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_bottom": 80,
+        "container_id": ""
+      }
+    },
+    "rich_text_6PhJQN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ENr7qe": {
+          "type": "heading",
+          "settings": {
+            "heading": "Double up on protection – Buy one, get second half price on HELIOCARE 360°!",
+            "heading_size": "h2"
+          }
+        },
+        "text_HMQBJW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add any two qualifying products to your basket and your discount will be automatically applied at checkout. <a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>Offer ends 12:00 18th June 2025 - Exclusions apply.</em></a></p>"
+          }
+        },
+        "button_gGdyxW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/heliocare",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ENr7qe",
+        "text_HMQBJW",
+        "button_gGdyxW"
+      ],
+      "custom_css": [
+        "p > a {color: #121212;}",
+        "h2 {color: #f2a900;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-b00359ae-ee7a-417c-945f-95c391394291",
+        "full_width": false,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 32,
         "container_id": ""
       }
     },
@@ -151,7 +200,7 @@
         "color_scheme": "scheme-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "padding_top": 64,
+        "padding_top": 80,
         "padding_bottom": 64
       }
     },
@@ -1184,6 +1233,7 @@
   "order": [
     "image_banner_9qaB4e",
     "rich_text_YYXacY",
+    "rich_text_6PhJQN",
     "image_with_text_48BKmX",
     "cl_featured_collection_wkhxrk",
     "image_with_text_pya9Dp",

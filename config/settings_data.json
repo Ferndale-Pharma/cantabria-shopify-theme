@@ -333,12 +333,12 @@
       },
       "scheme-b00359ae-ee7a-417c-945f-95c391394291": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#fceecc",
           "background_gradient": "",
           "text": "#121212",
           "button": "#f2a900",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
+          "button_label": "#121212",
+          "secondary_button_label": "#f2a900",
           "shadow": "#121212"
         }
       }
