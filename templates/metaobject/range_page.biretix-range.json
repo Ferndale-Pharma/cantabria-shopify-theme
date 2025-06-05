@@ -86,7 +86,56 @@
         "full_width": true,
         "is_heading": true,
         "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_bottom": 80,
+        "container_id": ""
+      }
+    },
+    "rich_text_LimL7D": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Ce4iJj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Free gift (worth £31) when you spend over £20 on BIRETIX",
+            "heading_size": "h2"
+          }
+        },
+        "text_Kpc3BL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Receive a free <a href=\"/products/heliocare-360-gel-oil-free\" title=\"HELIOCARE 360° Gel Oil-Free SPF50\"><strong>HELIOCARE 360° Gel Oil-Free SPF50</strong></a> when you spend over £20 on the BIRETIX range. Free gift will be automatically added to your basket. <em>Offer ends 12:00 2nd July 2025.</em></p>"
+          }
+        },
+        "button_RDVdmH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/biretix",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ce4iJj",
+        "text_Kpc3BL",
+        "button_RDVdmH"
+      ],
+      "custom_css": [
+        "h2 {color: #00843d;}",
+        "p > a {color: #121212;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-c9cfcf6d-7e85-4c7a-8258-326efed9570c",
+        "full_width": false,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 32,
         "container_id": ""
       }
     },
@@ -133,7 +182,7 @@
         "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "padding_top": 64,
+        "padding_top": 96,
         "padding_bottom": 64
       }
     },
@@ -654,6 +703,7 @@
   "order": [
     "image_banner_9qaB4e",
     "rich_text_CcYqft",
+    "rich_text_LimL7D",
     "image_with_text_html_DGWMyN",
     "cl_featured_collection_MbjxVd",
     "multicolumn_CQCX7D",
