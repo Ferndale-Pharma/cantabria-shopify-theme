@@ -160,3 +160,6 @@
       width: 100%;
     }
 }
+.card__badge .badge{
+  display: none !important;
+}
