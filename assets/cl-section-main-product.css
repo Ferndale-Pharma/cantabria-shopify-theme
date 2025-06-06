@@ -1557,3 +1557,6 @@ a.product__text {
   font-size: 18px;
   line-height: 26px;
 }
+.price--sold-out .price__badge-sold-out {
+  display: none !important;
+}
