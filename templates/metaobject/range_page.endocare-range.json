@@ -354,6 +354,7 @@
         "text_MYRE7R",
         "button_axWbnr"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/CL-WEB-0005_-_Endocare_Range_-_4.jpg",
         "height": "adapt",

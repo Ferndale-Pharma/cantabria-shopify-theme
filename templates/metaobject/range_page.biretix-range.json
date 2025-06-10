@@ -139,6 +139,53 @@
         "container_id": ""
       }
     },
+    "image_with_text_html_LYKX9k": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_KFxkbD": {
+          "type": "heading",
+          "settings": {
+            "heading": "A simple 3 step daily skin regime",
+            "heading_size": "h2"
+          }
+        },
+        "text_qbkYTr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BIRETIX Tri-Active Gel, combined with BIRETIX Cleanser and BIRETIX Hydramat Fluid, form the perfect three step daily skin regime to significantly reduce imperfections, blemishes and sebum while taking care of the skin. The regime is dermatologically proven to have excellent skin tolerance, significantly increase skin moisturisation and reduce redness, even in sensitive acne-prone skin.<sup>6</sup></p>",
+            "text_style": "body"
+          }
+        },
+        "button_qRFm9h": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "shopify://products/biretix-regime",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_KFxkbD",
+        "text_qbkYTr",
+        "button_qRFm9h"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_Brand_Page_-_TriActive_Regime_7a783ecd-564d-40c2-a64a-2e0c75a3dc10.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "image_with_text_html_DGWMyN": {
       "type": "image-with-text-html",
       "blocks": {
@@ -560,53 +607,6 @@
         "container_id": ""
       }
     },
-    "image_with_text_html_LYKX9k": {
-      "type": "image-with-text-html",
-      "blocks": {
-        "heading_KFxkbD": {
-          "type": "heading",
-          "settings": {
-            "heading": "A simple 3 step daily skin regime",
-            "heading_size": "h2"
-          }
-        },
-        "text_qbkYTr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>BIRETIX Tri-Active Gel, combined with BIRETIX Cleanser and BIRETIX Hydramat Fluid, form the perfect three step daily skin regime to significantly reduce imperfections, blemishes and sebum while taking care of the skin. The regime is dermatologically proven to have excellent skin tolerance, significantly increase skin moisturisation and reduce redness, even in sensitive acne-prone skin.<sup>6</sup></p>",
-            "text_style": "body"
-          }
-        },
-        "button_qRFm9h": {
-          "type": "button",
-          "settings": {
-            "button_label": "View product",
-            "button_link": "shopify://products/biretix-regime",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_KFxkbD",
-        "text_qbkYTr",
-        "button_qRFm9h"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_Brand_Page_-_TriActive_Regime_7a783ecd-564d-40c2-a64a-2e0c75a3dc10.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-3",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
     "cl_featured_collection_gPpbQz": {
       "type": "cl-featured-collection",
       "settings": {
@@ -704,14 +704,14 @@
     "image_banner_9qaB4e",
     "rich_text_CcYqft",
     "rich_text_LimL7D",
-    "image_with_text_html_DGWMyN",
+    "image_with_text_html_LYKX9k",
     "cl_featured_collection_MbjxVd",
     "multicolumn_CQCX7D",
     "rich_text_HUxECR",
     "cl_slideshow_4tCcxJ",
     "multicolumn_html_NwAPwU",
     "multicolumn_Q9V4Kp",
-    "image_with_text_html_LYKX9k",
+    "image_with_text_html_DGWMyN",
     "cl_featured_collection_gPpbQz",
     "collapsible_content_dgkKCE",
     "newsletter_ptPkgb"
