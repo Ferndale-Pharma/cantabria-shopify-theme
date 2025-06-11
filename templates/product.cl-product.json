@@ -74,7 +74,7 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Key Information",
+            "heading": "Key information",
             "icon": "none",
             "content": "{{ product.metafields.custom.long_description | metafield_tag }}",
             "page": ""
