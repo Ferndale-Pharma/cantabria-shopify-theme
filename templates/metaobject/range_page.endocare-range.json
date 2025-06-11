@@ -86,7 +86,8 @@
         "full_width": true,
         "is_heading": true,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "image_with_text_bTLWD6": {
@@ -109,7 +110,7 @@
         "button_HBTEJm": {
           "type": "button",
           "settings": {
-            "button_label": "Shop offer",
+            "button_label": "View Product",
             "button_link": "shopify://products/endocare-radiance-c-ferulic-edafence-serum",
             "button_style_secondary": true
           }
@@ -120,6 +121,7 @@
         "text_AYNmBR",
         "button_HBTEJm"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/endocare-radiance-serum-and-eye-cream.jpg",
         "height": "medium",
@@ -212,7 +214,7 @@
         "button_m6G4Db"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0005_-_Endocare_Range_-_1.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00053_CantabriaLabs_EndocareRangePage_SkinBarrierReinforce_Images_1200x930_Jun25.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -234,7 +236,7 @@
           "type": "heading",
           "settings": {
             "heading": "Antioxidant and anti-pollution protection & correction",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_RPAUqp": {
@@ -259,7 +261,7 @@
         "button_rnpU3m"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0005_-_Endocare_Range_-_2.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00052_CantabriaLabs_EndocareRangePage_AntiOxAntiPollution_Images_1200x930_Jun25.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -306,7 +308,7 @@
         "button_eBgBPL"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0005_-_Endocare_Range_-_3_022f83f3-133f-4b39-9136-fc09c786d480.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00051_CantabriaLabs_EndocareRangePage_SkinRenewal_Images_1200x930_Jun25.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -352,6 +354,7 @@
         "text_MYRE7R",
         "button_axWbnr"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/CL-WEB-0005_-_Endocare_Range_-_4.jpg",
         "height": "adapt",
@@ -424,7 +427,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "rich_text_jBDxCK": {
@@ -448,7 +452,8 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
-        "padding_bottom": 32
+        "padding_bottom": 32,
+        "container_id": ""
       }
     },
     "cl_slideshow_gDX4yN": {
@@ -461,14 +466,14 @@
             "heading": "EDAFENCE® Technology",
             "heading_size": "h1",
             "subheading": "A unique anti-pollution technology, derived from hardy Antarctic grass, that is clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution. ",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/edafence-technology",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
         },
@@ -479,14 +484,14 @@
             "heading": "RetinSphere® Technology",
             "heading_size": "h1",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/retinsphere-technology",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
         },
@@ -504,7 +509,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
         },
@@ -522,7 +527,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
         },
@@ -540,7 +545,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
         },
@@ -558,7 +563,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
         }
@@ -570,6 +575,9 @@
         "slide_94KUyR",
         "slide_jWGRYq",
         "slide_cmXeeH"
+      ],
+      "custom_css": [
+        ".banner__heading {color: #000;}"
       ],
       "settings": {
         "layout": "full_bleed",

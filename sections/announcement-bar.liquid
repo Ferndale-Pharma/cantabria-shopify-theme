@@ -104,7 +104,8 @@
                     <p class="announcement-bar__message h5">
                       <span>{{ block.settings.text | escape }}</span>
                       {%- if block.settings.link != blank -%}
-                        {% render 'icon-arrow' %}
+                        {% assign icon_color = section.settings.color_scheme %}
+                        {% render 'icon-arrow' with icon_color as icolor  %}
                       {%- endif -%}
                     </p>
                     {%- if block.settings.link != blank -%}

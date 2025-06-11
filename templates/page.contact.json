@@ -1,16 +1,17 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -21,16 +22,15 @@
       "blocks": {
         "heading_aJwF8m": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "Contact us",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "text_tEqnN9": {
           "type": "text",
           "settings": {
-            "text": "<p>CantabriaLabs.co.uk is exclusively operated on behalf of Cantabria Labs by Ferndale Pharma Health & Beauty, a division of Ferndale Pharmaceuticals Ltd. <\/p><p>With over 125 years of experience in skincare and dermatology, and having been the exclusive distributor for Cantabria Labs in the UK for over 20 years, Ferndale Pharma’s team of skin experts are perfectly placed to answer any questions you may have. <\/p>"
+            "text": "<p>CantabriaLabs.co.uk is exclusively operated on behalf of Cantabria Labs by Ferndale Pharma Health & Beauty, a division of Ferndale Pharmaceuticals Ltd. </p><p>With over 125 years of experience in skincare and dermatology, and having been the exclusive distributor for Cantabria Labs in the UK for over 20 years, Ferndale Pharma’s team of skin experts are perfectly placed to answer any questions you may have. </p>"
           }
         }
       },
@@ -43,8 +43,10 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "is_heading": true,
+        "padding_top": 16,
+        "padding_bottom": 32,
+        "container_id": ""
       }
     },
     "form": {
@@ -53,8 +55,8 @@
         "heading": "",
         "heading_size": "h1",
         "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 32,
+        "padding_bottom": 64
       }
     },
     "collapsible_content_NFzMN9": {
@@ -65,7 +67,7 @@
           "settings": {
             "heading": "Phone",
             "icon": "question_mark",
-            "row_content": "<p><strong>Tel<\/strong>: 0800 019 5322 <\/p><p>Lines are open Monday – Thursday: 08:30 – 17:00 and Friday: 08:30 – 16:00 <\/p>",
+            "row_content": "<p><strong>Tel</strong>: 0800 019 5322 </p><p>Lines are open Monday – Thursday: 08:30 – 17:00 and Friday: 08:30 – 16:00 </p>",
             "page": ""
           }
         },
@@ -74,7 +76,7 @@
           "settings": {
             "heading": "Email",
             "icon": "question_mark",
-            "row_content": "<p><strong>Email<\/strong>: <a href=\"mailto:customerservice@ferndalepharma.co.uk\" target=\"_blank\"><span style=\"text-decoration:underline\">customerservice@ferndalepharma.co.uk<\/span><\/a><\/p>",
+            "row_content": "<p><strong>Email</strong>: <a href=\"mailto:customerservice@ferndalepharma.co.uk\" target=\"_blank\"><span style=\"text-decoration:underline\">customerservice@ferndalepharma.co.uk</span></a></p>",
             "page": ""
           }
         },
@@ -83,7 +85,7 @@
           "settings": {
             "heading": "Social Media",
             "icon": "question_mark",
-            "row_content": "<p><strong>FB<\/strong>: @CantabriaLabsUK <\/p><p><strong>IG<\/strong>: @CantabriaLabsUK <\/p>",
+            "row_content": "<p><strong>FB</strong>: <a href=\"https://www.facebook.com/Cantabrialabsuk/\" title=\"Cantabria Labs UK Facebook\">@CantabriaLabsUK </a></p><p><strong>IG</strong>: <a href=\"https://www.instagram.com/Cantabrialabsuk/\" title=\"Cantabria Labs UK Instagram\">@CantabriaLabsUK </a></p>",
             "page": ""
           }
         }
@@ -104,8 +106,8 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     }
   },

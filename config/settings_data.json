@@ -138,39 +138,27 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "17288229127477420511": {
         "type": "shopify://apps/amai-promap/blocks/stockistform-embed-block/acff8fd9-34cc-4a4d-98ed-d7fdb5d3605f",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "18020446634262408591": {
         "type": "shopify://apps/amai-promap/blocks/storelocator-embed-block/acff8fd9-34cc-4a4d-98ed-d7fdb5d3605f",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "6279071938380501511": {
         "type": "shopify://apps/powerful-form-builder/blocks/app-embed/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "8605505498557855500": {
-        "type": "shopify://apps/bogos-io-free-gift/blocks/app-embed/0432bba6-720a-4e95-be5a-b868386f7aa6",
-        "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "14060646107696862457": {
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "18228966181090706294": {
         "type": "shopify://apps/selleasy/blocks/app-embed/790c1a03-a71f-4bc1-9869-00dad526d3c2",
@@ -182,32 +170,32 @@
       "1656560654682496077": {
         "type": "shopify://apps/instant/blocks/instant_core/927e19d9-4e68-41db-99c7-d8debdc1f80d",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "7584948915495707528": {
         "type": "shopify://apps/joy-loyalty-program/blocks/app-embed/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "16934432316630173842": {
         "type": "shopify://apps/amai-promap/blocks/wheretobuy-embed-block/acff8fd9-34cc-4a4d-98ed-d7fdb5d3605f",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "9498845458295061716": {
         "type": "shopify://apps/getsale/blocks/banner-embed-v3/dae9396b-6892-475e-8260-9c39c0a67574",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "16703339255274331331": {
         "type": "shopify://apps/getsale/blocks/app-embed-v3/dae9396b-6892-475e-8260-9c39c0a67574",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "8605505498557855500": {
+        "type": "shopify://apps/bogos-io-free-gift/blocks/app-embed/0432bba6-720a-4e95-be5a-b868386f7aa6",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -340,6 +328,28 @@
           "button": "#ffffff",
           "button_label": "#ffffff",
           "secondary_button_label": "#0d374b",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-b00359ae-ee7a-417c-945f-95c391394291": {
+        "settings": {
+          "background": "#fceecc",
+          "background_gradient": "",
+          "text": "#121212",
+          "button": "#f2a900",
+          "button_label": "#121212",
+          "secondary_button_label": "#f2a900",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-c9cfcf6d-7e85-4c7a-8258-326efed9570c": {
+        "settings": {
+          "background": "#cce7d8",
+          "background_gradient": "",
+          "text": "#121212",
+          "button": "#00843d",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#00843d",
           "shadow": "#121212"
         }
       }

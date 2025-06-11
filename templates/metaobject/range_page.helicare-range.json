@@ -85,7 +85,7 @@
         "text_EAdF6y": {
           "type": "text",
           "settings": {
-            "text": "<p>HELIOCARE is <a href=\"/collections/heliocare\" title=\"HELIOCARE Products\"><strong>available to buy now direct from Cantabria Labs UK</strong></a>, the manufacturers of HELIOCARE and a leading name worldwide in ground-breaking skin health research, development and innovation, as well as from your favourite <a href=\"/pages/find-a-stockist\" title=\"Find a stockist\"><strong>professional skin clinics</strong></a> and <a href=\"#retailers\" title=\"#retailers\"><strong>specialist skincare retailers</strong></a>. </p>"
+            "text": "<p>HELIOCARE is <a href=\"/collections/heliocare\" title=\"HELIOCARE Products\"><strong>available to buy now direct from Cantabria Labs UK</strong></a>, the manufacturers of HELIOCARE and a leading name worldwide in ground-breaking skin health research, development and innovation, as well as from your favourite <a href=\"/pages/find-a-stockist\" title=\"Find a stockist\"><strong>professional skin clinics</strong></a> and<a href=\"#retailers\" title=\"View HELIOCARE retailers\"> <strong>specialist skincare retailers</strong></a>. </p>"
           }
         }
       },
@@ -104,7 +104,56 @@
         "full_width": true,
         "is_heading": true,
         "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_bottom": 80,
+        "container_id": ""
+      }
+    },
+    "rich_text_6PhJQN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ENr7qe": {
+          "type": "heading",
+          "settings": {
+            "heading": "Double up on protection – Buy one, get second half price on HELIOCARE 360°!",
+            "heading_size": "h2"
+          }
+        },
+        "text_HMQBJW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add any two qualifying products to your basket and your discount will be automatically applied at checkout. <a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>Offer ends 12:00 18th June 2025 - Exclusions apply.</em></a></p>"
+          }
+        },
+        "button_gGdyxW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/heliocare",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ENr7qe",
+        "text_HMQBJW",
+        "button_gGdyxW"
+      ],
+      "custom_css": [
+        "p > a {color: #121212;}",
+        "h2 {color: #f2a900;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-b00359ae-ee7a-417c-945f-95c391394291",
+        "full_width": false,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 32,
         "container_id": ""
       }
     },
@@ -151,7 +200,7 @@
         "color_scheme": "scheme-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "padding_top": 64,
+        "padding_top": 96,
         "padding_bottom": 64
       }
     },
@@ -164,7 +213,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "heliocare-hero-products",
-        "products_to_show": 8,
+        "products_to_show": 14,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -179,53 +228,6 @@
         "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "image_with_text_kQqhCQ": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_r6Ltfr": {
-          "type": "heading",
-          "settings": {
-            "heading": "Introducing HELIOCARE 360° SPORT Transparent Stick",
-            "heading_size": "h1"
-          }
-        },
-        "text_hDPGUf": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The first ever stick photoprotection designed specifically to keep up with your active lifestyle. The NEW HELIOCARE 360° SPORT Transparent Stick provides powerful on-the-go protection against UVA, UVB, visible light an infrared-A, so you can focus on performance while safeguarding your skin.</p><p>Suitable for all skin types, including sensitive skin, its easy-to-apply water and sweat-resistant formula ensures long-lasting defence with an invisible finish.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_6mpALj": {
-          "type": "button",
-          "settings": {
-            "button_label": "View product",
-            "button_link": "shopify://products/heliocare-360-sport-transparent-stick",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_r6Ltfr",
-        "text_hDPGUf",
-        "button_6mpALj"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Real_Madrid_1.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-2",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -284,7 +286,7 @@
         "column_bQYjA9": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/High-Level_Broad-Spectrum_Protection.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00042_CantabriaLabs_HeliocareRangePage_WhyChooseHeliocare_ProtectionIcon_800x800px_Jun25.jpg",
             "title": "Very high-level, broad-spectrum UV protection",
             "text": "<p>UVB (SPF50&gt;) and UVA (PA++++).</p>",
             "link_label": "",
@@ -294,7 +296,7 @@
         "column_EEAafK": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/HEVL_IR-A_Free-Radical_defence.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00042_CantabriaLabs_HeliocareRangePage_WhyChooseHeliocare_FernblockIcon_800x800px_Jun25.jpg",
             "title": "Fernblock®+ Antioxidant Technology",
             "text": "<p>Proven by dermatologists to help enhance protection from UVA, Visible Light, IR-A and free radical and repair DNA damage.</p>",
             "link_label": "",
@@ -304,7 +306,7 @@
         "column_yjWteq": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Innovative_Unique_Formulations.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00042_CantabriaLabs_HeliocareRangePage_WhyChooseHeliocare_ForEveryone_800x800px_Jun25.jpg",
             "title": "A sunscreen for everyone, for every day",
             "text": "<p>With unique formulas tailored for different skin types and special skin care concerns, finish and coverage preferences.</p>",
             "link_label": "",
@@ -314,7 +316,7 @@
         "column_r8EQyq": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/DNA_Repair_Activity.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00042_CantabriaLabs_HeliocareRangePage_WhyChooseHeliocare_InsideAndOutIcons_800x800px_Jun25.jpg",
             "title": "Holistic skin protection, inside and out",
             "text": "<p>With topical sunscreens and oral skin supplements.</p>",
             "link_label": "",
@@ -376,7 +378,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/FERNBLOCK.jpg",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -448,7 +450,7 @@
           "settings": {
             "image": "shopify://shop_images/IMPROVE_SPF_FILTERS.png",
             "title": "",
-            "text": "<h3>\n<b>Improve the efficacy of SPF filters by up to 14%<sup>6</sup></b>\n</h3>",
+            "text": "<h3>\n<b>Improve the efficacy of SPF filters<sup>6</sup></b>\n</h3>",
             "link_label": "",
             "link": ""
           }
@@ -488,7 +490,7 @@
         "heading_K46GHr": {
           "type": "heading",
           "settings": {
-            "heading": "Introducing NEW ASPA-FERNBLOCK",
+            "heading": "Introducing NEW ASPA-FERNBLOCK®",
             "heading_size": "h1"
           }
         },
@@ -540,13 +542,64 @@
         "container_id": ""
       }
     },
+    "image_with_text_NbbRcx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_gEYXfN": {
+          "type": "heading",
+          "settings": {
+            "heading": "NEW! HELIOCARE 360° Advanced Body Gel",
+            "heading_size": "h2"
+          }
+        },
+        "text_7zxmzG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The first body sunscreen that prevents and repairs sun damage and enhances the functionality of vitamin D in the skin. A dermatologically advanced sunscreen that provides comprehensive, high-level protection against sun damage.</p><p>Powered by innovative <a href=\"/blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation\" title=\"Introducing ASPA-Fernblock®: The next generation of sunscreen innovation\"><strong>ASPA-Fernblock® technology</strong></a> and its unique OptiD effect, this fast-absorbing, lightweight gel formula helps prevent and repair sun damage while enhancing the skin’s natural vitamin D functionality. </p><p>Ideal for the whole family, it’s suitable for all skin types, including sensitive skin, and is even safe for children aged 2 years and above.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_PV6JRJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "shopify://products/heliocare-360-advanced-gel-body",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_gEYXfN",
+        "text_7zxmzG",
+        "button_PV6JRJ"
+      ],
+      "custom_css": [
+        "p > a {color: #000;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Image_Advanced_Girl_Boy_LIFESTYLE-1.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "multicolumn_zjQz6Y": {
       "type": "multicolumn",
       "blocks": {
         "column_eHycbX": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Personalised_Sunscreen_-_Sensation.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_SensationCollection_Images_1569x1032_Jun25.jpg",
             "title": "HELIOCARE 360° Sensation Sunscreen",
             "text": "<p>Very high-level ultra-light protection for all skin types.</p>",
             "link_label": "",
@@ -556,7 +609,7 @@
         "column_tMz6zF": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Personalised_Sunscreen_-_Tinted_Sunscreens_6055ddfc-ca84-40d8-85ae-ee6249ed80ba.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_TintedCollection_Images_1569x1032_Jun25.jpg",
             "title": "HELIOCARE 360° Tinted Sunscreens",
             "text": "<p>Very high-level protection with skin perfecting coverage.</p>",
             "link_label": "",
@@ -566,7 +619,7 @@
         "column_HTfgMi": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Personalised_Sunscreen_-_Special_Care_e2fab4c8-2ac5-42fc-8025-4df0abc6fa8f.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_SpecialCareCollection_Images_1569x1032_Jun25.jpg",
             "title": "HELIOCARE 360° Special Care Sunscreens",
             "text": "<p>Very high-level protection for specific skin concerns.</p>",
             "link_label": "",
@@ -576,9 +629,19 @@
         "column_PCbzKa": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Personalised_Sunscreen_-_Capsules.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_CapsulesCollection_Images_1569x1032_Jun25_8b12bfcc-9408-4b95-b88d-eaae8970a7a9.jpg",
             "title": "HELIOCARE 360° Oral Skin Supplements",
             "text": "<p>Enhance topical protection and support skin health from within.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_t8jnT3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_PediatricsCollection_Images_1569x1032_Jun25.jpg",
+            "title": "HELIOCARE 360° Pediatrics Sunscreens",
+            "text": "<p>Gentle, very high-level protection specifically designed for babies and children from 6 months old and over.</p>",
             "link_label": "",
             "link": ""
           }
@@ -588,17 +651,18 @@
         "column_eHycbX",
         "column_tMz6zF",
         "column_HTfgMi",
-        "column_PCbzKa"
+        "column_PCbzKa",
+        "column_t8jnT3"
       ],
       "custom_css": [
         "h3 {color: #000;}"
       ],
       "settings": {
-        "title": "Personalised facial sun protection for everyone, for every day",
+        "title": "Personalised sun protection for everyone, for every day",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "View products",
@@ -613,6 +677,7 @@
     },
     "cl_featured_collection_UQd4Xn": {
       "type": "cl-featured-collection",
+      "custom_css": [],
       "settings": {
         "title": "Find the right HELIOCARE product for you",
         "heading_size": "h2",
@@ -635,6 +700,53 @@
         "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_kQqhCQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_r6Ltfr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introducing HELIOCARE 360° SPORT Transparent Stick",
+            "heading_size": "h2"
+          }
+        },
+        "text_hDPGUf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The first ever stick photoprotection designed specifically to keep up with your active lifestyle. The NEW HELIOCARE 360° SPORT Transparent Stick provides powerful on-the-go protection against UVA, UVB, visible light an infrared-A, so you can focus on performance while safeguarding your skin.</p><p>Suitable for all skin types, including sensitive skin, its easy-to-apply water and sweat-resistant formula ensures long-lasting defence with an invisible finish.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_6mpALj": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "shopify://products/heliocare-360-sport-transparent-stick",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_r6Ltfr",
+        "text_hDPGUf",
+        "button_6mpALj"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Real_Madrid_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -674,14 +786,14 @@
             "heading": "Fernblock® Technology",
             "heading_size": "h1",
             "subheading": "Fernblock is a natural plant extract derived from the tropical fern Polypodium Leucotomas which provides strong antioxidant activity, helping to prevent and repair skin damage caused by solar radiation (UVA, UVB, Visible Light and Infrared A). It helps prevent sunburn and inflammation, reduces redness, improves skin elasticity, and supports overall skin health. ",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/6-benefits-of-fernblock",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
         },
@@ -693,13 +805,13 @@
             "heading_size": "h1",
             "subheading": "ASPA-Fernblock® is a skin bioactive technology combining Fernblock®, a tropical fern extract, with Aspalathus Linearis (ASPA), a South African plant. It delivers powerful antioxidant protection, helping to prevent and repair sun-induced skin damage (UVA, UVB, Visible Light, Infrared A). It reduces redness, prevents sunburn, boosts elasticity, and enhances vitamin D optimisation - ensuring you get the best from the sun while protecting your skin.",
             "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "link": "shopify://blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
         },
@@ -841,6 +953,9 @@
         "slide_GrxUb8",
         "slide_XyHrUm"
       ],
+      "custom_css": [
+        ".banner__heading {color: #000;}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
@@ -937,7 +1052,7 @@
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 64,
+        "padding_top": 96,
         "padding_bottom": 64,
         "container_id": ""
       }
@@ -945,6 +1060,16 @@
     "multicolumn_4BEDzV": {
       "type": "multicolumn",
       "blocks": {
+        "column_rY8qx7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Boots_-_Logo_-_Black_-_600x448px.png",
+            "title": "",
+            "text": "",
+            "link_label": "BOOTS",
+            "link": "https://www.boots.com/sitesearch?searchTerm=heliocare&utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_boots_2025&utm_content=CL-URL-0018"
+          }
+        },
         "column_gri3Gg": {
           "type": "column",
           "settings": {
@@ -955,14 +1080,14 @@
             "link": "https://www.lookfantastic.com/brands/heliocare.list/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_lfref_2024&utm_content=CL-URL-0003"
           }
         },
-        "column_NXz3EE": {
+        "column_MdDtAi": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Beauty_Bay.png",
+            "image": "shopify://shop_images/Face_the_future.png",
             "title": "",
             "text": "",
-            "link_label": "BEAUTY BAY",
-            "link": "https://www.beautybay.com/l/heliocare/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_bbref_2024&utm_content=CL-URL-0004"
+            "link_label": "FACE THE FUTURE",
+            "link": "https://www.facethefuture.co.uk/collections/heliocare/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_ftfref_2024&utm_content=CL-URL-0002"
           }
         },
         "column_HkPAkk": {
@@ -975,29 +1100,30 @@
             "link": "https://www.justmylook.com/heliocare-m330/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_jmlref_2024&utm_content=CL-URL-0001"
           }
         },
-        "column_MdDtAi": {
+        "column_NXz3EE": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Face_the_future.png",
+            "image": "shopify://shop_images/Beauty_Bay.png",
             "title": "",
             "text": "",
-            "link_label": "FACE THE FUTURE",
-            "link": "https://www.facethefuture.co.uk/collections/heliocare/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_ftfref_2024&utm_content=CL-URL-0002"
+            "link_label": "BEAUTY BAY",
+            "link": "https://www.beautybay.com/l/heliocare/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_bbref_2024&utm_content=CL-URL-0004"
           }
         }
       },
       "block_order": [
+        "column_rY8qx7",
         "column_gri3Gg",
-        "column_NXz3EE",
+        "column_MdDtAi",
         "column_HkPAkk",
-        "column_MdDtAi"
+        "column_NXz3EE"
       ],
       "settings": {
         "title": "Stockists and partners",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -1107,16 +1233,18 @@
   "order": [
     "image_banner_9qaB4e",
     "rich_text_YYXacY",
+    "rich_text_6PhJQN",
     "image_with_text_48BKmX",
     "cl_featured_collection_wkhxrk",
-    "image_with_text_kQqhCQ",
     "image_with_text_pya9Dp",
     "multicolumn_3TtWA3",
     "image_with_text_j7VAgM",
     "multicolumn_html_n7HF8i",
     "rich_text_JRTRpd",
+    "image_with_text_NbbRcx",
     "multicolumn_zjQz6Y",
     "cl_featured_collection_UQd4Xn",
+    "image_with_text_kQqhCQ",
     "rich_text_p3BLWR",
     "cl_slideshow_9QxUaB",
     "multicolumn_VxRL3F",

@@ -1,0 +1,781 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_DijfAB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LtUpKU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a Heliocare 360° stockist",
+            "heading_size": "h1"
+          }
+        },
+        "text_kzj3wk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join leading skin clinics, pharmacies, and specialist skincare retailers across the UK in offering <a href=\"/pages/range_page/heliocare\" title=\"Heliocare\"><strong>Heliocare 360°</strong></a> – the clinically proven, dermatologically developed sun protection range from Cantabria Labs.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LtUpKU",
+        "text_kzj3wk"
+      ],
+      "custom_css": [
+        "a {color: #000;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "video_tEL9tc": {
+      "type": "video",
+      "custom_css": [
+        "@media screen and (min-width: 1440px) {div {width: 80%; margin: auto; }}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://vimeo.com/954719682?share=copy#t=0",
+        "cover_image": "shopify://shop_images/thumb.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_qzBQQN": {
+      "type": "rich-text",
+      "blocks": {
+        "button_jFQf4x": {
+          "type": "button",
+          "settings": {
+            "button_label": "Become a stockist",
+            "button_link": "#contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_jFQf4x"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "image_with_text_zAYJhA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iWjjVw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Scientifically proven, professionally recommended",
+            "heading_size": "h1"
+          }
+        },
+        "text_4WymLJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Heliocare 360° offers more than broad-spectrum SPF. Powered by exclusive <a href=\"/blogs/skincare-guides/6-benefits-of-fernblock\" title=\"6 Benefits of Fernblock®\"><strong>Fernblock® technology</strong></a>, the range provides advanced protection against UVA, UVB, visible light and infrared-A – alongside powerful antioxidants that defend against photoageing and free radical damage.</p><p>Fernblock®+ is a patented, dermatologically proven antioxidant complex found in every Heliocare 360° topical sunscreen and oral supplement. Clinically proven to help prevent and repair damage caused by sunlight and environmental stressors, it protects the skin’s DNA and immune system while reducing signs of premature ageing.</p><p>Backed by over 50 scientific and clinical studies, Fernblock®+ delivers unrivalled photoprotection – the result of decades of dermatological research. Trusted by professionals, Heliocare 360° supports healthy, radiant skin, even in sensitive or compromised skin types. <br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_a8MQxw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Become a stockist",
+            "button_link": "#contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iWjjVw",
+        "text_4WymLJ",
+        "button_a8MQxw"
+      ],
+      "custom_css": [
+        "a {color: #000;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/FERNBLOCK.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_html_8PPXcx": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_LgkFV3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/UV_PROTECTION.png",
+            "title": "",
+            "text": "<h3><b>Defend against damage caused by UVA, UVB, visible light and infrared-A<sup>1,2,3</sup></b></h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JrKmg9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PREVENT_COLLAGEN_BREAKDOWN.png",
+            "title": "",
+            "text": "<h3><b>Prevent collagen breakdown<sup>2</sup></b></h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cRPaiz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/REPAIR_DNA.png",
+            "title": "",
+            "text": "<h3><b>Protect and repair skin cell DNA<sup>4</sup></b></h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dJaFEV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PREVENT_PIGMENTATION.png",
+            "title": "",
+            "text": "<h3><b>Prevent light-induced pigmentation<sup>5</sup></b></h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TCnWUn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PROTECT_SKIN_IMMUNE_SYSTEM.png",
+            "title": "",
+            "text": "<h3><b>Support the skin’s immune system<sup>5</sup></b></h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LyPGJG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMPROVE_SPF_FILTERS.png",
+            "title": "",
+            "text": "<h3><b>Enhance the efficacy of SPF filters<sup>6</sup></b></h3>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LgkFV3",
+        "column_JrKmg9",
+        "column_cRPaiz",
+        "column_dJaFEV",
+        "column_TCnWUn",
+        "column_LyPGJG"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "Fernblock is clinically proven to:",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_hk3hMh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hyTRL6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introducing NEW ASPA-Fernblock",
+            "heading_size": "h1"
+          }
+        },
+        "text_XG8qkq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Building on the proven benefits of Fernblock®, our newest innovation introduces <a href=\"/blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation\" title=\"Introducing ASPA-Fernblock®: The next generation of sunscreen innovation\"><strong>ASPA-Fernblock®</strong></a> – a breakthrough bioactive complex featuring Aspalathus linearis (Rooibos) extract. Native to South Africa, Rooibos is rich in flavonoids and renowned for its antioxidant and skin-protective properties.</p>"
+          }
+        },
+        "text_FmBUU9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>By combining Fernblock® with Rooibos-derived ASPA extracts, <strong>ASPA-Fernblock®</strong> enhances photoprotection and reinforces the skin’s defences against sun-induced damage. Its unique <strong>OptiD effect</strong> also supports the skin’s natural ability to synthesise vitamin D – allowing your clients to gain the benefits of sunlight, while maintaining superior protection. </p>"
+          }
+        },
+        "button_gG8xDM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Become a stockist",
+            "button_link": "#contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hyTRL6",
+        "text_XG8qkq",
+        "text_FmBUU9",
+        "button_gG8xDM"
+      ],
+      "custom_css": [
+        "a {color: #000;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_Yn7DAK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_aJNELW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_SensationCollection_Images_1569x1032_Jun25.jpg",
+            "title": "Heliocare 360° Sensation Sunscreen",
+            "text": "<p>Ultra-light, very high-level protection for all skin types and tones.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3wnA4W": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_SpecialCareCollection_Images_1569x1032_Jun25.jpg",
+            "title": "Heliocare 360° Special Care Sunscreens",
+            "text": "<p>Targeted protection for specific concerns, including pigmentation, acne-prone skin, and redness.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RXgRJP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_TintedCollection_Images_1569x1032_Jun25.jpg",
+            "title": "Heliocare 360° Tinted Sunscreens",
+            "text": "<p>Very high-level protection with skin-perfecting coverage.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_en7yhq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_CapsulesCollection_Images_1569x1032_Jun25_8b12bfcc-9408-4b95-b88d-eaae8970a7a9.jpg",
+            "title": "Heliocare 360° Oral Skin Supplements",
+            "text": "<p>Support topical protection and promote skin health from within.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KEGBzQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_PediatricsCollection_Images_1569x1032_Jun25.jpg",
+            "title": "HELIOCARE 360° Pediatrics Sunscreens",
+            "text": "<p>Gentle, very high-level protection specifically designed for babies and children from 6 months old and over.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_aJNELW",
+        "column_3wnA4W",
+        "column_RXgRJP",
+        "column_en7yhq",
+        "column_KEGBzQ"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "A range designed for every skin type",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Become a stockist",
+        "button_link": "#contact",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_cTjjyT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zwRiA4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why stock Heliocare 360°?",
+            "heading_size": "h1"
+          }
+        },
+        "text_chBNWN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Heliocare 360° is brought to skincare retailers and professionals by Ferndale Pharmaceuticals Ltd. - the exclusive UK partner of Cantabria Labs since 2008.</p><p>Ferndale Pharmaceuticals Ltd. has a proven track record of delivering a wide range of dermatologically proven skincare solutions that deliver visible results for your patients – and real business benefits for you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zwRiA4",
+        "text_chBNWN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": ""
+      }
+    },
+    "multicolumn_ibWqcz": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YLERjj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Clinically_proven_icon_5e3c216c-e0e8-49fa-a382-cbf035584b13.png",
+            "title": "",
+            "text": "<p>Clinically proven results that build trust and drive repeat purchases.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MCBPRp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Boost_sales_icon_84c761a0-50d0-4110-8251-c0a4adaab426.png",
+            "title": "",
+            "text": "<p>Comprehensive marketing support to boost visibility and sales.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QmAhtw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Training_icon_09cc76ac-0145-430b-8367-f02444dcfc74.png",
+            "title": "",
+            "text": "<p>Professional training to educate and empower your team.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Hkb8Jz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/POS_materials_icon_c872ece4-a243-41f2-b0a4-6ad3a0838bdc.png",
+            "title": "",
+            "text": "<p>Point-of-sale materials to drive in-store engagement.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_YLERjj",
+        "column_MCBPRp",
+        "column_QmAhtw",
+        "column_Hkb8Jz"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info {padding-left: 8px !important; padding-right: 8px !important;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Become a stockist",
+        "button_link": "#contact",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_giJmhR": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_KkQRyT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL---Skin-Clinic---Image.jpg",
+            "title": "Professional Skin Clinics",
+            "text": "<p>Heliocare 360° supports your patient’s skin health, enhances your professional treatment outcomes and provides additional retail opportunities.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YUJqXa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL_-_Pharmacy_-_Image.jpg",
+            "title": "Pharmacies & Dermatological Skincare Retailers",
+            "text": "<p>Heliocare 360° helps you meet growing consumer demand for high-efficacy skincare with proven results and strong retail support.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_KkQRyT",
+        "column_YUJqXa"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "Who should stock Heliocare 360°?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_JJ4kVD": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_LRpKhB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_-_Icons_-_Speech_Bubble_-_Yellow.png",
+            "title": "",
+            "text": "<p><em>“Absolutely love it! Have been using and stocking it for years! Wouldn’t use or have any other SPF! There’s one for every skin type – you literally can’t go wrong!”<br/><br/></em><strong>Chandani Bhuida<br/></strong>Senior Aesthetician, Mayfair Practice</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hdMqAc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_-_Icons_-_Speech_Bubble_-_Yellow.png",
+            "title": "",
+            "text": "<p><em>“I’m a huge fan of Heliocare and will often recommend it to my patients…With so many great products for different skin types there really is something for everyone!”<br/><br/></em><strong>Dr. Emma Wedgeworth<br/></strong>Consultant Dermatologist</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wNYtH4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_-_Icons_-_Speech_Bubble_-_Yellow.png",
+            "title": "",
+            "text": "<p><em>“Heliocare 360° Gel Oil-free SPF50 is one of my personal favourites when it comes to full SPF protection. I regularly recommend the product to patients for everyday use due to its non-greasy formula and suitability for acne prone skin. The extra bonus is the additional protection it provides against HEVL and IR-A.”<br/><br/></em><strong>Dr Anjali Mahto<br/></strong>Dermatologist</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LRpKhB",
+        "column_hdMqAc",
+        "column_wNYtH4"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper--third-width {margin: 1rem auto;}"
+      ],
+      "settings": {
+        "title": "What professionals say",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_FQ9WL3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9qNKnM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a stockist",
+            "heading_size": "h1"
+          }
+        },
+        "text_W9FgNd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ready to offer your clients next-generation sun protection with visible skin health benefits?<br/>Join the growing network of Heliocare 360° stockists today. <br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9qNKnM",
+        "text_W9FgNd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 0,
+        "container_id": "contact"
+      }
+    },
+    "17431563177635ae7a": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_zxbgeM": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"ODI5MDc=\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_zxbgeM"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "multicolumn_E3Gq6a": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_V7meXf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tatler_562f82d2-602a-48ec-866c-fdf144e847a4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7ypYXc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Harpers_Bazaar.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bUwwEN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Telegraph_d9aaf191-f9ed-4b67-afde-7693c5c035e3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kityJb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sunday_Times_Style.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_znCgEj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Get_the_gloss.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_w4zcWn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Marie_Claire.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_V7meXf",
+        "column_7ypYXc",
+        "column_bUwwEN",
+        "column_kityJb",
+        "column_znCgEj",
+        "column_w4zcWn"
+      ],
+      "settings": {
+        "title": "As seen in",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "collapsible_content_V3kJN7": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_DprGzM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "References",
+            "icon": "question_mark",
+            "row_content": "<ol><li> González S, et al. PhotodermatolPhotoimmunol Photomed,1996,12(2):45-56 996 Apr;12(2):45-56.  </li><li>González S, et.al. Int. J. Mol. Sci. 2018. Aug1;19(8):2250. </li><li>Amini S, et al. J Am Acad Dermatol. 2010 Mar;62(3):511-3. </li><li>Maritza A, et al. J. Am Acad Derm, 2004. 51(6):910-8. </li><li>Alonso-Lebrero JL, et.al. PhotochemPhotobiol B. 2003 Apr;70(1):31-7. </li><li>Aguilera J,et al. Front Med (Lausanne). 2021 Jun 2;8:684665.</li></ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_DprGzM"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-2",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_DijfAB",
+    "video_tEL9tc",
+    "rich_text_qzBQQN",
+    "image_with_text_zAYJhA",
+    "multicolumn_html_8PPXcx",
+    "rich_text_hk3hMh",
+    "multicolumn_Yn7DAK",
+    "rich_text_cTjjyT",
+    "multicolumn_ibWqcz",
+    "multicolumn_giJmhR",
+    "multicolumn_JJ4kVD",
+    "rich_text_FQ9WL3",
+    "17431563177635ae7a",
+    "multicolumn_E3Gq6a",
+    "collapsible_content_V3kJN7"
+  ]
+}

@@ -1,0 +1,33 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_Kg6Hex": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/250901731012038\"></script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_Kg6Hex"
+  ]
+}

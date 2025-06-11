@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Your best skin for less",
+            "heading": "Double Up on Protection – Buy One, Get Second Half Price on HELIOCARE 360°!",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Enjoy 20% off selected Cantabria Labs Skincare Heroes with code HERO20",
+            "text": "Add any two qualifying products to your basket and your discount will be automatically applied at checkout. <a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>Exclusions apply.</em></a>",
             "text_style": "subtitle"
           }
         },
@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now",
-            "button_link_1": "shopify://collections/promotions",
+            "button_link_1": "shopify://collections/heliocare",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -43,8 +43,61 @@
         "text",
         "buttons_JLFrH9"
       ],
+      "custom_css": [
+        ".banner__text.caption-with-letter-spacing {text-transform: inherit;}"
+      ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB_-_Banner_-_Homepage.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00035_CantabriaLabs_HomepageBanner_HeliocareSwatches_2560x960_May25.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "is_heading": false
+      }
+    },
+    "image_banner_Gzhfhh": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_aYcLWa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Skin Cancer Awareness Month - May 2025",
+            "heading_size": "h1"
+          }
+        },
+        "text_kyA6LM": {
+          "type": "text",
+          "settings": {
+            "text": "This Skin Cancer Awareness Month, get 20% off clinically-proven Heliocare 360° sun protection - includes the NEW ASPA-Fernblock® range!",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_RkjPdk": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify://collections/heliocare",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_aYcLWa",
+        "text_kyA6LM",
+        "buttons_RkjPdk"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00035_CantabriaLabs_HomepageBanner_HeliocareSwatches_2560x960_May25.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -108,7 +161,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 32,
-        "padding_bottom": 32
+        "padding_bottom": 64
       }
     },
     "cl_collage_ranges_UM4mMA": {
@@ -191,9 +244,9 @@
             "heading": "Fernblock® Technology",
             "heading_size": "h1",
             "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/6-benefits-of-fernblock",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -210,8 +263,8 @@
             "heading_size": "h1",
             "subheading": "ASPA-Fernblock® is a skin bioactive technology combining Fernblock®, a tropical fern extract, with Aspalathus Linearis (ASPA), a South African plant. It delivers powerful antioxidant protection, helping to prevent and repair sun-induced skin damage (UVA, UVB, Visible Light, Infrared A). It reduces redness, prevents sunburn, boosts elasticity, and enhances vitamin D optimisation - ensuring you get the best from the sun while protecting your skin.",
             "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "link": "shopify://blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -246,9 +299,9 @@
             "heading": "RetinSphere® Technology",
             "heading_size": "h1",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. ",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/retinsphere-technology",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -264,9 +317,9 @@
             "heading": "EDAFENCE® Technology",
             "heading_size": "h1",
             "subheading": "A unique anti-pollution technology derived from hardy Antarctic grass, clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution. Its antioxidant properties prevent oxidative stress and skin inflammation, strengthening the skin barrier, improving hydration levels and promoting healthy skin.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/edafence-technology",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -303,7 +356,7 @@
             "subheading": "A patented delivery-system technology that boosts the action of azelaic acid up to 5 times. Its anxtioxidant properties protect the skin from environmental aggressors and offer incredible efficacy in exfoliating, diminishing the appearance of blemishes, unifying the skin tone, reducing pigmentation and soothing the skin.",
             "button_label": "",
             "link": "",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -386,8 +439,8 @@
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_top": 96,
+        "padding_bottom": 64,
         "container_id": ""
       }
     },
@@ -752,7 +805,7 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-1",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 64,
         "padding_bottom": 64,
@@ -795,6 +848,7 @@
   },
   "order": [
     "image_banner",
+    "image_banner_Gzhfhh",
     "rich_text_amGfhA",
     "cl_featured_collection_rx4MFi",
     "cl_collage_ranges_UM4mMA",

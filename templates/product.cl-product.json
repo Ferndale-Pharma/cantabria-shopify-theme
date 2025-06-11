@@ -55,6 +55,12 @@
             "show_gift_card_recipient": false
           }
         },
+        "textarea_6NCbfN": {
+          "type": "textarea",
+          "settings": {
+            "text_area": "<p>{{ product.metafields.custom.form_shortcode.value }}</p>"
+          }
+        },
         "description_4GfMrB": {
           "type": "description",
           "settings": {}
@@ -64,14 +70,6 @@
           "settings": {
             "text_area": "<p>{{ product.metafields.custom.product_offer_text.value }}</p>"
           }
-        },
-        "selleasy_lb_upsell_fbt_block_BHQp6b": {
-          "type": "shopify://apps/selleasy/blocks/lb-upsell-fbt-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "settings": {}
-        },
-        "selleasy_lb_upsell_addon_block_NiQk44": {
-          "type": "shopify://apps/selleasy/blocks/lb-upsell-addon-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "settings": {}
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
@@ -110,10 +108,9 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "textarea_6NCbfN",
         "description_4GfMrB",
         "textarea_jUnP9Y",
-        "selleasy_lb_upsell_fbt_block_BHQp6b",
-        "selleasy_lb_upsell_addon_block_NiQk44",
         "collapsible-row-1",
         "collapsible-row-2",
         "ingredients_tab_4mt9Wd"

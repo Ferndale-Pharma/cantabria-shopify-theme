@@ -1,0 +1,115 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_MMigDe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TE4FeQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to the Stockist Hub",
+            "heading_size": "h0"
+          }
+        },
+        "text_U3jr8a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Here you’ll find everything you need to support your success – from clinical training and marketing resources to convenient stock ordering, all designed to help you grow with confidence.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TE4FeQ",
+        "text_U3jr8a"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_aD9PPk": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RG8ahK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cl-mixed.jpg",
+            "title": "Order Form",
+            "text": "<p>Order extra products quickly and easily online.</p>",
+            "link_label": "View Order Form",
+            "link": "shopify://pages/cantabria-labs-stockist-order-form"
+          }
+        },
+        "column_XdVGzN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/marketing_toolkit.png",
+            "title": "Marketing Toolkit",
+            "text": "<p>Promote Cantabria Labs easily with ready-made marketing materials.</p>",
+            "link_label": "View Marketing Toolkit",
+            "link": "https://ferndalepharma.sharepoint.com/:f:/s/StockistTrainingMarketing/EhJAhOnwF6NMsQ31LOwT9Z0BfkvMI3SbwAWxT8yM3Aa2qA?e=3YQwF4"
+          }
+        },
+        "column_be8G6j": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_1.png",
+            "title": "Training",
+            "text": "<p>Boost your brand knowledge with downloadable clinical resources.</p>",
+            "link_label": "View Training Resources",
+            "link": "https://ferndalepharma.sharepoint.com/:f:/s/StockistTrainingMarketing/EgISUFzX8VpArWEyYzvgQuIBZRimpOJMG1pPuuYq2gX_gA?e=wa1EIj"
+          }
+        }
+      },
+      "block_order": [
+        "column_RG8ahK",
+        "column_XdVGzN",
+        "column_be8G6j"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_MMigDe",
+    "multicolumn_aD9PPk"
+  ]
+}

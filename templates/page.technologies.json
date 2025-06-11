@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -21,10 +22,9 @@
       "blocks": {
         "heading_YAFijH": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Our Skincare Technologies",
-            "heading_size": "h1"
+            "heading": "Our technologies",
+            "heading_size": "h0"
           }
         },
         "text_dcG6ch": {
@@ -43,9 +43,10 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "is_heading": false,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "is_heading": true,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "image_with_text_B8Depy": {
@@ -143,8 +144,8 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 32,
+        "padding_bottom": 64
       }
     },
     "image_with_text_DhnTHd": {
@@ -181,8 +182,8 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "collapsible_content_fMfT3f": {
@@ -232,8 +233,8 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 32,
+        "padding_bottom": 64
       }
     },
     "image_with_text_KxCTrM": {
@@ -361,8 +362,8 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "collapsible_content_p3wei6": {
@@ -422,8 +423,8 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 32,
+        "padding_bottom": 64
       }
     },
     "rich_text_4pFjUp": {
@@ -459,7 +460,8 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "container_id": ""
       }
     }
   },

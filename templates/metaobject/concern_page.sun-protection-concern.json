@@ -181,7 +181,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 84
+        "padding_bottom": 84,
+        "container_id": ""
       }
     },
     "image_with_text_Pe4cLC": {
@@ -286,7 +287,8 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "container_id": ""
       }
     },
     "rich_text_3BCLrR": {
@@ -310,7 +312,8 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 32,
-        "padding_bottom": 32
+        "padding_bottom": 32,
+        "container_id": ""
       }
     },
     "cl_slideshow_YVb49y": {
@@ -323,20 +326,61 @@
             "heading": "Fernblock® Technology",
             "heading_size": "h1",
             "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer. ",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/6-benefits-of-fernblock",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Jrpr3x": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0002_-_HELIOCARE_BRAND_PAGE_-_TECH_INGREDIENTS_-_ASPA_FERNBLOCK_1.jpg",
+            "heading": "ASPA-Fernblock®",
+            "heading_size": "h1",
+            "subheading": "ASPA-Fernblock® is a skin bioactive technology combining Fernblock®, a tropical fern extract, with Aspalathus Linearis (ASPA), a South African plant. It delivers powerful antioxidant protection, helping to prevent and repair sun-induced skin damage (UVA, UVB, Visible Light, Infrared A). It reduces redness, prevents sunburn, boosts elasticity, and enhances vitamin D optimisation - ensuring you get the best from the sun while protecting your skin.",
+            "button_label": "",
+            "link": "shopify://blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_ayCFET": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/UV_FILTERS.jpg",
+            "heading": "UV Filters",
+            "heading_size": "h1",
+            "subheading": "A unique combination of advanced UV filters protect the skin from UVA and UVB radiation, preventing sunburn and long-term skin damage. Including: Tinosorb S | Bemotrizinol | Octisalate | Diethylamino Hydroxybenzoyl Hexyl Benzoate | Diethylhexyl Butamido Triazone  | Octocrylene.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "slide_ByWCPV"
+        "slide_ByWCPV",
+        "slide_Jrpr3x",
+        "slide_ayCFET"
+      ],
+      "custom_css": [
+        ".banner__heading {color: #000;}"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -429,7 +473,8 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "multicolumn_GgiLEY": {
@@ -486,7 +531,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "multicolumn_VDCjYH": {
@@ -543,7 +589,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "newsletter_ULqMbn": {

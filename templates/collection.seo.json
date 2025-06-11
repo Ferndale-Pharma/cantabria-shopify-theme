@@ -9,56 +9,6 @@
  */
 {
   "sections": {
-    "image_banner_p3nTcy": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_pjGXBk": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ collection.metafields.custom.hero_title.value }}",
-            "heading_size": "h1"
-          }
-        },
-        "text_NqMN3b": {
-          "type": "text",
-          "settings": {
-            "text": "{{ collection.metafields.custom.hero_text.value }}",
-            "text_style": "body"
-          }
-        },
-        "buttons_McGzE7": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop offer now",
-            "button_link_1": "shopify://products/endocare-radiance-c-ferulic-edafence-serum",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_pjGXBk",
-        "text_NqMN3b",
-        "buttons_McGzE7"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "{{ collection.metafields.custom.hero_image_desktop.value }}",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "is_heading": false
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -83,8 +33,36 @@
         "filter_type": "vertical",
         "enable_sorting": true,
         "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "rich_text_DENXfb": {
+      "type": "rich-text",
+      "blocks": {
+        "text_dDdXKg": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.metafields.custom.additional_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_dDdXKg"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.rich-text__wrapper--left {justify-content: center; }}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "newsletter_7xiQeE": {
@@ -122,9 +100,9 @@
     }
   },
   "order": [
-    "image_banner_p3nTcy",
     "banner",
     "product-grid",
+    "rich_text_DENXfb",
     "newsletter_7xiQeE"
   ]
 }
