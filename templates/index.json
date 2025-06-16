@@ -728,61 +728,61 @@
         "column_YdBAyb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Lookfantastic_d75aa81e-ed92-4c79-a42e-697b2bb891e7.png",
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_Vogue.jpg",
             "title": "",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "Read article",
+            "link": "https://www.vogue.co.uk/article/best-tinted-sunscreens"
           }
         },
         "column_CfJpQg": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Harpers_Bazaar.png",
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_Forbes.jpg",
             "title": "",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "Read article",
+            "link": "https://www.forbes.com/sites/angelinavillaclarke/2025/02/18/discover-the-most-travel-savvy-products-for-your-next-adventure--pt-1/"
           }
         },
         "column_yEBQh8": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Just_My_Look.png",
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_HarpersBazaar.jpg",
             "title": "",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "Read article",
+            "link": "https://www.harpersbazaar.com/uk/beauty/skincare/g38180/best-face-spf/"
           }
         },
         "column_MDMk7Q": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Tatler_562f82d2-602a-48ec-866c-fdf144e847a4.png",
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_Glamour.jpg",
             "title": "",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "Read article",
+            "link": "https://www.glamourmagazine.co.uk/article/treatment-uneven-skin-tone"
           }
         },
         "column_MeYeb4": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Beauty_Bay.png",
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_Stylist.jpg",
             "title": "",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "Read article",
+            "link": "https://www.stylist.co.uk/beauty/beauty-insiders-best-spf-recommendations/985154"
           }
         },
         "column_abgqf9": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Vogue_9fc08d0e-439d-4d80-82f1-05367d8fc54a.png",
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_EveningStandard.jpg",
             "title": "",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "Read article",
+            "link": "https://www.standard.co.uk/shopping/esbest/health-fitness/best-fastpacking-kit-b1202644.html"
           }
         }
       },
