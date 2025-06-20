@@ -4,31 +4,40 @@
   - Filter by question and answer
   - Hides groups without matches
 {% endcomment %}
+<section class="faq-section page-width">
+  <input type="text" id="faq-search" placeholder="Search FAQs..." class="faq-search-input">
 
-<div class="faq-section page-width">
-  <input type="text" id="faq-search" placeholder="Search FAQs..." class="faq-search-input" />
-
-  {% assign groups = section.blocks | map: "settings.group_title" | uniq %}
-
-  {% for group in groups %}
-    {% assign group_items = section.blocks | where: "settings.group_title", group %}
-
-    <div class="faq-group" data-group="{{ group }}">
-      <h2 class="faq-group-title">{{ group }}</h2>
-
-      {% for block in group_items %}
-        <div class="faq-item"
-             data-question="{{ block.settings.question | escape }}"
-             data-answer="{{ block.settings.answer | strip_html | escape }}">
-          <button class="faq-question" aria-expanded="false">{{ block.settings.question }}</button>
-          <div class="faq-answer hidden">
-            {{ block.settings.answer }}
-          </div>
-        </div>
-      {% endfor %}
-    </div>
+  {% assign groups = "" %}
+  {% for block in section.blocks %}
+    {% assign this_group = block.settings.group_title | strip %}
+    {% unless groups contains this_group %}
+      {% assign groups = groups | append: this_group | append: "||" %}
+    {% endunless %}
   {% endfor %}
-</div>
+
+  {% assign group_array = groups | split: "||" | uniq %}
+
+  {% for group in group_array %}
+    {% if group != "" %}
+      <div class="faq-group" data-group="{{ group }}">
+        <h2 class="faq-group-title">{{ group }}</h2>
+
+        {% for block in section.blocks %}
+          {% if block.settings.group_title == group %}
+            <div class="faq-item"
+                 data-question="{{ block.settings.question | escape }}"
+                 data-answer="{{ block.settings.answer | strip_html | escape }}">
+              <button class="faq-question" aria-expanded="false">{{ block.settings.question }}</button>
+              <div class="faq-answer hidden">
+                {{ block.settings.answer }}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</section>
 
 <style>
   .faq-search-input {
@@ -87,7 +96,6 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    // Toggle accordion
     const questions = document.querySelectorAll(".faq-question");
     questions.forEach(button => {
       button.addEventListener("click", () => {
@@ -99,7 +107,6 @@
       });
     });
 
-    // Search filtering
     const searchInput = document.getElementById("faq-search");
     const faqGroups = document.querySelectorAll(".faq-group");
 
@@ -137,17 +144,20 @@
         {
           "type": "text",
           "id": "group_title",
-          "label": "Group Title"
+          "label": "Group Title",
+          "default": "Shipping"
         },
         {
           "type": "text",
           "id": "question",
-          "label": "Question"
+          "label": "Question",
+          "default": "How long does delivery take?"
         },
         {
           "type": "textarea",
           "id": "answer",
-          "label": "Answer"
+          "label": "Answer",
+          "default": "Delivery typically takes 3–5 business days depending on your location."
         }
       ]
     }
@@ -160,3 +170,4 @@
   ]
 }
 {% endschema %}
+
