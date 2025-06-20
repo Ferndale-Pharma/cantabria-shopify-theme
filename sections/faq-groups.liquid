@@ -54,10 +54,22 @@
     cursor: pointer;
     border-radius: 4px;
     color: #165c7d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
   }
 
   .faq-question[aria-expanded="true"] {
     background: #e0e0e0;
+  }
+
+  .faq-question svg {
+    transition: transform 0.2s ease;
+  }
+  
+  .faq-chevron svg.hidden {
+    display: none;
   }
 
   .faq-answer {
