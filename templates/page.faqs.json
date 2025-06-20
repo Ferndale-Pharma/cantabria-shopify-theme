@@ -34,11 +34,29 @@
             "question": "I've ordered the wrong product",
             "answer": "Unlucky!"
           }
+        },
+        "faq_LiHPKV": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Shipping",
+            "question": "How long does delivery take?",
+            "answer": "Delivery typically takes 3–5 business days depending on your location."
+          }
+        },
+        "faq_4fLAWV": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Heliocare",
+            "question": "How long does delivery take?",
+            "answer": "Delivery typically takes 3–5 business days depending on your location."
+          }
         }
       },
       "block_order": [
         "faq_QR4G7i",
-        "faq_xwww7z"
+        "faq_xwww7z",
+        "faq_LiHPKV",
+        "faq_4fLAWV"
       ],
       "name": "Grouped FAQs",
       "settings": {}
