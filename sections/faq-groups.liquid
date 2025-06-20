@@ -74,8 +74,16 @@
     display: block;
   }
 
+  .faq-answer ul {
+    margin-left: 15px;
+  }
+
   .faq-answer ul li {
     color: #000;
+  }
+
+  .faq-answer ul li:not(:first-of-type) {
+    margin-bottom: 1rem;
   }
 {%- endstyle -%}
 <section class="faq-section page-width section-{{ section.id }}-padding"">
