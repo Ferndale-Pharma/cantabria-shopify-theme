@@ -4,45 +4,19 @@
   - Filter by question and answer
   - Hides groups without matches
 {% endcomment %}
-<section class="faq-section page-width">
-  <div class="center">
-    <input type="text" id="faq-search" placeholder="Search FAQs..." class="faq-search-input">
-  </div>
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
 
-  {% assign groups = "" %}
-  {% for block in section.blocks %}
-    {% assign this_group = block.settings.group_title | strip %}
-    {% unless groups contains this_group %}
-      {% assign groups = groups | append: this_group | append: "||" %}
-    {% endunless %}
-  {% endfor %}
-
-  {% assign group_array = groups | split: "||" | uniq %}
-
-  {% for group in group_array %}
-    {% if group != "" %}
-      <div class="faq-group" data-group="{{ group }}">
-        <h2 class="faq-group-title">{{ group }}</h2>
-
-        {% for block in section.blocks %}
-          {% if block.settings.group_title == group %}
-            <div class="faq-item"
-                 data-question="{{ block.settings.question | escape }}"
-                 data-answer="{{ block.settings.answer | strip_html | escape }}">
-              <button class="faq-question" aria-expanded="false">{{ block.settings.question }}</button>
-              <div class="faq-answer hidden">
-                {{ block.settings.answer }}
-              </div>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-    {% endif %}
-  {% endfor %}
-</section>
-
-<style>
-  .faq-search-input {
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+    .faq-search-input {
     padding: 10px;
     margin-bottom: 30px;
     width: 100%;
@@ -93,7 +67,43 @@
   .faq-answer.visible {
     display: block;
   }
-</style>
+{%- endstyle -%}
+<section class="faq-section page-width">
+  <div class="center">
+    <input type="text" id="faq-search" placeholder="Search FAQs..." class="faq-search-input">
+  </div>
+
+  {% assign groups = "" %}
+  {% for block in section.blocks %}
+    {% assign this_group = block.settings.group_title | strip %}
+    {% unless groups contains this_group %}
+      {% assign groups = groups | append: this_group | append: "||" %}
+    {% endunless %}
+  {% endfor %}
+
+  {% assign group_array = groups | split: "||" | uniq %}
+
+  {% for group in group_array %}
+    {% if group != "" %}
+      <div class="faq-group" data-group="{{ group }}">
+        <h2 class="faq-group-title">{{ group }}</h2>
+
+        {% for block in section.blocks %}
+          {% if block.settings.group_title == group %}
+            <div class="faq-item"
+                 data-question="{{ block.settings.question | escape }}"
+                 data-answer="{{ block.settings.answer | strip_html | escape }}">
+              <button class="faq-question" aria-expanded="false">{{ block.settings.question }}</button>
+              <div class="faq-answer hidden">
+                {{ block.settings.answer }}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</section>
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
@@ -136,7 +146,28 @@
 {% schema %}
 {
   "name": "Grouped FAQs",
-  "settings": [],
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 64
+    },
+  ],
   "blocks": [
     {
       "type": "faq",
