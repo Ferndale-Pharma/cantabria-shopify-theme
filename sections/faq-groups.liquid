@@ -98,10 +98,10 @@
           {% if block.settings.group_title == group %}
             <div class="faq-item"
                  data-question="{{ block.settings.question | escape }}"
-                 data-answer="{{ block.settings.answer | strip_html | escape }}">
+                 data-answer="{{ block.settings.answer | render | strip_html | escape }}">
               <button class="faq-question" aria-expanded="false">{{ block.settings.question }}</button>
               <div class="faq-answer hidden">
-                {{ block.settings.answer }}
+                {{ block.settings.answer | render }}
               </div>
             </div>
           {% endif %}
@@ -192,10 +192,10 @@
           "default": "How long does delivery take?"
         },
         {
-          "type": "textarea",
+          "type": "richtext",
           "id": "answer",
           "label": "Answer",
-          "default": "Delivery typically takes 3–5 business days depending on your location."
+          "default": "<p>Delivery typically takes 3–5 business days depending on your location.</p>"
         }
       ]
     }
