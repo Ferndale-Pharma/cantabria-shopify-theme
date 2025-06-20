@@ -149,16 +149,21 @@
 </section>
 
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
-    questions.forEach(button => {
+  document.addEventListener("DOMContentLoaded", function () {
+    const faqQuestions = document.querySelectorAll(".faq-question");
+    const searchInput = document.getElementById("faq-search");
+    const faqGroups = document.querySelectorAll(".faq-group");
+
+    // Accordion toggle with chevron switching
+    faqQuestions.forEach(button => {
       button.addEventListener("click", () => {
         const expanded = button.getAttribute("aria-expanded") === "true";
         button.setAttribute("aria-expanded", !expanded);
-  
+
         const answer = button.nextElementSibling;
         answer.classList.toggle("hidden", expanded);
         answer.classList.toggle("visible", !expanded);
-  
+
         const chevronDown = button.querySelector(".chevron-down");
         const chevronUp = button.querySelector(".chevron-up");
         if (!expanded) {
@@ -171,9 +176,7 @@
       });
     });
 
-    const searchInput = document.getElementById("faq-search");
-    const faqGroups = document.querySelectorAll(".faq-group");
-
+    // Search filtering logic
     searchInput.addEventListener("input", () => {
       const query = searchInput.value.toLowerCase();
 
