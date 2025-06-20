@@ -38,9 +38,9 @@
         "faq_LiHPKV": {
           "type": "faq",
           "settings": {
-            "group_title": "Shipping",
-            "question": "How long does delivery take?",
-            "answer": "Delivery typically takes 3–5 business days depending on your location."
+            "group_title": "Returns",
+            "question": "Can I return my order?",
+            "answer": "Yes, please follow these steps:"
           }
         },
         "faq_4fLAWV": {
