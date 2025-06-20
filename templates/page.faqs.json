@@ -15,9 +15,28 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "faq_groups_9az4yV": {
+      "type": "faq-groups",
+      "blocks": {
+        "faq_QR4G7i": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Delivery",
+            "question": "When will I receive my order?",
+            "answer": "Next day!"
+          }
+        }
+      },
+      "block_order": [
+        "faq_QR4G7i"
+      ],
+      "name": "Grouped FAQs",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "faq_groups_9az4yV"
   ]
 }
