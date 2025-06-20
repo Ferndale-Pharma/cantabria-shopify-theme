@@ -1,6 +1,162 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{% comment %}
+  Grouped FAQ Section with Search
+  - Supports multiple groups of FAQs
+  - Filter by question and answer
+  - Hides groups without matches
+{% endcomment %}
+
+<div class="faq-section page-width">
+  <input type="text" id="faq-search" placeholder="Search FAQs..." class="faq-search-input" />
+
+  {% assign group_titles = section.blocks | map: 'settings.group_title' | uniq %}
+
+  {% for group in group_titles %}
+    <div class="faq-group" data-group="{{ group }}">
+      <h2 class="faq-group-title">{{ group }}</h2>
+
+      {% for block in section.blocks %}
+        {% if block.settings.group_title == group %}
+          <div class="faq-item"
+               data-question="{{ block.settings.question | escape }}"
+               data-answer="{{ block.settings.answer | strip_html | escape }}">
+            <button class="faq-question" aria-expanded="false">{{ block.settings.question }}</button>
+            <div class="faq-answer hidden">
+              {{ block.settings.answer }}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+  .faq-search-input {
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 600px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
   }
+
+  .faq-group {
+    margin-bottom: 40px;
+  }
+
+  .faq-group-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .faq-item {
+    margin-bottom: 10px;
+  }
+
+  .faq-question {
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    background: #f3f3f3;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .faq-question[aria-expanded="true"] {
+    background: #e0e0e0;
+  }
+
+  .faq-answer {
+    padding: 10px 15px;
+    background: #fafafa;
+    border-left: 2px solid #ccc;
+    display: none;
+  }
+
+  .faq-answer.hidden {
+    display: none;
+  }
+
+  .faq-answer.visible {
+    display: block;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // Toggle accordion
+    const questions = document.querySelectorAll(".faq-question");
+    questions.forEach(button => {
+      button.addEventListener("click", () => {
+        const expanded = button.getAttribute("aria-expanded") === "true";
+        button.setAttribute("aria-expanded", !expanded);
+        const answer = button.nextElementSibling;
+        answer.classList.toggle("hidden", expanded);
+        answer.classList.toggle("visible", !expanded);
+      });
+    });
+
+    // Search filtering
+    const searchInput = document.getElementById("faq-search");
+    const faqGroups = document.querySelectorAll(".faq-group");
+
+    searchInput.addEventListener("input", () => {
+      const query = searchInput.value.toLowerCase();
+
+      faqGroups.forEach(group => {
+        let hasVisibleItem = false;
+        const items = group.querySelectorAll(".faq-item");
+
+        items.forEach(item => {
+          const question = item.dataset.question.toLowerCase();
+          const answer = item.dataset.answer.toLowerCase();
+          const match = question.includes(query) || answer.includes(query);
+
+          item.style.display = match ? "block" : "none";
+          if (match) hasVisibleItem = true;
+        });
+
+        group.style.display = hasVisibleItem ? "block" : "none";
+      });
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Grouped FAQs",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "faq",
+      "name": "FAQ Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "group_title",
+          "label": "Group Title"
+        },
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question"
+        },
+        {
+          "type": "textarea",
+          "id": "answer",
+          "label": "Answer"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Grouped FAQs",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
