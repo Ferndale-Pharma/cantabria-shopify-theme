@@ -111,7 +111,20 @@
             <div class="faq-item"
                  data-question="{{ block.settings.question | escape }}"
                  data-answer="{{ block.settings.answer | render | strip_html | escape }}">
-              <button class="faq-question" aria-expanded="false">{{ block.settings.question }}</button>
+              <button class="faq-question" aria-expanded="false">
+                <span class="faq-question-text">{{ block.settings.question }}</span>
+                <span class="faq-chevron" aria-hidden="true">
+                  <!-- Down chevron (default) -->
+                  <svg class="chevron-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M1.5 5.5l6.5 6.5 6.5-6.5"/>
+                  </svg>
+                  <!-- Up chevron (hidden by default) -->
+                  <svg class="chevron-up hidden" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M1.5 10.5l6.5-6.5 6.5 6.5"/>
+                  </svg>
+                </span>
+              </button>
+
               <div class="faq-answer hidden">
                 {{ block.settings.answer | render }}
               </div>
@@ -125,14 +138,24 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    const questions = document.querySelectorAll(".faq-question");
     questions.forEach(button => {
       button.addEventListener("click", () => {
         const expanded = button.getAttribute("aria-expanded") === "true";
         button.setAttribute("aria-expanded", !expanded);
+  
         const answer = button.nextElementSibling;
         answer.classList.toggle("hidden", expanded);
         answer.classList.toggle("visible", !expanded);
+  
+        const chevronDown = button.querySelector(".chevron-down");
+        const chevronUp = button.querySelector(".chevron-up");
+        if (!expanded) {
+          chevronDown.classList.add("hidden");
+          chevronUp.classList.remove("hidden");
+        } else {
+          chevronDown.classList.remove("hidden");
+          chevronUp.classList.add("hidden");
+        }
       });
     });
 
