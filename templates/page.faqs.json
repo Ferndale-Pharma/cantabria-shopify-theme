@@ -63,10 +63,56 @@
         "padding_top": 32,
         "padding_bottom": 64
       }
+    },
+    "rich_text_NGMtW6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_N7Ff8H": {
+          "type": "heading",
+          "settings": {
+            "heading": "Can't find the answer that you're looking for?",
+            "heading_size": "h2"
+          }
+        },
+        "text_8tGqbT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please contact our Customer Service team who are perfectly placed to answer any questions you may have. <br/><br/></p>"
+          }
+        },
+        "button_bfnjKj": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact us",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_N7Ff8H",
+        "text_8tGqbT",
+        "button_bfnjKj"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
     "main",
-    "faq_groups_9az4yV"
+    "faq_groups_9az4yV",
+    "rich_text_NGMtW6"
   ]
 }
