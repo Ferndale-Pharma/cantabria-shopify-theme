@@ -347,6 +347,16 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_mMiW9P": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_BodyCollection_Images_1569x1032_Jun25.jpg",
+            "title": "HELIOCARE 360° Body Sunscreens",
+            "text": "<p>Very high-level sun protection and even coverage for the whole body</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -354,7 +364,8 @@
         "column_3wnA4W",
         "column_RXgRJP",
         "column_en7yhq",
-        "column_KEGBzQ"
+        "column_KEGBzQ",
+        "column_mMiW9P"
       ],
       "custom_css": [
         "h3 {color: #000;}"
@@ -364,7 +375,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 5,
+        "columns_desktop": 6,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "Become a stockist",
