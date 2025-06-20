@@ -26,10 +26,19 @@
             "question": "When will I receive my order?",
             "answer": "Next day!"
           }
+        },
+        "faq_xwww7z": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Delivery",
+            "question": "I've ordered the wrong product",
+            "answer": "Unlucky!"
+          }
         }
       },
       "block_order": [
-        "faq_QR4G7i"
+        "faq_QR4G7i",
+        "faq_xwww7z"
       ],
       "name": "Grouped FAQs",
       "settings": {}
