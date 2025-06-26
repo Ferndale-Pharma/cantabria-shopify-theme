@@ -746,8 +746,57 @@
         "text_hDPGUf",
         "button_6mpALj"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/FERN-IMG-00059_CantabriaLabs_HeliocareRangePage_SportStick_BlockImage_1200x930_Jun25.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_tAWbFy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_apAiB7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Zero Melanoma",
+            "heading_size": "h1"
+          }
+        },
+        "text_fmRC7n": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Cantabria Labs, we’re proud to team up once again with tennis icon Rafa Nadal for the latest chapter of our Zero Melanoma campaign. With our dermatological sun protection range, HELIOCARE, we’re on a mission to inspire everyone to take sun safety seriously - because melanoma is one of the most dangerous, yet preventable, forms of skin cancer. </p><p>Through this campaign, we’re raising awareness about the power of daily photoprotection and the importance of early detection. Rafa shares our commitment to a healthier future under the sun, and together, we want to help you protect what matters most: your skin. Because every day you protect it, you’re one step closer to zero melanoma.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_gcxRQ4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "shopify://blogs/skincare-guides/zero-melanoma-3-steps-to-sun-safety-with-rafa-nadal",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_apAiB7",
+        "text_fmRC7n",
+        "button_gcxRQ4"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/zero-melanoma.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -1256,6 +1305,7 @@
     "multicolumn_zjQz6Y",
     "cl_featured_collection_UQd4Xn",
     "image_with_text_kQqhCQ",
+    "image_with_text_tAWbFy",
     "rich_text_p3BLWR",
     "cl_slideshow_9QxUaB",
     "multicolumn_VxRL3F",
