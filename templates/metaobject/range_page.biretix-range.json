@@ -186,53 +186,6 @@
         "padding_bottom": 64
       }
     },
-    "image_with_text_html_DGWMyN": {
-      "type": "image-with-text-html",
-      "blocks": {
-        "heading_UHmHqx": {
-          "type": "heading",
-          "settings": {
-            "heading": "BIRETIX Tri-Active Anti-Blemish Gel ",
-            "heading_size": "h2"
-          }
-        },
-        "text_EeLqga": {
-          "type": "text",
-          "settings": {
-            "text": "<p>BIRETIX Tri-Active Anti-Blemish Gel’s effective and caring triple-action formulation significantly reduces imperfections, blemishes, oil and shine to make the skin feel softer, with improved skin texture, and a more uniform complexion.<sup>1</sup></p>\n<p>After just 28 days use, BIRETIX Tri-Active Anti-Blemish Gel is dermatologically proven to significantly reduce imperfections by 61%, and blemishes by up to 76%.<sup>1,2</sup></p>",
-            "text_style": "body"
-          }
-        },
-        "button_HVky9W": {
-          "type": "button",
-          "settings": {
-            "button_label": "View product",
-            "button_link": "shopify://products/biretix-tri-active-anti-blemish-gel",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_UHmHqx",
-        "text_EeLqga",
-        "button_HVky9W"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Tri-active-gel.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-3",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 96,
-        "padding_bottom": 64
-      }
-    },
     "cl_featured_collection_MbjxVd": {
       "type": "cl-featured-collection",
       "settings": {
@@ -299,6 +252,9 @@
         "column_me8NzQ",
         "column_7gzgrd",
         "column_4AXCtL"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
       ],
       "settings": {
         "title": "Expert triple-action dermatological ingredients to target every aspect of acne-prone skin",
@@ -550,6 +506,125 @@
         "padding_bottom": 64
       }
     },
+    "multicolumn_NBphdm": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_wkq99q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Biretix-Testimonial-Becky_e258cc16-f305-4f16-867c-56810e370b66.jpg",
+            "title": "",
+            "text": "<p><em>“BIRETIX is the first routine that’s truly worked for my acne without upsetting my sensitive skin.\"<br/></em><strong><br/>Becky</strong></p>",
+            "link_label": "Read more",
+            "link": "https://cantabrialabs.co.uk/blogs/skincare-guides/acne-is-more-than-skin-deep#becky"
+          }
+        },
+        "column_KiYiiH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Biretix-Testimonial-Stephanie_56ef6aa6-b3fe-4e4e-814f-ce232ae02e3e.jpg",
+            "title": "",
+            "text": "<p><em>\"BIRETIX gave me my confidence back after years of struggling with my skin.\"<br/><br/></em><strong>Stephanie</strong></p>",
+            "link_label": "Read more",
+            "link": "https://cantabrialabs.co.uk/blogs/skincare-guides/acne-is-more-than-skin-deep#stephanie"
+          }
+        },
+        "column_RgXnre": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Biretix-Testimonial-Jemima_7c48880c-b9b4-4349-8f4c-5ed76cae66c6.jpg",
+            "title": "",
+            "text": "<p><em>“BIRETIX has helped even out my skin tone and reduce my acne - I'm finally seeing real progress.”<br/><br/></em></p><p><strong>Jemima</strong></p>",
+            "link_label": "Read more",
+            "link": "https://cantabrialabs.co.uk/blogs/skincare-guides/acne-is-more-than-skin-deep#jemima"
+          }
+        },
+        "column_DRCaUJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Biretix-Testimonial-Jeyan.jpg",
+            "title": "",
+            "text": "<p><em>“Before I found BIRETIX, my skin was really affecting my confidence.”<br/><br/></em><strong>Jeyan</strong></p>",
+            "link_label": "Read more",
+            "link": "https://cantabrialabs.co.uk/blogs/skincare-guides/acne-is-more-than-skin-deep#jeyan"
+          }
+        }
+      },
+      "block_order": [
+        "column_wkq99q",
+        "column_KiYiiH",
+        "column_RgXnre",
+        "column_DRCaUJ"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Real skin, real progress, real results",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "image_with_text_html_DGWMyN": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_UHmHqx": {
+          "type": "heading",
+          "settings": {
+            "heading": "BIRETIX Tri-Active Anti-Blemish Gel ",
+            "heading_size": "h2"
+          }
+        },
+        "text_EeLqga": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BIRETIX Tri-Active Anti-Blemish Gel’s effective and caring triple-action formulation significantly reduces imperfections, blemishes, oil and shine to make the skin feel softer, with improved skin texture, and a more uniform complexion.<sup>1</sup></p>\n<p>After just 28 days use, BIRETIX Tri-Active Anti-Blemish Gel is dermatologically proven to significantly reduce imperfections by 61%, and blemishes by up to 76%.<sup>1,2</sup></p>",
+            "text_style": "body"
+          }
+        },
+        "button_HVky9W": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "shopify://products/biretix-tri-active-anti-blemish-gel",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_UHmHqx",
+        "text_EeLqga",
+        "button_HVky9W"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Tri-active-gel.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 96,
+        "padding_bottom": 64
+      }
+    },
     "multicolumn_Q9V4Kp": {
       "type": "multicolumn",
       "blocks": {
@@ -710,8 +785,9 @@
     "rich_text_HUxECR",
     "cl_slideshow_4tCcxJ",
     "multicolumn_html_NwAPwU",
-    "multicolumn_Q9V4Kp",
+    "multicolumn_NBphdm",
     "image_with_text_html_DGWMyN",
+    "multicolumn_Q9V4Kp",
     "cl_featured_collection_gPpbQz",
     "collapsible_content_dgkKCE",
     "newsletter_ptPkgb"
