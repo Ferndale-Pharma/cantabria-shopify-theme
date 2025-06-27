@@ -519,16 +519,6 @@
             "link": "https://cantabrialabs.co.uk/blogs/skincare-guides/acne-is-more-than-skin-deep#becky"
           }
         },
-        "column_KiYiiH": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Biretix-Testimonial-Stephanie_56ef6aa6-b3fe-4e4e-814f-ce232ae02e3e.jpg",
-            "title": "",
-            "text": "<p><em>\"BIRETIX gave me my confidence back after years of struggling with my skin.\"<br/><br/></em><strong>Stephanie</strong></p>",
-            "link_label": "Read more",
-            "link": "https://cantabrialabs.co.uk/blogs/skincare-guides/acne-is-more-than-skin-deep#stephanie"
-          }
-        },
         "column_RgXnre": {
           "type": "column",
           "settings": {
@@ -552,7 +542,6 @@
       },
       "block_order": [
         "column_wkq99q",
-        "column_KiYiiH",
         "column_RgXnre",
         "column_DRCaUJ"
       ],
@@ -565,7 +554,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
