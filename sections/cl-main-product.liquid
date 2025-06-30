@@ -271,7 +271,7 @@
                       <div class="ingredients__accordion-content twcss-pb-8">
                         {{ block.settings.content }}
                         </div>
-                      <div class="twcss-grid twcss-grid-cols-1 md:twcss-grid-cols-2 twcss-gap-8 twcss-list-none md:twcss-auto-rows-fr">
+                      <div class="twcss-grid twcss-grid-cols-1 {% comment %}md:twcss-grid-cols-2 {% endcomment %}twcss-gap-8 twcss-list-none {% comment %}md:twcss-auto-rows-fr {% endcomment %}">
                         {% for metaobject in product.metafields.custom.key_ingredients.value %}
                           {% render 'card-ingredient', card_ingredient: metaobject, variant: 'product' %}
                         {% endfor %}
