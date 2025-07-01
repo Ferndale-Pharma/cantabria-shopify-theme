@@ -12,17 +12,24 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "text_NPUqV4": {
+          "type": "text",
+          "settings": {
+            "text": "NEW FROM CANTABRIA LABS",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Advanced Protection from Head to Toe",
+            "heading": "HELIOCARE 360° Advanced Gel Body",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Enjoy a FREE 100ml HELIOCARE 360° Advanced Body Gel sample with any HELIOCARE 360° Purchase. <a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>Exclusions apply.</em></a>",
+            "text": "The first body sunscreen that prevents and repairs sun damage and enhances the functionality  of vitamin D in the skin.",
             "text_style": "subtitle"
           }
         },
@@ -30,7 +37,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now",
-            "button_link_1": "shopify://collections/heliocare",
+            "button_link_1": "shopify://products/heliocare-360-advanced-gel-body",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -39,6 +46,7 @@
         }
       },
       "block_order": [
+        "text_NPUqV4",
         "heading",
         "text",
         "buttons_JLFrH9"
