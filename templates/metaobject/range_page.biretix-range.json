@@ -123,6 +123,7 @@
         "text_Kpc3BL",
         "button_RDVdmH"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {color: #00843d;}",
         "p > a {color: #121212;}"
