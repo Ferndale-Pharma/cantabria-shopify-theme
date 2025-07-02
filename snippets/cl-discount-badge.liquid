@@ -85,5 +85,14 @@
       <span class="discount-long-text-emphasis">+ FREE 100ml Body Sample</span>
     </span>
   </div>
+{%- elsif product.tags contains 'heliocare-sensitive-skin'-%}
+  <div class="discount-container">
+    <span
+      id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}-1"
+      class="discount-main-offer free-gift-main-offer"
+    >
+      <span class="discount-extra-offer-large-text">20% off</span><br/><span class="discount-long-text-emphasis">Sensitive Skin Heroes</span>
+    </span>
+  </div>
 {%- endif -%}
 </div>
