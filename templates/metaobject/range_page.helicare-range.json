@@ -114,21 +114,21 @@
         "heading_ENr7qe": {
           "type": "heading",
           "settings": {
-            "heading": "Advanced Protection from Head to Toe",
+            "heading": "UV Awareness Month Sale",
             "heading_size": "h2"
           }
         },
         "text_HMQBJW": {
           "type": "text",
           "settings": {
-            "text": "<p>Enjoy a Free 100ml Heliocare 360 Advanced Body Gel sample with any Heliocare 360 Purchase.<br/><br/> <a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>Offer ends 12:00 1st July 2025 or whilst stocks last - Exclusions apply.</em></a></p>"
+            "text": "<p>Enjoy 20% off HELIOCARE 360° Sensitive Skin Heroes throughout UV Awareness Month. <br/><br/> <a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>Offer ends 12:00 1st August 2025 - Terms & Conditions apply.</em></a></p>"
           }
         },
         "button_gGdyxW": {
           "type": "button",
           "settings": {
             "button_label": "Shop now",
-            "button_link": "shopify://collections/heliocare",
+            "button_link": "shopify://collections/promotions",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -141,7 +141,6 @@
         "text_HMQBJW",
         "button_gGdyxW"
       ],
-      "disabled": true,
       "custom_css": [
         "p > a {color: #121212;}",
         "h2 {color: #f2a900;}"

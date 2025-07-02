@@ -12,24 +12,17 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "text_NPUqV4": {
-          "type": "text",
-          "settings": {
-            "text": "NEW FROM CANTABRIA LABS",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "HELIOCARE 360° Advanced Gel Body",
+            "heading": "UV Awareness Month Sale",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "The first body sunscreen that prevents and repairs sun damage and enhances the functionality  of vitamin D in the skin.",
+            "text": "Enjoy 20% off HELIOCARE 360° Sensitive Skin Heroes throughout UV Awareness Month. <a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\"><em>Terms & Conditions apply.</em></a>",
             "text_style": "subtitle"
           }
         },
@@ -46,7 +39,6 @@
         }
       },
       "block_order": [
-        "text_NPUqV4",
         "heading",
         "text",
         "buttons_JLFrH9"
@@ -55,7 +47,7 @@
         ".banner__text.caption-with-letter-spacing {text-transform: inherit;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00056_CantabriaLabs_HomepageBanner_AdvancedGelGWP_OP1_2560x960_Jun25.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00070_CantabriaLabs_HomepageBanner_UVAwareness20OFF_2560x960_Jul25.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
