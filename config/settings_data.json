@@ -196,6 +196,15 @@
         "type": "shopify://apps/bogos-io-free-gift/blocks/app-embed/0432bba6-720a-4e95-be5a-b868386f7aa6",
         "disabled": false,
         "settings": {}
+      },
+      "8856657019192589368": {
+        "type": "shopify://apps/bespoke-shipping/blocks/jshelperfile/4b2a5c2b-d88f-497f-b335-f59836aef6d0",
+        "disabled": false,
+        "settings": {
+          "enhanced_compatibility_mode": true,
+          "block_checkout_button": true,
+          "checkout_button_selector": "[name='checkout']"
+        }
       }
     },
     "color_schemes": {
