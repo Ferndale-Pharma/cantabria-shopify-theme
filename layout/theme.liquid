@@ -344,9 +344,10 @@
         const utmSource = getUTMParam('utm_source');
         const utmMedium = getUTMParam('utm_medium');
         const utmCampaign = getUTMParam('utm_campaign');
+        const utmContent = getUTMParam('utm_content');
       
         // If no UTM at all, don't bother
-        if (utmSource || utmMedium || utmCampaign) {
+        if (utmSource || utmMedium || utmCampaign || utmContent) {
           fetch('/cart/update.js', {
             method: 'POST',
             headers: {
@@ -356,7 +357,8 @@
               attributes: {
                 'utm_source': utmSource,
                 'utm_medium': utmMedium,
-                'utm_campaign': utmCampaign
+                'utm_campaign': utmCampaign,
+                'utm_content': utmContent
               }
             })
           }).then(function(response) {
@@ -366,7 +368,7 @@
           });
         }
       });
-      </script>
+    </script>
     <a class='skip-to-content-link button visually-hidden' href='#MainContent'>
       {{ 'accessibility.skip_to_text' | t }}
     </a>
