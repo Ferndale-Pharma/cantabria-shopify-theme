@@ -61,7 +61,7 @@
             "joy-customer-account-hide-coupon": false,
             "joy-customer-account-hide-history": false,
             "joy-customer-account-view-reward": "Apply",
-            "joy-customer-account-empty-message": "No data found",
+            "joy-customer-account-empty-message": "There is nothing here yet!",
             "joy-customer-account-bg-color": "#FFFFFF",
             "joy-customer-account-primary-text-color": "#165c7d",
             "joy-customer-account-secondary-text-color": "#707070",
