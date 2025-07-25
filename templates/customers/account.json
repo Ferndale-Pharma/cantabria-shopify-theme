@@ -25,7 +25,7 @@
         "heading_yjJ3mf": {
           "type": "heading",
           "settings": {
-            "heading": "Loyalty Rewards",
+            "heading": "Loyalty rewards",
             "heading_size": "h2"
           }
         }
@@ -75,7 +75,7 @@
         "joy_loyalty_program_joy_redeem_program_wtVnwH": {
           "type": "shopify://apps/joy-loyalty-program/blocks/joy-redeem-program/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
           "settings": {
-            "joy-redeem-name": "Redeeming points",
+            "joy-redeem-name": "Redeem your points",
             "joy-redeem-subtitle": "Check out the discounts that you can redeem below!",
             "joy-redeem-display-program": "all",
             "joy-redeem-button-redeem": "Redeem",
