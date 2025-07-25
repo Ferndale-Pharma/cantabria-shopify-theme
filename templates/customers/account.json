@@ -100,15 +100,47 @@
             "joy-redeem-button-text-color": "#FFFFFF",
             "joy-redeem-divider-color": "#DEDEDE"
           }
+        },
+        "joy_loyalty_program_joy_referral_VG4pw4": {
+          "type": "shopify://apps/joy-loyalty-program/blocks/joy-referral/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
+          "settings": {
+            "joy-referral-image-position": "right",
+            "joy-referral-image-height": "450",
+            "joy-referral-image-layout": "6/6",
+            "joy-referral-background-position": "center",
+            "joy-referral-heading": "<h2>Earn more points</h2>",
+            "joy-referral-heading-after-get-link": "<h2>Earn more points</h2>",
+            "joy-referral-heading-size": 20,
+            "joy-referral-description": "<p>Earn &lcub;referer_reward&rcub; every time someone signs up and places an order via your unique link. The person you refer will also receive a &lcub;referee_reward&rcub; discount to use on their first order. Enter your email address below to generate your unique link, then copy and share your link below to get started!</p>",
+            "joy-referral-description-after-get-link": "<p>Earn &lcub;referer_reward&rcub; every time someone signs up and places an order via your unique link. The person you refer will also receive a &lcub;referee_reward&rcub; discount to use on their first order. Simply copy and share your link below to get started!</p>",
+            "joy-referral-placeholder": "Enter your email address",
+            "joy-referral-desktop-content-position": "center",
+            "joy-referral-btn-get-content": "Get my link",
+            "joy-referral-btn-border-radius": 8,
+            "joy-referral-heading-color": "#165c7d",
+            "joy-referral-description-color": "#121212",
+            "joy-referral-bg-color": "#ffffff",
+            "joy-referral-btn-get-bg-color": "#165c7d",
+            "joy-referral-btn-get-text-color": "var(--joy-lp-primary-button-text-color)",
+            "joy-referral-icon-share-social-color": "#165c7d",
+            "joy-referral-text-share-social-color": "#165c7d",
+            "joy-referral-max-width-option": "custom",
+            "joy-referral-max-width": 120,
+            "joy-referral-spacing": 1,
+            "joy-referral-spacing-content": 4
+          }
         }
       },
       "block_order": [
         "joy_loyalty_program_customer_account_HPAeW7",
-        "joy_loyalty_program_joy_redeem_program_wtVnwH"
+        "joy_loyalty_program_joy_redeem_program_wtVnwH",
+        "joy_loyalty_program_joy_referral_VG4pw4"
       ],
       "custom_css": [
         ".Joy-Account__Reward--Item-Header,.Joy-Redeem__Badge.info {background-color: rgba(22, 92, 125, 0.08);}",
-        ".Joy-Redeem__Title {color: #165c7d;}"
+        ".Joy-Redeem__Title {color: #165c7d;}",
+        ".Joy-ReferralLoyalty__Heading {font-family: Univia Pro, sans-serif; color: #165c7d;}",
+        ".Joy-Redeem__SubTitle {font-size: 16px;}"
       ],
       "settings": {
         "include_margins": true
