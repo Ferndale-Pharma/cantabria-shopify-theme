@@ -11,6 +11,9 @@
   "sections": {
     "main": {
       "type": "main-account",
+      "custom_css": [
+        ".order-history {box-shadow: none; border: 1px solid #dedede;}"
+      ],
       "settings": {
         "padding_top": 64,
         "padding_bottom": 64
