@@ -65,7 +65,7 @@
             "joy-customer-account-hide-history": false,
             "joy-customer-account-view-reward": "Apply",
             "joy-customer-account-empty-message": "There is nothing here yet!",
-            "joy-customer-account-bg-color": "#FFFFFF",
+            "joy-customer-account-bg-color": "#ffffff",
             "joy-customer-account-primary-text-color": "#165c7d",
             "joy-customer-account-secondary-text-color": "#707070",
             "joy-customer-account-button-text-color": "#165c7d",
@@ -95,10 +95,10 @@
             "joy-redeem-bg-color": "#FFFFFF",
             "joy-redeem-program-color": "#121212",
             "joy-redeem-point-color": "#165c7d",
-            "joy-redeem-card-color": "#FDFDFF",
+            "joy-redeem-card-color": "#fdfdff",
             "joy-redeem-button-color": "#165c7d",
-            "joy-redeem-button-text-color": "#FFFFFF",
-            "joy-redeem-divider-color": "#DEDEDE"
+            "joy-redeem-button-text-color": "#ffffff",
+            "joy-redeem-divider-color": "#dedede"
           }
         },
         "joy_loyalty_program_joy_referral_VG4pw4": {
