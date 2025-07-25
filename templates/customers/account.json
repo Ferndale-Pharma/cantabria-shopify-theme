@@ -1,10 +1,120 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
-      "type": "main-account"
+      "type": "main-account",
+      "settings": {
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_BDcrX9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yjJ3mf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Loyalty Rewards",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yjJ3mf"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": ""
+      }
+    },
+    "1753432354eada01ff": {
+      "type": "apps",
+      "blocks": {
+        "joy_loyalty_program_customer_account_HPAeW7": {
+          "type": "shopify://apps/joy-loyalty-program/blocks/customer-account/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
+          "settings": {
+            "joy-customer-account-available-point": "Available points:",
+            "joy-customer-account-expiration-point": "Expired on:",
+            "joy-customer-account-pending-point": "Pending points:",
+            "joy-customer-account-coupon-list": "My Rewards",
+            "joy-customer-account-earn-point-list": "Points history",
+            "joy-customer-account-coupon-code": "Discount code",
+            "joy-customer-account-discount-value": "Discount value",
+            "joy-customer-account-discount-program": "Discount program",
+            "joy-customer-account-expiration-date": "Expiration date",
+            "joy-customer-account-action": "Action",
+            "joy-customer-account-hide-coupon": false,
+            "joy-customer-account-hide-history": false,
+            "joy-customer-account-view-reward": "Apply",
+            "joy-customer-account-empty-message": "No data found",
+            "joy-customer-account-bg-color": "#FFFFFF",
+            "joy-customer-account-primary-text-color": "#165c7d",
+            "joy-customer-account-secondary-text-color": "#707070",
+            "joy-customer-account-button-text-color": "#165c7d",
+            "joy-customer-account-divider-color": "#dedede"
+          }
+        },
+        "joy_loyalty_program_joy_redeem_program_wtVnwH": {
+          "type": "shopify://apps/joy-loyalty-program/blocks/joy-redeem-program/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
+          "settings": {
+            "joy-redeem-name": "Redeeming points",
+            "joy-redeem-subtitle": "Check out the discounts that you can redeem below!",
+            "joy-redeem-display-program": "all",
+            "joy-redeem-button-redeem": "Redeem",
+            "joy-redeem-button-redeem-all": "Redeem all points",
+            "joy-redeem-needed-message": "You need {remaining_points} more {loyalty_point} to redeem this discount.",
+            "joy-redeem-button-cancel": "Cancel",
+            "joy-redeem-button-confirm": "Confirm",
+            "joy-redeem-success-message": "Discount redeemed successfully!",
+            "joy-redeem-columns": 3,
+            "joy-redeem-layout-type": "minimal",
+            "joy-redeem-content-align": "center",
+            "joy-redeem-max-width": 110,
+            "joy-redeem-free-shipping-thumbnail": "",
+            "joy-redeem-discount-percentage-thumbnail": "",
+            "joy-redeem-discount-amount-thumbnail": "",
+            "joy-redeem-free-gift-thumbnail": "",
+            "joy-redeem-bg-color": "#FFFFFF",
+            "joy-redeem-program-color": "#121212",
+            "joy-redeem-point-color": "#165c7d",
+            "joy-redeem-card-color": "#FDFDFF",
+            "joy-redeem-button-color": "#165c7d",
+            "joy-redeem-button-text-color": "#FFFFFF",
+            "joy-redeem-divider-color": "#DEDEDE"
+          }
+        }
+      },
+      "block_order": [
+        "joy_loyalty_program_customer_account_HPAeW7",
+        "joy_loyalty_program_joy_redeem_program_wtVnwH"
+      ],
+      "custom_css": [
+        ".Joy-Account__Reward--Item-Header,.Joy-Redeem__Badge.info {background-color: rgba(22, 92, 125, 0.08);}",
+        ".Joy-Redeem__Title {color: #165c7d;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_BDcrX9",
+    "1753432354eada01ff"
   ]
 }
