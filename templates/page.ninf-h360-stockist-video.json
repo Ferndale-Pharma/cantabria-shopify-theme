@@ -41,7 +41,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "full_width": true,
         "is_heading": true,
         "padding_top": 32,
@@ -57,10 +57,11 @@
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https://vimeo.com/1105055557",
+        "cover_image": "shopify://shop_images/FERN-IMG-00094_-_Heliocare_-_Stockist_Conversion_Video_-_Thumbnail_-_1920x1080_3.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
-        "padding_top": 64,
+        "padding_top": 0,
         "padding_bottom": 64
       }
     },
@@ -77,14 +78,14 @@
         "text_tkLKFp": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Complete your Stockist Application form by clicking the link below.</p>"
           }
         },
         "button_fXdfpg": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Apply now",
+            "button_link": "shopify://pages/cantabria-labs-stockist-account-application-form",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -101,12 +102,47 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
         "padding_bottom": 64,
         "container_id": ""
+      }
+    },
+    "rich_text_b4YjrR": {
+      "type": "rich-text",
+      "blocks": {
+        "text_A8BMyb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You’ll need your 5-digit Verification Code sent to you by email. </p><p>No code?</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_A8BMyb"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "container_id": ""
+      }
+    },
+    "custom_liquid_YNBr6F": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\np#request {text-align:center; text-decoration: underline; cursor: pointer;}\n</style>\n<script>\n  document.getElementById('request').addEventListener('click', function () {\n    const emailDiv = document.getElementById('email');\n    if (emailDiv.classList.contains('hidden')) {\n      emailDiv.classList.remove('hidden');\n      emailDiv.style.display = 'block';\n    } else {\n      emailDiv.classList.add('hidden');\n      emailDiv.style.display = '';\n    }\n  });\n</script>\n<p id=\"request\">Enter your email here to request a new one</p>\n<div id=\"email\" class=\"hidden\">Testing</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 64
       }
     }
   },
@@ -114,6 +150,8 @@
     "main",
     "rich_text_MMigDe",
     "video_rwiVUe",
-    "rich_text_K67UHa"
+    "rich_text_K67UHa",
+    "rich_text_b4YjrR",
+    "custom_liquid_YNBr6F"
   ]
 }
