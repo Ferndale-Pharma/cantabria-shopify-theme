@@ -108,8 +108,8 @@
         "color_scheme": "scheme-2",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_top": 32,
+        "padding_bottom": 32,
         "container_id": ""
       }
     },
@@ -119,7 +119,7 @@
         "text_A8BMyb": {
           "type": "text",
           "settings": {
-            "text": "<p>You’ll need your 5-digit Verification Code sent to you by email. </p><p>No code?</p>"
+            "text": "<p><em>You’ll need your 5-digit Verification Code sent to you by email. </em></p><p><em>No code?</em></p>"
           }
         }
       },
@@ -144,7 +144,7 @@
         "powerful_form_builder_app_block_mYn4fK": {
           "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
           "settings": {
-            "shortcode": "<button class=\"button button--secondary btn globo-formbuilder-open\" data-id=\"MTAxNTUx\">Request new verification code</button>"
+            "shortcode": "<button class=\"btn globo-formbuilder-open\" data-id=\"MTAxNTUx\" style=\"text-decoration: underline; color: #000;\">Request new verification code</button>"
           }
         }
       },
