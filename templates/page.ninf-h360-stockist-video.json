@@ -51,6 +51,9 @@
     },
     "video_rwiVUe": {
       "type": "video",
+      "custom_css": [
+        "@media screen and (min-width: 1440px) {div {width: 80%; margin: auto; }}"
+      ],
       "name": "t:sections.video.presets.name",
       "settings": {
         "heading": "",
@@ -131,7 +134,7 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_bottom": 16,
         "container_id": ""
       }
     },
@@ -141,12 +144,65 @@
         "powerful_form_builder_app_block_mYn4fK": {
           "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
           "settings": {
-            "shortcode": "<button class=\"button btn globo-formbuilder-open\" data-id=\"MTAxNTUx\">Open form</button>"
+            "shortcode": "<button class=\"button button--secondary btn globo-formbuilder-open\" data-id=\"MTAxNTUx\">Request new verification code</button>"
           }
         }
       },
       "block_order": [
         "powerful_form_builder_app_block_mYn4fK"
+      ],
+      "custom_css": [
+        "div {text-align: center;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_XACp3A": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YHXA9Y": {
+          "type": "heading",
+          "settings": {
+            "heading": "Any questions?",
+            "heading_size": "h2"
+          }
+        },
+        "text_m4Dr3h": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Ferndale Pharma Health & Beauty Team are always available to answer any questions you may have. Simply complete the form below and your dedicated Account Manager will be in touch shortly!<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YHXA9Y",
+        "text_m4Dr3h"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 96,
+        "padding_bottom": 16,
+        "container_id": ""
+      }
+    },
+    "175371040849fddad8": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_cWUkQH": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTAxNTg5\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_cWUkQH"
       ],
       "settings": {
         "include_margins": true
@@ -159,6 +215,8 @@
     "video_rwiVUe",
     "rich_text_K67UHa",
     "rich_text_b4YjrR",
-    "1753699004c2c4bf3c"
+    "1753699004c2c4bf3c",
+    "rich_text_XACp3A",
+    "175371040849fddad8"
   ]
 }
