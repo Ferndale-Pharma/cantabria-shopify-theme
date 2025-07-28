@@ -23,14 +23,14 @@
         "heading_TE4FeQ": {
           "type": "heading",
           "settings": {
-            "heading": "Welcome to the Stockist Hub",
+            "heading": "Become a Heliocare 360° Stockist",
             "heading_size": "h0"
           }
         },
         "text_U3jr8a": {
           "type": "text",
           "settings": {
-            "text": "<p>Here you’ll find everything you need to support your success – from clinical training and marketing resources to convenient stock ordering, all designed to help you grow with confidence.<br/></p>"
+            "text": "<p>Heliocare 360° is Cantabria Labs’ clinically proven, dermatologically developed, award-winning sun protection range, trusted by dermatologists and recommended worldwide in thousands of leading skin clinics, pharmacies, and specialist skincare retailers just like yours.</p><p>Backed by advanced research, it offers clinically proven protection against UVA, UVB, visible light and infrared-A – all in elegant formulas your patients will love.</p>"
           }
         }
       },
@@ -49,67 +49,25 @@
         "container_id": ""
       }
     },
-    "multicolumn_aD9PPk": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_RG8ahK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/cl-mixed.jpg",
-            "title": "Order Form",
-            "text": "<p>Order extra products quickly and easily online.</p>",
-            "link_label": "View Order Form",
-            "link": "shopify://pages/cantabria-labs-stockist-order-form"
-          }
-        },
-        "column_XdVGzN": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/marketing_toolkit.png",
-            "title": "Marketing Toolkit",
-            "text": "<p>Promote Cantabria Labs easily with ready-made marketing materials.</p>",
-            "link_label": "View Marketing Toolkit",
-            "link": "https://ferndalepharma.sharepoint.com/:f:/s/StockistTrainingMarketing/EhJAhOnwF6NMsQ31LOwT9Z0BfkvMI3SbwAWxT8yM3Aa2qA?e=3YQwF4"
-          }
-        },
-        "column_be8G6j": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/image_1.png",
-            "title": "Training",
-            "text": "<p>Boost your brand knowledge with downloadable clinical resources.</p>",
-            "link_label": "View Training Resources",
-            "link": "https://ferndalepharma.sharepoint.com/:f:/s/StockistTrainingMarketing/EgISUFzX8VpArWEyYzvgQuIBZRimpOJMG1pPuuYq2gX_gA?e=wa1EIj"
-          }
-        }
-      },
-      "block_order": [
-        "column_RG8ahK",
-        "column_XdVGzN",
-        "column_be8G6j"
-      ],
+    "video_rwiVUe": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
       "settings": {
-        "title": "",
+        "heading": "",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
+        "enable_video_looping": false,
+        "video_url": "https://vimeo.com/1105055557",
+        "description": "",
+        "full_width": false,
         "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64,
-        "container_id": ""
+        "padding_bottom": 64
       }
     }
   },
   "order": [
     "main",
     "rich_text_MMigDe",
-    "multicolumn_aD9PPk"
+    "video_rwiVUe"
   ]
 }
