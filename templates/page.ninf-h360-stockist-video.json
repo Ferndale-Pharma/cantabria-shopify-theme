@@ -139,7 +139,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\np#request {text-align:center; text-decoration: underline; cursor: pointer;}\n</style>\n\n<p id=\"request\">Enter your email here to request a new one</p>\n<div id=\"email\" class=\"hidden\"><div class=\"globo-formbuilder\" data-id=\"MTAxNTUx\"></div></div>\n<script>\n  document.getElementById('request').addEventListener('click', function () {\n    const emailDiv = document.getElementById('email');\n    if (emailDiv.classList.contains('hidden')) {\n      emailDiv.classList.remove('hidden');\n      emailDiv.style.display = 'block';\n    } else {\n      emailDiv.classList.add('hidden');\n      emailDiv.style.display = '';\n    }\n  });\n</script>",
+        "custom_liquid": "<style>\np#request {text-align:center; text-decoration: underline; cursor: pointer;}\n</style>\n\n<p id=\"request\">Enter your email here to request a new one</p>\n<div id=\"email\" class=\"hidden\"><div class=\"globo-formbuilder\" data-id=\"MTAxNTUx\"></div></div>\n<script>\n  document.addEventListener('DOMContentLoaded', function () {\n    const requestParagraph = document.getElementById('request');\n    const emailDiv = document.getElementById('email');\n\n    requestParagraph.addEventListener('click', function () {\n      if (emailDiv.classList.contains('hidden')) {\n        emailDiv.classList.remove('hidden');\n        emailDiv.style.display = 'block';\n      } else {\n        emailDiv.classList.add('hidden');\n        emailDiv.style.display = '';\n      }\n    });\n  });\n</script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 64
