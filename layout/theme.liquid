@@ -434,52 +434,57 @@
     {%- endif -%}
 
     <!-- Check Cookie Consent for HotJar Tracking Code -->
-    <!-- put this just above </body> in theme.liquid -->
+    <!-- ① Place just above </body> in theme.liquid -->
 <script>
-  /* 1 — your normal Hotjar bootstrap */
+  /* Hotjar bootstrap */
   function loadHotjar () {
+    if (window.hj) return;                         /* don’t load twice */
     (function(h,o,t,j,a,r){
-      h.hj = h.hj || function(){(h.hj.q = h.hj.q || []).push(arguments)};
-      h._hjSettings = {hjid: 5284892, hjsv: 6};
+      h.hj = h.hj || function(){ (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: YOUR_HOTJAR_ID, hjsv: 6 };
       a = o.getElementsByTagName('head')[0];
       r = o.createElement('script'); r.async = 1;
       r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
       a.appendChild(r);
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    console.log('[Hotjar] loaded after analytics consent');
   }
 
-  /* 2 — load Shopify’s Customer-Privacy API first */
-  function initHotjarWithShopifyConsent(retries = 10) {
+  /* ② Ask Shopify to load the Customer-Privacy API, then check consent */
+  function initHotjarWithShopifyConsent(retries = 12) {               // ~6 s max
     if (!window.Shopify || typeof Shopify.loadFeatures !== 'function') {
-      /* wait up to ~5 s for Shopify core to appear */
       return retries
         ? setTimeout(() => initHotjarWithShopifyConsent(retries - 1), 500)
-        : console.warn('[Hotjar-consent] Shopify core never appeared');
+        : console.warn('[Hotjar] Shopify core never appeared');
     }
 
     Shopify.loadFeatures(
       [{ name: 'consent-tracking-api', version: '0.1' }],
       function (error) {
-        if (error) { console.error('[Hotjar-consent] loadFeatures error:', error); return; }
+        if (error) { console.error('[Hotjar] loadFeatures error:', error); return; }
 
-        /* 3 — finally ask for the current consent */
-        Shopify.customerPrivacy
-          .getTrackingConsent()
-          .then(consent => {
-            if (consent.granted && consent.categories.includes('analytics')) {
-              console.log('✅ Analytics consent granted – loading Hotjar');
-              loadHotjar();
-            } else {
-              console.log('❌ Analytics consent not granted – Hotjar blocked');
-            }
-          })
-          .catch(err => console.error('[Hotjar-consent] API failed:', err));
+        var privacy = Shopify.customerPrivacy;
+
+        /* helper that loads Hotjar if analytics are allowed */
+        function maybeLoadHotjar () {
+          if (privacy.analyticsProcessingAllowed()) loadHotjar();
+          else console.log('[Hotjar] analytics disallowed – not loading');
+        }
+
+        /* 1st call: on initial page load */
+        maybeLoadHotjar();
+
+        /* 2nd call: when visitor changes consent later */
+        document.addEventListener('visitorConsentCollected', function (evt) {
+          if (evt.detail && evt.detail.analyticsAllowed) loadHotjar();
+        });
       }
     );
   }
 
   document.addEventListener('DOMContentLoaded', initHotjarWithShopifyConsent);
 </script>
+
 
 
   </body>
