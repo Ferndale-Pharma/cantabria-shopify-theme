@@ -435,33 +435,44 @@
 
     <!-- Check Cookie Consent for HotJar Tracking Code -->
     <script>
-    function loadHotjar() {
-      (function(h,o,t,j,a,r){
-        h.hj = h.hj || function(){(h.hj.q = h.hj.q || []).push(arguments)};
-        h._hjSettings = {hjid: 5284892, hjsv: 6};
-        a = o.getElementsByTagName('head')[0];
-        r = o.createElement('script'); r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-      })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    }
-  
-    document.addEventListener('DOMContentLoaded', function () {
-      if (window.Shopify && Shopify.customerPrivacy) {
-        Shopify.customerPrivacy.getTrackingConsent().then(function (consent) {
+  function loadHotjar() {
+    (function(h,o,t,j,a,r){
+      h.hj = h.hj || function(){(h.hj.q = h.hj.q || []).push(arguments)};
+      h._hjSettings = {hjid: YOUR_HOTJAR_ID, hjsv: 6};
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  }
+
+  function waitForShopifyConsentAPI(retries = 10) {
+    if (window.Shopify && Shopify.customerPrivacy && typeof Shopify.customerPrivacy.getTrackingConsent === 'function') {
+      Shopify.customerPrivacy.getTrackingConsent()
+        .then(function (consent) {
           if (consent.granted && consent.categories.includes('analytics')) {
+            console.log('✅ Analytics consent granted – loading Hotjar');
             loadHotjar();
           } else {
-            console.log('Consent for analytics not granted');
+            console.log('❌ Analytics consent not granted');
           }
-        }).catch(function (err) {
+        })
+        .catch(function (err) {
           console.warn('Consent check failed:', err);
         });
-      } else {
-        console.warn('Shopify.customerPrivacy not available');
-      }
-    });
-  </script>
+    } else if (retries > 0) {
+      // Retry in 500ms
+      setTimeout(() => waitForShopifyConsentAPI(retries - 1), 500);
+    } else {
+      console.warn('Shopify.customerPrivacy API unavailable after waiting');
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    waitForShopifyConsentAPI();
+  });
+</script>
+
 
   </body>
 </html>
