@@ -309,17 +309,7 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-    <!-- Hotjar Tracking Code for Cantabria Labs -->
-    <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:5284892,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
+
   </head>
 
   <body class='twcss-antialiased gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}'>
@@ -442,5 +432,39 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src='{{ 'cart-drawer.js' | asset_url }}' defer='defer'></script>
     {%- endif -%}
+
+    <!-- Check Cookie Consent for HotJar Tracking Code -->
+    <script>
+    // Load Hotjar function
+    function loadHotjar() {
+      (function(h, o, t, j, a, r) {
+        h.hj = h.hj || function() {
+          (h.hj.q = h.hj.q || []).push(arguments);
+        };
+        h._hjSettings = { hjid: 5284892, hjsv: 6 };
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script');
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    }
+  
+    document.addEventListener('DOMContentLoaded', function () {
+      try {
+        const consentRaw = localStorage.getItem('shopify-cookie-consent');
+        if (!consentRaw) return; // No consent saved
+  
+        const consent = JSON.parse(consentRaw);
+  
+        if (consent && consent.analytics === true) {
+          loadHotjar();
+        }
+      } catch (e) {
+        console.warn('Hotjar consent check failed:', e);
+      }
+    });
+  </script>
+
   </body>
 </html>
