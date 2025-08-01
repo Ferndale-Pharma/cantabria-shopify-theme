@@ -72,7 +72,111 @@
           "settings": {
             "group_title": "Returns",
             "title": "How do I start a return?",
-            "answer": "<p>Please contact our Customer Service Team via email customerservice@ferndalepharma.co.uk with your order number. We'll provide return instructions or you can check the full returns process on our <a href=\"/policies/refund-policy\" title=\"Refund Policy\">Returns page</a>.</p>"
+            "answer": "<p>Please contact our Customer Service Team via email customerservice@ferndalepharma.co.uk with your order number. We'll provide return instructions or you can check the full returns process on our <a href=\"/policies/refund-policy\" title=\"Refund Policy\"><strong>Returns page</strong></a>.</p>"
+          }
+        },
+        "faq_cJUKrf": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Returns",
+            "title": "My products arrived damaged/faulty, what do I do?",
+            "answer": "<p>If your products are damaged or faulty when you receive them, please contact Customer Service by email customerservice@ferndalepharma.co.uk or on 0800 0195322 within 48 hours of receiving your order. A member of the Customer Service team will help you and work out the best solution for you.</p>"
+          }
+        },
+        "faq_HEeFd7": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Returns",
+            "title": "How long does delivery take?",
+            "answer": "<p>No, we have a Freepost address so this provides free return shipping at every Post Office. Our Freepost returns address is:</p><p>Freepost FERNDALE PHARMA<br/>LS23 7FX</p><p>Our Freepost address insures you for up to £50, should your return exceed this, please increase the insurance, should you wish, at your cost.</p>"
+          }
+        },
+        "faq_TFhBDH": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "Are HELIOCARE products suitable to use during pregnancy?",
+            "answer": "<p>There are no known risks of using HELIOCARE products during pregnancy and breastfeeding. However, HELIOCARE products are not tested on pregnant and breastfeeding women and for this reason, we would advise you to consult a health or skincare professional before use.</p>"
+          }
+        },
+        "faq_NUVkTV": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "What age can you use topical HELIOCARE and HELIOCARE capsules from?",
+            "answer": "<p>HELIOCARE topical products can be used on infants from the age of 3. However there are HELIOCARE paediatric products which have been specially formulated for use on children from the age of 6 months. Although our guidance is that babies and young children should not be exposed to direct sun. </p><p>From the age of 3 children's skin starts to become less fragile. If you wanted to move onto the other HELIOCARE topical products at this stage, you could do so. Generally, we recommend that you continue to use the paediatric products until the cosmetic feel and look of the products becomes important to your child, and where this may affect their use of the products.</p><p>HELIOCARE capsules can be used by children from the age of 4 upwards.</p>"
+          }
+        },
+        "faq_KH9nQj": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "Are HELIOCARE products vegan?",
+            "answer": "<p>HELIOCARE and HELIOCARE 360° topical & oral products do not contain any animal derived components and therefore are classed as vegan friendly.</p>"
+          }
+        },
+        "faq_PFqDY7": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "Are HELIOCARE products tested on animals?",
+            "answer": "<p>Cantabria Labs, Spain, the manufacturers of HELIOCARE, are dedicated to improving the health and lives of people worldwide, bringing them products that meet rigorous safety standards so that their customers can use them with complete confidence. Cantabria Labs do not test their cosmetics on animals and they never request that third parties carry out such tests on their behalf. They are fully compliant with current European cosmetic product legislation prohibiting animal testing, both with respect to its end products and to the raw materials and ingredients used in its formulations.</p><p>Cantabria Labs asses the safety of their cosmetic products through the latest human volunteer in-vivo methods and laboratory based in-vitro studies.</p><p>Cantabria Labs manufacture their products in Europe and their latest sustainable production and R&D facility in the north of Spain focuses on maximizing the recyclability of materials and will use geothermal energy and renewable sources for its energy needs.</p>"
+          }
+        },
+        "faq_LtbkHc": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "What's the difference between the different oral capsules?",
+            "answer": "<p>Each HELIOCARE 360° skin supplement is designed with unique benefits in mind - targeting different skin concerns such as aging, pigmentation, or daily sun defence. While they all contain <a href=\"/blogs/skincare-guides/6-benefits-of-fernblock\" title=\"6 Benefits of Fernblock®\"><strong>Fernblock®</strong></a> for powerful antioxidant and photoprotective support, they vary in their additional ingredients to suit specific skin needs.</p><p>To find out which supplement is right for your skin type and lifestyle, check out our detailed guide here: <a href=\"/blogs/expert-advice/which-heliocare-360-skin-supplements-are-right-for-me\" title=\"Which HELIOCARE 360° skin supplements are right for me?\"><strong>Which HELIOCARE 360° Skin Supplements Are Right For Me?</strong></a><br/><br/></p>"
+          }
+        },
+        "faq_Ve7DDR": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "Are HELIOCARE products reef friendly?",
+            "answer": "<p>There is growing scientific evidence that certain UV filters, specifically octinoxate and oxybenzone, may have harmful effects on coral reefs and marine ecosystems. In response to these environmental concerns, several countries have implemented bans on sunscreens containing these ingredients.</p><p>All HELIOCARE products are completely free from both octinoxate and oxybenzone. Cantabria Labs is deeply committed to environmental responsibility and the protection of marine life.﻿</p><p>The company actively follows the latest scientific research and international regulatory developments concerning the ecological impact of sunscreen ingredients. As part of this commitment, Cantabria Labs ensures that its formulations not only meet current environmental standards but are also promptly updated to reflect new findings and regulations aimed at preserving the health of our oceans.</p>"
+          }
+        },
+        "faq_rtwWN9": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "How much HELIOCARE sunscreen should I apply?",
+            "answer": "<p>For effective protection, apply at least a teaspoon (5ml) of sunscreen to your face and neck - roughly the amount of 2 fingers lengths, and about 2 tablespoons (30ml) for your entire body.</p><p>Be sure to apply it 30 minutes before sun exposure and reapply every 2 hours, or more often if you’re swimming or sweating.</p><p>Don’t forget easily missed spots like ears, the back of the neck, and the tops of feet and hands. Consistent and generous application is key to maintaining proper protection.<br/></p>"
+          }
+        },
+        "faq_XcHL69": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "Do HELIOCARE products contain physical or mineral filters?",
+            "answer": "<p>The majority of HELIOCARE products, with the exception of <a href=\"/products/heliocare-360-mineral-tolerance-fluid\" title=\"HELIOCARE 360° Mineral Tolerance Fluid SPF50\"><strong>HELIOCARE 360° Mineral Tolerance Fluid</strong></a> & <a href=\"/products/heliocare-360-pediatrics-mineral\" title=\"HELIOCARE 360° Pediatrics Mineral SPF50+\"><strong>HELIOCARE 360° Pediatrics Mineral Fluid</strong></a>, contain a combination of mineral and non-mineral filters. This allows the highest level of protection in a combination of product textures to ensure that everyone can find a HELIOCARE product that suits their skin perfectly, and that they love to use every morning.</p>"
+          }
+        },
+        "faq_dbL7Rx": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "What's the star rating of HELIOCARE products?",
+            "answer": "<p>HELIOCARE products are not tested against the Boots Star Rating, which although used in the UK, has not been adopted as a major international standard.</p><p>It has, however, been recognised that consumers need a clearer way of establishing the level of UVA protection that they get from products, which is why the latest HELIOCARE range (HELIOCARE 360°) and any future developments are given a PA + rating, which is an internationally recognised standard. In addition, Cantabria Labs have started to feature the UVA circle logo in any new products, which signifies that the sunscreen offers at least one-third of its SPF rating as UVA protection - a key requirement under EU recommendations. This ensures that you’re getting broad-spectrum coverage against both UVB (which causes burning) and UVA (which contributes to skin aging and long-term damage). This inclusion will roll out into existing products throughout 2026.</p>"
+          }
+        },
+        "faq_jfg33R": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "Do you offer samples to try before you buy?",
+            "answer": "<p>Yes, we’d be happy to provide samples where available and help you find the best HELIOCARE SPF for your skin type and condition. Our team can guide you to the most suitable HELIOCARE product - whether you have sensitive skin, pigmentation concerns, or other specific needs.</p><p>Just get in touch with us, and we’ll be happy to assist!<br/></p>"
+          }
+        },
+        "faq_aMdKEP": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "What skin tones are the coloured/tinted products suitable for?",
+            "answer": "<p>Our coloured HELIOCARE products are currently best suited for lighter skin tones, typically those in the Fitzpatrick Skin Types I to III range. These formulations offer natural-looking coverage and protection for fair to medium skin tones.</p><p>We understand the importance of inclusivity and are actively working with our product development team to expand the tinted range to better serve Fitzpatrick Types IV to VI. In the meantime, our non-tinted HELIOCARE 360° products offer the same high-level protection and are suitable for all skin types and tones.</p><p>If you’re unsure which product is best for your skin, our team is always happy to help you find the right match.</p>"
           }
         }
       },
@@ -83,7 +187,20 @@
         "faq_zfKarY",
         "faq_DNWqRV",
         "faq_rccNGW",
-        "faq_iyh8Ud"
+        "faq_iyh8Ud",
+        "faq_cJUKrf",
+        "faq_HEeFd7",
+        "faq_TFhBDH",
+        "faq_NUVkTV",
+        "faq_KH9nQj",
+        "faq_PFqDY7",
+        "faq_LtbkHc",
+        "faq_Ve7DDR",
+        "faq_rtwWN9",
+        "faq_XcHL69",
+        "faq_dbL7Rx",
+        "faq_jfg33R",
+        "faq_aMdKEP"
       ],
       "name": "Grouped FAQs",
       "settings": {
