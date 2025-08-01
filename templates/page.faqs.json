@@ -168,7 +168,7 @@
           "settings": {
             "group_title": "HELIOCARE",
             "title": "Do you offer samples to try before you buy?",
-            "answer": "<p>Yes, we’d be happy to provide samples where available and help you find the best HELIOCARE SPF for your skin type and condition. Our team can guide you to the most suitable HELIOCARE product - whether you have sensitive skin, pigmentation concerns, or other specific needs.</p><p>Just get in touch with us, and we’ll be happy to assist!<br/></p>"
+            "answer": "<p>Yes, we’d be happy to provide samples where available and help you find the best HELIOCARE SPF for your skin type and condition. Our team can guide you to the most suitable HELIOCARE product - whether you have sensitive skin, pigmentation concerns, or other specific needs.</p><p>Just <a href=\"/pages/contact\" title=\"Contact\"><strong>get in touch with us</strong></a>, and we’ll be happy to assist!<br/></p>"
           }
         },
         "faq_aMdKEP": {
@@ -177,6 +177,70 @@
             "group_title": "HELIOCARE",
             "title": "What skin tones are the coloured/tinted products suitable for?",
             "answer": "<p>Our coloured HELIOCARE products are currently best suited for lighter skin tones, typically those in the Fitzpatrick Skin Types I to III range. These formulations offer natural-looking coverage and protection for fair to medium skin tones.</p><p>We understand the importance of inclusivity and are actively working with our product development team to expand the tinted range to better serve Fitzpatrick Types IV to VI. In the meantime, our non-tinted HELIOCARE 360° products offer the same high-level protection and are suitable for all skin types and tones.</p><p>If you’re unsure which product is best for your skin, our team is always happy to help you find the right match.</p>"
+          }
+        },
+        "faq_ffirHL": {
+          "type": "faq",
+          "settings": {
+            "group_title": "BIRETIX",
+            "title": "Can BIRETIX products be used during pregnancy?",
+            "answer": "<p>We recommend speaking with your healthcare provider before using BIRETIX products during pregnancy.</p><p>Some BIRETIX formulations contain active ingredients such as retinoids (like <a href=\"/blogs/expert-advice/retinsphere-technology\" title=\"RetinSphere® Technology\"><strong>RetinSphere® Technology</strong></a>) or salicylic acid, which are not generally recommended during pregnancy or breastfeeding. However, not all products in the BIRETIX range contain these ingredients, and some may be suitable depending on your individual skin needs and medical guidance.</p><p>If you’re pregnant or breastfeeding and looking for safe ways to manage blemish-prone skin, our team is happy to help you identify suitable options and alternatives - just <a href=\"/pages/contact\" title=\"Contact\"><strong>get in touch</strong></a>!</p>"
+          }
+        },
+        "faq_47WmUX": {
+          "type": "faq",
+          "settings": {
+            "group_title": "BIRETIX",
+            "title": "Are BIRETIX products tested on animals?",
+            "answer": "<p>Cantabria Labs, Spain, the manufacturers of BIRETIX, are dedicated to improving the health and lives of people worldwide, bringing them products that meet rigorous safety standards so that their customers can use them with complete confidence. Cantabria Labs do not test their cosmetics on animals and they never request that third parties carry out such tests on their behalf. They are fully compliant with current European cosmetic product legislation prohibiting animal testing, both with respect to its end products and to the raw materials and ingredients used in its formulations.</p><p>Cantabria Labs asses the safety of their cosmetic products through the latest human volunteer in-vivo methods and laboratory based in-vitro studies.</p><p>Cantabria Labs manufacture their products in Europe and their latest sustainable production and R&D facility in the north of Spain focuses on maximizing the recyclability of materials and will use geothermal energy and renewable sources for its energy needs.</p>"
+          }
+        },
+        "faq_rYDfdn": {
+          "type": "faq",
+          "settings": {
+            "group_title": "BIRETIX",
+            "title": "Can I use BIRETIX on sensitive skin?",
+            "answer": "<p>Yes, some BIRETIX products can be suitable for sensitive skin  - especially when used with the right support products like <a href=\"/products/biretix-isorepair\" title=\"BIRETIX Isorepair\"><strong>BIRETIX Isorepair</strong></a>.</p><p>The BIRETIX range is designed to target blemish-prone skin with advanced technologies such as <a href=\"/blogs/expert-advice/retinsphere-technology\" title=\"RetinSphere® Technology\"><strong>RetinSphere®</strong></a> and <a href=\"/blogs/expert-advice/biopep-15\" title=\"BIOPEP-15\"><strong>BIOPEP-15</strong></a>, but certain formulations may include active ingredients like exfoliating acids or retinoid-like complexes, which can be intense for very sensitive or reactive skin.</p><p>To help protect and soothe sensitive skin, we recommend incorporating BIRETIX Isorepair - a nourishing, reparative moisturiser specifically formulated to support skin undergoing treatment. It helps to restore the skin barrier, reduce dryness, and improve comfort without clogging pores.</p><p>If you have sensitive skin:</p><ul><li>Start BIRETIX treatments slowly (e.g., every other day)</li><li>Perform a patch test before full use</li><li>Pair with BIRETIX Isorepair to maintain hydration and minimise irritation</li><li>If you're unsure which products are best for your skin type, our team is always happy to advise.</li></ul>"
+          }
+        },
+        "faq_g3kx4k": {
+          "type": "faq",
+          "settings": {
+            "group_title": "BIRETIX",
+            "title": "Can BIRETIX products be used alongside acne medication?",
+            "answer": "<p>Yes, BIRETIX products can be used in combination with medical prescription treatments. BIRETIX products provide at home regimes for safe and effective use as a standalone treatment regime or for safe use in combination with medical prescription treatments.</p>"
+          }
+        },
+        "faq_4yzXTR": {
+          "type": "faq",
+          "settings": {
+            "group_title": "BIRETIX",
+            "title": "Are BIRETIX products vegan?",
+            "answer": "<p>The following BIRETIX products are not suitable for vegans:</p><ul><li><a href=\"/products/biretix-cleanser\" title=\"BIRETIX Cleanser\"><strong>Cleanser</strong></a> – contains propolis extract</li><li><a href=\"/products/biretix-duo\" title=\"BIRETIX Duo Anti-Blemish Gel\"><strong>Duo</strong></a> –  contains honey extract</li><li><a href=\"/products/biretix-tri-active-anti-blemish-gel\" title=\"BIRETIX Tri-Active Anti-Blemish Gel\"><strong>Tri-Active Gel</strong></a> – contains honey extract</li><li><a href=\"/products/biretix-tri-active-spray\" title=\"BIRETIX Tri-Active Spray\"><strong>Tri-Active Spray</strong></a> – contain honey extract</li></ul>"
+          }
+        },
+        "faq_zHJfra": {
+          "type": "faq",
+          "settings": {
+            "group_title": "BIRETIX",
+            "title": "What age can you use BIRETIX from?",
+            "answer": "<p>All BIRETIX formulations have been dermatologically tested and are suitable for use in children over 10 years old. However, it’s important to consider whether the child has entered puberty, as the skin's needs and response to active ingredients can vary depending on their stage of development. Some children may experience early changes, while others may not show signs until later.</p><p>If you’re unsure whether BIRETIX is appropriate for your child’s skin, we recommend consulting a healthcare professional or contacting our team for personalised advice.</p>"
+          }
+        },
+        "faq_RFynrH": {
+          "type": "faq",
+          "settings": {
+            "group_title": "BIRETIX",
+            "title": "Can you use BIRETIX on broken skin?",
+            "answer": "<p>No, we do not recommend applying BIRETIX products to broken, irritated, or compromised skin.</p><p>Many BIRETIX formulas contain active ingredients such as exfoliating acids or retinoid-like technologies that may cause stinging, discomfort, or further irritation if applied to areas where the skin barrier is damaged (e.g., open blemishes, cuts, or raw skin).</p><p>If your skin is broken or healing, it’s best to allow it time to recover first. In the meantime, you can support skin repair with a soothing and restorative product like <a href=\"/products/biretix-isorepair\" title=\"BIRETIX Isorepair\"><strong>BIRETIX Isorepair</strong></a>, which is specially formulated to hydrate, calm, and help restore the skin barrier.</p>"
+          }
+        },
+        "faq_QGci9X": {
+          "type": "faq",
+          "settings": {
+            "group_title": "BIRETIX",
+            "title": "Do you need to wear SPF when using BIRETIX products?",
+            "answer": "<p>Yes - wearing SPF is an absolute must when using BIRETIX products.</p><p>Many BIRETIX formulations contain active ingredients such as retinoid-like technologies and exfoliating acids that can make your skin more sensitive to the sun. Without proper protection, your skin may be more prone to irritation, redness, and sun damage - even on cloudy days.</p><p>To keep your skin healthy and protected, we highly recommend incorporating a high-level, broad-spectrum SPF into your daily routine, even if you're indoors.</p><p>For a complete and balanced skincare solution, we suggest the <a href=\"https://cantabrialabs.co.uk/products/biretix-regime?variant=50816335380808\" title=\"BIRETIX Anti-Blemish Treat & Protect Regime\"><strong>BIRETIX Anti-Blemish Treat & Protect Regime</strong></a>. This curated set includes everything you need to manage blemish-prone skin while keeping it soothed, hydrated, and protected, including the <a href=\"/products/heliocare-360-gel-oil-free\" title=\"HELIOCARE 360° Gel Oil-Free SPF50\"><strong>HELIOCARE 360° Gel Oil-Free</strong></a>, an SPF designed specifically for breakout-prone skin.</p>"
           }
         }
       },
@@ -200,7 +264,15 @@
         "faq_XcHL69",
         "faq_dbL7Rx",
         "faq_jfg33R",
-        "faq_aMdKEP"
+        "faq_aMdKEP",
+        "faq_ffirHL",
+        "faq_47WmUX",
+        "faq_rYDfdn",
+        "faq_g3kx4k",
+        "faq_4yzXTR",
+        "faq_zHJfra",
+        "faq_RFynrH",
+        "faq_QGci9X"
       ],
       "name": "Grouped FAQs",
       "settings": {
