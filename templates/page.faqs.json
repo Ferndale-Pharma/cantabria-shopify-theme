@@ -266,6 +266,70 @@
             "title": "Can I use ENDOCARE vitamin C products alongside other vitamin C products in my routine?",
             "answer": "<p>We don’t recommend layering multiple vitamin C products in the same routine, as it can increase the risk of irritation without providing added benefit.</p><p>ENDOCARE vitamin C products are formulated with clinically effective concentrations of stabilised vitamin C, often combined with other powerful ingredients like ferulic acid or hyaluronic acid, to deliver targeted antioxidant protection and skin-brightening benefits. Using additional vitamin C products at the same time may overload the skin, especially if you have sensitive or reactive skin.<br/><br/></p>"
           }
+        },
+        "faq_zFgbmi": {
+          "type": "faq",
+          "settings": {
+            "group_title": "NEORETIN",
+            "title": "Can I use NEORETIN products whilst pregnant?",
+            "answer": "<p>Some NEORETIN products are not recommended during pregnancy, while others may be suitable but we always advise consulting your healthcare provider before use.</p><p>Many NEORETIN formulations contain active ingredients like <a href=\"/blogs/expert-advice/retinsphere-technology\" title=\"RetinSphere® Technology\"><strong>RetinSphere® Technology</strong></a> (retinoids), glycolic acid, and salicylic acid, which are commonly advised against during pregnancy.</p><p>If you’re pregnant or breastfeeding and looking to manage pigmentation or uneven tone, we’re happy to help you find safe and effective alternatives.</p>"
+          }
+        },
+        "faq_8kq36q": {
+          "type": "faq",
+          "settings": {
+            "group_title": "NEORETIN",
+            "title": "Are NEORETIN products vegan?",
+            "answer": "<p>NEORETIN products are not certified vegan and may contain animal-derived ingredients.</p>"
+          }
+        },
+        "faq_HdErVh": {
+          "type": "faq",
+          "settings": {
+            "group_title": "NEORETIN",
+            "title": "Will NEORETIN products help with hormonal pigmentation?",
+            "answer": "<p>The NEORETIN range is designed to target uneven skin tone and hyperpigmentation and can be particularly effective for hormonal pigmentation when used consistently and in combination with broad-spectrum SPF protection.</p>"
+          }
+        },
+        "faq_hNciyj": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Loyalty Rewards",
+            "title": "How many reward points do I earn for each order?",
+            "answer": "<p>You will earn 10 points for every £1 you spend. On every product page you can see how many points you will earn for each purchase of one product.</p>"
+          }
+        },
+        "faq_8FWYpX": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Loyalty Rewards",
+            "title": "How do I redeem my points?",
+            "answer": "<p>You can redeem your points in your account or by clicking on the blue icon \"Loyalty Rewards\" in the bottom right of your screen. Click \"Redeem\" on the discount reward that you wish to redeem and then \"Apply discount now\".</p>"
+          }
+        },
+        "faq_T3Gfnh": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Loyalty Rewards",
+            "title": "How do I refer my friend?",
+            "answer": "<p>You can find the refer your friend link in your account or by clicking on the blue icon \"Loyalty Rewards\" in the bottom right of your screen. Simply copy your referral link and send it to your friend; they will receive 10% off their first order. Once they have placed an order, you will receive 500 points.<br/></p>"
+          }
+        },
+        "faq_DBBJjC": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Loyalty Rewards",
+            "title": "I redeemed the wrong discount reward, can I refund my points?",
+            "answer": "<p>Yes, if you click on the blue icon \"Loyalty Rewards\" in the bottom right of your screen and go to \"My discounts\", you can click \"Refund\" on the reward that you don't want.</p>"
+          }
+        },
+        "faq_F9fhjH": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Loyalty Rewards",
+            "title": "Why haven't I received my reward points after referring my friend?",
+            "answer": "<p>There could a number of reasons why you haven't received your reward points yet: they may not have placed an order yet, they may not have used your referral link or there may have been a technical issue with the website. If you think you should have received reward points, please contact our Customer Service team customerservice@ferndalepharma.co.uk and provide any helpful information such as email addresses, order details etc.</p>"
+          }
         }
       },
       "block_order": [
@@ -299,7 +363,15 @@
         "faq_QGci9X",
         "faq_rJrBgg",
         "faq_G8yXjG",
-        "faq_RwEzxe"
+        "faq_RwEzxe",
+        "faq_zFgbmi",
+        "faq_8kq36q",
+        "faq_HdErVh",
+        "faq_hNciyj",
+        "faq_8FWYpX",
+        "faq_T3Gfnh",
+        "faq_DBBJjC",
+        "faq_F9fhjH"
       ],
       "name": "Grouped FAQs",
       "settings": {
