@@ -1,9 +1,3 @@
-{% comment %}
-  Grouped FAQ Section with Search
-  - Supports multiple groups of FAQs
-  - Filter by question and answer
-  - Hides groups without matches
-{% endcomment %}
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -16,14 +10,82 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-    .faq-search-input {
+  .faq-search-input {
     padding: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
+    margin-top: 16px;
     width: 100%;
     max-width: 600px;
     font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 2px solid #165c7d;
+    border-radius: 4px;
+    box-shadow: 0 0 0 0 transparent;
+    transition: box-shadow 0.2s ease;
+  }
+
+  .faq-search-input:focus, .faq-nav-select:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px #165c7d;
+  }
+
+  .faq-nav {
+    position: relative;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    scroll-padding-left: 1rem;
+    margin-bottom: 32px;
+  }
+  
+  .faq-nav-list {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .faq-nav-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #121212;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s ease;
+    white-space: nowrap;
+    border: 2px solid;
+    width: 120px;
+    text-align: center;
+    box-shadow: 0 0 0 0 transparent;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .faq-nav-link:hover,
+  .faq-nav-link:focus {
+    box-shadow: 0 0 0 1px #121212;
+  }
+  .faq-nav-wrapper {
+    margin-bottom: 64px;
+  }
+  
+  .faq-nav-select {
+      display: block;
+      width: 100%;
+      max-width: 400px;
+      margin: 16px auto 32px auto;
+      padding: 10px;
+      font-size: 14px;
+      border: 2px solid #121212;
+      border-radius: 4px;
+      color: #121212;
+    }
+
+  @media screen and (min-width: 750px) {
+    .faq-nav-list {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 
   .faq-group {
@@ -40,32 +102,34 @@
     margin-bottom: 3rem;
   }
 
-  .faq-item {
-    margin-bottom: 10px;
-  }
+
 
   .faq-question {
     width: 100%;
     text-align: left;
-    padding: 15px;
-    background: #f3f3f3;
+    padding: 1.5rem 0.5rem;
     border: none;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 4px;
-    color: #165c7d;
+    color: #121212;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    border-bottom: 1px solid #e5e7eb;
+    transition: background 0.2s ease ;
   }
 
   .faq-question[aria-expanded="true"] {
-    background: #e0e0e0;
+    background: rgba(22,92,125,0.04);
+    border-bottom: none;
+  }
+  .faq-question:hover {
+    background: rgba(22,92,125,0.04);
   }
 
   .faq-question svg {
     transition: transform 0.2s ease;
+    stroke: #165c7d;
   }
   
   .faq-chevron svg.hidden {
@@ -73,8 +137,7 @@
   }
 
   .faq-answer {
-    padding: 10px 15px;
-    background: #fafafa;
+    padding: 0.5rem;
     display: none;
   }
 
@@ -98,8 +161,9 @@
     margin-bottom: 1rem;
   }
 {%- endstyle -%}
-<section class="faq-section page-width section-{{ section.id }}-padding"">
+<section class="faq-section page-width section-{{ section.id }}-padding">
   <div class="center">
+    <h2>Search</h2>
     <input type="text" id="faq-search" placeholder="Search FAQs..." class="faq-search-input">
   </div>
 
@@ -112,40 +176,89 @@
   {% endfor %}
 
   {% assign group_array = groups | split: "||" | uniq %}
+  <p class="center">Go to the relevant FAQ section:</p>
+  <div class="faq-nav-wrapper">
+    <select class="faq-nav-select" aria-label="Select FAQ section">
+      <option value="">Choose section...</option>
+      {% for group in group_array %}
+        {% if group != "" %}
+          <option value="#faq-{{ group | handle }}">{{ group }}</option>
+        {% endif %}
+      {% endfor %}
+    </select>
+  </div>
+
 
   {% for group in group_array %}
     {% if group != "" %}
-      <div class="faq-group" data-group="{{ group }}">
-        <h2 class="faq-group-title">{{ group }}</h2>
+      <section class="faq-group" data-group="{{ group }}">
+        <h2 class="faq-group-title" id="faq-{{ group | handle }}">{{ group }}</h2>
 
         {% for block in section.blocks %}
           {% if block.settings.group_title == group %}
             <div class="faq-item"
-                 data-question="{{ block.settings.question | escape }}"
-                 data-answer="{{ block.settings.answer | render | strip_html | escape }}">
-              <button class="faq-question" aria-expanded="false">
-                <span class="faq-question-text">{{ block.settings.question }}</span>
-                <span class="faq-chevron" aria-hidden="true">
-                  <!-- Down chevron (default) -->
-                  <svg class="chevron-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="M1.5 5.5l6.5 6.5 6.5-6.5"/>
-                  </svg>
-                  <!-- Up chevron (hidden by default) -->
-                  <svg class="chevron-up hidden" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                    <path d="M1.5 10.5l6.5-6.5 6.5 6.5"/>
-                  </svg>
-                </span>
-              </button>
-
-              <div class="faq-answer hidden">
-                {{ block.settings.answer | render }}
+               data-question="{{ block.settings.title | escape }}"
+               data-answer="{{ block.settings.answer | strip_html | escape }}">
+          
+              <h3 class="faq-question-wrapper">
+                <button
+                  class="faq-question"
+                  aria-expanded="false"
+                  aria-controls="faq-answer-{{ block.id }}"
+                  id="faq-question-{{ block.id }}"
+                >
+                  <span class="faq-question-text">{{ block.settings.title }}</span>
+                  <span class="faq-chevron" aria-hidden="true">
+                    <!-- Down chevron -->
+                    <svg class="chevron-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                      <path d="M6 9l6 6 6-6"/>
+                    </svg>
+                    <!-- Up chevron -->
+                    <svg class="chevron-up hidden" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                      <path d="M6 15l6-6 6 6"/>
+                    </svg>
+                  </span>
+                </button>
+              </h3>
+          
+              <div
+                class="faq-answer hidden"
+                id="faq-answer-{{ block.id }}"
+                role="region"
+                aria-labelledby="faq-question-{{ block.id }}"
+              >
+                {{ block.settings.answer }}
               </div>
             </div>
           {% endif %}
         {% endfor %}
-      </div>
+      </section>
     {% endif %}
   {% endfor %}
+  {% assign faq_json = "" %}
+  {% for block in section.blocks %}
+    {% assign question = block.settings.title | strip %}
+    {% assign answer = block.settings.answer | strip_html | strip_newlines | escape %}
+    {% capture faq_json %}
+      {{ faq_json }},
+      {
+        "@type": "Question",
+        "name": {{ question | json }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ answer | json }}
+        }
+      }
+    {% endcapture %}
+  {% endfor %}
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{{ faq_json | remove_first: "," }}]
+  }
+  </script>
 </section>
 
 <script>
@@ -154,19 +267,22 @@
     const searchInput = document.getElementById("faq-search");
     const faqGroups = document.querySelectorAll(".faq-group");
 
-    // Accordion toggle with chevron switching
     faqQuestions.forEach(button => {
       button.addEventListener("click", () => {
-        const expanded = button.getAttribute("aria-expanded") === "true";
-        button.setAttribute("aria-expanded", !expanded);
+        const isExpanded = button.getAttribute("aria-expanded") === "true";
+        const answerId = button.getAttribute("aria-controls");
+        const answerEl = document.getElementById(answerId);
 
-        const answer = button.nextElementSibling;
-        answer.classList.toggle("hidden", expanded);
-        answer.classList.toggle("visible", !expanded);
+        // Toggle aria state
+        button.setAttribute("aria-expanded", !isExpanded);
+        answerEl.classList.toggle("hidden", isExpanded);
+        answerEl.classList.toggle("visible", !isExpanded);
 
+        // Toggle chevrons
         const chevronDown = button.querySelector(".chevron-down");
         const chevronUp = button.querySelector(".chevron-up");
-        if (!expanded) {
+
+        if (!isExpanded) {
           chevronDown.classList.add("hidden");
           chevronUp.classList.remove("hidden");
         } else {
@@ -176,7 +292,7 @@
       });
     });
 
-    // Search filtering logic
+    // Search filtering (unchanged)
     searchInput.addEventListener("input", () => {
       const query = searchInput.value.toLowerCase();
 
@@ -196,6 +312,26 @@
         group.style.display = hasVisibleItem ? "block" : "none";
       });
     });
+
+    const faqSelect = document.querySelector(".faq-nav-select");
+    if (faqSelect) {
+      faqSelect.addEventListener("change", function () {
+        const targetId = this.value;
+        if (targetId) {
+          const target = document.querySelector(targetId);
+          if (target) {
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        }
+      });
+    }
+
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const nav = document.querySelector(".faq-nav");
+    if (nav) nav.scrollLeft = 0;
   });
 </script>
 
@@ -237,7 +373,7 @@
         },
         {
           "type": "text",
-          "id": "question",
+          "id": "title",
           "label": "Question",
           "default": "How long does delivery take?"
         },
@@ -245,7 +381,7 @@
           "type": "richtext",
           "id": "answer",
           "label": "Answer",
-          "default": "<p>Delivery typically takes 3–5 business days depending on your location.</p>"
+          "default": "<p>Delivery typically takes 3–5 business days depending on your location</p>"
         }
       ]
     }
