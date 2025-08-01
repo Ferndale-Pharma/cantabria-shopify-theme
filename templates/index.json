@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "UV Awareness Month Sale",
+            "heading": "Dermatological expertise, proven results",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Enjoy 20% off selected HELIOCARE 360° products throughout UV Awareness Month. <a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\"><em>Terms & Conditions apply.</em></a>",
+            "text": "Welcome to Cantabria Labs, the home of dermatological skincare expertly researched and developed to deliver proven results.",
             "text_style": "subtitle"
           }
         },
@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now",
-            "button_link_1": "shopify://collections/promotions",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -47,7 +47,7 @@
         ".banner__text.caption-with-letter-spacing {text-transform: inherit;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00070_V2_CantabriaLabs_HomepageBanner_UVAwareness20OFF_2560x960_Jul25.jpg",
+        "image": "shopify://shop_images/CL-WEB_-_Banner_-_Homepage.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
