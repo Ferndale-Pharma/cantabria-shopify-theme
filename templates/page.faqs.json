@@ -23,40 +23,13 @@
           "type": "faq",
           "settings": {
             "group_title": "Delivery",
-            "question": "When will I receive my order?",
-            "answer": "<p>Next day!</p>"
-          }
-        },
-        "faq_xwww7z": {
-          "type": "faq",
-          "settings": {
-            "group_title": "Delivery",
-            "question": "I've ordered the wrong product",
-            "answer": "<p>Unlucky!</p>"
-          }
-        },
-        "faq_LiHPKV": {
-          "type": "faq",
-          "settings": {
-            "group_title": "Returns",
-            "question": "Can I return my order?",
-            "answer": "<p>Yes, please follow these steps:</p><ul><li>Please contact us by sending an email to customerservice@ferndalepharma.co.uk. You need to state your order reference number from your email acknowledgment, the products you want to return, as well as your name and the reason for returning the goods.</li><li>We will email you back within 72 hours to authorise your return and provide you with our Freepost returns address via the Royal Mail.</li><li>Please include a note which states your name and order number (e.g. CL#99999) within the parcel.</li><li>Ensure that you re-package the parcel using strong packaging and ensure it is sealed securely to avoid damage during transit.</li><li>Please ensure that our address is clearly stated on the outer packaging.</li><li>Our returns address is:<br/>Freepost FERNDALE PHARMA<br/>LS23 7FX</li><li>Please ensure FERNDALE PHARMA is in capital letters</li><li>Request a proof of postage. Without this, you will be unable to make a claim, should your parcel go missing.</li><li>Our Freepost address insures you for up to £50, should your return exceed this, please increase the insurance should you wish at your cost.</li></ul>"
-          }
-        },
-        "faq_4fLAWV": {
-          "type": "faq",
-          "settings": {
-            "group_title": "HELIOCARE",
-            "question": "Is HELIOCARE vegan friendly?",
-            "answer": "<p>HELIOCARE and HELIOCARE 360˚ topical creams and gels do not contain any animal-derived components and therefore are classed as vegan friendly.</p>"
+            "title": "How long does delivery take?",
+            "answer": "<p>For GB customers, we endeavour to provide  a next working day delivery service for orders placed by 12:00pm on a working day Monday to Friday. For clarity, any orders placed on a Friday will be for Monday delivery.  During busy periods, your orders may sometimes take a little longer to process and may take up to 3-5 working days. If you are in the Scottish Highlands and Islands, the couriers we work with provide a 2-day delivery service from date of despatch. The delivery service to NI is normally  2-5 days. If you are ordering from the Channel Islands it will be at least a 2 day delivery service from the date of despatch.</p>"
           }
         }
       },
       "block_order": [
-        "faq_QR4G7i",
-        "faq_xwww7z",
-        "faq_LiHPKV",
-        "faq_4fLAWV"
+        "faq_QR4G7i"
       ],
       "name": "Grouped FAQs",
       "settings": {
