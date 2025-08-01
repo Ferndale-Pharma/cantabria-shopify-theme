@@ -26,10 +26,64 @@
             "title": "How long does delivery take?",
             "answer": "<p>For GB customers, we endeavour to provide  a next working day delivery service for orders placed by 12:00pm on a working day Monday to Friday. For clarity, any orders placed on a Friday will be for Monday delivery.  During busy periods, your orders may sometimes take a little longer to process and may take up to 3-5 working days. If you are in the Scottish Highlands and Islands, the couriers we work with provide a 2-day delivery service from date of despatch. The delivery service to NI is normally  2-5 days. If you are ordering from the Channel Islands it will be at least a 2 day delivery service from the date of despatch.</p>"
           }
+        },
+        "faq_jdQYpL": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Delivery",
+            "title": "Which countries do you deliver to?",
+            "answer": "<p>Great Britain, Northern Ireland and Channel Islands.</p>"
+          }
+        },
+        "faq_9GDDPm": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Delivery",
+            "title": "Do you offer free delivery?",
+            "answer": "<p>We offer free delivery in Great Britain (excluding Scottish Highlands & Islands) for orders over £20. For the other eligible countries and regions, we offer free delivery on orders over £150.</p>"
+          }
+        },
+        "faq_zfKarY": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Delivery",
+            "title": "Can I track my order?",
+            "answer": "<p>When your order is in transit you will receive a text and/or email from the courier. While DPD is our main courier, from time to time other couriers may be used, and not all send updates. If you have any questions about delivery, please email customerservice@ferndalepharma.co.uk.</p>"
+          }
+        },
+        "faq_DNWqRV": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Delivery",
+            "title": "Can I change my delivery address after placing an order?",
+            "answer": "<p>Please contact us as soon as possible via email customerservice@ferndalepharma.co.uk. If your order hasn’t been despatched yet, we may be able to change it.</p>"
+          }
+        },
+        "faq_rccNGW": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Returns",
+            "title": "Can I return my order?",
+            "answer": "<p>If for any reason you are not happy with your purchase, you may return any unopened and unused items to us within 14 days of receipt for a refund*, exchange or replacement. </p><p>*If you require a refund, we will refund the price paid by you for the goods (including the initial standard delivery charge, but not the additional cost of any premium delivery option that was chosen). <br/></p>"
+          }
+        },
+        "faq_iyh8Ud": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Returns",
+            "title": "How do I start a return?",
+            "answer": "<p>Please contact our Customer Service Team via email customerservice@ferndalepharma.co.uk with your order number. We'll provide return instructions or you can check the full returns process on our <a href=\"/policies/refund-policy\" title=\"Refund Policy\">Returns page</a>.</p>"
+          }
         }
       },
       "block_order": [
-        "faq_QR4G7i"
+        "faq_QR4G7i",
+        "faq_jdQYpL",
+        "faq_9GDDPm",
+        "faq_zfKarY",
+        "faq_DNWqRV",
+        "faq_rccNGW",
+        "faq_iyh8Ud"
       ],
       "name": "Grouped FAQs",
       "settings": {
