@@ -242,6 +242,30 @@
             "title": "Do you need to wear SPF when using BIRETIX products?",
             "answer": "<p>Yes - wearing SPF is an absolute must when using BIRETIX products.</p><p>Many BIRETIX formulations contain active ingredients such as retinoid-like technologies and exfoliating acids that can make your skin more sensitive to the sun. Without proper protection, your skin may be more prone to irritation, redness, and sun damage - even on cloudy days.</p><p>To keep your skin healthy and protected, we highly recommend incorporating a high-level, broad-spectrum SPF into your daily routine, even if you're indoors.</p><p>For a complete and balanced skincare solution, we suggest the <a href=\"https://cantabrialabs.co.uk/products/biretix-regime?variant=50816335380808\" title=\"BIRETIX Anti-Blemish Treat & Protect Regime\"><strong>BIRETIX Anti-Blemish Treat & Protect Regime</strong></a>. This curated set includes everything you need to manage blemish-prone skin while keeping it soothed, hydrated, and protected, including the <a href=\"/products/heliocare-360-gel-oil-free\" title=\"HELIOCARE 360° Gel Oil-Free SPF50\"><strong>HELIOCARE 360° Gel Oil-Free</strong></a>, an SPF designed specifically for breakout-prone skin.</p>"
           }
+        },
+        "faq_rJrBgg": {
+          "type": "faq",
+          "settings": {
+            "group_title": "ENDOCARE",
+            "title": "Can ENDOCARE products be used during pregnancy?",
+            "answer": "<p>We recommend speaking with your healthcare provider before using ENDOCARE products during pregnancy.</p><p>Some ENDOCARE formulations contain active ingredients such as retinoids or exfoliating acids, which may not be suitable during pregnancy - particularly those that influence skin cell turnover, like retinol. While not all ENDOCARE products contain these actives, it's important to assess each one individually.</p><p>If you need help choosing suitable products during pregnancy, our team is happy to assist.<br/><br/></p>"
+          }
+        },
+        "faq_G8yXjG": {
+          "type": "faq",
+          "settings": {
+            "group_title": "ENDOCARE",
+            "title": "Are ENDOCARE products vegan?",
+            "answer": "<p>No, ENDOCARE products are not considered vegan.</p><p>While some ENDOCARE formulations may not contain  animal-derived ingredients, some key ingredients such as SCA®), a growth factor complex derived from snail secretion -are not vegan-friendly.<br/><br/></p>"
+          }
+        },
+        "faq_RwEzxe": {
+          "type": "faq",
+          "settings": {
+            "group_title": "ENDOCARE",
+            "title": "Can I use ENDOCARE vitamin C products alongside other vitamin C products in my routine?",
+            "answer": "<p>We don’t recommend layering multiple vitamin C products in the same routine, as it can increase the risk of irritation without providing added benefit.</p><p>ENDOCARE vitamin C products are formulated with clinically effective concentrations of stabilised vitamin C, often combined with other powerful ingredients like ferulic acid or hyaluronic acid, to deliver targeted antioxidant protection and skin-brightening benefits. Using additional vitamin C products at the same time may overload the skin, especially if you have sensitive or reactive skin.<br/><br/></p>"
+          }
         }
       },
       "block_order": [
@@ -272,7 +296,10 @@
         "faq_4yzXTR",
         "faq_zHJfra",
         "faq_RFynrH",
-        "faq_QGci9X"
+        "faq_QGci9X",
+        "faq_rJrBgg",
+        "faq_G8yXjG",
+        "faq_RwEzxe"
       ],
       "name": "Grouped FAQs",
       "settings": {
