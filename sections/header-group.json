@@ -16,9 +16,8 @@
       "blocks": {
         "announcement_dP3e9T": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "See the Latest Promotions for Fantastic Summer Offers!",
+            "text": "Protect Your Little Ones with HELIOCARE 360° - Now 20% Off Pediatrics Range!",
             "link": "shopify://collections/promotions"
           }
         },

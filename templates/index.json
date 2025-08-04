@@ -43,6 +43,7 @@
         "text",
         "buttons_JLFrH9"
       ],
+      "disabled": true,
       "custom_css": [
         ".banner__text.caption-with-letter-spacing {text-transform: inherit;}"
       ],
@@ -67,14 +68,14 @@
         "heading_aYcLWa": {
           "type": "heading",
           "settings": {
-            "heading": "Skin Cancer Awareness Month - May 2025",
+            "heading": "Protect Your Little Ones with HELIOCARE 360° - Now 20% Off!",
             "heading_size": "h1"
           }
         },
         "text_kyA6LM": {
           "type": "text",
           "settings": {
-            "text": "This Skin Cancer Awareness Month, get 20% off clinically-proven Heliocare 360° sun protection - includes the NEW ASPA-Fernblock® range!",
+            "text": "Gentle sun protection for delicate skin, trusted by parents and dermatologists alike",
             "text_style": "subtitle"
           }
         },
@@ -82,7 +83,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now",
-            "button_link_1": "shopify://collections/heliocare",
+            "button_link_1": "shopify://collections/promotions",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -95,9 +96,8 @@
         "text_kyA6LM",
         "buttons_RkjPdk"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00035_CantabriaLabs_HomepageBanner_HeliocareSwatches_2560x960_May25.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00106_CantabriaLabs_HomepageBanner_20OFFPediatricsPromo_2560x960_Jul25.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
