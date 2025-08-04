@@ -602,8 +602,8 @@
             "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_SensationCollection_Images_1569x1032_Jun25.jpg",
             "title": "HELIOCARE 360° Sensation Sunscreen",
             "text": "<p>Very high-level ultra-light protection for all skin types.</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Shop now",
+            "link": "shopify://products/heliocare-360-sensation"
           }
         },
         "column_tMz6zF": {
@@ -612,8 +612,8 @@
             "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_TintedCollection_Images_1569x1032_Jun25.jpg",
             "title": "HELIOCARE 360° Tinted Sunscreens",
             "text": "<p>Very high-level protection with skin perfecting coverage.</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Shop now",
+            "link": "shopify://collections/tinted-sunscreens"
           }
         },
         "column_HTfgMi": {
@@ -622,8 +622,8 @@
             "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_SpecialCareCollection_Images_1569x1032_Jun25.jpg",
             "title": "HELIOCARE 360° Special Care Sunscreens",
             "text": "<p>Very high-level protection for specific skin concerns.</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Shop now",
+            "link": "shopify://collections/special-care-sunscreen"
           }
         },
         "column_PCbzKa": {
@@ -632,8 +632,8 @@
             "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_CapsulesCollection_Images_1569x1032_Jul25.jpg",
             "title": "HELIOCARE 360° Oral Skin Supplements",
             "text": "<p>Enhance topical protection and support skin health from within.</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Shop now",
+            "link": "shopify://collections/skin-health-supplements"
           }
         },
         "column_t8jnT3": {
@@ -642,8 +642,8 @@
             "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_PediatricsCollection_Images_1569x1032_Jun25.jpg",
             "title": "HELIOCARE 360° Pediatrics Sunscreens",
             "text": "<p>Gentle, very high-level protection specifically designed for babies and children from 6 months old and over.</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Shop now",
+            "link": "shopify://collections/kids-sunscreen"
           }
         },
         "column_Jc4YeT": {
@@ -652,8 +652,8 @@
             "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_BodyCollection_Images_1569x1032_Jun25.jpg",
             "title": "HELIOCARE 360° Body Sunscreens",
             "text": "<p>Very high-level sun protection and even coverage for the whole body</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Shop now",
+            "link": "shopify://collections/sunscreen-for-body"
           }
         }
       },
@@ -676,8 +676,8 @@
         "columns_desktop": 6,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "View products",
-        "button_link": "shopify://collections/heliocare",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
