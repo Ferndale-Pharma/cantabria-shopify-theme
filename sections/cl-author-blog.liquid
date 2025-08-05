@@ -53,13 +53,14 @@ Articles in blog: {{ articles_in_blog }}</div>
     {%- endif -%}
     
     {%- for article in current_blog.articles -%}
-      {%- assign article_author_meta = article.metafields.blog_post.author -%}
-      {%- assign article_author = article_author_meta.value -%}
+      {%- assign article_author = article.metafields.blog_post.author.value -%}
+      {%- assign article_author_name = article.metafields.blog_post.author.value.name -%}
       
       {%- if section.settings.debug_mode and forloop.index <= 3 -%}
         <div class="debug-block">📄 Article {{ forloop.index }}: "{{ article.title }}"
-Metafield raw: {{ article_author_meta }}
-Metafield value: {{ article_author }}
+Metafield: {{ article.metafields.blog_post.author }}
+Author object: {{ article_author }}
+Author name: {{ article_author_name }}
 Author handle: {{ article_author.handle }}
 Author ID: {{ article_author.id }}
 Author system ID: {{ article_author.system.id }}</div>
@@ -98,7 +99,7 @@ Author system ID: {{ article_author.system.id }}</div>
           {%- endunless -%}
         {%- endif -%}
         
-        {%- assign article_author_display = article_author.name.value | default: article_author.name | default: article_author.title.value | default: article_author.title | default: article_author.handle -%}
+        {%- assign article_author_display = article.metafields.blog_post.author.value.name | default: article_author.name.value | default: article_author.name | default: article_author.title.value | default: article_author.title | default: article_author.handle -%}
         {%- if article_author_display == author_display -%}
           {%- assign name_match = true -%}
           {%- unless is_match -%}
