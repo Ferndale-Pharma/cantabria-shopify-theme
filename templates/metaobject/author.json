@@ -53,19 +53,27 @@
       "blocks": {
         "website_U4awFH": {
           "type": "website",
-          "settings": {}
+          "settings": {
+            "url": "{{ metaobject.website_link.value }}"
+          }
         },
         "instagram_rPCfqY": {
           "type": "instagram",
-          "settings": {}
+          "settings": {
+            "url": ""
+          }
         },
         "linkedin_hBTY7N": {
           "type": "linkedin",
-          "settings": {}
+          "settings": {
+            "url": ""
+          }
         },
         "facebook_9eeMXN": {
           "type": "facebook",
-          "settings": {}
+          "settings": {
+            "url": ""
+          }
         }
       },
       "block_order": [
