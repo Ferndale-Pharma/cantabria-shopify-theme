@@ -179,7 +179,7 @@
       "type": "cl-author-blog",
       "name": "CL Author Blog Grid",
       "settings": {
-        "source_blog": "skincare-guides",
+        "debug_mode": true,
         "layout": "collage",
         "show_image": true,
         "image_height": "medium",

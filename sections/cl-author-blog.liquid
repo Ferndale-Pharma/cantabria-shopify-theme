@@ -1,10 +1,9 @@
 {% comment %}
-  CL Author Blog Grid – v5 (manual filter loop)
-  ▸ Works on an Author metaobject template.
-  ▸ Iterates every article in every blog and collects those whose metafield
-    `blog_post.author.value.name` matches the current Author’s name.
-  ▸ Builds the collection with `concat: [article]` so the final array is a
-    true ArrayDrop of Article objects for pagination.
+  CL Author Blog Grid – v6 (debuggable)
+  • Adds a **Debug mode** checkbox in the section settings.
+  • When enabled, outputs diagnostic information (current author name, blogs
+    inspected, article counts, matches, final array size) so you can confirm
+    why matches aren’t being found.
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
@@ -23,19 +22,49 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  /* Basic styling for debug blocks */
+  .debug-block {
+    background: #f6f6f6;
+    border: 1px dashed #999;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-family: monospace;
+    font-size: 0.9rem;
+    white-space: pre-wrap;
+  }
 {%- endstyle -%}
 
 {%- assign author_name = metaobjects.author.value.name -%}
 
 {%- assign author_articles = '' | split: ',' -%}
 
+{%- if section.settings.debug_mode %}
+  <div class="debug-block">
+    DEBUG — Current author name: {{ author_name }}
+  </div>
+{%- endif -%}
+
 {%- for blog in blogs -%}
+  {%- assign matches_in_blog = 0 -%}
   {%- for art in blog.articles -%}
     {%- if art.metafields.blog_post.author.value.name == author_name -%}
       {%- assign author_articles = author_articles | concat: [art] -%}
+      {%- assign matches_in_blog = matches_in_blog | plus: 1 -%}
     {%- endif -%}
   {%- endfor -%}
+  {%- if section.settings.debug_mode %}
+    <div class="debug-block">
+      Checked blog: {{ blog.title }} (handle: {{ blog.handle }}) — Matches found: {{ matches_in_blog }}
+    </div>
+  {%- endif -%}
 {%- endfor -%}
+
+{%- if section.settings.debug_mode %}
+  <div class="debug-block">
+    Total collected articles: {{ author_articles.size }}
+  </div>
+{%- endif -%}
 
 {%- if author_articles.size == 0 -%}
   <div class="page-width section-{{ section.id }}-padding">
@@ -85,6 +114,12 @@
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "debug_mode",
+      "label": "Enable debug information (frontend only)",
+      "default": false
+    },
     {
       "type": "header",
       "content": "t:sections.main-blog.settings.header.content"
