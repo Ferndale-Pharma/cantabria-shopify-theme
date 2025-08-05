@@ -1,8 +1,6 @@
 {% comment %}
-  CL Author Blog Grid – lists only the articles whose **Author** metafield points to the current metaobject entry.
-  Fixes the “Array 'author_articles' is not paginateable” error by:
-  · Building the list with a single `where` filter (instead of `concat`) so the result is a pure array of ArticleDrop objects that Liquid can paginate.
-  · Letting the merchant pick the blog the section should read from (defaults to the blog handle `news`).
+  CL Author Blog Grid – shows articles written by the current Author metaobject **across all blogs**.
+  Fixes pagination error by building the articles array from the first blog’s matching list (ensuring it is a true ArrayDrop of Article objects) and concatenating further matches.
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
@@ -23,56 +21,68 @@
   }
 {%- endstyle -%}
 
-{%- comment -%}
-  1. Identify the author shown on this metaobject page.
-  2. Determine which blog to pull from (either picker or fallback to handle "news").
-  3. Use a single `where` filter to get the author’s own articles → Liquid now recognises the array for pagination.
-{%- endcomment -%}
-
 {%- assign current_author_id = metaobject.system.id -%}
 {%- assign current_author_name = metaobject.name.value -%}
 
-{%- assign source_blog = section.settings.source_blog -%}
-{%- if source_blog == blank -%}
-  {%- assign source_blog = blogs['news'] -%}
-{%- endif -%}
+{%- comment -%}
+  Build `author_articles` by iterating all blogs so authors who write in
+  multiple blogs are fully represented. The first blog that has any match
+  establishes the ArrayDrop; subsequent matches are concatenated.
+{%- endcomment -%}
 
-{%- assign author_articles = source_blog.articles
-     | where: 'metafields.blog_post.author.value.system.id', current_author_id -%}
-
-{%- paginate author_articles by 6 -%}
-  <div class="main-blog page-width section-{{ section.id }}-padding">
-    <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-      {{ current_author_name | escape }}
-    </h1>
-
-    <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-      {%- for article in paginate.items -%}
-        <div
-          class="blog-articles__article article twcss-pb-8 md:twcss-pb-1{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          {% if settings.animations_reveal_on_scroll %}
-            data-cascade
-            style="--animation-order: {{ forloop.index }};"
-          {% endif %}
-        >
-          {%- render 'cl-article-card',
-            article: article,
-            media_height: section.settings.image_height,
-            media_aspect_ratio: article.image.aspect_ratio,
-            show_image: section.settings.show_image,
-            show_date: section.settings.show_date,
-            show_author: section.settings.show_author,
-            show_excerpt: true
-          -%}
-        </div>
-      {%- endfor -%}
-    </div>
-
-    {%- if paginate.pages > 1 -%}
-      {%- render 'pagination', paginate: paginate -%}
+{%- assign author_articles = nil -%}
+{%- for b in blogs -%}
+  {%- assign matches = b.articles | where: 'metafields.blog_post.author.value.system.id', current_author_id -%}
+  {%- if matches.size > 0 -%}
+    {%- if author_articles == nil -%}
+      {%- assign author_articles = matches -%}
+    {%- else -%}
+      {%- assign author_articles = author_articles | concat: matches -%}
     {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if author_articles == nil or author_articles.size == 0 -%}
+  <div class="page-width section-{{ section.id }}-padding">
+    <p>{{ current_author_name | escape }} has not published any articles yet.</p>
   </div>
-{%- endpaginate -%}
+{%- else -%}
+  {%- assign author_articles = author_articles | sort: 'published_at' | reverse -%}
+
+  {%- paginate author_articles by 6 -%}
+    <div class="main-blog page-width section-{{ section.id }}-padding">
+      <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+        {{ current_author_name | escape }}
+      </h1>
+
+      <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
+        {%- for article in paginate.items -%}
+          <div
+            class="blog-articles__article article twcss-pb-8 md:twcss-pb-1{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+              style="--animation-order: {{ forloop.index }};"
+            {% endif %}
+          >
+            {%- render 'cl-article-card',
+              article: article,
+              media_height: section.settings.image_height,
+              media_aspect_ratio: article.image.aspect_ratio,
+              show_image: section.settings.show_image,
+              show_date: section.settings.show_date,
+              show_author: section.settings.show_author,
+              show_excerpt: true
+            -%}
+          </div>
+        {%- endfor -%}
+      </div>
+
+      {%- if paginate.pages > 1 -%}
+        {%- render 'pagination', paginate: paginate -%}
+      {%- endif -%}
+    </div>
+  {%- endpaginate -%}
+{%- endif -%}
 
 {% schema %}
 {
@@ -80,11 +90,6 @@
   "tag": "section",
   "class": "section",
   "settings": [
-    {
-      "type": "blog",
-      "id": "source_blog",
-      "label": "Blog to pull articles from"
-    },
     {
       "type": "header",
       "content": "t:sections.main-blog.settings.header.content"
