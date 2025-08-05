@@ -1,5 +1,8 @@
 {% comment %}
-  CL Author Blog Grid – shows only articles whose Author metafield matches the current Author metaobject
+  CL Author Blog Grid – lists only the articles whose **Author** metafield points to the current metaobject entry.
+  Fixes the “Array 'author_articles' is not paginateable” error by:
+  · Building the list with a single `where` filter (instead of `concat`) so the result is a pure array of ArticleDrop objects that Liquid can paginate.
+  · Letting the merchant pick the blog the section should read from (defaults to the blog handle `news`).
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
@@ -21,20 +24,21 @@
 {%- endstyle -%}
 
 {%- comment -%}
-  Gather all articles (across every blog) whose Author metafield references
-  the current metaobject entry shown on this page.
+  1. Identify the author shown on this metaobject page.
+  2. Determine which blog to pull from (either picker or fallback to handle "news").
+  3. Use a single `where` filter to get the author’s own articles → Liquid now recognises the array for pagination.
 {%- endcomment -%}
 
 {%- assign current_author_id = metaobject.system.id -%}
 {%- assign current_author_name = metaobject.name.value -%}
 
-{%- assign author_articles = '' | split: ',' -%}
-{%- for b in blogs -%}
-  {%- assign matches = b.articles | where: 'metafields.blog_post.author.value.system.id', current_author_id -%}
-  {%- assign author_articles = author_articles | concat: matches -%}
-{%- endfor -%}
+{%- assign source_blog = section.settings.source_blog -%}
+{%- if source_blog == blank -%}
+  {%- assign source_blog = blogs['news'] -%}
+{%- endif -%}
 
-{%- assign author_articles = author_articles | sort: 'published_at' | reverse -%}
+{%- assign author_articles = source_blog.articles
+     | where: 'metafields.blog_post.author.value.system.id', current_author_id -%}
 
 {%- paginate author_articles by 6 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
@@ -76,6 +80,11 @@
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+      "type": "blog",
+      "id": "source_blog",
+      "label": "Blog to pull articles from"
+    },
     {
       "type": "header",
       "content": "t:sections.main-blog.settings.header.content"
