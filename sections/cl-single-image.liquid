@@ -38,19 +38,20 @@
   <div class="rich-text content-container gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper {% if section.settings.full_width %} page-width{% endif %}">
       {% if section.settings.image != blank %}
-        {% if section.settings.image_width_unit == 'px' %}
-          {{ section.settings.image | image_url: width: section.settings.image_width_value | image_tag:
-            loading: 'lazy',
-            widths: '165, 360, 535, 750, 1070, 1500',
-            class: 'single-image__img',
-            alt: section.settings.image.alt | escape }}
-        {% else %}
-          {{ section.settings.image | image_url: width: 1500 | image_tag:
-            loading: 'lazy',
-            widths: '165, 360, 535, 750, 1070, 1500',
-            class: 'single-image__img',
-            alt: section.settings.image.alt | escape }}
-        {% endif %}
+        {%- liquid
+          # Build a responsive sizes attribute
+          if section.settings.image_width_unit == 'px'
+            assign sizes_attr = '(min-width: 750px) ' | append: section.settings.image_width_value | append: 'px, 100vw'
+          else
+            assign sizes_attr = '100vw'
+          endif
+        -%}
+        {{ section.settings.image | image_tag:
+          loading: 'lazy',
+          widths: '165, 360, 535, 750, 1070, 1500, 2048',
+          sizes: sizes_attr,
+          class: 'single-image__img',
+          alt: section.settings.image.alt | escape }}
       {% endif %}
     </div>
   </div>
