@@ -3,7 +3,7 @@
   --------------------------------
   Shows articles whose Author metafield (`blog_post.author`) has the **same
   name** as the current Author metaobject displayed on this page.
-  Matching is case-insensitive and trims whitespace.
+  Matching is case‑insensitive and trims whitespace.
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
@@ -37,7 +37,7 @@
     {%- for article in blog_obj.articles -%}
       {%- assign art_author = article.metafields.blog_post.author.value -%}
       {%- if art_author -%}
-        {%- assign article_author_display = art_author.name.value | strip | downcase -%}
+        {%- assign article_author_display = art_author.name | default: art_author.name.value | default: art_author.title | default: art_author.handle | strip | downcase -%}
         {%- if article_author_display == author_display -%}
           {%- assign matching_articles = matching_articles | push: article -%}
         {%- endif -%}
