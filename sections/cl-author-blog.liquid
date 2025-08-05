@@ -1,5 +1,10 @@
 {% comment %}
-  CL Author Blog Grid – all‑blogs iteration & simple name/ID match
+  CL Author Blog Grid – simplified & comparison‑safe
+  --------------------------------------------------
+  Renders an article card when either:
+    • article.metafields.blog_post.author.value.id == metaobject.id
+    • OR lower‑cased author names match.
+  Uses a simple counter (printed) to decide whether to show the fallback.
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
@@ -19,45 +24,26 @@
   }
 {%- endstyle -%}
 
-{%- assign current_author       = metaobject -%}
-{%- assign current_author_id    = current_author.id -%}
-{%- assign author_display_raw   = current_author.name | default: current_author.title | default: current_author.handle -%}
-{%- assign author_display_clean = author_display_raw | strip | downcase -%}
+{%- assign cur_auth          = metaobject -%}
+{%- assign cur_auth_id       = cur_auth.id -%}
+{%- assign cur_auth_name_raw = cur_auth.name | default: cur_auth.title | default: cur_auth.handle -%}
+{%- assign cur_auth_name     = cur_auth_name_raw | strip | downcase -%}
 
-{%- assign matching_articles = '' | split: ',' -%}
+{%- assign printed = 0 -%}
 
-{%- comment %} Loop every blog available in the store {%- endcomment -%}
-{%- for blog_handle in blogs -%}
-  {%- assign blog_obj = blogs[blog_handle] -%}
-  {%- if blog_obj -%}
-    {%- for article in blog_obj.articles -%}
+<div class="main-blog page-width section-{{ section.id }}-padding">
+  <h1 class="title--primary">{{ cur_auth_name_raw | escape }}</h1>
+  <div class="blog-articles{% if section.settings.layout == 'collage' %} blog-articles--collage{% endif %}">
+
+  {%- comment -%} Iterate through every blog in the shop {%- endcomment -%}
+  {%- for blog_key in blogs -%}
+    {%- assign blog = blogs[blog_key] -%}
+    {%- for article in blog.articles -%}
       {%- assign art_author = article.metafields.blog_post.author.value -%}
       {%- if art_author -%}
-        {%- if art_author.id == current_author_id -%}
-          {%- assign matching_articles = matching_articles | push: article -%}
-        {%- else -%}
-          {%- assign art_display = art_author.name | default: art_author.title | default: art_author.handle | strip | downcase -%}
-          {%- if art_display == author_display_clean -%}
-            {%- assign matching_articles = matching_articles | push: article -%}
-          {%- endif -%}
-        {%- endif -%}
-      {%- endif -%}
-    {%- endfor -%}
-  {%- endif -%}
-{%- endfor -%}
-
-{%- if matching_articles.size == 0 -%}
-  <div class="page-width section-{{ section.id }}-padding">
-    <h1 class="title--primary">{{ author_display_raw | escape }}</h1>
-    <p>{{ author_display_raw | escape }} has not published any articles yet.</p>
-  </div>
-{%- else -%}
-  {%- assign matching_articles = matching_articles | sort: 'published_at' | reverse -%}
-  {%- paginate matching_articles by 6 -%}
-    <div class="main-blog page-width section-{{ section.id }}-padding">
-      <h1 class="title--primary">{{ author_display_raw | escape }}</h1>
-      <div class="blog-articles{% if section.settings.layout == 'collage' %} blog-articles--collage{% endif %}">
-        {%- for article in paginate.items -%}
+        {%- assign art_name = art_author.name | default: art_author.title | default: art_author.handle | strip | downcase -%}
+        {%- if art_author.id == cur_auth_id or art_name == cur_auth_name -%}
+          {%- assign printed = printed | plus: 1 -%}
           <div class="blog-articles__article article">
             {%- render 'cl-article-card',
               article:            article,
@@ -68,12 +54,17 @@
               show_author:        section.settings.show_author,
               show_excerpt:       true -%}
           </div>
-        {%- endfor -%}
-      </div>
-      {%- if paginate.pages > 1 -%}{% render 'pagination', paginate: paginate %}{%- endif -%}
-    </div>
-  {%- endpaginate -%}
-{%- endif -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+
+  </div>
+
+  {%- if printed == 0 -%}
+    <p>{{ cur_auth_name_raw | escape }} has not published any articles yet.</p>
+  {%- endif -%}
+</div>
 
 {% schema %}
 {
