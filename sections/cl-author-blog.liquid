@@ -37,8 +37,8 @@ Testing metaobject field access:
 - current_author.title.value: "{{ current_author.title.value }}"</div>
 {%- endif -%}
 
-{%- comment %} Get all blogs by trying common blog handles {%- endcomment -%}
-{%- assign blog_handles = 'news,blog,articles,posts' | split: ',' -%}
+{%- comment %} Get all blogs using the provided handles {%- endcomment -%}
+{%- assign blog_handles = 'blog,skincare-guides,expert-advice,professionals' | split: ',' -%}
 {%- assign total_articles_checked = 0 -%}
 
 {%- for handle in blog_handles -%}
@@ -68,13 +68,25 @@ Author system ID: {{ article_author.system.id }}</div>
       {%- if article_author != blank -%}
         {%- comment %} Try multiple comparison methods {%- endcomment -%}
         {%- assign is_match = false -%}
+        {%- assign match_method = 'No match' -%}
         
-        {%- if article_author.id == current_author.id -%}
-          {%- assign is_match = true -%}
-          {%- assign match_method = 'ID match' -%}
-        {%- elsif article_author.system.id == current_author.system.id -%}
+        {%- if section.settings.debug_mode -%}
+          {%- assign ids_match = false -%}
+          {%- if article_author.system.id == current_author.system.id -%}
+            {%- assign ids_match = true -%}
+          {%- endif -%}
+          <div class="debug-block">🔍 Comparing:
+Current author system ID: {{ current_author.system.id }}
+Article author system ID: {{ article_author.system.id }}
+IDs equal? {{ ids_match }}</div>
+        {%- endif -%}
+        
+        {%- if article_author.system.id == current_author.system.id -%}
           {%- assign is_match = true -%}
           {%- assign match_method = 'System ID match' -%}
+        {%- elsif article_author.id == current_author.id -%}
+          {%- assign is_match = true -%}
+          {%- assign match_method = 'ID match' -%}
         {%- elsif article_author.handle == current_author.handle -%}
           {%- assign is_match = true -%}
           {%- assign match_method = 'Handle match' -%}
@@ -90,6 +102,10 @@ Author system ID: {{ article_author.system.id }}</div>
           {%- assign matching_articles = matching_articles | push: article -%}
           {%- if section.settings.debug_mode -%}
             <div class="debug-block">✅ MATCH FOUND: "{{ article.title }}" ({{ match_method }})</div>
+          {%- endif -%}
+        {%- else -%}
+          {%- if section.settings.debug_mode and forloop.index <= 3 -%}
+            <div class="debug-block">❌ NO MATCH: "{{ article.title }}" ({{ match_method }})</div>
           {%- endif -%}
         {%- endif -%}
       {%- endif -%}
@@ -134,10 +150,11 @@ Matching articles found: {{ matching_articles.size }}
     <p>{{ author_display | escape }} has not published any articles yet.</p>
     {%- if section.settings.debug_mode -%}
       <div class="debug-block">💡 TROUBLESHOOTING TIPS:
-1. Check that your blog handle is one of: news, blog, articles, posts
+1. Your blogs (blog, skincare-guides, expert-advice, professionals) are being checked
 2. Verify that articles have the metafield 'blog_post.author' set
 3. Ensure the metafield references the correct Author metaobject
-4. Check that the metafield namespace and key are exactly 'blog_post.author'</div>
+4. Check that the Author metaobject system ID matches: {{ current_author.system.id }}
+5. The current articles all reference Author ID: 84389888328</div>
     {%- endif -%}
   </div>
 {%- else -%}
