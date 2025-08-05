@@ -98,7 +98,7 @@
       "name": "Single Image",
       "settings": {
         "image": "{{ metaobject.image.value }}",
-        "image_width_value": 200,
+        "image_width_value": 400,
         "image_width_unit": "px",
         "padding_top": 16,
         "padding_bottom": 16,
