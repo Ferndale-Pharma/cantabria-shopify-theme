@@ -1,9 +1,8 @@
 {% comment %}
-  CL Author Blog Grid – HANDLE MATCHING (final)
-  • Compares Author **handle** (unique + always present) between the page’s
-    metaobject and each article’s Author metafield.
-  • Iterates correctly over blogs via handles.
-  • Debug mode shows per‑blog handle matches and total.
+  CL Author Blog Grid – HANDLE‑SAFE ITERATION
+  • Root cause → `{% for blog in blogs %}` gives **handles**, not Blog objects. `blog.articles` was therefore empty ⇒ 0 matches.
+  • Fix → iterate over the map keys, then dereference: `blog_obj = blogs[blog_handle]`.
+  • Still matches on display name (handle if name missing).
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
@@ -17,39 +16,44 @@
 {%- endstyle -%}
 
 {%- assign current_author = metaobject -%}
-{%- assign author_handle = current_author.handle -%}
+{%- assign author_display = current_author.name
+  | default: current_author.title
+  | default: current_author.handle -%}
 
-{%- assign articles_by_author = '' | split: ',' -%}
+{%- assign hits = '' | split: ',' -%}
 
-{%- if section.settings.debug_mode -%}<div class="debug-block">DEBUG — Author handle: "{{ author_handle }}"</div>{%- endif -%}
+{%- if section.settings.debug_mode -%}
+  <div class="debug-block">DEBUG — Author display: "{{ author_display }}"</div>
+{%- endif -%}
 
 {%- for blog_handle in blogs -%}
   {%- assign blog_obj = blogs[blog_handle] -%}
-  {%- if blog_obj -%}
+  {%- if blog_obj != nil -%}
     {%- assign found = 0 -%}
     {%- for art in blog_obj.articles -%}
       {%- assign art_author = art.metafields.blog_post.author.value -%}
-      {%- if art_author and art_author.handle == author_handle -%}
-        {%- assign articles_by_author = articles_by_author | concat: [art] -%}
+      {%- assign art_display = art_author.name | default: art_author.title | default: art_author.handle -%}
+      {%- if art_display == author_display -%}
+        {%- assign hits = hits | concat: [art] -%}
         {%- assign found = found | plus: 1 -%}
       {%- endif -%}
     {%- endfor -%}
-    {%- if section.settings.debug_mode -%}<div class="debug-block">Blog "{{ blog_obj.title }}" ⇒ handle matches: {{ found }}</div>{%- endif -%}
+    {%- if section.settings.debug_mode -%}<div class="debug-block">Blog "{{ blog_obj.title }}" → matches: {{ found }}</div>{%- endif -%}
   {%- endif -%}
 {%- endfor -%}
 
-{%- if section.settings.debug_mode -%}<div class="debug-block">TOTAL collected via handle: {{ articles_by_author.size }}</div>{%- endif -%}
+{%- if section.settings.debug_mode -%}<div class="debug-block">TOTAL collected: {{ hits.size }}</div>{%- endif -%}
 
-{%- if articles_by_author.size == 0 -%}
-  <div class="page-width section-{{ section.id }}-padding"><p>{{ current_author.name | default: author_handle | escape }} has not published any articles yet.</p></div>
+{%- if hits.size == 0 -%}
+  <div class="page-width section-{{ section.id }}-padding"><p>{{ author_display | escape }} has not published any articles yet.</p></div>
 {%- else -%}
-  {%- assign articles_by_author = articles_by_author | sort: 'published_at' | reverse -%}
-  {%- paginate articles_by_author by 6 -%}
+  {%- assign hits = hits | sort: 'published_at' | reverse -%}
+  {%- paginate hits by 6 -%}
     <div class="main-blog page-width section-{{ section.id }}-padding">
-      <h1 class="title--primary">{{ current_author.name | default: author_handle | escape }}</h1>
+      <h1 class="title--primary">{{ author_display | escape }}</h1>
       <div class="blog-articles{% if section.settings.layout == 'collage' %} blog-articles--collage{% endif %}">
         {%- for article in paginate.items -%}
-          <div class="blog-articles__article article">
+          <div class="blog-articles__article article"><!-- card -->
             {%- render 'cl-article-card', article: article, media_height: section.settings.image_height, media_aspect_ratio: article.image.aspect_ratio, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_excerpt: true -%}
           </div>
         {%- endfor -%}
