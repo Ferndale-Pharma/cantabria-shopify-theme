@@ -60,19 +60,19 @@
         "instagram_rPCfqY": {
           "type": "instagram",
           "settings": {
-            "url": ""
+            "url": "{{ metaobject.instagram.value }}"
           }
         },
         "linkedin_hBTY7N": {
           "type": "linkedin",
           "settings": {
-            "url": ""
+            "url": "{{ metaobject.linkedin.value }}"
           }
         },
         "facebook_9eeMXN": {
           "type": "facebook",
           "settings": {
-            "url": ""
+            "url": "{{ metaobject.facebook.value }}"
           }
         }
       },
