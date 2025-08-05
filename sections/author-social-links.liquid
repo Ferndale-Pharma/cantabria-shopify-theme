@@ -25,34 +25,34 @@
   Ensure the section can access an "author" metaobject. Typically this is provided by the template, e.g. article.author or a section setting. If not available, nothing will render.
 {% endcomment %}
 
-{% if author != blank %}
+{% if metaobjects.author != blank %}
   <div class="author-social-links">
     {% for block in section.blocks %}
       {% case block.type %}
         {% when 'website' %}
-          {% if author.website_link != blank %}
-            <a href="{{ author.website_link }}" target="_blank" rel="noopener" aria-label="Author website" {{ block.shopify_attributes }}>
+          {% if metaobjects.author.website_link != blank %}
+            <a href="{{ metaobjects.author.website_link }}" target="_blank" rel="noopener" aria-label="Author website" {{ block.shopify_attributes }}>
               {% comment %}{{ 'placeholder.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'Website icon' }}{% endcomment %}
               {{ 'product-1' | placeholder_svg_tag }}
             </a>
           {% endif %}
         {% when 'instagram' %}
-          {% if author.instagram != blank %}
-            <a href="{{ author.instagram }}" target="_blank" rel="noopener" aria-label="Author Instagram" {{ block.shopify_attributes }}>
+          {% if metaobjects.author.instagram != blank %}
+            <a href="{{ metaobjects.author.instagram }}" target="_blank" rel="noopener" aria-label="Author Instagram" {{ block.shopify_attributes }}>
               {% comment %}{{ 'placeholder.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'Instagram icon' }}{% endcomment %}
               {{ 'product-1' | placeholder_svg_tag }}
             </a>
           {% endif %}
         {% when 'linkedin' %}
-          {% if author.linkedin != blank %}
-            <a href="{{ author.linkedin }}" target="_blank" rel="noopener" aria-label="Author LinkedIn" {{ block.shopify_attributes }}>
+          {% if metaobjects.author.linkedin != blank %}
+            <a href="{{ metaobjects.author.linkedin }}" target="_blank" rel="noopener" aria-label="Author LinkedIn" {{ block.shopify_attributes }}>
               {% comment %}{{ 'placeholder.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'LinkedIn icon' }}{% endcomment %}
                {{ 'product-1' | placeholder_svg_tag }}
             </a>
           {% endif %}
         {% when 'facebook' %}
-          {% if author.facebook != blank %}
-            <a href="{{ author.facebook }}" target="_blank" rel="noopener" aria-label="Author Facebook" {{ block.shopify_attributes }}>
+          {% if metaobjects.author.facebook != blank %}
+            <a href="{{ metaobjects.author.facebook }}" target="_blank" rel="noopener" aria-label="Author Facebook" {{ block.shopify_attributes }}>
               {% comment %}{{ 'placeholder.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'Facebook icon' }}{% endcomment %}
                {{ 'product-1' | placeholder_svg_tag }}
             </a>
