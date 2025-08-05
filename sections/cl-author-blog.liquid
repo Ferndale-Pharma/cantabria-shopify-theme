@@ -66,36 +66,66 @@ Author system ID: {{ article_author.system.id }}</div>
       {%- endif -%}
       
       {%- if article_author != blank -%}
-        {%- comment %} Try multiple comparison methods {%- endcomment -%}
+        {%- comment %} Try multiple comparison methods with detailed debugging {%- endcomment -%}
         {%- assign is_match = false -%}
         {%- assign match_method = 'No match' -%}
         
-        {%- if section.settings.debug_mode -%}
-          {%- assign ids_match = false -%}
-          {%- if article_author.system.id == current_author.system.id -%}
-            {%- assign ids_match = true -%}
-          {%- endif -%}
-          <div class="debug-block">🔍 Comparing:
-Current author system ID: {{ current_author.system.id }}
-Article author system ID: {{ article_author.system.id }}
-IDs equal? {{ ids_match }}</div>
-        {%- endif -%}
+        {%- comment %} Test each comparison method individually {%- endcomment -%}
+        {%- assign system_id_match = false -%}
+        {%- assign regular_id_match = false -%}
+        {%- assign handle_match = false -%}
+        {%- assign name_match = false -%}
         
         {%- if article_author.system.id == current_author.system.id -%}
+          {%- assign system_id_match = true -%}
           {%- assign is_match = true -%}
           {%- assign match_method = 'System ID match' -%}
-        {%- elsif article_author.id == current_author.id -%}
-          {%- assign is_match = true -%}
-          {%- assign match_method = 'ID match' -%}
-        {%- elsif article_author.handle == current_author.handle -%}
-          {%- assign is_match = true -%}
-          {%- assign match_method = 'Handle match' -%}
-        {%- else -%}
-          {%- assign article_author_display = article_author.name.value | default: article_author.title.value | default: article_author.handle -%}
-          {%- if article_author_display == author_display -%}
+        {%- endif -%}
+        
+        {%- if article_author.id == current_author.id -%}
+          {%- assign regular_id_match = true -%}
+          {%- unless is_match -%}
+            {%- assign is_match = true -%}
+            {%- assign match_method = 'Regular ID match' -%}
+          {%- endunless -%}
+        {%- endif -%}
+        
+        {%- if article_author.handle == current_author.handle -%}
+          {%- assign handle_match = true -%}
+          {%- unless is_match -%}
+            {%- assign is_match = true -%}
+            {%- assign match_method = 'Handle match' -%}
+          {%- endunless -%}
+        {%- endif -%}
+        
+        {%- assign article_author_display = article_author.name.value | default: article_author.name | default: article_author.title.value | default: article_author.title | default: article_author.handle -%}
+        {%- if article_author_display == author_display -%}
+          {%- assign name_match = true -%}
+          {%- unless is_match -%}
             {%- assign is_match = true -%}
             {%- assign match_method = 'Display name match' -%}
-          {%- endif -%}
+          {%- endunless -%}
+        {%- endif -%}
+        
+        {%- if section.settings.debug_mode and forloop.index <= 3 -%}
+          <div class="debug-block">🔍 DETAILED COMPARISON for "{{ article.title }}":
+Current author system ID: "{{ current_author.system.id }}"
+Article author system ID: "{{ article_author.system.id }}"
+System ID match: {{ system_id_match }}
+
+Current author regular ID: "{{ current_author.id }}"
+Article author regular ID: "{{ article_author.id }}"
+Regular ID match: {{ regular_id_match }}
+
+Current author handle: "{{ current_author.handle }}"
+Article author handle: "{{ article_author.handle }}"
+Handle match: {{ handle_match }}
+
+Current author display: "{{ author_display }}"
+Article author display: "{{ article_author_display }}"
+Name match: {{ name_match }}
+
+FINAL RESULT: {{ match_method }}</div>
         {%- endif -%}
         
         {%- if is_match -%}
@@ -105,7 +135,7 @@ IDs equal? {{ ids_match }}</div>
           {%- endif -%}
         {%- else -%}
           {%- if section.settings.debug_mode and forloop.index <= 3 -%}
-            <div class="debug-block">❌ NO MATCH: "{{ article.title }}" ({{ match_method }})</div>
+            <div class="debug-block">❌ NO MATCH: "{{ article.title }}"</div>
           {%- endif -%}
         {%- endif -%}
       {%- endif -%}
