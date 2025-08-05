@@ -1,9 +1,11 @@
 {% comment %}
-  CL Author Blog Grid – v10 (full code + schema restored)
-  • Retains debug tooling from v9.
-  • Restores complete Liquid section structure, including the full `schema` block
-    and closing tags lost in the previous incremental patch.
-  • No functional changes beyond cleanliness and completeness.
+  CL Author Blog Grid – v11 (manual ID comparison)
+  • The article metafield may store `id` (GID) instead of `system.id`.
+  • Replace `where` filters with an explicit double‑loop:
+      - Pull `art_author = art.metafields.blog_post.author.value`
+      - Compare both `art_author.system.id` and `art_author.id` against the
+        current author’s `system.id` (numeric) or presence inside the GID.
+  • Keeps full debug blocks and schema.
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
@@ -11,109 +13,61 @@
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
-  .debug-block {
-    background: #fdf6e3;
-    border: 1px dashed #b58900;
-    padding: 1rem;
-    margin: 1rem 0;
-    font-family: monospace;
-    font-size: 0.85rem;
-    white-space: pre-wrap;
-  }
+  .section-{{ section.id }}-padding { padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px; padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px; }
+  @media screen and (min-width: 750px) { .section-{{ section.id }}-padding { padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px; } }
+  .debug-block { background:#fdf6e3; border:1px dashed #b58900; padding:1rem; margin:1rem 0; font-family:monospace; font-size:0.85rem; white-space:pre-wrap; }
 {%- endstyle -%}
 
 {%- assign current_author = metaobject -%}
-{%- assign current_author_id = current_author.system.id -%}
-{%- assign author_display_name = current_author.name.value
-  | default: current_author.title.value
-  | default: current_author.title
-  | default: current_author.name
-  | default: current_author.handle -%}
+{%- assign current_author_system_id = current_author.system.id | append: '' -%}
+{%- assign author_display_name = current_author.name.value | default: current_author.title.value | default: current_author.title | default: current_author.name | default: current_author.handle -%}
 {%- assign author_articles = '' | split: ',' -%}
 
 {%- if section.settings.debug_mode -%}
   <div class="debug-block">
-    DEBUG — metaobject.system.id: {{ current_author.system.id }}<br>
-    Display name resolved: "{{ author_display_name }}"<br>
-    Raw metaobject JSON (truncated): {{ current_author | json | slice: 0, 300 }} …
+    DEBUG — metaobject.system.id: {{ current_author_system_id }}<br>
+    Display name: "{{ author_display_name }}"<br>
+    Metaobject JSON (trunc): {{ current_author | json | slice: 0, 200 }} …
   </div>
 {%- endif -%}
 
 {%- for blog in blogs -%}
-  {%- assign matches = blog.articles | where: 'metafields.blog_post.author.value.system.id', current_author_id -%}
-  {%- if section.settings.debug_mode -%}
-    <div class="debug-block">Blog “{{ blog.title }}” — matches by system.id: {{ matches.size }}</div>
-  {%- endif -%}
-  {%- if matches.size == 0 -%}
-    {%- assign matches = blog.articles | where: 'metafields.blog_post.author.value.name', author_display_name -%}
-    {%- if section.settings.debug_mode -%}
-      <div class="debug-block">&nbsp;└ fallback matches by name: {{ matches.size }}</div>
+  {%- assign matched_in_blog = 0 -%}
+  {%- for art in blog.articles -%}
+    {%- assign art_author = art.metafields.blog_post.author.value -%}
+    {%- if art_author != nil -%}
+      {%- assign art_system_id = art_author.system.id | append: '' -%}
+      {%- assign art_id = art_author.id -%}
+      {%- if art_system_id == current_author_system_id or art_id contains current_author_system_id -%}
+        {%- assign author_articles = author_articles | concat: [art] -%}
+        {%- assign matched_in_blog = matched_in_blog | plus: 1 -%}
+      {%- endif -%}
     {%- endif -%}
-  {%- endif -%}
-  {%- if matches.size > 0 -%}
-    {%- assign author_articles = author_articles | concat: matches -%}
+  {%- endfor -%}
+  {%- if section.settings.debug_mode -%}
+    <div class="debug-block">Blog “{{ blog.title }}” — manual matches: {{ matched_in_blog }}</div>
   {%- endif -%}
 {%- endfor -%}
 
 {%- if section.settings.debug_mode -%}
-  <div class="debug-block">
-    TOTAL collected articles (pre‑sort): {{ author_articles.size }}
-    {%- if author_articles.size == 0 -%}
-      <br>──────── SAMPLE CHECK ────────
-      {% assign blog_limit = 0 %}
-      {% for blog_debug in blogs %}
-        {% if blog_limit < 3 %}{% assign blog_limit = blog_limit | plus: 1 %}
-          <br>Blog: {{ blog_debug.title }} ({{ blog_debug.handle }})
-          {% assign art_debug_limit = 0 %}
-          {% for art_debug in blog_debug.articles %}
-            {% if art_debug_limit < 5 %}{% assign art_debug_limit = art_debug_limit | plus: 1 %}
-              <br>&nbsp;• "{{ art_debug.title }}" — author.name: "{{ art_debug.metafields.blog_post.author.value.name }}" | author.system.id: {{ art_debug.metafields.blog_post.author.value.system.id }}
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
-    {%- endif -%}
-  </div>
+  <div class="debug-block">TOTAL collected: {{ author_articles.size }}</div>
 {%- endif -%}
 
 {%- if author_articles.size == 0 -%}
-  <div class="page-width section-{{ section.id }}-padding">
-    <p>{{ author_display_name | escape }} has not published any articles yet.</p>
-  </div>
+  <div class="page-width section-{{ section.id }}-padding"><p>{{ author_display_name | escape }} has not published any articles yet.</p></div>
 {%- else -%}
   {%- assign author_articles = author_articles | sort: 'published_at' | reverse -%}
   {%- paginate author_articles by 6 -%}
     <div class="main-blog page-width section-{{ section.id }}-padding">
-      <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-        {{ author_display_name | escape }}
-      </h1>
+      <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">{{ author_display_name | escape }}</h1>
       <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
         {%- for article in paginate.items -%}
           <div class="blog-articles__article article twcss-pb-8 md:twcss-pb-1{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: {{ forloop.index }};"{% endif %}>
-            {%- render 'cl-article-card',
-              article: article,
-              media_height: section.settings.image_height,
-              media_aspect_ratio: article.image.aspect_ratio,
-              show_image: section.settings.show_image,
-              show_date: section.settings.show_date,
-              show_author: section.settings.show_author,
-              show_excerpt: true -%}
+            {%- render 'cl-article-card', article: article, media_height: section.settings.image_height, media_aspect_ratio: article.image.aspect_ratio, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_excerpt: true -%}
           </div>
         {%- endfor -%}
       </div>
-      {%- if paginate.pages > 1 -%}
-        {%- render 'pagination', paginate: paginate -%}
-      {%- endif -%}
+      {%- if paginate.pages > 1 -%}{% render 'pagination', paginate: paginate %}{%- endif -%}
     </div>
   {%- endpaginate -%}
 {%- endif -%}
