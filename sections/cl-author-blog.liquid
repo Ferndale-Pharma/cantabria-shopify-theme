@@ -1,8 +1,10 @@
 {% comment %}
-  CL Author Blog Grid – v12 (name‑based matching)
-  • Matches on plain author **name** (string) for both the current metaobject
-    and each article’s metafield, since ID matching returned zero.
-  • Debug output shows both names compared so you can verify they align.
+  CL Author Blog Grid – FINAL STABLE
+  • Matches articles by comparing the Author metaobject’s display name to the
+    author reference metafield on each article (`blog_post.author`).
+  • Optional **Debug mode** surfaces helpful diagnostics without affecting
+    production output.
+  • Fully self‑contained section: complete Liquid, markup, and schema.
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
@@ -10,10 +12,32 @@
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  .section-{{ section.id }}-padding{padding-top:{{ section.settings.padding_top | times:0.75 | round:0 }}px;padding-bottom:{{ section.settings.padding_bottom | times:0.75 | round:0 }}px}
-  @media(min-width:750px){.section-{{ section.id }}-padding{padding-top:{{ section.settings.padding_top }}px;padding-bottom:{{ section.settings.padding_bottom }}px}}
-  .debug-block{background:#fdf6e3;border:1px dashed #b58900;padding:1rem;margin:1rem 0;font-family:monospace;font-size:.85rem;white-space:pre-wrap}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  .debug-block {
+    background: #fdf6e3;
+    border: 1px dashed #b58900;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-family: monospace;
+    font-size: 0.85rem;
+    white-space: pre-wrap;
+  }
 {%- endstyle -%}
+
+{%- comment -%}
+  1. Resolve display name for the current Author metaobject.
+  2. Loop through every blog → every article; compare author display names.
+  3. Collect matches, paginate, and render.
+{%- endcomment -%}
 
 {%- assign current_author = metaobject -%}
 {%- assign author_name = current_author.name
@@ -26,8 +50,8 @@
 
 {%- if section.settings.debug_mode -%}
   <div class="debug-block">
-    DEBUG — Author name resolved: "{{ author_name }}"<br>
-    Raw metaobject (trunc): {{ current_author | json | slice: 0, 160 }} …
+    DEBUG — Author display name ➜ "{{ author_name }}"<br>
+    Raw metaobject (truncated): {{ current_author | json | slice: 0, 120 }} …
   </div>
 {%- endif -%}
 
@@ -36,7 +60,11 @@
   {%- for art in blog.articles -%}
     {%- assign art_author = art.metafields.blog_post.author.value -%}
     {%- if art_author -%}
-      {%- assign art_author_name = art_author.name | default: art_author.name.value -%}
+      {%- assign art_author_name = art_author.name
+        | default: art_author.title
+        | default: art_author.title.value
+        | default: art_author.name.value
+        | default: art_author.handle -%}
       {%- if art_author_name == author_name -%}
         {%- assign author_articles = author_articles | concat: [art] -%}
         {%- assign matched_in_blog = matched_in_blog | plus: 1 -%}
@@ -44,29 +72,44 @@
     {%- endif -%}
   {%- endfor -%}
   {%- if section.settings.debug_mode -%}
-    <div class="debug-block">Blog “{{ blog.title }}” — name matches: {{ matched_in_blog }}</div>
+    <div class="debug-block">Blog “{{ blog.title }}” — matches: {{ matched_in_blog }}</div>
   {%- endif -%}
 {%- endfor -%}
 
 {%- if section.settings.debug_mode -%}
-  <div class="debug-block">TOTAL collected by name: {{ author_articles.size }}</div>
+  <div class="debug-block">TOTAL collected: {{ author_articles.size }}</div>
 {%- endif -%}
 
 {%- if author_articles.size == 0 -%}
-  <div class="page-width section-{{ section.id }}-padding"><p>{{ author_name | escape }} has not published any articles yet.</p></div>
+  <div class="page-width section-{{ section.id }}-padding">
+    <p>{{ author_name | escape }} has not published any articles yet.</p>
+  </div>
 {%- else -%}
   {%- assign author_articles = author_articles | sort: 'published_at' | reverse -%}
   {%- paginate author_articles by 6 -%}
     <div class="main-blog page-width section-{{ section.id }}-padding">
-      <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">{{ author_name | escape }}</h1>
+      <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+        {{ author_name | escape }}
+      </h1>
+
       <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
         {%- for article in paginate.items -%}
-          <div class="blog-articles__article article twcss-pb-8 md:twcss-pb-1{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {% if settings.animations_reveal_on_scroll %}data-cascade style="--animation-order: {{ forloop.index }};"{% endif %}>
-            {%- render 'cl-article-card', article: article, media_height: section.settings.image_height, media_aspect_ratio: article.image.aspect_ratio, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_excerpt: true -%}
+          <div class="blog-articles__article article twcss-pb-8 md:twcss-pb-1{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"{% if settings.animations_reveal_on_scroll %} data-cascade style="--animation-order: {{ forloop.index }};"{% endif %}>
+            {%- render 'cl-article-card',
+              article: article,
+              media_height: section.settings.image_height,
+              media_aspect_ratio: article.image.aspect_ratio,
+              show_image: section.settings.show_image,
+              show_date: section.settings.show_date,
+              show_author: section.settings.show_author,
+              show_excerpt: true -%}
           </div>
         {%- endfor -%}
       </div>
-      {%- if paginate.pages > 1 -%}{% render 'pagination', paginate: paginate %}{%- endif -%}
+
+      {%- if paginate.pages > 1 -%}
+        {%- render 'pagination', paginate: paginate -%}
+      {%- endif -%}
     </div>
   {%- endpaginate -%}
 {%- endif -%}
@@ -77,18 +120,26 @@
   "tag": "section",
   "class": "section",
   "settings": [
-    {"type":"checkbox","id":"debug_mode","label":"Enable debug information (frontend only)","default":false},
-    {"type":"header","content":"t:sections.main-blog.settings.header.content"},
-    {"type":"select","id":"layout","options":[{"value":"grid","label":"t:sections.main-blog.settings.layout.options__1.label"},{"value":"collage","label":"t:sections.main-blog.settings.layout.options__2.label"}],"default":"collage","label":"t:sections.main-blog.settings.layout.label","info":"t:sections.main-blog.settings.layout.info"},
-    {"type":"checkbox","id":"show_image","default":true,"label":"t:sections.main-blog.settings.show_image.label"},
-    {"type":"select","id":"image_height","options":[{"value":"adapt","label":"t:sections.main-blog.settings.image_height.options__1.label"},{"value":"small","label":"t:sections.main-blog.settings.image_height.options__2.label"},{"value":"medium","label":"t:sections.main-blog.settings.image_height.options__3.label"},{"value":"large","label":"t:sections.main-blog.settings.image_height.options__4.label"}],"default":"medium","label":"t:sections.main-blog.settings.image_height.label","info":"t:sections.main-blog.settings.image_height.info"},
-    {"type":"checkbox","id":"show_date","default":true,"label":"t:sections.main-blog.settings.show_date.label"},
-    {"type":"checkbox","id":"show_author","default":false,"label":"t:sections.main-blog.settings.show_author.label"},
-    {"type":"paragraph","content":"t:sections.main-blog.settings.paragraph.content"},
-    {"type":"header","content":"t:sections.all.padding.section_padding_heading"},
-    {"type":"range","id":"padding_top","min":0,"max":100,"step":4,"unit":"px","label":"t:sections.all.padding.padding_top","default":64},
-    {"type":"range","id":"padding_bottom","min":0,"max":100,"step":4,"unit":"px","label":"t:sections.all.padding.padding_bottom","default":64}
+    { "type": "checkbox", "id": "debug_mode", "label": "Enable debug information (frontend only)", "default": false },
+    { "type": "header", "content": "t:sections.main-blog.settings.header.content" },
+    { "type": "select", "id": "layout", "options": [
+        { "value": "grid", "label": "t:sections.main-blog.settings.layout.options__1.label" },
+        { "value": "collage", "label": "t:sections.main-blog.settings.layout.options__2.label" }
+      ], "default": "collage", "label": "t:sections.main-blog.settings.layout.label", "info": "t:sections.main-blog.settings.layout.info" },
+    { "type": "checkbox", "id": "show_image", "default": true, "label": "t:sections.main-blog.settings.show_image.label" },
+    { "type": "select", "id": "image_height", "options": [
+        { "value": "adapt", "label": "t:sections.main-blog.settings.image_height.options__1.label" },
+        { "value": "small", "label": "t:sections.main-blog.settings.image_height.options__2.label" },
+        { "value": "medium", "label": "t:sections.main-blog.settings.image_height.options__3.label" },
+        { "value": "large", "label": "t:sections.main-blog.settings.image_height.options__4.label" }
+      ], "default": "medium", "label": "t:sections.main-blog.settings.image_height.label", "info": "t:sections.main-blog.settings.image_height.info" },
+    { "type": "checkbox", "id": "show_date", "default": true, "label": "t:sections.main-blog.settings.show_date.label" },
+    { "type": "checkbox", "id": "show_author", "default": false, "label": "t:sections.main-blog.settings.show_author.label" },
+    { "type": "paragraph", "content": "t:sections.main-blog.settings.paragraph.content" },
+    { "type": "header", "content": "t:sections.all.padding.section_padding_heading" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "t:sections.all.padding.padding_top", "default": 64 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "t:sections.all.padding.padding_bottom", "default": 64 }
   ],
-  "presets":[{"name":"CL Author Blog Grid"}]
+  "presets": [ { "name": "CL Author Blog Grid" } ]
 }
 {% endschema %}
