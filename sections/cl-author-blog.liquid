@@ -1,35 +1,26 @@
 {% comment %}
-  CL Author Blog Grid – simplified
-  --------------------------------
-  Shows articles whose Author metafield (`blog_post.author`) has the **same
-  name** as the current Author metaobject displayed on this page.
-  Matching is case‑insensitive and trims whitespace.
+  CL Author Blog Grid – final simplified
+  -------------------------------------
+  Match rule (in priority order):
+  1. `art_author.id` == `current_author.id`   (robust)
+  2. else compare lower‑cased `name` fields.
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
-{{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
+{{ 'section-main-blog.css'   | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-  @media (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
+  .section-{{ section.id }}-padding{padding-top:{{ section.settings.padding_top | times:0.75 | round:0 }}px;padding-bottom:{{ section.settings.padding_bottom | times:0.75 | round:0 }}px}
+  @media(min-width:750px){.section-{{ section.id }}-padding{padding-top:{{ section.settings.padding_top }}px;padding-bottom:{{ section.settings.padding_bottom }}px}}
 {%- endstyle -%}
 
-{%- comment -%} Resolve the author name to compare {%- endcomment -%}
-{%- assign current_author       = metaobject -%}
-{%- assign author_display_raw   = current_author.name.value | default: current_author.name | default: current_author.title.value | default: current_author.title -%}
-{%- assign author_display       = author_display_raw | strip | downcase -%}
+{%- assign current_author     = metaobject -%}
+{%- assign current_author_id  = current_author.id -%}
+{%- assign author_display_raw = current_author.name | default: current_author.title | default: current_author.handle -%}
+{%- assign author_display     = author_display_raw | strip | downcase -%}
 
 {%- assign matching_articles = '' | split: ',' -%}
-
 {%- assign blog_handles = 'blog,skincare-guides,expert-advice,professionals' | split: ',' -%}
 {%- for handle in blog_handles -%}
   {%- assign blog_obj = blogs[handle] -%}
@@ -37,9 +28,13 @@
     {%- for article in blog_obj.articles -%}
       {%- assign art_author = article.metafields.blog_post.author.value -%}
       {%- if art_author -%}
-        {%- assign article_author_display = art_author.name | default: art_author.name.value | default: art_author.title | default: art_author.handle | strip | downcase -%}
-        {%- if article_author_display == author_display -%}
+        {%- if art_author.id == current_author_id -%}
           {%- assign matching_articles = matching_articles | push: article -%}
+        {%- else -%}
+          {%- assign art_name = art_author.name | default: art_author.title | default: art_author.handle | strip | downcase -%}
+          {%- if art_name == author_display -%}
+            {%- assign matching_articles = matching_articles | push: article -%}
+          {%- endif -%}
         {%- endif -%}
       {%- endif -%}
     {%- endfor -%}
