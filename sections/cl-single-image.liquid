@@ -55,7 +55,7 @@
             assign sizes_attr = '100vw'
           endif
         -%}
-        {{ section.settings.image | image_tag:
+        {{ section.settings.image | image_url: width: 4096 | image_tag:
           loading: 'lazy',
           widths: widths_list,
           sizes: sizes_attr,
