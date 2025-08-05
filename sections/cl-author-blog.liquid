@@ -1,9 +1,11 @@
 {% comment %}
-  CL Author Blog Grid – v6 (debuggable)
-  • Adds a **Debug mode** checkbox in the section settings.
-  • When enabled, outputs diagnostic information (current author name, blogs
-    inspected, article counts, matches, final array size) so you can confirm
-    why matches aren’t being found.
+  CL Author Blog Grid – v7 (metaobject‑aware)
+  • Uses the built‑in `metaobject` drop (current page entry) instead of
+    `metaobjects.author.value`.
+  • Compares **metaobject IDs** to avoid name mismatches:
+      art.metafields.blog_post.author.value.id == metaobject.id
+  • Keeps Debug mode: now shows the metaobject ID and field values so you can
+    confirm they’re coming through.
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
@@ -23,7 +25,6 @@
     }
   }
 
-  /* Basic styling for debug blocks */
   .debug-block {
     background: #f6f6f6;
     border: 1px dashed #999;
@@ -35,40 +36,45 @@
   }
 {%- endstyle -%}
 
-{%- assign author_name = metaobjects.author.value.name -%}
+{%- assign current_author = metaobject -%}
+{%- assign current_author_id = current_author.id -%}
+{%- comment -%}
+  Try to derive a display name from common fields.
+{%- endcomment -%}
+{%- assign author_display_name = current_author.name.value
+  | default: current_author.title
+  | default: current_author.handle
+-%}
 
 {%- assign author_articles = '' | split: ',' -%}
 
 {%- if section.settings.debug_mode %}
   <div class="debug-block">
-    DEBUG — Current author name: {{ author_name }}
+    DEBUG — Current Author ID: {{ current_author_id }}  |  Display name: "{{ author_display_name }}"
   </div>
 {%- endif -%}
 
 {%- for blog in blogs -%}
-  {%- assign matches_in_blog = 0 -%}
-  {%- for art in blog.articles -%}
-    {%- if art.metafields.blog_post.author.value.name == author_name -%}
-      {%- assign author_articles = author_articles | concat: [art] -%}
-      {%- assign matches_in_blog = matches_in_blog | plus: 1 -%}
-    {%- endif -%}
-  {%- endfor -%}
+  {%- assign matches = blog.articles | where: 'metafields.blog_post.author.value.id', current_author_id -%}
   {%- if section.settings.debug_mode %}
     <div class="debug-block">
-      Checked blog: {{ blog.title }} (handle: {{ blog.handle }}) — Matches found: {{ matches_in_blog }}
+      Checked blog: {{ blog.title }} (handle: {{ blog.handle }}) — {{ matches.size }} match(es)
     </div>
+  {%- endif -%}
+  {%- if matches.size > 0 -%}
+    {%- assign author_articles = author_articles | concat: matches -%}
   {%- endif -%}
 {%- endfor -%}
 
 {%- if section.settings.debug_mode %}
   <div class="debug-block">
-    Total collected articles: {{ author_articles.size }}
+    Total collected articles (pre‑sort): {{ author_articles.size }}
   </div>
 {%- endif -%}
 
 {%- if author_articles.size == 0 -%}
   <div class="page-width section-{{ section.id }}-padding">
-    <p>{{ author_name | escape }} has not published any articles yet.</p>
+    <p>{{ author_display_name | escape }} has not published any articles yet.</p>
   </div>
 {%- else -%}
   {%- assign author_articles = author_articles | sort: 'published_at' | reverse -%}
@@ -76,7 +82,7 @@
   {%- paginate author_articles by 6 -%}
     <div class="main-blog page-width section-{{ section.id }}-padding">
       <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-        {{ author_name | escape }}
+        {{ author_display_name | escape }}
       </h1>
 
       <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
