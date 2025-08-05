@@ -1,9 +1,10 @@
 {% comment %}
-  CL Author Blog Grid – v4 (fixes loop + filter)
-  ▸ Correctly loops through each Blog object (`for blog in blogs`).
-  ▸ Compares the **author name string** because that’s how you successfully matched earlier:
-        metaobjects.author.value.name == article.metafields.blog_post.author.value.name
-  ▸ Concats matches into the seed array so Liquid paginates happily.
+  CL Author Blog Grid – v5 (manual filter loop)
+  ▸ Works on an Author metaobject template.
+  ▸ Iterates every article in every blog and collects those whose metafield
+    `blog_post.author.value.name` matches the current Author’s name.
+  ▸ Builds the collection with `concat: [article]` so the final array is a
+    true ArrayDrop of Article objects for pagination.
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
@@ -24,18 +25,16 @@
   }
 {%- endstyle -%}
 
-{%- comment -%}
-  Current author information pulled the same way you confirmed works.
-{%- endcomment -%}
 {%- assign author_name = metaobjects.author.value.name -%}
 
 {%- assign author_articles = '' | split: ',' -%}
 
 {%- for blog in blogs -%}
-  {%- assign matches = blog.articles | where: 'metafields.blog_post.author.value.name', author_name -%}
-  {%- if matches.size > 0 -%}
-    {%- assign author_articles = author_articles | concat: matches -%}
-  {%- endif -%}
+  {%- for art in blog.articles -%}
+    {%- if art.metafields.blog_post.author.value.name == author_name -%}
+      {%- assign author_articles = author_articles | concat: [art] -%}
+    {%- endif -%}
+  {%- endfor -%}
 {%- endfor -%}
 
 {%- if author_articles.size == 0 -%}
