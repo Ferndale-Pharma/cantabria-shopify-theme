@@ -1,6 +1,10 @@
 {% comment %}
-  CL Author Blog Grid – shows articles written by the current Author metaobject **across all blogs**.
-  Fixes pagination error by building the articles array from the first blog’s matching list (ensuring it is a true ArrayDrop of Article objects) and concatenating further matches.
+  CL Author Blog Grid – v3
+  ▸ Works on an Author metaobject template (no `blog` context).
+  ▸ Gathers articles from **all** blogs whose metafield `blog_post.author` references
+    the current metaobject (compared by the metaobject-level **id**, not `system.id`).
+  ▸ Starts with an empty array created via `split: ','` so the resulting collection is
+    always an ArrayDrop that Liquid can paginate.
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
@@ -21,28 +25,28 @@
   }
 {%- endstyle -%}
 
-{%- assign current_author_id = metaobject.system.id -%}
-{%- assign current_author_name = metaobject.name.value -%}
+{%- assign current_author = metaobject -%}
+{%- assign current_author_name = current_author.name.value | default: current_author.handle -%}
 
 {%- comment -%}
-  Build `author_articles` by iterating all blogs so authors who write in
-  multiple blogs are fully represented. The first blog that has any match
-  establishes the ArrayDrop; subsequent matches are concatenated.
+  Build `author_articles` as an ArrayDrop the paginator can understand.
+  We start with an **empty array** created by splitting an empty string –
+  Shopify Liquid’s recommended way to seed an array.
 {%- endcomment -%}
 
-{%- assign author_articles = nil -%}
-{%- for b in blogs -%}
-  {%- assign matches = b.articles | where: 'metafields.blog_post.author.value.system.id', current_author_id -%}
-  {%- if matches.size > 0 -%}
-    {%- if author_articles == nil -%}
-      {%- assign author_articles = matches -%}
-    {%- else -%}
+{%- assign author_articles = '' | split: ',' -%}
+
+{%- for blog_handle in blogs -%}
+  {%- assign blog_obj = blogs[blog_handle] -%}
+  {%- if blog_obj != nil -%}
+    {%- assign matches = blog_obj.articles | where: 'metafields.blog_post.author.value.id', current_author.id -%}
+    {%- if matches.size > 0 -%}
       {%- assign author_articles = author_articles | concat: matches -%}
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
 
-{%- if author_articles == nil or author_articles.size == 0 -%}
+{%- if author_articles.size == 0 -%}
   <div class="page-width section-{{ section.id }}-padding">
     <p>{{ current_author_name | escape }} has not published any articles yet.</p>
   </div>
