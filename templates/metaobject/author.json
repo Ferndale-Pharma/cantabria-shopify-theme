@@ -47,10 +47,40 @@
         "padding_bottom": 64,
         "container_id": ""
       }
+    },
+    "author_social_links_pUi8DY": {
+      "type": "author-social-links",
+      "blocks": {
+        "website_U4awFH": {
+          "type": "website",
+          "settings": {}
+        },
+        "instagram_rPCfqY": {
+          "type": "instagram",
+          "settings": {}
+        },
+        "linkedin_hBTY7N": {
+          "type": "linkedin",
+          "settings": {}
+        },
+        "facebook_9eeMXN": {
+          "type": "facebook",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "website_U4awFH",
+        "instagram_rPCfqY",
+        "linkedin_hBTY7N",
+        "facebook_9eeMXN"
+      ],
+      "name": "Author Social Links",
+      "settings": {}
     }
   },
   "order": [
     "cl_single_image_FmpRzb",
-    "rich_text_VHEqYY"
+    "rich_text_VHEqYY",
+    "author_social_links_pUi8DY"
   ]
 }
