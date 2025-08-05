@@ -9,19 +9,6 @@
  */
 {
   "sections": {
-    "cl_single_image_FmpRzb": {
-      "type": "cl-single-image",
-      "name": "Single Image",
-      "settings": {
-        "image": "{{ metaobject.image.value }}",
-        "image_width_value": 300,
-        "image_width_unit": "px",
-        "padding_top": 64,
-        "padding_bottom": 64,
-        "full_width": true,
-        "container_id": ""
-      }
-    },
     "rich_text_VHEqYY": {
       "type": "rich-text",
       "blocks": {
@@ -43,7 +30,7 @@
         "color_scheme": "",
         "full_width": true,
         "is_heading": true,
-        "padding_top": 0,
+        "padding_top": 64,
         "padding_bottom": 0,
         "container_id": ""
       }
@@ -103,6 +90,19 @@
         "is_heading": false,
         "padding_top": 0,
         "padding_bottom": 16,
+        "container_id": ""
+      }
+    },
+    "cl_single_image_FmpRzb": {
+      "type": "cl-single-image",
+      "name": "Single Image",
+      "settings": {
+        "image": "{{ metaobject.image.value }}",
+        "image_width_value": 300,
+        "image_width_unit": "px",
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "full_width": true,
         "container_id": ""
       }
     },
@@ -174,10 +174,10 @@
     }
   },
   "order": [
-    "cl_single_image_FmpRzb",
     "rich_text_VHEqYY",
     "rich_text_LfikRn",
     "rich_text_pAFGXG",
+    "cl_single_image_FmpRzb",
     "author_social_links_pUi8DY",
     "rich_text_Cz8fCW"
   ]
