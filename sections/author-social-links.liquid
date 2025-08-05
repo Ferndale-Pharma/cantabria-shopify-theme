@@ -1,15 +1,25 @@
 {%- comment -%}
-  Author Social Links Section
-  Displays icons linking to the Author metaobject fields (website, Instagram, LinkedIn, Facebook).
-  Only renders an icon if the metaobject contains a value for that platform.
+  Author Social Links Section — list version
+  • Intended for a template *outside* a single‑author metaobject (e.g. an index page).
+  • Loops over **all Author entries** in the “Author” metaobject definition via
+      `metaobjects.authors.values` (adjust the definition handle if different).
+  • Inside each author block, renders Website / Instagram / LinkedIn / Facebook icons
+    when that author entry contains the corresponding link.
+  • Uses section blocks to decide which icon types to output (merchants can toggle/delete
+    individual blocks in the Theme Editor).
 {%- endcomment -%}
 
 {%- style -%}
+.author-social-links-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem; /* spacing between authors */
+}
 .author-social-links {
   display: flex;
   justify-content: center;
   gap: 1rem; /* spacing between icons */
-  margin: 0 auto;
 }
 .author-social-links a {
   display: inline-block;
@@ -21,46 +31,47 @@
 }
 {%- endstyle -%}
 
-{% comment %}
-  Ensure the section can access an "author" metaobject. Typically this is provided by the template, e.g. article.author or a section setting. If not available, nothing will render.
-{% endcomment %}
+{%- liquid
+  assign author = metaobjects.authors.values
+-%}
+{{ author.website_link.value }}
 
-{% if metaobject.author != blank %}
-  <div class="author-social-links">
-    {% for block in section.blocks %}
-      {% case block.type %}
-        {% when 'website' %}
-          {% if metaobject.author.website_link != blank %}
-            <a href="{{ metaobject.author.website_link }}" target="_blank" rel="noopener" aria-label="Author website" {{ block.shopify_attributes }}>
-              {% comment %}{{ 'placeholder.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'Website icon' }}{% endcomment %}
-              {{ 'product-1' | placeholder_svg_tag }}
-            </a>
-          {% endif %}
-        {% when 'instagram' %}
-          {% if metaobject.author.instagram != blank %}
-            <a href="{{ metaobject.author.instagram }}" target="_blank" rel="noopener" aria-label="Author Instagram" {{ block.shopify_attributes }}>
-              {% comment %}{{ 'placeholder.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'Instagram icon' }}{% endcomment %}
-              {{ 'product-1' | placeholder_svg_tag }}
-            </a>
-          {% endif %}
-        {% when 'linkedin' %}
-          {% if metaobject.author.linkedin != blank %}
-            <a href="{{ metaobject.author.linkedin }}" target="_blank" rel="noopener" aria-label="Author LinkedIn" {{ block.shopify_attributes }}>
-              {% comment %}{{ 'placeholder.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'LinkedIn icon' }}{% endcomment %}
-               {{ 'product-1' | placeholder_svg_tag }}
-            </a>
-          {% endif %}
-        {% when 'facebook' %}
-          {% if metaobject.author.facebook != blank %}
-            <a href="{{ metaobject.author.facebook }}" target="_blank" rel="noopener" aria-label="Author Facebook" {{ block.shopify_attributes }}>
-              {% comment %}{{ 'placeholder.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'Facebook icon' }}{% endcomment %}
-               {{ 'product-1' | placeholder_svg_tag }}
-            </a>
-          {% endif %}
-      {% endcase %}
-    {% endfor %}
+{%- if authors != blank -%}
+  <div class="author-social-links-wrapper">
+    {%- for author in authors -%}
+      <div class="author-social-links" data-author="{{ author.id }}">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'website' -%}
+              {%- if author.website_link.value != blank -%}
+                <a href="{{ author.website_link.value }}" target="_blank" rel="noopener" aria-label="Author website" {{ block.shopify_attributes }}>
+                  {{ 'placeholder.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'Website icon' }}
+                </a>
+              {%- endif -%}
+            {%- when 'instagram' -%}
+              {%- if author.instagram.value != blank -%}
+                <a href="{{ author.instagram.value }}" target="_blank" rel="noopener" aria-label="Author Instagram" {{ block.shopify_attributes }}>
+                  {{ 'placeholder.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'Instagram icon' }}
+                </a>
+              {%- endif -%}
+            {%- when 'linkedin' -%}
+              {%- if author.linkedin.value != blank -%}
+                <a href="{{ author.linkedin.value }}" target="_blank" rel="noopener" aria-label="Author LinkedIn" {{ block.shopify_attributes }}>
+                  {{ 'placeholder.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'LinkedIn icon' }}
+                </a>
+              {%- endif -%}
+            {%- when 'facebook' -%}
+              {%- if author.facebook.value != blank -%}
+                <a href="{{ author.facebook.value }}" target="_blank" rel="noopener" aria-label="Author Facebook" {{ block.shopify_attributes }}>
+                  {{ 'placeholder.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'Facebook icon' }}
+                </a>
+              {%- endif -%}
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    {%- endfor -%}
   </div>
-{% endif %}
+{%- endif -%}
 
 {% schema %}
 {
@@ -68,30 +79,14 @@
   "tag": "section",
   "class": "section author-social-links-section",
   "blocks": [
-    {
-      "type": "website",
-      "name": "Website Link",
-      "limit": 1
-    },
-    {
-      "type": "instagram",
-      "name": "Instagram Link",
-      "limit": 1
-    },
-    {
-      "type": "linkedin",
-      "name": "LinkedIn Link",
-      "limit": 1
-    },
-    {
-      "type": "facebook",
-      "name": "Facebook Link",
-      "limit": 1
-    }
+    { "type": "website",   "name": "Website Link",   "limit": 1 },
+    { "type": "instagram", "name": "Instagram Link", "limit": 1 },
+    { "type": "linkedin",  "name": "LinkedIn Link",  "limit": 1 },
+    { "type": "facebook",  "name": "Facebook Link",  "limit": 1 }
   ],
   "presets": [
     {
-      "name": "Author Social Links",
+      "name": "Author Social Links (List)",
       "blocks": [
         { "type": "website" },
         { "type": "instagram" },
