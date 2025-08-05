@@ -1,11 +1,11 @@
 {{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
+  /* Padding controls */
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
-
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -13,22 +13,20 @@
     }
   }
 
-  {%- if section.settings.image_width_unit == '%'%}
+  /* Image sizing rules, driven purely by the theme‑editor inputs */
+  {%- if section.settings.image_width_unit == '%' -%}
     .section-{{ section.id }} .single-image__img {
       display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: {{ section.settings.image_width_value }}%;
-      max-width: none;
+      margin-inline: auto;
+      width: {{ section.settings.image_width_value }}%; /* percentage width */
       height: auto;
     }
   {%- else -%}
     .section-{{ section.id }} .single-image__img {
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      margin-inline: auto;
+      max-width: {{ section.settings.image_width_value }}px; /* fixed pixel width */
       width: 100%;
-      max-width: {{ section.settings.image_width_value }}px;
       height: auto;
     }
   {%- endif -%}
@@ -37,31 +35,21 @@
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}" id="{{ section.settings.container_id }}">
   <div class="rich-text content-container gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper {% if section.settings.full_width %} page-width{% endif %}">
-      {% if section.settings.image != blank %}
-        {%- liquid
-          # Build responsive attributes dynamically so the browser picks the right srcset candidate
-          if section.settings.image_width_unit == 'px'
-            assign chosen_w = section.settings.image_width_value | at_least: 165 | at_most: 4096
-            # Generate a widths list that always includes the chosen width plus standard breakpoints
-            assign default_widths = '165,360,535,750,1070,1500,2048'
-            if chosen_w > 2048
-              assign widths_list = default_widths | append: ',' | append: chosen_w
-            else
-              assign widths_list = default_widths
-            endif
-            assign sizes_attr = '(min-width: 750px) ' | append: chosen_w | append: 'px, 100vw'
-          else
-            assign widths_list = '165,360,535,750,1070,1500,2048'
-            assign sizes_attr = '100vw'
-          endif
-        -%}
-        {{ section.settings.image | image_url: width: 4096 | image_tag:
-          loading: 'lazy',
-          widths: widths_list,
-          sizes: sizes_attr,
-          class: 'single-image__img',
-          alt: section.settings.image.alt | escape }}
-      {% endif %}
+
+      {%- if section.settings.image != blank -%}
+        {%- if section.settings.image_width_unit == 'px' -%}
+          {{ section.settings.image | image_url: width: section.settings.image_width_value | image_tag: 
+            class: 'single-image__img',
+            loading: 'lazy',
+            alt: section.settings.image.alt | escape }}
+        {%- else -%}
+          {{ section.settings.image | image_tag: 
+            class: 'single-image__img',
+            loading: 'lazy',
+            alt: section.settings.image.alt | escape }}
+        {%- endif -%}
+      {%- endif -%}
+
     </div>
   </div>
 </div>
@@ -81,21 +69,16 @@
       "type": "number",
       "id": "image_width_value",
       "label": "Image width value",
-      "default": 800
+      "default": 800,
+      "info": "Enter a pixel value or percentage, depending on the unit you select."
     },
     {
       "type": "select",
       "id": "image_width_unit",
       "label": "Width unit",
       "options": [
-        {
-          "value": "px",
-          "label": "px"
-        },
-        {
-          "value": "%",
-          "label": "%"
-        }
+        { "value": "px", "label": "px" },
+        { "value": "%", "label": "%" }
       ],
       "default": "px"
     },
@@ -136,9 +119,7 @@
     }
   ],
   "presets": [
-    {
-      "name": "Single Image"
-    }
+    { "name": "Single Image" }
   ]
 }
 {% endschema %}
