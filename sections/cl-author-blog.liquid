@@ -1,10 +1,9 @@
 {% comment %}
-  CL Author Blog Grid – v3
-  ▸ Works on an Author metaobject template (no `blog` context).
-  ▸ Gathers articles from **all** blogs whose metafield `blog_post.author` references
-    the current metaobject (compared by the metaobject-level **id**, not `system.id`).
-  ▸ Starts with an empty array created via `split: ','` so the resulting collection is
-    always an ArrayDrop that Liquid can paginate.
+  CL Author Blog Grid – v4 (fixes loop + filter)
+  ▸ Correctly loops through each Blog object (`for blog in blogs`).
+  ▸ Compares the **author name string** because that’s how you successfully matched earlier:
+        metaobjects.author.value.name == article.metafields.blog_post.author.value.name
+  ▸ Concats matches into the seed array so Liquid paginates happily.
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
@@ -25,30 +24,23 @@
   }
 {%- endstyle -%}
 
-{%- assign current_author = metaobject -%}
-{%- assign current_author_name = current_author.name.value | default: current_author.handle -%}
-
 {%- comment -%}
-  Build `author_articles` as an ArrayDrop the paginator can understand.
-  We start with an **empty array** created by splitting an empty string –
-  Shopify Liquid’s recommended way to seed an array.
+  Current author information pulled the same way you confirmed works.
 {%- endcomment -%}
+{%- assign author_name = metaobjects.author.value.name -%}
 
 {%- assign author_articles = '' | split: ',' -%}
 
-{%- for blog_handle in blogs -%}
-  {%- assign blog_obj = blogs[blog_handle] -%}
-  {%- if blog_obj != nil -%}
-    {%- assign matches = blog_obj.articles | where: 'metafields.blog_post.author.value.id', current_author.id -%}
-    {%- if matches.size > 0 -%}
-      {%- assign author_articles = author_articles | concat: matches -%}
-    {%- endif -%}
+{%- for blog in blogs -%}
+  {%- assign matches = blog.articles | where: 'metafields.blog_post.author.value.name', author_name -%}
+  {%- if matches.size > 0 -%}
+    {%- assign author_articles = author_articles | concat: matches -%}
   {%- endif -%}
 {%- endfor -%}
 
 {%- if author_articles.size == 0 -%}
   <div class="page-width section-{{ section.id }}-padding">
-    <p>{{ current_author_name | escape }} has not published any articles yet.</p>
+    <p>{{ author_name | escape }} has not published any articles yet.</p>
   </div>
 {%- else -%}
   {%- assign author_articles = author_articles | sort: 'published_at' | reverse -%}
@@ -56,7 +48,7 @@
   {%- paginate author_articles by 6 -%}
     <div class="main-blog page-width section-{{ section.id }}-padding">
       <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-        {{ current_author_name | escape }}
+        {{ author_name | escape }}
       </h1>
 
       <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
