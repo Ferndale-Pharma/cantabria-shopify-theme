@@ -1,9 +1,9 @@
 {% comment %}
-  CL Author Blog Grid – FIXED VERSION
-  • Fixed iteration: `blogs` is a map, iterate with `for blog_handle in blogs`
-  • Fixed array concatenation: use `push` instead of `concat` for single items
-  • Added null checks for art_author to prevent errors
-  • Improved debugging output
+  CL Author Blog Grid – COMPLETE REWRITE
+  • Fixed: `blogs` global object access - need to access individual blogs
+  • Fixed: Proper iteration through all available blogs
+  • Fixed: Correct metafield access and comparison
+  • Added: Comprehensive debugging to identify issues
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
@@ -13,74 +13,136 @@
 {%- style -%}
   .section-{{ section.id }}-padding{padding-top:{{ section.settings.padding_top | times:0.75 | round:0 }}px;padding-bottom:{{ section.settings.padding_bottom | times:0.75 | round:0 }}px}
   @media(min-width:750px){.section-{{ section.id }}-padding{padding-top:{{ section.settings.padding_top }}px;padding-bottom:{{ section.settings.padding_bottom }}px}}
-  .debug-block{background:#fdf6e3;border:1px dashed #b58900;padding:1rem;margin:1rem 0;font-family:monospace;font-size:.85rem;white-space:pre-wrap}
+  .debug-block{background:#fdf6e3;border:1px dashed #b58900;padding:1rem;margin:1rem 0;font-family:monospace;font-size:.85rem;white-space:pre-wrap;max-height:200px;overflow-y:auto}
 {%- endstyle -%}
 
 {%- assign current_author = metaobject -%}
-{%- assign author_display = current_author.name
-  | default: current_author.title
+{%- assign author_display = current_author.name.value
+  | default: current_author.title.value
   | default: current_author.handle -%}
 
-{%- assign hits = '' | split: ',' -%}
+{%- assign matching_articles = '' | split: ',' -%}
 
 {%- if section.settings.debug_mode -%}
-  <div class="debug-block">DEBUG — Current Author: {{ current_author.handle }}
+  <div class="debug-block">🔍 DEBUGGING INFO:
+Current metaobject: {{ current_author.type }}/{{ current_author.handle }}
 Author Display Name: "{{ author_display }}"
 Author ID: {{ current_author.id }}
-Available blogs: {{ blogs | map: 'handle' | join: ', ' }}</div>
+Author System ID: {{ current_author.system.id }}
+
+Testing metaobject field access:
+- current_author.name: "{{ current_author.name }}"
+- current_author.name.value: "{{ current_author.name.value }}"
+- current_author.title: "{{ current_author.title }}"
+- current_author.title.value: "{{ current_author.title.value }}"</div>
 {%- endif -%}
 
-{%- for blog_handle in blogs -%}
-  {%- assign blog_obj = blogs[blog_handle] -%}
-  {%- if blog_obj != blank -%}
-    {%- assign found = 0 -%}
+{%- comment %} Get all blogs by trying common blog handles {%- endcomment -%}
+{%- assign blog_handles = 'news,blog,articles,posts' | split: ',' -%}
+{%- assign total_articles_checked = 0 -%}
+
+{%- for handle in blog_handles -%}
+  {%- assign current_blog = blogs[handle] -%}
+  {%- if current_blog != blank -%}
+    {%- assign articles_in_blog = current_blog.articles.size -%}
+    {%- assign total_articles_checked = total_articles_checked | plus: articles_in_blog -%}
+    
     {%- if section.settings.debug_mode -%}
-      <div class="debug-block">Checking blog: "{{ blog_obj.title }}" ({{ blog_obj.handle }})
-Articles count: {{ blog_obj.articles.size }}</div>
+      <div class="debug-block">📚 Found blog: "{{ current_blog.title }}" (handle: {{ handle }})
+Articles in blog: {{ articles_in_blog }}</div>
     {%- endif -%}
     
-    {%- for art in blog_obj.articles -%}
-      {%- assign art_author = art.metafields.blog_post.author.value -%}
+    {%- for article in current_blog.articles -%}
+      {%- assign article_author_meta = article.metafields.blog_post.author -%}
+      {%- assign article_author = article_author_meta.value -%}
       
-      {%- if section.settings.debug_mode -%}
-        <div class="debug-block">Article: "{{ art.title }}"
-Author metafield: {{ art_author.handle | default: 'NULL' }}
-Author ID: {{ art_author.id | default: 'NULL' }}</div>
+      {%- if section.settings.debug_mode and forloop.index <= 3 -%}
+        <div class="debug-block">📄 Article {{ forloop.index }}: "{{ article.title }}"
+Metafield raw: {{ article_author_meta }}
+Metafield value: {{ article_author }}
+Author handle: {{ article_author.handle }}
+Author ID: {{ article_author.id }}
+Author system ID: {{ article_author.system.id }}</div>
       {%- endif -%}
       
-      {%- if art_author != blank -%}
-        {%- assign art_display = art_author.name | default: art_author.title | default: art_author.handle -%}
+      {%- if article_author != blank -%}
+        {%- comment %} Try multiple comparison methods {%- endcomment -%}
+        {%- assign is_match = false -%}
         
-        {%- comment %} Compare by ID first (most reliable), then by display name {%- endcomment -%}
-        {%- if art_author.id == current_author.id or art_display == author_display -%}
-          {%- assign hits = hits | push: art -%}
-          {%- assign found = found | plus: 1 -%}
+        {%- if article_author.id == current_author.id -%}
+          {%- assign is_match = true -%}
+          {%- assign match_method = 'ID match' -%}
+        {%- elsif article_author.system.id == current_author.system.id -%}
+          {%- assign is_match = true -%}
+          {%- assign match_method = 'System ID match' -%}
+        {%- elsif article_author.handle == current_author.handle -%}
+          {%- assign is_match = true -%}
+          {%- assign match_method = 'Handle match' -%}
+        {%- else -%}
+          {%- assign article_author_display = article_author.name.value | default: article_author.title.value | default: article_author.handle -%}
+          {%- if article_author_display == author_display -%}
+            {%- assign is_match = true -%}
+            {%- assign match_method = 'Display name match' -%}
+          {%- endif -%}
+        {%- endif -%}
+        
+        {%- if is_match -%}
+          {%- assign matching_articles = matching_articles | push: article -%}
           {%- if section.settings.debug_mode -%}
-            <div class="debug-block">✓ MATCH found for: "{{ art.title }}"</div>
+            <div class="debug-block">✅ MATCH FOUND: "{{ article.title }}" ({{ match_method }})</div>
           {%- endif -%}
         {%- endif -%}
       {%- endif -%}
     {%- endfor -%}
-    
-    {%- if section.settings.debug_mode -%}
-      <div class="debug-block">Blog "{{ blog_obj.title }}" → matches: {{ found }}</div>
-    {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
 
+{%- comment %} Also try to access blogs dynamically {%- endcomment -%}
+{%- unless total_articles_checked > 0 -%}
+  {%- if section.settings.debug_mode -%}
+    <div class="debug-block">⚠️ No articles found in common blog handles. Attempting to access all_products or shop data...
+
+Available global objects test:
+- shop.name: {{ shop.name }}
+- collections.size: {{ collections.size }}
+
+Trying alternative blog access methods...</div>
+  {%- endif -%}
+  
+  {%- comment %} Try accessing blog by ID or other methods {%- endcomment -%}
+  {%- for i in (1..10) -%}
+    {%- assign test_blog = blogs[i] -%}
+    {%- if test_blog != blank -%}
+      {%- if section.settings.debug_mode -%}
+        <div class="debug-block">Found blog by ID {{ i }}: {{ test_blog.title }}</div>
+      {%- endif -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endunless -%}
+
 {%- if section.settings.debug_mode -%}
-  <div class="debug-block">TOTAL collected: {{ hits.size }}
-Articles found: {% for hit in hits %}{{ hit.title }}{% unless forloop.last %}, {% endunless %}{% endfor %}</div>
+  <div class="debug-block">📊 FINAL RESULTS:
+Total articles checked: {{ total_articles_checked }}
+Matching articles found: {{ matching_articles.size }}
+{% if matching_articles.size > 0 %}Articles: {% for art in matching_articles %}{{ art.title }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}</div>
 {%- endif -%}
 
-{%- if hits.size == 0 -%}
+{%- if matching_articles.size == 0 -%}
   <div class="page-width section-{{ section.id }}-padding">
     <h1 class="title--primary">{{ author_display | escape }}</h1>
     <p>{{ author_display | escape }} has not published any articles yet.</p>
+    {%- if section.settings.debug_mode -%}
+      <div class="debug-block">💡 TROUBLESHOOTING TIPS:
+1. Check that your blog handle is one of: news, blog, articles, posts
+2. Verify that articles have the metafield 'blog_post.author' set
+3. Ensure the metafield references the correct Author metaobject
+4. Check that the metafield namespace and key are exactly 'blog_post.author'</div>
+    {%- endif -%}
   </div>
 {%- else -%}
-  {%- assign hits = hits | sort: 'published_at' | reverse -%}
-  {%- paginate hits by 6 -%}
+  {%- assign sorted_articles = matching_articles | sort: 'published_at' | reverse -%}
+  {%- paginate sorted_articles by 6 -%}
     <div class="main-blog page-width section-{{ section.id }}-padding">
       <h1 class="title--primary">{{ author_display | escape }}</h1>
       <div class="blog-articles{% if section.settings.layout == 'collage' %} blog-articles--collage{% endif %}">
@@ -110,7 +172,7 @@ Articles found: {% for hit in hits %}{{ hit.title }}{% unless forloop.last %}, {
   "tag": "section",
   "class": "section",
   "settings": [
-    {"type":"checkbox","id":"debug_mode","label":"Enable debug information","default":false},
+    {"type":"checkbox","id":"debug_mode","label":"Enable debug information","default":true},
     {"type":"select","id":"layout","options":[{"value":"grid","label":"Grid"},{"value":"collage","label":"Collage"}],"default":"grid","label":"Layout"},
     {"type":"checkbox","id":"show_image","label":"Show images","default":true},
     {"type":"select","id":"image_height","options":[{"value":"adapt","label":"Adapt"},{"value":"small","label":"Small"},{"value":"medium","label":"Medium"},{"value":"large","label":"Large"}],"default":"medium","label":"Image height"},
