@@ -1,3 +1,7 @@
+{% comment %}
+  CL Author Blog Grid – shows only articles whose Author metafield matches the current Author metaobject
+{% endcomment %}
+
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
@@ -16,19 +20,30 @@
   }
 {%- endstyle -%}
 
-{% assign authorMetaobject = metaobjects.author.value.name %}
-{% assign authorMetafield = article.metafields.blog_post.author.value.name %}
-{% if authorMetaobject == authorMetafield %}
-    <h1>Success!</h1>
-{% endif %}
-{%- paginate blog.articles by 6 -%}
+{%- comment -%}
+  Gather all articles (across every blog) whose Author metafield references
+  the current metaobject entry shown on this page.
+{%- endcomment -%}
+
+{%- assign current_author_id = metaobject.system.id -%}
+{%- assign current_author_name = metaobject.name.value -%}
+
+{%- assign author_articles = '' | split: ',' -%}
+{%- for b in blogs -%}
+  {%- assign matches = b.articles | where: 'metafields.blog_post.author.value.system.id', current_author_id -%}
+  {%- assign author_articles = author_articles | concat: matches -%}
+{%- endfor -%}
+
+{%- assign author_articles = author_articles | sort: 'published_at' | reverse -%}
+
+{%- paginate author_articles by 6 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
     <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-      {{ blog.title | escape }}
+      {{ current_author_name | escape }}
     </h1>
 
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-      {%- for article in blog.articles -%}
+      {%- for article in paginate.items -%}
         <div
           class="blog-articles__article article twcss-pb-8 md:twcss-pb-1{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {% if settings.animations_reveal_on_scroll %}
@@ -156,7 +171,7 @@
   ],
   "presets": [
     {
-      "name": "CL Author Blog Grid",
+      "name": "CL Author Blog Grid"
     }
   ]
 }
