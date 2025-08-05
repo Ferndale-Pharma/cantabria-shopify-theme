@@ -1,0 +1,100 @@
+{%- comment -%}
+  Author Social Links Section
+  Displays icons linking to the Author metaobject fields (website, Instagram, LinkedIn, Facebook).
+  Only renders an icon if the metaobject contains a value for that platform.
+{%- endcomment -%}
+
+{%- style -%}
+.author-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* spacing between icons */
+  margin: 0 auto;
+}
+.author-social-links a {
+  display: inline-block;
+}
+.author-social-links .social-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+{%- endstyle -%}
+
+{% comment %}
+  Ensure the section can access an "author" metaobject. Typically this is provided by the template, e.g. article.author or a section setting. If not available, nothing will render.
+{% endcomment %}
+
+{% if author != blank %}
+  <div class="author-social-links">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'website' %}
+          {% if author.website_link != blank %}
+            <a href="{{ author.website_link }}" target="_blank" rel="noopener" aria-label="Author website" {{ block.shopify_attributes }}>
+              {{ 'placeholder.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'Website icon' }}
+            </a>
+          {% endif %}
+        {% when 'instagram' %}
+          {% if author.instagram != blank %}
+            <a href="{{ author.instagram }}" target="_blank" rel="noopener" aria-label="Author Instagram" {{ block.shopify_attributes }}>
+              {{ 'placeholder.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'Instagram icon' }}
+            </a>
+          {% endif %}
+        {% when 'linkedin' %}
+          {% if author.linkedin != blank %}
+            <a href="{{ author.linkedin }}" target="_blank" rel="noopener" aria-label="Author LinkedIn" {{ block.shopify_attributes }}>
+              {{ 'placeholder.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'LinkedIn icon' }}
+            </a>
+          {% endif %}
+        {% when 'facebook' %}
+          {% if author.facebook != blank %}
+            <a href="{{ author.facebook }}" target="_blank" rel="noopener" aria-label="Author Facebook" {{ block.shopify_attributes }}>
+              {{ 'placeholder.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'Facebook icon' }}
+            </a>
+          {% endif %}
+      {% endcase %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Author Social Links",
+  "tag": "section",
+  "class": "section author-social-links-section",
+  "blocks": [
+    {
+      "type": "website",
+      "name": "Website Link",
+      "limit": 1
+    },
+    {
+      "type": "instagram",
+      "name": "Instagram Link",
+      "limit": 1
+    },
+    {
+      "type": "linkedin",
+      "name": "LinkedIn Link",
+      "limit": 1
+    },
+    {
+      "type": "facebook",
+      "name": "Facebook Link",
+      "limit": 1
+    }
+  ],
+  "presets": [
+    {
+      "name": "Author Social Links",
+      "blocks": [
+        { "type": "website" },
+        { "type": "instagram" },
+        { "type": "linkedin" },
+        { "type": "facebook" }
+      ]
+    }
+  ]
+}
+{% endschema %}
