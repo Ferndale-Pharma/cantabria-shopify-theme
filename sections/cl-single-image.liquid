@@ -39,16 +39,25 @@
     <div class="rich-text__wrapper {% if section.settings.full_width %} page-width{% endif %}">
       {% if section.settings.image != blank %}
         {%- liquid
-          # Build a responsive sizes attribute
+          # Build responsive attributes dynamically so the browser picks the right srcset candidate
           if section.settings.image_width_unit == 'px'
-            assign sizes_attr = '(min-width: 750px) ' | append: section.settings.image_width_value | append: 'px, 100vw'
+            assign chosen_w = section.settings.image_width_value | at_least: 165 | at_most: 4096
+            # Generate a widths list that always includes the chosen width plus standard breakpoints
+            assign default_widths = '165,360,535,750,1070,1500,2048'
+            if chosen_w > 2048
+              assign widths_list = default_widths | append: ',' | append: chosen_w
+            else
+              assign widths_list = default_widths
+            endif
+            assign sizes_attr = '(min-width: 750px) ' | append: chosen_w | append: 'px, 100vw'
           else
+            assign widths_list = '165,360,535,750,1070,1500,2048'
             assign sizes_attr = '100vw'
           endif
         -%}
-        {{ section.settings.image | image_url: width: 2048 | image_tag:
+        {{ section.settings.image | image_tag:
           loading: 'lazy',
-          widths: '165, 360, 535, 750, 1070, 1500, 2048',
+          widths: widths_list,
           sizes: sizes_attr,
           class: 'single-image__img',
           alt: section.settings.image.alt | escape }}
