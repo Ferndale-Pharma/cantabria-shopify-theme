@@ -1,8 +1,9 @@
 {% comment %}
-  CL Author Blog Grid – HANDLE‑SAFE ITERATION
-  • Root cause → `{% for blog in blogs %}` gives **handles**, not Blog objects. `blog.articles` was therefore empty ⇒ 0 matches.
-  • Fix → iterate over the map keys, then dereference: `blog_obj = blogs[blog_handle]`.
-  • Still matches on display name (handle if name missing).
+  CL Author Blog Grid – FIXED VERSION
+  • Fixed iteration: `blogs` is a map, iterate with `for blog_handle in blogs`
+  • Fixed array concatenation: use `push` instead of `concat` for single items
+  • Added null checks for art_author to prevent errors
+  • Improved debugging output
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
@@ -23,29 +24,60 @@
 {%- assign hits = '' | split: ',' -%}
 
 {%- if section.settings.debug_mode -%}
-  <div class="debug-block">DEBUG — Author display: "{{ author_display }}"</div>
+  <div class="debug-block">DEBUG — Current Author: {{ current_author.handle }}
+Author Display Name: "{{ author_display }}"
+Author ID: {{ current_author.id }}
+Available blogs: {{ blogs | map: 'handle' | join: ', ' }}</div>
 {%- endif -%}
 
 {%- for blog_handle in blogs -%}
   {%- assign blog_obj = blogs[blog_handle] -%}
-  {%- if blog_obj != nil -%}
+  {%- if blog_obj != blank -%}
     {%- assign found = 0 -%}
+    {%- if section.settings.debug_mode -%}
+      <div class="debug-block">Checking blog: "{{ blog_obj.title }}" ({{ blog_obj.handle }})
+Articles count: {{ blog_obj.articles.size }}</div>
+    {%- endif -%}
+    
     {%- for art in blog_obj.articles -%}
       {%- assign art_author = art.metafields.blog_post.author.value -%}
-      {%- assign art_display = art_author.name | default: art_author.title | default: art_author.handle -%}
-      {%- if art_display == author_display -%}
-        {%- assign hits = hits | concat: [art] -%}
-        {%- assign found = found | plus: 1 -%}
+      
+      {%- if section.settings.debug_mode -%}
+        <div class="debug-block">Article: "{{ art.title }}"
+Author metafield: {{ art_author.handle | default: 'NULL' }}
+Author ID: {{ art_author.id | default: 'NULL' }}</div>
+      {%- endif -%}
+      
+      {%- if art_author != blank -%}
+        {%- assign art_display = art_author.name | default: art_author.title | default: art_author.handle -%}
+        
+        {%- comment %} Compare by ID first (most reliable), then by display name {%- endcomment -%}
+        {%- if art_author.id == current_author.id or art_display == author_display -%}
+          {%- assign hits = hits | push: art -%}
+          {%- assign found = found | plus: 1 -%}
+          {%- if section.settings.debug_mode -%}
+            <div class="debug-block">✓ MATCH found for: "{{ art.title }}"</div>
+          {%- endif -%}
+        {%- endif -%}
       {%- endif -%}
     {%- endfor -%}
-    {%- if section.settings.debug_mode -%}<div class="debug-block">Blog "{{ blog_obj.title }}" → matches: {{ found }}</div>{%- endif -%}
+    
+    {%- if section.settings.debug_mode -%}
+      <div class="debug-block">Blog "{{ blog_obj.title }}" → matches: {{ found }}</div>
+    {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
 
-{%- if section.settings.debug_mode -%}<div class="debug-block">TOTAL collected: {{ hits.size }}</div>{%- endif -%}
+{%- if section.settings.debug_mode -%}
+  <div class="debug-block">TOTAL collected: {{ hits.size }}
+Articles found: {% for hit in hits %}{{ hit.title }}{% unless forloop.last %}, {% endunless %}{% endfor %}</div>
+{%- endif -%}
 
 {%- if hits.size == 0 -%}
-  <div class="page-width section-{{ section.id }}-padding"><p>{{ author_display | escape }} has not published any articles yet.</p></div>
+  <div class="page-width section-{{ section.id }}-padding">
+    <h1 class="title--primary">{{ author_display | escape }}</h1>
+    <p>{{ author_display | escape }} has not published any articles yet.</p>
+  </div>
 {%- else -%}
   {%- assign hits = hits | sort: 'published_at' | reverse -%}
   {%- paginate hits by 6 -%}
@@ -53,12 +85,21 @@
       <h1 class="title--primary">{{ author_display | escape }}</h1>
       <div class="blog-articles{% if section.settings.layout == 'collage' %} blog-articles--collage{% endif %}">
         {%- for article in paginate.items -%}
-          <div class="blog-articles__article article"><!-- card -->
-            {%- render 'cl-article-card', article: article, media_height: section.settings.image_height, media_aspect_ratio: article.image.aspect_ratio, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_excerpt: true -%}
+          <div class="blog-articles__article article">
+            {%- render 'cl-article-card', 
+                article: article, 
+                media_height: section.settings.image_height, 
+                media_aspect_ratio: article.image.aspect_ratio, 
+                show_image: section.settings.show_image, 
+                show_date: section.settings.show_date, 
+                show_author: section.settings.show_author, 
+                show_excerpt: true -%}
           </div>
         {%- endfor -%}
       </div>
-      {%- if paginate.pages > 1 -%}{% render 'pagination', paginate: paginate %}{%- endif -%}
+      {%- if paginate.pages > 1 -%}
+        {%- render 'pagination', paginate: paginate -%}
+      {%- endif -%}
     </div>
   {%- endpaginate -%}
 {%- endif -%}
