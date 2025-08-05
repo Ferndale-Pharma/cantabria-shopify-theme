@@ -31,19 +31,19 @@
       {%- case block.type -%}
         {%- when 'website' -%}
           <a href="{{ url }}" target="_blank" rel="noopener" aria-label="Author website" {{ block.shopify_attributes }}>
-            {{ 'product-1' | placeholder_svg_tag }}
+            {{ 'website-click-svgrepo-com.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'Website icon' }}
           </a>
         {%- when 'instagram' -%}
           <a href="{{ url }}" target="_blank" rel="noopener" aria-label="Author Instagram" {{ block.shopify_attributes }}>
-            {{ 'product-1' | placeholder_svg_tag }}
+            {{ 'website-click-svgrepo-com.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'Instagram icon' }}
           </a>
         {%- when 'linkedin' -%}
           <a href="{{ url }}" target="_blank" rel="noopener" aria-label="Author LinkedIn" {{ block.shopify_attributes }}>
-            {{ 'product-1' | placeholder_svg_tag }}
+            {{ 'website-click-svgrepo-com.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'LinkedIn icon' }}
           </a>
         {%- when 'facebook' -%}
           <a href="{{ url }}" target="_blank" rel="noopener" aria-label="Author Facebook" {{ block.shopify_attributes }}>
-            {{ 'product-1' | placeholder_svg_tag }}
+            {{ 'website-click-svgrepo-com.svg' | asset_url | image_tag: class: 'social-icon', loading: 'lazy', alt: 'Facebook icon' }}
           </a>
       {%- endcase -%}
     {%- endif -%}
