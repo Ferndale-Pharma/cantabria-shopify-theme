@@ -20,8 +20,8 @@
       "type": "cl-image",
       "name": "Single Image",
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00108_-_How_To_Layer_Antioxidants_and_SPF_-_OP1.jpg",
-        "image_width_value": 600,
+        "image": "shopify://shop_images/free-radical-antioxidant-diagram.jpg",
+        "image_width_value": 800,
         "image_width_unit": "px",
         "padding_top": 64,
         "padding_bottom": 64,
