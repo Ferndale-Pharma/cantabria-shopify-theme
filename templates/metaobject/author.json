@@ -21,9 +21,36 @@
         "full_width": true,
         "container_id": ""
       }
+    },
+    "rich_text_VHEqYY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XfUhcW": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.name.value }}",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XfUhcW"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
-    "cl_single_image_FmpRzb"
+    "cl_single_image_FmpRzb",
+    "rich_text_VHEqYY"
   ]
 }
