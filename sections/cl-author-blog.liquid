@@ -1,46 +1,34 @@
 {% comment %}
-  CL Author Blog Grid – display-name matching (case-insensitive)
-  --------------------------------------------------------------
-  An article is included only when
-      norm_article_display == norm_author_display
-  where:
-      author_display  = metaobject.name → title → handle
-      article_author_display = referenced Author’s name → title → handle
-
-  Debug mode prints both strings so you can confirm they match.
+  CL Author Blog Grid – simplified
+  --------------------------------
+  Shows articles whose Author metafield (`blog_post.author`) has the **same
+  name** as the current Author metaobject displayed on this page.
+  Matching is case-insensitive and trims whitespace.
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
-{{ 'section-main-blog.css'   | asset_url | stylesheet_tag }}
+{{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  .section-{{ section.id }}-padding{
-    padding-top:{{ section.settings.padding_top | times:0.75 | round:0 }}px;
-    padding-bottom:{{ section.settings.padding_bottom | times:0.75 | round:0 }}px}
-  @media(min-width:750px){
-    .section-{{ section.id }}-padding{
-      padding-top:{{ section.settings.padding_top }}px;
-      padding-bottom:{{ section.settings.padding_bottom }}px}}
-  .debug-block{
-    background:#fdf6e3;border:1px dashed #b58900;
-    padding:1rem;margin:1rem 0;
-    font-family:monospace;font-size:.85rem;white-space:pre-wrap}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
 {%- endstyle -%}
 
-{%- assign current_author      = metaobject -%}
-{%- assign author_display      = current_author.name.value
-  | default: current_author.title.value
-  | default: current_author.handle -%}
-{%- assign norm_author_display = author_display | strip | downcase -%}
+{%- comment -%} Resolve the author name to compare {%- endcomment -%}
+{%- assign current_author       = metaobject -%}
+{%- assign author_display_raw   = current_author.name.value | default: current_author.name | default: current_author.title.value | default: current_author.title -%}
+{%- assign author_display       = author_display_raw | strip | downcase -%}
 
 {%- assign matching_articles = '' | split: ',' -%}
-
-{%- if section.settings.debug_mode -%}
-  <div class="debug-block">
-    DEBUG — Current Author display: "{{ author_display }}"
-  </div>
-{%- endif -%}
 
 {%- assign blog_handles = 'blog,skincare-guides,expert-advice,professionals' | split: ',' -%}
 {%- for handle in blog_handles -%}
@@ -49,23 +37,8 @@
     {%- for article in blog_obj.articles -%}
       {%- assign art_author = article.metafields.blog_post.author.value -%}
       {%- if art_author -%}
-        {%- assign article_author_display = art_author.name.value
-          | default: art_author.name
-          | default: art_author.title.value
-          | default: art_author.title
-          | default: art_author.handle -%}
-        {%- assign norm_article_display = article_author_display | strip | downcase -%}
-        
-        {%- if section.settings.debug_mode and forloop.index <= 3 -%}
-          <div class="debug-block">
-            Article: "{{ article.title }}"<br>
-            &nbsp;• Article author display: "{{ article_author_display }}"<br>
-            &nbsp;• Matches current author? 
-              {% if norm_article_display == norm_author_display %}true{% else %}false{% endif %}
-          </div>
-        {%- endif -%}
-        
-        {%- if norm_article_display == norm_author_display -%}
+        {%- assign article_author_display = art_author.name.value | strip | downcase -%}
+        {%- if article_author_display == author_display -%}
           {%- assign matching_articles = matching_articles | push: article -%}
         {%- endif -%}
       {%- endif -%}
@@ -73,21 +46,16 @@
   {%- endif -%}
 {%- endfor -%}
 
-{%- if section.settings.debug_mode -%}
-  <div class="debug-block">TOTAL matching articles: {{ matching_articles.size }}</div>
-{%- endif -%}
-
 {%- if matching_articles.size == 0 -%}
   <div class="page-width section-{{ section.id }}-padding">
-    <h1 class="title--primary">{{ author_display | escape }}</h1>
-    <p>{{ author_display | escape }} has not published any articles yet.</p>
+    <h1 class="title--primary">{{ author_display_raw | escape }}</h1>
+    <p>{{ author_display_raw | escape }} has not published any articles yet.</p>
   </div>
 {%- else -%}
   {%- assign matching_articles = matching_articles | sort: 'published_at' | reverse -%}
   {%- paginate matching_articles by 6 -%}
     <div class="main-blog page-width section-{{ section.id }}-padding">
-      <h1 class="title--primary">{{ author_display | escape }}</h1>
-
+      <h1 class="title--primary">{{ author_display_raw | escape }}</h1>
       <div class="blog-articles{% if section.settings.layout == 'collage' %} blog-articles--collage{% endif %}">
         {%- for article in paginate.items -%}
           <div class="blog-articles__article article">
@@ -102,10 +70,7 @@
           </div>
         {%- endfor -%}
       </div>
-
-      {%- if paginate.pages > 1 -%}
-        {% render 'pagination', paginate: paginate %}
-      {%- endif -%}
+      {%- if paginate.pages > 1 -%}{% render 'pagination', paginate: paginate %}{%- endif -%}
     </div>
   {%- endpaginate -%}
 {%- endif -%}
@@ -116,25 +81,14 @@
   "tag": "section",
   "class": "section",
   "settings": [
-    { "type": "checkbox", "id": "debug_mode", "label": "Enable debug information", "default": false },
-    { "type": "select",   "id": "layout", "options": [
-        { "value": "grid",    "label": "Grid" },
-        { "value": "collage", "label": "Collage" }
-      ], "default": "grid", "label": "Layout" },
-    { "type": "checkbox", "id": "show_image",  "label": "Show images", "default": true },
-    { "type": "select",   "id": "image_height", "options": [
-        { "value": "adapt",  "label": "Adapt" },
-        { "value": "small",  "label": "Small"  },
-        { "value": "medium", "label": "Medium" },
-        { "value": "large",  "label": "Large"  }
-      ], "default": "medium", "label": "Image height" },
-    { "type": "checkbox", "id": "show_date",   "label": "Show date",   "default": true },
-    { "type": "checkbox", "id": "show_author", "label": "Show author", "default": false },
-    { "type": "range", "id": "padding_top",    "label": "Padding top",
-      "min": 0, "max": 100, "step": 4, "unit": "px", "default": 64 },
-    { "type": "range", "id": "padding_bottom", "label": "Padding bottom",
-      "min": 0, "max": 100, "step": 4, "unit": "px", "default": 64 }
+    {"type":"select","id":"layout","options":[{"value":"grid","label":"Grid"},{"value":"collage","label":"Collage"}],"default":"grid","label":"Layout"},
+    {"type":"checkbox","id":"show_image","label":"Show images","default":true},
+    {"type":"select","id":"image_height","options":[{"value":"adapt","label":"Adapt"},{"value":"small","label":"Small"},{"value":"medium","label":"Medium"},{"value":"large","label":"Large"}],"default":"medium","label":"Image height"},
+    {"type":"checkbox","id":"show_date","label":"Show date","default":true},
+    {"type":"checkbox","id":"show_author","label":"Show author","default":false},
+    {"type":"range","id":"padding_top","label":"Padding top","min":0,"max":100,"step":4,"unit":"px","default":64},
+    {"type":"range","id":"padding_bottom","label":"Padding bottom","min":0,"max":100,"step":4,"unit":"px","default":64}
   ],
-  "presets": [ { "name": "CL Author Blog Grid" } ]
+  "presets":[{"name":"CL Author Blog Grid"}]
 }
 {% endschema %}
