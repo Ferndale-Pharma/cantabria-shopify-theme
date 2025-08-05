@@ -1,28 +1,29 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "instant_c_fhb_h9_kf_wb_zj_wi_yk_6zrHPa": {
-      "type": "instant-cFhbH9KFWbZjWiYk",
+    "cl_single_image_FmpRzb": {
+      "type": "cl-single-image",
+      "name": "Single Image",
       "settings": {
-        "image_U5NcMoIUMGXoq7IV": "{{ metaobject.image.value }}",
-        "text_4vNcYhRTPTcmQLmh": "<h2>{{ metaobject.name.value }}<\/h2>",
-        "text_DrKamzXL87m7N9uD": "<p><em>{{ metaobject.job_title.value }}<\/em><\/p>",
-        "text_o2kz3U3HE86QWIGc": "<p><em>{{ metaobject.company.value }}<\/em><\/p>",
-        "text_3wyA9PeKcm6XSBN9": "<p>{{ metaobject.description | metafield_tag }}<\/p>",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "image": "shopify://shop_images/FERN-IMG-00110_CantabriaLabs_Blog_SunSafetyForChildren.jpg",
+        "image_width_value": 200,
+        "image_width_unit": "px",
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "full_width": true,
+        "container_id": ""
       }
     }
   },
   "order": [
-    "instant_c_fhb_h9_kf_wb_zj_wi_yk_6zrHPa"
+    "cl_single_image_FmpRzb"
   ]
 }
