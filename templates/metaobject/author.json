@@ -44,7 +44,65 @@
         "full_width": true,
         "is_heading": true,
         "padding_top": 0,
-        "padding_bottom": 64,
+        "padding_bottom": 0,
+        "container_id": ""
+      }
+    },
+    "rich_text_LfikRn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qrNUNL": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.job_title.value }}",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qrNUNL"
+      ],
+      "custom_css": [
+        "h2 {font-size: 18px; color: #121212;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 16,
+        "padding_bottom": 8,
+        "container_id": ""
+      }
+    },
+    "rich_text_pAFGXG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TR8yhp": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.company.value }}",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TR8yhp"
+      ],
+      "custom_css": [
+        "h2 {font-size: 18px; color: #121212;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 16,
         "container_id": ""
       }
     },
@@ -83,12 +141,44 @@
         "facebook_9eeMXN"
       ],
       "name": "Author Social Links",
-      "settings": {}
+      "settings": {
+        "padding_top": 16,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "rich_text_Cz8fCW": {
+      "type": "rich-text",
+      "blocks": {
+        "text_4RaNjF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ metaobject.description | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_4RaNjF"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
     "cl_single_image_FmpRzb",
     "rich_text_VHEqYY",
-    "author_social_links_pUi8DY"
+    "rich_text_LfikRn",
+    "rich_text_pAFGXG",
+    "author_social_links_pUi8DY",
+    "rich_text_Cz8fCW"
   ]
 }
