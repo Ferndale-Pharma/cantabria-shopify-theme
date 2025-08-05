@@ -160,6 +160,9 @@
       "block_order": [
         "text_4RaNjF"
       ],
+      "custom_css": [
+        "p, li {text-align: left;}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
