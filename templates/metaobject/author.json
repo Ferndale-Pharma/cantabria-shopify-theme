@@ -13,8 +13,8 @@
       "type": "cl-single-image",
       "name": "Single Image",
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00110_CantabriaLabs_Blog_SunSafetyForChildren.jpg",
-        "image_width_value": 200,
+        "image": "{{ metaobject.image.value }}",
+        "image_width_value": 300,
         "image_width_unit": "px",
         "padding_top": 64,
         "padding_bottom": 64,
