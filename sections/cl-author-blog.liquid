@@ -1,11 +1,9 @@
 {% comment %}
-  CL Author Blog Grid – v7 (metaobject‑aware)
-  • Uses the built‑in `metaobject` drop (current page entry) instead of
-    `metaobjects.author.value`.
-  • Compares **metaobject IDs** to avoid name mismatches:
-      art.metafields.blog_post.author.value.id == metaobject.id
-  • Keeps Debug mode: now shows the metaobject ID and field values so you can
-    confirm they’re coming through.
+  CL Author Blog Grid – v8 (fallback to metaobjects.author)
+  • Instead of the page‑wide `metaobject` drop (which appears blank here),
+    grab the current entry via `metaobjects.author.value` — this was the
+    source that successfully surfaced the author name in your original test.
+  • Compare IDs (with a name fallback) and expose richer debug info.
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
@@ -36,15 +34,12 @@
   }
 {%- endstyle -%}
 
-{%- assign current_author = metaobject -%}
-{%- assign current_author_id = current_author.id -%}
-{%- comment -%}
-  Try to derive a display name from common fields.
-{%- endcomment -%}
-{%- assign author_display_name = current_author.name.value
+{%- assign current_author = metaobjects.author.value -%}
+{%- assign current_author_id = current_author.id | default: current_author.system.id -%}
+{%- assign author_display_name = current_author.name
+  | default: current_author.name.value
   | default: current_author.title
-  | default: current_author.handle
--%}
+  | default: current_author.handle -%}
 
 {%- assign author_articles = '' | split: ',' -%}
 
@@ -56,9 +51,13 @@
 
 {%- for blog in blogs -%}
   {%- assign matches = blog.articles | where: 'metafields.blog_post.author.value.id', current_author_id -%}
+  {%- if matches.size == 0 -%}
+    {%- comment -%}Try name fallback if ID mismatch{%- endcomment -%}
+    {%- assign matches = blog.articles | where: 'metafields.blog_post.author.value.name', author_display_name -%}
+  {%- endif -%}
   {%- if section.settings.debug_mode %}
     <div class="debug-block">
-      Checked blog: {{ blog.title }} (handle: {{ blog.handle }}) — {{ matches.size }} match(es)
+      Checked blog: {{ blog.title }} — matches by ID/name: {{ matches.size }}
     </div>
   {%- endif -%}
   {%- if matches.size > 0 -%}
