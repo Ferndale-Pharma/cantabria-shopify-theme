@@ -1,29 +1,34 @@
 {% comment %}
-  CL Author Blog Grid – final simplified
-  -------------------------------------
-  Match rule (in priority order):
-  1. `art_author.id` == `current_author.id`   (robust)
-  2. else compare lower‑cased `name` fields.
+  CL Author Blog Grid – all‑blogs iteration & simple name/ID match
 {% endcomment %}
 
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
-{{ 'section-main-blog.css'   | asset_url | stylesheet_tag }}
+{{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  .section-{{ section.id }}-padding{padding-top:{{ section.settings.padding_top | times:0.75 | round:0 }}px;padding-bottom:{{ section.settings.padding_bottom | times:0.75 | round:0 }}px}
-  @media(min-width:750px){.section-{{ section.id }}-padding{padding-top:{{ section.settings.padding_top }}px;padding-bottom:{{ section.settings.padding_bottom }}px}}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
 {%- endstyle -%}
 
-{%- assign current_author     = metaobject -%}
-{%- assign current_author_id  = current_author.id -%}
-{%- assign author_display_raw = current_author.name | default: current_author.title | default: current_author.handle -%}
-{%- assign author_display     = author_display_raw | strip | downcase -%}
+{%- assign current_author       = metaobject -%}
+{%- assign current_author_id    = current_author.id -%}
+{%- assign author_display_raw   = current_author.name | default: current_author.title | default: current_author.handle -%}
+{%- assign author_display_clean = author_display_raw | strip | downcase -%}
 
 {%- assign matching_articles = '' | split: ',' -%}
-{%- assign blog_handles = 'blog,skincare-guides,expert-advice,professionals' | split: ',' -%}
-{%- for handle in blog_handles -%}
-  {%- assign blog_obj = blogs[handle] -%}
+
+{%- comment %} Loop every blog available in the store {%- endcomment -%}
+{%- for blog_handle in blogs -%}
+  {%- assign blog_obj = blogs[blog_handle] -%}
   {%- if blog_obj -%}
     {%- for article in blog_obj.articles -%}
       {%- assign art_author = article.metafields.blog_post.author.value -%}
@@ -31,8 +36,8 @@
         {%- if art_author.id == current_author_id -%}
           {%- assign matching_articles = matching_articles | push: article -%}
         {%- else -%}
-          {%- assign art_name = art_author.name | default: art_author.title | default: art_author.handle | strip | downcase -%}
-          {%- if art_name == author_display -%}
+          {%- assign art_display = art_author.name | default: art_author.title | default: art_author.handle | strip | downcase -%}
+          {%- if art_display == author_display_clean -%}
             {%- assign matching_articles = matching_articles | push: article -%}
           {%- endif -%}
         {%- endif -%}
@@ -84,6 +89,6 @@
     {"type":"range","id":"padding_top","label":"Padding top","min":0,"max":100,"step":4,"unit":"px","default":64},
     {"type":"range","id":"padding_bottom","label":"Padding bottom","min":0,"max":100,"step":4,"unit":"px","default":64}
   ],
-  "presets":[{"name":"CL Author Blog Grid"}]
+  "presets": [ { "name": "CL Author Blog Grid" } ]
 }
 {% endschema %}
