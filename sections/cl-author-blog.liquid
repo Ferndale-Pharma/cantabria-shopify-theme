@@ -39,7 +39,7 @@
   <p>They are not equal</p>
   {% endif %}
 </div>
-
+{% comment %}
 <div class="author-articles-section">
   <h2>Articles by {{ metaobject.name }}</h2>
   
@@ -221,13 +221,14 @@
     <p class="no-articles">No articles found for this author.</p>
   {% endif %}
 </div>
+{% endcomment %}
 
 {% comment %}
   Alternative approach using a for loop with conditional filtering:
   This is useful if you need more complex filtering logic or want to sort by date
 {% endcomment %}
 
-{% comment %}
+
 <div class="author-articles-section-alt">
   <h2>Articles by {{ metaobject.name }}</h2>
   
@@ -280,7 +281,7 @@
     <p class="no-articles">No articles found for this author.</p>
   {% endunless %}
 </div>
-{% endcomment %}
+
 
 
 {% schema %}
