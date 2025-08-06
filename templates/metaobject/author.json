@@ -184,7 +184,7 @@
         "image_height": "medium",
         "show_date": true,
         "show_author": false,
-        "padding_top": 64,
+        "padding_top": 0,
         "padding_bottom": 64
       }
     }
