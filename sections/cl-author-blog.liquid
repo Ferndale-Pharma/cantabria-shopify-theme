@@ -28,6 +28,7 @@
   This section displays all blog articles written by the current Author metaobject
 {% endcomment %}
 
+{% comment %} Debugging
 <div style="background: #f0f0f0; padding: 10px; margin: 10px 0;">
   <p><strong>Debug Info:</strong></p>
   <p>Current metaobject name: "{{ metaobject.name }}"</p>
@@ -37,16 +38,15 @@
   {% else %}
     <p>They are not equal</p>
   {% endif %}
-  
+
   <p><strong>Authors found in first 10 blog articles:</strong></p>
   {% for article in blogs.blog.articles limit: 10 %}
     {% assign author_name = article.metafields.blog_post.author.value.name %}
     <p>"{{ author_name }}" {% if author_name == metaobject.name %}← MATCH!{% endif %}</p>
   {% endfor %}
 </div>
-
+{% endcomment %}
 <div class="author-articles-section">
-  <h2>Articles by {{ metaobject.name }}</h2>
   
   {% comment %}
     Display articles from all blogs by the current author
@@ -67,9 +67,9 @@
   {% assign article_count = 0 %}
   
   <div class="main-blog page-width section-{{ section.id }}-padding">
-    <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+    <h2 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       Articles by {{ metaobject.name }}
-    </h1>
+    </h2>
 
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {% comment %} 
