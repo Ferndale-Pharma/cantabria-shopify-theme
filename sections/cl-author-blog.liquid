@@ -33,72 +33,177 @@
   <h2>Articles by {{ metaobject.name }}</h2>
   
   {% comment %}
-    Get all blog articles from multiple blogs and filter by the current author
+    Display articles from all blogs by the current author
     We're checking: blog, skincare-guides, expert-advice, professionals
-    Using for loops since where filter doesn't work reliably with deep metafields
   {% endcomment %}
   
-  {% assign author_articles = '' | split: ',' %}
-  {% assign blog_handles = 'blog,skincare-guides,expert-advice,professionals' | split: ',' %}
-  
-  {% comment %} Loop through each blog and collect matching articles {% endcomment %}
-  {% for blog_handle in blog_handles %}
-    {% for article in blogs[blog_handle].articles %}
-      {% if article.metafields.blog_post.author.value.name == metaobject.name %}
-        {% assign author_articles = author_articles | push: article %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
+  {% assign found_articles = false %}
   
   {% if author_articles.size > 0 %}
     <div class="articles-grid">
-      {% for article in author_articles %}
-        <article class="article-card">
-          {% if article.image %}
-            <div class="article-image">
-              <img src="{{ article.image | img_url: '400x300' }}" alt="{{ article.title }}" loading="lazy">
-            </div>
-          {% endif %}
-          
-          <div class="article-content">
-            <h3 class="article-title">
-              <a href="{{ article.url }}">{{ article.title }}</a>
-            </h3>
-            
-            <div class="article-meta">
-              <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">
-                {{ article.published_at | date: '%B %d, %Y' }}
-              </time>
-              
-              {% comment %} Display which blog this article is from {% endcomment %}
-              <span class="article-blog">
-                {% if article.blog.handle == 'blog' %}
-                  Blog
-                {% elsif article.blog.handle == 'skincare-guides' %}
-                  Skincare Guides
-                {% elsif article.blog.handle == 'expert-advice' %}
-                  Expert Advice
-                {% elsif article.blog.handle == 'professionals' %}
-                  Professionals
-                {% endif %}
-              </span>
-              
-              {% if article.tags.size > 0 %}
-                <div class="article-tags">
-                  {% for tag in article.tags limit: 3 %}
-                    <span class="tag">{{ tag }}</span>
-                  {% endfor %}
-                </div>
-              {% endif %}
-            </div>
-            
-            {% if article.excerpt %}
-              <p class="article-excerpt">{{ article.excerpt | truncate: 150 }}</p>
+      {% comment %} Loop through each blog and display matching articles {% endcomment %}
+      {% for article in blogs.blog.articles %}
+        {% if article.metafields.blog_post.author.value.name == metaobject.name %}
+          {% assign found_articles = true %}
+          <article class="article-card">
+            {% if article.image %}
+              <div class="article-image">
+                <img src="{{ article.image | img_url: '400x300' }}" alt="{{ article.title }}" loading="lazy">
+              </div>
             {% endif %}
             
-            <a href="{{ article.url }}" class="read-more">Read More</a>
-          </div>
-        </article>
+            <div class="article-content">
+              <h3 class="article-title">
+                <a href="{{ article.url }}">{{ article.title }}</a>
+              </h3>
+              
+              <div class="article-meta">
+                <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">
+                  {{ article.published_at | date: '%B %d, %Y' }}
+                </time>
+                
+                <span class="article-blog">Blog</span>
+                
+                {% if article.tags.size > 0 %}
+                  <div class="article-tags">
+                    {% for tag in article.tags limit: 3 %}
+                      <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              </div>
+              
+              {% if article.excerpt %}
+                <p class="article-excerpt">{{ article.excerpt | truncate: 150 }}</p>
+              {% endif %}
+              
+              <a href="{{ article.url }}" class="read-more">Read More</a>
+            </div>
+          </article>
+        {% endif %}
+      {% endfor %}
+      
+      {% for article in blogs.skincare-guides.articles %}
+        {% if article.metafields.blog_post.author.value.name == metaobject.name %}
+          {% assign found_articles = true %}
+          <article class="article-card">
+            {% if article.image %}
+              <div class="article-image">
+                <img src="{{ article.image | img_url: '400x300' }}" alt="{{ article.title }}" loading="lazy">
+              </div>
+            {% endif %}
+            
+            <div class="article-content">
+              <h3 class="article-title">
+                <a href="{{ article.url }}">{{ article.title }}</a>
+              </h3>
+              
+              <div class="article-meta">
+                <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">
+                  {{ article.published_at | date: '%B %d, %Y' }}
+                </time>
+                
+                <span class="article-blog">Skincare Guides</span>
+                
+                {% if article.tags.size > 0 %}
+                  <div class="article-tags">
+                    {% for tag in article.tags limit: 3 %}
+                      <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              </div>
+              
+              {% if article.excerpt %}
+                <p class="article-excerpt">{{ article.excerpt | truncate: 150 }}</p>
+              {% endif %}
+              
+              <a href="{{ article.url }}" class="read-more">Read More</a>
+            </div>
+          </article>
+        {% endif %}
+      {% endfor %}
+      
+      {% for article in blogs.expert-advice.articles %}
+        {% if article.metafields.blog_post.author.value.name == metaobject.name %}
+          {% assign found_articles = true %}
+          <article class="article-card">
+            {% if article.image %}
+              <div class="article-image">
+                <img src="{{ article.image | img_url: '400x300' }}" alt="{{ article.title }}" loading="lazy">
+              </div>
+            {% endif %}
+            
+            <div class="article-content">
+              <h3 class="article-title">
+                <a href="{{ article.url }}">{{ article.title }}</a>
+              </h3>
+              
+              <div class="article-meta">
+                <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">
+                  {{ article.published_at | date: '%B %d, %Y' }}
+                </time>
+                
+                <span class="article-blog">Expert Advice</span>
+                
+                {% if article.tags.size > 0 %}
+                  <div class="article-tags">
+                    {% for tag in article.tags limit: 3 %}
+                      <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              </div>
+              
+              {% if article.excerpt %}
+                <p class="article-excerpt">{{ article.excerpt | truncate: 150 }}</p>
+              {% endif %}
+              
+              <a href="{{ article.url }}" class="read-more">Read More</a>
+            </div>
+          </article>
+        {% endif %}
+      {% endfor %}
+      
+      {% for article in blogs.professionals.articles %}
+        {% if article.metafields.blog_post.author.value.name == metaobject.name %}
+          {% assign found_articles = true %}
+          <article class="article-card">
+            {% if article.image %}
+              <div class="article-image">
+                <img src="{{ article.image | img_url: '400x300' }}" alt="{{ article.title }}" loading="lazy">
+              </div>
+            {% endif %}
+            
+            <div class="article-content">
+              <h3 class="article-title">
+                <a href="{{ article.url }}">{{ article.title }}</a>
+              </h3>
+              
+              <div class="article-meta">
+                <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">
+                  {{ article.published_at | date: '%B %d, %Y' }}
+                </time>
+                
+                <span class="article-blog">Professionals</span>
+                
+                {% if article.tags.size > 0 %}
+                  <div class="article-tags">
+                    {% for tag in article.tags limit: 3 %}
+                      <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              </div>
+              
+              {% if article.excerpt %}
+                <p class="article-excerpt">{{ article.excerpt | truncate: 150 }}</p>
+              {% endif %}
+              
+              <a href="{{ article.url }}" class="read-more">Read More</a>
+            </div>
+          </article>
+        {% endif %}
       {% endfor %}
     </div>
   {% else %}
