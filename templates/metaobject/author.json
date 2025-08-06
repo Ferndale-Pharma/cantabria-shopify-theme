@@ -179,8 +179,7 @@
       "type": "cl-author-blog",
       "name": "CL Author Blog Grid",
       "settings": {
-        "debug_mode": true,
-        "layout": "collage",
+        "layout": "grid",
         "show_image": true,
         "image_height": "medium",
         "show_date": true,
