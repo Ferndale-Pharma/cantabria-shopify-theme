@@ -17,7 +17,8 @@
 .author-social-links a {
   display: inline-block;
 }
-.author-social-links .social-icon {
+.author-social-links .social-icon,
+.author-social-links .icon {
   width: 24px;
   height: 24px;
   object-fit: contain;
@@ -46,7 +47,7 @@
           </a>
         {%- when 'instagram' -%}
           <a href="{{ url }}" target="_blank" rel="noopener" aria-label="Author Instagram" {{ block.shopify_attributes }}>
-            {% render 'icon-instagram', class: 'social-icon'%}
+            {% render 'icon-instagram'%}
           </a>
         {%- when 'linkedin' -%}
           <a href="{{ url }}" target="_blank" rel="noopener" aria-label="Author LinkedIn" {{ block.shopify_attributes }}>
