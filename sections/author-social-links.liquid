@@ -43,19 +43,19 @@
       {%- case block.type -%}
         {%- when 'website' -%}
           <a href="{{ url }}" target="_blank" rel="noopener" aria-label="Author website" {{ block.shopify_attributes }}>
-           <img src="{{ 'website-click-svgrepo-com.svg' | asset_url }}" width="24" height="24" class="social-icon" loading="lazy" alt="Website icon">
+           {% render 'icon-facebook' %}
           </a>
         {%- when 'instagram' -%}
           <a href="{{ url }}" target="_blank" rel="noopener" aria-label="Author Instagram" {{ block.shopify_attributes }}>
-            {% render 'icon-instagram'%}
+            {% render 'icon-instagram' %}
           </a>
         {%- when 'linkedin' -%}
           <a href="{{ url }}" target="_blank" rel="noopener" aria-label="Author LinkedIn" {{ block.shopify_attributes }}>
-            <img src="{{ 'website-click-svgrepo-com.svg' | asset_url }}" width="24" height="24" class="social-icon" loading="lazy" alt="LinkedIn icon">
+            {% render 'icon-facebook' %}
           </a>
         {%- when 'facebook' -%}
           <a href="{{ url }}" target="_blank" rel="noopener" aria-label="Author Facebook" {{ block.shopify_attributes }}>
-            <img src="{{ 'website-click-svgrepo-com.svg' | asset_url }}" width="24" height="24" class="social-icon" loading="lazy" alt="Facebook icon">
+            {% render 'icon-facebook' %}
           </a>
       {%- endcase -%}
     {%- endif -%}
