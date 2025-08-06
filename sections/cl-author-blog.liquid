@@ -56,172 +56,115 @@
   {% assign found_articles = false %}
   
   <div class="articles-grid">
-    {% comment %} Loop through each blog and display matching articles, sorted by date {% endcomment %}
-    {% assign sorted_blog_articles = blogs.blog.articles | sort: 'published_at' | reverse %}
-    {% for article in sorted_blog_articles %}
-      {% if article.metafields.blog_post.author.value.name == metaobject.name %}
-        {% assign found_articles = true %}
-        <article class="article-card">
-          {% if article.image %}
-            <div class="article-image">
-              <img src="{{ article.image | img_url: '400x300' }}" alt="{{ article.title }}" loading="lazy" width="400" height="300">
-            </div>
-          {% endif %}
-          
-          <div class="article-content">
-            <h3 class="article-title">
-              <a href="{{ article.url }}">{{ article.title }}</a>
-            </h3>
-            
-            <div class="article-meta">
-              <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">
-                {{ article.published_at | date: '%B %d, %Y' }}
-              </time>
-              
-              <span class="article-blog">Blog</span>
-              
-              {% if article.tags.size > 0 %}
-                <div class="article-tags">
-                  {% for tag in article.tags limit: 3 %}
-                    <span class="tag">{{ tag }}</span>
-                  {% endfor %}
-                </div>
-              {% endif %}
-            </div>
-            
-            {% if article.excerpt %}
-              <p class="article-excerpt">{{ article.excerpt | truncate: 150 }}</p>
-            {% endif %}
-            
-            <a href="{{ article.url }}" class="read-more">Read More</a>
-          </div>
-        </article>
-      {% endif %}
-    {% endfor %}
+    {% comment %} 
+      Perfect chronological sorting approach:
+      Create a timeline by repeatedly finding the newest unprocessed article
+      Use a string to track already displayed article IDs
+    {% endcomment %}
     
-    {% assign sorted_skincare_articles = blogs.skincare-guides.articles | sort: 'published_at' | reverse %}
-    {% for article in sorted_skincare_articles %}
-      {% if article.metafields.blog_post.author.value.name == metaobject.name %}
-        {% assign found_articles = true %}
-        <article class="article-card">
-          {% if article.image %}
-            <div class="article-image">
-              <img src="{{ article.image | img_url: '400x300' }}" alt="{{ article.title }}" loading="lazy" width="400" height="300">
-            </div>
-          {% endif %}
-          
-          <div class="article-content">
-            <h3 class="article-title">
-              <a href="{{ article.url }}">{{ article.title }}</a>
-            </h3>
-            
-            <div class="article-meta">
-              <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">
-                {{ article.published_at | date: '%B %d, %Y' }}
-              </time>
-              
-              <span class="article-blog">Skincare Guides</span>
-              
-              {% if article.tags.size > 0 %}
-                <div class="article-tags">
-                  {% for tag in article.tags limit: 3 %}
-                    <span class="tag">{{ tag }}</span>
-                  {% endfor %}
-                </div>
-              {% endif %}
-            </div>
-            
-            {% if article.excerpt %}
-              <p class="article-excerpt">{{ article.excerpt | truncate: 150 }}</p>
-            {% endif %}
-            
-            <a href="{{ article.url }}" class="read-more">Read More</a>
-          </div>
-        </article>
-      {% endif %}
-    {% endfor %}
+    {% assign displayed_ids = '' %}
+    {% assign max_articles = 50 %}
     
-    {% assign sorted_expert_articles = blogs.expert-advice.articles | sort: 'published_at' | reverse %}
-    {% for article in sorted_expert_articles %}
-      {% if article.metafields.blog_post.author.value.name == metaobject.name %}
+    {% for i in (1..max_articles) %}
+      {% assign newest_article = null %}
+      {% assign newest_date = '' %}
+      {% assign newest_blog_name = '' %}
+      
+      {% comment %} Find newest article from blog {% endcomment %}
+      {% for article in blogs.blog.articles %}
+        {% if article.metafields.blog_post.author.value.name == metaobject.name %}
+          {% unless displayed_ids contains article.id %}
+            {% if newest_date == '' or article.published_at > newest_date %}
+              {% assign newest_article = article %}
+              {% assign newest_date = article.published_at %}
+              {% assign newest_blog_name = 'Blog' %}
+            {% endif %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+      
+      {% comment %} Find newest article from skincare-guides {% endcomment %}
+      {% for article in blogs.skincare-guides.articles %}
+        {% if article.metafields.blog_post.author.value.name == metaobject.name %}
+          {% unless displayed_ids contains article.id %}
+            {% if newest_date == '' or article.published_at > newest_date %}
+              {% assign newest_article = article %}
+              {% assign newest_date = article.published_at %}
+              {% assign newest_blog_name = 'Skincare Guides' %}
+            {% endif %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+      
+      {% comment %} Find newest article from expert-advice {% endcomment %}
+      {% for article in blogs.expert-advice.articles %}
+        {% if article.metafields.blog_post.author.value.name == metaobject.name %}
+          {% unless displayed_ids contains article.id %}
+            {% if newest_date == '' or article.published_at > newest_date %}
+              {% assign newest_article = article %}
+              {% assign newest_date = article.published_at %}
+              {% assign newest_blog_name = 'Expert Advice' %}
+            {% endif %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+      
+      {% comment %} Find newest article from professionals {% endcomment %}
+      {% for article in blogs.professionals.articles %}
+        {% if article.metafields.blog_post.author.value.name == metaobject.name %}
+          {% unless displayed_ids contains article.id %}
+            {% if newest_date == '' or article.published_at > newest_date %}
+              {% assign newest_article = article %}
+              {% assign newest_date = article.published_at %}
+              {% assign newest_blog_name = 'Professionals' %}
+            {% endif %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+      
+      {% comment %} If we found an article, display it and mark as processed {% endcomment %}
+      {% if newest_article %}
         {% assign found_articles = true %}
+        {% assign displayed_ids = displayed_ids | append: ',' | append: newest_article.id %}
+        
         <article class="article-card">
-          {% if article.image %}
+          {% if newest_article.image %}
             <div class="article-image">
-              <img src="{{ article.image | img_url: '400x300' }}" alt="{{ article.title }}" loading="lazy" width="400" height="300">
+              <img src="{{ newest_article.image | img_url: '400x300' }}" alt="{{ newest_article.title }}" loading="lazy" width="400" height="300">
             </div>
           {% endif %}
           
           <div class="article-content">
             <h3 class="article-title">
-              <a href="{{ article.url }}">{{ article.title }}</a>
+              <a href="{{ newest_article.url }}">{{ newest_article.title }}</a>
             </h3>
             
             <div class="article-meta">
-              <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">
-                {{ article.published_at | date: '%B %d, %Y' }}
+              <time datetime="{{ newest_article.published_at | date: '%Y-%m-%d' }}">
+                {{ newest_article.published_at | date: '%B %d, %Y' }}
               </time>
               
-              <span class="article-blog">Expert Advice</span>
+              <span class="article-blog">{{ newest_blog_name }}</span>
               
-              {% if article.tags.size > 0 %}
+              {% if newest_article.tags.size > 0 %}
                 <div class="article-tags">
-                  {% for tag in article.tags limit: 3 %}
+                  {% for tag in newest_article.tags limit: 3 %}
                     <span class="tag">{{ tag }}</span>
                   {% endfor %}
                 </div>
               {% endif %}
             </div>
             
-            {% if article.excerpt %}
-              <p class="article-excerpt">{{ article.excerpt | truncate: 150 }}</p>
+            {% if newest_article.excerpt %}
+              <p class="article-excerpt">{{ newest_article.excerpt | truncate: 150 }}</p>
             {% endif %}
             
-            <a href="{{ article.url }}" class="read-more">Read More</a>
+            <a href="{{ newest_article.url }}" class="read-more">Read More</a>
           </div>
         </article>
-      {% endif %}
-    {% endfor %}
-    
-        {% assign sorted_professional_articles = blogs.professionals.articles | sort: 'published_at' | reverse %}
-    {% for article in sorted_professional_articles %}
-      {% if article.metafields.blog_post.author.value.name == metaobject.name %}
-        {% assign found_articles = true %}
-        <article class="article-card">
-          {% if article.image %}
-            <div class="article-image">
-              <img src="{{ article.image | img_url: '400x300' }}" alt="{{ article.title }}" loading="lazy" width="400" height="300">
-            </div>
-          {% endif %}
-          
-          <div class="article-content">
-            <h3 class="article-title">
-              <a href="{{ article.url }}">{{ article.title }}</a>
-            </h3>
-            
-            <div class="article-meta">
-              <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">
-                {{ article.published_at | date: '%B %d, %Y' }}
-              </time>
-              
-              <span class="article-blog">Professionals</span>
-              
-              {% if article.tags.size > 0 %}
-                <div class="article-tags">
-                  {% for tag in article.tags limit: 3 %}
-                    <span class="tag">{{ tag }}</span>
-                  {% endfor %}
-                </div>
-              {% endif %}
-            </div>
-            
-            {% if article.excerpt %}
-              <p class="article-excerpt">{{ article.excerpt | truncate: 150 }}</p>
-            {% endif %}
-            
-            <a href="{{ article.url }}" class="read-more">Read More</a>
-          </div>
-        </article>
+      {% else %}
+        {% comment %} No more articles found, break the loop {% endcomment %}
+        {% break %}
       {% endif %}
     {% endfor %}
   </div>
