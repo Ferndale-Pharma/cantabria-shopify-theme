@@ -182,7 +182,7 @@
           data-articles-per-batch="{{ articles_per_batch }}"
           data-total-articles="{{ article_count }}"
         >
-          Load More Articles
+          Load more articles
         </button>
       </div>
     {% endif %}
@@ -249,18 +249,18 @@
           setTimeout(() => {
             loadMoreBtn.parentElement.style.display = 'none';
           }, 300);
-        } else {
+        //} else {
           // Update button text to show remaining count
-          const remaining = totalArticles - currentlyShown;
-          loadMoreBtn.textContent = `Load More Articles (${remaining} remaining)`;
+        //  const remaining = totalArticles - currentlyShown;
+         // loadMoreBtn.textContent = `Load More Articles (${remaining} remaining)`;
         }
       });
       
       // Initialize button text with count
-      const remaining = totalArticles - currentlyShown;
-      if (remaining > 0) {
-        loadMoreBtn.textContent = `Load More Articles (${remaining} remaining)`;
-      }
+      //const remaining = totalArticles - currentlyShown;
+      //if (remaining > 0) {
+       // loadMoreBtn.textContent = `Load More Articles (${remaining} remaining)`;
+      //}
     });
   </script>
   
