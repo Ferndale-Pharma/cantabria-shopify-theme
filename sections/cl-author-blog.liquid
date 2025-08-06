@@ -49,52 +49,53 @@
   <h2>Articles by {{ metaobject.name }}</h2>
   
   {% comment %}
-    Collect articles from all blogs by the current author
-    We're checking: blog, skincare-guides, expert-advice, professionals
+    Display articles from all blogs by the current author, sorted by date
+    We'll iterate through all blogs with sorted articles (newest first)
   {% endcomment %}
   
-  {% assign all_articles = '' | split: '' %}
   {% assign found_articles = false %}
+  {% assign all_matching_articles = '' | split: '' %}
   
-  {% comment %} Collect articles from blog {% endcomment %}
-  {% for article in blogs.blog.articles %}
+  {% comment %} Collect all matching articles into one array {% endcomment %}
+  {% assign sorted_blog_articles = blogs.blog.articles | sort: 'published_at' | reverse %}
+  {% for article in sorted_blog_articles %}
     {% if article.metafields.blog_post.author.value.name == metaobject.name %}
       {% assign found_articles = true %}
-      {% assign all_articles = all_articles | concat: article %}
+      {% assign all_matching_articles = all_matching_articles | concat: article %}
     {% endif %}
   {% endfor %}
   
-  {% comment %} Collect articles from skincare-guides {% endcomment %}
-  {% for article in blogs.skincare-guides.articles %}
+  {% assign sorted_skincare_articles = blogs.skincare-guides.articles | sort: 'published_at' | reverse %}
+  {% for article in sorted_skincare_articles %}
     {% if article.metafields.blog_post.author.value.name == metaobject.name %}
       {% assign found_articles = true %}
-      {% assign all_articles = all_articles | concat: article %}
+      {% assign all_matching_articles = all_matching_articles | concat: article %}
     {% endif %}
   {% endfor %}
   
-  {% comment %} Collect articles from expert-advice {% endcomment %}
-  {% for article in blogs.expert-advice.articles %}
+  {% assign sorted_expert_articles = blogs.expert-advice.articles | sort: 'published_at' | reverse %}
+  {% for article in sorted_expert_articles %}
     {% if article.metafields.blog_post.author.value.name == metaobject.name %}
       {% assign found_articles = true %}
-      {% assign all_articles = all_articles | concat: article %}
+      {% assign all_matching_articles = all_matching_articles | concat: article %}
     {% endif %}
   {% endfor %}
   
-  {% comment %} Collect articles from professionals {% endcomment %}
-  {% for article in blogs.professionals.articles %}
+  {% assign sorted_professional_articles = blogs.professionals.articles | sort: 'published_at' | reverse %}
+  {% for article in sorted_professional_articles %}
     {% if article.metafields.blog_post.author.value.name == metaobject.name %}
       {% assign found_articles = true %}
-      {% assign all_articles = all_articles | concat: article %}
+      {% assign all_matching_articles = all_matching_articles | concat: article %}
     {% endif %}
   {% endfor %}
   
-  {% comment %} Sort articles by published_at date (newest first) {% endcomment %}
-  {% assign sorted_articles = all_articles | sort: 'published_at' | reverse %}
+  {% comment %} Now sort all collected articles by published_at date {% endcomment %}
+  {% assign final_sorted_articles = all_matching_articles | sort: 'published_at' | reverse %}
   
   <div class="articles-grid">
-    {% comment %} Display all articles sorted by date {% endcomment %}
-    {% for article in sorted_articles %}
-      {% comment %} Determine which blog this article belongs to by checking article IDs {% endcomment %}
+    {% comment %} Loop through each article in chronological order {% endcomment %}
+    {% for article in final_sorted_articles %}
+      {% comment %} Determine which blog this article belongs to {% endcomment %}
       {% assign blog_name = 'Blog' %}
       {% for blog_article in blogs.blog.articles %}
         {% if blog_article.id == article.id %}
