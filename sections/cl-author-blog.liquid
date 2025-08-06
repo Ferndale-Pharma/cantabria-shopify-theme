@@ -24,47 +24,145 @@
   }
 {%- endstyle -%}
 
-{%- assign cur_auth          = metaobject -%}
-{%- assign cur_auth_id       = cur_auth.id -%}
-{%- assign cur_auth_name_raw = cur_auth.name | default: cur_auth.title | default: cur_auth.handle -%}
-{%- assign cur_auth_name     = cur_auth_name_raw | strip | downcase -%}
+{% comment %}
+  Author Blog Articles Section
+  This section displays all blog articles written by the current Author metaobject
+{% endcomment %}
 
-{%- assign printed = 0 -%}
-
-<div class="main-blog page-width section-{{ section.id }}-padding">
-  <h1 class="title--primary">{{ cur_auth_name_raw | escape }}</h1>
-  <div class="blog-articles{% if section.settings.layout == 'collage' %} blog-articles--collage{% endif %}">
-
-  {%- comment -%} Iterate through every blog in the shop {%- endcomment -%}
-  {%- for blog_key in blogs -%}
-    {%- assign blog = blogs[blog_key] -%}
-    {%- for article in blog.articles -%}
-      {%- assign art_author = article.metafields.blog_post.author.value -%}
-      {%- if art_author -%}
-        {%- assign art_name = art_author.name | default: art_author.title | default: art_author.handle | strip | downcase -%}
-        {%- if art_author.id == cur_auth_id or art_name == cur_auth_name -%}
-          {%- assign printed = printed | plus: 1 -%}
-          <div class="blog-articles__article article">
-            {%- render 'cl-article-card',
-              article:            article,
-              media_height:       section.settings.image_height,
-              media_aspect_ratio: article.image.aspect_ratio,
-              show_image:         section.settings.show_image,
-              show_date:          section.settings.show_date,
-              show_author:        section.settings.show_author,
-              show_excerpt:       true -%}
+<div class="author-articles-section">
+  <h2>Articles by {{ metaobject.name }}</h2>
+  
+  {% comment %}
+    Get all blog articles from multiple blogs and filter by the current author
+    We're checking: blog, skincare-guides, expert-advice, professionals
+  {% endcomment %}
+  
+  {% assign author_articles = '' | split: ',' %}
+  
+  {% comment %} Collect articles from all blogs {% endcomment %}
+  {% assign blog_articles = blogs.blog.articles | where: 'metafields.blog_post.author.value.name', metaobject.name %}
+  {% assign skincare_articles = blogs.skincare-guides.articles | where: 'metafields.blog_post.author.value.name', metaobject.name %}
+  {% assign expert_articles = blogs.expert-advice.articles | where: 'metafields.blog_post.author.value.name', metaobject.name %}
+  {% assign professional_articles = blogs.professionals.articles | where: 'metafields.blog_post.author.value.name', metaobject.name %}
+  
+  {% comment %} Combine all articles into one array {% endcomment %}
+  {% assign author_articles = author_articles | concat: blog_articles | concat: skincare_articles | concat: expert_articles | concat: professional_articles %}
+  
+  {% if author_articles.size > 0 %}
+    <div class="articles-grid">
+      {% for article in author_articles %}
+        <article class="article-card">
+          {% if article.image %}
+            <div class="article-image">
+              <img src="{{ article.image | img_url: '400x300' }}" alt="{{ article.title }}" loading="lazy">
+            </div>
+          {% endif %}
+          
+          <div class="article-content">
+            <h3 class="article-title">
+              <a href="{{ article.url }}">{{ article.title }}</a>
+            </h3>
+            
+            <div class="article-meta">
+              <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">
+                {{ article.published_at | date: '%B %d, %Y' }}
+              </time>
+              
+              {% comment %} Display which blog this article is from {% endcomment %}
+              <span class="article-blog">
+                {% if article.blog.handle == 'blog' %}
+                  Blog
+                {% elsif article.blog.handle == 'skincare-guides' %}
+                  Skincare Guides
+                {% elsif article.blog.handle == 'expert-advice' %}
+                  Expert Advice
+                {% elsif article.blog.handle == 'professionals' %}
+                  Professionals
+                {% endif %}
+              </span>
+              
+              {% if article.tags.size > 0 %}
+                <div class="article-tags">
+                  {% for tag in article.tags limit: 3 %}
+                    <span class="tag">{{ tag }}</span>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
+            
+            {% if article.excerpt %}
+              <p class="article-excerpt">{{ article.excerpt | truncate: 150 }}</p>
+            {% endif %}
+            
+            <a href="{{ article.url }}" class="read-more">Read More</a>
           </div>
-        {%- endif -%}
-      {%- endif -%}
-    {%- endfor -%}
-  {%- endfor -%}
-
-  </div>
-
-  {%- if printed == 0 -%}
-    <p>{{ cur_auth_name_raw | escape }} has not published any articles yet.</p>
-  {%- endif -%}
+        </article>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="no-articles">No articles found for this author.</p>
+  {% endif %}
 </div>
+
+{% comment %}
+  Alternative approach using a for loop with conditional filtering:
+  This is useful if you need more complex filtering logic or want to sort by date
+{% endcomment %}
+
+{% comment %}
+<div class="author-articles-section-alt">
+  <h2>Articles by {{ metaobject.name }}</h2>
+  
+  {% assign all_author_articles = '' | split: ',' %}
+  {% assign found_articles = false %}
+  
+  {% comment %} Loop through all blogs and collect matching articles {% endcomment %}
+  {% for article in blogs.blog.articles %}
+    {% if article.metafields.blog_post.author.value.name == metaobject.name %}
+      {% assign all_author_articles = all_author_articles | push: article %}
+      {% assign found_articles = true %}
+    {% endif %}
+  {% endfor %}
+  
+  {% for article in blogs.skincare-guides.articles %}
+    {% if article.metafields.blog_post.author.value.name == metaobject.name %}
+      {% assign all_author_articles = all_author_articles | push: article %}
+      {% assign found_articles = true %}
+    {% endif %}
+  {% endfor %}
+  
+  {% for article in blogs.expert-advice.articles %}
+    {% if article.metafields.blog_post.author.value.name == metaobject.name %}
+      {% assign all_author_articles = all_author_articles | push: article %}
+      {% assign found_articles = true %}
+    {% endif %}
+  {% endfor %}
+  
+  {% for article in blogs.professionals.articles %}
+    {% if article.metafields.blog_post.author.value.name == metaobject.name %}
+      {% assign all_author_articles = all_author_articles | push: article %}
+      {% assign found_articles = true %}
+    {% endif %}
+  {% endfor %}
+  
+  {% comment %} Sort by published date (newest first) {% endcomment %}
+  {% assign sorted_articles = all_author_articles | sort: 'published_at' | reverse %}
+  
+  <div class="articles-grid">
+    {% for article in sorted_articles %}
+      <article class="article-card">
+        <h3><a href="{{ article.url }}">{{ article.title }}</a></h3>
+        <time>{{ article.published_at | date: '%B %d, %Y' }}</time>
+        <span class="blog-name">{{ article.blog.title }}</span>
+      </article>
+    {% endfor %}
+  </div>
+  
+  {% unless found_articles %}
+    <p class="no-articles">No articles found for this author.</p>
+  {% endunless %}
+</div>
+{% endcomment %}
 
 {% schema %}
 {
