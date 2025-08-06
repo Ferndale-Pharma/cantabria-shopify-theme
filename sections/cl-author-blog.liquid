@@ -35,18 +35,20 @@
   {% comment %}
     Get all blog articles from multiple blogs and filter by the current author
     We're checking: blog, skincare-guides, expert-advice, professionals
+    Using for loops since where filter doesn't work reliably with deep metafields
   {% endcomment %}
-  {%comment %}
+  
   {% assign author_articles = '' | split: ',' %}
+  {% assign blog_handles = 'blog,skincare-guides,expert-advice,professionals' | split: ',' %}
   
-  {% comment %} Collect articles from all blogs {% endcomment %}
-  {% assign blog_articles = blogs.blog.articles | where: article.metafields.blog_post.author.value.name, metaobject.name %}
-  {% assign skincare_articles = blogs.skincare-guides.articles | where: article.metafields.blog_post.author.value.name, metaobject.name %}
-  {% assign expert_articles = blogs.expert-advice.articles | where: article.metafields.blog_post.author.value.name, metaobject.name %}
-  {% assign professional_articles = blogs.professionals.articles | where: article.metafields.blog_post.author.value.name, metaobject.name %}
-  
-  {% comment %} Combine all articles into one array {% endcomment %}
-  {% assign author_articles = author_articles | concat: blog_articles | concat: skincare_articles | concat: expert_articles | concat: professional_articles %}
+  {% comment %} Loop through each blog and collect matching articles {% endcomment %}
+  {% for blog_handle in blog_handles %}
+    {% for article in blogs[blog_handle].articles %}
+      {% if article.metafields.blog_post.author.value.name == metaobject.name %}
+        {% assign author_articles = author_articles | push: article %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
   
   {% if author_articles.size > 0 %}
     <div class="articles-grid">
@@ -103,14 +105,13 @@
     <p class="no-articles">No articles found for this author.</p>
   {% endif %}
 </div>
-{% endcomment %}
 
 {% comment %}
   Alternative approach using a for loop with conditional filtering:
   This is useful if you need more complex filtering logic or want to sort by date
 {% endcomment %}
 
-
+{% comment %}
 <div class="author-articles-section-alt">
   <h2>Articles by {{ metaobject.name }}</h2>
   
@@ -163,6 +164,7 @@
     <p class="no-articles">No articles found for this author.</p>
   {% endunless %}
 </div>
+{% endcomment %}
 
 
 {% schema %}
