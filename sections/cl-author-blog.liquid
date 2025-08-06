@@ -40,10 +40,10 @@
   {% assign author_articles = '' | split: ',' %}
   
   {% comment %} Collect articles from all blogs {% endcomment %}
-  {% assign blog_articles = blogs.blog.articles | where: 'metafields.blog_post.author.value.name', metaobject.name %}
-  {% assign skincare_articles = blogs.skincare-guides.articles | where: 'metafields.blog_post.author.value.name', metaobject.name %}
-  {% assign expert_articles = blogs.expert-advice.articles | where: 'metafields.blog_post.author.value.name', metaobject.name %}
-  {% assign professional_articles = blogs.professionals.articles | where: 'metafields.blog_post.author.value.name', metaobject.name %}
+  {% assign blog_articles = blogs.blog.articles | where: article.metafields.blog_post.author.value.name, metaobject.name %}
+  {% assign skincare_articles = blogs.skincare-guides.articles | where: article.metafields.blog_post.author.value.name, metaobject.name %}
+  {% assign expert_articles = blogs.expert-advice.articles | where: article.metafields.blog_post.author.value.name, metaobject.name %}
+  {% assign professional_articles = blogs.professionals.articles | where: article.metafields.blog_post.author.value.name, metaobject.name %}
   
   {% comment %} Combine all articles into one array {% endcomment %}
   {% assign author_articles = author_articles | concat: blog_articles | concat: skincare_articles | concat: expert_articles | concat: professional_articles %}
