@@ -62,7 +62,9 @@
   
   {% assign found_articles = false %}
   {% assign displayed_ids = '' %}
-  {% assign max_articles = 9 %}
+  {% assign max_articles = 100 %}
+  {% assign articles_per_batch = 9 %}
+  {% assign article_count = 0 %}
   
   <div class="main-blog page-width section-{{ section.id }}-padding">
     <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
@@ -136,14 +138,22 @@
         {% comment %} If we found an article, display it and mark as processed {% endcomment %}
         {% if newest_article %}
           {% assign found_articles = true %}
+          {% assign article_count = article_count | plus: 1 %}
           {% assign displayed_ids = displayed_ids | append: ',' | append: newest_article.id %}
           
+          {% comment %} Determine if this article should be initially visible or hidden {% endcomment %}
+          {% assign is_initially_visible = false %}
+          {% if article_count <= articles_per_batch %}
+            {% assign is_initially_visible = true %}
+          {% endif %}
+          
           <div
-            class="blog-articles__article article twcss-pb-8 md:twcss-pb-1{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            class="blog-articles__article article twcss-pb-8 md:twcss-pb-1{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}{% unless is_initially_visible %} author-articles-hidden{% endunless %}"
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
-              style="--animation-order: {{ forloop.index }};"
+              style="--animation-order: {{ article_count }};"
             {% endif %}
+            data-article-index="{{ article_count }}"
           >
             {%- render 'cl-article-card',
               article: newest_article,
@@ -162,7 +172,97 @@
         {% endif %}
       {% endfor %}
     </div>
+
+    {% comment %} Load More Button (only show if there are more than 9 articles) {% endcomment %}
+    {% if article_count > articles_per_batch %}
+      <div class="author-articles-load-more" style="text-align: center; margin: 2rem 0;">
+        <button 
+          id="author-articles-load-more-btn" 
+          class="btn button button--primary"
+          data-articles-per-batch="{{ articles_per_batch }}"
+          data-total-articles="{{ article_count }}"
+        >
+          Load More Articles
+        </button>
+      </div>
+    {% endif %}
   </div>
+
+  {% comment %} CSS for hiding articles initially {% endcomment %}
+  <style>
+    .author-articles-hidden {
+      display: none;
+    }
+    
+    .author-articles-load-more {
+      transition: opacity 0.3s ease;
+    }
+    
+    .author-articles-load-more.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+  </style>
+
+  {% comment %} JavaScript for Load More functionality {% endcomment %}
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const loadMoreBtn = document.getElementById('author-articles-load-more-btn');
+      
+      if (!loadMoreBtn) return;
+      
+      const articlesPerBatch = parseInt(loadMoreBtn.getAttribute('data-articles-per-batch'));
+      const totalArticles = parseInt(loadMoreBtn.getAttribute('data-total-articles'));
+      let currentlyShown = articlesPerBatch;
+      
+      loadMoreBtn.addEventListener('click', function() {
+        // Calculate how many more articles to show
+        const nextBatch = Math.min(currentlyShown + articlesPerBatch, totalArticles);
+        
+        // Show the next batch of articles
+        for (let i = currentlyShown + 1; i <= nextBatch; i++) {
+          const article = document.querySelector(`[data-article-index="${i}"]`);
+          if (article) {
+            article.classList.remove('author-articles-hidden');
+            
+            // Add a small delay for each article for a nice staggered effect
+            setTimeout(() => {
+              article.style.opacity = '0';
+              article.style.transform = 'translateY(20px)';
+              article.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+              
+              requestAnimationFrame(() => {
+                article.style.opacity = '1';
+                article.style.transform = 'translateY(0)';
+              });
+            }, (i - currentlyShown - 1) * 100);
+          }
+        }
+        
+        currentlyShown = nextBatch;
+        
+        // Hide the button if all articles are now shown
+        if (currentlyShown >= totalArticles) {
+          loadMoreBtn.parentElement.classList.add('hidden');
+          
+          // Optional: Change button text to indicate completion
+          setTimeout(() => {
+            loadMoreBtn.parentElement.style.display = 'none';
+          }, 300);
+        } else {
+          // Update button text to show remaining count
+          const remaining = totalArticles - currentlyShown;
+          loadMoreBtn.textContent = `Load More Articles (${remaining} remaining)`;
+        }
+      });
+      
+      // Initialize button text with count
+      const remaining = totalArticles - currentlyShown;
+      if (remaining > 0) {
+        loadMoreBtn.textContent = `Load More Articles (${remaining} remaining)`;
+      }
+    });
+  </script>
   
   {% unless found_articles %}
     <p class="no-articles">No articles found for this author.</p>
