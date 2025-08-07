@@ -1,0 +1,433 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "faq_groups_9az4yV": {
+      "type": "faq-groups",
+      "blocks": {
+        "faq_QR4G7i": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Delivery",
+            "title": "How long does delivery take?",
+            "answer": "<p>For GB customers, we endeavour to provide  a next working day delivery service for orders placed by 12:00pm on a working day Monday to Friday. For clarity, any orders placed on a Friday will be for Monday delivery.  During busy periods, your orders may sometimes take a little longer to process and may take up to 3-5 working days. If you are in the Scottish Highlands and Islands, the couriers we work with provide a 2-day delivery service from date of despatch. The delivery service to NI is normally  2-5 days. If you are ordering from the Channel Islands it will be at least a 2 day delivery service from the date of despatch.</p>"
+          }
+        },
+        "faq_jdQYpL": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Delivery",
+            "title": "Which countries do you deliver to?",
+            "answer": "<p>Great Britain, Northern Ireland and Channel Islands.</p>"
+          }
+        },
+        "faq_9GDDPm": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Delivery",
+            "title": "Do you offer free delivery?",
+            "answer": "<p>We offer free delivery in Great Britain (excluding Scottish Highlands & Islands) for orders over £20. For the other eligible countries and regions, we offer free delivery on orders over £150.</p>"
+          }
+        },
+        "faq_zfKarY": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Delivery",
+            "title": "Can I track my order?",
+            "answer": "<p>When your order is in transit you will receive a text and/or email from the courier. While DPD is our main courier, from time to time other couriers may be used, and not all send updates. If you have any questions about delivery, please email customerservice@ferndalepharma.co.uk.</p>"
+          }
+        },
+        "faq_DNWqRV": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Delivery",
+            "title": "Can I change my delivery address after placing an order?",
+            "answer": "<p>Please contact us as soon as possible via email customerservice@ferndalepharma.co.uk. If your order hasn’t been despatched yet, we may be able to change it.</p>"
+          }
+        },
+        "faq_rccNGW": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Returns",
+            "title": "Can I return my order?",
+            "answer": "<p>If for any reason you are not happy with your purchase, you may return any unopened and unused items to us within 14 days of receipt for a refund*, exchange or replacement. </p><p>*If you require a refund, we will refund the price paid by you for the goods (including the initial standard delivery charge, but not the additional cost of any premium delivery option that was chosen). <br/></p>"
+          }
+        },
+        "faq_iyh8Ud": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Returns",
+            "title": "How do I start a return?",
+            "answer": "<p>Please contact our Customer Service Team via email customerservice@ferndalepharma.co.uk with your order number. We'll provide return instructions or you can check the full returns process on our <a href=\"/policies/refund-policy\" title=\"Refund Policy\"><strong>Returns page</strong></a>.</p>"
+          }
+        },
+        "faq_cJUKrf": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Returns",
+            "title": "My products arrived damaged/faulty, what do I do?",
+            "answer": "<p>If your products are damaged or faulty when you receive them, please contact Customer Service by email customerservice@ferndalepharma.co.uk or on 0800 0195322 within 48 hours of receiving your order. A member of the Customer Service team will help you and work out the best solution for you.</p>"
+          }
+        },
+        "faq_HEeFd7": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Returns",
+            "title": "How long does delivery take?",
+            "answer": "<p>No, we have a Freepost address so this provides free return shipping at every Post Office. Our Freepost returns address is:</p><p>Freepost FERNDALE PHARMA<br/>LS23 7FX</p><p>Our Freepost address insures you for up to £50, should your return exceed this, please increase the insurance, should you wish, at your cost.</p>"
+          }
+        },
+        "faq_TFhBDH": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "Are HELIOCARE products suitable to use during pregnancy?",
+            "answer": "<p>There are no known risks of using HELIOCARE products during pregnancy and breastfeeding. However, HELIOCARE products are not tested on pregnant and breastfeeding women and for this reason, we would advise you to consult a health or skincare professional before use.</p>"
+          }
+        },
+        "faq_NUVkTV": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "What age can you use topical HELIOCARE and HELIOCARE capsules from?",
+            "answer": "<p>HELIOCARE topical products can be used on infants from the age of 3. However there are HELIOCARE paediatric products which have been specially formulated for use on children from the age of 6 months. Although our guidance is that babies and young children should not be exposed to direct sun. </p><p>From the age of 3 children's skin starts to become less fragile. If you wanted to move onto the other HELIOCARE topical products at this stage, you could do so. Generally, we recommend that you continue to use the paediatric products until the cosmetic feel and look of the products becomes important to your child, and where this may affect their use of the products.</p><p>HELIOCARE capsules can be used by children from the age of 4 upwards.</p>"
+          }
+        },
+        "faq_KH9nQj": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "Are HELIOCARE products vegan?",
+            "answer": "<p>HELIOCARE and HELIOCARE 360° topical & oral products do not contain any animal derived components and therefore are classed as vegan friendly.</p>"
+          }
+        },
+        "faq_PFqDY7": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "Are HELIOCARE products tested on animals?",
+            "answer": "<p>Cantabria Labs, Spain, the manufacturers of HELIOCARE, are dedicated to improving the health and lives of people worldwide, bringing them products that meet rigorous safety standards so that their customers can use them with complete confidence. Cantabria Labs do not test their cosmetics on animals and they never request that third parties carry out such tests on their behalf. They are fully compliant with current European cosmetic product legislation prohibiting animal testing, both with respect to its end products and to the raw materials and ingredients used in its formulations.</p><p>Cantabria Labs asses the safety of their cosmetic products through the latest human volunteer in-vivo methods and laboratory based in-vitro studies.</p><p>Cantabria Labs manufacture their products in Europe and their latest sustainable production and R&D facility in the north of Spain focuses on maximizing the recyclability of materials and will use geothermal energy and renewable sources for its energy needs.</p>"
+          }
+        },
+        "faq_LtbkHc": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "What's the difference between the different oral capsules?",
+            "answer": "<p>Each HELIOCARE 360° skin supplement is designed with unique benefits in mind - targeting different skin concerns such as aging, pigmentation, or daily sun defence. While they all contain <a href=\"/blogs/skincare-guides/6-benefits-of-fernblock\" title=\"6 Benefits of Fernblock®\"><strong>Fernblock®</strong></a> for powerful antioxidant and photoprotective support, they vary in their additional ingredients to suit specific skin needs.</p><p>To find out which supplement is right for your skin type and lifestyle, check out our detailed guide here: <a href=\"/blogs/expert-advice/which-heliocare-360-skin-supplements-are-right-for-me\" title=\"Which HELIOCARE 360° skin supplements are right for me?\"><strong>Which HELIOCARE 360° Skin Supplements Are Right For Me?</strong></a><br/><br/></p>"
+          }
+        },
+        "faq_Ve7DDR": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "Are HELIOCARE products reef friendly?",
+            "answer": "<p>There is growing scientific evidence that certain UV filters, specifically octinoxate and oxybenzone, may have harmful effects on coral reefs and marine ecosystems. In response to these environmental concerns, several countries have implemented bans on sunscreens containing these ingredients.</p><p>All HELIOCARE products are completely free from both octinoxate and oxybenzone. Cantabria Labs is deeply committed to environmental responsibility and the protection of marine life.﻿</p><p>The company actively follows the latest scientific research and international regulatory developments concerning the ecological impact of sunscreen ingredients. As part of this commitment, Cantabria Labs ensures that its formulations not only meet current environmental standards but are also promptly updated to reflect new findings and regulations aimed at preserving the health of our oceans.</p>"
+          }
+        },
+        "faq_rtwWN9": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "How much HELIOCARE sunscreen should I apply?",
+            "answer": "<p>For effective protection, apply at least a teaspoon (5ml) of sunscreen to your face and neck - roughly the amount of 2 fingers lengths, and about 2 tablespoons (30ml) for your entire body.</p><p>Be sure to apply it 30 minutes before sun exposure and reapply every 2 hours, or more often if you’re swimming or sweating.</p><p>Don’t forget easily missed spots like ears, the back of the neck, and the tops of feet and hands. Consistent and generous application is key to maintaining proper protection.<br/></p>"
+          }
+        },
+        "faq_XcHL69": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "Do HELIOCARE products contain physical or mineral filters?",
+            "answer": "<p>The majority of HELIOCARE products, with the exception of <a href=\"/products/heliocare-360-mineral-tolerance-fluid\" title=\"HELIOCARE 360° Mineral Tolerance Fluid SPF50\"><strong>HELIOCARE 360° Mineral Tolerance Fluid</strong></a> & <a href=\"/products/heliocare-360-pediatrics-mineral\" title=\"HELIOCARE 360° Pediatrics Mineral SPF50+\"><strong>HELIOCARE 360° Pediatrics Mineral Fluid</strong></a>, contain a combination of mineral and non-mineral filters. This allows the highest level of protection in a combination of product textures to ensure that everyone can find a HELIOCARE product that suits their skin perfectly, and that they love to use every morning.</p>"
+          }
+        },
+        "faq_dbL7Rx": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "What's the star rating of HELIOCARE products?",
+            "answer": "<p>HELIOCARE products are not tested against the Boots Star Rating, which although used in the UK, has not been adopted as a major international standard.</p><p>It has, however, been recognised that consumers need a clearer way of establishing the level of UVA protection that they get from products, which is why the latest HELIOCARE range (HELIOCARE 360°) and any future developments are given a PA + rating, which is an internationally recognised standard. In addition, Cantabria Labs have started to feature the UVA circle logo in any new products, which signifies that the sunscreen offers at least one-third of its SPF rating as UVA protection - a key requirement under EU recommendations. This ensures that you’re getting broad-spectrum coverage against both UVB (which causes burning) and UVA (which contributes to skin aging and long-term damage). This inclusion will roll out into existing products throughout 2026.</p>"
+          }
+        },
+        "faq_jfg33R": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "Do you offer samples to try before you buy?",
+            "answer": "<p>Yes, we’d be happy to provide samples where available and help you find the best HELIOCARE SPF for your skin type and condition. Our team can guide you to the most suitable HELIOCARE product - whether you have sensitive skin, pigmentation concerns, or other specific needs.</p><p>Just <a href=\"/pages/contact\" title=\"Contact\"><strong>get in touch with us</strong></a>, and we’ll be happy to assist!<br/></p>"
+          }
+        },
+        "faq_aMdKEP": {
+          "type": "faq",
+          "settings": {
+            "group_title": "HELIOCARE",
+            "title": "What skin tones are the coloured/tinted products suitable for?",
+            "answer": "<p>Our coloured HELIOCARE products are currently best suited for lighter skin tones, typically those in the Fitzpatrick Skin Types I to III range. These formulations offer natural-looking coverage and protection for fair to medium skin tones.</p><p>We understand the importance of inclusivity and are actively working with our product development team to expand the tinted range to better serve Fitzpatrick Types IV to VI. In the meantime, our non-tinted HELIOCARE 360° products offer the same high-level protection and are suitable for all skin types and tones.</p><p>If you’re unsure which product is best for your skin, our team is always happy to help you find the right match.</p>"
+          }
+        },
+        "faq_ffirHL": {
+          "type": "faq",
+          "settings": {
+            "group_title": "BIRETIX",
+            "title": "Can BIRETIX products be used during pregnancy?",
+            "answer": "<p>We recommend speaking with your healthcare provider before using BIRETIX products during pregnancy.</p><p>Some BIRETIX formulations contain active ingredients such as retinoids (like <a href=\"/blogs/expert-advice/retinsphere-technology\" title=\"RetinSphere® Technology\"><strong>RetinSphere® Technology</strong></a>) or salicylic acid, which are not generally recommended during pregnancy or breastfeeding. However, not all products in the BIRETIX range contain these ingredients, and some may be suitable depending on your individual skin needs and medical guidance.</p><p>If you’re pregnant or breastfeeding and looking for safe ways to manage blemish-prone skin, our team is happy to help you identify suitable options and alternatives - just <a href=\"/pages/contact\" title=\"Contact\"><strong>get in touch</strong></a>!</p>"
+          }
+        },
+        "faq_47WmUX": {
+          "type": "faq",
+          "settings": {
+            "group_title": "BIRETIX",
+            "title": "Are BIRETIX products tested on animals?",
+            "answer": "<p>Cantabria Labs, Spain, the manufacturers of BIRETIX, are dedicated to improving the health and lives of people worldwide, bringing them products that meet rigorous safety standards so that their customers can use them with complete confidence. Cantabria Labs do not test their cosmetics on animals and they never request that third parties carry out such tests on their behalf. They are fully compliant with current European cosmetic product legislation prohibiting animal testing, both with respect to its end products and to the raw materials and ingredients used in its formulations.</p><p>Cantabria Labs asses the safety of their cosmetic products through the latest human volunteer in-vivo methods and laboratory based in-vitro studies.</p><p>Cantabria Labs manufacture their products in Europe and their latest sustainable production and R&D facility in the north of Spain focuses on maximizing the recyclability of materials and will use geothermal energy and renewable sources for its energy needs.</p>"
+          }
+        },
+        "faq_rYDfdn": {
+          "type": "faq",
+          "settings": {
+            "group_title": "BIRETIX",
+            "title": "Can I use BIRETIX on sensitive skin?",
+            "answer": "<p>Yes, some BIRETIX products can be suitable for sensitive skin  - especially when used with the right support products like <a href=\"/products/biretix-isorepair\" title=\"BIRETIX Isorepair\"><strong>BIRETIX Isorepair</strong></a>.</p><p>The BIRETIX range is designed to target blemish-prone skin with advanced technologies such as <a href=\"/blogs/expert-advice/retinsphere-technology\" title=\"RetinSphere® Technology\"><strong>RetinSphere®</strong></a> and <a href=\"/blogs/expert-advice/biopep-15\" title=\"BIOPEP-15\"><strong>BIOPEP-15</strong></a>, but certain formulations may include active ingredients like exfoliating acids or retinoid-like complexes, which can be intense for very sensitive or reactive skin.</p><p>To help protect and soothe sensitive skin, we recommend incorporating BIRETIX Isorepair - a nourishing, reparative moisturiser specifically formulated to support skin undergoing treatment. It helps to restore the skin barrier, reduce dryness, and improve comfort without clogging pores.</p><p>If you have sensitive skin:</p><ul><li>Start BIRETIX treatments slowly (e.g., every other day)</li><li>Perform a patch test before full use</li><li>Pair with BIRETIX Isorepair to maintain hydration and minimise irritation</li><li>If you're unsure which products are best for your skin type, our team is always happy to advise.</li></ul>"
+          }
+        },
+        "faq_g3kx4k": {
+          "type": "faq",
+          "settings": {
+            "group_title": "BIRETIX",
+            "title": "Can BIRETIX products be used alongside acne medication?",
+            "answer": "<p>Yes, BIRETIX products can be used in combination with medical prescription treatments. BIRETIX products provide at home regimes for safe and effective use as a standalone treatment regime or for safe use in combination with medical prescription treatments.</p>"
+          }
+        },
+        "faq_4yzXTR": {
+          "type": "faq",
+          "settings": {
+            "group_title": "BIRETIX",
+            "title": "Are BIRETIX products vegan?",
+            "answer": "<p>The following BIRETIX products are not suitable for vegans:</p><ul><li><a href=\"/products/biretix-cleanser\" title=\"BIRETIX Cleanser\"><strong>Cleanser</strong></a> – contains propolis extract</li><li><a href=\"/products/biretix-duo\" title=\"BIRETIX Duo Anti-Blemish Gel\"><strong>Duo</strong></a> –  contains honey extract</li><li><a href=\"/products/biretix-tri-active-anti-blemish-gel\" title=\"BIRETIX Tri-Active Anti-Blemish Gel\"><strong>Tri-Active Gel</strong></a> – contains honey extract</li><li><a href=\"/products/biretix-tri-active-spray\" title=\"BIRETIX Tri-Active Spray\"><strong>Tri-Active Spray</strong></a> – contain honey extract</li></ul>"
+          }
+        },
+        "faq_zHJfra": {
+          "type": "faq",
+          "settings": {
+            "group_title": "BIRETIX",
+            "title": "What age can you use BIRETIX from?",
+            "answer": "<p>All BIRETIX formulations have been dermatologically tested and are suitable for use in children over 10 years old. However, it’s important to consider whether the child has entered puberty, as the skin's needs and response to active ingredients can vary depending on their stage of development. Some children may experience early changes, while others may not show signs until later.</p><p>If you’re unsure whether BIRETIX is appropriate for your child’s skin, we recommend consulting a healthcare professional or contacting our team for personalised advice.</p>"
+          }
+        },
+        "faq_RFynrH": {
+          "type": "faq",
+          "settings": {
+            "group_title": "BIRETIX",
+            "title": "Can you use BIRETIX on broken skin?",
+            "answer": "<p>No, we do not recommend applying BIRETIX products to broken, irritated, or compromised skin.</p><p>Many BIRETIX formulas contain active ingredients such as exfoliating acids or retinoid-like technologies that may cause stinging, discomfort, or further irritation if applied to areas where the skin barrier is damaged (e.g., open blemishes, cuts, or raw skin).</p><p>If your skin is broken or healing, it’s best to allow it time to recover first. In the meantime, you can support skin repair with a soothing and restorative product like <a href=\"/products/biretix-isorepair\" title=\"BIRETIX Isorepair\"><strong>BIRETIX Isorepair</strong></a>, which is specially formulated to hydrate, calm, and help restore the skin barrier.</p>"
+          }
+        },
+        "faq_QGci9X": {
+          "type": "faq",
+          "settings": {
+            "group_title": "BIRETIX",
+            "title": "Do you need to wear SPF when using BIRETIX products?",
+            "answer": "<p>Yes - wearing SPF is an absolute must when using BIRETIX products.</p><p>Many BIRETIX formulations contain active ingredients such as retinoid-like technologies and exfoliating acids that can make your skin more sensitive to the sun. Without proper protection, your skin may be more prone to irritation, redness, and sun damage - even on cloudy days.</p><p>To keep your skin healthy and protected, we highly recommend incorporating a high-level, broad-spectrum SPF into your daily routine, even if you're indoors.</p><p>For a complete and balanced skincare solution, we suggest the <a href=\"https://cantabrialabs.co.uk/products/biretix-regime?variant=50816335380808\" title=\"BIRETIX Anti-Blemish Treat & Protect Regime\"><strong>BIRETIX Anti-Blemish Treat & Protect Regime</strong></a>. This curated set includes everything you need to manage blemish-prone skin while keeping it soothed, hydrated, and protected, including the <a href=\"/products/heliocare-360-gel-oil-free\" title=\"HELIOCARE 360° Gel Oil-Free SPF50\"><strong>HELIOCARE 360° Gel Oil-Free</strong></a>, an SPF designed specifically for breakout-prone skin.</p>"
+          }
+        },
+        "faq_rJrBgg": {
+          "type": "faq",
+          "settings": {
+            "group_title": "ENDOCARE",
+            "title": "Can ENDOCARE products be used during pregnancy?",
+            "answer": "<p>We recommend speaking with your healthcare provider before using ENDOCARE products during pregnancy.</p><p>Some ENDOCARE formulations contain active ingredients such as retinoids or exfoliating acids, which may not be suitable during pregnancy - particularly those that influence skin cell turnover, like retinol. While not all ENDOCARE products contain these actives, it's important to assess each one individually.</p><p>If you need help choosing suitable products during pregnancy, our team is happy to assist.<br/><br/></p>"
+          }
+        },
+        "faq_G8yXjG": {
+          "type": "faq",
+          "settings": {
+            "group_title": "ENDOCARE",
+            "title": "Are ENDOCARE products vegan?",
+            "answer": "<p>No, ENDOCARE products are not considered vegan.</p><p>While some ENDOCARE formulations may not contain  animal-derived ingredients, some key ingredients such as SCA®), a growth factor complex derived from snail secretion -are not vegan-friendly.<br/><br/></p>"
+          }
+        },
+        "faq_RwEzxe": {
+          "type": "faq",
+          "settings": {
+            "group_title": "ENDOCARE",
+            "title": "Can I use ENDOCARE vitamin C products alongside other vitamin C products in my routine?",
+            "answer": "<p>We don’t recommend layering multiple vitamin C products in the same routine, as it can increase the risk of irritation without providing added benefit.</p><p>ENDOCARE vitamin C products are formulated with clinically effective concentrations of stabilised vitamin C, often combined with other powerful ingredients like ferulic acid or hyaluronic acid, to deliver targeted antioxidant protection and skin-brightening benefits. Using additional vitamin C products at the same time may overload the skin, especially if you have sensitive or reactive skin.<br/><br/></p>"
+          }
+        },
+        "faq_zFgbmi": {
+          "type": "faq",
+          "settings": {
+            "group_title": "NEORETIN",
+            "title": "Can I use NEORETIN products whilst pregnant?",
+            "answer": "<p>Some NEORETIN products are not recommended during pregnancy, while others may be suitable but we always advise consulting your healthcare provider before use.</p><p>Many NEORETIN formulations contain active ingredients like <a href=\"/blogs/expert-advice/retinsphere-technology\" title=\"RetinSphere® Technology\"><strong>RetinSphere® Technology</strong></a> (retinoids), glycolic acid, and salicylic acid, which are commonly advised against during pregnancy.</p><p>If you’re pregnant or breastfeeding and looking to manage pigmentation or uneven tone, we’re happy to help you find safe and effective alternatives.</p>"
+          }
+        },
+        "faq_8kq36q": {
+          "type": "faq",
+          "settings": {
+            "group_title": "NEORETIN",
+            "title": "Are NEORETIN products vegan?",
+            "answer": "<p>NEORETIN products are not certified vegan and may contain animal-derived ingredients.</p>"
+          }
+        },
+        "faq_HdErVh": {
+          "type": "faq",
+          "settings": {
+            "group_title": "NEORETIN",
+            "title": "Will NEORETIN products help with hormonal pigmentation?",
+            "answer": "<p>The NEORETIN range is designed to target uneven skin tone and hyperpigmentation and can be particularly effective for hormonal pigmentation when used consistently and in combination with broad-spectrum SPF protection.</p>"
+          }
+        },
+        "faq_hNciyj": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Loyalty Rewards",
+            "title": "How many reward points do I earn for each order?",
+            "answer": "<p>You will earn 10 points for every £1 you spend. On every product page you can see how many points you will earn for each purchase of one product.</p>"
+          }
+        },
+        "faq_8FWYpX": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Loyalty Rewards",
+            "title": "How do I redeem my points?",
+            "answer": "<p>You can redeem your points in your account or by clicking on the blue icon \"Loyalty Rewards\" in the bottom right of your screen. Click \"Redeem\" on the discount reward that you wish to redeem and then \"Apply discount now\".</p>"
+          }
+        },
+        "faq_T3Gfnh": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Loyalty Rewards",
+            "title": "How do I refer my friend?",
+            "answer": "<p>You can find the refer your friend link in your account or by clicking on the blue icon \"Loyalty Rewards\" in the bottom right of your screen. Simply copy your referral link and send it to your friend; they will receive 10% off their first order. Once they have placed an order, you will receive 500 points.<br/></p>"
+          }
+        },
+        "faq_DBBJjC": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Loyalty Rewards",
+            "title": "I redeemed the wrong discount reward, can I refund my points?",
+            "answer": "<p>Yes, if you click on the blue icon \"Loyalty Rewards\" in the bottom right of your screen and go to \"My discounts\", you can click \"Refund\" on the reward that you don't want.</p>"
+          }
+        },
+        "faq_F9fhjH": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Loyalty Rewards",
+            "title": "Why haven't I received my reward points after referring my friend?",
+            "answer": "<p>There could a number of reasons why you haven't received your reward points yet: they may not have placed an order yet, they may not have used your referral link or there may have been a technical issue with the website. If you think you should have received reward points, please contact our Customer Service team customerservice@ferndalepharma.co.uk and provide any helpful information such as email addresses, order details etc.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_QR4G7i",
+        "faq_jdQYpL",
+        "faq_9GDDPm",
+        "faq_zfKarY",
+        "faq_DNWqRV",
+        "faq_rccNGW",
+        "faq_iyh8Ud",
+        "faq_cJUKrf",
+        "faq_HEeFd7",
+        "faq_TFhBDH",
+        "faq_NUVkTV",
+        "faq_KH9nQj",
+        "faq_PFqDY7",
+        "faq_LtbkHc",
+        "faq_Ve7DDR",
+        "faq_rtwWN9",
+        "faq_XcHL69",
+        "faq_dbL7Rx",
+        "faq_jfg33R",
+        "faq_aMdKEP",
+        "faq_ffirHL",
+        "faq_47WmUX",
+        "faq_rYDfdn",
+        "faq_g3kx4k",
+        "faq_4yzXTR",
+        "faq_zHJfra",
+        "faq_RFynrH",
+        "faq_QGci9X",
+        "faq_rJrBgg",
+        "faq_G8yXjG",
+        "faq_RwEzxe",
+        "faq_zFgbmi",
+        "faq_8kq36q",
+        "faq_HdErVh",
+        "faq_hNciyj",
+        "faq_8FWYpX",
+        "faq_T3Gfnh",
+        "faq_DBBJjC",
+        "faq_F9fhjH"
+      ],
+      "name": "Grouped FAQs",
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_NGMtW6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_N7Ff8H": {
+          "type": "heading",
+          "settings": {
+            "heading": "Can't find the answer that you're looking for?",
+            "heading_size": "h2"
+          }
+        },
+        "text_8tGqbT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please contact our Customer Service team who are perfectly placed to answer any questions you may have. <br/><br/></p>"
+          }
+        },
+        "button_bfnjKj": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact us",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_N7Ff8H",
+        "text_8tGqbT",
+        "button_bfnjKj"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq_groups_9az4yV",
+    "rich_text_NGMtW6"
+  ]
+}

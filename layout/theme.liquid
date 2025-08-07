@@ -34,7 +34,7 @@
       <meta name='description' content='{{ page_description | escape }}'>
     {% endif %}
 
-    {% if template contains 'noindexnofollow' or template contains 'ninf' %}
+    {% if template contains 'noindexnofollow' or template contains 'ninf' or template contains 'author'%}
       <meta name='robots' content='noindex,nofollow'>
     {% endif %}
 
@@ -309,17 +309,7 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-    <!-- Hotjar Tracking Code for Cantabria Labs -->
-    <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:5284892,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
+
   </head>
 
   <body class='twcss-antialiased gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}'>
@@ -327,6 +317,48 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MX4988JF"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <!-- UTM Tracking Script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        function getUTMParam(name) {
+          const urlParams = new URLSearchParams(window.location.search);
+          let value = urlParams.get(name);
+          if (value) {
+            sessionStorage.setItem(name, value);
+          } else {
+            value = sessionStorage.getItem(name);
+          }
+          return value || '';
+        }
+      
+        const utmSource = getUTMParam('utm_source');
+        const utmMedium = getUTMParam('utm_medium');
+        const utmCampaign = getUTMParam('utm_campaign');
+        const utmContent = getUTMParam('utm_content');
+      
+        // If no UTM at all, don't bother
+        if (utmSource || utmMedium || utmCampaign || utmContent) {
+          fetch('/cart/update.js', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              attributes: {
+                'utm_source': utmSource,
+                'utm_medium': utmMedium,
+                'utm_campaign': utmCampaign,
+                'utm_content': utmContent
+              }
+            })
+          }).then(function(response) {
+            if (!response.ok) {
+              console.error('UTM capture failed:', response.statusText);
+            }
+          });
+        }
+      });
+    </script>
     <a class='skip-to-content-link button visually-hidden' href='#MainContent'>
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -400,5 +432,66 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src='{{ 'cart-drawer.js' | asset_url }}' defer='defer'></script>
     {%- endif -%}
+
+<!-- Hotjar – loads only when Shopify analytics consent is granted -->
+    <script>
+    (function () {
+      /* ---------- CONFIG ---------- */
+      const HOTJAR_ID = 5284892;          /* ← your numeric Hotjar Site ID */
+      const RETRY_MS  = 500;              /* delay while waiting for Shopify core */
+      const MAX_TRIES = 12;               /* 12 × 500 ms = 6 s total */
+    
+      /* ---------- HELPERS ---------- */
+      const loadHotjar = () => {
+        if (window.hj) return;            /* already loaded on this page */
+        (function(h,o,t,j,a,r){
+          h.hj = h.hj || function(){ (h.hj.q = h.hj.q || []).push(arguments) };
+          h._hjSettings = { hjid: HOTJAR_ID, hjsv: 6 };
+          a = o.getElementsByTagName('head')[0];
+          r = o.createElement('script'); r.async = 1;
+          r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+          a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        console.log('[Hotjar] injected');
+      };
+    
+      const onShopifyReady = () => {
+        Shopify.loadFeatures(
+          [{ name: 'consent-tracking-api', version: '0.1' }],
+          err => {
+            if (err) { console.error('[Hotjar] loadFeatures error:', err); return; }
+    
+            const privacy = Shopify.customerPrivacy;
+            const maybeLoad = () =>
+              privacy.analyticsProcessingAllowed()
+                ? loadHotjar()
+                : console.log('[Hotjar] analytics consent not granted');
+    
+            /* first check on page load */
+            maybeLoad();
+    
+            /* future changes (e.g., Manage-preferences modal) */
+            document.addEventListener('visitorConsentCollected', e => {
+              if (e.detail && e.detail.analyticsAllowed) loadHotjar();
+            });
+          }
+        );
+      };
+    
+      /* ---------- BOOT ---------- */
+      let tries = MAX_TRIES;
+      const waitForShopify = () => {
+        if (window.Shopify && typeof Shopify.loadFeatures === 'function') {
+          onShopifyReady();
+        } else if (tries--) {
+          setTimeout(waitForShopify, RETRY_MS);
+        } else {
+          console.warn('[Hotjar] Shopify core never appeared');
+        }
+      };
+      document.addEventListener('DOMContentLoaded', waitForShopify);
+    })();
+    </script>
+
   </body>
 </html>

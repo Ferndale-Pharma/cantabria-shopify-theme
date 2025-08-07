@@ -1,0 +1,222 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_MMigDe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TE4FeQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a Heliocare 360° Stockist",
+            "heading_size": "h0"
+          }
+        },
+        "text_U3jr8a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Heliocare 360° is Cantabria Labs’ clinically proven, dermatologically developed, award-winning sun protection range, trusted by dermatologists and recommended worldwide in thousands of leading skin clinics, pharmacies, and specialist skincare retailers just like yours.</p><p>Backed by advanced research, it offers clinically proven protection against UVA, UVB, visible light and infrared-A – all in elegant formulas your patients will love.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TE4FeQ",
+        "text_U3jr8a"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "video_rwiVUe": {
+      "type": "video",
+      "custom_css": [
+        "@media screen and (min-width: 1440px) {div {width: 80%; margin: auto; }}"
+      ],
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://vimeo.com/1105055557",
+        "cover_image": "shopify://shop_images/FERN-IMG-00094_-_Heliocare_-_Stockist_Conversion_Video_-_Thumbnail_-_1920x1080_3.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_K67UHa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PfRRXL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to apply?",
+            "heading_size": "h2"
+          }
+        },
+        "text_tkLKFp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Complete your Stockist Application form by clicking the link below.</p>"
+          }
+        },
+        "button_fXdfpg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply now",
+            "button_link": "shopify://pages/cantabria-labs-stockist-account-application-form",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PfRRXL",
+        "text_tkLKFp",
+        "button_fXdfpg"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "rich_text_b4YjrR": {
+      "type": "rich-text",
+      "blocks": {
+        "text_A8BMyb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>You’ll need your 5-digit Verification Code sent to you by email. </em></p><p><em>No code?</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_A8BMyb"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 16,
+        "container_id": ""
+      }
+    },
+    "1753699004c2c4bf3c": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_mYn4fK": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<button class=\"btn globo-formbuilder-open\" data-id=\"MTAxNTUx\" style=\"text-decoration: underline; color: #000;\">Request new verification code</button>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_mYn4fK"
+      ],
+      "custom_css": [
+        "div {text-align: center;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_XACp3A": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YHXA9Y": {
+          "type": "heading",
+          "settings": {
+            "heading": "Any questions?",
+            "heading_size": "h2"
+          }
+        },
+        "text_m4Dr3h": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Ferndale Pharma Health & Beauty Team are always available to answer any questions you may have. Simply complete the form below and your dedicated Account Manager will be in touch shortly!<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YHXA9Y",
+        "text_m4Dr3h"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 96,
+        "padding_bottom": 16,
+        "container_id": ""
+      }
+    },
+    "175371040849fddad8": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_cWUkQH": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTAxNTg5\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_cWUkQH"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_MMigDe",
+    "video_rwiVUe",
+    "rich_text_K67UHa",
+    "rich_text_b4YjrR",
+    "1753699004c2c4bf3c",
+    "rich_text_XACp3A",
+    "175371040849fddad8"
+  ]
+}

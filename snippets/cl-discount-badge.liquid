@@ -76,5 +76,23 @@
       <span class="discount-long-text-emphasis">Buy One, Get Second Half Price</span>
     </span>
   </div>
+{%- elsif product.tags contains 'free-gift-heliocare'-%}
+  <div class="discount-container">
+    <span
+      id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}-1"
+      class="discount-main-offer free-gift-main-offer"
+    >
+      <span class="discount-long-text-emphasis">+ FREE 100ml Body Sample</span>
+    </span>
+  </div>
+{%- elsif product.tags contains 'pediatrics-sale'-%}
+  <div class="discount-container">
+    <span
+      id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}-1"
+      class="discount-main-offer free-gift-main-offer"
+    >
+      <span class="discount-text-emphasis">20% off</span>
+    </span>
+  </div>
 {%- endif -%}
 </div>

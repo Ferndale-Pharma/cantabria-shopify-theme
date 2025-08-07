@@ -44,7 +44,7 @@
         "buttons_DLchTk"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0004_-_Banner_-_Neoretin_e066fbe0-5a6f-4344-bcb6-f9f9ca5422ce.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00075_CantabriaLabs_Neoretin_RangeImage_2560x960_078be11b-27cb-4c89-9dd8-6cab313dbd64.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -303,8 +303,8 @@
             "heading": "Azelaic Aox-TECH",
             "heading_size": "h1",
             "subheading": "A patented delivery-system technology that boosts the action of azelaic acid up to 5 times, for greater efficacy in exfoliating, diminishing the appearance of blemishes, reducing redness and soothing the skin. ",
-            "button_label": "",
-            "link": "",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/discover-azelaic-aox-tech-the-innovation-behind-a-more-even-radiant-skin-tone",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,

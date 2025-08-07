@@ -40,7 +40,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button",
+            "picker_type": "dropdown",
             "swatch_shape": "square"
           }
         },
@@ -55,21 +55,15 @@
             "show_gift_card_recipient": false
           }
         },
-        "textarea_6NCbfN": {
+        "textarea_gwjLAR": {
           "type": "textarea",
           "settings": {
-            "text_area": "<p>{{ product.metafields.custom.form_shortcode.value }}</p>"
+            "text_area": "<p>{{ product.metafields.custom.product_offer_text.value }}</p>"
           }
         },
         "description_4GfMrB": {
           "type": "description",
           "settings": {}
-        },
-        "textarea_jUnP9Y": {
-          "type": "textarea",
-          "settings": {
-            "text_area": "<p>{{ product.metafields.custom.product_offer_text.value }}</p>"
-          }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
@@ -77,6 +71,15 @@
             "heading": "Key information",
             "icon": "none",
             "content": "{{ product.metafields.custom.long_description | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_WAnt3z": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Choose the right SPF",
+            "icon": "none",
+            "content": "<ul><li><a href=\"/products/heliocare-360-sensation\" title=\"HELIOCARE 360° Sensation SPF50+\">HELIOCARE 360° Sensation SPF50+ </a>- For all skin types </li><li><a href=\"/products/heliocare-360-sport-transparent-stick\" title=\"HELIOCARE 360° SPORT Transparent Stick SPF50+\">HELIOCARE 360° SPORT Transparent Stick SPF50+</a> -  For all skin types</li><li><a href=\"/products/heliocare-360-water-gel\" title=\"HELIOCARE 360° Water Gel SPF50+\">HELIOCARE 360° Water Gel SPF50+</a> - For dry and dehydrated skin </li><li><a href=\"/products/heliocare-360-gel-oil-free\" title=\"HELIOCARE 360° Gel Oil-Free SPF50\">HELIOCARE 360° Gel Oil-Free SPF50</a> – For oily and acne-prone skin </li><li><a href=\"/products/heliocare-360-pigment-solution-fluid\" title=\"HELIOCARE 360° Pigment Solution Fluid SPF50+\">HELIOCARE 360° Pigment Solution Fluid SPF50+</a> - For skin with dark spots and hyperpigmentation </li><li><a href=\"/products/heliocare-360-mineral-tolerance-fluid\" title=\"HELIOCARE 360° Mineral Tolerance Fluid SPF50\">HELIOCARE 360° Mineral Tolerance Fluid SPF50</a> – For sensitive skin </li><li><a href=\"/products/heliocare-360-a-r-emulsion\" title=\"HELIOCARE 360° A-R Emulsion SPF50+\">HELIOCARE 360° A-R Emulsion SPF50+</a> - For skin prone to redness and rosacea </li><li><a href=\"/products/heliocare-360-age-active-fluid\" title=\"HELIOCARE 360° Age Active Fluid SPF50\">HELIOCARE 360° Age Active Fluid SPF50</a> - For photoaged skin with fine lines and wrinkles </li><li><a href=\"/products/heliocare-360-ak-fluid\" title=\"HELIOCARE 360° AK Fluid SPF100+\">HELIOCARE 360° AK Fluid SPF100+</a> - For skin with actinic keratosis or other forms of non-melanoma skin cancer </li></ul>",
             "page": ""
           }
         },
@@ -108,10 +111,10 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "textarea_6NCbfN",
+        "textarea_gwjLAR",
         "description_4GfMrB",
-        "textarea_jUnP9Y",
         "collapsible-row-1",
+        "collapsible_tab_WAnt3z",
         "collapsible-row-2",
         "ingredients_tab_4mt9Wd"
       ],
@@ -184,7 +187,7 @@
         "paragraph_rpRJba": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join the Cantabria Labs community for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
+            "text": "<p>Join the Cantabria Labs mailing list for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
           }
         },
         "email_form_WnUWfi": {

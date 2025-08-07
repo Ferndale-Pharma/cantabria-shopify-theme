@@ -44,7 +44,7 @@
         "buttons_hMa4x9"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0005_-_Banner_-_Endocare.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00074_CantabriaLabs_Endocare_RangeImage_2560x960_a1279e8a-4504-49b2-bf29-9283a50ad685.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -71,7 +71,7 @@
         "text_T9yqhc": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>ENDOCARE is a scientifically advanced, anti-aging skincare<br/>range, dermatologically proven to address each stage and need in the skin<br/>ageing process. </strong></p><p>Formulated with expert dermatological knowledge,<br/>gold-standard active ingredients, and patented technologies, ENDOCARE products<br/>have been clinically proven to brighten skin and improve texture, reduce<br/>pigmentation, and diminish wrinkles for visibly radiant results.</p>"
+            "text": "<p><strong>ENDOCARE is a scientifically advanced, anti-aging skincare range, dermatologically proven to address each stage and need in the skin ageing process. </strong></p><p>Formulated with expert dermatological knowledge, gold-standard active ingredients, and patented technologies, ENDOCARE products have been clinically proven to brighten skin and improve texture, reduce pigmentation, and diminish wrinkles for visibly radiant results.</p>"
           }
         }
       },
@@ -502,8 +502,8 @@
             "heading": "Azelaic Aox-TECH",
             "heading_size": "h1",
             "subheading": "A patented delivery-system technology that boosts the action of azelaic acid up to 5 times, for greater efficacy in exfoliating, diminishing the appearance of blemishes, reducing redness and soothing the skin.",
-            "button_label": "",
-            "link": "",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/discover-azelaic-aox-tech-the-innovation-behind-a-more-even-radiant-skin-tone",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,

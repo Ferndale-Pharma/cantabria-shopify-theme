@@ -52,7 +52,7 @@
         "buttons_Ptfz3f"
       ],
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_Banner_-_Heliocare.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00072_CantabriaLabs_Heliocare_RangeImage_2560x960_44d643a1-a70e-4394-b553-489f6706baf0.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -114,21 +114,21 @@
         "heading_ENr7qe": {
           "type": "heading",
           "settings": {
-            "heading": "Double up on protection – Buy one, get second half price on HELIOCARE 360°!",
+            "heading": "Protect Your Little Ones with HELIOCARE 360° - 20% Off Selected Pediatrics and Family Products!",
             "heading_size": "h2"
           }
         },
         "text_HMQBJW": {
           "type": "text",
           "settings": {
-            "text": "<p>Add any two qualifying products to your basket and your discount will be automatically applied at checkout. <a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>Offer ends 12:00 18th June 2025 - Exclusions apply.</em></a></p>"
+            "text": "<p>Gentle sun protection for delicate skin, trusted by parents and dermatologists alike.<br/><br/> <a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>Offer ends 12:00 1st September 2025 - Terms & Conditions apply.</em></a></p>"
           }
         },
         "button_gGdyxW": {
           "type": "button",
           "settings": {
             "button_label": "Shop now",
-            "button_link": "shopify://collections/heliocare",
+            "button_link": "shopify://collections/promotions",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -200,7 +200,7 @@
         "color_scheme": "scheme-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "padding_top": 96,
+        "padding_top": 64,
         "padding_bottom": 64
       }
     },
@@ -602,8 +602,8 @@
             "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_SensationCollection_Images_1569x1032_Jun25.jpg",
             "title": "HELIOCARE 360° Sensation Sunscreen",
             "text": "<p>Very high-level ultra-light protection for all skin types.</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Shop now",
+            "link": "shopify://products/heliocare-360-sensation"
           }
         },
         "column_tMz6zF": {
@@ -612,8 +612,8 @@
             "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_TintedCollection_Images_1569x1032_Jun25.jpg",
             "title": "HELIOCARE 360° Tinted Sunscreens",
             "text": "<p>Very high-level protection with skin perfecting coverage.</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Shop now",
+            "link": "shopify://collections/tinted-sunscreens"
           }
         },
         "column_HTfgMi": {
@@ -622,18 +622,18 @@
             "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_SpecialCareCollection_Images_1569x1032_Jun25.jpg",
             "title": "HELIOCARE 360° Special Care Sunscreens",
             "text": "<p>Very high-level protection for specific skin concerns.</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Shop now",
+            "link": "shopify://collections/special-care-sunscreen"
           }
         },
         "column_PCbzKa": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_CapsulesCollection_Images_1569x1032_Jun25_8b12bfcc-9408-4b95-b88d-eaae8970a7a9.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_CapsulesCollection_Images_1569x1032_Jul25.jpg",
             "title": "HELIOCARE 360° Oral Skin Supplements",
             "text": "<p>Enhance topical protection and support skin health from within.</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Shop now",
+            "link": "shopify://collections/skin-health-supplements"
           }
         },
         "column_t8jnT3": {
@@ -642,8 +642,18 @@
             "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_PediatricsCollection_Images_1569x1032_Jun25.jpg",
             "title": "HELIOCARE 360° Pediatrics Sunscreens",
             "text": "<p>Gentle, very high-level protection specifically designed for babies and children from 6 months old and over.</p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Shop now",
+            "link": "shopify://collections/kids-sunscreen"
+          }
+        },
+        "column_Jc4YeT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_BodyCollection_Images_1569x1032_Jun25.jpg",
+            "title": "HELIOCARE 360° Body Sunscreens",
+            "text": "<p>Very high-level sun protection and even coverage for the whole body</p>",
+            "link_label": "Shop now",
+            "link": "shopify://collections/sunscreen-for-body"
           }
         }
       },
@@ -652,7 +662,8 @@
         "column_tMz6zF",
         "column_HTfgMi",
         "column_PCbzKa",
-        "column_t8jnT3"
+        "column_t8jnT3",
+        "column_Jc4YeT"
       ],
       "custom_css": [
         "h3 {color: #000;}"
@@ -662,11 +673,11 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 5,
+        "columns_desktop": 6,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "View products",
-        "button_link": "shopify://collections/heliocare",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -735,8 +746,57 @@
         "text_hDPGUf",
         "button_6mpALj"
       ],
+      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_Heliocare_Brand_Page_-_Real_Madrid_1.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00059_CantabriaLabs_HeliocareRangePage_SportStick_BlockImage_1200x930_Jun25.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_tAWbFy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_apAiB7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Zero Melanoma",
+            "heading_size": "h1"
+          }
+        },
+        "text_fmRC7n": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Cantabria Labs, we’re proud to team up once again with tennis icon Rafa Nadal for the latest chapter of our Zero Melanoma campaign. With our dermatological sun protection range, HELIOCARE, we’re on a mission to inspire everyone to take sun safety seriously - because melanoma is one of the most dangerous, yet preventable, forms of skin cancer. </p><p>Through this campaign, we’re raising awareness about the power of daily photoprotection and the importance of early detection. Rafa shares our commitment to a healthier future under the sun, and together, we want to help you protect what matters most: your skin. Because every day you protect it, you’re one step closer to zero melanoma.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_gcxRQ4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "shopify://blogs/skincare-guides/zero-melanoma-3-steps-to-sun-safety-with-rafa-nadal",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_apAiB7",
+        "text_fmRC7n",
+        "button_gcxRQ4"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/zero-melanoma.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -1245,6 +1305,7 @@
     "multicolumn_zjQz6Y",
     "cl_featured_collection_UQd4Xn",
     "image_with_text_kQqhCQ",
+    "image_with_text_tAWbFy",
     "rich_text_p3BLWR",
     "cl_slideshow_9QxUaB",
     "multicolumn_VxRL3F",

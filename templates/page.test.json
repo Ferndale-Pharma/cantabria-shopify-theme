@@ -16,24 +16,22 @@
         "padding_bottom": 28
       }
     },
-    "17541035797b9ec015": {
-      "type": "apps",
-      "blocks": {
-        "promap_rp_storelocator_page_block_GmFRkB": {
-          "type": "shopify://apps/promap-rp/blocks/storelocator-page-block/acff8fd9-34cc-4a4d-98ed-d7fdb5d3605f",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "promap_rp_storelocator_page_block_GmFRkB"
-      ],
+    "cl_image_PaeRix": {
+      "type": "cl-image",
+      "name": "Single Image",
       "settings": {
-        "include_margins": true
+        "image": "shopify://shop_images/free-radical-antioxidant-diagram.jpg",
+        "image_width_value": 800,
+        "image_width_unit": "px",
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "full_width": true,
+        "container_id": ""
       }
     }
   },
   "order": [
     "main",
-    "17541035797b9ec015"
+    "cl_image_PaeRix"
   ]
 }

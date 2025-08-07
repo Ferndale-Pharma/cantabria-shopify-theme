@@ -1,0 +1,167 @@
+{%- comment -%}
+  Author Social Links Section (Dynamic sources)
+  ------------------------------------------------
+  • Adds up to four blocks (Website, Instagram, LinkedIn, Facebook).
+  • Each block exposes a *URL setting* that can be connected to a dynamic source
+    in the Theme Editor (for example, an Author metaobject field).
+  • An icon is rendered only when its block’s URL setting (dynamic or manual) has a value.
+  • Keeps everything centre‑aligned with a small gap.
+{%- endcomment -%}
+
+{%- style -%}
+.author-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* space between icons */
+}
+.author-social-links a {
+  display: inline-block;
+}
+.author-social-links .social-icon,
+.author-social-links .icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+@media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+}
+{%- endstyle -%}
+
+<div class="author-social-links section-{{ section.id }}-padding">
+  {%- for block in section.blocks -%}
+    {%- assign url = block.settings.url -%}
+    {%- if url != blank -%}
+      {%- case block.type -%}
+        {%- when 'website' -%}
+          <a href="{{ url }}" target="_blank" rel="noopener" aria-label="Author website" {{ block.shopify_attributes }}>
+           {% render 'icon-website' %}
+          </a>
+        {%- when 'instagram' -%}
+          <a href="{{ url }}" target="_blank" rel="noopener" aria-label="Author Instagram" {{ block.shopify_attributes }}>
+            {% render 'icon-instagram' %}
+          </a>
+        {%- when 'linkedin' -%}
+          <a href="{{ url }}" target="_blank" rel="noopener" aria-label="Author LinkedIn" {{ block.shopify_attributes }}>
+            {% render 'icon-linkedin' %}
+          </a>
+        {%- when 'facebook' -%}
+          <a href="{{ url }}" target="_blank" rel="noopener" aria-label="Author Facebook" {{ block.shopify_attributes }}>
+            {% render 'icon-facebook' %}
+          </a>
+      {%- endcase -%}
+    {%- endif -%}
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Author Social Links",
+  "tag": "section",
+  "class": "section author-social-links-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 64
+    },
+    {
+      "type": "text",
+      "id": "container_id",
+      "label": "Container ID"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "website",
+      "name": "Website Link",
+      "settings": [
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Website URL (dynamic)",
+          "info": "Connect this to Author → Website field or paste a URL"
+        }
+      ],
+      "limit": 1
+    },
+    {
+      "type": "instagram",
+      "name": "Instagram Link",
+      "settings": [
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Instagram URL (dynamic)",
+          "info": "Connect this to Author → Instagram field or paste a URL"
+        }
+      ],
+      "limit": 1
+    },
+    {
+      "type": "linkedin",
+      "name": "LinkedIn Link",
+      "settings": [
+        {
+          "type": "url",
+          "id": "url",
+          "label": "LinkedIn URL (dynamic)",
+          "info": "Connect this to Author → LinkedIn field or paste a URL"
+        }
+      ],
+      "limit": 1
+    },
+    {
+      "type": "facebook",
+      "name": "Facebook Link",
+      "settings": [
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Facebook URL (dynamic)",
+          "info": "Connect this to Author → Facebook field or paste a URL"
+        }
+      ],
+      "limit": 1
+    }
+  ],
+  "presets": [
+    {
+      "name": "Author Social Links",
+      "blocks": [
+        { "type": "website" },
+        { "type": "instagram" },
+        { "type": "linkedin" },
+        { "type": "facebook" }
+      ]
+    }
+  ]
+}
+{% endschema %}

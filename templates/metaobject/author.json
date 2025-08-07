@@ -1,28 +1,201 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "instant_c_fhb_h9_kf_wb_zj_wi_yk_6zrHPa": {
-      "type": "instant-cFhbH9KFWbZjWiYk",
+    "rich_text_VHEqYY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XfUhcW": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.name.value }}",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XfUhcW"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "image_U5NcMoIUMGXoq7IV": "{{ metaobject.image.value }}",
-        "text_4vNcYhRTPTcmQLmh": "<h2>{{ metaobject.name.value }}<\/h2>",
-        "text_DrKamzXL87m7N9uD": "<p><em>{{ metaobject.job_title.value }}<\/em><\/p>",
-        "text_o2kz3U3HE86QWIGc": "<p><em>{{ metaobject.company.value }}<\/em><\/p>",
-        "text_3wyA9PeKcm6XSBN9": "<p>{{ metaobject.description | metafield_tag }}<\/p>",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": ""
+      }
+    },
+    "rich_text_LfikRn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qrNUNL": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.job_title.value }}",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qrNUNL"
+      ],
+      "custom_css": [
+        "h2 {font-size: 18px; color: #121212;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 16,
+        "padding_bottom": 8,
+        "container_id": ""
+      }
+    },
+    "rich_text_pAFGXG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TR8yhp": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.company.value }}",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TR8yhp"
+      ],
+      "custom_css": [
+        "h2 {font-size: 18px; color: #121212;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 16,
+        "container_id": ""
+      }
+    },
+    "cl_single_image_FmpRzb": {
+      "type": "cl-single-image",
+      "name": "Single Image",
+      "settings": {
+        "image": "{{ metaobject.image.value }}",
+        "image_width_value": 400,
+        "image_width_unit": "px",
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "full_width": true,
+        "container_id": ""
+      }
+    },
+    "author_social_links_pUi8DY": {
+      "type": "author-social-links",
+      "blocks": {
+        "website_U4awFH": {
+          "type": "website",
+          "settings": {
+            "url": "{{ metaobject.website_link.value }}"
+          }
+        },
+        "instagram_rPCfqY": {
+          "type": "instagram",
+          "settings": {
+            "url": "{{ metaobject.instagram.value }}"
+          }
+        },
+        "linkedin_hBTY7N": {
+          "type": "linkedin",
+          "settings": {
+            "url": "{{ metaobject.linkedin.value }}"
+          }
+        },
+        "facebook_9eeMXN": {
+          "type": "facebook",
+          "settings": {
+            "url": "{{ metaobject.facebook.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "website_U4awFH",
+        "instagram_rPCfqY",
+        "linkedin_hBTY7N",
+        "facebook_9eeMXN"
+      ],
+      "name": "Author Social Links",
+      "settings": {
+        "padding_top": 16,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "rich_text_Cz8fCW": {
+      "type": "rich-text",
+      "blocks": {
+        "text_4RaNjF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ metaobject.description | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_4RaNjF"
+      ],
+      "custom_css": [
+        "p,li {text-align: left;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "cl_author_blog_mPexDE": {
+      "type": "cl-author-blog",
+      "name": "CL Author Blog Grid",
+      "settings": {
+        "layout": "grid",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 0,
+        "padding_bottom": 64
       }
     }
   },
   "order": [
-    "instant_c_fhb_h9_kf_wb_zj_wi_yk_6zrHPa"
+    "rich_text_VHEqYY",
+    "rich_text_LfikRn",
+    "rich_text_pAFGXG",
+    "cl_single_image_FmpRzb",
+    "author_social_links_pUi8DY",
+    "rich_text_Cz8fCW",
+    "cl_author_blog_mPexDE"
   ]
 }

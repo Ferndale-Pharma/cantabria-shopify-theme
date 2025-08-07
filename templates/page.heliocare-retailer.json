@@ -23,14 +23,14 @@
         "heading_LtUpKU": {
           "type": "heading",
           "settings": {
-            "heading": "Become a Heliocare 360° stockist",
+            "heading": "Become a HELIOCARE 360° stockist",
             "heading_size": "h1"
           }
         },
         "text_kzj3wk": {
           "type": "text",
           "settings": {
-            "text": "<p>Join leading skin clinics, pharmacies, and specialist skincare retailers across the UK in offering <a href=\"/pages/range_page/heliocare\" title=\"Heliocare\"><strong>Heliocare 360°</strong></a> – the clinically proven, dermatologically developed sun protection range from Cantabria Labs.</p>"
+            "text": "<p>Join leading skin clinics, pharmacies, and specialist skincare retailers across the UK in offering <a href=\"/pages/range_page/heliocare\" title=\"Heliocare\"><strong>HELIOCARE 360°</strong></a> – the clinically proven, dermatologically developed sun protection range from Cantabria Labs.</p>"
           }
         }
       },
@@ -112,7 +112,7 @@
         "text_4WymLJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Heliocare 360° offers more than broad-spectrum SPF. Powered by exclusive <a href=\"/blogs/skincare-guides/6-benefits-of-fernblock\" title=\"6 Benefits of Fernblock®\"><strong>Fernblock® technology</strong></a>, the range provides advanced protection against UVA, UVB, visible light and infrared-A – alongside powerful antioxidants that defend against photoageing and free radical damage.</p><p>Fernblock®+ is a patented, dermatologically proven antioxidant complex found in every Heliocare 360° topical sunscreen and oral supplement. Clinically proven to help prevent and repair damage caused by sunlight and environmental stressors, it protects the skin’s DNA and immune system while reducing signs of premature ageing.</p><p>Backed by over 50 scientific and clinical studies, Fernblock®+ delivers unrivalled photoprotection – the result of decades of dermatological research. Trusted by professionals, Heliocare 360° supports healthy, radiant skin, even in sensitive or compromised skin types. <br/></p>",
+            "text": "<p>HELIOCARE 360° offers more than broad-spectrum SPF. Powered by exclusive <a href=\"/blogs/skincare-guides/6-benefits-of-fernblock\" title=\"6 Benefits of Fernblock®\"><strong>Fernblock® technology</strong></a>, the range provides advanced protection against UVA, UVB, visible light and infrared-A – alongside powerful antioxidants that defend against photoageing and free radical damage.</p><p>Fernblock®+ is a patented, dermatologically proven antioxidant complex found in every Heliocare 360° topical sunscreen and oral supplement. Clinically proven to help prevent and repair damage caused by sunlight and environmental stressors, it protects the skin’s DNA and immune system while reducing signs of premature ageing.</p><p>Backed by over 50 scientific and clinical studies, Fernblock®+ delivers unrivalled photoprotection – the result of decades of dermatological research. Trusted by professionals, HELIOCARE 360° supports healthy, radiant skin, even in sensitive or compromised skin types. <br/></p>",
             "text_style": "body"
           }
         },
@@ -302,7 +302,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_SensationCollection_Images_1569x1032_Jun25.jpg",
-            "title": "Heliocare 360° Sensation Sunscreen",
+            "title": "HELIOCARE 360° Sensation Sunscreen",
             "text": "<p>Ultra-light, very high-level protection for all skin types and tones.</p>",
             "link_label": "",
             "link": ""
@@ -312,7 +312,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_SpecialCareCollection_Images_1569x1032_Jun25.jpg",
-            "title": "Heliocare 360° Special Care Sunscreens",
+            "title": "HELIOCARE 360° Special Care Sunscreens",
             "text": "<p>Targeted protection for specific concerns, including pigmentation, acne-prone skin, and redness.</p>",
             "link_label": "",
             "link": ""
@@ -322,7 +322,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_TintedCollection_Images_1569x1032_Jun25.jpg",
-            "title": "Heliocare 360° Tinted Sunscreens",
+            "title": "HELIOCARE 360° Tinted Sunscreens",
             "text": "<p>Very high-level protection with skin-perfecting coverage.</p>",
             "link_label": "",
             "link": ""
@@ -332,7 +332,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_CapsulesCollection_Images_1569x1032_Jun25_8b12bfcc-9408-4b95-b88d-eaae8970a7a9.jpg",
-            "title": "Heliocare 360° Oral Skin Supplements",
+            "title": "HELIOCARE 360° Oral Skin Supplements",
             "text": "<p>Support topical protection and promote skin health from within.</p>",
             "link_label": "",
             "link": ""
@@ -347,6 +347,16 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_mMiW9P": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_BodyCollection_Images_1569x1032_Jun25.jpg",
+            "title": "HELIOCARE 360° Body Sunscreens",
+            "text": "<p>Very high-level sun protection and even coverage for the whole body</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -354,7 +364,8 @@
         "column_3wnA4W",
         "column_RXgRJP",
         "column_en7yhq",
-        "column_KEGBzQ"
+        "column_KEGBzQ",
+        "column_mMiW9P"
       ],
       "custom_css": [
         "h3 {color: #000;}"
@@ -364,7 +375,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 5,
+        "columns_desktop": 6,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "Become a stockist",
@@ -383,14 +394,14 @@
         "heading_zwRiA4": {
           "type": "heading",
           "settings": {
-            "heading": "Why stock Heliocare 360°?",
+            "heading": "Why stock HELIOCARE 360°?",
             "heading_size": "h1"
           }
         },
         "text_chBNWN": {
           "type": "text",
           "settings": {
-            "text": "<p>Heliocare 360° is brought to skincare retailers and professionals by Ferndale Pharmaceuticals Ltd. - the exclusive UK partner of Cantabria Labs since 2008.</p><p>Ferndale Pharmaceuticals Ltd. has a proven track record of delivering a wide range of dermatologically proven skincare solutions that deliver visible results for your patients – and real business benefits for you.</p>"
+            "text": "<p>HELIOCARE 360° is brought to skincare retailers and professionals by Ferndale Pharmaceuticals Ltd. - the exclusive UK partner of Cantabria Labs since 2008.</p><p>Ferndale Pharmaceuticals Ltd. has a proven track record of delivering a wide range of dermatologically proven skincare solutions that deliver visible results for your patients – and real business benefits for you.</p>"
           }
         }
       },
@@ -488,7 +499,7 @@
           "settings": {
             "image": "shopify://shop_images/CL---Skin-Clinic---Image.jpg",
             "title": "Professional Skin Clinics",
-            "text": "<p>Heliocare 360° supports your patient’s skin health, enhances your professional treatment outcomes and provides additional retail opportunities.</p>",
+            "text": "<p>HELIOCARE 360° supports your patient’s skin health, enhances your professional treatment outcomes and provides additional retail opportunities.</p>",
             "link_label": "",
             "link": ""
           }
@@ -498,7 +509,7 @@
           "settings": {
             "image": "shopify://shop_images/CL_-_Pharmacy_-_Image.jpg",
             "title": "Pharmacies & Dermatological Skincare Retailers",
-            "text": "<p>Heliocare 360° helps you meet growing consumer demand for high-efficacy skincare with proven results and strong retail support.</p>",
+            "text": "<p>HELIOCARE 360° helps you meet growing consumer demand for high-efficacy skincare with proven results and strong retail support.</p>",
             "link_label": "",
             "link": ""
           }
@@ -512,7 +523,7 @@
         "h3 {color: #000;}"
       ],
       "settings": {
-        "title": "Who should stock Heliocare 360°?",
+        "title": "Who should stock HELIOCARE 360°?",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -547,7 +558,7 @@
           "settings": {
             "image": "shopify://shop_images/CL.CO.UK_-_Icons_-_Speech_Bubble_-_Yellow.png",
             "title": "",
-            "text": "<p><em>“I’m a huge fan of Heliocare and will often recommend it to my patients…With so many great products for different skin types there really is something for everyone!”<br/><br/></em><strong>Dr. Emma Wedgeworth<br/></strong>Consultant Dermatologist</p>",
+            "text": "<p><em>“I’m a huge fan of </em>HELIOCARE <em>and will often recommend it to my patients…With so many great products for different skin types there really is something for everyone!”<br/><br/></em><strong>Dr. Emma Wedgeworth<br/></strong>Consultant Dermatologist</p>",
             "link_label": "",
             "link": ""
           }
@@ -557,7 +568,7 @@
           "settings": {
             "image": "shopify://shop_images/CL.CO.UK_-_Icons_-_Speech_Bubble_-_Yellow.png",
             "title": "",
-            "text": "<p><em>“Heliocare 360° Gel Oil-free SPF50 is one of my personal favourites when it comes to full SPF protection. I regularly recommend the product to patients for everyday use due to its non-greasy formula and suitability for acne prone skin. The extra bonus is the additional protection it provides against HEVL and IR-A.”<br/><br/></em><strong>Dr Anjali Mahto<br/></strong>Dermatologist</p>",
+            "text": "<p><em>“</em>HELIOCARE <em>360° Gel Oil-free SPF50 is one of my personal favourites when it comes to full SPF protection. I regularly recommend the product to patients for everyday use due to its non-greasy formula and suitability for acne prone skin. The extra bonus is the additional protection it provides against HEVL and IR-A.”<br/><br/></em><strong>Dr Anjali Mahto<br/></strong>Dermatologist</p>",
             "link_label": "",
             "link": ""
           }
@@ -602,7 +613,7 @@
         "text_W9FgNd": {
           "type": "text",
           "settings": {
-            "text": "<p>Ready to offer your clients next-generation sun protection with visible skin health benefits?<br/>Join the growing network of Heliocare 360° stockists today. <br/></p>"
+            "text": "<p>Ready to offer your clients next-generation sun protection with visible skin health benefits?<br/>Join the growing network of HELIOCARE 360° stockists today. <br/></p>"
           }
         }
       },
