@@ -8,6 +8,7 @@ module.exports = {
     './sections/*.liquid',
     './snippets/*.liquid',
   ],
+  important: true,
   theme: {
     screens: {
       sm: '320px',
