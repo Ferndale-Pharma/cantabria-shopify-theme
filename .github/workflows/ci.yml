@@ -45,4 +45,5 @@ jobs:
       - name: Theme Check
         uses: shopify/theme-check-action@v2
         with:
+          theme_root: '.' # optional, could be './dist'
           token: ${{ github.token }}
