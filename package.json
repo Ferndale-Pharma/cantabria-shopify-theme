@@ -30,8 +30,6 @@
   },
   "prettier": "@trelliscommerce/prettier-config",
   "lint-staged": {
-    "*.js": "prettier --write",
-    "assets/*-tailwind.css": "prettier --write",
-    "!assets/app.css": "prettier --write"
+    "*.{js,css}": "prettier --write"
   }
 }

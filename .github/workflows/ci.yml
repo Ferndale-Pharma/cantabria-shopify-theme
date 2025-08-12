@@ -1,11 +1,33 @@
 name: CI
 on: [push]
 jobs:
+  tailwindcss-update:
+    name: Generate Tailwind CSS
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm ci
+      - name: Generate Tailwind CSS
+        run: npx tailwindcss -i ./assets/app-tailwind.css -o ./assets/app.css --watch=false
+      - name: Commit & Push
+        run: |
+          git add --force assets/app.css
+          git config user.name "GitHub"
+          git config user.email "noreply@github.com"
+          git diff-index --quiet HEAD || git commit -m "ci: tailwindcss-update"
+          git push
   lhci:
     name: Lighthouse
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Lighthouse
         uses: shopify/lighthouse-ci-action@v1
         with:
