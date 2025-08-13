@@ -23,14 +23,14 @@
         "heading_hAQQBe": {
           "type": "heading",
           "settings": {
-            "heading": "Find a stockist",
-            "heading_size": "h0"
+            "heading": "Where to buy",
+            "heading_size": "h1"
           }
         },
         "text_kf6V9k": {
           "type": "text",
           "settings": {
-            "text": "<p>Cantabria Labs products are also available from selected approved online retailers and Professional Skin Clinics across the UK. </p><p><a href=\"/pages/become-a-heliocare-360-stockist\" title=\"Become a Heliocare 360° stockist\">Interested in becoming a Heliocare 360° Stockist?</a><br/></p>"
+            "text": "<p>Shop HELIOCARE and all Cantabria Labs dermatological skincare brands and ranges directly from us and get fantastic loyalty rewards, exclusive community benefits and discounts or choose your preferred skincare retailer from our trusted retail partners across the UK.<br/><br/></p><p>Are you a retailer looking to stock HELIOCARE 360°? <a href=\"/pages/become-a-heliocare-360-stockist\" title=\"Become a Heliocare 360° stockist\">You can find more information about becoming a stockist here.</a><br/></p>"
           }
         }
       },
@@ -44,8 +44,8 @@
         "color_scheme": "",
         "full_width": true,
         "is_heading": true,
-        "padding_top": 16,
-        "padding_bottom": 16,
+        "padding_top": 32,
+        "padding_bottom": 64,
         "container_id": ""
       }
     },
@@ -55,20 +55,13 @@
         "heading_GEMCDn": {
           "type": "heading",
           "settings": {
-            "heading": "Approved online retailers",
+            "heading": "Buy online",
             "heading_size": "h2"
-          }
-        },
-        "text_aNhDNN": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Cantabria Labs products are also available to buy online from the following official retail partners:</p>"
           }
         }
       },
       "block_order": [
-        "heading_GEMCDn",
-        "text_aNhDNN"
+        "heading_GEMCDn"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -84,14 +77,14 @@
     "multicolumn_8YbeMF": {
       "type": "multicolumn",
       "blocks": {
-        "column_RTadV8": {
+        "column_mcxgj4": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Boots_-_Logo_-_Black_-_600x448px.png",
+            "image": "shopify://shop_images/FERN-IMG-00080_CantabriaLabs_BecomeAStockist_AsSeenInLogos_600x448px_CantabriaLabs_Vertical.jpg",
             "title": "",
-            "text": "",
-            "link_label": "BOOTS",
-            "link": "https://www.boots.com/sitesearch?searchTerm=heliocare&utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_boots_2025&utm_content=CL-URL-0019"
+            "text": "<p><strong>Products available:</strong></p><p>HELIOCARE 360°<br/>BIRETIX<br/>ENDOCARE<br/>NEORETIN</p>",
+            "link_label": "Visit website",
+            "link": "shopify://collections/all"
           }
         },
         "column_RNj9xH": {
@@ -99,9 +92,19 @@
           "settings": {
             "image": "shopify://shop_images/Lookfantastic_d75aa81e-ed92-4c79-a42e-697b2bb891e7.png",
             "title": "",
-            "text": "",
-            "link_label": "LOOK FANTASTIC",
+            "text": "<p><strong>Products available:</strong></p><p>HELIOCARE 360°<br/>BIRETIX</p>",
+            "link_label": "Visit website",
             "link": "https://www.lookfantastic.com/c/brands/heliocare/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_lfref_2024&utm_content=CL-URL-0008"
+          }
+        },
+        "column_RTadV8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Boots_-_Logo_-_Black_-_600x448px.png",
+            "title": "",
+            "text": "<p><strong>Products available:</strong></p><p>HELIOCARE 360°</p>",
+            "link_label": "Visit website",
+            "link": "https://www.boots.com/sitesearch?searchTerm=heliocare&utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_boots_2025&utm_content=CL-URL-0019"
           }
         },
         "column_JftEEH": {
@@ -109,38 +112,28 @@
           "settings": {
             "image": "shopify://shop_images/Face_the_future.png",
             "title": "",
-            "text": "",
-            "link_label": "FACE THE FUTURE",
+            "text": "<p><strong>Products available:</strong></p><p>HELIOCARE 360°<br/>BIRETIX<br/>ENDOCARE<br/>NEORETIN</p>",
+            "link_label": "Visit website",
             "link": "https://www.facethefuture.co.uk/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_ftfref_2024&utm_content=CL-URL-0011"
           }
         },
         "column_bHLPLF": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Just_My_Look.png",
+            "image": "shopify://shop_images/FERN-IMG-00080_CantabriaLabs_BecomeAStockist_AsSeenInLogos_600x448px_Pharmacy2U.jpg",
             "title": "",
-            "text": "",
-            "link_label": "JUST MY LOOK",
-            "link": "https://www.justmylook.com/collections/heliocare/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_jmlref_2024&utm_content=CL-URL-0010"
-          }
-        },
-        "column_mcxgj4": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Beauty_Bay.png",
-            "title": "",
-            "text": "",
-            "link_label": "BEAUTY BAY",
-            "link": "https://www.beautybay.com/l/heliocare/?utm_source=website&utm_medium=referral&utm_campaign=cl_d2c_bbref_2024&utm_content=CL-URL-0009"
+            "text": "<p><strong>Products available:</strong></p><p>HELIOCARE 360°</p>",
+            "link_label": "Visit website",
+            "link": "https://www.pharmacy2u.co.uk/search/results?searchTerm=heliocare"
           }
         }
       },
       "block_order": [
-        "column_RTadV8",
+        "column_mcxgj4",
         "column_RNj9xH",
+        "column_RTadV8",
         "column_JftEEH",
-        "column_bHLPLF",
-        "column_mcxgj4"
+        "column_bHLPLF"
       ],
       "settings": {
         "title": "",
@@ -155,8 +148,8 @@
         "color_scheme": "",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 16,
-        "padding_bottom": 16,
+        "padding_top": 0,
+        "padding_bottom": 64,
         "container_id": ""
       }
     },
@@ -166,13 +159,20 @@
         "heading_nwV9ya": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Search for a stockist or clinic</strong>",
+            "heading": "Buy in skin clinics",
             "heading_size": "h2"
+          }
+        },
+        "text_DkXg4b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Heliocare and Cantabria Labs products are trusted in skin clinics and specialist pharmacies across the UK. Find a skin clinic or specialist pharmacy near you and enjoy expert skincare advice.</p>"
           }
         }
       },
       "block_order": [
-        "heading_nwV9ya"
+        "heading_nwV9ya",
+        "text_DkXg4b"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -189,7 +189,7 @@
       "type": "apps",
       "blocks": {
         "amai_promap_storelocator_page_block_CmnzTP": {
-          "type": "shopify://apps/amai-promap/blocks/storelocator-page-block/acff8fd9-34cc-4a4d-98ed-d7fdb5d3605f",
+          "type": "shopify://apps/promap-rp/blocks/storelocator-page-block/acff8fd9-34cc-4a4d-98ed-d7fdb5d3605f",
           "settings": {}
         }
       },
@@ -200,13 +200,60 @@
         "include_margins": true
       }
     },
+    "image_with_text_JbJr8G": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ULkE9d": {
+          "type": "heading",
+          "settings": {
+            "heading": "Buy in Boots",
+            "heading_size": "h2"
+          }
+        },
+        "text_VBH4Y6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop selected HELIOCARE 360° products at over 350 Boots stores nationwide. </p><p>🛈 <strong>Find us in the Skin Health section.</strong></p>",
+            "text_style": "body"
+          }
+        },
+        "text_Kexpwy": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Check availability in your chosen store before visiting</em><strong> </strong></p><p>Available products in-store:</p><p><a href=\"https://www.boots.com/heliocare-360-gel-oil-free-spf50plus-50ml-10359847\" title=\"Shop Heliocare 360° Gel Oil-Free on Boots.com\">HELIOCARE 360° Gel Oil-Free</a> - for oily and acne-prone skin</p><p><a href=\"https://www.boots.com/heliocare-360-pigment-solution-fluid-spf50-50ml-10359393\" title=\"Shop Heliocare 360° Pigment Solution Fluid on Boots.com\">HELIOCARE 360° Pigment Solution Fluid</a> - for hyperpigmentation and dark spots</p><p><a href=\"https://www.boots.com/heliocare-360-ar-emulsion-spf50plus-50ml-10359389\" title=\"Shop Heliocare 360° A-R Emulsion on Boots.com\">HELIOCARE 360° A-R Emulsion</a> - for sensitive skin prone to redness</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ULkE9d",
+        "text_VBH4Y6",
+        "text_Kexpwy"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/image_4.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "rich_text_fFe8TY": {
       "type": "rich-text",
       "blocks": {
         "heading_ypTtcd": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Interested in becoming a Heliocare 360° Stockist?</strong>",
+            "heading": "Are you a retailer looking to become a  HELIOCARE 360° stockist?",
             "heading_size": "h2"
           }
         },
@@ -245,6 +292,7 @@
     "multicolumn_8YbeMF",
     "rich_text_UH8FGg",
     "1725973593a9ef3b25",
+    "image_with_text_JbJr8G",
     "rich_text_fFe8TY"
   ]
 }
