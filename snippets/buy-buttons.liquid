@@ -89,6 +89,7 @@
             %}
               disabled
             {% endif %}
+            {% if is_featured %}data-featured-product="true" data-product-id="{{ product.id }}" data-variant-id="{{ product.selected_or_first_available_variant.id }}" data-product-name="{{ product.title | escape }}"{% endif %}
           >
             <span>
               {%- if product.selected_or_first_available_variant == nil -%}
