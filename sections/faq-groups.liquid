@@ -210,6 +210,8 @@
                   aria-expanded="false"
                   aria-controls="faq-answer-{{ block.id }}"
                   id="faq-question-{{ block.id }}"
+                  data-faq-question="{{ block.settings.title | escape }}"
+                  data-faq-group="{{ block.settings.group_title | escape }}"
                 >
                   <span class="faq-question-text">{{ block.settings.title }}</span>
                   <span class="faq-chevron" aria-hidden="true">
@@ -292,6 +294,13 @@
         } else {
           chevronDown.classList.remove("hidden");
           chevronUp.classList.add("hidden");
+        }
+        if (window.dataLayer) {
+          dataLayer.push({
+            event: "faqClick",
+            faqQuestion: button.dataset.faqQuestion,
+            faqGroup: button.dataset.faqGroup
+          });
         }
       });
     });
