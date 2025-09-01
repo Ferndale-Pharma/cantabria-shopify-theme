@@ -68,14 +68,14 @@
         "heading_aYcLWa": {
           "type": "heading",
           "settings": {
-            "heading": "Protect Your Little Ones with HELIOCARE 360° - 20% Off Selected Pediatrics and Family Products!",
+            "heading": "Radiance & Protection, Every Day",
             "heading_size": "h1"
           }
         },
         "text_kyA6LM": {
           "type": "text",
           "settings": {
-            "text": "Gentle sun protection for delicate skin, trusted by parents and dermatologists alike",
+            "text": "Get a free HELIOCARE 360° Facial SPF of your choice with the purchase our brightening ENDOCARE RADIANCE C Ferulic Serum",
             "text_style": "subtitle"
           }
         },
@@ -83,7 +83,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now",
-            "button_link_1": "shopify://collections/promotions",
+            "button_link_1": "shopify://products/endocare-c-ferulic-and-heliocare-360-sunscreen",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -97,7 +97,7 @@
         "buttons_RkjPdk"
       ],
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00106_CantabriaLabs_HomepageBanner_20OFFPediatricsPromo_2560x960_Jul25.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00124_CantabriaLabs_HomepageBanner_EndocareH360Bundle_2560x960_Aug25.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",

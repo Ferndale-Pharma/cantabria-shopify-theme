@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_dP3e9T": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Protect Your Little Ones with HELIOCARE 360° - 20% Off Selected HELIOCARE 360° Pediatrics & Family Products!",
             "link": "shopify://collections/promotions"

@@ -104,7 +104,7 @@
         "full_width": true,
         "is_heading": true,
         "padding_top": 64,
-        "padding_bottom": 80,
+        "padding_bottom": 64,
         "container_id": ""
       }
     },
@@ -141,6 +141,7 @@
         "text_HMQBJW",
         "button_gGdyxW"
       ],
+      "disabled": true,
       "custom_css": [
         "p > a {color: #121212;}",
         "h2 {color: #f2a900;}"
