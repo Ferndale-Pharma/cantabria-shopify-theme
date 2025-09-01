@@ -5,7 +5,11 @@
         const paramsFromString = new URL(urlString).searchParams;
         const emailFromString = paramsFromString.get('email');
         const emailField = form.querySelector('[name="email"]')
-        if(emailFromString) {
+        if(emailFromString && emailField) {
+            emailField.value = emailFromString
+            const inputWrapper = emailField.closest('.globo-form-control')
+            const label = inputWrapper.querySelector('label.globo-label')
+            label.classList.add('gfb__label__filled')
             
         }
     }
