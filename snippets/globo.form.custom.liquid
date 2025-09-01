@@ -2,7 +2,7 @@
   document.addEventListener('globo.formbuilder.form.loaded', e => {
     const {form ,formId} = e.detail
     if(formId == "106670") {
-        const paramsFromString = new URL(urlString).searchParams;
+        const paramsFromString = new URL(window.location.search).searchParams;
         const emailFromString = paramsFromString.get('email');
         const emailField = form.querySelector('[name="email"]')
         if(emailFromString && emailField) {
