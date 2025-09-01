@@ -3,6 +3,7 @@
     const {form ,formId} = e.detail
     if(formId == "106670") {
         const paramsFromString = new URL(window.location.search);
+        console.log("paramsFromString: ", paramsFromString)
         const emailFromString = paramsFromString.get('email');
         const emailField = form.querySelector('[name="email"]')
         if(emailFromString && emailField) {
