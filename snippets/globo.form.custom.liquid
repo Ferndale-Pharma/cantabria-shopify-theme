@@ -2,7 +2,7 @@
   document.addEventListener('globo.formbuilder.form.loaded', e => {
     const {form ,formId} = e.detail
     if(formId == "106670") {
-        const paramsFromString = new URL(window.location.search).searchParams;
+        const paramsFromString = new URL(window.location.search);
         const emailFromString = paramsFromString.get('email');
         const emailField = form.querySelector('[name="email"]')
         if(emailFromString && emailField) {
@@ -10,7 +10,6 @@
             const inputWrapper = emailField.closest('.globo-form-control')
             const label = inputWrapper.querySelector('label.globo-label')
             label.classList.add('gfb__label__filled')
-            
         }
     }
   })
