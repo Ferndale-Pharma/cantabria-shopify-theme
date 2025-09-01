@@ -179,6 +179,14 @@
             "answer": "<p>Our coloured HELIOCARE products are currently best suited for lighter skin tones, typically those in the Fitzpatrick Skin Types I to III range. These formulations offer natural-looking coverage and protection for fair to medium skin tones.</p><p>We understand the importance of inclusivity and are actively working with our product development team to expand the tinted range to better serve Fitzpatrick Types IV to VI. In the meantime, our non-tinted HELIOCARE 360° products offer the same high-level protection and are suitable for all skin types and tones.</p><p>If you’re unsure which product is best for your skin, our team is always happy to help you find the right match.</p>"
           }
         },
+        "faq_Lbfpfn": {
+          "type": "faq",
+          "settings": {
+            "group_title": "BIRETIX",
+            "title": "How long does the BIRETIX Regime take to work?",
+            "answer": "<p>Clinical studies show that the <a href=\"/products/biretix-regime\" title=\"BIRETIX Regime\">BIRETIX Regime</a> delivers visible results in as little as <strong>21 days</strong>, with <strong>95% of users reporting satisfaction</strong> after just three weeks of use. To achieve the best long-term outcome, however, we recommend patients follow the regime consistently for <strong>at least 30 days</strong>. This allows the active ingredients, including <a href=\"/blogs/expert-advice/retinsphere-technology\" title=\"RetinSphere® Technology\">Retinsphere® Technology</a>, <a href=\"/blogs/expert-advice/biopep-15\" title=\"BIOPEP-15\">BIOPEP-15</a>, and glycolic acid, to work in synergy, helping to reduce blemishes, smooth skin texture, and restore clarity.</p>"
+          }
+        },
         "faq_ffirHL": {
           "type": "faq",
           "settings": {
@@ -353,6 +361,7 @@
         "faq_dbL7Rx",
         "faq_jfg33R",
         "faq_aMdKEP",
+        "faq_Lbfpfn",
         "faq_ffirHL",
         "faq_47WmUX",
         "faq_rYDfdn",
