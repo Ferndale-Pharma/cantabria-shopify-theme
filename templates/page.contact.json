@@ -17,23 +17,6 @@
         "padding_bottom": 36
       }
     },
-    "1756715247b4853a62": {
-      "type": "apps",
-      "blocks": {
-        "powerful_form_builder_app_block_V8yfqi": {
-          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
-          "settings": {
-            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTA2Njcw\"></div>"
-          }
-        }
-      },
-      "block_order": [
-        "powerful_form_builder_app_block_V8yfqi"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "rich_text_TxqXwc": {
       "type": "rich-text",
       "blocks": {
@@ -130,7 +113,6 @@
   },
   "order": [
     "main",
-    "1756715247b4853a62",
     "rich_text_TxqXwc",
     "form",
     "collapsible_content_NFzMN9"
