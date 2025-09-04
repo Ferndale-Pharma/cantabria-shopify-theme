@@ -15,25 +15,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "17541035797b9ec015": {
-      "type": "apps",
-      "blocks": {
-        "promap_rp_storelocator_page_block_GmFRkB": {
-          "type": "shopify://apps/promap-rp/blocks/storelocator-page-block/acff8fd9-34cc-4a4d-98ed-d7fdb5d3605f",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "promap_rp_storelocator_page_block_GmFRkB"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
-    "main",
-    "17541035797b9ec015"
+    "main"
   ]
 }
