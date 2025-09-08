@@ -68,14 +68,14 @@
         "heading_aYcLWa": {
           "type": "heading",
           "settings": {
-            "heading": "Radiance & Protection, Every Day",
+            "heading": "Transform Your Hyperpigmentation Routine",
             "heading_size": "h1"
           }
         },
         "text_kyA6LM": {
           "type": "text",
           "settings": {
-            "text": "Get a free HELIOCARE 360° Facial SPF of your choice with the purchase our brightening ENDOCARE RADIANCE C Ferulic Serum",
+            "text": "With every HELIOCARE 360° Pigment Solution Fluid order, receive a complimentary full-size NEORETIN Serum and 6 x NEORETIN Corrector Peel Pads (worth £70)",
             "text_style": "subtitle"
           }
         },
@@ -83,7 +83,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now",
-            "button_link_1": "shopify://products/endocare-c-ferulic-and-heliocare-360-sunscreen",
+            "button_link_1": "shopify://products/heliocare-360-pigment-solution-fluid",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -96,8 +96,11 @@
         "text_kyA6LM",
         "buttons_RkjPdk"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.h1 {font-size: 1.9em; }}"
+      ],
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00124_CantabriaLabs_HomepageBanner_EndocareH360Bundle_2560x960_Aug25-1.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00125_CantabriaLabs_HomepageBanner_NeoretinGWP_2560x960_Sep25.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
