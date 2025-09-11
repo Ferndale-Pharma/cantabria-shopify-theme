@@ -178,7 +178,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"rich-text content-container color-scheme-1 gradient rich-text--full-width content-container--full-width\">\n<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\"><p style=\"font-size:0.7em; text-align:left; padding-top: 64px; padding-bottom: 64px;\">{{ product.metafields.custom.references.value }}</p>\n</div>\n</div>",
+        "custom_liquid": "<div class=\"rich-text content-container color-scheme-1 gradient rich-text--full-width content-container--full-width\">\n<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\"><p style=\"font-size:0.7em; text-align:left;  padding-bottom: 64px;\">{{ product.metafields.custom.references.value }}</p>\n</div>\n</div>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
