@@ -127,8 +127,8 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": true,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top": 32,
+        "padding_bottom": 64
       }
     },
     "1725440000dbba4c0d": {
@@ -164,8 +164,8 @@
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "1725375417ea1f4d2f": {
@@ -174,32 +174,14 @@
         "include_margins": true
       }
     },
-    "rich_text_34kRw8": {
-      "type": "rich-text",
-      "blocks": {
-        "text_arxaJQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.custom.references.value }}</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_arxaJQ"
-      ],
-      "custom_css": [
-        "p {text-align: left; font-size: 0.7em;}"
-      ],
-      "name": "t:sections.rich-text.presets.name",
+    "custom_liquid_frwCrt": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "custom_liquid": "<div class=\"rich-text content-container color-scheme-1 gradient rich-text--full-width content-container--full-width\">\n<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\"><p style=\"font-size:0.7em; text-align:left; padding-top: 64px; padding-bottom: 64px;\">{{ product.metafields.custom.references.value }}</p>\n</div>\n</div>",
         "color_scheme": "",
-        "full_width": true,
-        "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 64,
-        "container_id": ""
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "newsletter_VckrPM": {
@@ -241,7 +223,7 @@
     "1725440000dbba4c0d",
     "related-products",
     "1725375417ea1f4d2f",
-    "rich_text_34kRw8",
+    "custom_liquid_frwCrt",
     "newsletter_VckrPM"
   ]
 }

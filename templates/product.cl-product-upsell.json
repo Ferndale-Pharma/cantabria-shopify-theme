@@ -127,8 +127,8 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": true,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top": 32,
+        "padding_bottom": 64
       }
     },
     "rich_text_DE8YeP": {
@@ -152,7 +152,7 @@
         "color_scheme": "",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 64,
+        "padding_top": 0,
         "padding_bottom": 0,
         "container_id": ""
       }
@@ -253,8 +253,8 @@
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "newsletter_VckrPM": {

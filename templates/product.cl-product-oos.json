@@ -77,14 +77,6 @@
           "type": "description",
           "settings": {}
         },
-        "selleasy_lb_upsell_fbt_block_BHQp6b": {
-          "type": "shopify://apps/selleasy/blocks/lb-upsell-fbt-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "settings": {}
-        },
-        "selleasy_lb_upsell_addon_block_NiQk44": {
-          "type": "shopify://apps/selleasy/blocks/lb-upsell-addon-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "settings": {}
-        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
@@ -125,8 +117,6 @@
         "text_aKwCcF",
         "powerful_form_builder_app_block_DPtpre",
         "description_4GfMrB",
-        "selleasy_lb_upsell_fbt_block_BHQp6b",
-        "selleasy_lb_upsell_addon_block_NiQk44",
         "collapsible-row-1",
         "collapsible-row-2",
         "ingredients_tab_4mt9Wd"
@@ -143,8 +133,8 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": true,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top": 32,
+        "padding_bottom": 64
       }
     },
     "1725440000dbba4c0d": {
@@ -152,7 +142,10 @@
       "blocks": {
         "judge_me_reviews_review_widget_D8HWxR": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         }
       },
       "block_order": [
@@ -177,8 +170,8 @@
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "1725375417ea1f4d2f": {
