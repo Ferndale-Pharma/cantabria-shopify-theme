@@ -174,14 +174,32 @@
         "include_margins": true
       }
     },
-    "custom_liquid_rCETXi": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
+    "rich_text_34kRw8": {
+      "type": "rich-text",
+      "blocks": {
+        "text_arxaJQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.references.value }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_arxaJQ"
+      ],
+      "custom_css": [
+        "p {text-align: left; font-size: 0.7em;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "custom_liquid": "<p>{{ product.metafields.custom.references.value }}</p>",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "newsletter_VckrPM": {
@@ -223,7 +241,7 @@
     "1725440000dbba4c0d",
     "related-products",
     "1725375417ea1f4d2f",
-    "custom_liquid_rCETXi",
+    "rich_text_34kRw8",
     "newsletter_VckrPM"
   ]
 }
