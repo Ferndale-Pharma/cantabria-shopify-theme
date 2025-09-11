@@ -136,7 +136,10 @@
       "blocks": {
         "judge_me_reviews_review_widget_D8HWxR": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         }
       },
       "block_order": [
@@ -169,6 +172,16 @@
       "type": "apps",
       "settings": {
         "include_margins": true
+      }
+    },
+    "custom_liquid_rCETXi": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<p>{{ product.metafields.custom.references.value }}</p>",
+        "color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "newsletter_VckrPM": {
@@ -210,6 +223,7 @@
     "1725440000dbba4c0d",
     "related-products",
     "1725375417ea1f4d2f",
+    "custom_liquid_rCETXi",
     "newsletter_VckrPM"
   ]
 }
