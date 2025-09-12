@@ -11,13 +11,155 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_RnVNNU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iJA38j": {
+          "type": "heading",
+          "settings": {
+            "heading": "Looking for a solution to adult acne?",
+            "heading_size": "h1"
+          }
+        },
+        "heading_NepFHr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Claim your free full-size trial of NEW BIRETIX Double Correction Serum and see results in as little as 14 days",
+            "heading_size": "h2"
+          }
+        },
+        "text_UH9YBj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Up to 20% of adults aged 25 to 40 in the UK have experienced adult or late-onset acne in the UK. Often located on the lower part of the face, Adult acne tends to linger for longer and can lead to hyperpigmentation or scarring.</p><p>Formulated specifically for adults with late-onset or relapsing acne, NEW BIRETIX Double Correction Serum is clinically proven to fight imperfections, control shine, and smooth fine lines, delivering results you can see and feel in as little as two weeks.</p>"
+          }
+        },
+        "button_kYcgdn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Claim your FREE trial now",
+            "button_link": "#claim",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iJA38j",
+        "heading_NepFHr",
+        "text_UH9YBj",
+        "button_kYcgdn"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "cl_single_image_BT9yEE": {
+      "type": "cl-single-image",
+      "name": "Single Image",
+      "settings": {
+        "image": "shopify://shop_images/Img1_-_Amends2_-_FERN-CL-EM-00155.jpg",
+        "image_width_value": 800,
+        "image_width_unit": "px",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": true,
+        "container_id": ""
+      }
+    },
+    "rich_text_JVV6D9": {
+      "type": "rich-text",
+      "blocks": {
+        "text_4WDme8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As a valued member of the Cantabria Labs Community, we’re inviting you to trial this incredible new addition to the BIRETIX range absolutely FREE!</p><p><strong>Start your journey to clearer, smoother, more confident skin. Simply complete the form below to claim your FREE full size trial of NEW BIRETIX Double Correction Serum*</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_4WDme8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 32,
+        "container_id": "claim"
+      }
+    },
+    "1757666909b6545942": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_TwbFgx": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTA2Njcw\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_TwbFgx"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_BLjJLT": {
+      "type": "rich-text",
+      "blocks": {
+        "text_baqRtp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>*T&Cs apply. This offer is open to UK residents currently suffering from adult acne. By submitting your details, you confirm that you meet the eligibility criteria. Mainland UK residents only.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_baqRtp"
+      ],
+      "custom_css": [
+        "p {font-size: 0.8em;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_RnVNNU",
+    "cl_single_image_BT9yEE",
+    "rich_text_JVV6D9",
+    "1757666909b6545942",
+    "rich_text_BLjJLT"
   ]
 }
