@@ -305,12 +305,12 @@
             "subheading": "A patented delivery-system technology that boosts the action of azelaic acid up to 5 times, for greater efficacy in exfoliating, diminishing the appearance of blemishes, reducing redness and soothing the skin. ",
             "button_label": "Learn more",
             "link": "shopify://blogs/expert-advice/discover-azelaic-aox-tech-the-innovation-behind-a-more-even-radiant-skin-tone",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
         },
