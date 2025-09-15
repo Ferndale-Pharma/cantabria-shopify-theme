@@ -143,49 +143,48 @@
         "container_id": ""
       }
     },
-    "image_with_text_html_LYKX9k": {
-      "type": "image-with-text-html",
+    "multicolumn_html_BWxTYb": {
+      "type": "multicolumn-html",
       "blocks": {
-        "heading_KFxkbD": {
-          "type": "heading",
+        "column_HHbmN9": {
+          "type": "column",
           "settings": {
-            "heading": "A simple 3 step daily skin regime",
-            "heading_size": "h2"
+            "image": "shopify://shop_images/regime-adult-acne-1x1.jpg",
+            "title": "BIRETIX Regime for Adult Acne",
+            "text": "<p>Experience dermatologist-approved care for adult acne with the BIRETIX Regime - tailored to meet the unique needs of adults with mild to moderate acne, this high-performance regime goes beyond breakout control. Clinically proven to deliver visible results in as little as <b>14 days</b><sup>7</sup>, this regime is suitable for daily use and offers excellent tolerability, even for sensitive skin. </p>",
+            "link_label": "View product",
+            "link": "shopify://products/biretix-regime-for-adult-acne"
           }
         },
-        "text_qbkYTr": {
-          "type": "text",
+        "column_4KGaLf": {
+          "type": "column",
           "settings": {
-            "text": "<p>BIRETIX Tri-Active Gel, combined with BIRETIX Cleanser and BIRETIX Hydramat Fluid, form the perfect three step daily skin regime to significantly reduce imperfections, blemishes and sebum while taking care of the skin. The regime is dermatologically proven to have excellent skin tolerance, significantly increase skin moisturisation and reduce redness, even in sensitive acne-prone skin.<sup>6</sup></p>",
-            "text_style": "body"
-          }
-        },
-        "button_qRFm9h": {
-          "type": "button",
-          "settings": {
-            "button_label": "View product",
-            "button_link": "shopify://products/biretix-regime-for-adolescent-persistent-acne",
-            "button_style_secondary": true
+            "image": "shopify://shop_images/regime-adolescent-acne-1x1.jpg",
+            "title": "BIRETIX Regime for Adolescent/Persistent Acne",
+            "text": "<p>A dermatologist-developed 3-step routine designed for those with mild to moderate acne, including adolescent breakouts and ongoing adult blemishes. Proven to significantly reduce imperfections and sebum in just <b>21 days</b><sup>6</sup>, the routine is suitable for daily use and well tolerated, even by sensitive skin.</p>",
+            "link_label": "View product",
+            "link": "shopify://products/biretix-regime-for-adolescent-persistent-acne"
           }
         }
       },
       "block_order": [
-        "heading_KFxkbD",
-        "text_qbkYTr",
-        "button_qRFm9h"
+        "column_HHbmN9",
+        "column_4KGaLf"
       ],
+      "name": "Multicolumn HTML",
       "settings": {
-        "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_Brand_Page_-_TriActive_Regime_7a783ecd-564d-40c2-a64a-2e0c75a3dc10.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-3",
+        "title": "Simple 3-step daily skin regimes for acne prone skin",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -711,7 +710,7 @@
           "settings": {
             "heading": "References",
             "icon": "question_mark",
-            "row_content": "<ol><li>Hashtroody B, Bellas L, Pérez-Davó A. AEDV Poster, Spain, 2018. </li><li>Martinez J, Pérez-Davó A. GEDET Poster, Spain, 2019. </li><li>Milani M, Gonzales LC, Villalba M. J Clin Dermatol Ther 2021.7: 089. </li><li>Villani A, Annunziata MC, Cinelli E, Donnarumma M, Milani M, Fabbrocini G. G It Dermatol Venereol 2020. 155(5): 676-679. </li><li>Data on file, Zurko Bioresearch Madrid, 2021.</li><li>Massimo M, Colombo F  (2023). Clinical-instrumental assessment of a daily cosmetic regimen in ensuring improved skin barrier and tolerability in sensitive skin undergoing acne treatment: a prospective open trial. <em>Int J Clin Expl Dermatol</em>, 8(1), 08-15.20. (20 patients (18 to 45 years) with sensitive and acne prone skin)</li></ol>",
+            "row_content": "<ol><li>Hashtroody B, Bellas L, Pérez-Davó A. AEDV Poster, Spain, 2018. </li><li>Martinez J, Pérez-Davó A. GEDET Poster, Spain, 2019. </li><li>Milani M, Gonzales LC, Villalba M. J Clin Dermatol Ther 2021.7: 089. </li><li>Villani A, Annunziata MC, Cinelli E, Donnarumma M, Milani M, Fabbrocini G. G It Dermatol Venereol 2020. 155(5): 676-679. </li><li>Data on file, Zurko Bioresearch Madrid, 2021.</li><li>Massimo M, Colombo F  (2023). Clinical-instrumental assessment of a daily cosmetic regimen in ensuring improved skin barrier and tolerability in sensitive skin undergoing acne treatment: a prospective open trial. <em>Int J Clin Expl Dermatol</em>, 8(1), 08-15.20. (20 patients (18 to 45 years) with sensitive and acne prone skin).</li><li>Data on file. CRO Complife, Italy 2024. Clinical-Instrumental evaluation of the efficacy and tolerability of a cosmetic treatment in subjects with acne prone skin; 20 female subjects with mild to moderate acne symptoms applied Biretix Double Correction Serum twice daily for 42 days - results tested at baseline (T0) and after 14 (T14), 28 (T28) and 42 days (T42).<br/></li></ol>",
             "page": ""
           }
         }
@@ -772,7 +771,7 @@
     "image_banner_9qaB4e",
     "rich_text_CcYqft",
     "rich_text_LimL7D",
-    "image_with_text_html_LYKX9k",
+    "multicolumn_html_BWxTYb",
     "cl_featured_collection_MbjxVd",
     "multicolumn_CQCX7D",
     "rich_text_HUxECR",
