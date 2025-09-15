@@ -71,13 +71,16 @@
         "text_bTDdty": {
           "type": "text",
           "settings": {
-            "text": "<p>Powered by innovative retinol and antimicrobial technologies, RetinSphere® and BIOPEP-15, as well as scientifically proven powerhouse ingredients such as glycolic acid, salicylic acid and niacinamide, BIRETIX offers a holistic skincare solution for acne-prone skin.  </p><p>Use regularly to target every stage of the acne-prone skin cycle to significantly reduce imperfections and blemishes and promote a healthier complexion.  </p>"
+            "text": "<p>Powered by innovative retinol and antimicrobial technologies, <a href=\"/blogs/expert-advice/retinsphere-technology\" title=\"RetinSphere® Technology\">RetinSphere®</a> and <a href=\"/blogs/expert-advice/biopep-15\" title=\"BIOPEP-15\">BIOPEP-15</a>, as well as scientifically proven powerhouse ingredients such as glycolic acid, salicylic acid and niacinamide, BIRETIX offers a holistic skincare solution for acne-prone skin.  </p><p>Use regularly to target every stage of the acne-prone skin cycle to significantly reduce imperfections and blemishes and promote a healthier complexion.  </p>"
           }
         }
       },
       "block_order": [
         "heading_f8ge44",
         "text_bTDdty"
+      ],
+      "custom_css": [
+        "a {color: #000; font-weight: bold;}"
       ],
       "settings": {
         "desktop_content_position": "center",
