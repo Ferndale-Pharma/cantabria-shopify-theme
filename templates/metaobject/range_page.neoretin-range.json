@@ -90,6 +90,54 @@
         "container_id": ""
       }
     },
+    "rich_text_ADBteh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EB8f6r": {
+          "type": "heading",
+          "settings": {
+            "heading": "Transform your hyperpigmentation routine",
+            "heading_size": "h2"
+          }
+        },
+        "text_yF9UHY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For a limited time only, you can receive <a href=\"https://cantabrialabs.co.uk/products/neoretin-pigment-neutraliser-serum\">NEORETIN Pigment Neutraliser Serum </a>& <a href=\"https://cantabrialabs.co.uk/products/neoretin-pigment-corrector-peel-pads\">Pigment Corrector Peel Pads </a>(worth £70) for <strong>FREE</strong> when you purchase <a href=\"https://cantabrialabs.co.uk/products/heliocare-360-pigment-solution-fluid\">HELIOCARE 360° Pigment Solution Fluid</a></p>"
+          }
+        },
+        "button_nnaQmt": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop offer",
+            "button_link": "shopify://products/heliocare-360-pigment-solution-fluid",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EB8f6r",
+        "text_yF9UHY",
+        "button_nnaQmt"
+      ],
+      "custom_css": [
+        "p a {color: #121212;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4eac015d-b4a2-4500-a19c-7c53164fbb5d",
+        "full_width": false,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
     "image_with_text_bJBhDW": {
       "type": "image-with-text",
       "blocks": {
@@ -493,6 +541,7 @@
   "order": [
     "image_banner_9qaB4e",
     "rich_text_brBaBU",
+    "rich_text_ADBteh",
     "image_with_text_bJBhDW",
     "video_QDQ3bK",
     "image_with_text_ycKzcY",
