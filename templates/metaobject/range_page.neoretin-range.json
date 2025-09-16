@@ -124,7 +124,8 @@
         "button_nnaQmt"
       ],
       "custom_css": [
-        "p a {color: #121212;}"
+        "p a {color: #121212;}",
+        "h2 {color: #653165;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -181,7 +182,7 @@
         "color_scheme": "scheme-4",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "padding_top": 64,
+        "padding_top": 96,
         "padding_bottom": 64
       }
     },
