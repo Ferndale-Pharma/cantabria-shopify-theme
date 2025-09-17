@@ -130,12 +130,22 @@
             "row_content": "<p>There could a number of reasons why you haven't received your reward points yet: they may not have placed an order yet, they may not have used your referral link or there may have been a technical issue with the website. If you think you should have received reward points, please contact our Customer Service team customerservice@ferndalepharma.co.uk and provide any helpful information such as email addresses, order details etc.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_MEfAqY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I placed an order before creating an account, will I still receive the points?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, if you create an account with the email address that was used to place a previous order, your points will automatically be credited.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_HDhLRp",
         "collapsible_row_KkbMgL",
-        "collapsible_row_UqTD3J"
+        "collapsible_row_UqTD3J",
+        "collapsible_row_MEfAqY"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {

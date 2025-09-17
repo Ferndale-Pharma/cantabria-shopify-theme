@@ -346,6 +346,14 @@
             "title": "Do my reward points expire?",
             "answer": "<p>No, your reward points don't have an expiry date so you can save up your points for as long as you want!</p>"
           }
+        },
+        "faq_Y4kyUb": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Loyalty Rewards",
+            "title": "I placed an order before creating an account, will I still receive the points?",
+            "answer": "<p>Yes, if you create an account with the email address that was used to place a previous order, your points will automatically be credited.</p>"
+          }
         }
       },
       "block_order": [
@@ -389,7 +397,8 @@
         "faq_T3Gfnh",
         "faq_DBBJjC",
         "faq_F9fhjH",
-        "faq_zwLwMq"
+        "faq_zwLwMq",
+        "faq_Y4kyUb"
       ],
       "name": "Grouped FAQs",
       "settings": {
