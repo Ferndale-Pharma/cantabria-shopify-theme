@@ -116,6 +116,11 @@ li.menu-link__without-image {
   text-align: center;
 }
 
+.multicolumn.background-primary .rte {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
 /** Custom styling for Store locator **/
 
 form#bh-sl-user-location button#scapl-geocode-btn {
