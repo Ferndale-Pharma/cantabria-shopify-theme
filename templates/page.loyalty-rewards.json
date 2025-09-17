@@ -49,6 +49,7 @@
         "column_QT8HRy": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00134_CantabriaLabs_RewardProgramme_Icons_650x650px_Sep25_01.png",
             "title": "Earn",
             "text": "<p>You will earn 10 points for every £1 you spend at CantabriaLabs.co.uk.</p>",
             "link_label": "",
@@ -58,6 +59,7 @@
         "column_Q7kCVn": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00134_CantabriaLabs_RewardProgramme_Icons_650x650px_Sep25_03.png",
             "title": "Share",
             "text": "<p>Simply copy your referral link and send it to your friend; they will receive 10% off their first order. Once they have placed an order, you will receive 500 points.</p>",
             "link_label": "",
@@ -67,6 +69,7 @@
         "column_TbyHD4": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00134_CantabriaLabs_RewardProgramme_Icons_650x650px_Sep25_02.png",
             "title": "Redeem",
             "text": "<p>When you have enough points, you can redeem the points for the discount amount that you wish to use. You can find this in the blue widget 'Loyalty Rewards' or in your account.</p>",
             "link_label": "",
@@ -83,7 +86,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
