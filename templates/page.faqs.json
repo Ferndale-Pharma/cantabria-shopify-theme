@@ -338,6 +338,14 @@
             "title": "Why haven't I received my reward points after referring my friend?",
             "answer": "<p>There could a number of reasons why you haven't received your reward points yet: they may not have placed an order yet, they may not have used your referral link or there may have been a technical issue with the website. If you think you should have received reward points, please contact our Customer Service team customerservice@ferndalepharma.co.uk and provide any helpful information such as email addresses, order details etc.</p>"
           }
+        },
+        "faq_zwLwMq": {
+          "type": "faq",
+          "settings": {
+            "group_title": "Loyalty Rewards",
+            "title": "Do my reward points expire?",
+            "answer": "<p>No, your reward points don't have an expiry date so you can save up your points for as long as you want!</p>"
+          }
         }
       },
       "block_order": [
@@ -380,7 +388,8 @@
         "faq_8FWYpX",
         "faq_T3Gfnh",
         "faq_DBBJjC",
-        "faq_F9fhjH"
+        "faq_F9fhjH",
+        "faq_zwLwMq"
       ],
       "name": "Grouped FAQs",
       "settings": {
