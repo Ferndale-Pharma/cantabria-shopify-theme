@@ -14,25 +14,24 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_dP3e9T": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "Protect Your Little Ones with HELIOCARE 360° - 20% Off Selected HELIOCARE 360° Pediatrics & Family Products!",
-            "link": "shopify://collections/promotions"
-          }
-        },
         "announcement_H6wiei": {
           "type": "announcement",
           "settings": {
             "text": "Welcome to CantabriaLabs.co.uk - The Official UK Home of HELIOCARE 360°",
             "link": ""
           }
+        },
+        "announcement_dP3e9T": {
+          "type": "announcement",
+          "settings": {
+            "text": "Earn exclusive discounts with the Cantabria Labs Loyalty Rewards Programme - Find Out More",
+            "link": "shopify://pages/cantabria-labs-loyalty-rewards-programme"
+          }
         }
       },
       "block_order": [
-        "announcement_dP3e9T",
-        "announcement_H6wiei"
+        "announcement_H6wiei",
+        "announcement_dP3e9T"
       ],
       "custom_css": [
         ".slider-buttons button {background-color: initial;}",
