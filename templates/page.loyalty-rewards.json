@@ -11,13 +11,150 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_U9XPbz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JTEg7F": {
+          "type": "heading",
+          "settings": {
+            "heading": "How the loyalty rewards programme works",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JTEg7F"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_Bt78wD": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_QT8HRy": {
+          "type": "column",
+          "settings": {
+            "title": "Earn",
+            "text": "<p>You will earn 10 points for every £1 you spend at CantabriaLabs.co.uk.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Q7kCVn": {
+          "type": "column",
+          "settings": {
+            "title": "Share",
+            "text": "<p>Simply copy your referral link and send it to your friend; they will receive 10% off their first order. Once they have placed an order, you will receive 500 points.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TbyHD4": {
+          "type": "column",
+          "settings": {
+            "title": "Redeem",
+            "text": "<p>When you have enough points, you can redeem the points for the discount amount that you wish to use. You can find this in the blue widget 'Loyalty Rewards' or in your account.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_QT8HRy",
+        "column_Q7kCVn",
+        "column_TbyHD4"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Sign up now",
+        "button_link": "https://cantabrialabs.co.uk/account/register",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "collapsible_content_6qCT6K": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_HDhLRp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do my reward points expire?",
+            "icon": "question_mark",
+            "row_content": "<p>No, your reward points don't have an expiry date so you can save up your points for as long as you want!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_KkbMgL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I redeemed the wrong discount reward, can I refund my points?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, if you click on the blue icon \"Loyalty Rewards\" in the bottom right of your screen and go to \"My discounts\", you can click \"Refund\" on the reward that you don't want.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UqTD3J": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why haven't I received my reward points after referring my friend?",
+            "icon": "question_mark",
+            "row_content": "<p>There could a number of reasons why you haven't received your reward points yet: they may not have placed an order yet, they may not have used your referral link or there may have been a technical issue with the website. If you think you should have received reward points, please contact our Customer Service team customerservice@ferndalepharma.co.uk and provide any helpful information such as email addresses, order details etc.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_HDhLRp",
+        "collapsible_row_KkbMgL",
+        "collapsible_row_UqTD3J"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_U9XPbz",
+    "multicolumn_Bt78wD",
+    "collapsible_content_6qCT6K"
   ]
 }
