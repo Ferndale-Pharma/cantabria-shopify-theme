@@ -150,8 +150,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/regime-adult-acne-1x1.jpg",
-            "title": "BIRETIX Regime for Adult Acne",
-            "text": "<p>Experience dermatologist-approved care for adult acne with the BIRETIX Regime - tailored to meet the unique needs of adults with mild to moderate acne, this high-performance regime goes beyond breakout control. Clinically proven to deliver visible results in as little as <b>14 days</b><sup>7</sup>, this regime is suitable for daily use and offers excellent tolerability, even for sensitive skin. </p>",
+            "title": "BIRETIX Regime for Adult Acne-Prone Skin",
+            "text": "<p>Experience dermatologist-approved care for adult acne-prone skin with the BIRETIX Regime - tailored to meet the unique needs of adults with mild to moderate acne, this high-performance regime goes beyond breakout control. Clinically proven to deliver visible results in as little as <b>14 days</b><sup>7</sup>, this regime is suitable for daily use and offers excellent tolerability, even for sensitive skin. </p>",
             "link_label": "View product",
             "link": "shopify://products/biretix-regime-for-adult-acne"
           }
@@ -160,7 +160,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/regime-adolescent-acne-1x1.jpg",
-            "title": "BIRETIX Regime for Adolescent/Persistent Acne",
+            "title": "BIRETIX Regime for Adolescent/Persistent Acne-Prone Skin",
             "text": "<p>A dermatologist-developed 3-step routine designed for those with mild to moderate acne, including adolescent breakouts and ongoing adult blemishes. Proven to significantly reduce imperfections and sebum in just <b>21 days</b><sup>6</sup>, the routine is suitable for daily use and well tolerated, even by sensitive skin.</p>",
             "link_label": "View product",
             "link": "shopify://products/biretix-regime-for-adolescent-persistent-acne"
