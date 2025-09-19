@@ -254,13 +254,7 @@
         "text_XG8qkq": {
           "type": "text",
           "settings": {
-            "text": "<p>Building on the proven benefits of Fernblock®, our newest innovation introduces <a href=\"/blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation\" title=\"Introducing ASPA-Fernblock®: The next generation of sunscreen innovation\"><strong>ASPA-Fernblock®</strong></a> – a breakthrough bioactive complex featuring Aspalathus linearis (Rooibos) extract. Native to South Africa, Rooibos is rich in flavonoids and renowned for its antioxidant and skin-protective properties.</p>"
-          }
-        },
-        "text_FmBUU9": {
-          "type": "text",
-          "settings": {
-            "text": "<p>By combining Fernblock® with Rooibos-derived ASPA extracts, <strong>ASPA-Fernblock®</strong> enhances photoprotection and reinforces the skin’s defences against sun-induced damage. Its unique <strong>OptiD effect</strong> also supports the skin’s natural ability to synthesise vitamin D – allowing your clients to gain the benefits of sunlight, while maintaining superior protection. </p>"
+            "text": "<p><a href=\"/blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation\" title=\"Introducing ASPA-Fernblock®: The next generation of sunscreen innovation\">ASPA-Fernblock®</a> is the latest evolution in skin photoprotection - a patented bioactive complex that combines Fernblock®, a patented extract of the <em>Polypodium leucotomos</em> fern clinically proven to protect skin, with ASPA, combination of extracts from the <em>Aspalathus linearis</em> plant, more commonly known as Rooibos, it is rich in flavonoids with proven biological activity and exclusive to Cantabria Labs products.</p><p>Together, they boost the efficacy of UV filters for more comprehensive, full-spectrum protection against UVA, UVB, visible light and infrared-A, while delivering the unique OptiD Effect - protecting vitamin D receptors from oxidative stress to help skin maintainoptimal vitamin D function.</p>"
           }
         },
         "button_gG8xDM": {
@@ -278,11 +272,10 @@
       "block_order": [
         "heading_hyTRL6",
         "text_XG8qkq",
-        "text_FmBUU9",
         "button_gG8xDM"
       ],
       "custom_css": [
-        "a {color: #000;}"
+        "a {color: #000; font-weight: bold;}"
       ],
       "settings": {
         "desktop_content_position": "center",

@@ -498,25 +498,13 @@
         "text_FBGXzx": {
           "type": "text",
           "settings": {
-            "text": "<p>Building on the proven benefits of Fernblock®, this revolutionary bioactive skin technology introduces the power of <em>Aspalathus linearis</em> (Rooibos) extract. Native to South Africa, Rooibos is rich in flavonoids and well-documented for its potent antioxidant and skin-protective properties.</p>"
-          }
-        },
-        "text_AzCayH": {
-          "type": "text",
-          "settings": {
-            "text": "<p>By combining Fernblock® with ASPA extracts, NEW ASPA-Fernblock® enhances photoprotection, strengthening the skin’s defences further against sun-induced damage while neutralising harmful free radicals. Its unique OptiD effect also supports the skin’s ability to optimise Vitamin D synthesis, allowing you to benefit from the sun’s essential nutrients while maintaining superior protection.</p>"
-          }
-        },
-        "text_PrGxVB": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Experience the next level in daily skin defence.</p>"
+            "text": "<p><a href=\"/blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation\" title=\"Introducing ASPA-Fernblock®: The next generation of sunscreen innovation\">ASPA-Fernblock®</a> is the latest evolution in skin photoprotection - a patented bioactive complex that combines Fernblock®, a patented extract of the <em>Polypodium leucotomos</em> fern clinically proven to protect skin, with ASPA, combination of extracts from the <em>Aspalathus linearis</em> plant, more commonly known as Rooibos, it is rich in flavonoids with proven biological activity and exclusive to Cantabria Labs products.</p><p>Together, they boost the efficacy of UV filters for more comprehensive, full-spectrum protection against UVA, UVB, visible light and infrared-A, while delivering the unique OptiD Effect - protecting vitamin D receptors from oxidative stress to help skin maintain optimal vitamin D function.</p>"
           }
         },
         "button_TQtKj9": {
           "type": "button",
           "settings": {
-            "button_label": "Discover HELIOCARE products powered by ASPA-Fernblock®",
+            "button_label": "Explore the ASPA-Fernblock® products",
             "button_link": "shopify://collections/aspa-fernblock",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -528,9 +516,10 @@
       "block_order": [
         "heading_K46GHr",
         "text_FBGXzx",
-        "text_AzCayH",
-        "text_PrGxVB",
         "button_TQtKj9"
+      ],
+      "custom_css": [
+        "a {color: #000; font-weight: bold;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -846,7 +835,7 @@
             "image": "shopify://shop_images/FERNBLOCK_1.jpg",
             "heading": "Fernblock® Technology",
             "heading_size": "h1",
-            "subheading": "Fernblock is a natural plant extract derived from the tropical fern Polypodium Leucotomas which provides strong antioxidant activity, helping to prevent and repair skin damage caused by solar radiation (UVA, UVB, Visible Light and Infrared A). It helps prevent sunburn and inflammation, reduces redness, improves skin elasticity, and supports overall skin health. ",
+            "subheading": "Fernblock is a natural plant extract derived from the tropical fern <em>Polypodium Leucotomas</em> which provides strong antioxidant activity, helping to prevent and repair skin damage caused by solar radiation (UVA, UVB, Visible Light and Infrared A). It helps prevent sunburn and inflammation, reduces redness, improves skin elasticity, and supports overall skin health. ",
             "button_label": "Learn more",
             "link": "shopify://blogs/skincare-guides/6-benefits-of-fernblock",
             "button_style_secondary": true,
@@ -864,7 +853,7 @@
             "image": "shopify://shop_images/CL-WEB-0002_-_HELIOCARE_BRAND_PAGE_-_TECH_INGREDIENTS_-_ASPA_FERNBLOCK_1.jpg",
             "heading": "ASPA-Fernblock®",
             "heading_size": "h1",
-            "subheading": "ASPA-Fernblock® is a skin bioactive technology combining Fernblock®, a tropical fern extract, with Aspalathus Linearis (ASPA), a South African plant. It delivers powerful antioxidant protection, helping to prevent and repair sun-induced skin damage (UVA, UVB, Visible Light, Infrared A). It reduces redness, prevents sunburn, boosts elasticity, and enhances vitamin D optimisation - ensuring you get the best from the sun while protecting your skin.",
+            "subheading": "ASPA-Fernblock® is a patented bioactive complex that combines Fernblock® with ASPA, a patented combination of extracts from the <em>Aspalathus linearis</em> plant, more commonly known as Rooibos. Together, they deliver powerful antioxidant activity and full-spectrum protection (UVA, UVB, visible light, infrared-A) while supporting vitamin D function - helping skin stay healthy, resilient and protected.",
             "button_label": "Learn more",
             "link": "shopify://blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation",
             "button_style_secondary": true,
