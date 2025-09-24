@@ -46,7 +46,7 @@
           class="page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           {{ block.shopify_attributes }}
         >
-          
+          {% comment %}
           <span class=" twcss-pb-8 twcss-inline-block twcss-text-[#666]">
             {%- if block.settings.blog_show_date -%}
               <span class="twcss-mr-1 twcss-normal-case twcss-text-2xl ]">
@@ -57,11 +57,11 @@
               <span class="twcss-normal-case">by {{ article.metafields.blog_post.author.value.name }}</span>
             {%- endif %}
           </span>
-          
+          {% endcomment %}
           <h1 class="h1" >
             {{ article.title | escape }}
           </h1>
-          {% comment %}
+          
           <span class="twcss-text-lg twcss-italic">Published on {{ article.published_at |  date: "%d %B  %Y" }}</span>
             <div class="twcss-flex twcss-gap-4 twcss-max-w-[320px] twcss-mb-6 twcss-mt-6 twcss-text-[#666] twcss-items-center  twcss-pr-2">
               <div>
@@ -74,7 +74,7 @@
                 <span class="twcss-text-base twcss-italic twcss-underline"><a href="{{ article.metafields.blog_post.author.value.profile_page }}" title="Learn more about {{ article.metafields.blog_post.author.value.name }}">Learn more about the author</a></span>
               </div>
             </div>
-            {% endcomment %}
+            
         </header>
 
       {%- when 'content' -%}
