@@ -55,6 +55,18 @@
             "show_gift_card_recipient": false
           }
         },
+        "icon_with_text_UFUXgg": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "truck",
+            "heading_1": "Free delivery over £20",
+            "icon_2": "star",
+            "heading_2": "Earn loyalty points",
+            "icon_3": "clipboard",
+            "heading_3": "Dermatologist proven efficacy"
+          }
+        },
         "textarea_gwjLAR": {
           "type": "textarea",
           "settings": {
@@ -111,12 +123,16 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "icon_with_text_UFUXgg",
         "textarea_gwjLAR",
         "description_4GfMrB",
         "collapsible-row-1",
         "collapsible_tab_WAnt3z",
         "collapsible-row-2",
         "ingredients_tab_4mt9Wd"
+      ],
+      "custom_css": [
+        ".icon-with-text__item .h4.inline-richtext {font-size: 12px;}"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -139,7 +155,10 @@
       "blocks": {
         "judge_me_reviews_review_widget_D8HWxR": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         }
       },
       "block_order": [
