@@ -566,6 +566,7 @@
         },
         "column_LpjWdF": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00056_CantabriaLabs_Homepage_OurAmbassadors_RealMadrid_1080x810px_OP2.jpg",
             "title": "Real Madrid C.F.",
@@ -595,13 +596,13 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-1",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 64,
         "padding_bottom": 64,
