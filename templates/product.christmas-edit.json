@@ -77,9 +77,9 @@
         "collapsible_tab_WAnt3z": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Choose the right SPF",
+            "heading": "About the products",
             "icon": "none",
-            "content": "<ul><li><a href=\"/products/heliocare-360-sensation\" title=\"HELIOCARE 360° Sensation SPF50+\">HELIOCARE 360° Sensation SPF50+ </a>- For all skin types </li><li><a href=\"/products/heliocare-360-sport-transparent-stick\" title=\"HELIOCARE 360° SPORT Transparent Stick SPF50+\">HELIOCARE 360° SPORT Transparent Stick SPF50+</a> -  For all skin types</li><li><a href=\"/products/heliocare-360-water-gel\" title=\"HELIOCARE 360° Water Gel SPF50+\">HELIOCARE 360° Water Gel SPF50+</a> - For dry and dehydrated skin </li><li><a href=\"/products/heliocare-360-gel-oil-free\" title=\"HELIOCARE 360° Gel Oil-Free SPF50\">HELIOCARE 360° Gel Oil-Free SPF50</a> – For oily and acne-prone skin </li><li><a href=\"/products/heliocare-360-pigment-solution-fluid\" title=\"HELIOCARE 360° Pigment Solution Fluid SPF50+\">HELIOCARE 360° Pigment Solution Fluid SPF50+</a> - For skin with dark spots and hyperpigmentation </li><li><a href=\"/products/heliocare-360-mineral-tolerance-fluid\" title=\"HELIOCARE 360° Mineral Tolerance Fluid SPF50\">HELIOCARE 360° Mineral Tolerance Fluid SPF50</a> – For sensitive skin </li><li><a href=\"/products/heliocare-360-a-r-emulsion\" title=\"HELIOCARE 360° A-R Emulsion SPF50+\">HELIOCARE 360° A-R Emulsion SPF50+</a> - For skin prone to redness and rosacea </li><li><a href=\"/products/heliocare-360-age-active-fluid\" title=\"HELIOCARE 360° Age Active Fluid SPF50\">HELIOCARE 360° Age Active Fluid SPF50</a> - For photoaged skin with fine lines and wrinkles </li><li><a href=\"/products/heliocare-360-ak-fluid\" title=\"HELIOCARE 360° AK Fluid SPF100+\">HELIOCARE 360° AK Fluid SPF100+</a> - For skin with actinic keratosis or other forms of non-melanoma skin cancer </li></ul>",
+            "content": "<p><a href=\"/products/endocare-hydractive-micellar-solution\" title=\"ENDOCARE HYDRACTIVE Micellar Solution\"><strong>ENDOCARE HYDRACTIVE Micellar Solution</strong></a>: A gentle yet powerful micellar cleanser that removes makeup and impurities while hydrating, soothing and protecting the skin barrier. Enriched with prebiotics, probiotics and niacinamide for clean, refreshed and balanced skin.<br/><br/><a href=\"/products/endocare-radiance-c-ferulic-edafence-serum\" title=\"ENDOCARE RADIANCE C Ferulic Edafence Serum\"><strong>ENDOCARE RADIANCE C Ferulic Edafence Serum</strong></a><strong>:</strong> A powerful daily antioxidant serum A lightweight antioxidant serum powered by Vitamin C, Ferulic Acid and <a href=\"/blogs/expert-advice/edafence-technology\" title=\"EDAFENCE® Technology\">EDAFENCE®</a> to protect, brighten and smooth for glowing, radiant skin.<br/><br/><strong>ENDOCARE RENEWAL ​Retinol Serum</strong>: A lightweight, rejuvenating retinoid serum powered by <a href=\"/blogs/expert-advice/retinsphere-technology\" title=\"RetinSphere® Technology\">RetinSphere® Technology</a> to visibly reduce fine lines and wrinkles and improve overall skin texture.<br/><br/><strong>ENDOCARE AGE BARRIER Hyaluboost Eye Contour​: </strong>A hydrating, barrier-strengthening eye cream with EDAFENCE®, dual Hyaluronic Acid and Niacinamide to smooth fine lines and revitalise tired eyes.<br/><br/><strong>ENDOCARE AGE BARRIER</strong> <strong>Niacinal Serum Gel​: </strong>A nourishing barrier-repair serum with 10% Niacinamide, Hyaluronic Acid and EDAFENCE anti-pollution technology to hydrate, defend, and restore comfort to compromised skin.​<br/><br/><a href=\"/products/heliocare-360-sensation\" title=\"HELIOCARE 360° Sensation SPF50+\"><strong>HELIOCARE 360° Sensation SPF50+</strong></a><strong>: </strong>An ultralight daily sunscreen providing full-spectrum protection against UVA, UVB, visible light and infrared-A (IRA). Enriched with <a href=\"/blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation\" title=\"Introducing ASPA-Fernblock®: The next generation of sunscreen innovation\">ASPA Fernblock® Technology</a> and ginger root extract, it helps fight free radicals, support DNA repair and maintain vitamin D function and soothe the skin.</p>",
             "page": ""
           }
         },
@@ -141,7 +141,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
-            "max_width": 1200
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
           }
         }
       },
@@ -171,10 +173,14 @@
         "padding_bottom": 64
       }
     },
-    "1725375417ea1f4d2f": {
-      "type": "apps",
+    "custom_liquid_9BEdfA": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "include_margins": true
+        "custom_liquid": "<div class=\"rich-text content-container color-scheme-1 gradient rich-text--full-width content-container--full-width\">\n<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\"><p style=\"font-size:0.7em; text-align:left; padding-bottom: 64px;\">{{ product.metafields.custom.references.value }}</p>\n</div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "newsletter_VckrPM": {
@@ -215,7 +221,7 @@
     "main",
     "1725440000dbba4c0d",
     "related-products",
-    "1725375417ea1f4d2f",
+    "custom_liquid_9BEdfA",
     "newsletter_VckrPM"
   ]
 }
