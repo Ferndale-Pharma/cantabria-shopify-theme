@@ -309,6 +309,17 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+    <!-- Hotjar Tracking Code for Cantabria Labs -->
+    <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:5284892,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
 
   </head>
 
@@ -433,6 +444,7 @@
       <script src='{{ 'cart-drawer.js' | asset_url }}' defer='defer'></script>
     {%- endif -%}
 
+{% comment %} Not needed now we're using Pandectes GDPR Cookie Consent App
 <!-- Hotjar – loads only when Shopify analytics consent is granted -->
     <script>
     (function () {
@@ -492,6 +504,7 @@
       document.addEventListener('DOMContentLoaded', waitForShopify);
     })();
     </script>
+    {% endcomment %}
   {% render 'globo.form.custom' %}
   </body>
 </html>
