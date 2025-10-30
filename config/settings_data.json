@@ -205,6 +205,11 @@
         "type": "shopify://apps/promap-rp/blocks/storelocator-embed-block/acff8fd9-34cc-4a4d-98ed-d7fdb5d3605f",
         "disabled": true,
         "settings": {}
+      },
+      "15351435345818755577": {
+        "type": "shopify://apps/pandectes-gdpr/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
