@@ -3668,3 +3668,8 @@ details-disclosure > details {
   color: #fff !important;
   border: 1px solid #165c7d !important;
 }
+.price-per-item__container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
