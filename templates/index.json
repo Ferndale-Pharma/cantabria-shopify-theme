@@ -462,11 +462,10 @@
         },
         "column_84TrPU": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Image.png",
+            "image": "shopify://shop_images/dr-amy-perkins.jpg",
             "title": "",
-            "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas arcu urna, molestie non felis et, ornare tincidunt tortor. Nunc tortor neque, tincidunt a fermentum ac, mollis eu felis. Ut cursus volutpat.”</p><p><strong>Dr. Olivia Falcon</strong></p>",
+            "text": "<p><em>“As a dermatologist, I'm passionate about helping people protect and care for their skin long-term. Heliocare's science-led approach and proven formulations make daily sun protection something people can genuinely trust.”<br/><br/></em><strong>Dr. Amy Perkins<br/></strong>Speciality Doctor in Dermatology</p>",
             "link_label": "",
             "link": ""
           }
@@ -482,7 +481,7 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
