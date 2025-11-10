@@ -68,22 +68,22 @@
         "heading_aYcLWa": {
           "type": "heading",
           "settings": {
-            "heading": "Save Over 40% with the BIRETIX Treat & Protect Regime for Adult Acne-Prone Skin",
+            "heading": "Save Over £175 with the Limited Edition ENDOCARE Edit",
             "heading_size": "h1"
           }
         },
         "text_kyA6LM": {
           "type": "text",
           "settings": {
-            "text": "Featuring the new <a href=\"/products/biretix-double-correction-serum\" title=\"BIRETIX Double Correction Serum\">Double Correction Serum</a> - because protecting your skin is just as important as treating it",
+            "text": "Six clinically-advanced formulations for just £60! Including new products and the best-selling ENDOCARE C Ferulic Serum",
             "text_style": "subtitle"
           }
         },
         "buttons_RkjPdk": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop the Regime",
-            "button_link_1": "https://cantabrialabs.co.uk/products/biretix-regime-for-adult-acne?variant=51318159049032",
+            "button_label_1": "Shop the Edit",
+            "button_link_1": "shopify://products/the-endocare-edit-christmas-2025",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -100,7 +100,7 @@
         "@media screen and (max-width: 767px) {.h1 {font-size: 1.9em; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00130_CantabriaLabs_Mixed_Treat_Protect_HomepageBanners_2560x960_2.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00148_CantabriaLabs_HomepageBanner_TheEndocareEdit_2560x960_Nov25.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
