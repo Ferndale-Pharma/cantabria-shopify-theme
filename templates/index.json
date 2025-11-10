@@ -114,6 +114,54 @@
         "is_heading": false
       }
     },
+    "rich_text_ztaaeV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_N7DDcJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "The countdown to Black Friday is on!",
+            "heading_size": "h1"
+          }
+        },
+        "text_7exgUG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Early deals are live now - but the best is yet to come. Shop now and check back for even more offers soon.</p>"
+          }
+        },
+        "button_MBVNfX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop early deals",
+            "button_link": "shopify://collections/promotions",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_N7DDcJ",
+        "text_7exgUG",
+        "button_MBVNfX"
+      ],
+      "custom_css": [
+        "p {color: #fff;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
     "rich_text_amGfhA": {
       "type": "rich-text",
       "blocks": {
@@ -134,7 +182,7 @@
         "color_scheme": "scheme-1",
         "full_width": true,
         "is_heading": true,
-        "padding_top": 32,
+        "padding_top": 64,
         "padding_bottom": 0,
         "container_id": ""
       }
@@ -853,6 +901,7 @@
   "order": [
     "image_banner",
     "image_banner_Gzhfhh",
+    "rich_text_ztaaeV",
     "rich_text_amGfhA",
     "cl_featured_collection_rx4MFi",
     "cl_collage_ranges_UM4mMA",
