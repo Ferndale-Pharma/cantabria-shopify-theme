@@ -21,6 +21,13 @@
             "link": ""
           }
         },
+        "announcement_GetfV3": {
+          "type": "announcement",
+          "settings": {
+            "text": "Save Over £175 with The ENDOCARE Edit: Christmas 2025 - Discover Your New Skincare Favourites",
+            "link": "shopify://products/the-endocare-edit-christmas-2025"
+          }
+        },
         "announcement_dP3e9T": {
           "type": "announcement",
           "settings": {
@@ -31,6 +38,7 @@
       },
       "block_order": [
         "announcement_H6wiei",
+        "announcement_GetfV3",
         "announcement_dP3e9T"
       ],
       "custom_css": [
