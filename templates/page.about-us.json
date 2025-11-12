@@ -187,14 +187,14 @@
         "heading_qaqnef": {
           "type": "heading",
           "settings": {
-            "heading": "About Ferndale Pharma Health & Beauty",
+            "heading": "About Ferndale Pharma",
             "heading_size": "h2"
           }
         },
         "text_dd3ddY": {
           "type": "text",
           "settings": {
-            "text": "<p>CantabriaLabs.co.uk is operated by FERNDALE PHARMA Health & Beauty, a division of Ferndale Pharmaceuticals Ltd. Ferndale Pharmaceuticals Ltd. are proud to be the exclusive UK distributor partner of Cantabria Labs since 2008.</p><p>Ferndale Pharma Health & Beauty offers dermo-cosmetic brands to skin-savvy customers, promoting skin health, beauty, and well-being.</p><p>As a division of Ferndale Pharmaceuticals Ltd, we work with leading dermatologists and professional skin clinics, providing clinically proven solutions to a wide range of skincare conditions and indications. </p><p>As partners with Cantabria Labs, we share a common culture… to explore possibilities, be adventurous and, most importantly, always put people first. </p>",
+            "text": "<p>CantabriaLabs.co.uk is operated by Ferndale Pharma; who are proud to be the exclusive UK distributor partner of Cantabria Labs since 2008. <br/><br/>Ferndale Pharma offers dermo-cosmetic brands to skin-savvy customers, promoting skin health, beauty, and well-being. <br/><br/>We work with leading dermatologists and professional skin clinics, providing clinically proven solutions to a wide range of skincare conditions and indications. <br/><br/>As partners with Cantabria Labs, we share a common culture… to explore possibilities, be adventurous and, most importantly, always put people first. </p>",
             "text_style": "body"
           }
         }
@@ -204,7 +204,7 @@
         "text_dd3ddY"
       ],
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00050_CantabriaLabs_AboutUsPage_FerndalePharmaHB_670x472px_Jun25.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00050_V2_CantabriaLabs_AboutUsPage_FerndalePharmaHB_670x472px_Nov25-01.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
