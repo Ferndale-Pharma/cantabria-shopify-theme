@@ -68,15 +68,22 @@
         "heading_aYcLWa": {
           "type": "heading",
           "settings": {
-            "heading": "Save Over £175 with the Limited Edition ENDOCARE Edit",
+            "heading": "Save over £175 on clinically proven anti-ageing skincare!",
             "heading_size": "h1"
           }
         },
         "text_kyA6LM": {
           "type": "text",
           "settings": {
-            "text": "Six clinically-advanced formulations for just £60! Including new products and the best-selling ENDOCARE C Ferulic Serum",
+            "text": "Discover the limited edition ENDOCARE Edit – an exclusive collection of products designed to protect, restore and renew ageing skin. ",
             "text_style": "subtitle"
+          }
+        },
+        "text_77GTLa": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Hurry! Last few remaining...</strong>",
+            "text_style": "body"
           }
         },
         "buttons_RkjPdk": {
@@ -94,6 +101,7 @@
       "block_order": [
         "heading_aYcLWa",
         "text_kyA6LM",
+        "text_77GTLa",
         "buttons_RkjPdk"
       ],
       "custom_css": [
@@ -120,14 +128,14 @@
         "heading_N7DDcJ": {
           "type": "heading",
           "settings": {
-            "heading": "The countdown to Black Friday is on!",
+            "heading": "Black Friday Deals Start Now!",
             "heading_size": "h1"
           }
         },
         "text_7exgUG": {
           "type": "text",
           "settings": {
-            "text": "<p>Early deals are live now - but the best is yet to come. Shop now and check back for even more offers soon.</p>"
+            "text": "<p>Early deals are live now – and check back regularly for even more savings until 2nd December…</p>"
           }
         },
         "button_MBVNfX": {
