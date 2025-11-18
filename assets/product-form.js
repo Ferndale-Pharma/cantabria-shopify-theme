@@ -49,6 +49,7 @@ if (!customElements.get('product-form')) {
           .then((response) => response.json())
           .then((response) => {
             if (response.status) {
+              // Error from cart/add
               publish(PUB_SUB_EVENTS.cartError, {
                 source: 'product-form',
                 productVariantId: formData.get('id'),
@@ -66,70 +67,80 @@ if (!customElements.get('product-form')) {
               this.error = true;
               return;
             } else if (!this.cart) {
+              // No cart drawer/notification – fall back to cart page
               window.location = window.routes.cart_url;
               return;
             }
 
-            if (!this.error) {
-              // Existing theme behaviour: update cart UI
+            if (!this.error)
               publish(PUB_SUB_EVENTS.cartUpdate, {
                 source: 'product-form',
                 productVariantId: formData.get('id'),
                 cartData: response,
               });
 
-              // === GA4 add_to_cart push via dataLayer ===
+            this.error = false;
+            const quickAddModal = this.closest('quick-add-modal');
+
+            // --- GA4 add_to_cart for quick-add modal only ---
+            if (
+              quickAddModal &&
+              typeof window.pushEcommerceEvent === 'function'
+            ) {
               try {
-                // Try to identify the item that was just added
-                var addedItem =
-                  response.item ||
-                  (response.items &&
-                    response.items.find(function (it) {
-                      return String(it.id) === String(formData.get('id'));
-                    })) ||
-                  (response.items && response.items[0]) ||
-                  null;
+                const variantId = formData.get('id');
+                const addedQuantity = parseInt(
+                  formData.get('quantity') || '1',
+                  10,
+                );
 
-                if (addedItem && typeof window.pushEcommerceEvent === 'function') {
-                  var rawPrice =
-                    addedItem.final_line_price ||
-                    addedItem.final_price ||
-                    addedItem.price ||
-                    0;
+                const items = response.items || response.cart?.items || [];
+                const lineItem = items.find(
+                  (item) => String(item.id) === String(variantId),
+                );
 
-                  var unitPrice = rawPrice / 100;
+                if (lineItem) {
+                  // Try to derive a unit price in shop currency
+                  let unitPrice;
+                  if (lineItem.final_line_price && lineItem.quantity) {
+                    unitPrice =
+                      lineItem.final_line_price / lineItem.quantity / 100;
+                  } else if (lineItem.final_price) {
+                    unitPrice = lineItem.final_price / 100;
+                  } else {
+                    unitPrice = lineItem.price / 100;
+                  }
 
-                  var currency =
+                  const currency =
+                    (response.currency &&
+                      String(response.currency).toUpperCase()) ||
                     (window.Shopify &&
                       Shopify.currency &&
                       Shopify.currency.active) ||
-                    (window.ShopifyAnalytics &&
-                      ShopifyAnalytics.meta &&
-                      ShopifyAnalytics.meta.currency) ||
-                    'GBP'; // safe fallback for your store
+                    'GBP'; // fallback; adjust if needed
 
                   window.pushEcommerceEvent('add_to_cart', {
                     currency: currency,
-                    value: unitPrice * (addedItem.quantity || 1),
+                    value: unitPrice * addedQuantity,
                     items: [
                       {
-                        id: addedItem.product_id || addedItem.id,
-                        name: addedItem.product_title || addedItem.title,
-                        brand: addedItem.vendor,
-                        category: addedItem.product_type,
-                        variant_name: addedItem.variant_title,
+                        id: lineItem.product_id,
+                        name: lineItem.product_title,
+                        brand: lineItem.vendor,
+                        category: lineItem.product_type,
+                        variant_name: lineItem.variant_title || lineItem.title,
                         price: unitPrice,
-                        quantity: addedItem.quantity || 1,
+                        quantity: addedQuantity,
                       },
                     ],
                   });
                 }
-              } catch (err) {
-                console.error('GA4 add_to_cart push failed', err);
+              } catch (e) {
+                console.error('GA4 add_to_cart quick-add modal error', e);
               }
             }
-            this.error = false;
-            const quickAddModal = this.closest('quick-add-modal');
+            // --- end GA4 block ---
+
             if (quickAddModal) {
               document.body.addEventListener(
                 'modalClosed',
