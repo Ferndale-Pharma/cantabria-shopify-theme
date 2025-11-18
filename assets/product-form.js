@@ -108,15 +108,30 @@ if (!customElements.get('product-form')) {
                 const variantId = formData.get('id');
                 const qty = parseInt(formData.get('quantity') || '1', 10);
 
-                const items =
-                  response.items ||
-                  (response.cart && response.cart.items) ||
+                // 1) Try array shapes (cart drawer / sections responses)
+                let items =
+                  (Array.isArray(response.items) && response.items) ||
+                  (response.cart &&
+                    Array.isArray(response.cart.items) &&
+                    response.cart.items) ||
                   [];
 
-                const lineItem =
-                  items.find(
-                    (item) => String(item.id) === String(variantId),
-                  ) || items[0];
+                let lineItem = null;
+
+                if (items.length) {
+                  lineItem =
+                    items.find(
+                      (item) => String(item.id) === String(variantId),
+                    ) || items[0];
+                } else if (
+                  response &&
+                  // PDP / quick-add sometimes returns a single line-item object
+                  typeof response === 'object' &&
+                  response.id &&
+                  (response.product_id || response.product_title)
+                ) {
+                  lineItem = response;
+                }
 
                 if (lineItem) {
                   let unitPrice = 0;
@@ -162,7 +177,7 @@ if (!customElements.get('product-form')) {
                   });
                 } else {
                   console.warn(
-                    'GA4 add_to_cart: no matching lineItem found in response',
+                    'GA4 add_to_cart: still no lineItem after fallback',
                     response,
                   );
                 }
