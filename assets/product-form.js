@@ -49,7 +49,6 @@ if (!customElements.get('product-form')) {
           .then((response) => response.json())
           .then((response) => {
             if (response.status) {
-              // Error from cart/add
               publish(PUB_SUB_EVENTS.cartError, {
                 source: 'product-form',
                 productVariantId: formData.get('id'),
@@ -67,7 +66,6 @@ if (!customElements.get('product-form')) {
               this.error = true;
               return;
             } else if (!this.cart) {
-              // No cart drawer/notification – fall back to cart page
               window.location = window.routes.cart_url;
               return;
             }
@@ -82,32 +80,39 @@ if (!customElements.get('product-form')) {
             this.error = false;
             const quickAddModal = this.closest('quick-add-modal');
 
-            // --- GA4 add_to_cart for quick-add modal only ---
+            /**
+             * GA4 add_to_cart for quick-add MODAL
+             * -----------------------------------
+             * Only runs when the form is inside <quick-add-modal>.
+             * Pushes event: 'add_to_cart' + ecommerce payload to dataLayer.
+             */
             if (
               quickAddModal &&
               typeof window.pushEcommerceEvent === 'function'
             ) {
               try {
                 const variantId = formData.get('id');
-                const addedQuantity = parseInt(
-                  formData.get('quantity') || '1',
-                  10,
-                );
+                const qty = parseInt(formData.get('quantity') || '1', 10);
 
-                const items = response.items || response.cart?.items || [];
+                // Shopify AJAX / sections response can expose items in a few shapes.
+                const items =
+                  response.items ||
+                  (response.cart && response.cart.items) ||
+                  [];
+
                 const lineItem = items.find(
                   (item) => String(item.id) === String(variantId),
                 );
 
                 if (lineItem) {
-                  // Try to derive a unit price in shop currency
+                  // Derive unit price in shop currency
                   let unitPrice;
                   if (lineItem.final_line_price && lineItem.quantity) {
                     unitPrice =
                       lineItem.final_line_price / lineItem.quantity / 100;
                   } else if (lineItem.final_price) {
                     unitPrice = lineItem.final_price / 100;
-                  } else {
+                  } else if (lineItem.price) {
                     unitPrice = lineItem.price / 100;
                   }
 
@@ -117,11 +122,11 @@ if (!customElements.get('product-form')) {
                     (window.Shopify &&
                       Shopify.currency &&
                       Shopify.currency.active) ||
-                    'GBP'; // fallback; adjust if needed
+                    '{{ shop.currency | default: "GBP" }}';
 
                   window.pushEcommerceEvent('add_to_cart', {
                     currency: currency,
-                    value: unitPrice * addedQuantity,
+                    value: unitPrice * qty,
                     items: [
                       {
                         id: lineItem.product_id,
@@ -130,7 +135,7 @@ if (!customElements.get('product-form')) {
                         category: lineItem.product_type,
                         variant_name: lineItem.variant_title || lineItem.title,
                         price: unitPrice,
-                        quantity: addedQuantity,
+                        quantity: qty,
                       },
                     ],
                   });
@@ -139,7 +144,7 @@ if (!customElements.get('product-form')) {
                 console.error('GA4 add_to_cart quick-add modal error', e);
               }
             }
-            // --- end GA4 block ---
+            // END GA4 block
 
             if (quickAddModal) {
               document.body.addEventListener(
