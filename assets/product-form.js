@@ -77,7 +77,7 @@ if (!customElements.get('product-form')) {
                 cartData: response,
               });
 
-              // 🔔 GA4 add_to_cart bridge: dispatch a DOM event with the added item
+              // GA4 bridge: fire a DOM event with the added item
               try {
                 const addedItem =
                   response.item ||
