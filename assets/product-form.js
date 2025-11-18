@@ -70,12 +70,37 @@ if (!customElements.get('product-form')) {
               return;
             }
 
-            if (!this.error)
+            if (!this.error) {
               publish(PUB_SUB_EVENTS.cartUpdate, {
                 source: 'product-form',
                 productVariantId: formData.get('id'),
                 cartData: response,
               });
+
+              // 🔔 GA4 add_to_cart bridge: dispatch a DOM event with the added item
+              try {
+                const addedItem =
+                  response.item ||
+                  (response.items &&
+                    response.items.find(
+                      (item) => String(item.id) === String(formData.get('id')),
+                    )) ||
+                  (response.items && response.items[0]) ||
+                  null;
+
+                document.dispatchEvent(
+                  new CustomEvent('cart:updated', {
+                    detail: {
+                      item: addedItem,
+                      cart: response,
+                      variantId: formData.get('id'),
+                    },
+                  }),
+                );
+              } catch (err) {
+                console.error('cart:updated event dispatch failed', err);
+              }
+            }
             this.error = false;
             const quickAddModal = this.closest('quick-add-modal');
             if (quickAddModal) {

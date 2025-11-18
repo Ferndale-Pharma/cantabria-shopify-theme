@@ -76,23 +76,54 @@
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class="page-width">
     <!-- GA4 view_item event -->
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        window.pushEcommerceEvent('view_item', {
-          currency: '{{ cart.currency.iso_code }}',
-          value: {{ product.selected_or_first_available_variant.price | divided_by: 100.0 }},
-          items: [{
-            id: {{ product.id | json }},
-            name: {{ product.title | json }},
-            brand: {{ product.vendor | json }},
-            category: {{ product.type | json }},
-            price: {{ product.selected_or_first_available_variant.price | divided_by: 100.0 }},
-            variant_name: {{ product.selected_or_first_available_variant.title | json }},
-            quantity: 1
-          }]
-        });
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      window.pushEcommerceEvent('view_item', {
+        currency: '{{ cart.currency.iso_code }}',
+        value: {{ product.selected_or_first_available_variant.price | divided_by: 100.0 }},
+        items: [{
+          id: {{ product.id | json }},
+          name: {{ product.title | json }},
+          brand: {{ product.vendor | json }},
+          category: {{ product.type | json }},
+          price: {{ product.selected_or_first_available_variant.price | divided_by: 100.0 }},
+          variant_name: {{ product.selected_or_first_available_variant.title | json }},
+          quantity: 1
+        }]
       });
-    </script>
+    });
+  </script>
+
+  <!-- GA4 add_to_cart event listener -->
+  <script>
+    document.addEventListener('cart:updated', function(e) {
+      if (!window.pushEcommerceEvent || !e.detail || !e.detail.item) return;
+
+      var item = e.detail.item;
+
+      var rawPrice =
+        item.final_line_price ||
+        item.final_price ||
+        item.price ||
+        0;
+
+      var unitPrice = rawPrice / 100;
+
+      window.pushEcommerceEvent('add_to_cart', {
+        currency: '{{ cart.currency.iso_code }}',
+        value: unitPrice * (item.quantity || 1),
+        items: [{
+          id: item.product_id,
+          name: item.product_title || item.title,
+          brand: item.vendor,
+          category: item.product_type,
+          variant_name: item.variant_title,
+          price: unitPrice,
+          quantity: item.quantity || 1
+        }]
+      });
+    });
+  </script>
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
         {% render 'cl-product-media-gallery', variant_images: variant_images %}
