@@ -392,31 +392,6 @@
                   </button>
                 {%- endform -%}
               </product-form>
-              {% comment %}GTM Track add_to_cart{% endcomment %}
-              <script>
-                document.addEventListener('DOMContentLoaded', function() {
-                  if (typeof window.pushEcommerceEvent !== 'function') return;
-
-                  var btn = document.getElementById('{{ product_form_id }}-submit');
-                  if (!btn) return;
-
-                  btn.addEventListener('click', function() {
-                    window.pushEcommerceEvent('add_to_cart', {
-                      currency: '{{ shop.currency }}',
-                      value: {{ card_product.selected_or_first_available_variant.price | divided_by: 100.0 }},
-                      items: [{
-                        id: {{ card_product.id | json }},
-                        name: {{ card_product.title | json }},
-                        brand: {{ card_product.vendor | json }},
-                        category: {{ card_product.type | json }},
-                        variant_name: {{ card_product.selected_or_first_available_variant.title | json }},
-                        price: {{ card_product.selected_or_first_available_variant.price | divided_by: 100.0 }},
-                        quantity: 1
-                      }]
-                    });
-                  });
-                });
-              </script>
             {%- endif -%}
           </div>
         {% elsif quick_add == 'bulk' %}
