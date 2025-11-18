@@ -8,7 +8,6 @@ if (!customElements.get('product-form')) {
         this.form = this.querySelector('form');
         if (!this.form) return;
 
-        // Re-enable disabled variant input on load
         if (this.variantIdInput) {
           this.variantIdInput.disabled = false;
         }
@@ -35,7 +34,6 @@ if (!customElements.get('product-form')) {
         evt.preventDefault();
 
         if (!this.submitButton || !this.form) return;
-
         if (this.submitButton.getAttribute('aria-disabled') === 'true') return;
 
         this.handleErrorMessage();
@@ -44,9 +42,7 @@ if (!customElements.get('product-form')) {
         this.submitButton.classList.add('loading');
 
         const spinner = this.querySelector('.loading__spinner');
-        if (spinner) {
-          spinner.classList.remove('hidden');
-        }
+        if (spinner) spinner.classList.remove('hidden');
 
         const config = fetchConfig('javascript');
         config.headers['X-Requested-With'] = 'XMLHttpRequest';
@@ -68,7 +64,7 @@ if (!customElements.get('product-form')) {
         fetch(`${routes.cart_add_url}`, config)
           .then((response) => response.json())
           .then((response) => {
-            // Shopify error from cart/add
+            // --- Error from cart/add ---
             if (response.status) {
               publish(PUB_SUB_EVENTS.cartError, {
                 source: 'product-form',
@@ -81,24 +77,21 @@ if (!customElements.get('product-form')) {
 
               const soldOutMessage =
                 this.submitButton.querySelector('.sold-out-message');
-
               if (!soldOutMessage) return;
 
               this.submitButton.setAttribute('aria-disabled', true);
-
-              if (this.submitButtonText) {
+              if (this.submitButtonText)
                 this.submitButtonText.classList.add('hidden');
-              }
-
               soldOutMessage.classList.remove('hidden');
               this.error = true;
               return;
             } else if (!this.cart) {
-              // No cart drawer / notification – fallback to full cart page
+              // No cart drawer/notification – fallback to full cart page
               window.location = window.routes.cart_url;
               return;
             }
 
+            // Normal Dawn cart update pub/sub
             if (!this.error) {
               publish(PUB_SUB_EVENTS.cartUpdate, {
                 source: 'product-form',
@@ -109,39 +102,23 @@ if (!customElements.get('product-form')) {
 
             this.error = false;
 
-            const quickAddModal = this.closest('quick-add-modal');
-
-            /**
-             * GA4 add_to_cart for quick-add MODAL
-             * -----------------------------------
-             * Only runs when the product form is inside <quick-add-modal>.
-             * Pushes:
-             *   event: 'add_to_cart'
-             *   ecommerce: { currency, value, items: [...] }
-             * so your GA4 add_to_cart tag (Custom Event trigger) can pick it up.
-             */
-            if (
-              quickAddModal &&
-              typeof window.pushEcommerceEvent === 'function'
-            ) {
+            // === GA4 add_to_cart for ALL product-form submissions (PDP, quick-add, modal) ===
+            if (typeof window.pushEcommerceEvent === 'function') {
               try {
                 const variantId = formData.get('id');
                 const qty = parseInt(formData.get('quantity') || '1', 10);
 
-                // Items can be on response.items or response.cart.items depending on theme / sections
                 const items =
                   response.items ||
                   (response.cart && response.cart.items) ||
                   [];
 
-                // Try to find the line item that matches the variant being added
                 const lineItem =
                   items.find(
                     (item) => String(item.id) === String(variantId),
                   ) || items[0];
 
                 if (lineItem) {
-                  // Derive unit price
                   let unitPrice = 0;
                   if (lineItem.final_line_price && lineItem.quantity) {
                     unitPrice =
@@ -160,6 +137,13 @@ if (!customElements.get('product-form')) {
                       Shopify.currency.active) ||
                     'GBP';
 
+                  console.log('GA4 add_to_cart firing from product-form.js', {
+                    lineItem,
+                    qty,
+                    unitPrice,
+                    currency,
+                  });
+
                   window.pushEcommerceEvent('add_to_cart', {
                     currency: currency,
                     value: unitPrice * qty,
@@ -169,18 +153,30 @@ if (!customElements.get('product-form')) {
                         name: lineItem.product_title,
                         brand: lineItem.vendor,
                         category: lineItem.product_type,
-                        variant_name: lineItem.variant_title || lineItem.title,
+                        variant_name:
+                          lineItem.variant_title || lineItem.title,
                         price: unitPrice,
                         quantity: qty,
                       },
                     ],
                   });
+                } else {
+                  console.warn(
+                    'GA4 add_to_cart: no matching lineItem found in response',
+                    response,
+                  );
                 }
               } catch (e) {
-                console.error('GA4 add_to_cart quick-add modal error', e);
+                console.error('GA4 add_to_cart product-form error', e);
               }
+            } else {
+              console.warn(
+                'GA4 add_to_cart: window.pushEcommerceEvent is not defined',
+              );
             }
-            // --- END GA4 block ---
+            // === END GA4 block ===
+
+            const quickAddModal = this.closest('quick-add-modal');
 
             if (quickAddModal) {
               document.body.addEventListener(
@@ -212,9 +208,7 @@ if (!customElements.get('product-form')) {
             }
 
             const spinner = this.querySelector('.loading__spinner');
-            if (spinner) {
-              spinner.classList.add('hidden');
-            }
+            if (spinner) spinner.classList.add('hidden');
           });
       }
 
@@ -222,7 +216,6 @@ if (!customElements.get('product-form')) {
         this.errorMessageWrapper =
           this.errorMessageWrapper ||
           this.querySelector('.product-form__error-message-wrapper');
-
         if (!this.errorMessageWrapper) return;
 
         this.errorMessage =
