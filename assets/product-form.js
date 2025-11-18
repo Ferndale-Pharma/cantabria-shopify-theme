@@ -71,34 +71,61 @@ if (!customElements.get('product-form')) {
             }
 
             if (!this.error) {
+              // Existing theme behaviour: update cart UI
               publish(PUB_SUB_EVENTS.cartUpdate, {
                 source: 'product-form',
                 productVariantId: formData.get('id'),
                 cartData: response,
               });
 
-              // GA4 bridge: fire a DOM event with the added item
+              // === GA4 add_to_cart push via dataLayer ===
               try {
-                const addedItem =
+                // Try to identify the item that was just added
+                var addedItem =
                   response.item ||
                   (response.items &&
-                    response.items.find(
-                      (item) => String(item.id) === String(formData.get('id')),
-                    )) ||
+                    response.items.find(function (it) {
+                      return String(it.id) === String(formData.get('id'));
+                    })) ||
                   (response.items && response.items[0]) ||
                   null;
 
-                document.dispatchEvent(
-                  new CustomEvent('cart:updated', {
-                    detail: {
-                      item: addedItem,
-                      cart: response,
-                      variantId: formData.get('id'),
-                    },
-                  }),
-                );
+                if (addedItem && typeof window.pushEcommerceEvent === 'function') {
+                  var rawPrice =
+                    addedItem.final_line_price ||
+                    addedItem.final_price ||
+                    addedItem.price ||
+                    0;
+
+                  var unitPrice = rawPrice / 100;
+
+                  var currency =
+                    (window.Shopify &&
+                      Shopify.currency &&
+                      Shopify.currency.active) ||
+                    (window.ShopifyAnalytics &&
+                      ShopifyAnalytics.meta &&
+                      ShopifyAnalytics.meta.currency) ||
+                    'GBP'; // safe fallback for your store
+
+                  window.pushEcommerceEvent('add_to_cart', {
+                    currency: currency,
+                    value: unitPrice * (addedItem.quantity || 1),
+                    items: [
+                      {
+                        id: addedItem.product_id || addedItem.id,
+                        name: addedItem.product_title || addedItem.title,
+                        brand: addedItem.vendor,
+                        category: addedItem.product_type,
+                        variant_name: addedItem.variant_title,
+                        price: unitPrice,
+                        quantity: addedItem.quantity || 1,
+                      },
+                    ],
+                  });
+                }
               } catch (err) {
-                console.error('cart:updated event dispatch failed', err);
+                console.error('GA4 add_to_cart push failed', err);
               }
             }
             this.error = false;
