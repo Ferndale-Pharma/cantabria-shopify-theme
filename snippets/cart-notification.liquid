@@ -81,7 +81,8 @@
           window.pushEcommerceEvent('begin_checkout', {
             currency: '{{ cart.currency.iso_code }}',
             value: {{ cart.total_price | divided_by: 100.0 }},
-            items: items
+            items: items,
+            event_source: 'cart_notification'
           });
         });
       });
