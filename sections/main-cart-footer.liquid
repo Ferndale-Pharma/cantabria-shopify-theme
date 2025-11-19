@@ -131,6 +131,38 @@
       </div>
     </div>
   </div>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    if (typeof window.pushEcommerceEvent !== 'function') return;
+
+    var checkoutButton = document.querySelector(
+      'form[action="/cart"] button[name="checkout"], form[action="/cart"] [type="submit"][name="checkout"]'
+    );
+    if (!checkoutButton) return;
+
+    checkoutButton.addEventListener('click', function() {
+      var items = [
+        {% for item in cart.items %}
+          {
+            id: {{ item.product_id | json }},
+            name: {{ item.product.title | json }},
+            brand: {{ item.product.vendor | json }},
+            category: {{ item.product.type | json }},
+            variant_name: {{ item.variant_title | json }},
+            price: {{ item.final_price | divided_by: 100.0 }},
+            quantity: {{ item.quantity }}
+          }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ];
+
+      window.pushEcommerceEvent('begin_checkout', {
+        currency: '{{ cart.currency.iso_code }}',
+        value: {{ cart.total_price | divided_by: 100.0 }},
+        items: items
+      });
+    });
+  });
+</script>
 </div>
 
 {% schema %}
