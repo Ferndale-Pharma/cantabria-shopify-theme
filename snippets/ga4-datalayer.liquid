@@ -2,6 +2,7 @@
   window.dataLayer = window.dataLayer || [];
 
   window.pushEcommerceEvent = function(eventName, payload) {
+    payload = payload || {};
 
     var currency = payload.currency || '{{ shop.currency }}';
     var value    = payload.value || 0;
@@ -20,8 +21,11 @@
       };
     });
 
+    // Clear previous ecommerce object
     window.dataLayer.push({ ecommerce: null });
-    window.dataLayer.push({
+
+    // Base event object
+    var eventObject = {
       event: eventName,
       ecommerce: {
         currency: currency,
@@ -34,6 +38,20 @@
         shipping: payload.shipping,
         discount: payload.discount
       }
-    });
+    };
+
+    // Optional extra metadata (top-level)
+    if (payload.event_source) {
+      eventObject.event_source = payload.event_source;
+    }
+    if (payload.event_category) {
+      eventObject.event_category = payload.event_category;
+    }
+    if (payload.event_label) {
+      eventObject.event_label = payload.event_label;
+    }
+
+    window.dataLayer.push(eventObject);
   };
 </script>
+
