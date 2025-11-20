@@ -55,6 +55,12 @@
             "show_gift_card_recipient": false
           }
         },
+        "bogos_io_free_gift_volume_discount_view_LCKfCU": {
+          "type": "shopify://apps/bogos-io-free-gift/blocks/volume-discount-view/0432bba6-720a-4e95-be5a-b868386f7aa6",
+          "settings": {
+            "product": ""
+          }
+        },
         "icon_with_text_UFUXgg": {
           "type": "icon-with-text",
           "settings": {
@@ -123,6 +129,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "bogos_io_free_gift_volume_discount_view_LCKfCU",
         "icon_with_text_UFUXgg",
         "textarea_gwjLAR",
         "description_4GfMrB",
@@ -157,7 +164,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
-            "max_width": 1200
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
           }
         }
       },
