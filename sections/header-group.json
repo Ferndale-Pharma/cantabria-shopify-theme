@@ -14,18 +14,18 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_GetfV3": {
+          "type": "announcement",
+          "settings": {
+            "text": "The Black Friday Sale -  Discover the Full Cantabria Labs Portfolio for Less!",
+            "link": "shopify://collections/promotions"
+          }
+        },
         "announcement_H6wiei": {
           "type": "announcement",
           "settings": {
             "text": "Welcome to CantabriaLabs.co.uk - The Official UK Home of HELIOCARE 360°",
             "link": ""
-          }
-        },
-        "announcement_GetfV3": {
-          "type": "announcement",
-          "settings": {
-            "text": "Black Friday is Almost Here -  Check Out the Latest Promotions Now!",
-            "link": "shopify://collections/promotions"
           }
         },
         "announcement_dP3e9T": {
@@ -37,8 +37,8 @@
         }
       },
       "block_order": [
-        "announcement_H6wiei",
         "announcement_GetfV3",
+        "announcement_H6wiei",
         "announcement_dP3e9T"
       ],
       "custom_css": [
@@ -47,7 +47,7 @@
         ".announcement-bar__message svg {color: #fff;}"
       ],
       "settings": {
-        "color_scheme": "scheme-fe2caf85-447f-433a-bc45-dfb94474e084",
+        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": true,

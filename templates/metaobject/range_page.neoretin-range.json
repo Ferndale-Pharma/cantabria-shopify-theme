@@ -79,12 +79,61 @@
         "heading_rNTwAE",
         "text_Xrkt7L"
       ],
+      "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "scheme-4",
         "full_width": true,
         "is_heading": true,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_6HXGUc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PAgcaA": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Black Friday Sale!",
+            "heading_size": "h1"
+          }
+        },
+        "text_XdUUHa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover the full Cantabria Labs portfolio for less this Black Friday!</p><p><em>24th November - 2nd December</em></p>"
+          }
+        },
+        "button_Le8znm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop All Black Friday Deals",
+            "button_link": "shopify://collections/promotions",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PAgcaA",
+        "text_XdUUHa",
+        "button_Le8znm"
+      ],
+      "custom_css": [
+        "p {color:#fff;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "full_width": true,
+        "is_heading": false,
         "padding_top": 64,
         "padding_bottom": 64,
         "container_id": ""
@@ -123,6 +172,7 @@
         "text_yF9UHY",
         "button_nnaQmt"
       ],
+      "disabled": true,
       "custom_css": [
         "p a {color: #121212;}",
         "h2 {color: #653165;}"
@@ -542,6 +592,7 @@
   "order": [
     "image_banner_9qaB4e",
     "rich_text_brBaBU",
+    "rich_text_6HXGUc",
     "rich_text_ADBteh",
     "image_with_text_bJBhDW",
     "video_QDQ3bK",

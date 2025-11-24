@@ -90,6 +90,54 @@
         "container_id": ""
       }
     },
+    "rich_text_Ha8HfL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GWAeh6": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Black Friday Sale!",
+            "heading_size": "h1"
+          }
+        },
+        "text_Jhnr8p": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover the full Cantabria Labs portfolio for less this Black Friday!</p><p><em>24th November - 2nd December</em></p>"
+          }
+        },
+        "button_jN83hb": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop All Black Friday Deals",
+            "button_link": "shopify://collections/promotions",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_GWAeh6",
+        "text_Jhnr8p",
+        "button_jN83hb"
+      ],
+      "custom_css": [
+        "p {color:#fff;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
     "image_with_text_bTLWD6": {
       "type": "image-with-text",
       "blocks": {
@@ -686,6 +734,7 @@
   "order": [
     "image_banner_9qaB4e",
     "rich_text_w9pUnz",
+    "rich_text_Ha8HfL",
     "image_with_text_bTLWD6",
     "video_pxURAj",
     "cl_featured_collection_K3bAHf",

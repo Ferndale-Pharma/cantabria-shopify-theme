@@ -108,6 +108,54 @@
         "container_id": ""
       }
     },
+    "rich_text_kkJgxK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Xcd7TM": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Black Friday Sale!",
+            "heading_size": "h1"
+          }
+        },
+        "text_pyqjeD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover the full Cantabria Labs portfolio for less this Black Friday!</p><p><em>24th November - 2nd December</em></p>"
+          }
+        },
+        "button_VGJ9n3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop All Black Friday Deals",
+            "button_link": "shopify://collections/promotions",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Xcd7TM",
+        "text_pyqjeD",
+        "button_VGJ9n3"
+      ],
+      "custom_css": [
+        "p {color: #fff;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
     "rich_text_6PhJQN": {
       "type": "rich-text",
       "blocks": {
@@ -201,7 +249,7 @@
         "color_scheme": "scheme-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "padding_top": 64,
+        "padding_top": 96,
         "padding_bottom": 64
       }
     },
@@ -1283,6 +1331,7 @@
   "order": [
     "image_banner_9qaB4e",
     "rich_text_YYXacY",
+    "rich_text_kkJgxK",
     "rich_text_6PhJQN",
     "image_with_text_48BKmX",
     "cl_featured_collection_wkhxrk",
