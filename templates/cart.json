@@ -9,6 +9,27 @@
  */
 {
   "sections": {
+    "17639730416be50c48": {
+      "type": "apps",
+      "blocks": {
+        "bogos_io_free_gift_progressing_bar_view_PjakRx": {
+          "type": "shopify://apps/bogos-io-free-gift/blocks/progressing-bar-view/0432bba6-720a-4e95-be5a-b868386f7aa6",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "bogos_io_free_gift_progressing_bar_view_PjakRx"
+      ],
+      "custom_css": [
+        ".bogos-progress-bar-header {font-size: calc(var(--font-heading-scale) * 4rem); color: #165c7d; line-height: calc(1 + 0.3 / max(1, var(--font-heading-scale))); font-weight: 600; font-family: \"Univia Pro\"; margin-top: 64px;}",
+        ".bogos-progress-bar-container .bogos-progress-count-down-message {font-size: 16px; margin-top: 16px;}",
+        ".bogos-progress-bar-container .bogos-progress-goal-title {font-size: 14px;}",
+        ".bogos-progress-bar-container .bogos-progress-goal-description {font-size: 13px;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
@@ -22,13 +43,11 @@
       "blocks": {
         "subtotal": {
           "type": "subtotal",
-          "settings": {
-          }
+          "settings": {}
         },
         "buttons": {
           "type": "buttons",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -71,6 +90,7 @@
     }
   },
   "order": [
+    "17639730416be50c48",
     "cart-items",
     "cart-footer",
     "cl_featured_collection_qnDnqM"
