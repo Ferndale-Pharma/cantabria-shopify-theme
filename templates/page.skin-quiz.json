@@ -24,7 +24,7 @@
           "type": "heading",
           "settings": {
             "heading": "Find the right HELIOCARE 360° product for your skin",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "text_axGFz6": {
@@ -45,7 +45,7 @@
         "color_scheme": "",
         "full_width": true,
         "is_heading": true,
-        "padding_top": 16,
+        "padding_top": 32,
         "padding_bottom": 32,
         "container_id": ""
       }

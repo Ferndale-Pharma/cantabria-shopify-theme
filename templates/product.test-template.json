@@ -177,6 +177,59 @@
         "include_margins": true
       }
     },
+    "image_banner_WXcyQc": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_yCGUMV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find the right HELIOCARE 360° product for you",
+            "heading_size": "h2"
+          }
+        },
+        "text_kp7Hbk": {
+          "type": "text",
+          "settings": {
+            "text": "Answer a few quick questions to find the most suited HELIOCARE 360° product for your skin.",
+            "text_style": "body"
+          }
+        },
+        "buttons_DBFhJ9": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Take quiz",
+            "button_link_1": "#",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yCGUMV",
+        "text_kp7Hbk",
+        "buttons_DBFhJ9"
+      ],
+      "custom_css": [
+        "div.banner {margin-top: 64px;}"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00124_CantabriaLabs_HomepageBanner_EndocareH360Bundle_2560x960_Aug25-1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "is_heading": false
+      }
+    },
     "related-products": {
       "type": "cl-related-products",
       "settings": {
@@ -239,6 +292,7 @@
   "order": [
     "main",
     "1725440000dbba4c0d",
+    "image_banner_WXcyQc",
     "related-products",
     "1725375417ea1f4d2f",
     "newsletter_VckrPM"

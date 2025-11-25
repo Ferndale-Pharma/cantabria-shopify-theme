@@ -16,22 +16,59 @@
         "padding_bottom": 28
       }
     },
-    "cl_image_PaeRix": {
-      "type": "cl-image",
-      "name": "Single Image",
+    "image_banner_rcjzJz": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_mckCxb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find the right HELIOCARE 360° product for you",
+            "heading_size": "h2"
+          }
+        },
+        "text_dF7Bwc": {
+          "type": "text",
+          "settings": {
+            "text": "Answer a few quick questions to find the most suited HELIOCARE 360° product for your skin.",
+            "text_style": "body"
+          }
+        },
+        "buttons_KxEByi": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Take quiz",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mckCxb",
+        "text_dF7Bwc",
+        "buttons_KxEByi"
+      ],
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/free-radical-antioxidant-diagram.jpg",
-        "image_width_value": 800,
-        "image_width_unit": "px",
-        "padding_top": 64,
-        "padding_bottom": 64,
-        "full_width": true,
-        "container_id": ""
+        "image": "shopify://shop_images/FERN-IMG-00123_CantabriaLabs_ASPAFernblock_OptiD_ProductImage_1080x810_Aug25.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "is_heading": false
       }
     }
   },
   "order": [
     "main",
-    "cl_image_PaeRix"
+    "image_banner_rcjzJz"
   ]
 }
