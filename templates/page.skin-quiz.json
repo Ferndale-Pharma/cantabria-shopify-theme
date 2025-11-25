@@ -11,9 +11,43 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "rich_text_cw3CPt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6hVJ7d": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find the right HELIOCARE 360° product for your skin",
+            "heading_size": "h0"
+          }
+        },
+        "text_axGFz6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Everyone's skin is different, so that's why there's a HELIOCARE 360° formulation for everyone. </p><p>Complete this short quiz to find your HELIOCARE 360° product.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6hVJ7d",
+        "text_axGFz6"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 16,
+        "padding_bottom": 32,
+        "container_id": ""
       }
     },
     "17640714508b861b16": {
@@ -45,6 +79,7 @@
   },
   "order": [
     "main",
+    "rich_text_cw3CPt",
     "17640714508b861b16"
   ]
 }
