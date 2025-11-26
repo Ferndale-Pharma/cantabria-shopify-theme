@@ -87,6 +87,59 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_kbCTfn": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_jEUNVg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find the right HELIOCARE 360° product for you",
+            "heading_size": "h2"
+          }
+        },
+        "text_gNacM3": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_4RUaQC": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Take quiz",
+            "button_link_1": "#",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_jEUNVg",
+        "text_gNacM3",
+        "buttons_4RUaQC"
+      ],
+      "custom_css": [
+        ".banner__box {background: none;}"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00124_CantabriaLabs_HomepageBanner_EndocareH360Bundle_2560x960_Aug25-1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "is_heading": false
+      }
+    },
     "newsletter_7xiQeE": {
       "type": "newsletter",
       "blocks": {
@@ -125,6 +178,7 @@
     "image_banner_p3nTcy",
     "banner",
     "product-grid",
+    "image_banner_kbCTfn",
     "newsletter_7xiQeE"
   ]
 }
