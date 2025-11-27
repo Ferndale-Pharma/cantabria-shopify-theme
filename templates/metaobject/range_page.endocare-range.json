@@ -485,13 +485,20 @@
         "heading_pDXz9J": {
           "type": "heading",
           "settings": {
-            "heading": "Technologies & ingredients",
+            "heading": "Where innovative technologies meet proven ingredients",
             "heading_size": "h2"
+          }
+        },
+        "text_RQge4r": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Skincare technologies are the advanced scientific methods that make our formulas truly effective. They don’t just rely on well-known ingredients, but relate to how those ingredients are extracted, stabilised and delivered deep into the skin for better results. While many products use similar actives, our exclusive technologies elevate them. </p>"
           }
         }
       },
       "block_order": [
-        "heading_pDXz9J"
+        "heading_pDXz9J",
+        "text_RQge4r"
       ],
       "settings": {
         "desktop_content_position": "center",
