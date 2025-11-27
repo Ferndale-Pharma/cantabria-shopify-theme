@@ -666,6 +666,37 @@
         "padding_bottom": 64
       }
     },
+    "collapsible_key_ingredients_9erVrD": {
+      "type": "collapsible-key-ingredients",
+      "blocks": {
+        "collapsible_row_rCMfYF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "References",
+            "icon": "question_mark",
+            "row_content": "<ol><li>Data on file. User test under dermatological control and efficacy assessment, 30 subjects (25-45 years of age), application to face and neck twice daily for 28 days. AlYeDerm Clinic & Research; Badajoz, 2023. ​</li><li>Evaluation of product subjective efficacy. Subjective evaluation: 20 patients (25-60 years old) ; 28 days, 1-2 times daily. Madrid: Zurko Research S.L; 2018. Data on file​.</li><li>Truchuelo MT, Jiminez N, Miguel- Gomez L, Hermosa A, Sanchez-Neila N, Cuevas J Dermatology Research & Practice. 10 women with mild-moderate skin photoaging on hands formulation containing, RetinSphere Technology twice daily for 3 months​.</li></ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_rCMfYF"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-5",
+        "container_color_scheme": "scheme-5",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "newsletter_AwFCKb": {
       "type": "newsletter",
       "blocks": {
@@ -698,37 +729,6 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
-    },
-    "collapsible_key_ingredients_9erVrD": {
-      "type": "collapsible-key-ingredients",
-      "blocks": {
-        "collapsible_row_rCMfYF": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "References",
-            "icon": "question_mark",
-            "row_content": "<ol><li>Data on file. User test under dermatological control and efficacy assessment, 30 subjects (25-45 years of age), application to face and neck twice daily for 28 days. AlYeDerm Clinic & Research; Badajoz, 2023. ​</li><li>Evaluation of product subjective efficacy. Subjective evaluation: 20 patients (25-60 years old) ; 28 days, 1-2 times daily. Madrid: Zurko Research S.L; 2018. Data on file​.</li><li>Truchuelo MT, Jiminez N, Miguel- Gomez L, Hermosa A, Sanchez-Neila N, Cuevas J Dermatology Research & Practice. 10 women with mild-moderate skin photoaging on hands formulation containing, RetinSphere Technology twice daily for 3 months​.</li></ol>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_rCMfYF"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "scheme-5",
-        "container_color_scheme": "scheme-5",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
     }
   },
   "order": [
@@ -746,7 +746,7 @@
     "rich_text_jBDxCK",
     "cl_slideshow_gDX4yN",
     "cl_featured_collection_bMdr3z",
-    "newsletter_AwFCKb",
-    "collapsible_key_ingredients_9erVrD"
+    "collapsible_key_ingredients_9erVrD",
+    "newsletter_AwFCKb"
   ]
 }
