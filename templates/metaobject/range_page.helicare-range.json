@@ -580,44 +580,41 @@
         "container_id": ""
       }
     },
-    "image_with_text_NbbRcx": {
-      "type": "image-with-text",
+    "image_with_text_html_Yj94pf": {
+      "type": "image-with-text-html",
       "blocks": {
-        "heading_gEYXfN": {
+        "heading_kAeapN": {
           "type": "heading",
           "settings": {
-            "heading": "NEW! HELIOCARE 360° Advanced Body Gel",
+            "heading": "NEW! HELIOCARE 360° Acnimat SPF50+",
             "heading_size": "h2"
           }
         },
-        "text_7zxmzG": {
+        "text_r6JXr6": {
           "type": "text",
           "settings": {
-            "text": "<p>The first body sunscreen that prevents and repairs sun damage and enhances the functionality of vitamin D in the skin. A dermatologically advanced sunscreen that provides comprehensive, high-level protection against sun damage.</p><p>Powered by innovative <a href=\"/blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation\" title=\"Introducing ASPA-Fernblock®: The next generation of sunscreen innovation\"><strong>ASPA-Fernblock® technology</strong></a> and its unique OptiD effect, this fast-absorbing, lightweight gel formula helps prevent and repair sun damage while enhancing the skin’s natural vitamin D functionality. </p><p>Ideal for the whole family, it’s suitable for all skin types, including sensitive skin, and is even safe for children aged 2 years and above.</p>",
+            "text": "<p>HELIOCARE 360° Acnimat SPF50+ is a lightweight, ultra-mattifying sunscreen specifically formulated for oily and acne-prone skin.</p>\n<p>Powered by innovative ASPA-Fernblock® technology and its unique OptiD effect, this fast-absorbing, lightweight sun protection helps prevent and repair sun damage while enhancing the skin’s natural vitamin D functionality.</p>\n<p><b>Featuring a unique mattifying and anti-blemish system, Acnimat is clinically proven to mattify skin for over 12 hours<sup>1</sup> and reduce sebum production by 42%<sup>8</sup> while anti-blemish ingredients help to improve the appearance of skin blemishes and imperfections<sup>8</sup>.</b></p>",
             "text_style": "body"
           }
         },
-        "button_PV6JRJ": {
+        "button_CMfXBF": {
           "type": "button",
           "settings": {
             "button_label": "View product",
-            "button_link": "shopify://products/heliocare-360-advanced-gel-body",
+            "button_link": "shopify://products/heliocare-360-acnimat",
             "button_style_secondary": true
           }
         }
       },
       "block_order": [
-        "heading_gEYXfN",
-        "text_7zxmzG",
-        "button_PV6JRJ"
+        "heading_kAeapN",
+        "text_r6JXr6",
+        "button_CMfXBF"
       ],
-      "custom_css": [
-        "p > a {color: #000;}"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "Image with text HTML",
       "settings": {
-        "image": "shopify://shop_images/Image_Advanced_Girl_Boy_LIFESTYLE-1.jpg",
-        "height": "medium",
+        "image": "shopify://shop_images/acnimat-grey.jpg",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -1271,7 +1268,7 @@
           "settings": {
             "heading": "References",
             "icon": "question_mark",
-            "row_content": "<ol><li> González S, et al. PhotodermatolPhotoimmunol Photomed,1996,12(2):45-56 996 Apr;12(2):45-56.  </li><li>González S, et.al. Int. J. Mol. Sci. 2018. Aug1;19(8):2250. </li><li>Amini S, et al. J Am Acad Dermatol. 2010 Mar;62(3):511-3. </li><li>Maritza A, et al. J. Am Acad Derm, 2004. 51(6):910-8. </li><li>Alonso-Lebrero JL, et.al. PhotochemPhotobiol B. 2003 Apr;70(1):31-7. </li><li>Aguilera J,et al. Front Med (Lausanne). 2021 Jun 2;8:684665.</li></ol>",
+            "row_content": "<ol><li> González S, et al. PhotodermatolPhotoimmunol Photomed,1996,12(2):45-56 996 Apr;12(2):45-56.  </li><li>González S, et.al. Int. J. Mol. Sci. 2018. Aug1;19(8):2250. </li><li>Amini S, et al. J Am Acad Dermatol. 2010 Mar;62(3):511-3. </li><li>Maritza A, et al. J. Am Acad Derm, 2004. 51(6):910-8. </li><li>Alonso-Lebrero JL, et.al. PhotochemPhotobiol B. 2003 Apr;70(1):31-7. </li><li>Aguilera J,et al. Front Med (Lausanne). 2021 Jun 2;8:684665.</li><li>AIYeDerm Clinic and Research. (2024). Evaluation of the short-term mattifying efficacy of a cosmetic photoprotector under dermatological control and instrumental evaluation. Mixed and oily skin (sebum level in cheeks above 150); acne-prone with mild–moderate blemishes; 25 volunteers. Inclusion criteria: Age 18–30 years, men and women.​</li><li>AliyeDerm Clinic & Research, Cantabria Labs. Evaluation of the efficacy and tolerance of a cosmetic photoprotector indicated for subjects with acne prone skin under dermatological supervision and instrumental evaluation. 2024. Participants aged 18–30 years, both sexes; Fitzpatrick phototypes II–V; non-sensitive, mixed and oily skin (sebumeter &gt;150 on cheeks); acne-prone with mild–moderate blemishes.</li></ol>",
             "page": ""
           }
         }
@@ -1340,7 +1337,7 @@
     "image_with_text_j7VAgM",
     "multicolumn_html_n7HF8i",
     "rich_text_JRTRpd",
-    "image_with_text_NbbRcx",
+    "image_with_text_html_Yj94pf",
     "multicolumn_zjQz6Y",
     "cl_featured_collection_UQd4Xn",
     "image_with_text_kQqhCQ",
