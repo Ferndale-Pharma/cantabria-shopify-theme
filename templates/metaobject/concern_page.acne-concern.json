@@ -156,7 +156,7 @@
         "column_cCYqMz"
       ],
       "settings": {
-        "title": "Understanding {{ metaobject.name.value }}",
+        "title": "Understanding acne-prone skin",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -173,34 +173,124 @@
         "container_id": ""
       }
     },
-    "image_with_text_pygC74": {
-      "type": "image-with-text",
+    "rich_text_8paXJ7": {
+      "type": "rich-text",
       "blocks": {
-        "heading_pcmrin": {
+        "heading_nD8879": {
           "type": "heading",
           "settings": {
-            "heading": "The spot cycle",
+            "heading": "Treating different types of acne",
             "heading_size": "h2"
           }
         },
-        "text_QnBwed": {
+        "text_XWNTKJ": {
           "type": "text",
           "settings": {
-            "text": "<p>The most effective treatments for acne and spot-prone skin will prevent future breakouts, treat active spots, reduce inflammation and improve acne scarring.</p>",
-            "text_style": "body"
+            "text": "<p>Acne doesn’t look the same for everyone, so why should it be treated the same way? At Cantabria Labs, we understand that adult acne and blemish prone skin is complex. That’s why our advanced formulas are designed to treat different types of presenting acne with clinically proven results you can see and feel, while also caring for long-term skin health.</p>"
           }
         }
       },
       "block_order": [
-        "heading_pcmrin",
-        "text_QnBwed"
+        "heading_nD8879",
+        "text_XWNTKJ"
       ],
-      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/AdobeStock_409585665.jpg",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "image_with_text_html_c7fn6b": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_adEmCr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Treating late-onset & relapsing acne",
+            "heading_size": "h2"
+          }
+        },
+        "text_yp6phA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For individuals experiencing acne later in life, or seeing flare-ups return after a period of remission, BIRETIX Double Correction Serum provides dual-action care.</p> <p>Clinically proven to show visible results in just 14 days<sup>1</sup>, it reduces blemishes, regulates excess oil, minimises pores and smooths fine lines while progressively improving tone, texture, and luminosity with continued use. The advanced formula not only tackles breakouts but also strengthens the skin barrier and addresses early signs of ageing, making it uniquely suited to the needs of adult acne sufferers.</p>\n<p><b>Experience dermatologist-approved care for adult acne-prone skin with the BIRETIX Regime for Adult Acne-Prone Skin.</b></p>",
+            "text_style": "body"
+          }
+        },
+        "button_AYRzy9": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "shopify://products/biretix-regime-for-adult-acne",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_adEmCr",
+        "text_yp6phA",
+        "button_AYRzy9"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "image": "shopify://shop_images/double-correction-serum-layflat.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_html_iXdAyr": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_ndRmGh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Treating adolescent or persistent acne",
+            "heading_size": "h2"
+          }
+        },
+        "text_8wdE6B": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For those whose acne began in adolescence and continues into adulthood, BIRETIX Tri-Active Anti-Blemish Gel offers triple-action daily care.</p> \n<p>Clinically proven to deliver up to 76% fewer blemishes in just 28 days<sup>2</sup>, it exfoliates clogged pores, controls excess sebum, reduces redness, and prevents new imperfections from forming. With RetinSphere® Technology, BIOPEP-15, glycolic acid, salicylic acid, and niacinamide, Tri-Active provides an effective yet tolerable solution that restores clarity and comfort to persistent acne-prone skin.</p><p><b>Discover the BIRETIX Regime for Adolescent/Persistent Acne-Prone Skin.</b></p>",
+            "text_style": "body"
+          }
+        },
+        "button_hiHchW": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "shopify://products/biretix-regime-for-adolescent-persistent-acne",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ndRmGh",
+        "text_8wdE6B",
+        "button_hiHchW"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "image": "shopify://shop_images/tri-active-layflat.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
@@ -218,7 +308,7 @@
         "heading_6b9VWR": {
           "type": "heading",
           "settings": {
-            "heading": "Technologies",
+            "heading": "Technologies & ingredients to effectively treat acne-prone skin",
             "heading_size": "h2"
           }
         }
@@ -275,11 +365,49 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_bhNxH9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/GLYCOLIC_ACID.jpg",
+            "heading": "Glycolic Acid",
+            "heading_size": "h1",
+            "subheading": "An exfoliating alpha hydroxy acid (AHA) that increases skin cell turnover, helping to normalise blocked pores to soften and improve skin texture.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_iE9Anm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SALICYLIC_ACID.jpg",
+            "heading": "Salicylic Acid",
+            "heading_size": "h1",
+            "subheading": "A powerful beta hydroxy acid (BHA) that encourages the shedding of dead skin cells, reduces inflammation and redness and speeds up the healing of existing blemishes.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_4DWbVR",
-        "slide_QjVyT8"
+        "slide_QjVyT8",
+        "slide_bhNxH9",
+        "slide_iE9Anm"
       ],
       "custom_css": [
         ".banner__heading {color: #000;}"
@@ -387,31 +515,31 @@
         "column_TeH9Qd": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Rectangle_34.png",
-            "title": "How to Build an Effective Skincare Routine for Hyperpigmentation",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "Read full article",
-            "link": ""
+            "image": "shopify://shop_images/FERN-IMG-00131_CantabriaLabs_Blog_WhatTypeOfAcneDoIHave.jpg",
+            "title": "What type of acne do I have? A guide to mild, moderate and severe acne",
+            "text": "<p>Understanding the different types of acne is essential for discovering the right course of treatment and whether you should seek professional help.</p>",
+            "link_label": "Read article",
+            "link": "shopify://blogs/skincare-guides/what-type-of-acne-do-i-have-a-guide-to-mild-moderate-and-severe-acne"
           }
         },
         "column_gAfnbb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/hyperpigmentation.png",
-            "title": "5 Ingredients for Hyperpigmentation and Achieving Even Skin Tone",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus blandit tortor tempus.</p>",
+            "image": "shopify://shop_images/FERN-IMG-00140_CantabriaLabs_WhyDoesAdultAcneHappen_BlogImage_1080x810_Sep25_1.jpg",
+            "title": "Second puberty? Why adult acne happens & how to treat it",
+            "text": "<p>The resurgence of breakouts can be frustrating, especially for those who thought they had left teenage spots in the past.<br/></p>",
             "link_label": "Read article",
-            "link": "shopify://blogs/blog"
+            "link": "shopify://blogs/skincare-guides/second-puberty-why-adult-acne-happens-how-to-treat-it"
           }
         },
         "column_UQpJxV": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/person.png",
-            "title": "Understanding Hyperpigmentation: Causes, Types, and Treatments",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus blandit tortor tempus.</p>",
+            "image": "shopify://shop_images/FERN-IMG-00145_CantabriaLabs_EmotionalImpactOfAcne_BlogImage_1080x810_Oct25.jpg",
+            "title": "The emotional impact of acne: What nobody talks about (but everyone feels)",
+            "text": "<p>Acne is often considered a surface issue. But for many people, the impact of acne runs deeper, taking a huge toll on mental health and quality of life.</p>",
             "link_label": "Read article",
-            "link": "shopify://blogs/expert-advice/melanoma-and-non-melanoma-skin-cancer-whats-the-difference"
+            "link": "shopify://blogs/skincare-guides/the-emotional-impact-of-acne-what-nobody-talks-about-but-everyone-feels"
           }
         }
       },
@@ -420,9 +548,8 @@
         "column_gAfnbb",
         "column_UQpJxV"
       ],
-      "disabled": true,
       "settings": {
-        "title": "Additional Resources",
+        "title": "Related articles",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -437,6 +564,38 @@
         "padding_top": 64,
         "padding_bottom": 64,
         "container_id": ""
+      }
+    },
+    "collapsible_content_DBNWqG": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_wggge7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "References",
+            "icon": "question_mark",
+            "row_content": "<ol><li>Data on file. CRO Complife, Italy 2024. Clinical-Instrumental evaluation of the efficacy and tolerability of a cosmetic treatment in subjects with acne prone skin; 20 female subjects with mild to moderate acne symptoms applied Biretix Double Correction Serum twice daily for 42 days - results tested at baseline (T0) and after 14 (T14), 28 (T28) and 42 days (T42)​.</li><li>Data on file.</li></ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_wggge7"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "newsletter_hhQfYj": {
@@ -477,12 +636,15 @@
     "image_banner_TWikjP",
     "image_with_text_E9j6Dk",
     "multicolumn_BeGBF7",
-    "image_with_text_pygC74",
+    "rich_text_8paXJ7",
+    "image_with_text_html_c7fn6b",
+    "image_with_text_html_iXdAyr",
     "rich_text_hRGxBU",
     "cl_slideshow_NJ8dcF",
     "cl_featured_collection_bPWHQJ",
     "multicolumn_GgiLEY",
     "multicolumn_VDCjYH",
+    "collapsible_content_DBNWqG",
     "newsletter_hhQfYj"
   ]
 }
