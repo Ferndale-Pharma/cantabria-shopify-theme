@@ -55,12 +55,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "bogos_io_free_gift_volume_discount_view_QPyXCw": {
-          "type": "shopify://apps/bogos-io-free-gift/blocks/volume-discount-view/0432bba6-720a-4e95-be5a-b868386f7aa6",
-          "settings": {
-            "product": ""
-          }
-        },
         "textarea_6NCbfN": {
           "type": "textarea",
           "settings": {
@@ -114,7 +108,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "bogos_io_free_gift_volume_discount_view_QPyXCw",
         "textarea_6NCbfN",
         "description_4GfMrB",
         "textarea_jUnP9Y",
