@@ -68,29 +68,29 @@
         "heading_aYcLWa": {
           "type": "heading",
           "settings": {
-            "heading": "The Black Friday Sale!",
+            "heading": "Save over £175 on clinically proven anti-ageing skincare! ",
             "heading_size": "h1"
           }
         },
         "text_kyA6LM": {
           "type": "text",
           "settings": {
-            "text": "Discover the full Cantabria Labs portfolio for less this Black Friday!",
+            "text": "Discover the limited edition Endocare Edit – an exclusive collection of products designed to protect, restore and renew ageing skin. ",
             "text_style": "subtitle"
           }
         },
         "text_77GTLa": {
           "type": "text",
           "settings": {
-            "text": "<em>24th November - 2nd December</em>",
+            "text": "<strong>Hurry! Last Few Remaining...</strong> ",
             "text_style": "body"
           }
         },
         "buttons_RkjPdk": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop All Black Friday Deals",
-            "button_link_1": "shopify://collections/promotions",
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify://products/the-endocare-edit-christmas-2025",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -108,7 +108,7 @@
         "@media screen and (max-width: 767px) {.h1 {font-size: 1.9em; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00157_CantabriaLabs_HomepageBanner_BlackFriday_2560x960_Nov25.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00148_CantabriaLabs_HomepageBanner_TheEndocareEdit_2560x960_Nov25.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -823,54 +823,6 @@
         "container_id": ""
       }
     },
-    "rich_text_ztaaeV": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_N7DDcJ": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Black Friday Sale!",
-            "heading_size": "h1"
-          }
-        },
-        "text_7exgUG": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Discover the full Cantabria Labs portfolio for less this Black Friday!<br/><br/><em>24th November - 2nd December</em></p>"
-          }
-        },
-        "button_MBVNfX": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop All Black Friday Deals",
-            "button_link": "shopify://collections/promotions",
-            "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_N7DDcJ",
-        "text_7exgUG",
-        "button_MBVNfX"
-      ],
-      "custom_css": [
-        "p {color: #fff;}"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
-        "full_width": true,
-        "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 64,
-        "container_id": ""
-      }
-    },
     "newsletter_qHy7Hn": {
       "type": "newsletter",
       "blocks": {
@@ -920,7 +872,6 @@
     "multicolumn_NeKPxJ",
     "multicolumn_EPn7gK",
     "multicolumn_DNgG9V",
-    "rich_text_ztaaeV",
     "newsletter_qHy7Hn"
   ]
 }
