@@ -30,7 +30,7 @@
         "text_gV9i98": {
           "type": "text",
           "settings": {
-            "text": "{{ page.metafields.custom.section_1_body_text | metafield_tag }}"
+            "text": "<p>Are you starting to notice the first signs of ageing, such as fine lines, tired eyes, uneven skin tone, or changes in texture? Have you tried retinol before? If not, now is the perfect time as we’re looking for people who are new to retinol to trial our latest retinol product - completely free of charge. </p>"
           }
         }
       },
@@ -55,14 +55,14 @@
         "heading_7wybAd": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.metafields.custom.section_2_title.value }}",
-            "heading_size": "h1"
+            "heading": "Claim your free full-size trial of NEW ENDOCARE RENEWAL Retinol Serum & Eye Contour",
+            "heading_size": "h2"
           }
         },
         "text_3KirBe": {
           "type": "text",
           "settings": {
-            "text": "{{ page.metafields.custom.section_2_body_text | metafield_tag }}"
+            "text": "<p>ENDOCARE RENEWAL Retinol Serum contains 0.2% pure retinol in microsponges, combined with hydroxypinacolone retinoate in our unique RetinSphere® Technology. This advanced delivery system is designed for maximum efficacy with excellent tolerability, so you can enjoy the proven benefits of retinol with far less risk of irritation.</p><p>ENDOCARE RENEWAL Retinol Eye Contour Serum is a clinically advanced retinol treatment designed specifically for the delicate eye and lip areas. Formulated with 0.05% pure retinol, delivered through RetinSphere® slow-release technology, it effectively renews and refines the skin while minimising irritation - making it ideal even for sensitive skin types.</p>"
           }
         }
       },
@@ -87,14 +87,14 @@
         "heading_pEyRec": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.metafields.custom.section_3_title.value }}",
+            "heading": "How it works",
             "heading_size": "h2"
           }
         },
         "text_f9YKzK": {
           "type": "text",
           "settings": {
-            "text": "{{ page.metafields.custom.section_3_body_text | metafield_tag }}"
+            "text": "<p>To be considered for participation, you must complete the sign-up form in full, including providing accurate personal and skin-related information. Incomplete or duplicate submissions will not be accepted.​​</p><p>By taking part in this campaign, you agree to provide an open and honest written review of your experience with the product on the Cantabria Labs UK website withing 60 days of receiving your sample.​</p><p>Reviews must be submitted to the review page provided in the email and via the QR code on the flyer.</p>"
           }
         }
       },
