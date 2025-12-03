@@ -23,21 +23,29 @@
         "heading_cNixgK": {
           "type": "heading",
           "settings": {
-            "heading": "Find the right HELIOCARE 360° product for your skin",
+            "heading": "Discover your personalised HELIOCARE 360° protection",
             "heading_size": "h1"
           }
         },
         "text_W3rj3W": {
           "type": "text",
           "settings": {
-            "text": "Everyone's skin is different, so that's why there's a HELIOCARE 360° formulation for everyone. Complete this short quiz to find your HELIOCARE 360° product.",
+            "text": "HELIOCARE 360° offers very high-level, full-spectrum sun protection for everyone, every day, with unique formulas tailored to different skin types, finishes and specific skincare concerns.",
+            "text_style": "body"
+          }
+        },
+        "text_4VknnK": {
+          "type": "text",
+          "settings": {
+            "text": "Complete this short quiz to find your HELIOCARE 360° product.",
             "text_style": "body"
           }
         }
       },
       "block_order": [
         "heading_cNixgK",
-        "text_W3rj3W"
+        "text_W3rj3W",
+        "text_4VknnK"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
