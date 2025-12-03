@@ -82,6 +82,7 @@
         "heading_7wybAd",
         "text_3KirBe"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -95,6 +96,7 @@
     },
     "cl_single_image_FbYUKi": {
       "type": "cl-single-image",
+      "disabled": true,
       "name": "Single Image",
       "settings": {
         "image": "shopify://shop_images/Endocare_Retinol_Serum_Eye.jpg",
@@ -104,6 +106,45 @@
         "padding_bottom": 0,
         "full_width": true,
         "container_id": ""
+      }
+    },
+    "image_with_text_GdTFHd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hC4c7g": {
+          "type": "heading",
+          "settings": {
+            "heading": "Claim your free full-size trial of NEW ENDOCARE RENEWAL Retinol Serum & Eye Contour",
+            "heading_size": "h2"
+          }
+        },
+        "text_mrMHxp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ENDOCARE RENEWAL Retinol Serum contains 0.2% pure retinol in microsponges, combined with hydroxypinacolone retinoate in our unique RetinSphere® Technology. This advanced delivery system is designed for maximum efficacy with excellent tolerability, so you can enjoy the proven benefits of retinol with far less risk of irritation.</p><p>ENDOCARE RENEWAL Retinol Eye Contour Serum is a clinically advanced retinol treatment designed specifically for the delicate eye and lip areas. Formulated with 0.05% pure retinol, delivered through RetinSphere® slow-release technology, it effectively renews and refines the skin while minimising irritation - making it ideal even for sensitive skin types.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hC4c7g",
+        "text_mrMHxp"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Endocare_Retinol_Serum_Eye.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "rich_text_VEPRFi": {
@@ -134,7 +175,7 @@
         "color_scheme": "",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 64,
+        "padding_top": 16,
         "padding_bottom": 16,
         "container_id": ""
       }
@@ -230,6 +271,7 @@
     "rich_text_LmyULX",
     "rich_text_UAnx4F",
     "cl_single_image_FbYUKi",
+    "image_with_text_GdTFHd",
     "rich_text_VEPRFi",
     "rich_text_RcF43x",
     "rich_text_GWUMNe",
