@@ -932,7 +932,8 @@ span.cl-swatch {
   justify-content: center !important;
 }
 
-.help-text.globo-description {
+.help-text.globo-description,
+.help-block.error {
 	text-align: left;
 }
 
