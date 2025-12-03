@@ -932,6 +932,10 @@ span.cl-swatch {
   justify-content: center !important;
 }
 
+.help-text .globo-description {
+	text-align: center;
+}
+
 /** Makes sure that collections with 4 or less are centralised. **/
 
 @media screen and (min-width: 750px) {
