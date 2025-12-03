@@ -33,23 +33,11 @@
             "text": "Everyone's skin is different, so that's why there's a HELIOCARE 360° formulation for everyone. Complete this short quiz to find your HELIOCARE 360° product.",
             "text_style": "body"
           }
-        },
-        "buttons_bgQF6m": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_cNixgK",
-        "text_W3rj3W",
-        "buttons_bgQF6m"
+        "text_W3rj3W"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
@@ -57,7 +45,7 @@
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_alignment": "left",
         "color_scheme": "",
         "image_behavior": "none",
