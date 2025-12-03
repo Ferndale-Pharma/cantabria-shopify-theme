@@ -17,6 +17,56 @@
         "padding_bottom": 28
       }
     },
+    "image_banner_N9nHdN": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_cNixgK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find the right HELIOCARE 360° product for your skin",
+            "heading_size": "h1"
+          }
+        },
+        "text_W3rj3W": {
+          "type": "text",
+          "settings": {
+            "text": "Everyone's skin is different, so that's why there's a HELIOCARE 360° formulation for everyone. Complete this short quiz to find your HELIOCARE 360° product.",
+            "text_style": "body"
+          }
+        },
+        "buttons_bgQF6m": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cNixgK",
+        "text_W3rj3W",
+        "buttons_bgQF6m"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00161_CantabriaLabs.co.uk_SkinQuiz_HomepageBanner_Nov25_V.02.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "is_heading": true
+      }
+    },
     "rich_text_cw3CPt": {
       "type": "rich-text",
       "blocks": {
@@ -38,6 +88,7 @@
         "heading_6hVJ7d",
         "text_axGFz6"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -79,6 +130,7 @@
   },
   "order": [
     "main",
+    "image_banner_N9nHdN",
     "rich_text_cw3CPt",
     "17640714508b861b16"
   ]
