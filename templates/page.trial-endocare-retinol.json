@@ -32,11 +32,23 @@
           "settings": {
             "text": "<p>Are you starting to notice the first signs of ageing, such as fine lines, tired eyes, uneven skin tone, or changes in texture? Have you tried retinol before? If not, now is the perfect time as we’re looking for people who are new to retinol to trial our latest retinol product - completely free of charge. </p>"
           }
+        },
+        "button_8WfgwF": {
+          "type": "button",
+          "settings": {
+            "button_label": "Claim your FREE trial now",
+            "button_link": "#apply",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "heading_QkzePh",
-        "text_gV9i98"
+        "text_gV9i98",
+        "button_8WfgwF"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -78,6 +90,19 @@
         "is_heading": false,
         "padding_top": 0,
         "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "cl_single_image_FbYUKi": {
+      "type": "cl-single-image",
+      "name": "Single Image",
+      "settings": {
+        "image": "shopify://shop_images/Endocare_Retinol_Serum_Eye.jpg",
+        "image_width_value": 800,
+        "image_width_unit": "px",
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "full_width": true,
         "container_id": ""
       }
     },
@@ -135,7 +160,7 @@
         "is_heading": false,
         "padding_top": 0,
         "padding_bottom": 64,
-        "container_id": ""
+        "container_id": "apply"
       }
     },
     "newsletter_x6XMGC": {
@@ -176,6 +201,7 @@
     "main",
     "rich_text_LmyULX",
     "rich_text_UAnx4F",
+    "cl_single_image_FbYUKi",
     "rich_text_VEPRFi",
     "rich_text_GWUMNe",
     "newsletter_x6XMGC"
