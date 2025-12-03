@@ -1,0 +1,183 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_LmyULX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QkzePh": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.metafields.custom.custom_page_title.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_gV9i98": {
+          "type": "text",
+          "settings": {
+            "text": "{{ page.metafields.custom.section_1_body_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QkzePh",
+        "text_gV9i98"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_UAnx4F": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7wybAd": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.metafields.custom.section_2_title.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_3KirBe": {
+          "type": "text",
+          "settings": {
+            "text": "{{ page.metafields.custom.section_2_body_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7wybAd",
+        "text_3KirBe"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "rich_text_VEPRFi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pEyRec": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.metafields.custom.section_3_title.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_f9YKzK": {
+          "type": "text",
+          "settings": {
+            "text": "{{ page.metafields.custom.section_3_body_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pEyRec",
+        "text_f9YKzK"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_GWUMNe": {
+      "type": "rich-text",
+      "blocks": {
+        "text_m9R8Ac": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ page.metafields.custom.form_shortcode.value }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_m9R8Ac"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "newsletter_x6XMGC": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_FDzpQA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get 10% off your first order",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_EGBArp": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join the Cantabria Labs community for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
+          }
+        },
+        "email_form_kmg8YA": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_FDzpQA",
+        "paragraph_EGBArp",
+        "email_form_kmg8YA"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_LmyULX",
+    "rich_text_UAnx4F",
+    "rich_text_VEPRFi",
+    "rich_text_GWUMNe",
+    "newsletter_x6XMGC"
+  ]
+}
