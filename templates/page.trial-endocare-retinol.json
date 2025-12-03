@@ -49,71 +49,6 @@
         "container_id": ""
       }
     },
-    "rich_text_UAnx4F": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_7wybAd": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ page.metafields.custom.section_2_title.value }}",
-            "heading_size": "h1"
-          }
-        },
-        "text_3KirBe": {
-          "type": "text",
-          "settings": {
-            "text": "{{ page.metafields.custom.section_2_body_text | metafield_tag }}"
-          }
-        }
-      },
-      "block_order": [
-        "heading_7wybAd",
-        "text_3KirBe"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-5",
-        "full_width": true,
-        "is_heading": false,
-        "padding_top": 0,
-        "padding_bottom": 32,
-        "container_id": ""
-      }
-    },
-    "rich_text_VEPRFi": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_pEyRec": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ page.metafields.custom.section_3_title.value }}",
-            "heading_size": "h2"
-          }
-        },
-        "text_f9YKzK": {
-          "type": "text",
-          "settings": {
-            "text": "{{ page.metafields.custom.section_3_body_text | metafield_tag }}"
-          }
-        }
-      },
-      "block_order": [
-        "heading_pEyRec",
-        "text_f9YKzK"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 64,
-        "container_id": ""
-      }
-    },
     "rich_text_GWUMNe": {
       "type": "rich-text",
       "blocks": {
@@ -175,8 +110,6 @@
   "order": [
     "main",
     "rich_text_LmyULX",
-    "rich_text_UAnx4F",
-    "rich_text_VEPRFi",
     "rich_text_GWUMNe",
     "newsletter_x6XMGC"
   ]
