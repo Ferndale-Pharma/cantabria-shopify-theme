@@ -41,7 +41,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-5",
         "full_width": true,
         "is_heading": true,
         "padding_top": 32,
@@ -73,18 +73,12 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-5",
         "full_width": true,
         "is_heading": false,
         "padding_top": 0,
         "padding_bottom": 32,
         "container_id": ""
-      }
-    },
-    "17411687961e2d1126": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
       }
     },
     "rich_text_GWUMNe": {
@@ -149,7 +143,6 @@
     "main",
     "rich_text_LmyULX",
     "rich_text_UAnx4F",
-    "17411687961e2d1126",
     "rich_text_GWUMNe",
     "newsletter_x6XMGC"
   ]
