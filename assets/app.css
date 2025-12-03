@@ -932,7 +932,7 @@ span.cl-swatch {
   justify-content: center !important;
 }
 
-.help-text .globo-description {
+.help-text.globo-description {
 	text-align: left;
 }
 
