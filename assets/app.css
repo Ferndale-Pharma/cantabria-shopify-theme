@@ -933,7 +933,7 @@ span.cl-swatch {
 }
 
 .help-text .globo-description {
-	text-align: center;
+	text-align: left;
 }
 
 /** Makes sure that collections with 4 or less are centralised. **/
