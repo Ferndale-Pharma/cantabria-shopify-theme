@@ -100,8 +100,8 @@
         "image": "shopify://shop_images/Endocare_Retinol_Serum_Eye.jpg",
         "image_width_value": 800,
         "image_width_unit": "px",
-        "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "full_width": true,
         "container_id": ""
       }
@@ -135,6 +135,34 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
+        "padding_bottom": 16,
+        "container_id": ""
+      }
+    },
+    "rich_text_RcF43x": {
+      "type": "rich-text",
+      "blocks": {
+        "text_iXc4ni": {
+          "type": "text",
+          "settings": {
+            "text": "<p>*T&Cs apply. This offer is open to UK residents who have not yet used retinol or have used a retinol that they have experienced irritability with previously. By submitting your details, you confirm that you meet the eligibility criteria. <strong>Mainland UK residents only and one free product per household. Any duplicate orders will be automatically cancelled.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_iXc4ni"
+      ],
+      "custom_css": [
+        "p {font-size: 0.8em;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
         "padding_bottom": 64,
         "container_id": ""
       }
@@ -203,6 +231,7 @@
     "rich_text_UAnx4F",
     "cl_single_image_FbYUKi",
     "rich_text_VEPRFi",
+    "rich_text_RcF43x",
     "rich_text_GWUMNe",
     "newsletter_x6XMGC"
   ]
