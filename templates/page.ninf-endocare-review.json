@@ -23,8 +23,8 @@
         "heading_QkzePh": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.title }}",
-            "heading_size": "h0"
+            "heading": "{{ page.metafields.custom.custom_page_title.value }}",
+            "heading_size": "h1"
           }
         },
         "text_gV9i98": {
