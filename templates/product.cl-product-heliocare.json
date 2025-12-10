@@ -200,7 +200,7 @@
       "settings": {
         "image": "shopify://shop_images/FERN-IMG-00161_CantabriaLabs.co.uk_SkinQuiz_HomepageBanner_Nov25_V.01.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "small",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
