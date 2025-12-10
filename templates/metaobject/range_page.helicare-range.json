@@ -675,6 +675,7 @@
     },
     "cl_featured_collection_UQd4Xn": {
       "type": "cl-featured-collection",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "title": "Find the right HELIOCARE product for you",
@@ -748,6 +749,56 @@
         "mobile_content_alignment": "center",
         "padding_top": 64,
         "padding_bottom": 64
+      }
+    },
+    "image_banner_giWYzM": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_6KRUpt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find your perfect HELIOCARE 360° match",
+            "heading_size": "h2"
+          }
+        },
+        "text_CEgWkN": {
+          "type": "text",
+          "settings": {
+            "text": "Complete the skin quiz and let our dermatologist-led expertise guide you to the right formula.",
+            "text_style": "body"
+          }
+        },
+        "buttons_tHDyGk": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Take quiz",
+            "button_link_1": "#",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6KRUpt",
+        "text_CEgWkN",
+        "buttons_tHDyGk"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00161_CantabriaLabs.co.uk_SkinQuiz_HomepageBanner_Nov25_V.01.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "is_heading": false
       }
     },
     "image_with_text_tAWbFy": {
@@ -1292,6 +1343,7 @@
     "multicolumn_zjQz6Y",
     "cl_featured_collection_UQd4Xn",
     "image_with_text_kQqhCQ",
+    "image_banner_giWYzM",
     "image_with_text_tAWbFy",
     "rich_text_p3BLWR",
     "cl_slideshow_9QxUaB",

@@ -159,6 +159,59 @@
         "include_margins": true
       }
     },
+    "image_banner_CHDeVA": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_fDUyC6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find your perfect HELIOCARE 360° match",
+            "heading_size": "h2"
+          }
+        },
+        "text_mWGRYx": {
+          "type": "text",
+          "settings": {
+            "text": "Complete the skin quiz and let our dermatologist-led expertise guide you to the right formula.",
+            "text_style": "body"
+          }
+        },
+        "buttons_JgaD7W": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Take quiz",
+            "button_link_1": "#",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fDUyC6",
+        "text_mWGRYx",
+        "buttons_JgaD7W"
+      ],
+      "custom_css": [
+        "div.banner {margin-top: 64px; margin-bottom: 32px;}"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00161_CantabriaLabs.co.uk_SkinQuiz_HomepageBanner_Nov25_V.01.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "is_heading": false
+      }
+    },
     "related-products": {
       "type": "cl-related-products",
       "settings": {
@@ -176,12 +229,6 @@
         "columns_mobile": "2",
         "padding_top": 64,
         "padding_bottom": 64
-      }
-    },
-    "1725375417ea1f4d2f": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
       }
     },
     "custom_liquid_9RgfFT": {
@@ -231,8 +278,8 @@
   "order": [
     "main",
     "1725440000dbba4c0d",
+    "image_banner_CHDeVA",
     "related-products",
-    "1725375417ea1f4d2f",
     "custom_liquid_9RgfFT",
     "newsletter_VckrPM"
   ]
