@@ -43,7 +43,6 @@
         "text",
         "buttons_JLFrH9"
       ],
-      "disabled": true,
       "custom_css": [
         ".banner__text.caption-with-letter-spacing {text-transform: inherit;}"
       ],
@@ -104,6 +103,7 @@
         "text_77GTLa",
         "buttons_RkjPdk"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 767px) {.h1 {font-size: 1.9em; }}"
       ],
