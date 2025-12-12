@@ -477,11 +477,11 @@
       assign seo_media = product.featured_media
     endif
   -%}
-    {% unless template contains 'product' %}
+  {% unless request.page_type == 'product' %}
   <script type='application/ld+json'>
     {{ product | structured_data }}
   </script>
-{% endunless %}
+  {% endunless %}
 
   {% if product.media.size > 0 %}
     <script src='{{ 'product-modal.js' | asset_url }}' defer='defer'></script>
