@@ -229,53 +229,6 @@
         "padding_bottom": 64
       }
     },
-    "image_with_text_html_HgWF39": {
-      "type": "image-with-text-html",
-      "blocks": {
-        "heading_GzapQr": {
-          "type": "heading",
-          "settings": {
-            "heading": "Daily antioxidant protection to enhance skin’s radiance​",
-            "heading_size": "h2"
-          }
-        },
-        "text_RPAUqp": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Dull skin occurs when the complexion loses its natural brightness, often due to slowed cell renewal, dehydration, pollution, stress, and UV exposure - all contributing to oxidative stress. Antioxidants help counter this by neutralising free radicals that can damage skin DNA.</p>\n\n<p><b>ENDOCARE RADIANCE</b> harnesses the brightening power of vitamin C alongside exclusive EDAFENCE® anti-pollution technology and a potent blend of antioxidants. This advanced formula helps to revitalise dull skin, even out tone, and restore a luminous glow.</p>\n\n<p><b>Learn more about ENDOCARE RADIANCE C Ferulic Edafence Serum’s potent, clinically proven ingredients. In just 28 days, 95% of users reported a brighter, more even complexion, 95% saw smoother texture, and 100% experienced improved hydration.<sup>2</sup></b></p>",
-            "text_style": "body"
-          }
-        },
-        "button_rnpU3m": {
-          "type": "button",
-          "settings": {
-            "button_label": "View product",
-            "button_link": "shopify://products/endocare-radiance-c-ferulic-edafence-serum",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_GzapQr",
-        "text_RPAUqp",
-        "button_rnpU3m"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00052_CantabriaLabs_EndocareRangePage_AntiOxAntiPollution_Images_1200x930_Jun25.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-5",
-        "color_scheme": "scheme-5",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
     "image_with_text_html_67cwVE": {
       "type": "image-with-text-html",
       "blocks": {
@@ -309,6 +262,53 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Endocare_Retinol_Serum_Eye.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_html_HgWF39": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_GzapQr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Daily antioxidant protection to enhance skin’s radiance​",
+            "heading_size": "h2"
+          }
+        },
+        "text_RPAUqp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dull skin occurs when the complexion loses its natural brightness, often due to slowed cell renewal, dehydration, pollution, stress, and UV exposure - all contributing to oxidative stress. Antioxidants help counter this by neutralising free radicals that can damage skin DNA.</p>\n\n<p><b>ENDOCARE RADIANCE</b> harnesses the brightening power of vitamin C alongside exclusive EDAFENCE® anti-pollution technology and a potent blend of antioxidants. This advanced formula helps to revitalise dull skin, even out tone, and restore a luminous glow.</p>\n\n<p><b>Learn more about ENDOCARE RADIANCE C Ferulic Edafence Serum’s potent, clinically proven ingredients. In just 28 days, 95% of users reported a brighter, more even complexion, 95% saw smoother texture, and 100% experienced improved hydration.<sup>2</sup></b></p>",
+            "text_style": "body"
+          }
+        },
+        "button_rnpU3m": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "shopify://products/endocare-radiance-c-ferulic-edafence-serum",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_GzapQr",
+        "text_RPAUqp",
+        "button_rnpU3m"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00052_CantabriaLabs_EndocareRangePage_AntiOxAntiPollution_Images_1200x930_Jun25.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -697,8 +697,8 @@
     "video_pxURAj",
     "cl_featured_collection_K3bAHf",
     "image_with_text_html_UwaK9a",
-    "image_with_text_html_HgWF39",
     "image_with_text_html_67cwVE",
+    "image_with_text_html_HgWF39",
     "image_with_text_html_eXNQiE",
     "multicolumn_tidgVq",
     "rich_text_jBDxCK",
