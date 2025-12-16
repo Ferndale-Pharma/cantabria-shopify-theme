@@ -21,6 +21,13 @@
             "link": ""
           }
         },
+        "announcement_xknnKy": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Gift Worth £40 with Every Order - Shop Now!",
+            "link": "shopify://collections/all"
+          }
+        },
         "announcement_dP3e9T": {
           "type": "announcement",
           "settings": {
@@ -31,6 +38,7 @@
       },
       "block_order": [
         "announcement_H6wiei",
+        "announcement_xknnKy",
         "announcement_dP3e9T"
       ],
       "custom_css": [
