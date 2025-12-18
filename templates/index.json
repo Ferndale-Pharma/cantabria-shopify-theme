@@ -170,16 +170,16 @@
     "cl_collage_ranges_UM4mMA": {
       "type": "cl-collage-ranges",
       "blocks": {
-        "collection_U9C7wy": {
-          "type": "collection",
-          "settings": {
-            "collection": "heliocare"
-          }
-        },
         "collection_YUE6tg": {
           "type": "collection",
           "settings": {
             "collection": "endocare"
+          }
+        },
+        "collection_U9C7wy": {
+          "type": "collection",
+          "settings": {
+            "collection": "heliocare"
           }
         },
         "collection_X43qCC": {
@@ -196,8 +196,8 @@
         }
       },
       "block_order": [
-        "collection_U9C7wy",
         "collection_YUE6tg",
+        "collection_U9C7wy",
         "collection_X43qCC",
         "collection_6RqkiX"
       ],

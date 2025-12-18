@@ -23,20 +23,20 @@
         "heading_QkzePh": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.metafields.custom.custom_page_title.value }}",
+            "heading": "Apply to claim your FREE ENDOCARE RENEWAL Retinol Serum & Eye Contour",
             "heading_size": "h1"
           }
         },
         "text_gV9i98": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Claim your free full-size trial of the NEW ENDOCARE RENEWAL Retinol Serum & Eye Contour (worth £93.00) for visible anti-ageing results without irritation.</strong></p>"
+            "text": "<p><strong>Science-led clinically proven retinol for visible anti-ageing results – without the irritation.</strong></p>"
           }
         },
         "button_8WfgwF": {
           "type": "button",
           "settings": {
-            "button_label": "Claim your FREE trial now",
+            "button_label": "Apply Now",
             "button_link": "#apply",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -61,28 +61,32 @@
         "container_id": ""
       }
     },
+    "cl_single_image_FbYUKi": {
+      "type": "cl-single-image",
+      "name": "Single Image",
+      "settings": {
+        "image": "shopify://shop_images/ENDO-RENEW-EYE_SERUM_09_2024_1.jpg",
+        "image_width_value": 800,
+        "image_width_unit": "px",
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "full_width": true,
+        "container_id": ""
+      }
+    },
     "rich_text_UAnx4F": {
       "type": "rich-text",
       "blocks": {
-        "heading_7wybAd": {
-          "type": "heading",
-          "settings": {
-            "heading": "Claim your free full-size trial of NEW ENDOCARE RENEWAL Retinol Serum & Eye Contour",
-            "heading_size": "h2"
-          }
-        },
         "text_3KirBe": {
           "type": "text",
           "settings": {
-            "text": "<p>ENDOCARE RENEWAL Retinol Serum contains 0.2% pure retinol in microsponges, combined with hydroxypinacolone retinoate in our unique RetinSphere® Technology. This advanced delivery system is designed for maximum efficacy with excellent tolerability, so you can enjoy the proven benefits of retinol with far less risk of irritation.</p><p>ENDOCARE RENEWAL Retinol Eye Contour Serum is a clinically advanced retinol treatment designed specifically for the delicate eye and lip areas. Formulated with 0.05% pure retinol, delivered through RetinSphere® slow-release technology, it effectively renews and refines the skin while minimising irritation - making it ideal even for sensitive skin types.</p>"
+            "text": "<p>Developed by Cantabria Labs - global leaders in dermatology and creators of the sunscreen sensation HELIOCARE - ENDOCARE brings together decades of clinical research, patented technologies and gold-standard dermatological actives to deliver skincare that really works to prevent and improve signs of skin ageing.</p>"
           }
         }
       },
       "block_order": [
-        "heading_7wybAd",
         "text_3KirBe"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -94,40 +98,43 @@
         "container_id": ""
       }
     },
-    "cl_single_image_FbYUKi": {
-      "type": "cl-single-image",
-      "disabled": true,
-      "name": "Single Image",
-      "settings": {
-        "image": "shopify://shop_images/Endocare_Retinol_Serum_Eye.jpg",
-        "image_width_value": 800,
-        "image_width_unit": "px",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "full_width": true,
-        "container_id": ""
-      }
-    },
     "image_with_text_GdTFHd": {
       "type": "image-with-text",
       "blocks": {
+        "heading_t4dM7W": {
+          "type": "heading",
+          "settings": {
+            "heading": "Retinol: The gold-standard anti-ageing ingredient",
+            "heading_size": "h2"
+          }
+        },
         "text_mrMHxp": {
           "type": "text",
           "settings": {
             "text": "<p>Retinol is considered the gold-standard ingredient in anti-ageing skincare, loved for its ability to smooth, brighten, and visibly renew the skin. But if you’ve ever hesitated to try it because of the common side-effects of dryness or irritation, you’re not alone. Many traditional retinols can feel harsh, especially for those with sensitive skin.</p><p>Our unique retinol formula combines two retinoids for immediate and sustained release. This advanced delivery system has been clinically proven to deliver exceptional results with excellent tolerability. That means you get all the benefits - refined texture, improved radiance, smoother-looking skin - without the irritation.</p>",
             "text_style": "body"
           }
+        },
+        "button_XBNQUH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Register Your Interest",
+            "button_link": "#apply",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
-        "text_mrMHxp"
+        "heading_t4dM7W",
+        "text_mrMHxp",
+        "button_XBNQUH"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Endocare_Retinol_Serum_Eye.jpg",
-        "height": "adapt",
+        "image": "shopify://shop_images/woman-touching-face-1.jpg",
+        "height": "medium",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
@@ -145,14 +152,14 @@
         "heading_UUNkKy": {
           "type": "heading",
           "settings": {
-            "heading": "What’s included in my trial pack?",
+            "heading": "Meet ENDOCARE RENEWAL Retinols",
             "heading_size": "h2"
           }
         },
         "text_8Q6DLh": {
           "type": "text",
           "settings": {
-            "text": "<p>The ENDOCARE RENEWAL Retinol trial includes a lightweight facial serum containing our advanced dual-retinoid serum with 0.2% retinol, plus an eye contour serum containing 0.05% retinol to target early signs of ageing including uneven texture and fine lines.</p>"
+            "text": "<p>Clinically proven to boost collagen, elastin and fibroblast activity, helping strengthen the skin for visibly firmer, plumper and more youthful-looking results - with excellent tolerability.* </p><p>Our advanced retinol formula contains a patented dual-release retinoid system that delivers both immediate and gradual activity, balancing high efficacy with excellent tolerability to provide powerful yet gentle skin renewal. It enhances tone and texture while supporting long-term skin health and is suitable even for the most sensitive skin types. </p>"
           }
         }
       },
@@ -172,20 +179,185 @@
         "container_id": ""
       }
     },
+    "rich_text_FGxmiR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fjqxVm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your FREE full-sized trial includes: ",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fjqxVm"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "container_id": ""
+      }
+    },
+    "image_with_text_ymtHaP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Jd6zLc": {
+          "type": "heading",
+          "settings": {
+            "heading": "<a href=\"/products/endocare-renewal-retinol-serum\" target=\"_blank\" title=\"ENDOCARE RENEWAL Retinol Serum\">ENDOCARE RENEWAL Retinol Serum</a>",
+            "heading_size": "h2"
+          }
+        },
+        "caption_fhmjqx": {
+          "type": "caption",
+          "settings": {
+            "caption": "WORTH £53.00",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        },
+        "text_zLdtM6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A 0.2% pure retinol treatment, enriched with hyaluronic acid, niacinamide and bisabolol to refine texture, smooth fine lines, and support healthier, more radiant-looking skin with minimal irritation. Its water-free formula and airtight packaging ensures retinol remains stable and effective with every application.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Jd6zLc",
+        "caption_fhmjqx",
+        "text_zLdtM6"
+      ],
+      "custom_css": [
+        "p.subtitle {font-weight: 600; color: #000 !important;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Endocare-Retinol-Serum.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_cDVfWU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_eFFf6F": {
+          "type": "heading",
+          "settings": {
+            "heading": "<a href=\"/products/endocare-renewal-retinol-eye-contour\" target=\"_blank\" title=\"ENDOCARE RENEWAL Retinol Eye Contour\">ENDOCARE RENEWAL Retinol Eye Contour</a>",
+            "heading_size": "h2"
+          }
+        },
+        "caption_GCDQAL": {
+          "type": "caption",
+          "settings": {
+            "caption": "WORTH £40.00",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        },
+        "text_UDdPzF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An advanced eye contour emulsion containing 0.05% retinol, enriched with hyaluronic acid and antioxidant ingredients to help hydrate, plump and reduce the appearance of dark circles. Skin is left smoother, brighter and more luminous, with <strong>85% of users reporting a visibly brighter, more rejuvenated eye area.**</strong></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eFFf6F",
+        "caption_GCDQAL",
+        "text_UDdPzF"
+      ],
+      "custom_css": [
+        "p.subtitle {font-weight: 600; color: #000 !important;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/endocare-retinol-eye-contour.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_miBTRw": {
+      "type": "rich-text",
+      "blocks": {
+        "text_3nkici": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>Apply to claim your FREE ENDOCARE RENEWAL Retinol Serum & Eye Contour</strong></h2>"
+          }
+        },
+        "button_UGgNX7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply Now",
+            "button_link": "#apply",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_3nkici",
+        "button_UGgNX7"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
     "rich_text_VEPRFi": {
       "type": "rich-text",
       "blocks": {
         "heading_pEyRec": {
           "type": "heading",
           "settings": {
-            "heading": "How it works",
+            "heading": "How to apply for your free trial",
             "heading_size": "h2"
           }
         },
         "text_f9YKzK": {
           "type": "text",
           "settings": {
-            "text": "<p>To apply to join the trial, please complete the sign-up form with accurate personal and skin-related details. Please note that incomplete or duplicate entries won’t be considered, and only successful applicants will be selected to take part.</p><p>If your application is successful, you’ll be asked to share an open and honest written review of your experience with the products on the Cantabria Labs UK website within 60 days of receiving your free samples.</p><p>You can submit your review using the link in your confirmation email or by scanning the QR code on the flyer included with your samples.</p>"
+            "text": "<p>To apply for the trial, simply complete the sign-up form below with your personal details. Please make sure all information is accurate and complete as any incomplete or duplicate entries won’t be considered. Successful applicants will be selected and contacted directly. If your application is successful, you’ll be asked to share an open and honest written review of your experience with the products on the Cantabria Labs UK website within 60 days of receiving your free samples. </p><p>You can submit your review using the link in your confirmation email or by scanning the QR code on the flyer included with your samples. </p>"
           }
         }
       },
@@ -197,39 +369,11 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-5",
         "full_width": true,
         "is_heading": false,
         "padding_top": 16,
         "padding_bottom": 16,
-        "container_id": ""
-      }
-    },
-    "rich_text_RcF43x": {
-      "type": "rich-text",
-      "blocks": {
-        "text_iXc4ni": {
-          "type": "text",
-          "settings": {
-            "text": "<p>*T&Cs apply. This free product trial is open to residents of the UK mainland aged 25 years or over.​ To apply, applicants must submit their details via the application form and confirm that they meet the eligibility criteria. ​A maximum of one free trial pack is permitted per household. Any duplicate applications or entries will be automatically cancelled.​ </p><p>Applications close at 5:00pm on Friday 30 January 2026.​ From all eligible applications received, 600 applicants will be selected at random to receive a free trial pack.​ All applicants will be contacted during the week commencing 2 February 2026 to confirm whether they have been successful and to provide details on how to claim their trial pack.​ The free trial pack is non-transferable and no cash or alternative product is available.​ The Promoter reserves the right to withdraw or amend this offer at any time where reasonably necessary.​</p><p>​Promoter: Exclusive UK distributor Ferndale Pharma, LS23 7FX, UK</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_iXc4ni"
-      ],
-      "custom_css": [
-        "p {font-size: 0.8em;}"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "is_heading": false,
-        "padding_top": 0,
-        "padding_bottom": 64,
         "container_id": ""
       }
     },
@@ -255,6 +399,91 @@
         "padding_top": 0,
         "padding_bottom": 64,
         "container_id": "apply"
+      }
+    },
+    "multicolumn_bjprQq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_7CLiJb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Derm_Proven_Efficacy.png",
+            "title": "Dermatologist proven efficacy",
+            "text": "<p>Cantabria Labs skincare ranges are dermatologist-proven to target, prevent, and improve key skin concerns like sun protection, acne-prone skin, ageing, and hyperpigmentation.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_x4YPyD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Expert_Recommended.png",
+            "title": "Expert recommended",
+            "text": "<p>Cantabria Labs products are the top dermatological prescription in Spain, Italy, Portugal, and recommended by skin experts across the globe.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_We9pQy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Personalised_Skincare.png",
+            "title": "Personalised skincare",
+            "text": "<p>With ranges specifically designed to cover every skin type, indication and concern, there’s always a Cantabria Labs product to suit <em>your</em> skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_7CLiJb",
+        "column_x4YPyD",
+        "column_We9pQy"
+      ],
+      "settings": {
+        "title": "Why trust Cantabria Labs?",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_RcF43x": {
+      "type": "rich-text",
+      "blocks": {
+        "text_iXc4ni": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>T&Cs apply.</strong> This free product trial is open to residents of the UK mainland aged 25 years or over.​ To apply, applicants must submit their details via the application form and confirm that they meet the eligibility criteria. ​A maximum of one free trial pack is permitted per household. Any duplicate applications or entries will be automatically cancelled.​ </p><p>Applications close at 5:00pm on Friday 30 January 2026.​ From all eligible applications received, 600 applicants will be selected at random to receive a free trial pack.​ All applicants will be contacted during the week commencing 2 February 2026 to confirm whether they have been successful and to provide details on how to claim their trial pack.​ The free trial pack is non-transferable and no cash or alternative product is available.​ The Promoter reserves the right to withdraw or amend this offer at any time where reasonably necessary.​ </p><p>​Promoter: Exclusive UK distributor Ferndale Pharma, LS23 7FX, UK</p><p><strong>Sources</strong>: *Truchuelo MT, Jiminez N, Miguel- Gomez L,Hermosa A, Sanchez-Neila N, Cuevas J Dermatology Research & Practice 2015. **Trial conducted in women between 18-65 years, with normal skin type, with a frequency of application of 2 twice a day on the area around the eyes and in-between the nose and lip area. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_iXc4ni"
+      ],
+      "custom_css": [
+        "p {font-size: 0.8em;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "newsletter_x6XMGC": {
@@ -294,12 +523,17 @@
   "order": [
     "main",
     "rich_text_LmyULX",
-    "rich_text_UAnx4F",
     "cl_single_image_FbYUKi",
+    "rich_text_UAnx4F",
     "image_with_text_GdTFHd",
     "rich_text_eHFKD6",
+    "rich_text_FGxmiR",
+    "image_with_text_ymtHaP",
+    "image_with_text_cDVfWU",
+    "rich_text_miBTRw",
     "rich_text_VEPRFi",
     "rich_text_GWUMNe",
+    "multicolumn_bjprQq",
     "rich_text_RcF43x",
     "newsletter_x6XMGC"
   ]
