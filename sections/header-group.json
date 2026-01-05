@@ -23,6 +23,7 @@
         },
         "announcement_xknnKy": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Free Gift Worth £40 with Every Order - Shop Now!",
             "link": "shopify://collections/all"
