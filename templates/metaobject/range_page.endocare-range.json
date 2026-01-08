@@ -90,6 +90,56 @@
         "container_id": ""
       }
     },
+    "rich_text_TydgKa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QLMmYg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Protect Your Little Ones with HELIOCARE 360° - 20% Off Selected Pediatrics and Family Products!",
+            "heading_size": "h2"
+          }
+        },
+        "text_gfi6Fn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Gentle sun protection for delicate skin, trusted by parents and dermatologists alike.<br/><br/> <a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>Offer ends 12:00 1st September 2025 - Terms & Conditions apply.</em></a></p>"
+          }
+        },
+        "button_GkUwxL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/promotions",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QLMmYg",
+        "text_gfi6Fn",
+        "button_GkUwxL"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "p > a {color: #121212;}",
+        "h2 {color: #115e67;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-8195847b-cf1a-4d7d-acae-bed48c36d0d6",
+        "full_width": false,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
     "image_with_text_bTLWD6": {
       "type": "image-with-text",
       "blocks": {
@@ -693,6 +743,7 @@
   "order": [
     "image_banner_9qaB4e",
     "rich_text_w9pUnz",
+    "rich_text_TydgKa",
     "image_with_text_bTLWD6",
     "video_pxURAj",
     "cl_featured_collection_K3bAHf",
