@@ -542,6 +542,9 @@
         "information_estimated_taxes_label": "VAT (estimated)",
         "vat_label_html": "Including {{ amount }} in VAT",
         "duties_included_label": "Total includes VAT and duties. No extra charges on delivery."
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Join the Cantabria Labs Community for FREE and receive emails with exclusive offers, product launches and expert skincare advice. Plus get 10% OFF your next purchase at CantabriaLabs.co.uk"
       }
     }
   }
