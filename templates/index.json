@@ -68,14 +68,14 @@
         "heading_aYcLWa": {
           "type": "heading",
           "settings": {
-            "heading": "Boost skin's radiance and defend against photoageing for less",
+            "heading": "Strengthen and protect your skin barrier for less",
             "heading_size": "h1"
           }
         },
         "text_kyA6LM": {
           "type": "text",
           "settings": {
-            "text": "The ENDOCARE RADIANCE C Ferulic Serum bundle pairs daily antioxidant defence with a FREE HELIOCARE 360° sunscreen of your choice for protected radiant skin all year round.",
+            "text": "Reinforce the skin barrier with ENDOCARE AGE BARRIER Niacinal Serum and receive a <strong>FREE HELIOCARE 360° sunscreen</strong> of your choice for healthy, resilient skin. ",
             "text_style": "subtitle"
           }
         },
@@ -83,7 +83,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now",
-            "button_link_1": "shopify://products/endocare-c-ferulic-and-heliocare-360-sunscreen",
+            "button_link_1": "shopify://products/endocare-age-barrier-niacinal-serum-heliocare-360-sunscreen",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -100,7 +100,7 @@
         "@media screen and (max-width: 767px) {.h1 {font-size: 1.9em; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00164_CantabriaLabs_CFerulicHelicoare_HomepageBanner_2000x1000_Dec25-1_1.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00165_CantabriaLabs_NiacinalHelicoare_HomepageBanner_2000x1000_Dec25.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
