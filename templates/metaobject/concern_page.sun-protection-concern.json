@@ -588,6 +588,16 @@
     "multicolumn_VDCjYH": {
       "type": "multicolumn",
       "blocks": {
+        "column_UQpJxV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00170_CantabriaLabs_Blog_WinterUVA_Cover.jpg",
+            "title": "Why winter UVA still ages your skin: A dermatologist’s A/W breakdown",
+            "text": "<p>As temperatures drop, daily sun protection is often overlooked. However, UVA rays responsible for premature skin ageing are present all year round, meaning winter skin still needs protection.<br/><br/></p>",
+            "link_label": "Read article",
+            "link": "shopify://blogs/expert-advice/why-winter-uva-still-ages-your-skin-a-dermatologists-a-w-breakdown"
+          }
+        },
         "column_TeH9Qd": {
           "type": "column",
           "settings": {
@@ -607,22 +617,12 @@
             "link_label": "Read article",
             "link": "shopify://blogs/skincare-guides/what-is-the-difference-between-broad-spectrum-and-full-spectrum-protection"
           }
-        },
-        "column_UQpJxV": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/FERN-IMG-00117_CantabriaLabs_Blog_DoesOralSunProtectionReallyWork.jpg",
-            "title": "Does oral sun protection really work? The science behind HELIOCARE 360° capsules",
-            "text": "<p>While topical sunscreens remain the foundation of photoprotection, another form of defence can now be used to further boost sun protection and improve skin health.</p>",
-            "link_label": "Read article",
-            "link": "shopify://blogs/skincare-guides/does-oral-sun-protection-really-work-the-science-behind-heliocare-360-capsules"
-          }
         }
       },
       "block_order": [
+        "column_UQpJxV",
         "column_TeH9Qd",
-        "column_gAfnbb",
-        "column_UQpJxV"
+        "column_gAfnbb"
       ],
       "settings": {
         "title": "Related articles",
