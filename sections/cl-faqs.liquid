@@ -1,6 +1,7 @@
 {%- style -%}
 .faq-section {
-  padding: 64px 0;
+  padding-top: 64px;
+  padding-bottom: 64px;
   max-width: 800px;
   margin: auto;
 }
@@ -11,6 +12,7 @@
 
 .faq-question {
   width: 100%;
+  text-align: left;
   padding: 1.5rem 0.5rem;
   border: none;
   background: transparent;
@@ -20,8 +22,10 @@
   justify-content: space-between;
   align-items: center;
   color: #121212;
+  transition: background 0.2s ease;
 }
 
+.faq-question:hover,
 .faq-question[aria-expanded="true"] {
   background: rgba(22,92,125,0.04);
 }
@@ -43,6 +47,22 @@
 .faq-answer.visible {
   display: block;
 }
+
+.faq-answer p {
+  margin-bottom: 1em;
+}
+
+.faq-answer ul {
+  margin-left: 15px;
+}
+
+.faq-answer ul li {
+  color: #000;
+}
+
+.faq-answer ul li:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
 {%- endstyle -%}
 
 <section class="faq-section">
@@ -50,11 +70,14 @@
     <div class="faq-item"
          data-question="{{ block.settings.title | escape }}"
          data-answer="{{ block.settings.answer | strip_html | escape }}">
+
       <button
         class="faq-question"
         aria-expanded="false"
         aria-controls="faq-answer-{{ block.id }}"
         id="faq-question-{{ block.id }}"
+        data-faq-question="{{ block.settings.title | escape }}"
+        data-faq-group="Simple FAQ"
       >
         <span class="faq-question-text">{{ block.settings.title }}</span>
         <span class="faq-chevron" aria-hidden="true">
@@ -68,8 +91,9 @@
           </svg>
         </span>
       </button>
+
       <div
-        class="faq-answer"
+        class="faq-answer hidden"
         id="faq-answer-{{ block.id }}"
         role="region"
         aria-labelledby="faq-question-{{ block.id }}"
@@ -114,14 +138,23 @@
         const answerId = button.getAttribute("aria-controls");
         const answerEl = document.getElementById(answerId);
 
-        // Toggle aria state and classes
         button.setAttribute("aria-expanded", !isExpanded);
+        answerEl.classList.toggle("hidden", isExpanded);
         answerEl.classList.toggle("visible", !isExpanded);
 
         const chevronDown = button.querySelector(".chevron-down");
         const chevronUp = button.querySelector(".chevron-up");
         chevronDown.classList.toggle("hidden", !isExpanded);
         chevronUp.classList.toggle("hidden", isExpanded);
+
+        // ✅ Push event to GTM for GA4 tracking
+        if (window.dataLayer) {
+          dataLayer.push({
+            event: "faq_click",
+            faqQuestion: button.dataset.faqQuestion,
+            faqGroup: button.dataset.faqGroup
+          });
+        }
       });
     });
   });
@@ -146,14 +179,14 @@
           "type": "richtext",
           "id": "answer",
           "label": "Answer",
-          "default": "<p>Delivery typically takes 3-5 business days depending on your location</p>"
+          "default": "<p>Delivery typically takes 3–5 business days depending on your location.</p>"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "FAQs",
+      "name": "Simple FAQs",
       "category": "Custom"
     }
   ]
