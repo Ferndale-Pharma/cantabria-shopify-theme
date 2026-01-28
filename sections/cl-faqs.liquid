@@ -88,6 +88,7 @@
 {%- endstyle -%}
 
 <section class="faq-section page-width section-{{ section.id }}-padding" data-faq-simple-section="{{ section.id }}">
+    <h2>{{ section.settings.title }}</h2>
   {% for block in section.blocks %}
     <div class="faq-item">
       <h3 class="faq-question-wrapper">
@@ -222,6 +223,11 @@
 {
   "name": "Simple FAQs",
   "settings": [
+    {
+        "type": "text",
+        "id": "title",
+        "label": "Section Title"
+    },
     {
       "type": "range",
       "id": "padding_top",
