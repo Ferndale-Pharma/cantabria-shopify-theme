@@ -1,0 +1,161 @@
+{%- style -%}
+.faq-section {
+  padding: 64px 0;
+  max-width: 800px;
+  margin: auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.faq-question {
+  width: 100%;
+  padding: 1.5rem 0.5rem;
+  border: none;
+  background: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #121212;
+}
+
+.faq-question[aria-expanded="true"] {
+  background: rgba(22,92,125,0.04);
+}
+
+.faq-chevron svg {
+  transition: transform 0.2s ease;
+  stroke: #165c7d;
+}
+
+.faq-chevron svg.hidden {
+  display: none;
+}
+
+.faq-answer {
+  padding: 0.5rem;
+  display: none;
+}
+
+.faq-answer.visible {
+  display: block;
+}
+{%- endstyle -%}
+
+<section class="faq-section">
+  {% for block in section.blocks %}
+    <div class="faq-item"
+         data-question="{{ block.settings.title | escape }}"
+         data-answer="{{ block.settings.answer | strip_html | escape }}">
+      <button
+        class="faq-question"
+        aria-expanded="false"
+        aria-controls="faq-answer-{{ block.id }}"
+        id="faq-question-{{ block.id }}"
+      >
+        <span class="faq-question-text">{{ block.settings.title }}</span>
+        <span class="faq-chevron" aria-hidden="true">
+          <!-- Down chevron -->
+          <svg class="chevron-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M6 9l6 6 6-6"/>
+          </svg>
+          <!-- Up chevron -->
+          <svg class="chevron-up hidden" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M6 15l6-6 6 6"/>
+          </svg>
+        </span>
+      </button>
+      <div
+        class="faq-answer"
+        id="faq-answer-{{ block.id }}"
+        role="region"
+        aria-labelledby="faq-question-{{ block.id }}"
+      >
+        {{ block.settings.answer }}
+      </div>
+    </div>
+  {% endfor %}
+
+  {%- assign faq_json = "" -%}
+  {% for block in section.blocks %}
+    {% assign question = block.settings.title | strip %}
+    {% assign answer = block.settings.answer | strip_html | strip_newlines | escape %}
+    {% capture faq_json %}
+      {{ faq_json }},
+      {
+        "@type": "Question",
+        "name": {{ question | json }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ answer | json }}
+        }
+      }
+    {% endcapture %}
+  {% endfor %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{{ faq_json | remove_first: "," }}]
+    }
+  </script>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const faqQuestions = document.querySelectorAll(".faq-question");
+
+    faqQuestions.forEach(button => {
+      button.addEventListener("click", () => {
+        const isExpanded = button.getAttribute("aria-expanded") === "true";
+        const answerId = button.getAttribute("aria-controls");
+        const answerEl = document.getElementById(answerId);
+
+        // Toggle aria state and classes
+        button.setAttribute("aria-expanded", !isExpanded);
+        answerEl.classList.toggle("visible", !isExpanded);
+
+        const chevronDown = button.querySelector(".chevron-down");
+        const chevronUp = button.querySelector(".chevron-up");
+        chevronDown.classList.toggle("hidden", !isExpanded);
+        chevronUp.classList.toggle("hidden", isExpanded);
+      });
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "FAQ Section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "faq",
+      "name": "FAQ Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Question",
+          "default": "How long does delivery take?"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "Answer",
+          "default": "<p>Delivery typically takes 3-5 business days depending on your location</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQs",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
