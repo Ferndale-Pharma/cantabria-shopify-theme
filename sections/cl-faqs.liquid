@@ -22,13 +22,17 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-  .faq-section-title {
-    text-align: center;
-}
-[data-faq-simple-accordion] summary:hover,
-[data-faq-simple-accordion] summary:focus-visible {
-  background-color: rgba(var(--color-foreground), .04);
-}
+    .faq-section-title {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    [data-faq-simple-accordion] summary:hover,
+    [data-faq-simple-accordion] summary:focus-visible {
+        background-color: rgba(var(--color-foreground), .04);
+    }
+    .h4.accordion__title {
+        font-size: 18px;
+    }
 {%- endstyle -%}
 <div class="collapsible-content">
     <div class="color-{{ section.settings.color_scheme }} gradient collapsible-content-wrapper-narrow">
