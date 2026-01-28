@@ -30,78 +30,74 @@
   background-color: rgba(var(--color-foreground), .04);
 }
 {%- endstyle -%}
+<div class="collapsible-content">
+    <div class="color-{{ section.settings.color_scheme }} gradient collapsible-content-wrapper-narrow">
+    <div class="page-width section-{{ section.id }}-padding">
+        <h2 class="faq-section-title">{{ section.settings.title }}</h2>
+        <div
+        class="content-container color-{{ section.settings.container_color_scheme }} gradient"
+        data-faq-simple-accordion
+        data-section-id="{{ section.id }}"
+        role="region"
+        aria-label="FAQs"
+        >
+        {%- for block in section.blocks -%}
+            <div class="accordion" {{ block.shopify_attributes }}>
+            <details id="Details-{{ block.id }}-{{ section.id }}">
+                <summary
+                id="Summary-{{ block.id }}-{{ section.id }}"
+                data-faq-question="{{ block.settings.title | escape }}"
+                data-faq-group="Simple FAQ"
+                >
+                {% render 'icon-accordion', icon: 'question_mark' %}
 
-<div class="color-{{ section.settings.color_scheme }} gradient collapsible-content-wrapper-narrow">
-  <div class="page-width section-{{ section.id }}-padding">
-    <h2 class="faq-section-title">{{ section.settings.title }}</h2>
-    <div
-      class="content-container color-{{ section.settings.container_color_scheme }} gradient"
-      data-faq-simple-accordion
-      data-section-id="{{ section.id }}"
-      role="region"
-      aria-label="FAQs"
-    >
-      {%- for block in section.blocks -%}
-        <div class="accordion" {{ block.shopify_attributes }}>
-          <details id="Details-{{ block.id }}-{{ section.id }}">
-            <summary
-              id="Summary-{{ block.id }}-{{ section.id }}"
-              data-faq-question="{{ block.settings.title | escape }}"
-              data-faq-group="Simple FAQ"
-            >
-              {%- comment -%}
-                Optional: If your theme has the Dawn snippet, this renders the left icon (like your screenshot).
-                If you *don’t* have it, remove the next line and it will still work.
-              {%- endcomment -%}
-              {% render 'icon-accordion', icon: 'question_mark' %}
+                <h3 class="accordion__title inline-richtext h4">
+                    {{ block.settings.title | escape }}
+                </h3>
 
-              <h3 class="accordion__title inline-richtext h4">
-                {{ block.settings.title | escape }}
-              </h3>
+                {% render 'icon-caret' %}
+                </summary>
 
-              {% render 'icon-caret' %}
-            </summary>
-
-            <div
-              class="accordion__content rte"
-              id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
-              role="region"
-              aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
-            >
-              {{ block.settings.answer }}
+                <div
+                class="accordion__content rte"
+                id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
+                role="region"
+                aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
+                >
+                {{ block.settings.answer }}
+                </div>
+            </details>
             </div>
-          </details>
-        </div>
-      {%- endfor -%}
+        {%- endfor -%}
 
-      {%- assign faq_json = "" -%}
-      {%- for block in section.blocks -%}
-        {%- assign question = block.settings.title | strip -%}
-        {%- assign answer = block.settings.answer | strip_html | strip_newlines | escape -%}
-        {%- capture faq_json -%}
-          {{ faq_json }},
-          {
-            "@type": "Question",
-            "name": {{ question | json }},
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": {{ answer | json }}
+        {%- assign faq_json = "" -%}
+        {%- for block in section.blocks -%}
+            {%- assign question = block.settings.title | strip -%}
+            {%- assign answer = block.settings.answer | strip_html | strip_newlines | escape -%}
+            {%- capture faq_json -%}
+            {{ faq_json }},
+            {
+                "@type": "Question",
+                "name": {{ question | json }},
+                "acceptedAnswer": {
+                "@type": "Answer",
+                "text": {{ answer | json }}
+                }
             }
-          }
-        {%- endcapture -%}
-      {%- endfor -%}
+            {%- endcapture -%}
+        {%- endfor -%}
 
-      <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [{{ faq_json | remove_first: "," }}]
-      }
-      </script>
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{{ faq_json | remove_first: "," }}]
+        }
+        </script>
+        </div>
     </div>
-  </div>
+    </div>
 </div>
-
 <script>
   (function () {
     function init(root) {
