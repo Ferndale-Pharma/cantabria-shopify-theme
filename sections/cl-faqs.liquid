@@ -1,102 +1,121 @@
+{% comment %}
+  Simple FAQ Section (Single group)
+  - No search
+  - No navigation
+  - Accordion toggles
+  - GA4 dataLayer event
+  - JSON-LD FAQPage schema
+{% endcomment %}
+
 {%- style -%}
-.faq-section {
-  padding-top: 64px;
-  padding-bottom: 64px;
-  max-width: 800px;
-  margin: auto;
-}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
 
-.faq-item {
-  border-bottom: 1px solid #e5e7eb;
-}
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
 
-.faq-question {
-  width: 100%;
-  text-align: left;
-  padding: 1.5rem 0.5rem;
-  border: none;
-  background: transparent;
-  font-weight: bold;
-  font-family: inherit;
-  font-size: 1rem;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #121212;
-  transition: background 0.2s ease;
-}
+  /* Match the original grouped FAQ styling (relevant bits only) */
+  .faq-section-{{ section.id }} {
+    max-width: 800px;
+    margin: auto;
+  }
 
-.faq-question:hover,
-.faq-question[aria-expanded="true"] {
-  background: rgba(22,92,125,0.04);
-}
+  .faq-item {
+    margin-bottom: 10px;
+  }
 
-.faq-question-wrapper {
-  margin: 0;
-}
+  .faq-question-wrapper {
+    margin: 0;
+  }
 
-.faq-chevron svg {
-  transition: transform 0.2s ease;
-  stroke: #165c7d;
-}
+  .faq-question {
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    background: #f3f3f3;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #165c7d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
 
-.faq-chevron svg.hidden {
-  display: none;
-}
+    /* IMPORTANT: don't set font-size so it matches theme/original */
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
 
-.faq-answer {
-  padding: 0.5rem;
-  display: none;
-}
+  .faq-question[aria-expanded="true"] {
+    background: #e0e0e0;
+    border-radius: 4px 4px 0px 0px;
+  }
 
-.faq-answer p {
-  margin-bottom: 1em;
-}
+  .faq-chevron svg.hidden {
+    display: none;
+  }
 
-.faq-answer ul {
-  margin-left: 15px;
-}
+  .faq-answer {
+    padding: 10px 15px;
+    background: #fafafa;
+    display: none;
+  }
 
-.faq-answer ul li {
-  color: #000;
-}
+  .faq-answer.hidden {
+    display: none;
+  }
 
-.faq-answer ul li:not(:last-of-type) {
-  margin-bottom: 1rem;
-}
+  .faq-answer.visible {
+    display: block;
+    border-radius: 0px 0px 4px 4px;
+  }
 
-.faq-answer.visible {
-  display: block;
-}
+  .faq-answer ul {
+    margin-left: 15px;
+  }
 
-.faq-answer.hidden {
-  display: none;
-}
+  .faq-answer ul li {
+    color: #000;
+  }
+
+  .faq-answer ul li:not(:last-of-type) {
+    margin-bottom: 1rem;
+  }
 {%- endstyle -%}
 
-<section class="faq-section">
+<section
+  class="page-width section-{{ section.id }}-padding faq-section-{{ section.id }}"
+  data-faq-simple
+  data-section-id="{{ section.id }}"
+>
   {% for block in section.blocks %}
-    <div class="faq-item"
-         data-question="{{ block.settings.title | escape }}"
-         data-answer="{{ block.settings.answer | strip_html | escape }}">
-
+    <div class="faq-item">
       <h3 class="faq-question-wrapper">
         <button
           class="faq-question"
           aria-expanded="false"
-          aria-controls="faq-answer-{{ block.id }}"
-          id="faq-question-{{ block.id }}"
+          aria-controls="faq-answer-{{ section.id }}-{{ block.id }}"
+          id="faq-question-{{ section.id }}-{{ block.id }}"
           data-faq-question="{{ block.settings.title | escape }}"
           data-faq-group="Simple FAQ"
+          type="button"
         >
           <span class="faq-question-text">{{ block.settings.title }}</span>
           <span class="faq-chevron" aria-hidden="true">
-            <!-- Down chevron -->
+            <!-- Down chevron (outlined) -->
             <svg class="chevron-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path d="M6 9l6 6 6-6"/>
             </svg>
-            <!-- Up chevron -->
+            <!-- Up chevron (outlined) -->
             <svg class="chevron-up hidden" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path d="M6 15l6-6 6 6"/>
             </svg>
@@ -106,11 +125,11 @@
 
       <div
         class="faq-answer hidden"
-        id="faq-answer-{{ block.id }}"
+        id="faq-answer-{{ section.id }}-{{ block.id }}"
         role="region"
-        aria-labelledby="faq-question-{{ block.id }}"
+        aria-labelledby="faq-question-{{ section.id }}-{{ block.id }}"
       >
-        {{ block.settings.answer }}
+        {{ block.settings.answer | render }}
       </div>
     </div>
   {% endfor %}
@@ -118,7 +137,7 @@
   {%- assign faq_json = "" -%}
   {% for block in section.blocks %}
     {% assign question = block.settings.title | strip %}
-    {% assign answer = block.settings.answer | strip_html | strip_newlines | escape %}
+    {% assign answer = block.settings.answer | render | strip_html | strip_newlines | escape %}
     {% capture faq_json %}
       {{ faq_json }},
       {
@@ -131,6 +150,7 @@
       }
     {% endcapture %}
   {% endfor %}
+
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -141,40 +161,94 @@
 </section>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const faqQuestions = document.querySelectorAll(".faq-question");
+  (function () {
+    function initFaqSimpleSection(root) {
+      if (!root) return;
 
-    faqQuestions.forEach(button => {
-      button.addEventListener("click", () => {
-        const isExpanded = button.getAttribute("aria-expanded") === "true";
-        const answerId = button.getAttribute("aria-controls");
-        const answerEl = document.getElementById(answerId);
+      const buttons = root.querySelectorAll(".faq-question");
+      if (!buttons.length) return;
 
-        button.setAttribute("aria-expanded", !isExpanded);
-        answerEl.classList.toggle("hidden", isExpanded);
-        answerEl.classList.toggle("visible", !isExpanded);
+      // Prevent double-binding if theme editor re-renders
+      buttons.forEach((button) => {
+        if (button.dataset.faqBound === "1") return;
+        button.dataset.faqBound = "1";
 
-        const chevronDown = button.querySelector(".chevron-down");
-        const chevronUp = button.querySelector(".chevron-up");
-        chevronDown.classList.toggle("hidden", !isExpanded);
-        chevronUp.classList.toggle("hidden", isExpanded);
+        button.addEventListener("click", function () {
+          const isExpanded = button.getAttribute("aria-expanded") === "true";
+          const answerId = button.getAttribute("aria-controls");
+          const answerEl = root.querySelector("#" + CSS.escape(answerId));
+          if (!answerEl) return;
 
-        if (window.dataLayer) {
-          dataLayer.push({
-            event: "faq_click",
-            faqQuestion: button.dataset.faqQuestion,
-            faqGroup: button.dataset.faqGroup
-          });
-        }
+          // Toggle aria state
+          button.setAttribute("aria-expanded", String(!isExpanded));
+
+          // Toggle answer visibility
+          answerEl.classList.toggle("hidden", isExpanded);
+          answerEl.classList.toggle("visible", !isExpanded);
+
+          // Toggle chevrons
+          const chevronDown = button.querySelector(".chevron-down");
+          const chevronUp = button.querySelector(".chevron-up");
+          if (chevronDown) chevronDown.classList.toggle("hidden", !isExpanded);
+          if (chevronUp) chevronUp.classList.toggle("hidden", isExpanded);
+
+          // GA4 (via GTM)
+          if (window.dataLayer) {
+            window.dataLayer.push({
+              event: "faq_click",
+              faqQuestion: button.dataset.faqQuestion || "",
+              faqGroup: button.dataset.faqGroup || "Simple FAQ"
+            });
+          }
+        });
       });
+    }
+
+    function initAllFaqSimpleSections() {
+      document.querySelectorAll('[data-faq-simple]').forEach(initFaqSimpleSection);
+    }
+
+    // Initial load
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initAllFaqSimpleSections);
+    } else {
+      initAllFaqSimpleSections();
+    }
+
+    // Theme editor: re-init when section is (re)loaded
+    document.addEventListener("shopify:section:load", function (event) {
+      if (!event || !event.target) return;
+      const root = event.target.querySelector('[data-faq-simple]');
+      initFaqSimpleSection(root);
     });
-  });
+  })();
 </script>
 
 {% schema %}
 {
   "name": "Simple FAQ Section",
-  "settings": [],
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 64
+    }
+  ],
   "blocks": [
     {
       "type": "faq",
