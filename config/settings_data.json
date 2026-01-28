@@ -208,6 +208,28 @@
         "type": "shopify://apps/poptin-exit-popup-email-pop-up/blocks/poptin/182272aa-99b0-4fe3-a6ce-2aa49aed1d90",
         "disabled": false,
         "settings": {}
+      },
+      "589228961406621311": {
+        "type": "shopify://apps/joy-loyalty-program/blocks/joy-redeem-inline-embed/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
+        "disabled": false,
+        "settings": {
+          "hide-for-guest": false,
+          "hide-not-enough-point": false,
+          "detail-view-layout": false,
+          "hide-redeem-all-points": false,
+          "background-color-redeem-button": "#ffffff",
+          "text-color-redeem-button": "#4e7a8e",
+          "border-color-redeem-button": "#9fc7da",
+          "border-color-redeem-button-hover": "#9fc7da",
+          "background-color-button": "#165c7d",
+          "text-color-button": "#ffffff",
+          "border-color-button": "#165c7d",
+          "text-color": "#000000",
+          "text-redeem-all-point": "#165c7d",
+          "hasEnableCancel": true,
+          "enableRevokeDiscountApplyFailed": true,
+          "hasReloadPage": true
+        }
       }
     },
     "color_schemes": {
