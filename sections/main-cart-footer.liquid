@@ -15,6 +15,29 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .Avada-Joy-Redeem-Accordion,
+  .Avada-Joy-Redeem-Accordion__content-inner {
+    border-color: rgba(22,92,125,0.08)
+  }
+  .Avada-Joy-Redeem-Inline__guest-cta,
+  .Avada-Joy-Redeem-Inline__guest-cta:hover {
+    color: #165c7d;
+  }
+  .Avada-Joy-Redeem-Inline__button {
+    max-width: 30rem;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    font-weight: 600;
+  }
+  .Avada-Joy-Redeem-Inline__button:hover {
+    background-color: rgba(22,92,125,0.8)!important;
+  }
+  .Avada-Joy-Redeem-Inline__redeem-button {
+    border: 2px solid;
+    font-weight: 600;
+  }
 {%- endstyle -%}
 
 <div
@@ -23,6 +46,7 @@
   data-id="{{ section.id }}"
 >
   <div class="page-width">
+    <div class="joy-redeem-inline"></div>
     <div class="cart__footer isolate section-{{ section.id }}-padding">
       {%- if settings.show_cart_note -%}
         <cart-note class="cart__note field">
@@ -169,6 +193,38 @@
 </script>
 
 </div>
+
+{% unless customer %}
+<script>
+  (function () {
+    const TARGET_SELECTOR = '.Avada-Joy-Redeem-Inline__balance-value';
+    const TEXT = 'Points available after login';
+
+    function forceText(el) {
+      // Prevent loops: only write if it's not already exactly what we want
+      if (el.textContent.trim() !== TEXT) {
+        el.textContent = TEXT;
+      }
+    }
+
+    // 1) If it's already there, set it
+    const existing = document.querySelector(TARGET_SELECTOR);
+    if (existing) forceText(existing);
+
+    // 2) Watch for DOM changes and enforce text
+    const observer = new MutationObserver(() => {
+      const el = document.querySelector(TARGET_SELECTOR);
+      if (el) forceText(el);
+    });
+
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true,
+      characterData: true
+    });
+  })();
+</script>
+{% endunless %}
 
 {% schema %}
 {
