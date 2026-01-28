@@ -1,10 +1,9 @@
 {% comment %}
-  Simple FAQ Section (Single group)
+  Simple FAQ Section (single group)
   - No search
-  - No navigation
-  - Accordion toggles
-  - GA4 dataLayer event
-  - JSON-LD FAQPage schema
+  - No nav
+  - Same FAQ styling + JS behaviour as faq-groups-liquid.txt
+  - Includes JSON-LD + GA4 dataLayer push
 {% endcomment %}
 
 {%- style -%}
@@ -20,44 +19,35 @@
     }
   }
 
-  /* Match the original grouped FAQ styling (relevant bits only) */
-  .faq-section-{{ section.id }} {
-    max-width: 800px;
-    margin: auto;
-  }
-
-  .faq-item {
-    margin-bottom: 10px;
-  }
-
-  .faq-question-wrapper {
-    margin: 0;
-  }
-
+  /* ✅ EXACT relevant FAQ styles from faq-groups-liquid.txt (question + answer + lists) */
   .faq-question {
     width: 100%;
     text-align: left;
-    padding: 15px;
-    background: #f3f3f3;
+    padding: 1.5rem 0.5rem;
     border: none;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 4px;
-    color: #165c7d;
+    color: #121212;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
-
-    /* IMPORTANT: don't set font-size so it matches theme/original */
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
+    border-bottom: 1px solid #e5e7eb;
+    transition: background 0.2s ease;
+    background: transparent;
   }
 
   .faq-question[aria-expanded="true"] {
-    background: #e0e0e0;
-    border-radius: 4px 4px 0px 0px;
+    background: rgba(22,92,125,0.04);
+    border-bottom: none;
+  }
+
+  .faq-question:hover {
+    background: rgba(22,92,125,0.04);
+  }
+
+  .faq-question svg {
+    transition: transform 0.2s ease;
+    stroke: #165c7d;
   }
 
   .faq-chevron svg.hidden {
@@ -65,9 +55,12 @@
   }
 
   .faq-answer {
-    padding: 10px 15px;
-    background: #fafafa;
+    padding: 0.5rem;
     display: none;
+  }
+
+  .faq-answer p {
+    margin-bottom: 1em;
   }
 
   .faq-answer.hidden {
@@ -76,11 +69,11 @@
 
   .faq-answer.visible {
     display: block;
-    border-radius: 0px 0px 4px 4px;
   }
 
   .faq-answer ul {
     margin-left: 15px;
+    padding-top: 0 !important;
   }
 
   .faq-answer ul li {
@@ -92,11 +85,7 @@
   }
 {%- endstyle -%}
 
-<section
-  class="page-width section-{{ section.id }}-padding faq-section-{{ section.id }}"
-  data-faq-simple
-  data-section-id="{{ section.id }}"
->
+<section class="faq-section page-width section-{{ section.id }}-padding" data-faq-simple-section="{{ section.id }}">
   {% for block in section.blocks %}
     <div class="faq-item">
       <h3 class="faq-question-wrapper">
@@ -111,11 +100,11 @@
         >
           <span class="faq-question-text">{{ block.settings.title }}</span>
           <span class="faq-chevron" aria-hidden="true">
-            <!-- Down chevron (outlined) -->
+            <!-- Down chevron -->
             <svg class="chevron-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path d="M6 9l6 6 6-6"/>
             </svg>
-            <!-- Up chevron (outlined) -->
+            <!-- Up chevron -->
             <svg class="chevron-up hidden" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path d="M6 15l6-6 6 6"/>
             </svg>
@@ -137,7 +126,7 @@
   {%- assign faq_json = "" -%}
   {% for block in section.blocks %}
     {% assign question = block.settings.title | strip %}
-    {% assign answer = block.settings.answer | strip_html | strip_newlines | escape %}
+    {% assign answer = block.settings.answer | render | strip_html | strip_newlines | escape %}
     {% capture faq_json %}
       {{ faq_json }},
       {
@@ -152,81 +141,84 @@
   {% endfor %}
 
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{{ faq_json | remove_first: "," }}]
-    }
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{{ faq_json | remove_first: "," }}]
+  }
   </script>
 </section>
 
 <script>
   (function () {
-    function initFaqSimpleSection(root) {
+    function initSimpleFaq(root) {
       if (!root) return;
 
-      const buttons = root.querySelectorAll(".faq-question");
-      if (!buttons.length) return;
+      const faqQuestions = root.querySelectorAll(".faq-question");
+      if (!faqQuestions.length) return;
 
-      // Prevent double-binding if theme editor re-renders
-      buttons.forEach((button) => {
-        if (button.dataset.faqBound === "1") return;
-        button.dataset.faqBound = "1";
+      faqQuestions.forEach(button => {
+        // prevent double-binding (theme editor can re-render sections)
+        if (button.dataset.bound === "1") return;
+        button.dataset.bound = "1";
 
-        button.addEventListener("click", function () {
+        button.addEventListener("click", () => {
           const isExpanded = button.getAttribute("aria-expanded") === "true";
           const answerId = button.getAttribute("aria-controls");
           const answerEl = root.querySelector("#" + CSS.escape(answerId));
           if (!answerEl) return;
 
-          // Toggle aria state
-          button.setAttribute("aria-expanded", String(!isExpanded));
-
-          // Toggle answer visibility
+          // ✅ EXACT toggle logic from grouped FAQs
+          button.setAttribute("aria-expanded", !isExpanded);
           answerEl.classList.toggle("hidden", isExpanded);
           answerEl.classList.toggle("visible", !isExpanded);
 
-          // Toggle chevrons
+          // ✅ Chevron toggle (same behaviour)
           const chevronDown = button.querySelector(".chevron-down");
           const chevronUp = button.querySelector(".chevron-up");
-          if (chevronDown) chevronDown.classList.toggle("hidden", !isExpanded);
-          if (chevronUp) chevronUp.classList.toggle("hidden", isExpanded);
 
-          // GA4 (via GTM)
+          if (!isExpanded) {
+            chevronDown.classList.add("hidden");
+            chevronUp.classList.remove("hidden");
+          } else {
+            chevronDown.classList.remove("hidden");
+            chevronUp.classList.add("hidden");
+          }
+
+          // ✅ GA4 via GTM (same event as grouped FAQs)
           if (window.dataLayer) {
-            window.dataLayer.push({
+            dataLayer.push({
               event: "faq_click",
-              faqQuestion: button.dataset.faqQuestion || "",
-              faqGroup: button.dataset.faqGroup || "Simple FAQ"
+              faqQuestion: button.dataset.faqQuestion,
+              faqGroup: button.dataset.faqGroup
             });
           }
         });
       });
     }
 
-    function initAllFaqSimpleSections() {
-      document.querySelectorAll('[data-faq-simple]').forEach(initFaqSimpleSection);
+    function initAll() {
+      document.querySelectorAll('[data-faq-simple-section]').forEach(initSimpleFaq);
     }
 
-    // Initial load
     if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", initAllFaqSimpleSections);
+      document.addEventListener("DOMContentLoaded", initAll);
     } else {
-      initAllFaqSimpleSections();
+      initAll();
     }
 
-    // Theme editor: re-init when section is (re)loaded
+    // Theme editor support
     document.addEventListener("shopify:section:load", function (event) {
       if (!event || !event.target) return;
-      const root = event.target.querySelector('[data-faq-simple]');
-      initFaqSimpleSection(root);
+      const root = event.target.querySelector('[data-faq-simple-section]');
+      initSimpleFaq(root);
     });
   })();
 </script>
 
 {% schema %}
 {
-  "name": "Simple FAQ Section",
+  "name": "Simple FAQs",
   "settings": [
     {
       "type": "range",
@@ -264,7 +256,7 @@
           "type": "richtext",
           "id": "answer",
           "label": "Answer",
-          "default": "<p>Delivery typically takes 3–5 business days depending on your location.</p>"
+          "default": "<p>Delivery typically takes 3–5 business days depending on your location</p>"
         }
       ]
     }
