@@ -22,6 +22,9 @@
     max-width: 800px;
     margin: auto;
   }
+  .faq-section-title {
+    text-align: center;
+  }
   .faq-question {
     width: 100%;
     text-align: left;
@@ -88,7 +91,7 @@
 {%- endstyle -%}
 
 <section class="faq-section page-width section-{{ section.id }}-padding" data-faq-simple-section="{{ section.id }}">
-    <h2>{{ section.settings.title }}</h2>
+    <h2 class="faq-section-title">{{ section.settings.title }}</h2>
   {% for block in section.blocks %}
     <div class="faq-item">
       <h3 class="faq-question-wrapper">
