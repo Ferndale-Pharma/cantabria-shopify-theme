@@ -126,7 +126,7 @@
   {%- assign faq_json = "" -%}
   {% for block in section.blocks %}
     {% assign question = block.settings.title | strip %}
-    {% assign answer = block.settings.answer | render | strip_html | strip_newlines | escape %}
+    {% assign answer = block.settings.answer | strip_html | strip_newlines | escape %}
     {% capture faq_json %}
       {{ faq_json }},
       {
