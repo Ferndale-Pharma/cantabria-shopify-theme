@@ -17,6 +17,8 @@
   border: none;
   background: transparent;
   font-weight: bold;
+  font-family: inherit;
+  font-size: 1rem;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -28,6 +30,10 @@
 .faq-question:hover,
 .faq-question[aria-expanded="true"] {
   background: rgba(22,92,125,0.04);
+}
+
+.faq-question-wrapper {
+  margin: 0;
 }
 
 .faq-chevron svg {
@@ -42,10 +48,6 @@
 .faq-answer {
   padding: 0.5rem;
   display: none;
-}
-
-.faq-answer.visible {
-  display: block;
 }
 
 .faq-answer p {
@@ -63,6 +65,14 @@
 .faq-answer ul li:not(:last-of-type) {
   margin-bottom: 1rem;
 }
+
+.faq-answer.visible {
+  display: block;
+}
+
+.faq-answer.hidden {
+  display: none;
+}
 {%- endstyle -%}
 
 <section class="faq-section">
@@ -71,26 +81,28 @@
          data-question="{{ block.settings.title | escape }}"
          data-answer="{{ block.settings.answer | strip_html | escape }}">
 
-      <button
-        class="faq-question"
-        aria-expanded="false"
-        aria-controls="faq-answer-{{ block.id }}"
-        id="faq-question-{{ block.id }}"
-        data-faq-question="{{ block.settings.title | escape }}"
-        data-faq-group="Simple FAQ"
-      >
-        <span class="faq-question-text">{{ block.settings.title }}</span>
-        <span class="faq-chevron" aria-hidden="true">
-          <!-- Down chevron -->
-          <svg class="chevron-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-            <path d="M6 9l6 6 6-6"/>
-          </svg>
-          <!-- Up chevron -->
-          <svg class="chevron-up hidden" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-            <path d="M6 15l6-6 6 6"/>
-          </svg>
-        </span>
-      </button>
+      <h3 class="faq-question-wrapper">
+        <button
+          class="faq-question"
+          aria-expanded="false"
+          aria-controls="faq-answer-{{ block.id }}"
+          id="faq-question-{{ block.id }}"
+          data-faq-question="{{ block.settings.title | escape }}"
+          data-faq-group="Simple FAQ"
+        >
+          <span class="faq-question-text">{{ block.settings.title }}</span>
+          <span class="faq-chevron" aria-hidden="true">
+            <!-- Down chevron -->
+            <svg class="chevron-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M6 9l6 6 6-6"/>
+            </svg>
+            <!-- Up chevron -->
+            <svg class="chevron-up hidden" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M6 15l6-6 6 6"/>
+            </svg>
+          </span>
+        </button>
+      </h3>
 
       <div
         class="faq-answer hidden"
@@ -147,7 +159,6 @@
         chevronDown.classList.toggle("hidden", !isExpanded);
         chevronUp.classList.toggle("hidden", isExpanded);
 
-        // ✅ Push event to GTM for GA4 tracking
         if (window.dataLayer) {
           dataLayer.push({
             event: "faq_click",
@@ -162,7 +173,7 @@
 
 {% schema %}
 {
-  "name": "FAQ Section",
+  "name": "Simple FAQ Section",
   "settings": [],
   "blocks": [
     {
