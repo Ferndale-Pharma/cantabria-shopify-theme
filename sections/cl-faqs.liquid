@@ -1,10 +1,14 @@
 {% comment %}
-  Simple FAQs (single group)
-  - No search/nav
-  - Accordion toggle + GA4 datalayer
-  - JSON-LD FAQPage
-  - Uses color scheme wrappers like collapsible-content
+  Simple FAQs (styled like collapsible-content)
+  - Uses Dawn accordion component styles + collapsible-content styles
+  - Uses color_scheme + container_color_scheme for dynamic theming
+  - Uses <details>/<summary> so no JS needed for open/close
+  - Includes JSON-LD FAQPage schema
+  - Includes GA4/GTM dataLayer push on click
 {% endcomment %}
+
+{{ 'component-accordion.css' | asset_url | stylesheet_tag }}
+{{ 'collapsible-content.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -18,129 +22,56 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-
-  .faq-simple {
-    max-width: 800px;
-    margin: auto;
-  }
-  .faq-section-title {
-    text-align: center;
-  }
-  .faq-item {
-    margin-bottom: 10px;
-  }
-
-  .faq-question-wrapper {
-    margin: 0;
-  }
-
-  .faq-question {
-    width: 100%;
-    text-align: left;
-    padding: 15px;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 4px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-
-    /* Use theme scheme variables */
-    color: rgb(var(--color-foreground));
-    background: rgba(var(--color-foreground), 0.06);
-  }
-
-  .faq-question[aria-expanded="true"] {
-    background: rgba(var(--color-foreground), 0.10);
-    border-radius: 4px 4px 0px 0px;
-  }
-
-  .faq-question svg {
-    stroke: rgb(var(--color-foreground));
-    transition: transform 0.2s ease;
-  }
-
-  .faq-chevron svg.hidden {
-    display: none;
-  }
-
-  .faq-answer {
-    padding: 10px 15px;
-    display: none;
-
-    /* Use scheme variables */
-    background: rgba(var(--color-foreground), 0.03);
-    color: rgb(var(--color-foreground));
-  }
-
-  .faq-answer.hidden {
-    display: none;
-  }
-
-  .faq-answer.visible {
-    display: block;
-    border-radius: 0px 0px 4px 4px;
-  }
-
-  .faq-answer ul {
-    margin-left: 15px;
-  }
-
-  .faq-answer ul li:not(:last-of-type) {
-    margin-bottom: 1rem;
-  }
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="page-width section-{{ section.id }}-padding">
-    <div class="faq-simple content-container color-{{ section.settings.container_color_scheme }} gradient"
-         data-faq-simple-section="{{ section.id }}">
-        <h2 class="faq-section-title">{{ section.settings.title }}</h2>
-      {% for block in section.blocks %}
-        <div class="faq-item" {{ block.shopify_attributes }}>
-          <h3 class="faq-question-wrapper">
-            <button
-              class="faq-question"
-              aria-expanded="false"
-              aria-controls="faq-answer-{{ section.id }}-{{ block.id }}"
-              id="faq-question-{{ section.id }}-{{ block.id }}"
+    <h2 class="faq-section-title">{{ section.settings.title }}</h2>
+    <div
+      class="content-container color-{{ section.settings.container_color_scheme }} gradient"
+      data-faq-simple-accordion
+      data-section-id="{{ section.id }}"
+      role="region"
+      aria-label="FAQs"
+    >
+      {%- for block in section.blocks -%}
+        <div class="accordion" {{ block.shopify_attributes }}>
+          <details id="Details-{{ block.id }}-{{ section.id }}">
+            <summary
+              id="Summary-{{ block.id }}-{{ section.id }}"
               data-faq-question="{{ block.settings.title | escape }}"
               data-faq-group="Simple FAQ"
-              type="button"
             >
-              <span class="faq-question-text">{{ block.settings.title }}</span>
-              <span class="faq-chevron" aria-hidden="true">
-                <!-- Down chevron -->
-                <svg class="chevron-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path d="M6 9l6 6 6-6"/>
-                </svg>
-                <!-- Up chevron -->
-                <svg class="chevron-up hidden" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path d="M6 15l6-6 6 6"/>
-                </svg>
-              </span>
-            </button>
-          </h3>
+              {%- comment -%}
+                Optional: If your theme has the Dawn snippet, this renders the left icon (like your screenshot).
+                If you *don’t* have it, remove the next line and it will still work.
+              {%- endcomment -%}
+              {% render 'icon-accordion', icon: 'question_mark' %}
 
-          <div
-            class="faq-answer hidden"
-            id="faq-answer-{{ section.id }}-{{ block.id }}"
-            role="region"
-            aria-labelledby="faq-question-{{ section.id }}-{{ block.id }}"
-          >
-            {{ block.settings.answer }}
-          </div>
+              <h3 class="accordion__title inline-richtext h4">
+                {{ block.settings.title | escape }}
+              </h3>
+
+              {% render 'icon-caret' %}
+            </summary>
+
+            <div
+              class="accordion__content rte"
+              id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
+              role="region"
+              aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
+            >
+              {{ block.settings.answer }}
+            </div>
+          </details>
         </div>
-      {% endfor %}
+      {%- endfor -%}
 
       {%- assign faq_json = "" -%}
-      {% for block in section.blocks %}
-        {% assign question = block.settings.title | strip %}
-        {% assign answer = block.settings.answer | strip_html | strip_newlines | escape %}
-        {% capture faq_json %}
+      {%- for block in section.blocks -%}
+        {%- assign question = block.settings.title | strip -%}
+        {%- assign answer = block.settings.answer | strip_html | strip_newlines | escape -%}
+        {%- capture faq_json -%}
           {{ faq_json }},
           {
             "@type": "Question",
@@ -150,8 +81,8 @@
               "text": {{ answer | json }}
             }
           }
-        {% endcapture %}
-      {% endfor %}
+        {%- endcapture -%}
+      {%- endfor -%}
 
       <script type="application/ld+json">
       {
@@ -160,57 +91,36 @@
         "mainEntity": [{{ faq_json | remove_first: "," }}]
       }
       </script>
-
     </div>
   </div>
 </div>
 
 <script>
   (function () {
-    function initSimpleFaq(root) {
+    function init(root) {
       if (!root) return;
 
-      const faqQuestions = root.querySelectorAll(".faq-question");
-      if (!faqQuestions.length) return;
+      const summaries = root.querySelectorAll('summary[id^="Summary-"]');
+      if (!summaries.length) return;
 
-      faqQuestions.forEach(button => {
-        if (button.dataset.bound === "1") return;
-        button.dataset.bound = "1";
+      summaries.forEach((summary) => {
+        if (summary.dataset.bound === "1") return;
+        summary.dataset.bound = "1";
 
-        button.addEventListener("click", () => {
-          const isExpanded = button.getAttribute("aria-expanded") === "true";
-          const answerId = button.getAttribute("aria-controls");
-          const answerEl = root.querySelector("#" + CSS.escape(answerId));
-          if (!answerEl) return;
+        summary.addEventListener("click", function () {
+          if (!window.dataLayer) return;
 
-          button.setAttribute("aria-expanded", String(!isExpanded));
-          answerEl.classList.toggle("hidden", isExpanded);
-          answerEl.classList.toggle("visible", !isExpanded);
-
-          const chevronDown = button.querySelector(".chevron-down");
-          const chevronUp = button.querySelector(".chevron-up");
-
-          if (!isExpanded) {
-            chevronDown.classList.add("hidden");
-            chevronUp.classList.remove("hidden");
-          } else {
-            chevronDown.classList.remove("hidden");
-            chevronUp.classList.add("hidden");
-          }
-
-          if (window.dataLayer) {
-            window.dataLayer.push({
-              event: "faq_click",
-              faqQuestion: button.dataset.faqQuestion || "",
-              faqGroup: button.dataset.faqGroup || "Simple FAQ"
-            });
-          }
+          window.dataLayer.push({
+            event: "faq_click",
+            faqQuestion: summary.dataset.faqQuestion || "",
+            faqGroup: summary.dataset.faqGroup || "Simple FAQ"
+          });
         });
       });
     }
 
     function initAll() {
-      document.querySelectorAll('[data-faq-simple-section]').forEach(initSimpleFaq);
+      document.querySelectorAll("[data-faq-simple-accordion]").forEach(init);
     }
 
     if (document.readyState === "loading") {
@@ -221,8 +131,8 @@
 
     document.addEventListener("shopify:section:load", function (event) {
       if (!event || !event.target) return;
-      const root = event.target.querySelector('[data-faq-simple-section]');
-      initSimpleFaq(root);
+      const root = event.target.querySelector("[data-faq-simple-accordion]");
+      init(root);
     });
   })();
 </script>
@@ -245,7 +155,8 @@
     {
       "type": "color_scheme",
       "id": "container_color_scheme",
-      "label": "Container color scheme",
+      "label": "t:sections.collapsible_content.settings.container_color_scheme.label",
+      "info": "t:sections.collapsible_content.settings.container_color_scheme.info",
       "default": "scheme-2"
     },
     {
@@ -282,13 +193,13 @@
           "type": "text",
           "id": "title",
           "label": "Question",
-          "default": "How long does delivery take?"
+          "default": "References"
         },
         {
           "type": "richtext",
           "id": "answer",
           "label": "Answer",
-          "default": "<p>Delivery typically takes 3–5 business days depending on your location.</p>"
+          "default": "<p>Add your answer content here.</p>"
         }
       ]
     }
