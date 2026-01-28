@@ -22,6 +22,9 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+    .collapsible-content-wrapper {
+        max-width: 800px;
+    }
     .faq-section-title {
         text-align: center;
         margin-bottom: 32px;
@@ -35,7 +38,7 @@
     }
 {%- endstyle -%}
 <div class="collapsible-content">
-    <div class="color-{{ section.settings.color_scheme }} gradient collapsible-content-wrapper-narrow">
+    <div class="color-{{ section.settings.color_scheme }} gradient collapsible-content-wrapper">
     <div class="page-width section-{{ section.id }}-padding">
         <h2 class="faq-section-title">{{ section.settings.title }}</h2>
         <div
