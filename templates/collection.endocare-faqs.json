@@ -1,0 +1,182 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_p3nTcy": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_pjGXBk": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.hero_title.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_NqMN3b": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pjGXBk",
+        "text_NqMN3b"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "{{ collection.metafields.custom.hero_image_desktop.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "is_heading": false
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "cl_faqs_Bz96RC": {
+      "type": "cl-faqs",
+      "blocks": {
+        "faq_bXzGBQ": {
+          "type": "faq",
+          "settings": {
+            "title": "Which BIRETIX product is best for acne-prone skin?",
+            "answer": "<p>The best BIRETIX product depends on your type of acne-prone skin. BIRETIX Double Correction Serum is designed for adult acne-prone skin, helping to improve texture, regulate oil while maintaining hydration, and deliver visible results in as little as 14 days* when used as directed. BIRETIX Tri-Active Anti-Blemish Gel is suited to adolescent or persistent acne-prone skin, helping to visibly reduce blemishes by 76% and blackheads by 61% in 28 days*. (* Data on file.)</p>"
+          }
+        },
+        "faq_PKabiG": {
+          "type": "faq",
+          "settings": {
+            "title": "How should BIRETIX products be used in a skincare routine?",
+            "answer": "<p>There are specific regimes dependent on the type of acne that you have. For adult acne-prone skin, we have the BIRETIX Regime for Adult Acne-Prone Skin which includes: BIRETIX Cleanser, BIRETIX Double Correction Serum and BIRETIX Hydramat. For adolescent or persistent acne-prone skin, we have the BIRETIX Regime for Adolescent or Persistent Acne-Prone Skin which includes: BIRETIX Cleanser, BIRETIX Tri-Active Anti-Blemish Gel and BIRETIX Hydramat. Both routines can be upgraded to the Treat & Protect bundle which includes a daily SPF.<br/><br/></p>"
+          }
+        },
+        "faq_yqFkrQ": {
+          "type": "faq",
+          "settings": {
+            "title": "Can BIRETIX be used every day?",
+            "answer": "<p>Yes. BIRETIX products are designed for regular daily use as part of a consistent routine, depending on the specific product and your skin tolerance. Using the recommended regime daily helps support clearer-looking skin and more reliable results over time. If your skin becomes dry or sensitive, reduce frequency and support the skin barrier with an appropriate moisturiser such as BIRETIX Isorepair for deeper hydration and recovery.</p>"
+          }
+        },
+        "faq_QN8UtW": {
+          "type": "faq",
+          "settings": {
+            "title": "Can BIRETIX be used with sunscreen?",
+            "answer": "<p>Yes. Using sunscreen daily is recommended, especially when following an acne-focused routine. Both BIRETIX regimes can be upgraded to the Treat & Protect bundle, which includes HELIOCARE 360° Acnimat SPF50+. Daily SPF helps protect the skin from UV exposure and supports skin health while using targeted blemish products. Apply sunscreen as the final step of your morning routine and reapply as needed during sun exposure.</p>"
+          }
+        },
+        "faq_a9F7VK": {
+          "type": "faq",
+          "settings": {
+            "title": "How long does it take to see results with BIRETIX?",
+            "answer": "<p>Results depend on the product and consistent use. With BIRETIX Double Correction Serum, visible results can be seen in as little as 14 days*, including smoother texture, visibly reduced pore size, and improved oil regulation while maintaining hydration. Significant reduction in redness and blemishes has been observed after 28 days*. With BIRETIX Tri-Active Anti-Blemish Gel, daily use can lead to a smoother, more even complexion, with 61% fewer blackheads and up to 76% fewer blemishes in 28 days*. (* Data on file)</p>"
+          }
+        },
+        "faq_rMAYCd": {
+          "type": "faq",
+          "settings": {
+            "title": "Can BIRETIX help with post-acne marks?",
+            "answer": "<p>BIRETIX is designed to support acne-prone skin by improving skin clarity and texture over time, which can help the skin look more even as breakouts reduce. Post-acne marks can have different causes (such as redness or pigmentation), and results vary by individual. Consistent use of a suitable routine, alongside daily sunscreen, can help support overall skin tone and reduce the likelihood of marks becoming more noticeable over time.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_bXzGBQ",
+        "faq_PKabiG",
+        "faq_yqFkrQ",
+        "faq_QN8UtW",
+        "faq_a9F7VK",
+        "faq_rMAYCd"
+      ],
+      "name": "Simple FAQs",
+      "settings": {
+        "title": "FAQs",
+        "color_scheme": "",
+        "container_color_scheme": "scheme-1",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "newsletter_7xiQeE": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_w4rgVR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get 10% off your first order",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_ThWJ8E": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join the Cantabria Labs community for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
+          }
+        },
+        "email_form_DUzXUh": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_w4rgVR",
+        "paragraph_ThWJ8E",
+        "email_form_DUzXUh"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "image_banner_p3nTcy",
+    "banner",
+    "product-grid",
+    "cl_faqs_Bz96RC",
+    "newsletter_7xiQeE"
+  ]
+}
