@@ -585,6 +585,69 @@
         "container_id": ""
       }
     },
+    "cl_faqs_KkVXcB": {
+      "type": "cl-faqs",
+      "blocks": {
+        "faq_qHbfff": {
+          "type": "faq",
+          "settings": {
+            "title": "What is broad-spectrum sunscreen?",
+            "answer": "<p>Broad-spectrum sunscreen refers to protection against both UVA and UVB radiation. UVB rays are mainly responsible for sunburn, while UVA rays penetrate deeper into the skin and contribute to long-term effects such as premature ageing and pigmentation. Using a broad-spectrum sunscreen helps reduce cumulative sun damage and supports healthier skin when used consistently as part of a daily routine.</p>"
+          }
+        },
+        "faq_84ntDm": {
+          "type": "faq",
+          "settings": {
+            "title": "Why is daily sun protection important?",
+            "answer": "<p>Daily sun protection is important because the skin is exposed to ultraviolet and visible light not only during sunny weather, but also on those more cloudy days and through windows. This means that daily exposure is possible while driving or sitting indoors. Over time, repeated exposure can contribute to skin ageing, pigmentation and loss of elasticity. Applying sunscreen daily helps reduce the cumulative effects of daylight exposure and supports long-term skin health.</p>"
+          }
+        },
+        "faq_hqWd3K": {
+          "type": "faq",
+          "settings": {
+            "title": "How does sun exposure damage the skin?",
+            "answer": "<p>Sun exposure leads to the formation of free radicals in the skin, causing oxidative stress and cellular damage. This process can affect skin DNA, weaken the skin barrier and accelerate visible signs of ageing such as fine lines, uneven tone and reduced firmness. The effects are cumulative, meaning damage builds up over time, even with regular low-level exposure to sunlight.</p>"
+          }
+        },
+        "faq_cx7QgJ": {
+          "type": "faq",
+          "settings": {
+            "title": "Does sun damage occur even on cloudy days?",
+            "answer": "<p>Yes. A significant proportion of ultraviolet radiation can still penetrate through cloud cover, meaning the skin remains exposed even on overcast days. UVA rays in particular are present year-round and can contribute to long-term skin damage. This is why daily sun protection is recommended regardless of weather conditions.</p>"
+          }
+        },
+        "faq_JmrXVc": {
+          "type": "faq",
+          "settings": {
+            "title": "How can I protect my skin from daylight exposure year-round?",
+            "answer": "<p>Protecting your skin from daylight exposure involves using a broad-spectrum sunscreen daily, alongside practical measures such as seeking shade and wearing protective clothing when appropriate. Sunscreen should be applied as part of your morning routine and reapplied during prolonged exposure. Consistent protection throughout the year helps reduce cumulative sun damage and supports healthier-looking skin over time.</p>"
+          }
+        },
+        "faq_wyieQQ": {
+          "type": "faq",
+          "settings": {
+            "title": "Is sunscreen necessary indoors or in winter?",
+            "answer": "<p>Sunscreen should still be used when indoors or during winter, as UVA rays are present throughout the year and can penetrate through windows. Although UVB exposure is lower in winter, cumulative UVA exposure can still contribute to skin ageing. Incorporating sunscreen into your daily routine helps provide consistent protection, regardless of season or environment.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_qHbfff",
+        "faq_84ntDm",
+        "faq_hqWd3K",
+        "faq_cx7QgJ",
+        "faq_JmrXVc",
+        "faq_wyieQQ"
+      ],
+      "name": "Simple FAQs",
+      "settings": {
+        "title": "FAQs",
+        "color_scheme": "",
+        "container_color_scheme": "scheme-1",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "multicolumn_VDCjYH": {
       "type": "multicolumn",
       "blocks": {
@@ -688,6 +751,7 @@
     "image_banner_aH3MYk",
     "rich_text_H7wnr3",
     "multicolumn_GgiLEY",
+    "cl_faqs_KkVXcB",
     "multicolumn_VDCjYH",
     "newsletter_ULqMbn"
   ]

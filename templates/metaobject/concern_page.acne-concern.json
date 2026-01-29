@@ -509,6 +509,69 @@
         "container_id": ""
       }
     },
+    "cl_faqs_D69BwB": {
+      "type": "cl-faqs",
+      "blocks": {
+        "faq_PLkyxe": {
+          "type": "faq",
+          "settings": {
+            "title": "What causes acne-prone skin?",
+            "answer": "<p>Acne-prone skin develops when pores become blocked by excess oil, dead skin cells and impurities. This can create an environment where blemishes are more likely to form. Factors such as hormonal changes, genetics, stress and certain skincare products can all contribute. Acne-prone skin can affect adolescents and adults and may vary in severity over time.</p>"
+          }
+        },
+        "faq_z8qPp4": {
+          "type": "faq",
+          "settings": {
+            "title": "How should I build a skincare routine for acne-prone skin?",
+            "answer": "<p>A skincare routine for acne-prone skin should include gentle cleansing, targeted treatment and appropriate hydration. This can be tailored using structured regimes, such as the BIRETIX Regime for Adult Acne-Prone Skin or the BIRETIX Regime for Adolescent or Persistent Acne-Prone Skin, depending on individual needs. Using products in the correct order and maintaining consistency helps support clearer-looking skin while protecting the skin barrier over time.</p>"
+          }
+        },
+        "faq_j6FiLN": {
+          "type": "faq",
+          "settings": {
+            "title": "Can using the wrong skincare products make acne worse?",
+            "answer": "<p>Yes. Using skincare products that are too harsh, overly rich or not suited to acne-prone skin can disrupt the skin barrier and increase irritation or breakouts. Products that clog pores or strip the skin of moisture may cause the skin to produce more oil in response. Choosing products formulated specifically for acne-prone skin can help support balance and improve tolerance.</p>"
+          }
+        },
+        "faq_6UCPcL": {
+          "type": "faq",
+          "settings": {
+            "title": "Should acne-prone skin still use sunscreen?",
+            "answer": "<p>Yes. Daily sunscreen use is especially important for acne-prone skin, as active ingredients used to treat blemishes can increase sensitivity to UV light. For this reason, it is important to protect the skin from sunlight by wearing high-level, broad-spectrum sun protection every day. Consistent sunscreen use helps protect the skin barrier, supports skin recovery, and reduces the risk of post-blemish marks becoming more noticeable.</p>"
+          }
+        },
+        "faq_CzH7Yi": {
+          "type": "faq",
+          "settings": {
+            "title": "Can diet or lifestyle affect acne-prone skin?",
+            "answer": "<p>Diet and lifestyle factors may influence acne-prone skin in some individuals. Stress, lack of sleep and certain dietary habits can affect hormone levels and oil production, which may impact breakouts. While results vary from person to person, maintaining a balanced lifestyle alongside a consistent skincare routine can help support overall skin health and reduce flare-ups.</p>"
+          }
+        },
+        "faq_LGkirr": {
+          "type": "faq",
+          "settings": {
+            "title": "How long does it take to see improvements in acne-prone skin?",
+            "answer": "<p>Results vary depending on skin type, severity and consistency of care. With targeted routines, visible improvements can be seen within a few weeks. In clinical studies of BIRETIX, improvements such as smoother texture, improved oil balance and visible reduction in blemishes have been observed in as little as 14 days*, with more significant reductions in redness, blackheads and blemishes reported after 28 days* when routines are followed consistently. (* Data on file.)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_PLkyxe",
+        "faq_z8qPp4",
+        "faq_j6FiLN",
+        "faq_6UCPcL",
+        "faq_CzH7Yi",
+        "faq_LGkirr"
+      ],
+      "name": "Simple FAQs",
+      "settings": {
+        "title": "FAQs",
+        "color_scheme": "",
+        "container_color_scheme": "scheme-1",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "multicolumn_VDCjYH": {
       "type": "multicolumn",
       "blocks": {
@@ -643,6 +706,7 @@
     "cl_slideshow_NJ8dcF",
     "cl_featured_collection_bPWHQJ",
     "multicolumn_GgiLEY",
+    "cl_faqs_D69BwB",
     "multicolumn_VDCjYH",
     "collapsible_content_DBNWqG",
     "newsletter_hhQfYj"

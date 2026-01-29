@@ -218,7 +218,7 @@
         "heading_JJm8er": {
           "type": "heading",
           "settings": {
-            "heading": "Technologies",
+            "heading": "Technologies for effective anti-ageing skincare",
             "heading_size": "h2"
           }
         }
@@ -458,6 +458,69 @@
         "container_id": ""
       }
     },
+    "cl_faqs_infdk7": {
+      "type": "cl-faqs",
+      "blocks": {
+        "faq_nWkkUe": {
+          "type": "faq",
+          "settings": {
+            "title": "What causes skin ageing?",
+            "answer": "<p>Skin ageing is influenced by a combination of intrinsic factors, such as genetics and natural cell turnover, and extrinsic factors, including sun exposure, environmental stressors and lifestyle. Over time, these factors can lead to reduced collagen and elastin production, slower skin regeneration and weakened barrier function. Together, this contributes to visible signs such as fine lines, uneven texture and loss of firmness.</p>"
+          }
+        },
+        "faq_MxHpzw": {
+          "type": "faq",
+          "settings": {
+            "title": "Can skincare help slow visible signs of ageing?",
+            "answer": "<p>Skincare can help support the skin’s natural processes and reduce the visible signs associated with ageing. Using products that promote skin renewal, hydration and barrier support may help improve skin texture, tone and resilience over time. While skincare cannot stop the ageing process, consistent use as part of a daily routine can help maintain healthier-looking skin for longer.</p>"
+          }
+        },
+        "faq_8NEe3e": {
+          "type": "faq",
+          "settings": {
+            "title": "How should I build a skincare routine for ageing skin?",
+            "answer": "<p>A skincare routine for ageing skin should focus on supporting the skin barrier, improving tone and encouraging targeted renewal. Gentle cleansing helps prepare the skin for active treatments, while targeted products can support firmness, texture and overall skin quality. Hydration and barrier-strengthening steps are essential for maintaining comfort and resilience. Consistency is key, and routines should be tailored to individual skin type, sensitivity and lifestyle for long-term results.</p>"
+          }
+        },
+        "faq_HRbGme": {
+          "type": "faq",
+          "settings": {
+            "title": "At what age should I start using anti-ageing skincare?",
+            "answer": "<p>There is no specific age to start using anti-ageing skincare, as skin changes vary between individuals. Some people begin to notice early signs such as dullness or fine lines in their late twenties or thirties, while others may start later. Choosing skincare based on skin condition rather than age helps ensure appropriate support at every stage.</p>"
+          }
+        },
+        "faq_hFWbDH": {
+          "type": "faq",
+          "settings": {
+            "title": "Can sun exposure accelerate skin ageing?",
+            "answer": "<p>Yes. Sun exposure is one of the main external factors that accelerates skin ageing. Ultraviolet radiation contributes to collagen breakdown, pigmentation and loss of elasticity over time. Daily sun protection helps reduce cumulative damage and is an essential part of maintaining healthy, youthful-looking skin. High-level, full-spectrum sunscreens such as HELIOCARE 360° provide very high protection against UVA, UVB, visible light and infrared-A radiation, supporting long-term skin health and resilience.</p>"
+          }
+        },
+        "faq_c7XJqW": {
+          "type": "faq",
+          "settings": {
+            "title": "Is it ever too late to start an anti-ageing routine?",
+            "answer": "<p>No. It is never too late to start an anti-ageing skincare routine. While early prevention can be beneficial, targeted skincare can still help improve skin texture, hydration and overall appearance at any age. Consistent use of suitable products, alongside daily sun protection, helps support skin quality and resilience over time.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_nWkkUe",
+        "faq_MxHpzw",
+        "faq_8NEe3e",
+        "faq_HRbGme",
+        "faq_hFWbDH",
+        "faq_c7XJqW"
+      ],
+      "name": "Simple FAQs",
+      "settings": {
+        "title": "FAQs",
+        "color_scheme": "",
+        "container_color_scheme": "scheme-1",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "newsletter_8ptbGw": {
       "type": "newsletter",
       "blocks": {
@@ -502,6 +565,7 @@
     "cl_featured_collection_QGTmJM",
     "multicolumn_GgiLEY",
     "multicolumn_VDCjYH",
+    "cl_faqs_infdk7",
     "newsletter_8ptbGw"
   ]
 }

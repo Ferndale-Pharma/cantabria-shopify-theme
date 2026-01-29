@@ -68,34 +68,10 @@
         "show_text_below": true,
         "is_heading": false
       }
-    },
-    "cl_faqs_UgmMV7": {
-      "type": "cl-faqs",
-      "blocks": {
-        "faq_eJAEAW": {
-          "type": "faq",
-          "settings": {
-            "title": "How long does it take to see visible improvements with ENDOCARE?",
-            "answer": "<p>Add your answer content here.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "faq_eJAEAW"
-      ],
-      "name": "Simple FAQs",
-      "settings": {
-        "title": "FAQs",
-        "color_scheme": "scheme-2",
-        "container_color_scheme": "",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
     }
   },
   "order": [
     "main",
-    "image_banner_rcjzJz",
-    "cl_faqs_UgmMV7"
+    "image_banner_rcjzJz"
   ]
 }

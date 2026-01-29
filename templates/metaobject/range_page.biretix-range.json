@@ -702,6 +702,69 @@
         "padding_bottom": 64
       }
     },
+    "cl_faqs_WFmpGD": {
+      "type": "cl-faqs",
+      "blocks": {
+        "faq_ijGmAy": {
+          "type": "faq",
+          "settings": {
+            "title": "How does BIRETIX help with acne-prone skin?",
+            "answer": "<p>BIRETIX is specifically developed to support acne-prone skin by helping to regulate excess oil, reduce the appearance of blemishes and support skin renewal. Its formulations are designed to work with the skin’s natural processes, helping to improve skin texture and clarity over time. Used consistently as part of a skincare routine, BIRETIX helps address the underlying factors that contribute to acne-prone skin.</p>"
+          }
+        },
+        "faq_NV6Dty": {
+          "type": "faq",
+          "settings": {
+            "title": "Is BIRETIX suitable for sensitive or acne-prone skin?",
+            "answer": "<p>Yes. BIRETIX is formulated specifically for acne-prone skin and skin that may also be sensitive. The range is designed to help manage breakouts while supporting the skin barrier. As with any skincare product, individuals with sensitive skin are advised to introduce new products gradually and follow usage guidance to ensure good tolerance.</p>"
+          }
+        },
+        "faq_hYCBBG": {
+          "type": "faq",
+          "settings": {
+            "title": "Can BIRETIX be used alongside other acne treatments?",
+            "answer": "<p>BIRETIX can often be incorporated into a broader skincare routine that may include other acne-focused treatments. However, when combining products, it is important to avoid overloading the skin, which may increase the risk of irritation. Introducing products gradually and following professional or dermatologist advice can help ensure that the routine remains effective and well tolerated.</p>"
+          }
+        },
+        "faq_CT4mz7": {
+          "type": "faq",
+          "settings": {
+            "title": "Does BIRETIX help prevent future breakouts?",
+            "answer": "<p>BIRETIX is designed to support ongoing care for acne-prone skin by helping to regulate oil production and support healthy skin renewal. When used consistently, this can help reduce the conditions that contribute to future breakouts. Maintaining a regular skincare routine tailored to acne-prone skin is an important part of managing blemishes over the long term.</p>"
+          }
+        },
+        "faq_EdKQAH": {
+          "type": "faq",
+          "settings": {
+            "title": "Can BIRETIX be used daily?",
+            "answer": "<p>Yes. BIRETIX products are generally suitable for regular use as part of a daily skincare routine, depending on the specific product and skin tolerance. Using products consistently helps support clearer-looking skin over time. It is important to follow the usage instructions provided and adjust frequency if skin sensitivity occurs.</p>"
+          }
+        },
+        "faq_pjVHRa": {
+          "type": "faq",
+          "settings": {
+            "title": "At what age can BIRETIX be used?",
+            "answer": "<p>BIRETIX is commonly used by teenagers and adults who experience acne-prone skin. Acne can affect different age groups, and skincare routines should be adapted accordingly. When introducing active skincare products, especially for younger users, it is advisable to follow product guidance carefully and seek professional advice if needed.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_ijGmAy",
+        "faq_NV6Dty",
+        "faq_hYCBBG",
+        "faq_CT4mz7",
+        "faq_EdKQAH",
+        "faq_pjVHRa"
+      ],
+      "name": "Simple FAQs",
+      "settings": {
+        "title": "FAQs",
+        "color_scheme": "scheme-3",
+        "container_color_scheme": "scheme-3",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "collapsible_content_dgkKCE": {
       "type": "collapsible-content",
       "blocks": {
@@ -781,6 +844,7 @@
     "image_with_text_html_DGWMyN",
     "multicolumn_Q9V4Kp",
     "cl_featured_collection_gPpbQz",
+    "cl_faqs_WFmpGD",
     "collapsible_content_dgkKCE",
     "newsletter_ptPkgb"
   ]

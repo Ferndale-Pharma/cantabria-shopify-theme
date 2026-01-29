@@ -507,6 +507,69 @@
         "padding_bottom": 64
       }
     },
+    "cl_faqs_MJedkb": {
+      "type": "cl-faqs",
+      "blocks": {
+        "faq_EcXpHE": {
+          "type": "faq",
+          "settings": {
+            "title": "How does NEORETIN help reduce hyperpigmentation?",
+            "answer": "<p>NEORETIN is designed to help reduce the appearance of hyperpigmentation by supporting skin renewal and improving overall skin tone. Its formulations help target uneven pigmentation while encouraging a more even-looking complexion over time. Used consistently as part of a skincare routine, NEORETIN helps address pigmentation concerns caused by factors such as sun exposure, ageing and post-inflammatory changes.</p>"
+          }
+        },
+        "faq_heYFPe": {
+          "type": "faq",
+          "settings": {
+            "title": "What types of pigmentation does NEORETIN target?",
+            "answer": "<p>NEORETIN is formulated to help address different types of hyperpigmentation, including dark spots, uneven skin tone and pigmentation associated with ageing or previous skin inflammation. Hyperpigmentation can have multiple causes, and results may vary depending on skin type and the nature of the pigmentation. Consistent use alongside appropriate sun protection is important when managing pigmentation concerns.</p>"
+          }
+        },
+        "faq_dGfMhx": {
+          "type": "faq",
+          "settings": {
+            "title": "How long does NEORETIN take to work?",
+            "answer": "<p>The time it takes to see results with NEORETIN can vary depending on skin type, severity of pigmentation and consistency of use. Some people may notice gradual improvements within a few weeks, while more visible changes may take longer. Regular use as part of a consistent routine helps support more even-looking skin over time.</p>"
+          }
+        },
+        "faq_Y4RKQD": {
+          "type": "faq",
+          "settings": {
+            "title": "Can NEORETIN be used on sensitive skin?",
+            "answer": "<p>NEORETIN offers formulations designed to suit different skin types, including skin that may be more sensitive. When introducing products that support skin renewal, it is important to start gradually and follow usage instructions carefully. Supporting the skin barrier with appropriate hydration and using sun protection can help improve tolerance and comfort during use.</p>"
+          }
+        },
+        "faq_jjJUh9": {
+          "type": "faq",
+          "settings": {
+            "title": "Can NEORETIN be used with sunscreen?",
+            "answer": "<p>Yes. Daily sunscreen use is recommended when using pigmentation-focused skincare, as products that support renewal can increase sensitivity to sunlight. Broad-spectrum protection is therefore an essential part of the routine. Using a sunscreen such as HELIOCARE 360° Pigment Solution Fluid SPF50+ provides very high protection against UVA, UVB, visible light and infrared-A, helping to prevent dark spots and uneven tone from worsening. Applying sunscreen every morning supports treatment results and reduces the risk of pigmentation becoming darker or returning.</p>"
+          }
+        },
+        "faq_3TGJbJ": {
+          "type": "faq",
+          "settings": {
+            "title": "Is NEORETIN suitable for daily use?",
+            "answer": "<p>NEORETIN products are generally suitable for regular use, depending on the specific formulation and individual skin tolerance. Using products consistently helps support gradual improvements in skin tone and texture. As with any targeted skincare, frequency of use should follow product guidance and be adjusted if signs of irritation occur.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_EcXpHE",
+        "faq_heYFPe",
+        "faq_dGfMhx",
+        "faq_Y4RKQD",
+        "faq_jjJUh9",
+        "faq_3TGJbJ"
+      ],
+      "name": "Simple FAQs",
+      "settings": {
+        "title": "FAQs",
+        "color_scheme": "scheme-4",
+        "container_color_scheme": "scheme-4",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "newsletter_YB9rKr": {
       "type": "newsletter",
       "blocks": {
@@ -552,6 +615,7 @@
     "rich_text_xhqwCq",
     "cl_slideshow_qNxJrV",
     "cl_featured_collection_PFMcJn",
+    "cl_faqs_MJedkb",
     "newsletter_YB9rKr"
   ]
 }

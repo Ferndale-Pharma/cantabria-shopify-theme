@@ -75,6 +75,69 @@
         "padding_bottom": 16
       }
     },
+    "cl_faqs_3pH9Ey": {
+      "type": "cl-faqs",
+      "blocks": {
+        "faq_8d3t6p": {
+          "type": "faq",
+          "settings": {
+            "title": "How long does HELIOCARE sunscreen protection last?",
+            "answer": "<p>HELIOCARE sunscreens provide effective protection when applied correctly before sun exposure. As with all sunscreens, protection gradually decreases due to factors such as sweating, swimming, and friction from clothing. To maintain optimal protection, sunscreen should be reapplied regularly throughout the day, especially after swimming, excessive sweating, or towel drying, in line with usage recommendations.</p>"
+          }
+        },
+        "faq_CbUYHR": {
+          "type": "faq",
+          "settings": {
+            "title": "How often should sunscreen be reapplied during the day?",
+            "answer": "<p>Sunscreen should generally be reapplied every two hours during sun exposure, or more frequently if swimming, sweating, or towel drying. Regular reapplication is essential to maintain consistent protection, as no sunscreen provides all-day coverage from a single application. Using the correct amount and reapplying as advised helps ensure continued defence against the harmful effects of UV radiation.</p>"
+          }
+        },
+        "faq_dpjtaV": {
+          "type": "faq",
+          "settings": {
+            "title": "Which HELIOCARE sunscreen is right for my skin type?",
+            "answer": "<p>HELIOCARE offers a range of sunscreen formulations designed to suit different skin types and preferences, including options for oily, sensitive, acne-prone and ageing skin. When choosing a product, consider your skin type, texture preference, and daily activities. Selecting a sunscreen that feels comfortable on your skin encourages regular use, which is key to maintaining effective daily photoprotection. <a href=\"/pages/sunscreen-quiz\" title=\"HELIOCARE 360° Skin Quiz\">Complete this skin quiz to find your perfect match</a>.</p>"
+          }
+        },
+        "faq_wDrnCw": {
+          "type": "faq",
+          "settings": {
+            "title": "Can HELIOCARE be used every day?",
+            "answer": "<p>Yes. HELIOCARE sunscreens are formulated for daily use and are suitable for incorporation into your everyday skincare routine. Daily application helps protect the skin from cumulative sun exposure, including incidental daylight exposure during routine activities. Consistent use supports long-term skin health and helps reduce the visible effects associated with ongoing UV exposure.</p>"
+          }
+        },
+        "faq_VcaxbA": {
+          "type": "faq",
+          "settings": {
+            "title": "Can HELIOCARE be used under makeup?",
+            "answer": "<p>HELIOCARE sunscreens are designed to integrate easily into daily skincare routines and can be used under makeup. For best results, sunscreen should be applied as the final step of your skincare routine and allowed to absorb fully before applying makeup. This helps maintain effective sun protection while ensuring a smooth base for cosmetic products.</p>"
+          }
+        },
+        "faq_LTAapV": {
+          "type": "faq",
+          "settings": {
+            "title": "Does HELIOCARE protect against UVA and UVB rays?",
+            "answer": "<p>Yes. HELIOCARE sunscreens provide broad-spectrum protection, meaning they help protect the skin from both UVA and UVB radiation. UVB rays are primarily associated with sunburn, while UVA rays contribute to longer-term skin damage such as photoageing. Broad-spectrum protection is an essential part of daily sun care and helps support overall skin health.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_8d3t6p",
+        "faq_CbUYHR",
+        "faq_dpjtaV",
+        "faq_wDrnCw",
+        "faq_VcaxbA",
+        "faq_LTAapV"
+      ],
+      "name": "Simple FAQs",
+      "settings": {
+        "title": "FAQs",
+        "color_scheme": "",
+        "container_color_scheme": "scheme-1",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "image_banner_TVMTyY": {
       "type": "image-banner",
       "blocks": {
@@ -166,6 +229,7 @@
     "image_banner_p3nTcy",
     "banner",
     "product-grid",
+    "cl_faqs_3pH9Ey",
     "image_banner_TVMTyY",
     "newsletter_7xiQeE"
   ]

@@ -675,6 +675,69 @@
         "padding_bottom": 64
       }
     },
+    "cl_faqs_EHbYDL": {
+      "type": "cl-faqs",
+      "blocks": {
+        "faq_dt4jT7": {
+          "type": "faq",
+          "settings": {
+            "title": "How does ENDOCARE support skin regeneration?",
+            "answer": "<p>ENDOCARE is designed to support the skin’s natural regeneration processes, which are essential for maintaining healthy, resilient skin. Its formulations help promote skin renewal and recovery, supporting improvements in skin texture and overall appearance over time. By working in harmony with the skin’s biology, ENDOCARE helps address visible signs associated with skin ageing and compromised skin function.</p>"
+          }
+        },
+        "faq_ArBiWC": {
+          "type": "faq",
+          "settings": {
+            "title": "What skin concerns is ENDOCARE designed for?",
+            "answer": "<p>ENDOCARE is designed for skin concerns linked to barrier repair, ageing, loss of firmness, uneven texture & tone and reduced skin radiance. It is also suitable for skin that needs additional support following aesthetic or dermatological procedures. The range focuses on improving skin quality and resilience, helping skin appear smoother, more even and healthier with continued use.</p>"
+          }
+        },
+        "faq_39RaCK": {
+          "type": "faq",
+          "settings": {
+            "title": "At what age should I start using ENDOCARE?",
+            "answer": "<p>There is no specific age to start using ENDOCARE, as skin ageing and regeneration needs vary between individuals. ENDOCARE may be suitable for adults who begin to notice early signs of ageing, as well as those with more established concerns. Choosing products based on skin condition rather than age helps ensure the most appropriate support for long-term skin health.</p>"
+          }
+        },
+        "faq_mhdgCn": {
+          "type": "faq",
+          "settings": {
+            "title": "Can ENDOCARE be used on sensitive skin?",
+            "answer": "<p>ENDOCARE offers formulations designed to suit a range of skin types, including skin that may be more sensitive. When introducing products that support skin renewal, it is recommended to start gradually and follow usage instructions carefully. Supporting the skin barrier with appropriate hydration and sun protection can help improve comfort and tolerance during use.</p>"
+          }
+        },
+        "faq_GbRf4w": {
+          "type": "faq",
+          "settings": {
+            "title": "How long does it take to see results with ENDOCARE?",
+            "answer": "<p>The time needed to see results with ENDOCARE can vary depending on skin type, condition and consistency of use. Some people may notice improvements in skin texture and appearance within a few weeks, while more visible changes may take longer. Regular use as part of a consistent routine helps support gradual, long-term improvements.</p>"
+          }
+        },
+        "faq_FGxnfw": {
+          "type": "faq",
+          "settings": {
+            "title": "Can ENDOCARE be used as part of a daily skincare routine?",
+            "answer": "<p>Yes. ENDOCARE products are generally suitable for regular daily use, depending on the specific formulation and individual skin tolerance. Incorporating ENDOCARE into a daily skincare routine helps support ongoing skin renewal and maintenance. As with any targeted skincare, it is important to follow product guidance and adjust use if signs of sensitivity occur.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_dt4jT7",
+        "faq_ArBiWC",
+        "faq_39RaCK",
+        "faq_mhdgCn",
+        "faq_GbRf4w",
+        "faq_FGxnfw"
+      ],
+      "name": "Simple FAQs",
+      "settings": {
+        "title": "FAQs",
+        "color_scheme": "scheme-5",
+        "container_color_scheme": "scheme-5",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "collapsible_key_ingredients_9erVrD": {
       "type": "collapsible-key-ingredients",
       "blocks": {
@@ -702,6 +765,20 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "custom_liquid_eUyJJt": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        "p {font-size: 0.8em;}"
+      ],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<p><sup>1</sup> Data on file. User test under dermatological control and efficacy assessment, 30 subjects (25-45 years of age), application to face and neck twice daily for 28 days. AlYeDerm Clinic & Research; Badajoz, 2023.</p>\n<p><sup>2</sup> Evaluation of product subjective efficacy. Subjective evaluation: 20 patients (25-60 years old) ; 28 days, 1-2 times daily. Madrid: Zurko Research S.L; 2018. Data on file​.</p>\n<p><sup>3</sup> Truchuelo MT, Jiminez N, Miguel- Gomez L, Hermosa A, Sanchez-Neila N, Cuevas J Dermatology Research & Practice. 10 women with mild-moderate skin photoaging on hands formulation containing, RetinSphere Technology twice daily for 3 months​.</p>\n</div>",
+        "color_scheme": "",
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -755,7 +832,9 @@
     "rich_text_jBDxCK",
     "cl_slideshow_gDX4yN",
     "cl_featured_collection_bMdr3z",
+    "cl_faqs_EHbYDL",
     "collapsible_key_ingredients_9erVrD",
+    "custom_liquid_eUyJJt",
     "newsletter_AwFCKb"
   ]
 }
