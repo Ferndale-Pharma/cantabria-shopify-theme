@@ -410,31 +410,31 @@
         "column_9AaxEe": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/hyperpigmentation.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/FERN-IMG-00179_CantabriaLabs.co.uk_BlueLight_BlogImage_1080x810_Jan26_1.jpg",
+            "title": "Does blue light make hyperpigmentation worse in winter?",
+            "text": "<p>Learn how blue light exposure in winter can continue to trigger hyperpigmentation and what you can do to protect your skin all year round.<br/></p>",
+            "link_label": "Read article",
+            "link": "shopify://blogs/skincare-guides/does-blue-light-make-hyperpigmentation-worse-in-winter"
           }
         },
         "column_mLcXKm": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/person.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/hyperpigmentation-blog.jpg",
+            "title": "What causes hyperpigmentation & how to treat it effectively",
+            "text": "<p>Explore the science behind why hyperpigmentation develops and how targeted actives like retinol, azelaic acid and antioxidants can improve tone and fade dark patches.</p>",
+            "link_label": "Read article",
+            "link": "shopify://blogs/skincare-guides/what-causes-hyperpigmentation-how-to-treat-it-effectively"
           }
         },
         "column_8TjmjY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Image_35f11bfe-72c2-4969-b609-55b3634f3279.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": "shopify://blogs/blog"
+            "image": "shopify://shop_images/CL.CO.UK_-_BLOG_BANNER_-_CL-WEB-0121_715bacbd-23d4-4990-aff9-b0aa9153c906.webp",
+            "title": "Daily Sunscreen Spotlight: HELIOCARE 360° Pigment Solution Fluid",
+            "text": "<p>Discover how HELIOCARE 360° Pigment Solution Fluid delivers high-level SPF50+ full-spectrum protection while helping prevent and correct hyperpigmentation with an advanced depigmenting system and subtle tint for a more even complexion. <br/><br/></p>",
+            "link_label": "Read article",
+            "link": "shopify://blogs/skincare-guides/daily-sunscreen-spotlight-heliocare-360-pigment-solution-fluid"
           }
         }
       },
@@ -443,18 +443,17 @@
         "column_mLcXKm",
         "column_8TjmjY"
       ],
-      "disabled": true,
       "settings": {
-        "title": "Testimonials",
+        "title": "Related articles",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "center",
+        "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
