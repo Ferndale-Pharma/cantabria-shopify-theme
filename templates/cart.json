@@ -38,6 +38,23 @@
         "padding_bottom": 36
       }
     },
+    "17703956683bf87f3a": {
+      "type": "apps",
+      "blocks": {
+        "monk_embedded_cart_page_freegift_manual_Yf8dBC": {
+          "type": "shopify://apps/monk/blocks/embedded-cart-page-freegift-manual/e949adb6-87ca-4b97-8f31-0e51bf507f2d",
+          "settings": {
+            "widget_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "monk_embedded_cart_page_freegift_manual_Yf8dBC"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -92,6 +109,7 @@
   "order": [
     "17639730416be50c48",
     "cart-items",
+    "17703956683bf87f3a",
     "cart-footer",
     "cl_featured_collection_qnDnqM"
   ]

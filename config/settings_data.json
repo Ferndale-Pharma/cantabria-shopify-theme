@@ -204,11 +204,6 @@
         "disabled": false,
         "settings": {}
       },
-      "5028733920296764920": {
-        "type": "shopify://apps/poptin-exit-popup-email-pop-up/blocks/poptin/182272aa-99b0-4fe3-a6ce-2aa49aed1d90",
-        "disabled": false,
-        "settings": {}
-      },
       "589228961406621311": {
         "type": "shopify://apps/joy-loyalty-program/blocks/joy-redeem-inline-embed/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
         "disabled": false,
@@ -230,6 +225,11 @@
           "enableRevokeDiscountApplyFailed": true,
           "hasReloadPage": true
         }
+      },
+      "7280966411886983154": {
+        "type": "shopify://apps/monk/blocks/app-embed/e949adb6-87ca-4b97-8f31-0e51bf507f2d",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
