@@ -45,7 +45,7 @@
       <meta name='description' content='{{ page_description | escape }}'>
     {% endif %}
 
-    {% if template contains 'noindexnofollow' or template contains 'ninf' or template contains 'test' %}
+    {% if template contains 'noindexnofollow' or template contains 'ninf' or template contains 'test'or  template.name == 'product.free-sample' %}
       <meta name='robots' content='noindex,nofollow'>
     {% endif %}
 
