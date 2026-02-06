@@ -51,6 +51,7 @@
       "block_order": [
         "monk_embedded_cart_page_freegift_manual_Yf8dBC"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
