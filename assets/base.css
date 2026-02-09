@@ -3678,7 +3678,7 @@ details-disclosure > details {
 .mr-product-item__body {
   justify-content: space-between!important;
 }
-.mr-product-details__product-title {
+.mr-product-body__details .mr-product-details__product-title {
   font-family: 'univia-pro' !important;
   font-weight: 600;
   color: #165c7d;
