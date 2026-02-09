@@ -3675,3 +3675,6 @@ details-disclosure > details {
     gap: 1rem;
 }
 }
+.mr-product-item__body {
+  justify-content: space-between!important;
+}
