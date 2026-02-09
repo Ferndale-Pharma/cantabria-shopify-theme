@@ -43,6 +43,7 @@
       "blocks": {
         "monk_embedded_cart_page_freegift_manual_Yf8dBC": {
           "type": "shopify://apps/monk/blocks/embedded-cart-page-freegift-manual/e949adb6-87ca-4b97-8f31-0e51bf507f2d",
+          "disabled": true,
           "settings": {
             "widget_id": ""
           }
