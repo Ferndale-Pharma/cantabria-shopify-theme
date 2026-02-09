@@ -3689,3 +3689,6 @@ details-disclosure > details {
 .mr-product-item__actions {
   margin-top: auto;
 }
+.mr-product-item__body-wrapper {
+  height: 100%;
+}
