@@ -163,22 +163,22 @@
         "heading_aCUkbe": {
           "type": "heading",
           "settings": {
-            "heading": "Blog",
+            "heading": "Find your perfect HELIOCARE 360° match",
             "heading_size": "h2"
           }
         },
         "text_MTexfD": {
           "type": "text",
           "settings": {
-            "text": "<p>Read the latest company news and announcements from Cantabria Labs, and explore all our current campaigns and promotions.</p>",
+            "text": "<p>Complete the skin quiz and let our dermatologist-led expertise guide you to the right formula.</p>",
             "text_style": "body"
           }
         },
         "button_9Gf9jL": {
           "type": "button",
           "settings": {
-            "button_label": "Blog",
-            "button_link": "shopify://blogs/blog",
+            "button_label": "Take quiz",
+            "button_link": "shopify://pages/sunscreen-quiz",
             "button_style_secondary": true
           }
         }
@@ -189,10 +189,57 @@
         "button_9Gf9jL"
       ],
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00065_CantabriaLabs_Learn_Blog_1920x1365px_Jun25.jpg",
+        "image": "shopify://shop_images/heliocare-layflat-products_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_B7Emt8": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fTyphQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Company updates",
+            "heading_size": "h2"
+          }
+        },
+        "text_zdcVFt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Read the latest company news and announcements from Cantabria Labs, and explore all our current campaigns and promotions.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_Kqtf8B": {
+          "type": "button",
+          "settings": {
+            "button_label": "Company updates",
+            "button_link": "shopify://blogs/blog",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_fTyphQ",
+        "text_zdcVFt",
+        "button_Kqtf8B"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00065_CantabriaLabs_Learn_Blog_1920x1365px_Jun25.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
@@ -244,6 +291,7 @@
     "image_with_text_WHPFiD",
     "image_with_text_e6VgMj",
     "image_with_text_Vfw3Vh",
+    "image_with_text_B7Emt8",
     "newsletter_TmxmhF"
   ]
 }
