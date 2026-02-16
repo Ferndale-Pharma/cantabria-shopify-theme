@@ -110,53 +110,6 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_e6VgMj": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_iD7Dpr": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ingredients glossary",
-            "heading_size": "h2"
-          }
-        },
-        "text_gHw3EQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Discover more about the key technologies and ingredients featured in Cantabria Labs’ outstanding product portfolio. Learn how they elevate your skincare routines to the next level, delivering clinically proven results, every time.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_tiRMcn": {
-          "type": "button",
-          "settings": {
-            "button_label": "Ingredients",
-            "button_link": "shopify://pages/ingredients",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_iD7Dpr",
-        "text_gHw3EQ",
-        "button_tiRMcn"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00064_CantabriaLabs_Learn_IngredientsGlossary_1920x1365px_Jun25.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_Vfw3Vh": {
       "type": "image-with-text",
       "blocks": {
@@ -190,6 +143,53 @@
       ],
       "settings": {
         "image": "shopify://shop_images/heliocare-layflat-products_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_e6VgMj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iD7Dpr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ingredients glossary",
+            "heading_size": "h2"
+          }
+        },
+        "text_gHw3EQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover more about the key technologies and ingredients featured in Cantabria Labs’ outstanding product portfolio. Learn how they elevate your skincare routines to the next level, delivering clinically proven results, every time.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_tiRMcn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ingredients",
+            "button_link": "shopify://pages/ingredients",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_iD7Dpr",
+        "text_gHw3EQ",
+        "button_tiRMcn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00064_CantabriaLabs_Learn_IngredientsGlossary_1920x1365px_Jun25.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -289,8 +289,8 @@
     "main",
     "image_with_text_AhypXF",
     "image_with_text_WHPFiD",
-    "image_with_text_e6VgMj",
     "image_with_text_Vfw3Vh",
+    "image_with_text_e6VgMj",
     "image_with_text_B7Emt8",
     "newsletter_TmxmhF"
   ]
