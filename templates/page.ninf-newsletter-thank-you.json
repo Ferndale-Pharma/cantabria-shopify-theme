@@ -55,7 +55,7 @@
         "full_width": true,
         "is_heading": true,
         "padding_top": 32,
-        "padding_bottom": 64,
+        "padding_bottom": 32,
         "container_id": ""
       }
     },
@@ -100,7 +100,7 @@
         "column_FgRnnX": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-Sensation_1_e0770473-4743-4f60-9135-5c1fa2ae503a.jpg",
+            "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-Endocare-HyaluboostSerum.jpg",
             "title": "Ageing Skin",
             "text": "<h4><strong>ENDOCARE AGE BARRIER Hyaluboost Serum</strong></h4><p>Anti-ageing hydrating serum for firmer, hydrated skin.</p><p><em>SRP: £45.00</em></p><p><strong>With Code: £40.50</strong></p>",
             "link_label": "Shop Now",
@@ -110,7 +110,7 @@
         "column_LyMicL": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-Sensation_1_e0770473-4743-4f60-9135-5c1fa2ae503a.jpg",
+            "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-Biretix-Tri-ActiveGel.jpg",
             "title": "Spot & Acne Prone Skin",
             "text": "<h4><strong>BIRETIX Tri-Active Anti-Blemish Gel</strong></h4><p>Triple-action care for acne-prone skin to reduce blemishes and imperfections.</p><p><em>SRP: £31.00</em></p><p><strong>With Code: £27.90</strong></p>",
             "link_label": "Shop Now",
@@ -120,7 +120,7 @@
         "column_bJE4gR": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-Sensation_1_e0770473-4743-4f60-9135-5c1fa2ae503a.jpg",
+            "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-Neoretin-PigmentNeutraliser_bf50a4c2-8db4-4324-bf6e-85b873e11290.jpg",
             "title": "Hyperpigmentation",
             "text": "<h4><strong>NEORETIN Pigment Neutraliser Serum</strong></h4><p>Unique pigment control serum for even the most sensitive skin types.</p><p><em>SRP: £45.00</em></p><p><strong>With Code: £40.50</strong></p>",
             "link_label": "Shop Now",
@@ -139,7 +139,7 @@
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
@@ -148,7 +148,32 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 64,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_tACqGt": {
+      "type": "rich-text",
+      "blocks": {
+        "text_nXyNEz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_nXyNEz"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
         "padding_bottom": 64,
         "container_id": ""
       }
@@ -158,6 +183,7 @@
     "main",
     "rich_text_NzmMHn",
     "rich_text_jNNPmD",
-    "multicolumn_7qEdtq"
+    "multicolumn_7qEdtq",
+    "rich_text_tACqGt"
   ]
 }
