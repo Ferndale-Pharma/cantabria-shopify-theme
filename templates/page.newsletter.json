@@ -11,13 +11,625 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_cXgkMN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bCJ9iX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join the Cantabria Labs Community",
+            "heading_size": "h1"
+          }
+        },
+        "text_Dc6HUx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Become part of the Cantabria Labs Community and receive 10% off your first purchase across all Cantabria Labs brands. You’ll also gain expert skin guidance, early access to innovation, and exclusive online benefits delivered straight to your inbox.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bCJ9iX",
+        "text_Dc6HUx"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 32,
+        "padding_bottom": 0,
+        "container_id": ""
+      }
+    },
+    "17720089691f899944": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_icFmrL": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTM0MjU4\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_icFmrL"
+      ],
+      "custom_css": [
+        "button.submit {font-size: 1.5rem; font-weight: 600; padding: 1.5rem 3rem; border-radius: 4px;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_Kgtnyr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jTWQax": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why join the Cantabria Labs Community?",
+            "heading_size": "h1"
+          }
+        },
+        "heading_4Rfgnz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Skincare expertise, beyond the surface",
+            "heading_size": "h2"
+          }
+        },
+        "text_HQkXwq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When you join the Cantabria Labs Community, you’re not just signing up for a discount. You’re gaining access to dermatology-led knowledge designed to support long-term skin health.</p><p>As a member, you’ll receive:</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jTWQax",
+        "heading_4Rfgnz",
+        "text_HQkXwq"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "multicolumn_ETKaWg": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_AiViV9": {
+          "type": "column",
+          "settings": {
+            "title": "Dermatologist-approved expert skin education",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_M9CXQ4": {
+          "type": "column",
+          "settings": {
+            "title": "Early access to new product launches",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7AzcCg": {
+          "type": "column",
+          "settings": {
+            "title": "Exclusive discounts and offers",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dhxnhd": {
+          "type": "column",
+          "settings": {
+            "title": "Seasonal skincare guides tailored to real skin concerns",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Wqmmj8": {
+          "type": "column",
+          "settings": {
+            "title": "Early access to free product trials and competitions",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pRxczY": {
+          "type": "column",
+          "settings": {
+            "title": "Be first to hear about brand new innovations",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_AiViV9",
+        "column_M9CXQ4",
+        "column_7AzcCg",
+        "column_dhxnhd",
+        "column_Wqmmj8",
+        "column_pRxczY"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Join the Community Today",
+        "button_link": "#signup",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "image_with_text_XTDpUM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rQEtwn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dermatology at the heart of everything we do",
+            "heading_size": "h2"
+          }
+        },
+        "text_gK6epN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cantabria Labs is a dermatology-focused healthcare company dedicated to improving skin health through science and innovation.</p><p>Our formulas are developed with a deep understanding of skin biology and powered by clinically proven ingredients. From advanced sun protection to targeted corrective treatments, every product is designed with efficacy, safety and long-term skin confidence in mind.</p><p>Trusted by professionals and available worldwide, our brands including HELIOCARE, ENDOCARE, NEORETIN and BIRETIX, reflect our commitment to innovation backed by research.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_jeheCb": {
+          "type": "button",
+          "settings": {
+            "button_label": "Join the Community Today",
+            "button_link": "#signup",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rQEtwn",
+        "text_gK6epN",
+        "button_jeheCb"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_WekDqe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cwAgFU": {
+          "type": "heading",
+          "settings": {
+            "heading": "How it works",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cwAgFU"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 16,
+        "container_id": ""
+      }
+    },
+    "multicolumn_GhUfUT": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_8LGdAa": {
+          "type": "column",
+          "settings": {
+            "title": "1. Join the Community",
+            "text": "<p>Sign up using your email address below.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PzNyKJ": {
+          "type": "column",
+          "settings": {
+            "title": "2. Receive your unique code instantly",
+            "text": "<p>Your 10% code will appear on screen and arrive in your inbox.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_z3widD": {
+          "type": "column",
+          "settings": {
+            "title": "3. Apply at checkout",
+            "text": "<p>Use your code across all Cantabria Labs brands on your first order.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_8LGdAa",
+        "column_PzNyKJ",
+        "column_z3widD"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Your 10% welcome benefit in three simple steps",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "rich_text_GWH97E": {
+      "type": "rich-text",
+      "blocks": {
+        "text_f3z3zQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>It’s our way of welcoming you to science-led skincare.</strong></p>"
+          }
+        },
+        "button_czKx6K": {
+          "type": "button",
+          "settings": {
+            "button_label": "Unlock your discount",
+            "button_link": "#signup",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_f3z3zQ",
+        "button_czKx6K"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_9NVD6z": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DET7nk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unlock 10% Off Your First Order",
+            "heading_size": "h1"
+          }
+        },
+        "text_aFALYU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join today and experience dermatologist-developed skincare with 10% off your first purchase.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DET7nk",
+        "text_aFALYU"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": "signup"
+      }
+    },
+    "17720094968fb96b18": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_cfMKRp": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTM0MjYx\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_cfMKRp"
+      ],
+      "custom_css": [
+        "button.submit {font-size: 1.5rem; font-weight: 600; padding: 1.5rem 3rem; border-radius: 4px;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "multicolumn_EJyPam": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_JWanzP": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>10% off all Cantabria Labs products and brands</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EQRn8r": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Secure online checkout</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XCj73T": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Dermatologist- developed formulas</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BwibPn": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Trusted by skincare professionals worldwide</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8LVC4B": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>FREE UK Next Working Day Delivery on all orders over £20</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_JWanzP",
+        "column_EQRn8r",
+        "column_XCj73T",
+        "column_BwibPn",
+        "column_8LVC4B"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Shop with confidence",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 16,
+        "container_id": ""
+      }
+    },
+    "rich_text_hVkmMr": {
+      "type": "rich-text",
+      "blocks": {
+        "text_w6rWaw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you’re discovering us for the first time or choosing to shop directly, we’re here to support your skin health journey.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_w6rWaw"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "cl_faqs_PGHWXc": {
+      "type": "cl-faqs",
+      "blocks": {
+        "faq_qHa6br": {
+          "type": "faq",
+          "settings": {
+            "title": "How do I receive my 10% code?",
+            "answer": "<p>Your unique code will be displayed immediately after sign-up and sent to your email address.</p>"
+          }
+        },
+        "faq_eT6YEX": {
+          "type": "faq",
+          "settings": {
+            "title": "Can I use the code on all Cantabria Labs brands?",
+            "answer": "<p>Yes. Your 10% welcome code is valid across all Cantabria Labs products and brands available on our website.</p>"
+          }
+        },
+        "faq_WqBpjN": {
+          "type": "faq",
+          "settings": {
+            "title": "How long is the code valid for?",
+            "answer": "<p>Your code has no expiration date, but can only be used once per customer.</p>"
+          }
+        },
+        "faq_caQcdR": {
+          "type": "faq",
+          "settings": {
+            "title": "Can I use this with other offers?",
+            "answer": "<p>The welcome code cannot be combined with other promotional discounts.</p>"
+          }
+        },
+        "faq_k84jkX": {
+          "type": "faq",
+          "settings": {
+            "title": "Are your products suitable for sensitive skin?",
+            "answer": "<p>Many of our formulas are developed with sensitive skin in mind. Individual product pages provide more detailed suitability guidance to help you confidently choose the right products for your skin.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_qHa6br",
+        "faq_eT6YEX",
+        "faq_WqBpjN",
+        "faq_caQcdR",
+        "faq_k84jkX"
+      ],
+      "name": "Simple FAQs",
+      "settings": {
+        "title": "FAQs",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_gNz6qJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TnCxFi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join a community built on skin expertise",
+            "heading_size": "h2"
+          }
+        },
+        "text_zBTH3q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Cantabria Labs, we believe skin health is a lifelong journey - and the right knowledge makes all the difference.</p><p>Join today to receive 10% off your first order and stay connected to the science shaping the future of dermatology-led skincare.</p>"
+          }
+        },
+        "button_nYfdEM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Join the Community",
+            "button_link": "#signup",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TnCxFi",
+        "text_zBTH3q",
+        "button_nYfdEM"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_cXgkMN",
+    "17720089691f899944",
+    "rich_text_Kgtnyr",
+    "multicolumn_ETKaWg",
+    "image_with_text_XTDpUM",
+    "rich_text_WekDqe",
+    "multicolumn_GhUfUT",
+    "rich_text_GWH97E",
+    "rich_text_9NVD6z",
+    "17720094968fb96b18",
+    "multicolumn_EJyPam",
+    "rich_text_hVkmMr",
+    "cl_faqs_PGHWXc",
+    "rich_text_gNz6qJ"
   ]
 }
