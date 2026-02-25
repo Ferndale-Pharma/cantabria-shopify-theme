@@ -11,13 +11,153 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_NzmMHn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pwQPnB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to the Cantabria Labs Community!",
+            "heading_size": "h1"
+          }
+        },
+        "heading_CtxU3Y": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Dermatological expertise, Proven results",
+            "heading_size": "h2"
+          }
+        },
+        "text_C3jzrA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/><strong>Dermatological expertise, Proven results</strong></p><p>Thank you for joining the Cantabria Labs skincare community! Your welcome discount code is:</p><h3><strong>HELLO10</strong></h3><p>Simply enter the code at checkout to get 10% off your first order of unique dermatological skincare, expertly researched and developed to deliver proven results.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pwQPnB",
+        "heading_CtxU3Y",
+        "text_C3jzrA"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_jNNPmD": {
+      "type": "rich-text",
+      "blocks": {
+        "text_CK8gRX": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Try some of our bestselling products today:</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_CK8gRX"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "container_id": ""
+      }
+    },
+    "multicolumn_7qEdtq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_VXaKBM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-Sensation_1_e0770473-4743-4f60-9135-5c1fa2ae503a.jpg",
+            "title": "Sun & Daylight",
+            "text": "<h4><strong>HELIOCARE 360° Sensation</strong></h4><p>Ultralight, very high level, full spectrum sun protection for all skin tones</p><p><em>SRP: £31.00</em></p><p><strong>With Code: £27.90</strong></p>",
+            "link_label": "Shop Now",
+            "link": "#"
+          }
+        },
+        "column_FgRnnX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-Sensation_1_e0770473-4743-4f60-9135-5c1fa2ae503a.jpg",
+            "title": "Ageing Skin",
+            "text": "<h4><strong>ENDOCARE AGE BARRIER Hyaluboost Serum</strong></h4><p>Anti-ageing hydrating serum for firmer, hydrated skin.</p><p><em>SRP: £45.00</em></p><p><strong>With Code: £40.50</strong></p>",
+            "link_label": "Shop Now",
+            "link": ""
+          }
+        },
+        "column_LyMicL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-Sensation_1_e0770473-4743-4f60-9135-5c1fa2ae503a.jpg",
+            "title": "Spot & Acne Prone Skin",
+            "text": "<h4><strong>BIRETIX Tri-Active Anti-Blemish Gel</strong></h4><p>Triple-action care for acne-prone skin to reduce blemishes and imperfections.</p><p><em>SRP: £31.00</em></p><p><strong>With Code: £27.90</strong></p>",
+            "link_label": "Shop Now",
+            "link": ""
+          }
+        },
+        "column_bJE4gR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-Sensation_1_e0770473-4743-4f60-9135-5c1fa2ae503a.jpg",
+            "title": "Hyperpigmentation",
+            "text": "<h4><strong>NEORETIN Pigment Neutraliser Serum</strong></h4><p>Unique pigment control serum for even the most sensitive skin types.</p><p><em>SRP: £45.00</em></p><p><strong>With Code: £40.50</strong></p>",
+            "link_label": "Shop Now",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_VXaKBM",
+        "column_FgRnnX",
+        "column_LyMicL",
+        "column_bJE4gR"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_NzmMHn",
+    "rich_text_jNNPmD",
+    "multicolumn_7qEdtq"
   ]
 }
