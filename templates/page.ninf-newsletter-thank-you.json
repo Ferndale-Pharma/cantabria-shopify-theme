@@ -134,6 +134,9 @@
         "column_LyMicL",
         "column_bJE4gR"
       ],
+      "custom_css": [
+        "h4 {color: #000;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
