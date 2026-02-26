@@ -156,6 +156,75 @@
         "container_id": ""
       }
     },
+    "multicolumn_html_hbWLBt": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_paEVg7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-Sensation_1_e0770473-4743-4f60-9135-5c1fa2ae503a.jpg",
+            "title": "Sun & Daylight",
+            "text": "<h4>HELIOCARE 360° Sensation</h4>\n<p>Ultralight, very high level, full spectrum sun protection for all skin tones</p>\n<p>SRP: <s>£31.00</s></p>\n<p><strong>With Code: £27.90</strong></p>",
+            "link_label": "Shop Now",
+            "link": "shopify://products/heliocare-360-sensation"
+          }
+        },
+        "column_KhdKCx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-Endocare-HyaluboostSerum.jpg",
+            "title": "Ageing Skin",
+            "text": "<h4>ENDOCARE AGE BARRIER Hyaluboost Serum</h4>\n<p>Anti-ageing hydrating serum for firmer, hydrated skin.</p>\n<p>SRP: <s>£45.00</s></p>\n<p><strong>With Code: £40.50</strong></p>",
+            "link_label": "Shop Now",
+            "link": "shopify://products/endocare-age-barrier-hyaluboost-serum"
+          }
+        },
+        "column_CfeBKb": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JqNpkj": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_paEVg7",
+        "column_KhdKCx",
+        "column_CfeBKb",
+        "column_JqNpkj"
+      ],
+      "custom_css": [
+        "h4 {color: #000; font-weight: 600;}"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "rich_text_tACqGt": {
       "type": "rich-text",
       "blocks": {
@@ -187,6 +256,7 @@
     "rich_text_NzmMHn",
     "rich_text_jNNPmD",
     "multicolumn_7qEdtq",
+    "multicolumn_html_hbWLBt",
     "rich_text_tACqGt"
   ]
 }
