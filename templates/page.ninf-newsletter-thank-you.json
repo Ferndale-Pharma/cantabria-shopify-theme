@@ -134,6 +134,7 @@
         "column_LyMicL",
         "column_bJE4gR"
       ],
+      "disabled": true,
       "custom_css": [
         "h4 {color: #000;}"
       ],
