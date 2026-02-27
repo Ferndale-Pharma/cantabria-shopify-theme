@@ -165,7 +165,7 @@
           "settings": {
             "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-Sensation_1_e0770473-4743-4f60-9135-5c1fa2ae503a.jpg",
             "title": "Sun & Daylight",
-            "text": "<h4>HELIOCARE 360°<br>Sensation</h4>\n<p>Ultralight, very high level, full spectrum sun protection for all skin tones</p>\n<p>SRP: <s>£31.00</s></p>\n<p><strong>With Code: £27.90</strong></p>",
+            "text": "<h4>HELIOCARE 360°<br>Sensation</h4>\n<p>Ultralight, very high level, full spectrum sun protection for all skin tones</p>\n<p>SRP: <s>£31.00</s></p>\n<p><strong>With Code: £27.90</strong></p>\n<a href=\"/collections/spot-acne-prone-skin\" style=\"color: #fff;\" class=\"button button--primary\">Shop Now</a>",
             "link_label": "Shop Now",
             "link": "shopify://products/heliocare-360-sensation"
           }
