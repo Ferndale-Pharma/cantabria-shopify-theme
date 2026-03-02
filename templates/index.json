@@ -108,7 +108,7 @@
         "@media screen and (max-width: 767px) {.h1 {font-size: 1.9em; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00188_1_CL.co.uk_Retinols_AgeActive_HomepageBanner_Mar26-2.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00188_CL.co.uk_Retinols_AgeActive_HomepageBanner_Mar26.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
