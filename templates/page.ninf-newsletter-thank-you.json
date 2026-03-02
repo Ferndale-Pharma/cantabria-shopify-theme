@@ -165,9 +165,9 @@
           "settings": {
             "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-Sensation_1_e0770473-4743-4f60-9135-5c1fa2ae503a.jpg",
             "title": "Sun & Daylight",
-            "text": "<h4>HELIOCARE 360°<br>Sensation</h4>\n<p>Ultralight, very high level, full spectrum sun protection for all skin tones</p>\n<p>SRP: <s>£31.00</s></p>\n<p><strong>With Code: £27.90</strong></p>\n<a href=\"/collections/spot-acne-prone-skin\" style=\"color: #fff;\" class=\"button button--primary\">Shop Now</a>",
-            "link_label": "Shop Now",
-            "link": "shopify://products/heliocare-360-sensation"
+            "text": "<h4>HELIOCARE 360°<br>Sensation</h4>\n<p>Ultralight, very high level, full spectrum sun protection for all skin tones.</p>\n<p>SRP: <s>£31.00</s></p>\n<p><strong>With Code: £27.90</strong></p>\n<a href=\"https://cantabrialabs.co.uk/products/heliocare-360-sensation/?utm_source=instagram&amp;utm_medium=paid&amp;utm_campaign=cl_d2c_welcome_2026&amp;utm_content=CL-URL-0029\" style=\"color: #fff;\" class=\"button button--primary\">Shop Now</a>",
+            "link_label": "",
+            "link": ""
           }
         },
         "column_KhdKCx": {
@@ -175,16 +175,17 @@
           "settings": {
             "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-Endocare-HyaluboostSerum.jpg",
             "title": "Ageing Skin",
-            "text": "<h4>ENDOCARE AGE BARRIER<br>Hyaluboost Serum</h4>\n<p>Advanced anti-ageing hydrating serum for firmer, hydrated skin.</p>\n<p>SRP: <s>£45.00</s></p>\n<p><strong>With Code: £40.50</strong></p>",
-            "link_label": "Shop Now",
-            "link": "shopify://products/endocare-age-barrier-hyaluboost-serum"
+            "text": "<h4>ENDOCARE AGE BARRIER<br>Hyaluboost Serum</h4>\n<p>Advanced anti-ageing hydrating serum for firmer, hydrated skin.</p>\n<p>SRP: <s>£45.00</s></p>\n<p><strong>With Code: £40.50</strong></p>\n<a href=\"https://cantabrialabs.co.uk/products/endocare-age-barrier-hyaluboost-serum/?utm_source=instagram&amp;utm_medium=paid&amp;utm_campaign=cl_d2c_welcome_2026&amp;utm_content=CL-URL-0030\" style=\"color: #fff;\" class=\"button button--primary\">Shop Now</a>",
+            "link_label": "",
+            "link": ""
           }
         },
         "column_CfeBKb": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-Biretix-Tri-ActiveGel.jpg",
+            "title": "Spot & Acne Prone Skin",
+            "text": "<h4>BIRETIX<br>Tri-Active Anti-Blemish Gel</h4>\n<p>Triple-action care for acne-prone skin to reduce blemishes and imperfections.</p>\n<p>SRP: <s>£31.00</s></p>\n<p><strong>With Code: £27.90</strong></p>\n<a href=\"https://cantabrialabs.co.uk/products/biretix-tri-active-anti-blemish-gel/?utm_source=instagram&amp;utm_medium=paid&amp;utm_campaign=cl_d2c_welcome_2026&amp;utm_content=CL-URL-0031\" style=\"color: #fff;\" class=\"button button--primary\">Shop Now</a>",
             "link_label": "",
             "link": ""
           }
@@ -192,8 +193,9 @@
         "column_JqNpkj": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-Neoretin-PigmentNeutraliser_a7bc6036-4912-419e-9d80-2aefc0677037.jpg",
+            "title": "Hyperpigmentation",
+            "text": "<h4>NEORETIN<br>Pigment Neutraliser Serum</h4>\n<p>Unique pigment control serum for even the most sensitive skin types.</p>\n<p>SRP: <s>£45.00</s></p>\n<p><strong>With Code: £40.50</strong></p>\n<a href=\"https://cantabrialabs.co.uk/products/neoretin-pigment-neutraliser-serum/?utm_source=instagram&amp;utm_medium=paid&amp;utm_campaign=cl_d2c_welcome_2026&amp;utm_content=CL-URL-0032\" style=\"color: #fff;\" class=\"button button--primary\">Shop Now</a>",
             "link_label": "",
             "link": ""
           }
@@ -222,7 +224,7 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 64,
+        "padding_top": 0,
         "padding_bottom": 64
       }
     },
