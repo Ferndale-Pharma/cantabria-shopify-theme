@@ -68,14 +68,14 @@
         "heading_aYcLWa": {
           "type": "heading",
           "settings": {
-            "heading": "Strengthen and protect your skin barrier for less",
+            "heading": "No retinol routine is complete without SPF",
             "heading_size": "h1"
           }
         },
         "text_kyA6LM": {
           "type": "text",
           "settings": {
-            "text": "Reinforce the skin barrier with ENDOCARE AGE BARRIER Niacinal Serum and receive a <strong>FREE HELIOCARE 360° sunscreen</strong> of your choice for healthy, resilient skin. ",
+            "text": "For a limited time only, receive a <strong>FREE HELIOCARE 360° Age Active</strong> with every order of the new ENDOCARE RENEWAL Retinoid Serums",
             "text_style": "subtitle"
           }
         },
@@ -89,18 +89,26 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "text_6GfTtr": {
+          "type": "text",
+          "settings": {
+            "text": "* Terms and conditions apply",
+            "text_style": "caption-with-letter-spacing"
+          }
         }
       },
       "block_order": [
         "heading_aYcLWa",
         "text_kyA6LM",
-        "buttons_RkjPdk"
+        "buttons_RkjPdk",
+        "text_6GfTtr"
       ],
       "custom_css": [
         "@media screen and (max-width: 767px) {.h1 {font-size: 1.9em; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00165_CantabriaLabs_NiacinalHelicoare_HomepageBanner_2000x1000_Jan26_OP1.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00188_1_CL.co.uk_Retinols_AgeActive_HomepageBanner_Mar26.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
