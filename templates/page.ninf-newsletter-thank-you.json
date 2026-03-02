@@ -59,13 +59,23 @@
         "container_id": ""
       }
     },
+    "custom_liquid_3itcbq": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"display: block; margin: auto; text-align: center;\"><a href=\"https://cantabrialabs.co.uk/discount/HELLO10?redirect=/collections/all&utm_source=instagram&utm_medium=paid&utm_campaign=cl_d2c_welcome_2026&utm_content=CL-URL-0033\" style=\"color: #fff;\" class=\"button button--primary\">View All Products</a></div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
     "rich_text_jNNPmD": {
       "type": "rich-text",
       "blocks": {
         "text_CK8gRX": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Try some of our bestselling products today:</strong></p>"
+            "text": "<p><strong>Alternatively, why not try some of our bestselling products today:</strong></p>"
           }
         }
       },
@@ -257,6 +267,7 @@
   "order": [
     "main",
     "rich_text_NzmMHn",
+    "custom_liquid_3itcbq",
     "rich_text_jNNPmD",
     "multicolumn_7qEdtq",
     "multicolumn_html_hbWLBt",
