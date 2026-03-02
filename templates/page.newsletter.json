@@ -117,6 +117,7 @@
         "column_AiViV9": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Derm_approv_-_FERN-IMG-00189_e478b7ba-e7bd-44fe-b8f1-d18b981c4b50.png",
             "title": "Dermatologist-approved expert skin education",
             "text": "",
             "link_label": "",
@@ -126,6 +127,7 @@
         "column_M9CXQ4": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Early_access_product_launches_-_FERN-IMG-00189.png",
             "title": "Early access to new product launches",
             "text": "",
             "link_label": "",
@@ -135,6 +137,7 @@
         "column_7AzcCg": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Exclusive_discounts_offers_-_FERN-IMG-00189.png",
             "title": "Exclusive discounts and offers",
             "text": "",
             "link_label": "",
@@ -144,6 +147,7 @@
         "column_dhxnhd": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Seasonal_skincare_guides_-_FERN-IMG-00189.png",
             "title": "Seasonal skincare guides tailored to real skin concerns",
             "text": "",
             "link_label": "",
@@ -153,6 +157,7 @@
         "column_Wqmmj8": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Early_access_free_product_-_FERN-IMG-00189.png",
             "title": "Early access to free product trials and competitions",
             "text": "",
             "link_label": "",
@@ -162,6 +167,7 @@
         "column_pRxczY": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Innovations_-_FERN-IMG-00189.png",
             "title": "Be first to hear about brand new innovations",
             "text": "",
             "link_label": "",
@@ -229,6 +235,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/Mixed_range_image_-_FERN-IMG-00189.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -275,7 +282,8 @@
         "column_8LGdAa": {
           "type": "column",
           "settings": {
-            "title": "1. Join the Community",
+            "image": "shopify://shop_images/1_-_FERN-IMG-00189.png",
+            "title": "Join the Community",
             "text": "<p>Sign up using your email address below.</p>",
             "link_label": "",
             "link": ""
@@ -284,7 +292,8 @@
         "column_PzNyKJ": {
           "type": "column",
           "settings": {
-            "title": "2. Receive your unique code instantly",
+            "image": "shopify://shop_images/2_-_FERN-IMG-00189.png",
+            "title": "Receive your unique code instantly",
             "text": "<p>Your 10% code will appear on screen and arrive in your inbox.</p>",
             "link_label": "",
             "link": ""
@@ -293,7 +302,8 @@
         "column_z3widD": {
           "type": "column",
           "settings": {
-            "title": "3. Apply at checkout",
+            "image": "shopify://shop_images/3_-_FERN-IMG-00189.png",
+            "title": "Apply at checkout",
             "text": "<p>Use your code across all Cantabria Labs brands on your first order.</p>",
             "link_label": "",
             "link": ""
@@ -309,7 +319,7 @@
       "settings": {
         "title": "Your 10% welcome benefit in three simple steps",
         "heading_size": "h2",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
@@ -420,6 +430,7 @@
         "column_JWanzP": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/10_off_-_FERN-IMG-00189.png",
             "title": "",
             "text": "<p><strong>10% off all Cantabria Labs products and brands</strong></p>",
             "link_label": "",
@@ -429,6 +440,7 @@
         "column_EQRn8r": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Secure_checkout_-_FERN-IMG-00189.png",
             "title": "",
             "text": "<p><strong>Secure online checkout</strong></p>",
             "link_label": "",
@@ -438,8 +450,9 @@
         "column_XCj73T": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Formulas_-_FERN-IMG-00189.png",
             "title": "",
-            "text": "<p><strong>Dermatologist- developed formulas</strong></p>",
+            "text": "<p><strong>Dermatologist-developed formulas</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -447,6 +460,7 @@
         "column_BwibPn": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Trusted_by_-_FERN-IMG-00189.png",
             "title": "",
             "text": "<p><strong>Trusted by skincare professionals worldwide</strong></p>",
             "link_label": "",
@@ -456,6 +470,7 @@
         "column_8LVC4B": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Free_delivery_-_FERN-IMG-00189.png",
             "title": "",
             "text": "<p><strong>FREE UK Next Working Day Delivery on all orders over £20</strong></p>",
             "link_label": "",
