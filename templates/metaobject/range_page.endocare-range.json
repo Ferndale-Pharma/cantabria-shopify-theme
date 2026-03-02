@@ -22,7 +22,7 @@
         "text_RggQnc": {
           "type": "text",
           "settings": {
-            "text": "Science-led skincare to protect, brighten and renew ageing skin",
+            "text": "Science-led skincare for visible anti-ageing results",
             "text_style": "body"
           }
         },
@@ -64,14 +64,14 @@
         "heading_qVeV4W": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Address every stage and need of the skin ageing process</strong>",
+            "heading": "Targeted formulations to prevent and correct key skin ageing concerns",
             "heading_size": "h2"
           }
         },
         "text_T9yqhc": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>ENDOCARE is a scientifically advanced, anti-ageing skincare range, dermatologically proven to address each stage and need in the skin ageing process. </strong></p><p>Formulated with expert dermatological knowledge, gold-standard active ingredients, and patented technologies, ENDOCARE products have been clinically proven to brighten skin and improve texture, reduce pigmentation, and diminish wrinkles for visibly radiant results.</p>"
+            "text": "<p><strong>ENDOCARE is a science-led dermatological anti-ageing brand delivering clinically proven, targeted solutions across barrier support, radiance and renewal - supporting both prevention and correction at every stage of skin ageing. </strong></p><p>Formulated with expert dermatological knowledge, gold-standard active ingredients and patented technologies, including RetinDuo® advanced retinoid technology and EDAFENCE® anti-pollution technology, that are clinically proven to improve skin brightness, barrier function and cell renewal. </p>"
           }
         }
       },
@@ -238,14 +238,14 @@
         "heading_nqmfe6": {
           "type": "heading",
           "settings": {
-            "heading": "Skin barrier reinforcement for smoother, more resilient skin",
+            "heading": "Skin barrier reinforcement to help prevent premature skin ageing",
             "heading_size": "h2"
           }
         },
         "text_FnPaY3": {
           "type": "text",
           "settings": {
-            "text": "<p>A healthy skin barrier is the skin’s first line of defence, visible every day of our lives. Protecting, repairing, and strengthening the skin barrier is essential for anyone on a skincare journey.</p>\n\n<p><b>ENDOCARE AGE BARRIER</b> products are carefully formulated with proven dermatological skin barrier-supporting ingredients such as Hyaluronic Acid, Vitamin B5, Niacinamide, and Cantabria Labs’ unique EDAFENCE® technology.</p>\n\n<p><b>Discover more about ENDOCARE AGE BARRIER Niacinal Serum Gel, clinically proven to show a +40% improvement in skin barrier function in 2 weeks and +24% hydration in 4 weeks.<sup>1</sup></b></p>",
+            "text": "<p>A compromised skin barrier increases transepidermal water loss, leaving skin dry, reactive and more vulnerable to environmental stressors that contribute to sensitivity, fine lines and loss of elasticity.</p>\n\n<p><a href=\"https://cantabrialabs.co.uk/collections/endocare-age-barrier\" title=\"Discover ENDOCARE AGE BARRIER products\"><strong>ENDOCARE AGE BARRIER</strong></a> combines hyaluronic acid, niacinamide and patented EDAFENCE® technology to restore hydration, strengthen barrier function and protect against pollution-induced oxidative stress for improved resilience and skin quality. </p>\n\n<p><b>Discover more about ENDOCARE AGE BARRIER Niacinal Serum Gel, clinically proven to show a +40% improvement in skin barrier function in 2 weeks and +24% hydration in 4 weeks.<sup>1</sup></b></p>",
             "text_style": "body"
           }
         },
@@ -263,58 +263,14 @@
         "text_FnPaY3",
         "button_m6G4Db"
       ],
+      "custom_css": [
+        "a {color: #000;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Enodcare_Niacinal_Serum_range.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-5",
-        "color_scheme": "scheme-5",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "image_with_text_html_67cwVE": {
-      "type": "image-with-text-html",
-      "blocks": {
-        "heading_Y4DNc9": {
-          "type": "heading",
-          "settings": {
-            "heading": "Effective skin renewal for visibly smoother more youthful looking skin​",
-            "heading_size": "h2"
-          }
-        },
-        "text_aE8zB7": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Healthy skin renewal is essential for a smooth, even, radiant complexion, but factors like age, stress, and environmental aggressors can slow this process and reduce the skin’s ability to replenish hydration, and regenerate collagen and elastin - leading to dullness, uneven texture, and visible ageing. Supporting renewal restores vitality and promotes brighter, healthier, more youthful-looking skin.</p>\n\n<p><b>ENDOCARE RENEWAL</b> is formulated with high-performance, dermatologist-validated actives including Alpha Hydroxy Acids (AHAs), Azelaic Acid, and Cantabria Labs’ innovative RetinSphere® Technology, to deliver clinically proven results for visibly smoother, refined, and rejuvenated skin.</p>\n\n<p><b>Find out more about ENDOCARE RENEWAL Retinol Serum - formulated with 0.2% pure retinol and delivered through patented RetinSphere® Technology to effectively renew skin while minimising irritation. It is clinically proven to increase collagen, elastin, and fibroblasts while delivering high efficacy with excellent tolerability.<sup>3</sup></b></p>",
-            "text_style": "body"
-          }
-        },
-        "button_eBgBPL": {
-          "type": "button",
-          "settings": {
-            "button_label": "View product",
-            "button_link": "shopify://products/endocare-renewal-retinol-serum",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_Y4DNc9",
-        "text_aE8zB7",
-        "button_eBgBPL"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Endocare_Retinol_Serum_Eye.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
@@ -332,14 +288,14 @@
         "heading_GzapQr": {
           "type": "heading",
           "settings": {
-            "heading": "Daily antioxidant protection to enhance skin’s radiance​",
+            "heading": "Antioxidant defence to maintain and restore skin's radiance",
             "heading_size": "h2"
           }
         },
         "text_RPAUqp": {
           "type": "text",
           "settings": {
-            "text": "<p>Dull skin occurs when the complexion loses its natural brightness, often due to slowed cell renewal, dehydration, pollution, stress, and UV exposure - all contributing to oxidative stress. Antioxidants help counter this by neutralising free radicals that can damage skin DNA.</p>\n\n<p><b>ENDOCARE RADIANCE</b> harnesses the brightening power of vitamin C alongside exclusive EDAFENCE® anti-pollution technology and a potent blend of antioxidants. This advanced formula helps to revitalise dull skin, even out tone, and restore a luminous glow.</p>\n\n<p><b>Learn more about ENDOCARE RADIANCE C Ferulic Edafence Serum’s potent, clinically proven ingredients. In just 28 days, 95% of users reported a brighter, more even complexion, 95% saw smoother texture, and 100% experienced improved hydration.<sup>2</sup></b></p>",
+            "text": "<p>Oxidative stress from UV and pollution is a key driver of dullness, uneven tone and premature skin ageing. Ongoing free radical damage can disrupt skin clarity, contribute to dark spots and accelerate visible photoageing.</p>\n\n<p><b><a href=\"https://cantabrialabs.co.uk/collections/endocare-radiance\" title=\"Discover ENDOCARE RADIANCE products\">ENDOCARE RADIANCE</a></b> combines Vitamin C with Vitamin E, Ferulic Acid and patented EDAFENCE® technology to deliver high-efficacy antioxidant protection, defend against environmental stress and visibly brighten skin for improved clarity and luminosity.</p>\n\n<p><b>Learn more about ENDOCARE RADIANCE C Ferulic Serum Gel’s potent, clinically proven ingredients. In just 28 days, 80% of users saw softer, brighter, more radiant skin, 90% of users saw improved skin elasticity and 86% of users said skin was more nourished, hydrated and plump.<sup>2</sup></b></p>",
             "text_style": "body"
           }
         },
@@ -347,7 +303,7 @@
           "type": "button",
           "settings": {
             "button_label": "View product",
-            "button_link": "shopify://products/endocare-radiance-c-ferulic-edafence-serum",
+            "button_link": "shopify://products/endocare-radiance-c-ferulic-serum-gel",
             "button_style_secondary": true
           }
         }
@@ -357,8 +313,61 @@
         "text_RPAUqp",
         "button_rnpU3m"
       ],
+      "custom_css": [
+        "a {color: #000;}"
+      ],
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00052_CantabriaLabs_EndocareRangePage_AntiOxAntiPollution_Images_1200x930_Jun25.jpg",
+        "image": "shopify://shop_images/ENDOCARE_C_FERULIC_2025-1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_html_67cwVE": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_Y4DNc9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Targeted cellular renewal for smoother, firmer-looking skin",
+            "heading_size": "h2"
+          }
+        },
+        "text_aE8zB7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As cellular renewal slows with age and environmental stress, dull surface cells build up, texture becomes uneven and fine lines become more visible. Reduced turnover accelerates visible ageing and impacts skin clarity and firmness.</p>\n\n<p><b><a href=\"https://cantabrialabs.co.uk/collections/endocare-renewal\" title=\"Discover ENDOCARE RENEWAL products\">ENDOCARE RENEWAL</a></b> features retinoids strategically combined in unique RetinDuo® technology with AHAs and Azelaic Acid to support effective cellular turnover, refine texture and improve tone, helping restore smoother, clearer and more resilient-looking skin.</p>\n\n<p><b>Discover ENDOCARE RENEWAL Retinoid Intensive Serum, powered by RetinDuo® Technology combining 0.3% pure retinol and encapsulated retinal for intensified renewal with enhanced tolerability. Clinically tested, 90% of users reported more renewed, repaired and brighter skin, while 85% reported reduced fine lines and wrinkles.<sup>3</sup></b></p>",
+            "text_style": "body"
+          }
+        },
+        "button_eBgBPL": {
+          "type": "button",
+          "settings": {
+            "button_label": "View product",
+            "button_link": "shopify://products/endocare-renewal-retinoid-intensive-serum",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y4DNc9",
+        "text_aE8zB7",
+        "button_eBgBPL"
+      ],
+      "custom_css": [
+        "a {color: #000;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/endocare_renewal_retinoid-intensive-serum_packshot_grey-background.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -428,8 +437,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/ENDOCARE_-_SKIN_REGENERATION.png",
-            "title": "Regenerates, renews and repairs",
-            "text": "<p>An innovative approach to skin ageing, with solutions that<br/>activate the skin’s renewal and repair mechanisms for maximum efficacy.</p>",
+            "title": "<strong>Targets the key causes of skin ageing</strong>",
+            "text": "<p>A dermatologist-approved system across Age Barrier, Radiance and Renewal that strengthens the skin barrier, defends against environmental stress and supports healthy cell turnover - delivering smarter prevention and visible correction at every stage of ageing.</p>",
             "link_label": "",
             "link": ""
           }
@@ -439,7 +448,7 @@
           "settings": {
             "image": "shopify://shop_images/ENDOCARE_-_INNOVTIVE_FORMULATIONS.png",
             "title": "Powerful technologies & innovative formulations",
-            "text": "<p>Patented technologies, including EDAFENCE® anti-pollution and RetinSphere® advanced retinoid technology, combined with gold-standard active ingredients for visible results.</p>",
+            "text": "<p>Patented technologies, including RetinDuo® advanced retinoid technology  and EDAFENCE® anti-pollution, combined with gold-standard active ingredients for visible results.</p>",
             "link_label": "",
             "link": ""
           }
@@ -449,7 +458,7 @@
           "settings": {
             "image": "shopify://shop_images/ENDOCARE_-_CLINICALLY_PROVEN.png",
             "title": "Clinically proven results",
-            "text": "<p>Backed by over 20 years of clinical research and numerous<br/>studies published in leading scientific and medical journals worldwide.</p>",
+            "text": "<p>Backed by over 20 years of clinical research with numerous studies published in leading scientific and medical journals worldwide, ENDOCARE demonstrates scientific rigour and dermatological expertise, addressing the key biological drivers of skin ageing.</p>",
             "link_label": "",
             "link": ""
           }
@@ -538,11 +547,11 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/RETINSPHERE_1.jpg",
-            "heading": "RetinSphere® Technology",
+            "heading": "RetinDuo® Technology",
             "heading_size": "h1",
-            "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation.",
-            "button_label": "Learn more",
-            "link": "shopify://blogs/expert-advice/retinsphere-technology",
+            "subheading": "An exclusive dual-retinoid system that combines pure retinol in microsponges with AOX Tech-encapsulated retinal, supported by a targeted natural booster complex to optimise bioavailability, enhance retinoid stability and deliver powerful yet controlled skin renewal enhancing stability and skin comfort.",
+            "button_label": "",
+            "link": "",
             "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -746,7 +755,7 @@
           "settings": {
             "heading": "References",
             "icon": "question_mark",
-            "row_content": "<ol><li>Data on file. User test under dermatological control and efficacy assessment, 30 subjects (25-45 years of age), application to face and neck twice daily for 28 days. AlYeDerm Clinic & Research; Badajoz, 2023. ​</li><li>Evaluation of product subjective efficacy. Subjective evaluation: 20 patients (25-60 years old) ; 28 days, 1-2 times daily. Madrid: Zurko Research S.L; 2018. Data on file​.</li><li>Truchuelo MT, Jiminez N, Miguel- Gomez L, Hermosa A, Sanchez-Neila N, Cuevas J Dermatology Research & Practice. 10 women with mild-moderate skin photoaging on hands formulation containing, RetinSphere Technology twice daily for 3 months​.</li></ol>",
+            "row_content": "<ol><li>Data on file. User test under dermatological control and efficacy assessment, 30 subjects (25-45 years of age), application to face and neck twice daily for 28 days. AlYeDerm Clinic & Research; Badajoz, 2023. ​</li><li>User test. Dermatological evaluation of non-comedonicity. 20 subjects (25-45 years of age), application to face and neck once daily for 28 days. AlYeDerm Clinic & Research; Badajoz, 2024. Data on file.</li><li>Tolerance and Efficacy Assessment, 20 subjects with normal to combination skin (35-60 years of age), application to face once daily for 28 days. Subjective Evaluation. CRO: AlYeDerm Clinic & Research, Spain, (2025). Data on file.</li></ol>",
             "page": ""
           }
         }
@@ -825,8 +834,8 @@
     "video_pxURAj",
     "cl_featured_collection_K3bAHf",
     "image_with_text_html_UwaK9a",
-    "image_with_text_html_67cwVE",
     "image_with_text_html_HgWF39",
+    "image_with_text_html_67cwVE",
     "image_with_text_html_eXNQiE",
     "multicolumn_tidgVq",
     "rich_text_jBDxCK",
