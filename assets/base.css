@@ -3692,3 +3692,10 @@ details-disclosure > details {
 .mr-product-item__body-wrapper {
   height: 100%;
 }
+.blockquote-black {
+  flex-direction: column; 
+  color: #121212;
+}
+.blockquote-black em {
+  font-size: 1.1em;
+}
