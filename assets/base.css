@@ -3695,6 +3695,7 @@ details-disclosure > details {
 .blockquote-black {
   flex-direction: column; 
   color: #121212;
+  margin-bottom: 3rem;
 }
 .blockquote-black em {
   font-size: 1.1em;
