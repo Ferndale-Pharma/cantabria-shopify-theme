@@ -146,78 +146,6 @@
         "padding_bottom": 64
       }
     },
-    "multicolumn_7YWUTm": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_pftNDY": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Enodcare_Niacinal_Serum_range_b56eeec0-eb0e-40c2-8f55-1e3e62b02cac.jpg",
-            "title": "Strengthen & repair with AGE BARRIER",
-            "text": "<p>ENDOCARE AGE BARRIER reinforces and restores the skin barrier - the essential foundation for effective skincare and optimal results.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_88MVUN": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ENDOCARE_C_FERULIC_2025-1_f3928210-cbe6-4eda-ba58-591b83d9207a.jpg",
-            "title": "Prevent & correct with RADIANCE",
-            "text": "<p>ENDOCARE RADIANCE delivers targeted antioxidant protection to help defend against pollution and oxidative stress, supporting brighter, healthier-looking skin.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_FtJt6L": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/endocare_renewal_retinoid-intensive-serum_packshot_grey-background_23f71287-726c-4c09-8c3f-fc0cf0510ac8.jpg",
-            "title": "Renew & reverse with RENEWAL",
-            "text": "<p>ENDOCARE RENEWAL supports cellular turnover to actively improve key signs of skin ageing, promoting a smoother, more youthful-looking complexion.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_pqhL7z": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/h360-special-care.jpg",
-            "title": "Protect with HELIOCARE 360°",
-            "text": "<p>No skincare regime is complete without sunscreen. HELIOCARE 360° provides very high-level, full-spectrum defence against UVA, UVB, Visible Light, and Infrared-A.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_pftNDY",
-        "column_88MVUN",
-        "column_FtJt6L",
-        "column_pqhL7z"
-      ],
-      "disabled": true,
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "The ENDOCARE Approach ",
-        "heading_size": "h1",
-        "richtext": "<p><strong>ENDOCARE products are formulated to deliver optimal results when used together.</strong></p><p>The ENDOCARE Approach is built on three dermatologist-aligned pillars that address the key biological drivers of skin ageing: barrier support, antioxidant protection and epidermal renewal.</p>",
-        "narrow_text": true,
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 32,
-        "padding_bottom": 64,
-        "container_id": ""
-      }
-    },
     "multicolumn_html_jkPEd3": {
       "type": "multicolumn-html",
       "blocks": {
@@ -256,7 +184,7 @@
           "settings": {
             "image": "shopify://shop_images/h360-special-care.jpg",
             "title": "",
-            "text": "<h3 class=\"inline-richtext\">Protect with<br>HELIOCARE 360°</h3>\n<p> No skincare regime is complete without sunscreen. HELIOCARE 360° provides very high-level, full-spectrum defence against UVA, UVB, Visible Light, and Infrared-A.</p>",
+            "text": "<h3 class=\"inline-richtext\">Protect with<br>HELIOCARE 360°</h3>\n<p> No skincare regime is complete without sunscreen. HELIOCARE 360° provides very high-level, full-spectrum defence against UVA, UVB, visible light, and infrared-A.</p>",
             "link_label": "",
             "link": ""
           }
@@ -272,6 +200,8 @@
       "settings": {
         "title": "The ENDOCARE Approach",
         "heading_size": "h1",
+        "richtext": "<p><strong>ENDOCARE products are formulated to deliver optimal results when used together.</strong></p><p>The ENDOCARE Approach is built on three dermatologist-aligned pillars that address the key biological drivers of skin ageing: barrier support, antioxidant protection and epidermal renewal.</p>",
+        "narrow_text": true,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
@@ -371,7 +301,6 @@
   },
   "order": [
     "main",
-    "multicolumn_7YWUTm",
     "multicolumn_html_jkPEd3",
     "1725440000dbba4c0d",
     "related-products",
