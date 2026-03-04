@@ -44,7 +44,7 @@
         "buttons_hMa4x9"
       ],
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00074_CantabriaLabs_Endocare_RangeImage_2560x960_a1279e8a-4504-49b2-bf29-9283a50ad685.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00074_V3_CantabriaLabs_Endocare_RangeImage_2560x960_1dbff5b9-1183-4295-a401-76def8108f8f.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -475,6 +475,8 @@
       "settings": {
         "title": "Why choose ENDOCARE?",
         "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "third",
         "image_ratio": "square",
         "columns_desktop": 3,
