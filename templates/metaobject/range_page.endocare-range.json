@@ -295,7 +295,7 @@
         "text_RPAUqp": {
           "type": "text",
           "settings": {
-            "text": "<p>Oxidative stress from UV and pollution is a key driver of dullness, uneven tone and premature skin ageing. Ongoing free radical damage can disrupt skin clarity, contribute to dark spots and accelerate visible photoageing.</p>\n\n<p><b><a href=\"https://cantabrialabs.co.uk/collections/endocare-radiance\" title=\"Discover ENDOCARE RADIANCE products\">ENDOCARE RADIANCE</a></b> combines Vitamin C with Vitamin E, Ferulic Acid and patented EDAFENCE® technology to deliver high-efficacy antioxidant protection, defend against environmental stress and visibly brighten skin for improved clarity and luminosity.</p>\n\n<p><b>Learn more about ENDOCARE RADIANCE C Ferulic Serum Gel’s potent, clinically proven ingredients. In just 28 days, 80% of users saw softer, brighter, more radiant skin, 90% of users saw improved skin elasticity and 86% of users said skin was more nourished, hydrated and plump.<sup>2</sup></b></p>",
+            "text": "<p>Oxidative stress from UV and pollution is a key driver of dullness, uneven tone and premature skin ageing. Ongoing free radical damage can disrupt skin clarity, contribute to dark spots and accelerate visible photoageing.</p>\n\n<p><b><a href=\"https://cantabrialabs.co.uk/collections/endocare-radiance\" title=\"Discover ENDOCARE RADIANCE products\">ENDOCARE RADIANCE</a></b> combines Vitamin C with Vitamin E, Ferulic Acid and patented EDAFENCE® technology to deliver high-efficacy antioxidant protection, defend against environmental stress and visibly brighten skin for improved clarity and luminosity.</p>\n\n<p><b>Learn more about ENDOCARE RADIANCE Vitamin C20 Serum’s potent, clinically proven ingredients. 95% of users reported a brighter more radiant complexion in just 7 days, 95% of users notices a tightening effect immediately after use and 90% said skin feels firmer and plumper after 28 days.<sup>2</sup></b></p>",
             "text_style": "body"
           }
         },
@@ -317,7 +317,7 @@
         "a {color: #000;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/ENDOCARE_C_FERULIC_2025-1.jpg",
+        "image": "shopify://shop_images/endocare-vit-c20-grey.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -757,7 +757,7 @@
           "settings": {
             "heading": "References",
             "icon": "question_mark",
-            "row_content": "<ol><li>Data on file. User test under dermatological control and efficacy assessment, 30 subjects (25-45 years of age), application to face and neck twice daily for 28 days. AlYeDerm Clinic & Research; Badajoz, 2023. ​</li><li>User test. Dermatological evaluation of non-comedonicity. 20 subjects (25-45 years of age), application to face and neck once daily for 28 days. AlYeDerm Clinic & Research; Badajoz, 2024. Data on file.</li><li>Tolerance and Efficacy Assessment, 20 subjects with normal to combination skin (35-60 years of age), application to face once daily for 28 days. Subjective Evaluation. CRO: AlYeDerm Clinic & Research, Spain, (2025). Data on file.</li></ol>",
+            "row_content": "<ol><li>Data on file. User test under dermatological control and efficacy assessment, 30 subjects (25-45 years of age), application to face and neck twice daily for 28 days. AlYeDerm Clinic & Research; Badajoz, 2023. ​</li><li>User Test: Tolerance and Efficacy Assessment, 20 subjects with normal to combination skin (35-60 years of age), application to face once daily for 28 days. Subjective Evaluation. CRO: AlYeDerm Clinic & Research, Spain, (2025). Data on file.</li><li>Tolerance and Efficacy Assessment, 20 subjects with normal to combination skin (35-60 years of age), application to face once daily for 28 days. Subjective Evaluation. CRO: AlYeDerm Clinic & Research, Spain, (2025). Data on file.</li></ol>",
             "page": ""
           }
         }
