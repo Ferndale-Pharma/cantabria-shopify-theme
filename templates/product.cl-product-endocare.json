@@ -55,12 +55,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "bogos_io_free_gift_mix_match_view_xXU7Yk": {
-          "type": "shopify://apps/bogos-io-free-gift/blocks/mix-match-view/0432bba6-720a-4e95-be5a-b868386f7aa6",
-          "settings": {
-            "product": ""
-          }
-        },
         "bogos_io_free_gift_volume_discount_view_QPyXCw": {
           "type": "shopify://apps/bogos-io-free-gift/blocks/volume-discount-view/0432bba6-720a-4e95-be5a-b868386f7aa6",
           "disabled": true,
@@ -77,6 +71,12 @@
         "description_4GfMrB": {
           "type": "description",
           "settings": {}
+        },
+        "bogos_io_free_gift_mix_match_view_xXU7Yk": {
+          "type": "shopify://apps/bogos-io-free-gift/blocks/mix-match-view/0432bba6-720a-4e95-be5a-b868386f7aa6",
+          "settings": {
+            "product": ""
+          }
         },
         "textarea_jUnP9Y": {
           "type": "textarea",
@@ -121,10 +121,10 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "bogos_io_free_gift_mix_match_view_xXU7Yk",
         "bogos_io_free_gift_volume_discount_view_QPyXCw",
         "textarea_6NCbfN",
         "description_4GfMrB",
+        "bogos_io_free_gift_mix_match_view_xXU7Yk",
         "textarea_jUnP9Y",
         "collapsible-row-1",
         "collapsible-row-2",
