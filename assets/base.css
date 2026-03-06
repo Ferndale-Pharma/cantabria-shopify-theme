@@ -3705,3 +3705,6 @@ details-disclosure > details {
   padding-right: 0.5rem;
   font-size: 1.3rem;
 }
+.template-search__results .card__inner.ratio {
+    --ratio-percent: 100% !important;
+}
