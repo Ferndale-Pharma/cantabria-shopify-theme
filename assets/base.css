@@ -3700,3 +3700,8 @@ details-disclosure > details {
 .blockquote-black em {
   font-size: 1.1em;
 }
+.bogos-mix-match-widget-description {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 1.3rem;
+}

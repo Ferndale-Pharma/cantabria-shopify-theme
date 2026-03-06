@@ -43,7 +43,7 @@
       </div>
     {%- endunless -%}
     {% if section.settings.richtext %}
-      <div class="center {% if section.settings.narrow_text == true %}multi-richtext{% endif %} page-width">{{  section.settings.richtext }}</div>
+      <div class="center {% if section.settings.narrow_text == true %}multi-richtext{% endif %}">{{  section.settings.richtext }}</div>
     {% endif %}
     <slider-component class="slider-mobile-gutter">
       <ul
