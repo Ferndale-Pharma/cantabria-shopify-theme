@@ -259,3 +259,6 @@
 		max-width: 78rem;
 	}
 }
+.multi-richtext p:not(:last-child) {
+  margin-bottom: 1rem;
+}
