@@ -3708,3 +3708,55 @@ details-disclosure > details {
 .template-search__results .card__inner.ratio {
     --ratio-percent: 100% !important;
 }
+.table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  min-width: 600px; /* allows horizontal scroll on smaller screens */
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 14px 16px;
+  text-align: left;
+  vertical-align: top;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  border: 1px solid #d9d9d9;
+}
+
+.custom-table th {
+  font-weight: 700;
+}
+
+/* 3 column default */
+.custom-table--3col th,
+.custom-table--3col td {
+  width: 33.333%;
+}
+
+/* 4 column default */
+.custom-table--4col th,
+.custom-table--4col td {
+  width: 25%;
+}
+
+/* Custom 3-column layout for product tables */
+.custom-table--product th:nth-child(1),
+.custom-table--product td:nth-child(1) {
+  width: 25%;
+}
+
+.custom-table--product th:nth-child(2),
+.custom-table--product td:nth-child(2),
+.custom-table--product th:nth-child(3),
+.custom-table--product td:nth-child(3) {
+  width: 37.5%;
+}
