@@ -3734,6 +3734,7 @@ details-disclosure > details {
 
 .custom-table th {
   font-weight: 700;
+  background-color: #f9f9f9;
 }
 
 /* 3 column default */
