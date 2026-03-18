@@ -68,14 +68,14 @@
         "heading_aYcLWa": {
           "type": "heading",
           "settings": {
-            "heading": "No retinol routine is complete without SPF",
+            "heading": "Here Comes the Sun! The HELIOCARE 360° Spring Sale is Here...",
             "heading_size": "h1"
           }
         },
         "text_kyA6LM": {
           "type": "text",
           "settings": {
-            "text": "For a limited time only, receive a <strong>FREE HELIOCARE 360° Age Active</strong> with every order of the new ENDOCARE RENEWAL Retinoid Serums",
+            "text": "<strong>Save 20% on all HELIOCARE 360° Facial Products</strong>",
             "text_style": "subtitle"
           }
         },
@@ -83,7 +83,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now",
-            "button_link_1": "shopify://products/endocare-renewal-retinoid-serum",
+            "button_link_1": "shopify://collections/heliocare",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -92,6 +92,7 @@
         },
         "text_6GfTtr": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "* Terms and conditions apply",
             "text_style": "caption-with-letter-spacing"
@@ -108,7 +109,7 @@
         "@media screen and (max-width: 767px) {.h1 {font-size: 1.9em; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00188_1_CL.co.uk_Retinols_AgeActive_HomepageBanner_Mar26_1.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00190_CantabriaLabs.co.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -439,6 +440,8 @@
       "settings": {
         "title": "Researched and recommended by experts around the world",
         "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -496,6 +499,8 @@
       "settings": {
         "title": "Skincare experts trust Cantabria Labs",
         "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -601,6 +606,8 @@
       "settings": {
         "title": "Our ambassadors",
         "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
@@ -658,6 +665,8 @@
       "settings": {
         "title": "Why choose Cantabria Labs?",
         "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -718,6 +727,8 @@
       "settings": {
         "title": "Innovation and scientific excellence",
         "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -808,6 +819,8 @@
       "settings": {
         "title": "As seen in",
         "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 6,
