@@ -158,6 +158,8 @@
       "settings": {
         "title": "Understanding hyperpigmentation",
         "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -407,45 +409,47 @@
     "multicolumn_GgiLEY": {
       "type": "multicolumn",
       "blocks": {
-        "column_9AaxEe": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/FERN-IMG-00179_CantabriaLabs.co.uk_BlueLight_BlogImage_1080x810_Jan26_1.jpg",
-            "title": "Does blue light make hyperpigmentation worse in winter?",
-            "text": "<p>Learn how blue light exposure in winter can continue to trigger hyperpigmentation and what you can do to protect your skin all year round.<br/></p>",
-            "link_label": "Read article",
-            "link": "shopify://blogs/skincare-guides/does-blue-light-make-hyperpigmentation-worse-in-winter"
-          }
-        },
         "column_mLcXKm": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/hyperpigmentation-blog.jpg",
             "title": "What causes hyperpigmentation & how to treat it effectively",
-            "text": "<p>Explore the science behind why hyperpigmentation develops and how targeted actives like retinol, azelaic acid and antioxidants can improve tone and fade dark patches.</p>",
+            "text": "<p>Learn the science behind why hyperpigmentation develops and how targeted actives like retinol, azelaic acid and antioxidants can improve tone and fade dark patches.</p>",
             "link_label": "Read article",
             "link": "shopify://blogs/skincare-guides/what-causes-hyperpigmentation-how-to-treat-it-effectively"
+          }
+        },
+        "column_9AaxEe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00198_CantabriaLabs_Blog_IngredientsForHyperpigmentation.jpg",
+            "title": "Best ingredients for managing hyperpigmentation",
+            "text": "<p>Discover the most effective skincare ingredients for hyperpigmentation, including retinoids, azelaic acid, vitamin C and brightening technologies.<br/><br/></p>",
+            "link_label": "Read article",
+            "link": "shopify://blogs/skincare-guides/best-ingredients-for-managing-hyperpigmentation"
           }
         },
         "column_8TjmjY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/CL.CO.UK_-_BLOG_BANNER_-_CL-WEB-0121_715bacbd-23d4-4990-aff9-b0aa9153c906.webp",
-            "title": "Daily Sunscreen Spotlight: HELIOCARE 360° Pigment Solution Fluid",
-            "text": "<p>Discover how HELIOCARE 360° Pigment Solution Fluid delivers high-level SPF50+ full-spectrum protection while helping prevent and correct hyperpigmentation with an advanced depigmenting system and subtle tint for a more even complexion. <br/><br/></p>",
+            "image": "shopify://shop_images/FERN-IMG-00199_CantabriaLabs_Blog_NeoretinClinicallyProven.jpg",
+            "title": "Clinically proven ways to help prevent and correct hyperpigmentation",
+            "text": "<p>Explore clinically tested skincare that helps prevent and correct hyperpigmentation, including advanced retinoid and brightening technologies.</p>",
             "link_label": "Read article",
-            "link": "shopify://blogs/skincare-guides/daily-sunscreen-spotlight-heliocare-360-pigment-solution-fluid"
+            "link": "shopify://blogs/skincare-guides/clinically-proven-ways-to-help-prevent-and-correct-hyperpigmentation"
           }
         }
       },
       "block_order": [
-        "column_9AaxEe",
         "column_mLcXKm",
+        "column_9AaxEe",
         "column_8TjmjY"
       ],
       "settings": {
         "title": "Related articles",
         "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
