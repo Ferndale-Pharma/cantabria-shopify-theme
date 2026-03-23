@@ -245,7 +245,7 @@
         "text_FnPaY3": {
           "type": "text",
           "settings": {
-            "text": "<p>The ENDOCARE AGE BARRIER range is designed to actively reinforce skin barrier function, restore hydration and help prevent premature skin ageing. By improving resilience, comfort and elasticity, it visibly enhances overall skin quality while reducing the impact of environmental stressors. Powered by hyaluronic acid, niacinamide and patented EDAFENCE® technology, AGE BARRIER acts as the essential foundation of the ENDOCARE anti-ageing strategy.</p>",
+            "text": "<p>The ENDOCARE AGE BARRIER range is designed to actively reinforce skin barrier function, restore hydration and help prevent premature skin ageing. By improving resilience, comfort and elasticity, it visibly enhances overall skin quality while reducing the impact of environmental stressors. Powered by hyaluronic acid, niacinamide and patented <a href=\"https://cantabrialabs.co.uk/blogs/expert-advice/edafence-technology\" title=\"Learn more about EDAFENCE® technology\">EDAFENCE® technology</a>, AGE BARRIER acts as the essential foundation of the ENDOCARE anti-ageing strategy.</p>",
             "text_style": "body"
           }
         },
@@ -295,7 +295,7 @@
         "text_RPAUqp": {
           "type": "text",
           "settings": {
-            "text": "<p>The ENDOCARE RADIANCE range delivers high-efficacy antioxidant defence to protect against ongoing oxidative stress while actively correcting visible dullness and uneven tone. Powered by Vitamin C, Vitamin E, Ferulic Acid and patented EDAFENCE® technology, it helps strengthen the skin’s defence against environmental aggressors while supporting brightness at a cellular level. The result is clearer, more luminous skin with improved resilience to photo-ageing and future discolouration.</p>",
+            "text": "<p>The ENDOCARE RADIANCE range delivers high-efficacy antioxidant defence to protect against ongoing oxidative stress while actively correcting visible dullness and uneven tone. Powered by Vitamin C, Vitamin E, Ferulic Acid and patented <a href=\"https://cantabrialabs.co.uk/blogs/expert-advice/edafence-technology\" title=\"Learn more about EDAFENCE® technology\">EDAFENCE® technology</a>, it helps strengthen the skin’s defence against environmental aggressors while supporting brightness at a cellular level. The result is clearer, more luminous skin with improved resilience to photo-ageing and future discolouration.</p>",
             "text_style": "body"
           }
         },
@@ -345,7 +345,7 @@
         "text_aE8zB7": {
           "type": "text",
           "settings": {
-            "text": "<p>The ENDOCARE RENEWAL range delivers targeted corrective renewal to visibly refine texture, soften lines and improve skin clarity. Powered by retinoids combined in the NEW patented RetinDuo® technology alongside AHAs and Azelaic Acid, it supports a more efficient skin renewal cycle to enhance smoothness, tone and firmness. Renewal represents the core driver of the ENDOCARE anti-ageing strategy, with optimal results achieved when supported by barrier reinforcement and daily antioxidant protection for sustained, long-term skin health.</p>",
+            "text": "<p>The ENDOCARE RENEWAL range delivers targeted corrective renewal to visibly refine texture, soften lines and improve skin clarity. Powered by retinoids combined in the <strong>NEW patented <a href=\"https://cantabrialabs.co.uk/blogs/expert-advice/retinduo-technology\" title=\"Learn more about RetinDuo® technology\">RetinDuo® technology</a></strong> alongside AHAs and Azelaic Acid, it supports a more efficient skin renewal cycle to enhance smoothness, tone and firmness. Renewal represents the core driver of the ENDOCARE anti-ageing strategy, with optimal results achieved when supported by barrier reinforcement and daily antioxidant protection for sustained, long-term skin health.</p>",
             "text_style": "body"
           }
         },
