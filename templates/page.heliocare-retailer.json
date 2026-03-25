@@ -227,6 +227,8 @@
       "settings": {
         "title": "Fernblock is clinically proven to:",
         "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -366,6 +368,8 @@
       "settings": {
         "title": "A range designed for every skin type",
         "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 6,
@@ -469,6 +473,8 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 4,
@@ -518,6 +524,8 @@
       "settings": {
         "title": "Who should stock HELIOCARE 360°?",
         "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
@@ -561,7 +569,7 @@
           "settings": {
             "image": "shopify://shop_images/CL.CO.UK_-_Icons_-_Speech_Bubble_-_Yellow.png",
             "title": "",
-            "text": "<p><em>“</em>HELIOCARE <em>360° Gel Oil-free SPF50 is one of my personal favourites when it comes to full SPF protection. I regularly recommend the product to patients for everyday use due to its non-greasy formula and suitability for acne prone skin. The extra bonus is the additional protection it provides against HEVL and IR-A.”<br/><br/></em><strong>Dr Anjali Mahto<br/></strong>Dermatologist</p>",
+            "text": "<p><em>“As a dermatologist, I'm passionate about helping people protect and care for their skin long-term. Heliocare's science-led approach and proven formulations make daily sun protection something people can genuinely trust.”<br/><br/></em><strong>Dr Amy Perkins<br/></strong>Speciality Doctor in Dermatology</p>",
             "link_label": "",
             "link": ""
           }
@@ -578,6 +586,8 @@
       "settings": {
         "title": "What professionals say",
         "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -717,6 +727,8 @@
       "settings": {
         "title": "As seen in",
         "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 6,
