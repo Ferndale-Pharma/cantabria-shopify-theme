@@ -345,7 +345,7 @@
         "text_aE8zB7": {
           "type": "text",
           "settings": {
-            "text": "<p>The ENDOCARE RENEWAL range delivers targeted corrective renewal to visibly refine texture, soften lines and improve skin clarity. Powered by retinoids combined in the <strong>NEW patented RetinDuo® technology</strong> alongside AHAs and Azelaic Acid, it supports a more efficient skin renewal cycle to enhance smoothness, tone and firmness. Renewal represents the core driver of the ENDOCARE anti-ageing strategy, with optimal results achieved when supported by barrier reinforcement and daily antioxidant protection for sustained, long-term skin health.</p>",
+            "text": "<p>The ENDOCARE RENEWAL range delivers targeted corrective renewal to visibly refine texture, soften lines and improve skin clarity. Powered by retinoids combined in the <strong><a href=\"https://cantabrialabs.co.uk/blogs/expert-advice/retinduo-technology\" title=\"Learn more about RETINDUO® Technology\">NEW patented RETINDUO® Technology</a></strong> alongside AHAs and Azelaic Acid, it supports a more efficient skin renewal cycle to enhance smoothness, tone and firmness. Renewal represents the core driver of the ENDOCARE anti-ageing strategy, with optimal results achieved when supported by barrier reinforcement and daily antioxidant protection for sustained, long-term skin health.</p>",
             "text_style": "body"
           }
         },
@@ -448,7 +448,7 @@
           "settings": {
             "image": "shopify://shop_images/ENDOCARE_-_INNOVTIVE_FORMULATIONS.png",
             "title": "Powerful technologies & innovative formulations",
-            "text": "<p>Patented technologies, including RetinDuo® advanced retinoid technology  and EDAFENCE® anti-pollution, combined with gold-standard active ingredients for visible results.</p>",
+            "text": "<p>Patented technologies, including RETINDUO® advanced retinoid technology  and EDAFENCE® anti-pollution, combined with gold-standard active ingredients for visible results.</p>",
             "link_label": "",
             "link": ""
           }
@@ -549,10 +549,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/retinduo.jpg",
-            "heading": "RetinDuo® Technology",
+            "heading": "RETINDUO® Technology",
             "heading_size": "h1",
             "subheading": "An exclusive dual-retinoid system that combines pure retinol in microsponges with AOX Tech-encapsulated retinal, supported by a targeted natural booster complex to optimise bioavailability, enhance retinoid stability and deliver powerful yet controlled skin renewal enhancing stability and skin comfort.",
-            "button_label": "",
+            "button_label": "Learn more",
             "link": "shopify://blogs/expert-advice/retinduo-technology",
             "button_style_secondary": true,
             "box_align": "middle-center",
