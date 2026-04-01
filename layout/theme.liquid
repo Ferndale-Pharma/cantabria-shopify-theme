@@ -562,11 +562,6 @@
         while (parent && parent !== document.body) {
           if (parent.classList.contains('scroll-trigger') || parent.classList.contains('animate--slide-in')) {
             parent.classList.remove('scroll-trigger', 'animate--slide-in');
-
-            parent.style.opacity = '1';
-            parent.style.transform = 'none';
-            parent.style.visibility = 'visible';
-
             break;
           }
           parent = parent.parentElement;
