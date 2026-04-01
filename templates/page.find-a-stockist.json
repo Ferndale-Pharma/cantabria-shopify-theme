@@ -276,11 +276,7 @@
         "heading_ypTtcd",
         "button_LTEffh"
       ],
-      "custom_css": [
-        ".rich-text {background: #fff !important; padding-top: 0 !important; padding-bottom: 0 !important;}",
-        ".rich-text__wrapper {max-width: 100%;}",
-        ".rich-text__blocks {margin: 0 auto;}"
-      ],
+      "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
