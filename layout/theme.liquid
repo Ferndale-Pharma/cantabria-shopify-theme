@@ -551,26 +551,5 @@
     </script>
     {% endcomment %}
   {% render 'globo.form.custom' %}
-
-    {% comment %} Roseperl Update code 01 Apr, 2026 {% endcomment %}
-    {% comment %} {% if request.path contains 'find-a-stockist' %}
-      <script>
-        document.addEventListener('DOMContentLoaded', () => {
-          const locator = document.querySelector('#locator-app-block');
-          if (!locator) return;
-
-          let parent = locator.parentElement;
-
-          while (parent && parent !== document.body) {
-            if (parent.classList.contains('scroll-trigger') || parent.classList.contains('animate--slide-in')) {
-              parent.classList.remove('scroll-trigger', 'animate--slide-in');
-              break;
-            }
-            parent = parent.parentElement;
-          }
-        });
-      </script>
-    {% endif %} {% endcomment %}
-    {% comment %} Roseperl end {% endcomment %}
   </body>
 </html>
