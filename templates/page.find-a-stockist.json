@@ -138,6 +138,8 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 5,
@@ -230,6 +232,7 @@
         "text_VBH4Y6",
         "text_Kexpwy"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/image_4.png",
