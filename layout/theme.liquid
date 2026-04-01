@@ -278,18 +278,6 @@
       }
     {% endstyle %}
 
-    <style>
-      #locator-app-block {
-        opacity: 1 !important;
-        transform: none !important;
-      }
-
-      .scroll-trigger.animate--slide-in:has(#locator-app-block) {
-        opacity: 1 !important;
-        transform: none !important;
-      }
-    </style>
-
     {{ 'app.css' | asset_url | stylesheet_tag }}
     {{ 'base.css' | asset_url | stylesheet_tag }}
     <link rel='stylesheet' href='{{ 'component-cart-items.css' | asset_url }}' media='print' onload="this.media='all'">
