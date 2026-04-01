@@ -295,12 +295,31 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_QMHKNC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AZELAIC_AOX_TECH.jpg",
+            "heading": "AOX-TECH",
+            "heading_size": "h1",
+            "subheading": "AOX-TECH is an advanced delivery technology that uses multilamellar nanovesicles to protect, transport and release active ingredients within the skin. It helps support improved penetration, stability and tolerability, allowing formulations to work effectively while maintaining comfort, even in sensitive or compromised skin.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/discover-aox-tech",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_iq8WC9",
         "slide_EH9Kjh",
-        "slide_rNAePz"
+        "slide_rNAePz",
+        "slide_QMHKNC"
       ],
       "custom_css": [
         ".banner__heading {color: #000;}"
