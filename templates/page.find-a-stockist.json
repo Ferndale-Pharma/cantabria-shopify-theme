@@ -187,27 +187,6 @@
         "container_id": ""
       }
     },
-    "1775029757fc78435e": {
-      "type": "apps",
-      "blocks": {
-        "promap_rp_storelocator_page_block_VdUmjM": {
-          "type": "shopify://apps/promap-rp/blocks/storelocator-page-block/acff8fd9-34cc-4a4d-98ed-d7fdb5d3605f",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "promap_rp_storelocator_page_block_VdUmjM"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "1725973593a9ef3b25": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "image_with_text_JbJr8G": {
       "type": "image-with-text",
       "blocks": {
@@ -256,6 +235,21 @@
         "padding_bottom": 64
       }
     },
+    "177502982378af8ea5": {
+      "type": "apps",
+      "blocks": {
+        "promap_rp_storelocator_page_block_WCpJ7x": {
+          "type": "shopify://apps/promap-rp/blocks/storelocator-page-block/acff8fd9-34cc-4a4d-98ed-d7fdb5d3605f",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "promap_rp_storelocator_page_block_WCpJ7x"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "rich_text_fFe8TY": {
       "type": "rich-text",
       "blocks": {
@@ -300,9 +294,8 @@
     "rich_text_FwBakA",
     "multicolumn_8YbeMF",
     "rich_text_UH8FGg",
-    "1775029757fc78435e",
-    "1725973593a9ef3b25",
     "image_with_text_JbJr8G",
+    "177502982378af8ea5",
     "rich_text_fFe8TY"
   ]
 }
