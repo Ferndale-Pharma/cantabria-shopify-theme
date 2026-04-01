@@ -102,7 +102,7 @@
             "corner_styling": "soft",
             "header_text_color": "#165c7d",
             "text_color": "#000000",
-            "card_color": "#F9F9F9",
+            "card_color": "#f9f9f9",
             "stars_color": "#f2a900",
             "arrows_color": "#000000",
             "transition_speed": 5,
@@ -117,11 +117,119 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "rich_text_yf9fd3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LxnicE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_U7cHdG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_mXeBLL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LxnicE",
+        "text_U7cHdG",
+        "button_mXeBLL"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "177504151743358bdc": {
+      "type": "apps",
+      "blocks": {
+        "promap_rp_storelocator_page_block_TcRwUH": {
+          "type": "shopify://apps/promap-rp/blocks/storelocator-page-block/acff8fd9-34cc-4a4d-98ed-d7fdb5d3605f",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "promap_rp_storelocator_page_block_TcRwUH"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_pYtEF7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kBKDMj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_FXMaVD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_yA4EDw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kBKDMj",
+        "text_FXMaVD",
+        "button_yA4EDw"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-c96a5236-5eda-4b29-a1d3-491253493b70",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
     "main",
     "image_banner_rcjzJz",
-    "1771492143d1cbe830"
+    "1771492143d1cbe830",
+    "rich_text_yf9fd3",
+    "177504151743358bdc",
+    "rich_text_pYtEF7"
   ]
 }
