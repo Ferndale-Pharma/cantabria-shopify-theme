@@ -559,13 +559,14 @@
           const locator = document.querySelector('#locator-app-block');
           if (!locator) return;
 
-          let parent = locator.closest('.scroll-trigger');
+          let parent = locator.parentElement;
 
-          if (parent) {
-            parent.classList.remove('scroll-trigger', 'animate--slide-in');
-
-            parent.style.opacity = '1';
-            parent.style.transform = 'none';
+          while (parent && parent !== document.body) {
+            if (parent.classList.contains('scroll-trigger') || parent.classList.contains('animate--slide-in')) {
+              parent.classList.remove('scroll-trigger', 'animate--slide-in');
+              break;
+            }
+            parent = parent.parentElement;
           }
         });
       </script>
