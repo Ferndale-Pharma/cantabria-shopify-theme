@@ -551,6 +551,8 @@
     </script>
     {% endcomment %}
   {% render 'globo.form.custom' %}
+
+    {% comment %} Roseperl Update code 01 Apr, 2026 {% endcomment %}
     {% if request.path contains 'find-a-stockist' %}
       <script>
         document.addEventListener('DOMContentLoaded', () => {
@@ -569,5 +571,6 @@
         });
       </script>
     {% endif %}
+    {% comment %} Roseperl end {% endcomment %}
   </body>
 </html>
