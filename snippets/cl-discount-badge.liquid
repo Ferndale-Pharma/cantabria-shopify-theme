@@ -1,0 +1,35 @@
+<div class="cl-badge-stack">
+
+  {%- if product.tags contains 'new-product' -%}
+    <span class="cl-badge cl-badge--new">&#9733; NEW</span>
+  {%- endif -%}
+
+  {%- if product.tags contains 'facial-sale' -%}
+    <span class="cl-badge cl-badge--discount">20% Off</span>
+  {%- elsif product.tags contains 'pediatrics-sale' -%}
+    <span class="cl-badge cl-badge--discount">20% Off</span>
+  {%- endif -%}
+
+  {%- if product.tags contains 'facial-sale' -%}
+    {%- if product.tags contains 'free-gift-endocare' -%}
+      <span class="cl-badge cl-badge--gift">+ Free Gift worth £40</span>
+    {%- elsif product.tags contains 'free-gift-biretix' -%}
+      <span class="cl-badge cl-badge--gift">+ Free Gift worth £24</span>
+    {%- elsif product.tags contains 'free-gift-heliocare' -%}
+      <span class="cl-badge cl-badge--gift">+ Free Gift worth £32.99</span>
+    {%- elsif product.tags contains 'free-gift-neoretin' -%}
+      <span class="cl-badge cl-badge--gift">+ 50% Discount Offer</span>
+    {%- endif -%}
+  {%- elsif product.tags contains 'free-gift-neoretin' -%}
+    <span class="cl-badge cl-badge--gift">+ 50% Discount Offer</span>
+  {%- elsif product.tags contains 'free-gift-endocare' -%}
+    <span class="cl-badge cl-badge--gift">+ Free Gift worth £54.99</span>
+  {%- elsif product.tags contains 'free-gift-heliocare-pigment' -%}
+    <span class="cl-badge cl-badge--gift">+ 50% Discount Offer</span>
+  {%- elsif product.tags contains 'free-gift-spf' -%}
+    <span class="cl-badge cl-badge--gift">+ Free SPF</span>
+  {%- elsif product.tags contains 'bogshp' -%}
+    <span class="cl-badge cl-badge--gift">Buy One, Get Second Half Price</span>
+  {%- endif -%}
+
+</div>
