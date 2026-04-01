@@ -280,9 +280,10 @@
 
     {% if request.path contains 'find-a-stockist' %}
     <style>
-      .rich-text::before,
-      .rich-text::after {
+      .rich-text__wrapper::before,
+      .rich-text__wrapper::after {
         display: none !important;
+        content: none !important;
       }
     </style>
     {% endif %}
