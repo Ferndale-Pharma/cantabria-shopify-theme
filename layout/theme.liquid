@@ -552,22 +552,27 @@
     {% endcomment %}
   {% render 'globo.form.custom' %}
 
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        const locator = document.querySelector('#locator-app-block');
-        if (!locator) return;
+    {% if request.path contains 'find-a-stockist-uk' %}
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const locator = document.querySelector('#locator-app-block');
+          if (!locator) return;
 
-        let parent = locator.parentElement;
+          let parent = locator.parentElement;
 
-        while (parent && parent !== document.body) {
-          if (parent.classList.contains('scroll-trigger') || parent.classList.contains('animate--slide-in')) {
-            parent.classList.remove('scroll-trigger', 'animate--slide-in');
-            break;
+          while (parent && parent !== document.body) {
+            if (
+              parent.classList.contains('scroll-trigger') ||
+              parent.classList.contains('animate--slide-in')
+            ) {
+              parent.classList.remove('scroll-trigger', 'animate--slide-in');
+              break;
+            }
+            parent = parent.parentElement;
           }
-          parent = parent.parentElement;
-        }
-      });
-    </script>
+        });
+      </script>
+    {% endif %}
 
   </body>
 </html>
