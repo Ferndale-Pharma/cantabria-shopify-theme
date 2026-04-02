@@ -640,5 +640,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "/* Store Locator fix - 2026-04-02 */ #scasl-app-container {overflow: hidden; }"
+    ]
   }
 }
