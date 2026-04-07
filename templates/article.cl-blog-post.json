@@ -21,16 +21,14 @@
         },
         "content": {
           "type": "content",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "title",
         "content"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "related_article_products_pTftL7": {
       "type": "related-article-products",
@@ -55,6 +53,16 @@
         "swipe_on_mobile": true,
         "padding_top": 32,
         "padding_bottom": 32
+      }
+    },
+    "custom_liquid_KqfgcQ": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% if article.metafields.custom.faqs %}\n<section class=\"article-template\">\n<div class=\"rich-text__wrapper rich-text__wrapper--center page-width page-width--narrow\">\n<div class=\"rich-text__blocks\">\n{{ article.metafields.custom.faqs | metafield_tag }}\n</div>\n</div>\n</section>\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "cl_featured_blog_nfwBkM": {
@@ -91,8 +99,7 @@
         },
         "email_form_M4y7GW": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -111,6 +118,7 @@
   "order": [
     "main",
     "related_article_products_pTftL7",
+    "custom_liquid_KqfgcQ",
     "cl_featured_blog_nfwBkM",
     "newsletter_iPBtE9"
   ]
