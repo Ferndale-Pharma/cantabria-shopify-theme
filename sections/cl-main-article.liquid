@@ -62,7 +62,18 @@
             {{ article.title | escape }}
           </h1>
           
-          <span class="twcss-text-lg twcss-italic">Published on {{ article.published_at |  date: "%d %B  %Y" }}</span>
+          {% assign published_ts = article.published_at | date: '%s' %}
+          {% assign updated_ts = article.updated_at | date: '%s' %}
+
+          {% assign diff_seconds = updated_ts | minus: published_ts %}
+          {% assign three_months_seconds = 7776000 %}
+
+          {% if diff_seconds > three_months_seconds %}
+            <span class="twcss-text-lg twcss-italic">First published on {{ article.published_at |  date: "%d %B  %Y" }}</span>
+            <span class="twcss-text-lg twcss-italic">Updated on {{ article.updated_at |  date: "%d %B  %Y" }}</span>
+          {% else %}
+            <span class="twcss-text-lg twcss-italic">Published on {{ article.published_at |  date: "%d %B  %Y" }}</span>
+          {% endif %}
             <div class="twcss-flex twcss-gap-4 twcss-max-w-[320px] twcss-mb-6 twcss-mt-6 twcss-text-[#666] twcss-items-center  twcss-pr-2">
               <div>
                 {{ article.metafields.blog_post.author.value.image | image_url: width: 80 | image_tag }}
