@@ -69,7 +69,7 @@
           {% assign three_months_seconds = 7776000 %}
 
           {% if diff_seconds > three_months_seconds %}
-            <span class="twcss-text-lg twcss-italic">First published on {{ article.published_at |  date: "%d %B  %Y" }}</span>
+            <span class="twcss-text-lg twcss-italic">First published on {{ article.published_at |  date: "%d %B  %Y" }}</span><br>
             <span class="twcss-text-lg twcss-italic">Updated on {{ article.updated_at |  date: "%d %B  %Y" }}</span>
           {% else %}
             <span class="twcss-text-lg twcss-italic">Published on {{ article.published_at |  date: "%d %B  %Y" }}</span>
