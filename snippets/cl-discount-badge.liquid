@@ -10,6 +10,10 @@
     <span class="cl-badge cl-badge--discount">20% Off</span>
   {%- endif -%}
 
+  {%- if product.tags contains 'endocare-basket-builder' -%}
+    <span class="cl-badge cl-badge--discount">Save up to 30%</span>
+  {%- endif -%}
+
   {%- if product.tags contains 'facial-sale' -%}
     {%- if product.tags contains 'free-gift-endocare' -%}
       <span class="cl-badge cl-badge--gift">+ Free Gift worth £40</span>
