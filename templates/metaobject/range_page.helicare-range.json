@@ -114,14 +114,14 @@
         "heading_ENr7qe": {
           "type": "heading",
           "settings": {
-            "heading": "Protect Your Little Ones with HELIOCARE 360° - 20% Off Selected Pediatrics and Family Products!",
+            "heading": "20% Off All HELIOCARE 360° Facial SPF",
             "heading_size": "h2"
           }
         },
         "text_HMQBJW": {
           "type": "text",
           "settings": {
-            "text": "<p>Gentle sun protection for delicate skin, trusted by parents and dermatologists alike.<br/><br/> <a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>Offer ends 12:00 1st September 2025 - Terms & Conditions apply.</em></a></p>"
+            "text": "<p><strong>Spring into Smarter Sun Protection with HELIOCARE 360°</strong><br/><br/> <a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>Offer ends 12:00 30th April 2026 - Terms & Conditions apply.</em></a></p>"
           }
         },
         "button_gGdyxW": {
@@ -141,7 +141,6 @@
         "text_HMQBJW",
         "button_gGdyxW"
       ],
-      "disabled": true,
       "custom_css": [
         "p > a {color: #121212;}",
         "h2 {color: #f2a900;}"
@@ -337,6 +336,8 @@
       "settings": {
         "title": "Why choose HELIOCARE 360°?",
         "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 4,
@@ -471,6 +472,8 @@
       "settings": {
         "title": "Fernblock is clinically proven to:",
         "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "third",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -658,6 +661,8 @@
       "settings": {
         "title": "Personalised sun protection for everyone, for every day",
         "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 6,
@@ -1140,6 +1145,8 @@
       "settings": {
         "title": "As seen in",
         "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 6,
@@ -1290,6 +1297,8 @@
       "settings": {
         "title": "Stockists and partners",
         "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 5,
