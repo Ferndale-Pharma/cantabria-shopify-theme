@@ -61,7 +61,7 @@
           <h1 class="h1" >
             {{ article.title | escape }}
           </h1>
-          
+          {% comment %}
           {% assign published_ts = article.published_at | date: '%s' %}
           {% assign updated_ts = article.updated_at | date: '%s' %}
 
@@ -74,6 +74,8 @@
           {% else %}
             <span class="twcss-text-lg twcss-italic">Published on {{ article.published_at |  date: "%d %B  %Y" }}</span>
           {% endif %}
+           {% endcomment %}
+            <span class="twcss-text-lg twcss-italic">Published on {{ article.published_at |  date: "%d %B  %Y" }}</span>
             <div class="twcss-flex twcss-gap-4 twcss-max-w-[320px] twcss-mb-6 twcss-mt-6 twcss-text-[#666] twcss-items-center  twcss-pr-2">
               <div>
                 {{ article.metafields.blog_post.author.value.image | image_url: width: 80 | image_tag }}
