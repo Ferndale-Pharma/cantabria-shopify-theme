@@ -78,12 +78,6 @@
           "type": "description",
           "settings": {}
         },
-        "bogos_io_free_gift_mix_match_view_xXU7Yk": {
-          "type": "shopify://apps/bogos-io-free-gift/blocks/mix-match-view/0432bba6-720a-4e95-be5a-b868386f7aa6",
-          "settings": {
-            "product": ""
-          }
-        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
@@ -110,6 +104,12 @@
             "content": "<h3>Key Ingredients</h3>",
             "all_ingredients": "<p>{{ product.metafields.custom.all_ingredients | metafield_tag }}</p>"
           }
+        },
+        "bogos_io_free_gift_mix_match_view_xXU7Yk": {
+          "type": "shopify://apps/bogos-io-free-gift/blocks/mix-match-view/0432bba6-720a-4e95-be5a-b868386f7aa6",
+          "settings": {
+            "product": ""
+          }
         }
       },
       "block_order": [
@@ -125,10 +125,10 @@
         "bogos_io_free_gift_volume_discount_view_QPyXCw",
         "textarea_jUnP9Y",
         "description_4GfMrB",
-        "bogos_io_free_gift_mix_match_view_xXU7Yk",
         "collapsible-row-1",
         "collapsible-row-2",
-        "ingredients_tab_4mt9Wd"
+        "ingredients_tab_4mt9Wd",
+        "bogos_io_free_gift_mix_match_view_xXU7Yk"
       ],
       "settings": {
         "enable_sticky_info": true,
