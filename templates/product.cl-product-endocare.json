@@ -27,6 +27,12 @@
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
+        "custom_liquid_iRH7Wp": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"#bogos-mix-match-view\">See how you can save up to 30% ↓</a>"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -116,6 +122,7 @@
         "title",
         "text_txweDz",
         "judge_me_reviews_preview_badge_fmp8CP",
+        "custom_liquid_iRH7Wp",
         "price",
         "joy_loyalty_program_joy_points_calculator_block_3E4En6",
         "variant_picker",
