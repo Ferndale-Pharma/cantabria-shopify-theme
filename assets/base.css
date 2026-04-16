@@ -3763,5 +3763,5 @@ details-disclosure > details {
   width: 37.5%;
 }
 .bogos-mix-match-widget {
-  border-radius: 0;
+  border-radius: 0!important;
 }
