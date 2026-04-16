@@ -3762,3 +3762,6 @@ details-disclosure > details {
 .custom-table--product td:nth-child(3) {
   width: 37.5%;
 }
+.bogos-mix-match-widget {
+  border-radius: 0;
+}
