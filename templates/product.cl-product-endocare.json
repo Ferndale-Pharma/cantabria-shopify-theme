@@ -30,7 +30,7 @@
         "custom_liquid_iRH7Wp": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"#bogos-mix-match-view\">See how you can save up to 30% ↓</a>"
+            "custom_liquid": "<a href=\"#bogos-mix-match-view\" style=\"font-weight: bold;\">See how you can save up to 30% ↓</a>"
           }
         },
         "price": {
