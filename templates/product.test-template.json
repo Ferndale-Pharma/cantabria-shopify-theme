@@ -157,9 +157,9 @@
         "padding_bottom": 12
       }
     },
-    "video_BwC6jM": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
+    "video_metafield_43XXKt": {
+      "type": "video-metafield",
+      "name": "Video Metafield",
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -308,7 +308,7 @@
   },
   "order": [
     "main",
-    "video_BwC6jM",
+    "video_metafield_43XXKt",
     "1725440000dbba4c0d",
     "image_banner_WXcyQc",
     "related-products",
