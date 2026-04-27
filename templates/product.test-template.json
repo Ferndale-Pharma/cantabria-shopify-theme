@@ -157,6 +157,22 @@
         "padding_bottom": 12
       }
     },
+    "video_BwC6jM": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "{{ product.metafields.custom.product_video.value }}",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "1725440000dbba4c0d": {
       "type": "apps",
       "blocks": {
@@ -292,6 +308,7 @@
   },
   "order": [
     "main",
+    "video_BwC6jM",
     "1725440000dbba4c0d",
     "image_banner_WXcyQc",
     "related-products",
