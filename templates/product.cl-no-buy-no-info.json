@@ -86,6 +86,7 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Key information",
             "icon": "none",
@@ -95,6 +96,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "How to use",
             "icon": "none",
@@ -104,6 +106,7 @@
         },
         "ingredients_tab_4mt9Wd": {
           "type": "ingredients_tab",
+          "disabled": true,
           "settings": {
             "heading": "Ingredients",
             "icon": "none",
