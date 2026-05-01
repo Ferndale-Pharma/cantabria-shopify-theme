@@ -68,14 +68,14 @@
         "heading_aYcLWa": {
           "type": "heading",
           "settings": {
-            "heading": "Save 20% on All HELIOCARE 360° Facial Products",
+            "heading": "<strong>20% OFF ALL HELIOCARE 360°</strong>",
             "heading_size": "h1"
           }
         },
         "text_kyA6LM": {
           "type": "text",
           "settings": {
-            "text": "<strong>Spring into Smarter Sun Protection</strong>",
+            "text": "<strong>This Skin Cancer Awareness Month, prevention takes centre stage. HELIOCARE 360° delivers advanced, full-spectrum photoprotection & goes beyond sunscreen to protect, repair and support long-term skin health.</strong>",
             "text_style": "subtitle"
           }
         },
@@ -109,11 +109,11 @@
         "@media screen and (max-width: 767px) {.h1 {font-size: 1.9em; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00190_CantabriaLabs.co.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00232_CantabriaLabs_20_offHeliocare_FreeTote_HomepageBanner_May26.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "scheme-1",
         "image_behavior": "none",
