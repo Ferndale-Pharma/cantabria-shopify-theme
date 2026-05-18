@@ -17,15 +17,8 @@
         "announcement_xknnKy": {
           "type": "announcement",
           "settings": {
-            "text": "20% Off HELIOCARE 360° & Receive A Free Advanced Gel Body SPF50 100ml With All HELIOCARE Orders",
+            "text": "20% Off HELIOCARE 360° & Receive A Free Cantabria Labs Tote Bag On All Orders Over £40",
             "link": "shopify://collections/heliocare"
-          }
-        },
-        "announcement_36xXhr": {
-          "type": "announcement",
-          "settings": {
-            "text": "Receive A Free Cantabria Labs Tote Bag On All Orders Over £40",
-            "link": "shopify://collections/all"
           }
         },
         "announcement_H6wiei": {
@@ -45,7 +38,6 @@
       },
       "block_order": [
         "announcement_xknnKy",
-        "announcement_36xXhr",
         "announcement_H6wiei",
         "announcement_dP3e9T"
       ],

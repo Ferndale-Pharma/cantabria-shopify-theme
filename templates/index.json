@@ -75,7 +75,7 @@
         "text_kyA6LM": {
           "type": "text",
           "settings": {
-            "text": "<strong>This Sun Awareness Week, discover advanced, full-spectrum daily photoprotection. Plus, receive a FREE HELIOCARE 360° Advanced Gel Body 100ml with any HELIOCARE purchase.</strong>",
+            "text": "<strong>This Skin Cancer Awareness Month, prevention takes centre stage. HELIOCARE 360° delivers advanced, full-spectrum photoprotection & goes beyond sunscreen to protect, repair and support long-term skin health.</strong>",
             "text_style": "subtitle"
           }
         },
@@ -109,7 +109,7 @@
         "@media screen and (max-width: 767px) {.h1 {font-size: 1.9em; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00235_CL_FreeAdvancedGel_HomepageBanner_May26_NEW_1_2.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00232_CantabriaLabs_20_offHeliocare_FreeTote_HomepageBanner_May26_2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
