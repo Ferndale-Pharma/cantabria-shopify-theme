@@ -160,7 +160,7 @@
       "disabled": true,
       "name": "Image Banner v2",
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00246_CL.co.uk_TowelGWP_HomepageBanner_2560x1280_May26.webp",
+        "image": "shopify://shop_images/FERN-IMG-00246.webp",
         "mobile_image": "shopify://shop_images/FERN-IMG-00246_CL.co.uk_TowelGWP_HomepageBanner_1080x1080_May26_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
