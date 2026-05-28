@@ -123,6 +123,57 @@
         "is_heading": false
       }
     },
+    "image_banner_separate_Ua6HP4": {
+      "type": "image-banner-separate",
+      "blocks": {
+        "heading_jygfEA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_6WMLKz": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_PMtHzL": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify://collections/heliocare",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_jygfEA",
+        "text_6WMLKz",
+        "buttons_PMtHzL"
+      ],
+      "disabled": true,
+      "name": "Image Banner v2",
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00246_CL.co.uk_TowelGWP_HomepageBanner_2000x1000_May26_1.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00246_CL.co.uk_TowelGWP_HomepageBanner_1080x1080_May26_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": false
+      }
+    },
     "rich_text_amGfhA": {
       "type": "rich-text",
       "blocks": {
@@ -873,6 +924,7 @@
   "order": [
     "image_banner",
     "image_banner_Gzhfhh",
+    "image_banner_separate_Ua6HP4",
     "rich_text_amGfhA",
     "cl_featured_collection_rx4MFi",
     "cl_collage_ranges_UM4mMA",
