@@ -14,11 +14,13 @@
     <span class="cl-badge cl-badge--discount">Save up to 30%</span>
   {%- endif -%}
 
+  {%- if product.tags contains 'biretix-sale' -%}
+    <span class="cl-badge cl-badge--discount">25% Off</span>
+  {%- endif -%}
+
   {%- if product.tags contains 'facial-sale' -%}
     {%- if product.tags contains 'free-gift-endocare' -%}
       <span class="cl-badge cl-badge--gift">+ Free Gift worth £40</span>
-    {%- elsif product.tags contains 'free-gift-biretix' -%}
-      <span class="cl-badge cl-badge--gift">+ Free Gift worth £24</span>
     {%- elsif product.tags contains 'free-gift-heliocare' -%}
       <span class="cl-badge cl-badge--gift">+ Free Gift worth £32.99</span>
     {%- elsif product.tags contains 'free-gift-neoretin' -%}
@@ -38,6 +40,10 @@
 
   {%- if product.tags contains 'free-body-spf' -%}
     <span class="cl-badge cl-badge--gift">+ Free Body SPF</span>
+  {%- endif -%}
+
+  {%- if product.tags contains 'free-gift-biretix' -%}
+    <span class="cl-badge cl-badge--gift">+ Free Gift worth £26</span>
   {%- endif -%}
 
 </div>
