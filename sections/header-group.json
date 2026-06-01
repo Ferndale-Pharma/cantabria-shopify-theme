@@ -21,6 +21,13 @@
             "link": "shopify://collections/heliocare"
           }
         },
+        "announcement_bEigCT": {
+          "type": "announcement",
+          "settings": {
+            "text": "25% OFF All BIRETIX – PLUS a FREE Oil Control Solution worth £26 With All BIRETIX Orders",
+            "link": "shopify://collections/biretix"
+          }
+        },
         "announcement_H6wiei": {
           "type": "announcement",
           "settings": {
@@ -38,6 +45,7 @@
       },
       "block_order": [
         "announcement_xknnKy",
+        "announcement_bEigCT",
         "announcement_H6wiei",
         "announcement_dP3e9T"
       ],
