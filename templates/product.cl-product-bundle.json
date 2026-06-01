@@ -61,15 +61,15 @@
             "text_area": "<p>{{ product.metafields.custom.form_shortcode.value }}</p>"
           }
         },
-        "description_4GfMrB": {
-          "type": "description",
-          "settings": {}
-        },
         "textarea_JJyhGD": {
           "type": "textarea",
           "settings": {
             "text_area": "<p>{{ product.metafields.custom.product_offer_text.value }}</p>"
           }
+        },
+        "description_4GfMrB": {
+          "type": "description",
+          "settings": {}
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
@@ -109,8 +109,8 @@
         "quantity_selector",
         "buy_buttons",
         "textarea_qfmAHK",
-        "description_4GfMrB",
         "textarea_JJyhGD",
+        "description_4GfMrB",
         "collapsible-row-1",
         "collapsible-row-2",
         "ingredients_tab_4mt9Wd"
@@ -138,7 +138,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
-            "max_width": 1200
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
           }
         }
       },
