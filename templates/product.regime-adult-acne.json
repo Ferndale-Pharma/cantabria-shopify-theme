@@ -139,6 +139,76 @@
         "padding_bottom": 64
       }
     },
+    "multicolumn_html_8Lf8La": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_YcaqAH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/biretix-cleanser_9aed192a-483d-4739-bd99-7ea2e7b58fba.jpg",
+            "title": "",
+            "text": "<h3 class=\"inline-richtext\">Purify with<br>BIRETIX Cleanser</h3>\n<p>Cleansing is an essential first step in any acne-prone skincare regime. BIRETIX Cleanser helps remove excess oil, impurities and daily build-up without disrupting the skin barrier, leaving skin feeling balanced, refreshed and prepared for the next steps in your skincare regime. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RDGjDK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/double-correction.jpg",
+            "title": "",
+            "text": "<h3 class=\"inline-richtext\">Treat with<br>BIRETIX Double Correction</h3>\n<p>BIRETIX Double Correction Serum is formulated to help reduce visible blemishes while supporting post-blemish marks, uneven skin texture and excess oil helping to improve overall skin clarity in just 14 days*. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kYeG9m": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hydramat.jpg",
+            "title": "",
+            "text": "<h3 class=\"inline-richtext\">Care with<br>BIRETIX Hydramat Fluid</h3>\n<p>Hydration and barrier support are essential for adult acne-prone skin. Biretix Hydramat helps balance excess oil while delivering lightweight hydration to support skin comfort, sensitivity and overall skin health. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JcCKQT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/acnimat.jpg",
+            "title": "",
+            "text": "<h3 class=\"inline-richtext\">Protect with<br>HELIOCARE 360° Acnimat</h3>\n<p>No acne-prone skincare regime is complete without daily sun protection. HELIOCARE 360° Acnimat provides very high-level full-spectrum defence against UVA, UVB, visible light and infrared-A, while helping to control shine with a mattifying finish ideal for oily and blemish-prone skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_YcaqAH",
+        "column_RDGjDK",
+        "column_kYeG9m",
+        "column_JcCKQT"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "title": "Adult Acne-Prone Skin Regime",
+        "heading_size": "h1",
+        "richtext": "<p>A complete 3-step daily regime, designed to purify,treat and care for adult acne-prone skin. </p>",
+        "narrow_text": true,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 64
+      }
+    },
     "1725440000dbba4c0d": {
       "type": "apps",
       "blocks": {
@@ -230,6 +300,7 @@
   },
   "order": [
     "main",
+    "multicolumn_html_8Lf8La",
     "1725440000dbba4c0d",
     "related-products",
     "1725375417ea1f4d2f",
