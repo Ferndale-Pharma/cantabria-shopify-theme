@@ -16,8 +16,33 @@
         "padding_bottom": 28
       }
     },
+    "rich_text_EDj4rP": {
+      "type": "rich-text",
+      "blocks": {
+        "text_qFMxpb": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>A brand new ordering platform will be launching very soon!</strong></h3><p><strong>In the meantime, please can you contact the Customer Service Team customerservice@ferndalepharma.co.uk to place any orders or for any other queries.</strong><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_qFMxpb"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
     "custom_liquid_Kg6Hex": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/250973499905372\"></script>",
         "color_scheme": "",
@@ -28,6 +53,7 @@
   },
   "order": [
     "main",
+    "rich_text_EDj4rP",
     "custom_liquid_Kg6Hex"
   ]
 }
