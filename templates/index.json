@@ -105,6 +105,7 @@
         "buttons_RkjPdk",
         "text_6GfTtr"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 767px) {.h1 {font-size: 1.9em; }}"
       ],
@@ -129,14 +130,14 @@
         "heading_jygfEA": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "<strong>Get Ready for a Summer Without Compromise... 20% OFF ALL HELIOCARE</strong>",
             "heading_size": "h1"
           }
         },
         "text_6WMLKz": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "<strong>Advanced, high-level, full-spectrum photoprotection that goes beyond sunscreen to protect, repair and support long-term skin health. Plus get a FREE Heliocare Beach Towel when you spend over £40 on Heliocare</strong>",
             "text_style": "body"
           }
         },
@@ -157,11 +158,10 @@
         "text_6WMLKz",
         "buttons_PMtHzL"
       ],
-      "disabled": true,
       "name": "Image Banner v2",
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00246.webp",
-        "mobile_image": "shopify://shop_images/FERN-IMG-00246_CL.co.uk_TowelGWP_HomepageBanner_1080x1080_May26_1.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00246_-_DESKTOP_1.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00246_-_MOBILE_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
