@@ -68,15 +68,15 @@
             "text_area": "<p>{{ product.metafields.custom.form_shortcode.value }}</p>"
           }
         },
-        "description_4GfMrB": {
-          "type": "description",
-          "settings": {}
-        },
         "textarea_jUnP9Y": {
           "type": "textarea",
           "settings": {
             "text_area": "<p>{{ product.metafields.custom.product_offer_text.value }}</p>"
           }
+        },
+        "description_4GfMrB": {
+          "type": "description",
+          "settings": {}
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
@@ -117,8 +117,8 @@
         "buy_buttons",
         "bogos_io_free_gift_volume_discount_view_QPyXCw",
         "textarea_6NCbfN",
-        "description_4GfMrB",
         "textarea_jUnP9Y",
+        "description_4GfMrB",
         "collapsible-row-1",
         "collapsible-row-2",
         "ingredients_tab_4mt9Wd"
@@ -155,9 +155,9 @@
         "column_RDGjDK": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/double-correction.jpg",
+            "image": "shopify://shop_images/tri-active.jpg",
             "title": "",
-            "text": "<h3 class=\"inline-richtext\">Treat with<br>BIRETIX Double Correction</h3>\n<p>BIRETIX Double Correction Serum is formulated to help reduce visible blemishes while supporting post-blemish marks, uneven skin texture and excess oil helping to improve overall skin clarity in just 14 days*. </p>",
+            "text": "<h3 class=\"inline-richtext\">Treat with<br>BIRETIX Tri-Active Gel</h3>\n<p>BIRETIX Tri-Active is a targeted treatment serum clinically proven to reduce blackheads by 61% and blemishes by 76% in just 28 days*, while helping to control oil and sebum production.  </p>",
             "link_label": "",
             "link": ""
           }
@@ -191,9 +191,9 @@
       ],
       "name": "Multicolumn HTML",
       "settings": {
-        "title": "Adult Acne-Prone Skin Regime",
+        "title": "Adolescent or Persistent Acne-Prone Skin Regime",
         "heading_size": "h1",
-        "richtext": "<p>A complete 3-step daily regime, designed to purify,treat and care for adult acne-prone skin. </p>",
+        "richtext": "<p>A complete 3-step daily regime, designed to purify, treat and care for persistent or adolescent acne-prone skin. </p>",
         "narrow_text": true,
         "image_width": "full",
         "image_ratio": "adapt",
