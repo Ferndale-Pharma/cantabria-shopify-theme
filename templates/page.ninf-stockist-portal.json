@@ -30,7 +30,7 @@
         "text_U3jr8a": {
           "type": "text",
           "settings": {
-            "text": "<p>Here you’ll find everything you need to support your success – from clinical training and marketing resources to convenient stock ordering, all designed to help you grow with confidence.<br/></p>"
+            "text": "<p>Here you’ll find everything you need to support your success – from clinical training and marketing resources to convenient stock ordering, all designed to help you grow with confidence.</p><p><strong>A brand new ordering platform will be launching very soon!</strong></p><p>In the meantime, please can you contact the Customer Service Team customerservice@ferndalepharma.co.uk to place any orders or for any other queries.<br/></p>"
           }
         }
       },
@@ -54,6 +54,7 @@
       "blocks": {
         "column_RG8ahK": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/cl-mixed.jpg",
             "title": "Order Form",
@@ -91,9 +92,11 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
