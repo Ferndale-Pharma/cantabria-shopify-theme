@@ -1,0 +1,310 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "cl-main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_txweDz": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.size.value }}",
+            "text_style": "body"
+          }
+        },
+        "judge_me_reviews_preview_badge_fmp8CP": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "joy_loyalty_program_joy_points_calculator_block_3E4En6": {
+          "type": "shopify://apps/joy-loyalty-program/blocks/joy-points-calculator-block/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
+          "settings": {
+            "points_calculator_alignment": "left"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "square"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "bogos_io_free_gift_volume_discount_view_QPyXCw": {
+          "type": "shopify://apps/bogos-io-free-gift/blocks/volume-discount-view/0432bba6-720a-4e95-be5a-b868386f7aa6",
+          "disabled": true,
+          "settings": {
+            "product": ""
+          }
+        },
+        "textarea_6NCbfN": {
+          "type": "textarea",
+          "settings": {
+            "text_area": "<p>{{ product.metafields.custom.form_shortcode.value }}</p>"
+          }
+        },
+        "textarea_jUnP9Y": {
+          "type": "textarea",
+          "settings": {
+            "text_area": "<p>{{ product.metafields.custom.product_offer_text.value }}</p>"
+          }
+        },
+        "description_4GfMrB": {
+          "type": "description",
+          "settings": {}
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Key information",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.long_description | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to use",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.how_to_use | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "ingredients_tab_4mt9Wd": {
+          "type": "ingredients_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "none",
+            "content": "<h3>Key Ingredients</h3>",
+            "all_ingredients": "<p>{{ product.metafields.custom.all_ingredients | metafield_tag }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_txweDz",
+        "judge_me_reviews_preview_badge_fmp8CP",
+        "price",
+        "joy_loyalty_program_joy_points_calculator_block_3E4En6",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "bogos_io_free_gift_volume_discount_view_QPyXCw",
+        "textarea_6NCbfN",
+        "textarea_jUnP9Y",
+        "description_4GfMrB",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "ingredients_tab_4mt9Wd"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 32,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_html_8Lf8La": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_YcaqAH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/biretix-cleanser_9aed192a-483d-4739-bd99-7ea2e7b58fba.jpg",
+            "title": "",
+            "text": "<h3 class=\"inline-richtext\">Purify with<br>BIRETIX Cleanser</h3>\n<p>Cleansing is an essential first step in any acne-prone skincare regime. BIRETIX Cleanser helps remove excess oil, impurities and daily build-up without disrupting the skin barrier, leaving skin feeling balanced, refreshed and prepared for the next steps in your skincare regime. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RDGjDK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/double-correction.jpg",
+            "title": "",
+            "text": "<h3 class=\"inline-richtext\">Treat with<br>BIRETIX Double Correction</h3>\n<p>BIRETIX Double Correction Serum is formulated to help reduce visible blemishes while supporting post-blemish marks, uneven skin texture and excess oil helping to improve overall skin clarity in just 14 days*. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kYeG9m": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hydramat.jpg",
+            "title": "",
+            "text": "<h3 class=\"inline-richtext\">Care with<br>BIRETIX Hydramat Fluid</h3>\n<p>Hydration and barrier support are essential for adult acne-prone skin. Biretix Hydramat helps balance excess oil while delivering lightweight hydration to support skin comfort, sensitivity and overall skin health. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JcCKQT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/acnimat.jpg",
+            "title": "",
+            "text": "<h3 class=\"inline-richtext\">Protect with<br>HELIOCARE 360° Acnimat</h3>\n<p>No acne-prone skincare regime is complete without daily sun protection. HELIOCARE 360° Acnimat provides very high-level full-spectrum defence against UVA, UVB, visible light and infrared-A, while helping to control shine with a mattifying finish ideal for oily and blemish-prone skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_YcaqAH",
+        "column_RDGjDK",
+        "column_kYeG9m",
+        "column_JcCKQT"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "title": "Adult Acne-Prone Skin Regime",
+        "heading_size": "h1",
+        "richtext": "<p>A complete 3-step daily regime, designed to purify, treat and care for adult acne-prone skin. </p>",
+        "narrow_text": true,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 64
+      }
+    },
+    "1725440000dbba4c0d": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_D8HWxR": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_D8HWxR"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "cl-related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "text": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "1725375417ea1f4d2f": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "custom_liquid_9RgfFT": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"rich-text content-container color-scheme-1 gradient rich-text--full-width content-container--full-width\">\n<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\"><p style=\"font-size:0.7em; text-align:left; padding-bottom: 64px;\">{{ product.metafields.custom.references.value }}</p>\n</div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "newsletter_VckrPM": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_GMYdP6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get 10% off your first order",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_rpRJba": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join the Cantabria Labs community for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
+          }
+        },
+        "email_form_WnUWfi": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_GMYdP6",
+        "paragraph_rpRJba",
+        "email_form_WnUWfi"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn_html_8Lf8La",
+    "1725440000dbba4c0d",
+    "related-products",
+    "1725375417ea1f4d2f",
+    "custom_liquid_9RgfFT",
+    "newsletter_VckrPM"
+  ]
+}
