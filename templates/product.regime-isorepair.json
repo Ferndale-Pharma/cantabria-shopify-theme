@@ -145,9 +145,9 @@
         "column_YcaqAH": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/biretix-cleanser_9aed192a-483d-4739-bd99-7ea2e7b58fba.jpg",
+            "image": "shopify://shop_images/isorepair-cleanser.jpg",
             "title": "",
-            "text": "<h3 class=\"inline-richtext\">Purify with<br>BIRETIX Cleanser</h3>\n<p>Cleansing is an essential first step in any acne-prone skincare regime. BIRETIX Cleanser helps remove excess oil, impurities and daily build-up without disrupting the skin barrier, leaving skin feeling balanced, refreshed and prepared for the next steps in your skincare regime. </p>",
+            "text": "<h3 class=\"inline-richtext\">Purify with<br>Isorepair Cleanser</h3>\n<p>Gentle cleansing is an essential step when using prescription retinoids, helping to remove impurities and excess oil while helping to maintain skin barrier function and avoiding further dryness or irritation. BIRETIX Isorepair Cleanser helps cleanse and comfort sensitised skin, leaving it feeling refreshed, soothed and prepared for the next steps in your skincare regime. </p>",
             "link_label": "",
             "link": ""
           }
@@ -155,9 +155,9 @@
         "column_RDGjDK": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/double-correction.jpg",
+            "image": "shopify://shop_images/generic-retinoid-cream.jpg",
             "title": "",
-            "text": "<h3 class=\"inline-richtext\">Treat with<br>BIRETIX Double Correction</h3>\n<p>BIRETIX Double Correction Serum is formulated to help reduce visible blemishes while supporting post-blemish marks, uneven skin texture and excess oil helping to improve overall skin clarity in just 14 days*. </p>",
+            "text": "<h3 class=\"inline-richtext\">Treat with<br>Prescription Retinoids</h3>\n<p>Use your prescribed retinoid treatment as directed by your dermatologist or healthcare professional as part of your acne management journey. Supporting your treatment with a consistent skincare regime alongside treatment can help improve overall skin comfort and maintain skin barrier health throughout use. </p>",
             "link_label": "",
             "link": ""
           }
@@ -165,9 +165,9 @@
         "column_kYeG9m": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/hydramat.jpg",
+            "image": "shopify://shop_images/isorepair-cream-lip-balm.jpg",
             "title": "",
-            "text": "<h3 class=\"inline-richtext\">Care with<br>BIRETIX Hydramat Fluid</h3>\n<p>Hydration and barrier support are essential for adult acne-prone skin. Biretix Hydramat helps balance excess oil while delivering lightweight hydration to support skin comfort, sensitivity and overall skin health. </p>",
+            "text": "<h3 class=\"inline-richtext\">Care with<br>Isorepair Cream &amp; Lip Balm</h3>\n<p>Retinoid treatments can often leave skin and lips feeling dry, tight and uncomfortable. Isorepair Cream and Isorepair Lip Balm help nourish, soothe and support the skin barrier to improve comfort and hydration during treatment. </p>",
             "link_label": "",
             "link": ""
           }
@@ -175,9 +175,9 @@
         "column_JcCKQT": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/acnimat.jpg",
+            "image": "shopify://shop_images/water-gel.jpg",
             "title": "",
-            "text": "<h3 class=\"inline-richtext\">Protect with<br>HELIOCARE 360° Acnimat</h3>\n<p>No acne-prone skincare regime is complete without daily sun protection. HELIOCARE 360° Acnimat provides very high-level full-spectrum defence against UVA, UVB, visible light and infrared-A, while helping to control shine with a mattifying finish ideal for oily and blemish-prone skin.</p>",
+            "text": "<h3 class=\"inline-richtext\">Protect with<br>HELIOCARE 360° Water Gel</h3>\n<p>Daily photoprotection is essential when using prescription retinoids, as skin can become more sensitive to sun exposure. HELIOCARE 360° Water Gel provides high-level full-spectrum protection against UVA, UVB, visible light and infrared-A in a lightweight, hydrating formula suitable for dry and sensitised acne-prone skin.</p>",
             "link_label": "",
             "link": ""
           }
@@ -191,9 +191,9 @@
       ],
       "name": "Multicolumn HTML",
       "settings": {
-        "title": "Adult Acne-Prone Skin Regime",
-        "heading_size": "h1",
-        "richtext": "<p>A complete 3-step daily regime, designed to purify, treat and care for adult acne-prone skin. </p>",
+        "title": "Dry, Sensitive Acne-Prone Skin Regime",
+        "heading_size": "h2",
+        "richtext": "<p>A supportive skincare regime designed to complement prescription retinoid treatment and help manage the visible and comfort-related side effects often associated with acne medication.</p>",
         "narrow_text": true,
         "image_width": "full",
         "image_ratio": "adapt",
