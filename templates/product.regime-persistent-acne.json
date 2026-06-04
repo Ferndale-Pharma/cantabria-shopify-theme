@@ -167,7 +167,7 @@
           "settings": {
             "image": "shopify://shop_images/hydramat.jpg",
             "title": "",
-            "text": "<h3 class=\"inline-richtext\">Care with<br>BIRETIX Hydramat Fluid</h3>\n<p>Hydration and barrier support are essential for adult acne-prone skin. Biretix Hydramat helps balance excess oil while delivering lightweight hydration to support skin comfort, sensitivity and overall skin health. </p>",
+            "text": "<h3 class=\"inline-richtext\">Care with<br>BIRETIX Hydramat Fluid</h3>\n<p>Hydration and barrier support are essential for adolescent/persistent acne-prone skin. BIRETIX Hydramat helps balance excess oil while delivering lightweight hydration to support skin comfort, sensitivity and overall skin health. </p>",
             "link_label": "",
             "link": ""
           }
@@ -191,7 +191,7 @@
       ],
       "name": "Multicolumn HTML",
       "settings": {
-        "title": "Adolescent or Persistent Acne-Prone Skin Regime",
+        "title": "Adolescent/Persistent Acne-Prone Skin Regime",
         "heading_size": "h1",
         "richtext": "<p>A complete 3-step daily regime, designed to purify, treat and care for persistent or adolescent acne-prone skin. </p>",
         "narrow_text": true,
