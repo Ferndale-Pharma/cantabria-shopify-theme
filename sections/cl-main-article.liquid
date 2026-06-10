@@ -76,18 +76,21 @@
           {% endif %}
            {% endcomment %}
             <span class="twcss-text-lg twcss-italic">Published on {{ article.published_at |  date: "%d %B  %Y" }}</span>
-            <div class="twcss-flex twcss-gap-4 twcss-max-w-[320px] twcss-mb-6 twcss-mt-6 twcss-text-[#666] twcss-items-center  twcss-pr-2">
-              <div>
-                {{ article.metafields.blog_post.author.value.image | image_url: width: 80 | image_tag }}
+            {% if article.metafields.blog_post.author.value.name contains "Cantabria" %}
+              <div><span class="twcss-text-lg twcss-font-bold twcss-text-[#666]">By {{ article.metafields.blog_post.author.value.name }}</span></div>
+            {% else %}
+              <div class="twcss-flex twcss-gap-4 twcss-max-w-[320px] twcss-mb-6 twcss-mt-6 twcss-text-[#666] twcss-items-center  twcss-pr-2">
+                <div>
+                  {{ article.metafields.blog_post.author.value.image | image_url: width: 80 | image_tag }}
+                </div>
+                <div class="twcss-col-span-2">
+                  <span class="twcss-text-lg twcss-font-bold">{{ article.metafields.blog_post.author.value.name }}</span><br>
+                  <span class="twcss-text-base">{{ article.metafields.blog_post.author.value.job_title }}</span><br>
+                  <span class="twcss-text-base">{{ article.metafields.blog_post.author.value.company }}</span><br>
+                  <span class="twcss-text-base twcss-italic twcss-underline"><a href="{{ article.metafields.blog_post.author.value.profile_page }}" title="Learn more about {{ article.metafields.blog_post.author.value.name }}">Learn more about the author</a></span>
+                </div>
               </div>
-              <div class="twcss-col-span-2">
-                <span class="twcss-text-lg twcss-font-bold">{{ article.metafields.blog_post.author.value.name }}</span><br>
-                <span class="twcss-text-base">{{ article.metafields.blog_post.author.value.job_title }}</span><br>
-                <span class="twcss-text-base">{{ article.metafields.blog_post.author.value.company }}</span><br>
-                <span class="twcss-text-base twcss-italic twcss-underline"><a href="{{ article.metafields.blog_post.author.value.profile_page }}" title="Learn more about {{ article.metafields.blog_post.author.value.name }}">Learn more about the author</a></span>
-              </div>
-            </div>
-            
+            {% endif %}
         </header>
 
       {%- when 'content' -%}
