@@ -16,14 +16,14 @@
           "type": "heading",
           "settings": {
             "heading": "ENDOCARE",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "text_RggQnc": {
           "type": "text",
           "settings": {
             "text": "Science-led skincare for visible anti-ageing results",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "buttons_hMa4x9": {

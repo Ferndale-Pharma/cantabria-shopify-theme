@@ -158,6 +158,8 @@
       "settings": {
         "title": "Understanding acne-prone skin",
         "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -334,7 +336,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/RETINSPHERE_1.jpg",
-            "heading": "RetinSphere® Technology",
+            "heading": "RETINSPHERE® Technology",
             "heading_size": "h1",
             "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. ",
             "button_label": "Learn more",
@@ -494,6 +496,8 @@
       "settings": {
         "title": "Testimonials",
         "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -614,6 +618,8 @@
       "settings": {
         "title": "Related articles",
         "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,

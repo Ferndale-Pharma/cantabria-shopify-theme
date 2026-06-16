@@ -22,8 +22,8 @@
         "text_RggQnc": {
           "type": "text",
           "settings": {
-            "text": "Dermatologist proven skincare for every stage of acne-prone skin",
-            "text_style": "body"
+            "text": "Science-led skincare to purify, treat, and care for acne-prone skin",
+            "text_style": "subtitle"
           }
         },
         "buttons_CNCVXP": {
@@ -64,14 +64,14 @@
         "heading_f8ge44": {
           "type": "heading",
           "settings": {
-            "heading": "Effective blemish control and holistic care of acne-prone skin",
+            "heading": "Dermatological skincare for every stage of acne-prone skin",
             "heading_size": "h2"
           }
         },
         "text_bTDdty": {
           "type": "text",
           "settings": {
-            "text": "<p>Powered by innovative retinol and antimicrobial technologies, <a href=\"/blogs/expert-advice/retinsphere-technology\" title=\"RetinSphere® Technology\">RetinSphere®</a> and <a href=\"/blogs/expert-advice/biopep-15\" title=\"BIOPEP-15\">BIOPEP-15</a>, as well as scientifically proven powerhouse ingredients such as glycolic acid, salicylic acid and niacinamide, BIRETIX offers a holistic skincare solution for acne-prone skin.  </p><p>Use regularly to target every stage of the acne-prone skin cycle to significantly reduce imperfections and blemishes and promote a healthier complexion.  </p>"
+            "text": "<p>Acne-prone skin is a multifactorial condition that affects individuals across multiple life stages. Because acne-prone skin often requires ongoing management, consistent dermatological skincare plays an important role in supporting skin balance, comfort and visible clarity.</p><p>BIRETIX provides science-led skincare solutions designed, and clinically proven, to help manage blemishes and support healthier-looking skin at every stage of the acne-prone skin journey.</p>"
           }
         }
       },
@@ -152,6 +152,16 @@
     "multicolumn_html_BWxTYb": {
       "type": "multicolumn-html",
       "blocks": {
+        "column_4KGaLf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/regime-adolescent-acne-1x1.jpg",
+            "title": "BIRETIX Regime for Adolescent/Persistent Acne-Prone Skin",
+            "text": "<p>A dermatologist-developed 3-step routine designed for those with mild to moderate acne, including adolescent breakouts and ongoing adult blemishes. Proven to significantly reduce imperfections and sebum in just <b>28 days</b><sup>6</sup>, the routine is suitable for daily use and well tolerated, even by sensitive skin.</p>",
+            "link_label": "View product",
+            "link": "shopify://products/biretix-regime-for-adolescent-persistent-acne"
+          }
+        },
         "column_HHbmN9": {
           "type": "column",
           "settings": {
@@ -162,30 +172,31 @@
             "link": "shopify://products/biretix-regime-for-adult-acne"
           }
         },
-        "column_4KGaLf": {
+        "column_ryFAGD": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/regime-adolescent-acne-1x1.jpg",
-            "title": "BIRETIX Regime for Adolescent/Persistent Acne-Prone Skin",
-            "text": "<p>A dermatologist-developed 3-step routine designed for those with mild to moderate acne, including adolescent breakouts and ongoing adult blemishes. Proven to significantly reduce imperfections and sebum in just <b>21 days</b><sup>6</sup>, the routine is suitable for daily use and well tolerated, even by sensitive skin.</p>",
+            "image": "shopify://shop_images/isorepair-regime-1x1.jpg",
+            "title": "BIRETIX Isorepair Regime for Dry/Sensitised Acne-Prone Skin",
+            "text": "<p>Expertly formulated for dry, sensitive and compromised acne-prone skin, the BIRETIX Isorepair Regime helps support skin comfort throughout prescription retinoid treatment. Designed to strengthen the skin barrier and improve hydration, it has been clinically tested by users undergoing prescription retinoid treatment, shown to improve hydration and strengthen the skin barrier.<sup>8</sup></p>",
             "link_label": "View product",
-            "link": "shopify://products/biretix-regime-for-adolescent-persistent-acne"
+            "link": "shopify://products/biretix-isorepair-regime"
           }
         }
       },
       "block_order": [
+        "column_4KGaLf",
         "column_HHbmN9",
-        "column_4KGaLf"
+        "column_ryFAGD"
       ],
       "name": "Multicolumn HTML",
       "settings": {
-        "title": "Simple 3-step daily skin regimes for acne prone skin",
+        "title": "Simple 3-step regimes to support acne-prone skin",
         "heading_size": "h2",
         "richtext": "",
         "narrow_text": false,
-        "image_width": "half",
+        "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -206,7 +217,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "biretix-hero-products",
-        "products_to_show": 4,
+        "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -296,10 +307,20 @@
             "heading": "Technologies & ingredients",
             "heading_size": "h2"
           }
+        },
+        "text_MFeiet": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BIRETIX strategically combines <a href=\"/blogs/expert-advice/retinsphere-technology\" title=\"RetinSphere® Technology\"><strong>RETINSPHERE® Technology</strong></a> and <a href=\"/blogs/expert-advice/biopep-15\" title=\"BIOPEP-15\"><strong>BIOPEP-15</strong></a>,  to support the management of acne-prone skin. Together, they help promote skin renewal, reduce blocked pores and target acne-causing bacteria to support visibly clearer skin. </p>"
+          }
         }
       },
       "block_order": [
-        "heading_qUaY3J"
+        "heading_qUaY3J",
+        "text_MFeiet"
+      ],
+      "custom_css": [
+        "a {color:#000;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -319,7 +340,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/RETINSPHERE_1.jpg",
-            "heading": "RetinSphere® Technology",
+            "heading": "RETINSPHERE® Technology",
             "heading_size": "h1",
             "subheading": "The unique Cantabria Labs patented retinoid technology combines retinol in glycospheres and the hydroxypinacolone retinoate intensively works on clearing blocked pores and renewing acne-prone skin helping reduce blemishes without irritation.",
             "button_label": "Learn more",
@@ -503,7 +524,7 @@
         "h3 {color: #000;}"
       ],
       "settings": {
-        "title": "Proven by dermatologists",
+        "title": "Clinically proven",
         "heading_size": "h2",
         "richtext": "",
         "narrow_text": false,
@@ -565,7 +586,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Real skin, real progress, real results",
+        "title": "Real skin results",
         "heading_size": "h1",
         "richtext": "",
         "narrow_text": false,
