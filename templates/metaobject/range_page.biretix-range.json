@@ -320,7 +320,7 @@
         "text_MFeiet"
       ],
       "custom_css": [
-        "a {color:#000;}"
+        "a {color: #000;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -810,7 +810,7 @@
           "settings": {
             "heading": "References",
             "icon": "question_mark",
-            "row_content": "<ol><li>Hashtroody B, Bellas L, Pérez-Davó A. AEDV Poster, Spain, 2018. </li><li>Martinez J, Pérez-Davó A. GEDET Poster, Spain, 2019. </li><li>Milani M, Gonzales LC, Villalba M. J Clin Dermatol Ther 2021.7: 089. </li><li>Villani A, Annunziata MC, Cinelli E, Donnarumma M, Milani M, Fabbrocini G. G It Dermatol Venereol 2020. 155(5): 676-679. </li><li>Data on file, Zurko Bioresearch Madrid, 2021.</li><li>Massimo M, Colombo F  (2023). Clinical-instrumental assessment of a daily cosmetic regimen in ensuring improved skin barrier and tolerability in sensitive skin undergoing acne treatment: a prospective open trial. <em>Int J Clin Expl Dermatol</em>, 8(1), 08-15.20. (20 patients (18 to 45 years) with sensitive and acne prone skin).</li><li>Data on file. CRO Complife, Italy 2024. Clinical-Instrumental evaluation of the efficacy and tolerability of a cosmetic treatment in subjects with acne prone skin; 20 female subjects with mild to moderate acne symptoms applied Biretix Double Correction Serum twice daily for 42 days - results tested at baseline (T0) and after 14 (T14), 28 (T28) and 42 days (T42).<br/></li></ol>",
+            "row_content": "<ol><li>Hashtroody B, Bellas L, Pérez-Davó A. AEDV Poster, Spain, 2018. </li><li>Martinez J, Pérez-Davó A. GEDET Poster, Spain, 2019. </li><li>Milani M, Gonzales LC, Villalba M. J Clin Dermatol Ther 2021.7: 089. </li><li>Villani A, Annunziata MC, Cinelli E, Donnarumma M, Milani M, Fabbrocini G. G It Dermatol Venereol 2020. 155(5): 676-679. </li><li>Data on file, Zurko Bioresearch Madrid, 2021.</li><li>Massimo M, Colombo F  (2023). Clinical-instrumental assessment of a daily cosmetic regimen in ensuring improved skin barrier and tolerability in sensitive skin undergoing acne treatment: a prospective open trial. <em>Int J Clin Expl Dermatol</em>, 8(1), 08-15.20. (20 patients (18 to 45 years) with sensitive and acne prone skin).</li><li>Data on file. CRO Complife, Italy 2024. Clinical-Instrumental evaluation of the efficacy and tolerability of a cosmetic treatment in subjects with acne prone skin; 20 female subjects with mild to moderate acne symptoms applied Biretix Double Correction Serum twice daily for 42 days - results tested at baseline (T0) and after 14 (T14), 28 (T28) and 42 days (T42).</li><li>Open-label clinical experience, 20 patients on oral isotretinoin (20 mg/day) over 12 weeks; assessments at baseline, day 45 and day 90 (Dr Mayte Truchuelo). Data on file.<br/></li></ol>",
             "page": ""
           }
         }
