@@ -22,7 +22,7 @@
         "text_p4wyK3": {
           "type": "text",
           "settings": {
-            "text": "{{ metaobject.hero_text.value }}",
+            "text": "Acne-prone skin is a common skin concern that can affect people of all ages and can be difficult to manage. Understanding the causes and choosing the right skincare routine can help reduce blemishes, support the skin barrier and improve overall skin health.¹,² Find out more about the triggers and treatments, including our range of formulations, which target the underlying causes of acne and nourish sensitive, acne-prone skin. ",
             "text_style": "body"
           }
         },
@@ -56,6 +56,102 @@
         "stack_images_on_mobile": true,
         "show_text_below": true,
         "is_heading": true
+      }
+    },
+    "multicolumn_fyttHJ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_w7AJUH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Shine_and_Oil_-_FERN-IMG-00262.png",
+            "title": "Excess shine and oiliness",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JH9mPE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Congested_Pores_-_FERN-IMG-00262.png",
+            "title": "Enlarged or congested pores",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7RdmwX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Blackheads_and_Whiteheads_-_FERN-IMG-00262.png",
+            "title": "Blackheads and whiteheads",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bTaGzD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Blemishes_-_FERN-IMG-00262.png",
+            "title": "Inflammatory blemishes",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_q8WXPU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Scars_-_FERN-IMG-00262.png",
+            "title": "Redness and post-blemish marks",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WNjzRH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Skin_Texture_-_FERN-IMG-00262.png",
+            "title": "Uneven skin texture",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_w7AJUH",
+        "column_JH9mPE",
+        "column_7RdmwX",
+        "column_bTaGzD",
+        "column_q8WXPU",
+        "column_WNjzRH"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 975px) {.multicolumn-card__image-wrapper--third-width {width: 60px; }}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "What is acne-prone skin?",
+        "heading_size": "h2",
+        "richtext": "<p>Acne-prone skin is characterised by excess oil production, clogged pores and a tendency to develop blackheads, whiteheads, spots and blemishes. It most commonly affects the face, chest, back and shoulders, where sebaceous (oil) glands are most active.³ </p><p>Common signs of acne-prone skin include: </p>",
+        "narrow_text": true,
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "image_with_text_E9j6Dk": {
@@ -100,6 +196,7 @@
         "text_WezjGn",
         "button_VgCw8W"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/AdobeStock_117013101.jpg",
         "height": "adapt",
@@ -155,6 +252,7 @@
         "column_Ry3qYb",
         "column_cCYqMz"
       ],
+      "disabled": true,
       "settings": {
         "title": "Understanding acne-prone skin",
         "heading_size": "h2",
@@ -175,20 +273,146 @@
         "container_id": ""
       }
     },
+    "image_with_text_6LtaJr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hQzze7": {
+          "type": "heading",
+          "settings": {
+            "heading": "What causes acne-prone skin?",
+            "heading_size": "h2"
+          }
+        },
+        "text_3PUUFc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Acne-prone skin develops when excess sebum combines with dead skin cells, leading to blocked pores. This creates an environment where <em>Cutibacterium acnes</em> bacteria can proliferate, triggering inflammation and breakouts.⁴ Whiteheads form when a blocked pore remains closed at the skin surface, while blackheads develop when the pore remains open and its contents oxidise. Deeper inflammation may result in nodules or cysts.³ Several factors can contribute to acne-prone skin, including:</p><p><strong>Hormonal fluctuations⁵</strong></p><p><strong>Genetics and family history⁶</strong></p><p><strong>Stress⁷</strong></p><p><strong>Pollution and environmental aggressors⁸</strong></p><p><strong>Certain medications³</strong></p><p><strong>Inappropriate skincare products³</strong></p><p><strong>Lifestyle and dietary factors⁹</strong></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hQzze7",
+        "text_3PUUFc"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/CL-WEB_-_Banner_-_Acne_-_2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_r4q6ny": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_T83jmH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who is affected by acne-prone skin?",
+            "heading_size": "h2"
+          }
+        },
+        "text_TLpmHL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Acne is most common among teenagers and young adults, but it can affect people of all ages.³ Hormonal changes play a major role in acne development, which is why puberty and pregnancy are common triggers.⁵ A family history of acne can increase the likelihood of developing the condition.⁶ External factors, including stress, pollution, medications and certain skincare products, may also aggravate symptoms.³˒⁷</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_T83jmH",
+        "text_TLpmHL"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/CL-WEB_-_Banner_-_Acne_-_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_CDJNG4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_W8rX6X": {
+          "type": "heading",
+          "settings": {
+            "heading": "How to care for acne-prone skin",
+            "heading_size": "h2"
+          }
+        },
+        "text_fVgxCC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Managing acne-prone skin requires a consistent skincare routine focused on reducing congestion, controlling excess oil and supporting the skin barrier.²</p><p>Skincare recommendations include:</p><p><strong>Regular gentle cleansing²</strong></p><p><strong>Applying a lightweight, non-comedogenic moisturiser¹⁰</strong></p><p><strong>Wearing broad-spectrum SPF daily¹¹</strong></p><p><strong>Incorporating ingredients such as retinoids, niacinamide and zinc where appropriate²˒¹²</strong></p><p><strong>Using antioxidant-rich formulations to support overall skin health¹³</strong></p><p>A combination of targeted skincare, professional treatments and lifestyle changes may help manage symptoms and improve skin appearance over time.²</p>",
+            "text_style": "body"
+          }
+        },
+        "button_K8M3rF": {
+          "type": "button",
+          "settings": {
+            "button_label": "View products",
+            "button_link": "shopify://collections/spot-acne-prone-skin",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_W8rX6X",
+        "text_fVgxCC",
+        "button_K8M3rF"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/CL-WEB_-_Banner_-_Acne_-_3.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "rich_text_8paXJ7": {
       "type": "rich-text",
       "blocks": {
         "heading_nD8879": {
           "type": "heading",
           "settings": {
-            "heading": "Treating different types of acne",
+            "heading": "Treating different types of acne-prone skin",
             "heading_size": "h2"
           }
         },
         "text_XWNTKJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Acne doesn’t look the same for everyone, so why should it be treated the same way? At Cantabria Labs, we understand that adult acne and blemish prone skin is complex. That’s why our advanced formulas are designed to treat different types of presenting acne with clinically proven results you can see and feel, while also caring for long-term skin health.</p>"
+            "text": "<p>Acne-prone skin is not one-size-fits-all. Different types of blemishes, skin concerns and life stages require different approaches. At Cantabria Labs, our BIRETIX formulations are specifically developed to help improve the appearance of acne-prone skin while supporting long-term skin health.</p>"
           }
         }
       },
@@ -214,21 +438,21 @@
         "heading_adEmCr": {
           "type": "heading",
           "settings": {
-            "heading": "Treating late-onset & relapsing acne",
+            "heading": "Adult acne-prone akin",
             "heading_size": "h2"
           }
         },
         "text_yp6phA": {
           "type": "text",
           "settings": {
-            "text": "<p>For individuals experiencing acne later in life, or seeing flare-ups return after a period of remission, BIRETIX Double Correction Serum provides dual-action care.</p> <p>Clinically proven to show visible results in just 14 days<sup>1</sup>, it reduces blemishes, regulates excess oil, minimises pores and smooths fine lines while progressively improving tone, texture, and luminosity with continued use. The advanced formula not only tackles breakouts but also strengthens the skin barrier and addresses early signs of ageing, making it uniquely suited to the needs of adult acne sufferers.</p>\n<p><b>Experience dermatologist-approved care for adult acne-prone skin with the BIRETIX Regime for Adult Acne-Prone Skin.</b></p>",
+            "text": "<p>For adults experiencing persistent or recurring breakouts, BIRETIX Adult Acne Regime featuring the BIRETIX Double Correction Serum provides dual-action care.</p><p> Clinically proven to deliver visible improvements in just 14 days<sup>14</sup>, it helps reduce blemishes, regulate excess oil, minimise the appearance of pores and improve overall skin texture and radiance. It also helps support the skin barrier and addresses the first signs of ageing, making it particularly suitable for adult acne-prone skin. </p>\n<p><b>Discover the BIRETIX Regime for Adult Acne-Prone Skin.</b></p>",
             "text_style": "body"
           }
         },
         "button_AYRzy9": {
           "type": "button",
           "settings": {
-            "button_label": "View product",
+            "button_label": "View regime",
             "button_link": "shopify://products/biretix-regime-for-adult-acne",
             "button_style_secondary": false
           }
@@ -241,7 +465,7 @@
       ],
       "name": "Image with text HTML",
       "settings": {
-        "image": "shopify://shop_images/double-correction-serum-layflat.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00258_CantabriaLabs.co.uk_GuideToRetinoidSupport_Layflats3.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -262,21 +486,21 @@
         "heading_ndRmGh": {
           "type": "heading",
           "settings": {
-            "heading": "Treating adolescent or persistent acne",
+            "heading": "Persistent acne-prone skin",
             "heading_size": "h2"
           }
         },
         "text_8wdE6B": {
           "type": "text",
           "settings": {
-            "text": "<p>For those whose acne began in adolescence and continues into adulthood, BIRETIX Tri-Active Anti-Blemish Gel offers triple-action daily care.</p> \n<p>Clinically proven to deliver up to 76% fewer blemishes in just 28 days<sup>2</sup>, it exfoliates clogged pores, controls excess sebum, reduces redness, and prevents new imperfections from forming. With RetinSphere® Technology, BIOPEP-15, glycolic acid, salicylic acid, and niacinamide, Tri-Active provides an effective yet tolerable solution that restores clarity and comfort to persistent acne-prone skin.</p><p><b>Discover the BIRETIX Regime for Adolescent/Persistent Acne-Prone Skin.</b></p>",
+            "text": "<p>For those experiencing ongoing acne-prone skin from adolescence into adulthood, the BIRETIX Regime for Adolescent/Persistent Acne-Prone Skin featuring the BIRETIX Tri-Active Anti-Blemish Gel delivers triple-action daily care.</p><p> Clinically proven to reduce blemishes by up to 76% in 28 days<sup>15</sup>, it helps exfoliate congested pores, regulate excess sebum, reduce visible redness and minimise future breakouts. Powered by RETINSPHERE® Technology, BIOPEP-15, glycolic acid, salicylic acid and niacinamide, it provides effective care for acne-prone skin while maintaining skin comfort. </p><p><b>Discover the BIRETIX Regime for Persistent Acne-Prone Skin.</b></p>",
             "text_style": "body"
           }
         },
         "button_hiHchW": {
           "type": "button",
           "settings": {
-            "button_label": "View product",
+            "button_label": "View regime",
             "button_link": "shopify://products/biretix-regime-for-adolescent-persistent-acne",
             "button_style_secondary": false
           }
@@ -289,10 +513,58 @@
       ],
       "name": "Image with text HTML",
       "settings": {
-        "image": "shopify://shop_images/tri-active-layflat.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00259_CanrabriaLabs_Blogs_SkinStories_Layflats2FERN-IMG-00258_CantabriaLabs.co.uk_GuideToRetinoidSupport_Layflats2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_html_mLCf8d": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_BxF4Kx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dry acne-prone skin sensitised by retinoids",
+            "heading_size": "h2"
+          }
+        },
+        "text_mg8XFT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For those with acne-prone skin undergoing prescription retinoid treatment, the BIRETIX Isorepair Regime supports treatment adherence and comfort by helping to maintain skin barrier integrity.</p><p>Featuring the BIRETIX Isorepair Cream, it has been clinically tested by users undergoing prescription retinoid treatment demonstrating a -46% reduction in water loss (TEWL), improving hydration and strengthening the skin barrier.<sup>16,17</sup></p>\n<p><b>Discover the BIRETIX Isorepair Regime.</b></p>",
+            "text_style": "body"
+          }
+        },
+        "button_9bNmYJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "View regime",
+            "button_link": "shopify://products/biretix-isorepair-regime",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BxF4Kx",
+        "text_mg8XFT",
+        "button_9bNmYJ"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00259_CanrabriaLabs_Blogs_SkinStories_Layflats1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
@@ -643,13 +915,16 @@
           "settings": {
             "heading": "References",
             "icon": "question_mark",
-            "row_content": "<ol><li>Data on file. CRO Complife, Italy 2024. Clinical-Instrumental evaluation of the efficacy and tolerability of a cosmetic treatment in subjects with acne prone skin; 20 female subjects with mild to moderate acne symptoms applied Biretix Double Correction Serum twice daily for 42 days - results tested at baseline (T0) and after 14 (T14), 28 (T28) and 42 days (T42)​.</li><li>Data on file.</li></ol>",
+            "row_content": "<ol><li>NICE Guideline NG198. <em>Acne Vulgaris: Management</em> (2021).  </li><li>NHS. <em>Acne</em>. <a href=\"https://www.nhs.uk/conditions/acne/\" target=\"_blank\"><span style=\"text-decoration:underline\">https://www.nhs.uk/conditions/acne/</span></a>  </li><li>National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS). <em>Acne</em>.  </li><li>Zaenglein AL et al. <em>Pathogenesis and Treatment of Acne</em>. Journal of the American Academy of Dermatology.  </li><li>Thiboutot D. <em>Hormonal Influences on Acne Pathogenesis</em>. Journal of Clinical and Aesthetic Dermatology.  </li><li>Bataille V et al. <em>The Influence of Genetics and Environmental Factors in Acne</em>. British Journal of Dermatology.  </li><li>Chiu A et al. <em>Stress and Acne</em>. Archives of Dermatology.  </li><li>Dréno B et al. <em>The Impact of Exposome Factors on Acne</em>. Journal of the European Academy of Dermatology and Venereology.  </li><li>Smith RN et al. <em>Diet and Acne: A Review</em>. Journal of the American Academy of Dermatology.  </li><li>Draelos ZD. <em>The Role of Moisturizers in Acne Management</em>. Dermatologic Clinics.  </li><li>American Academy of Dermatology. <em>Acne Skin Care Recommendations</em>.  </li><li>MDPI. <em>Exploring Acne Treatments: From Pathophysiological Mechanisms to Therapeutic Strategies</em> (2024).  </li><li>Addor FAS. <em>Antioxidants in Dermatology</em>. Anais Brasileiros de Dermatologia.</li><li>Data on file. CRO Complife, Italy 2024. Clinical-Instrumental evaluation of the efficacy and tolerability of a cosmetic treatment in subjects with acne prone skin; 20 female subjects with mild to moderate acne symptoms applied Biretix Double Correction Serum twice daily for 42 days - results tested at baseline (T0) and after 14 (T14), 28 (T28) and 42 days (T42).​</li><li>Milani, M., & Colombo, F. (2023). Clinical-instrumental assessment of a daily cosmetic regimen in ensuring improved skin barrier and tolerability in sensitive skin undergoing acne treatment: A prospective open trial. International Journal of Clinical & Experimental Dermatology, 8(1), 1–8.</li><li>Open-label clinical experience, 20 patients on oral isotretinoin (20 mg/day) over 12 weeks; assessments at baseline, day 45 and day 90 (Dr Mayte Truchuelo).</li><li>Zurko Research, Evaluation of tolerance of a cosmetic under dermatological control of Biretix Isorepair Cream on 20 volunteers.<br/></li></ol>",
             "page": ""
           }
         }
       },
       "block_order": [
         "collapsible_row_wggge7"
+      ],
+      "custom_css": [
+        "ol {padding-left: 3em;}"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
@@ -703,11 +978,16 @@
   },
   "order": [
     "image_banner_TWikjP",
+    "multicolumn_fyttHJ",
     "image_with_text_E9j6Dk",
     "multicolumn_BeGBF7",
+    "image_with_text_6LtaJr",
+    "image_with_text_r4q6ny",
+    "image_with_text_CDJNG4",
     "rich_text_8paXJ7",
     "image_with_text_html_c7fn6b",
     "image_with_text_html_iXdAyr",
+    "image_with_text_html_mLCf8d",
     "rich_text_hRGxBU",
     "cl_slideshow_NJ8dcF",
     "cl_featured_collection_bPWHQJ",
