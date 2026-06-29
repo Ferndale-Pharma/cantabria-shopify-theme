@@ -309,80 +309,37 @@
         "padding_bottom": 64
       }
     },
-    "multicolumn_html_hDhp7a": {
-      "type": "multicolumn-html",
+    "rich_text_NBTVdd": {
+      "type": "rich-text",
       "blocks": {
-        "column_CxGME3": {
-          "type": "column",
+        "heading_D8PdbV": {
+          "type": "heading",
           "settings": {
-            "title": "Polymorphic light eruption (PMLE)",
-            "text": "<p>Studies report reduced skin reactions and symptoms during periods of sun exposure<sup>7,8</sup></p>",
-            "link_label": "",
-            "link": ""
+            "heading": "Oral Fernblock® & Supporting High-Risk Patients",
+            "heading_size": "h2"
           }
         },
-        "column_rfzdNj": {
-          "type": "column",
+        "text_aeaRnm": {
+          "type": "text",
           "settings": {
-            "title": "Vitiligo",
-            "text": "<p>Placebo-controlled studies indicate improved outcomes when combined with NB-UVB phototherapy versus phototherapy alone<sup>9</sup></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_XC7wtf": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Melasma & hyperpigmentation</strong>",
-            "text": "<p>Oral Fernblock® has been evaluated as an adjunct to standard regimens, with studies reporting greater improvements versus placebo when paired with topical therapy and sunscreen<sup>10</sup></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_WJXkAg": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_mk88ND": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>HELIOCARE's oral supplement range provides photoprotection support using patented Fernblock® (<em>Polypodium leucotomos</em>) extract, developed as an adjuvant to topical sunscreen in patients where photoprotection is clinically critical. <br/><br/>The clinical literature supports oral Fernblock® as an adjuvant in dermatological pathways linked to UV and visible light exposure, including: </p>"
           }
         }
       },
       "block_order": [
-        "column_CxGME3",
-        "column_rfzdNj",
-        "column_XC7wtf",
-        "column_WJXkAg",
-        "column_mk88ND"
+        "heading_D8PdbV",
+        "text_aeaRnm"
       ],
-      "name": "Multicolumn HTML",
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "title": "Oral Fernblock® & Supporting High-Risk Patients",
-        "heading_size": "h2",
-        "richtext": "<p>HELIOCARE's oral supplement range provides photoprotection support using patented Fernblock® (<em>Polypodium leucotomos</em>) extract, developed as an adjuvant to topical sunscreen in patients where photoprotection is clinically critical.<br/><br/>The clinical literature supports oral Fernblock® as an adjuvant in dermatological pathways linked to UV and visible light exposure, including:<br/><br/></p>",
-        "narrow_text": true,
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 5,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "full_width": true,
+        "is_heading": false,
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 32,
+        "container_id": ""
       }
     },
     "collapsible_content_html_zJhpAX": {
@@ -455,7 +412,7 @@
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "mobile_layout": "image_second",
-        "padding_top": 64,
+        "padding_top": 0,
         "padding_bottom": 64
       }
     }
@@ -467,7 +424,7 @@
     "image_with_text_dRKVKW",
     "rich_text_yhqkLA",
     "multicolumn_html_PTjtwB",
-    "multicolumn_html_hDhp7a",
+    "rich_text_NBTVdd",
     "collapsible_content_html_zJhpAX"
   ]
 }
