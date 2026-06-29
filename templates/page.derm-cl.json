@@ -23,7 +23,7 @@
         "heading_MjNxCW": {
           "type": "heading",
           "settings": {
-            "heading": "Dermatology-Led Innovation.Clinically Proven Patient Support.",
+            "heading": "<p>Dermatology-Led Innovation.<br/>Clinically Proven Patient Support.</p>",
             "heading_size": "h1"
           }
         }
@@ -35,7 +35,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "is_heading": true,
         "padding_top": 32,
