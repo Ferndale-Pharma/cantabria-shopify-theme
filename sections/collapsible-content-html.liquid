@@ -14,8 +14,11 @@
     }
   }
   @media screen and (max-width: 749px) {
-    .section-{{ section.id }}-padding .collapsible-content__grid--reverse-mobile {
-      flex-direction: row-reverse;
+    .section-{{ section.id }}-padding .collapsible-content__grid--reverse-mobile .collapsible-content__grid-item {
+      order: 2;
+    }
+    .section-{{ section.id }}-padding .collapsible-content__grid--reverse-mobile .grid__item:not(.collapsible-content__grid-item) {
+      order: 1;
     }
   }
 {%- endstyle -%}
