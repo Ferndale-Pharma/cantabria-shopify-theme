@@ -98,8 +98,8 @@
         "heading_align": "center",
         "image_width": "full",
         "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Get in Touch",
+        "button_link": "#contact",
         "button_link_new_tab": false,
         "columns_desktop": 3,
         "column_alignment": "center",
@@ -110,12 +110,702 @@
         "padding_top": 0,
         "padding_bottom": 64
       }
+    },
+    "rich_text_T9aW9y": {
+      "type": "rich-text",
+      "blocks": {
+        "text_3tFMPW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Built on decades of dermatological research, we specialise in developing innovative, patented technologies, harnessing the power of nature and translating it into evidence-based skincare innovations.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_3tFMPW"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "cl_slideshow_9QNmBg": {
+      "type": "cl-slideshow",
+      "blocks": {
+        "slide_4t87cL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FERNBLOCK_1.jpg",
+            "heading": "Fernblock® Technology",
+            "heading_size": "h1",
+            "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/6-benefits-of-fernblock",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_LN33YV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0002_-_HELIOCARE_BRAND_PAGE_-_TECH_INGREDIENTS_-_ASPA_FERNBLOCK_1.jpg",
+            "heading": "ASPA-Fernblock®",
+            "heading_size": "h1",
+            "subheading": "ASPA-Fernblock® is a patented bioactive complex that combines Fernblock® with ASPA, a patented combination of extracts from the <em>Aspalathus linearis</em> plant, more commonly known as Rooibos. Together, they deliver powerful antioxidant activity and full-spectrum protection (UVA, UVB, visible light, infrared-A) while supporting vitamin D function - helping skin stay healthy, resilient and protected.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_jJAJGk": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/retinduo.jpg",
+            "heading": "RETINDUO® Technology",
+            "heading_size": "h1",
+            "subheading": "An exclusive dual-retinoid system that combines pure retinol in microsponges with AOX Tech-encapsulated retinal, supported by a targeted natural booster complex to optimise bioavailability, enhance retinoid stability and deliver powerful yet controlled skin renewal enhancing stability and skin comfort.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/retinduo-technology",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_dqmdVN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/BIOPEP-15.jpg",
+            "heading": "RETINSPHERE®",
+            "heading_size": "h1",
+            "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/retinsphere-technology",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_kgAjrr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/EDAFENCE_1.jpg",
+            "heading": "EDAFENCE® Technology",
+            "heading_size": "h1",
+            "subheading": "A unique anti-pollution technology derived from hardy Antarctic grass, clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution. Its antioxidant properties prevent oxidative stress and skin inflammation, strengthening the skin barrier, improving hydration levels and promoting healthy skin.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/edafence-technology",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_ritXVD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AZELAIC_AOX_TECH.jpg",
+            "heading": "AOX-TECH",
+            "heading_size": "h1",
+            "subheading": "AOX-TECH is an advanced delivery technology that uses multilamellar nanovesicles to protect, transport and release active ingredients within the skin. It helps support improved penetration, stability and tolerability, allowing formulations to work effectively while maintaining comfort, even in sensitive or compromised skin.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/discover-aox-tech",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_4t87cL",
+        "slide_LN33YV",
+        "slide_jJAJGk",
+        "slide_dqmdVN",
+        "slide_kgAjrr",
+        "slide_ritXVD"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "none",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "rich_text_GrHh6W": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VT7xxB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Dermatological Skincare Portfolio",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VT7xxB"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 96,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "image_with_text_X9whW3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_FfhX7e": {
+          "type": "heading",
+          "settings": {
+            "heading": "HELIOCARE - Expert, very high-level, full-spectrum sun protection",
+            "heading_size": "h2"
+          }
+        },
+        "text_KpdKVY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HELIOCARE 360° is a dermatologist proven sun protection range providing very high level, full-spectrum daily photoprotection against UVA (PA++++), UVB (SPF50+), visible light and infrared-A. With its unique antioxidant technologies Fernblock® & ASPA-Fernblock®, HELIOCARE 360° is clinically proven to protect beyond typical sunscreen, defending the skin from within and repairing damage caused by daylight. <br/><br/>With over 50 scientific and clinical studies, Heliocare helps dermatologists deliver next-generation daily photoprotection to their patients.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_J3pwTM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore HELIOCARE",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FfhX7e",
+        "text_KpdKVY",
+        "button_J3pwTM"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_XEfkBG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_99pVVK": {
+          "type": "heading",
+          "settings": {
+            "heading": "BIRETIX - Science-led skincare to purify, treat, and care for acne-prone skin",
+            "heading_size": "h2"
+          }
+        },
+        "text_MEPHTC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BIRETIX is a dermatology-focused range designed to support the management of acne-prone and blemish-affected skin through targeted daily regimens. Combining innovative retinol and antimicrobial technologies, RETINSPHERE® and BIOPEP-15, with clinically proven ingredients including glycolic acid, salicylic acid and niacinamide, BIRETIX helps to reduce blemishes, improve skin texture and support barrier health. The range is suitable for patients with mild to moderate acne-prone skin, post-acne marks and uneven texture, and can be used as part of a long-term maintenance regimen alongside prescription treatments. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_V7nxbr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore BIRETIX",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_99pVVK",
+        "text_MEPHTC",
+        "button_V7nxbr"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_eNiWVT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QhkHB9": {
+          "type": "heading",
+          "settings": {
+            "heading": "ENDOCARE - Science-led skincare for visible anti-ageing results",
+            "heading_size": "h2"
+          }
+        },
+        "text_3bXJCR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ENDOCARE is a science-led dermatological anti-ageing brand delivering clinically proven, targeted solutions across barrier support, radiance and renewal, supporting both prevention and correction at every stage of skin ageing. Formulated with expert dermatological knowledge, gold-standard active ingredients and patented technologies, including RETINDUO® advanced retinoid technology and EDAFENCE® anti-pollution technology. The range is suitable for patients seeking to address visible signs of photoageing, dullness, loss of firmness, and fine lines and wrinkles, while supporting long-term skin health and resilience. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_bGq4Ft": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore ENDOCARE",
+            "button_link": "shopify://metaobjects/range_page/endocare",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QhkHB9",
+        "text_3bXJCR",
+        "button_bGq4Ft"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_HcwzBg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zHkYKw": {
+          "type": "heading",
+          "settings": {
+            "heading": "NEORETIN - Pigmentation correction and skin tone renewal",
+            "heading_size": "h2"
+          }
+        },
+        "text_kVUJDP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>NEORETIN is a dermatologist-developed skincare range delivering targeted solutions for pigmentation concerns and uneven skin tone. Combining innovative retinoid technology, RETINSPHERE®, with gold-standard depigmenting ingredients such as Azelaic Acid & Kojic Acid, NEORETIN acts at multiple stages of the melanin production cycle to help reduce hyperpigmentation and promote a more even, luminous complexion. The range is suitable for patients with melasma, post-inflammatory hyperpigmentation, sun-induced pigmentation and uneven skin tone associated with photoageing.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_8JCeJN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore NEORETIN",
+            "button_link": "shopify://metaobjects/range_page/neoretin",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zHkYKw",
+        "text_kVUJDP",
+        "button_8JCeJN"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_gBrWbr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iA7ptN": {
+          "type": "heading",
+          "settings": {
+            "heading": "How Cantabria Labs Supports You",
+            "heading_size": "h2"
+          }
+        },
+        "text_FD7MdV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cantabria Labs is committed to providing dermatology professionals with meaningful resources that strengthen patient care, support treatment adherence, and enhance the overall patient experience beyond the consultation. We work in partnership with dermatologists to ensure patients have access to clinically aligned daily skincare solutions, supported by professional education materials, sampling opportunities, and tailored practice support. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iA7ptN",
+        "text_FD7MdV"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_with_buttons_DdwyYa": {
+      "type": "multicolumn-with-buttons",
+      "blocks": {
+        "column_DiC7kn": {
+          "type": "column",
+          "settings": {
+            "title": "Access to Clinical Data & Scientific Resources",
+            "text": "<p>Dermatology-focused clinical evidence & published studies to support informed product recommendations.</p>",
+            "link_label": "Request Clinical Data",
+            "link": "#contact",
+            "link_new_tab": false
+          }
+        },
+        "column_J6C6Qz": {
+          "type": "column",
+          "settings": {
+            "title": "Patient Education Materials",
+            "text": "<p>Evidence-based literature to reinforce clinical recommendations and daily routines.</p>",
+            "link_label": "Request Educational Materials",
+            "link": "#contact",
+            "link_new_tab": false
+          }
+        },
+        "column_QGfz9b": {
+          "type": "column",
+          "settings": {
+            "title": "Product Samples",
+            "text": "<p>Support patient trial, tolerability, and long-term compliance.</p>",
+            "link_label": "Request Product Samples",
+            "link": "#contact",
+            "link_new_tab": false
+          }
+        },
+        "column_NMhb8P": {
+          "type": "column",
+          "settings": {
+            "title": "Ongoing Partnership & Training",
+            "text": "<p>Clinical support and product education for your dermatology team.</p>",
+            "link_label": "Request a Meeting",
+            "link": "#contact",
+            "link_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "column_DiC7kn",
+        "column_J6C6Qz",
+        "column_QGfz9b",
+        "column_NMhb8P"
+      ],
+      "custom_css": [
+        ".button {margin-left: 1em; margin-right: 1em;}"
+      ],
+      "name": "Multicolumn with Buttons",
+      "settings": {
+        "title": "Professional Support Available",
+        "heading_size": "h2",
+        "heading_align": "center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "button_link_new_tab": false,
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_MCbkD9": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_TQyEC4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0001_-_Homepage_-_Skincare_Experts_-_Dr_EW.jpg",
+            "title": "",
+            "text": "<p><em>“I’m a huge fan of Heliocare and will often recommend it to my patients…With so many great products for different skin types there really is something for everyone!”<br/><br/></em><strong>Dr. Emma Wedgeworth<br/></strong>Consultant Dermatologist</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6tQnJg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0001_-_Homepage_-_Skincare_Experts_-_Dr_MM.jpg",
+            "title": "",
+            "text": "<p><em>“Biretix is created by dermatologists, led by science and backed by clinical data. It has been developed to be the most effective complementary dermocosmetic skincare solution for acne-prone skin.”<br/><br/></em><strong>Dr Massimo Milani </strong></p><p>Medical Director, Cantabria Labs Italy </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TjyU77": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/dr-amy-perkins.jpg",
+            "title": "",
+            "text": "<p><em>“As a dermatologist, I'm passionate about helping people protect and care for their skin long-term. Heliocare's science-led approach and proven formulations make daily sun protection something people can genuinely trust.”<br/><br/></em><strong>Dr. Amy Perkins<br/></strong>Consultant Dermatologist</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_TQyEC4",
+        "column_6tQnJg",
+        "column_TjyU77"
+      ],
+      "settings": {
+        "title": "Researched and Recommended by Experts Around the World",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 96,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_zbdnGV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Rji36W": {
+          "type": "heading",
+          "settings": {
+            "heading": "Partner With Cantabria Labs",
+            "heading_size": "h2"
+          }
+        },
+        "text_gKb6PN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cantabria Labs is proud to support dermatologists with clinically proven solutions that protect, treat, and maintain skin health across a wide range of indications.<br/><br/>To request samples, professional materials, or patient support initiatives, please contact our team.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Rji36W",
+        "text_gKb6PN"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": "contact"
+      }
+    },
+    "17827301582d95606b": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_W87wJz": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTUyNTM3\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_W87wJz"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "multicolumn_NP9J39": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_iXRd7A": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_Vogue.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Read article",
+            "link": "https://www.vogue.co.uk/article/best-tinted-sunscreens"
+          }
+        },
+        "column_fEFJqn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_Forbes.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Read article",
+            "link": "https://www.forbes.com/sites/angelinavillaclarke/2025/02/18/discover-the-most-travel-savvy-products-for-your-next-adventure--pt-1/"
+          }
+        },
+        "column_h76KLe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_HarpersBazaar.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Read article",
+            "link": "https://www.harpersbazaar.com/uk/beauty/skincare/g38180/best-face-spf/"
+          }
+        },
+        "column_PmKWTU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_Glamour.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Read article",
+            "link": "https://www.glamourmagazine.co.uk/article/treatment-uneven-skin-tone"
+          }
+        },
+        "column_T9cgie": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_Stylist.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Read article",
+            "link": "https://www.stylist.co.uk/beauty/beauty-insiders-best-spf-recommendations/985154"
+          }
+        },
+        "column_YDHe3j": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_EveningStandard.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Read article",
+            "link": "https://www.standard.co.uk/shopping/esbest/health-fitness/best-fastpacking-kit-b1202644.html"
+          }
+        }
+      },
+      "block_order": [
+        "column_iXRd7A",
+        "column_fEFJqn",
+        "column_h76KLe",
+        "column_PmKWTU",
+        "column_T9cgie",
+        "column_YDHe3j"
+      ],
+      "settings": {
+        "title": "As seen in",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
     "main",
     "custom_liquid_K7G7ee",
     "rich_text_3aFmYk",
-    "multicolumn_with_buttons_z8676H"
+    "multicolumn_with_buttons_z8676H",
+    "rich_text_T9aW9y",
+    "cl_slideshow_9QNmBg",
+    "rich_text_GrHh6W",
+    "image_with_text_X9whW3",
+    "image_with_text_XEfkBG",
+    "image_with_text_eNiWVT",
+    "image_with_text_HcwzBg",
+    "rich_text_gBrWbr",
+    "multicolumn_with_buttons_DdwyYa",
+    "multicolumn_MCbkD9",
+    "rich_text_zbdnGV",
+    "17827301582d95606b",
+    "multicolumn_NP9J39"
   ]
 }
