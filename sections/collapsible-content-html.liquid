@@ -13,6 +13,11 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  @media screen and (max-width: 749px) {
+    .section-{{ section.id }}-padding .collapsible-content__grid--reverse-mobile {
+      flex-direction: row-reverse;
+    }
+  }
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
@@ -36,7 +41,7 @@
             <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
           {% endif %}
         </div>
-        <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}{% if section.settings.mobile_layout == 'image_second' %} collapsible-content__grid--reverse-mobile{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           {%- if section.settings.image != blank -%}
             <div class="grid__item collapsible-content__grid-item">
               <div
@@ -258,6 +263,22 @@
       "default": "image_second",
       "label": "t:sections.collapsible_content.settings.desktop_layout.label",
       "info": "t:sections.collapsible_content.settings.desktop_layout.info"
+    },
+    {
+      "type": "select",
+      "id": "mobile_layout",
+      "options": [
+        {
+          "value": "image_first",
+          "label": "t:sections.collapsible_content.settings.desktop_layout.options__1.label"
+        },
+        {
+          "value": "image_second",
+          "label": "t:sections.collapsible_content.settings.desktop_layout.options__2.label"
+        }
+      ],
+      "default": "image_first",
+      "label": "Mobile layout"
     },
     {
       "type": "header",
