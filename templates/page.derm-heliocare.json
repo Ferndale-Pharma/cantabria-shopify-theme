@@ -11,13 +11,463 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_DFCgPt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_M7THTE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nothing Protects Skin like HELIOCARE 360°: Expert, very high-level, full-spectrum sun protection",
+            "heading_size": "h1"
+          }
+        },
+        "text_nwLBzL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HELIOCARE 360° is a comprehensive photoprotection range designed to support dermatologists in the prevention and management of photo-induced skin damage. Providing very high-level, full-spectrum daily protection against UVA (PA++++), UVB (SPF50&gt;), visible light and infrared-A, HELIOCARE 360° uses its unique Fernblock® & ASPA-Fernblock® antioxidant technologies to clinically protect beyond typical sunscreen by defending the skin from within and helping repair daylight-induced damage. </p>"
+          }
+        },
+        "button_NckKnL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get in Touch",
+            "button_link": "#contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_M7THTE",
+        "text_nwLBzL",
+        "button_NckKnL"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_mzUzFq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_G6kgM8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00042_CantabriaLabs_HeliocareRangePage_WhyChooseHeliocare_ProtectionIcon_800x800px_Jun25.jpg",
+            "title": "Very high-level, broad-spectrum UV protection",
+            "text": "<p>UVB (SPF50&gt;) and UVA (PA++++).</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fkVVxW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00042_CantabriaLabs_HeliocareRangePage_WhyChooseHeliocare_FernblockIcon_800x800px_Jun25.jpg",
+            "title": "Fernblock®+ Antioxidant Technology",
+            "text": "<p>Proven by dermatologists to help enhance protection from UVA, Visible Light, IR-A and free radical and repair DNA damage.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xdUGbC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00042_CantabriaLabs_HeliocareRangePage_WhyChooseHeliocare_ForEveryone_800x800px_Jun25.jpg",
+            "title": "A sunscreen for everyone, for every day",
+            "text": "<p>With unique formulas tailored for different skin types and special skin care concerns, finish and coverage preferences.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RE37JF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00042_CantabriaLabs_HeliocareRangePage_WhyChooseHeliocare_InsideAndOutIcons_800x800px_Jun25.jpg",
+            "title": "Holistic skin protection, inside and out",
+            "text": "<p>With topical sunscreens and oral skin supplements.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_G6kgM8",
+        "column_fkVVxW",
+        "column_xdUGbC",
+        "column_RE37JF"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "Why choose HELIOCARE 360°?",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "image_with_text_dRKVKW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_d6fD7L": {
+          "type": "heading",
+          "settings": {
+            "heading": "Personalised Daily Photoprotection for Every Patient Profile",
+            "heading_size": "h2"
+          }
+        },
+        "text_ectxRp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HELIOCARE 360° is designed for everyday use across a wide range of patient needs, with advanced formulations tailored by skin type, indication, and finish preference. Each product provides dermatologist-aligned, full-spectrum protection against UVA, UVB, visible light and infrared-A, while also delivering targeted skincare benefits to support common dermatological concerns - such as acne-prone skin, pigmentation management, redness-prone skin, barrier support, hydration, and photoageing prevention.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_gtFpXz": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Product Range",
+            "button_link": "shopify://collections/heliocare",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_d6fD7L",
+        "text_ectxRp",
+        "button_gtFpXz"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_yhqkLA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_W36NpM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fernblock® & Dermatological Pathologies",
+            "heading_size": "h2"
+          }
+        },
+        "text_g6QqDX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every HELIOCARE sunscreen and oral supplement product contains the unique Fernblock® Technology, a patented extract derived from the fern <em>Polypodium leucotomos</em>, exclusive to Cantabria Labs. More than 50 clinical and scientific studies have demonstrated Fernblock® as a potent, bioactive antioxidant technology that, when used in HELIOCARE sunscreens and oral supplements, helps protect the skin from damage caused by exposure to UVB, UVA, Visible Light and Infrared-A. <br/><br/>The scientific and clinical literature extensively documents Fernblock’s mechanism of action:</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_W36NpM",
+        "text_g6QqDX"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 16,
+        "container_id": ""
+      }
+    },
+    "multicolumn_html_PTjtwB": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_giFUhN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/UV_PROTECTION.png",
+            "title": "",
+            "text": "<h3><b>Protect the skin against damage caused by daylight: UVA, UVB, visible light and infrared-A<sup>1,2,3</sup>\n</b></h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dHpUDT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PREVENT_COLLAGEN_BREAKDOWN.png",
+            "title": "",
+            "text": "<h3>\n<b>Prevent collagen breakdown<sup>2</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GMnRtN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/REPAIR_DNA.png",
+            "title": "",
+            "text": "<h3>\n<b>Protect and repairs skin cell DNA<sup>4</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_drRwpm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PREVENT_PIGMENTATION.png",
+            "title": "",
+            "text": "<h3>\n<b>Prevent light-induced pigmentation<sup>5</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XP4dXT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PROTECT_SKIN_IMMUNE_SYSTEM.png",
+            "title": "",
+            "text": "<h3>\n<b>Protect the skin’s immune system<sup>5</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zKiVeG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMPROVE_SPF_FILTERS.png",
+            "title": "",
+            "text": "<h3>\n<b>Improve the efficacy of SPF filters<sup>6</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_giFUhN",
+        "column_dHpUDT",
+        "column_GMnRtN",
+        "column_drRwpm",
+        "column_XP4dXT",
+        "column_zKiVeG"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Download Clinical Overview",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_html_hDhp7a": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_CxGME3": {
+          "type": "column",
+          "settings": {
+            "title": "Polymorphic light eruption (PMLE)",
+            "text": "<p>Studies report reduced skin reactions and symptoms during periods of sun exposure<sup>7,8</sup></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rfzdNj": {
+          "type": "column",
+          "settings": {
+            "title": "Vitiligo",
+            "text": "<p>Placebo-controlled studies indicate improved outcomes when combined with NB-UVB phototherapy versus phototherapy alone<sup>9</sup></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XC7wtf": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Melasma & hyperpigmentation</strong>",
+            "text": "<p>Oral Fernblock® has been evaluated as an adjunct to standard regimens, with studies reporting greater improvements versus placebo when paired with topical therapy and sunscreen<sup>10</sup></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WJXkAg": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mk88ND": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_CxGME3",
+        "column_rfzdNj",
+        "column_XC7wtf",
+        "column_WJXkAg",
+        "column_mk88ND"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "title": "Oral Fernblock® & Supporting High-Risk Patients",
+        "heading_size": "h2",
+        "richtext": "<p>HELIOCARE's oral supplement range provides photoprotection support using patented Fernblock® (<em>Polypodium leucotomos</em>) extract, developed as an adjuvant to topical sunscreen in patients where photoprotection is clinically critical.<br/><br/>The clinical literature supports oral Fernblock® as an adjuvant in dermatological pathways linked to UV and visible light exposure, including:<br/><br/></p>",
+        "narrow_text": true,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "collapsible_content_html_zJhpAX": {
+      "type": "collapsible-content-html",
+      "blocks": {
+        "collapsible_row_UXcXWV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Polymorphic light eruption (PMLE)",
+            "icon": "check_mark",
+            "row_content": "<p>Studies report reduced skin reactions and symptoms during periods of sun exposure<sup>7,8</sup></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wMftQy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_8TUaE6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_Gpz9kQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_9nJGCn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_UXcXWV",
+        "collapsible_row_wMftQy",
+        "collapsible_row_8TUaE6",
+        "collapsible_row_Gpz9kQ",
+        "collapsible_row_9nJGCn"
+      ],
+      "name": "Collapsible Content HTML",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-2",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image": "shopify://shop_images/FERN-IMG-00043_CantabriaLabs_HeliocareRangePage_CapsulesCollection_Images_1569x1032_Jul25.jpg",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "mobile_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_DFCgPt",
+    "multicolumn_mzUzFq",
+    "image_with_text_dRKVKW",
+    "rich_text_yhqkLA",
+    "multicolumn_html_PTjtwB",
+    "multicolumn_html_hDhp7a",
+    "collapsible_content_html_zJhpAX"
   ]
 }
