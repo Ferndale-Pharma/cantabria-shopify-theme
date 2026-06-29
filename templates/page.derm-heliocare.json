@@ -168,6 +168,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/heliocare-360-standing-range.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
