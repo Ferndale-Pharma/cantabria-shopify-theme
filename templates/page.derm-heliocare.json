@@ -23,7 +23,7 @@
         "heading_M7THTE": {
           "type": "heading",
           "settings": {
-            "heading": "Nothing Protects Skin like HELIOCARE 360°: Expert, very high-level, full-spectrum sun protection",
+            "heading": "Nothing Protects Skin Like HELIOCARE 360°: Expert, very high-level, full-spectrum sun protection",
             "heading_size": "h1"
           }
         },
@@ -188,7 +188,7 @@
         "heading_W36NpM": {
           "type": "heading",
           "settings": {
-            "heading": "Fernblock® & Dermatological Pathologies",
+            "heading": "Fernblock® & Dermatological Pathologies",
             "heading_size": "h2"
           }
         },
@@ -357,36 +357,36 @@
         "collapsible_row_wMftQy": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Vitiligo",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Placebo-controlled studies indicate improved outcomes when combined with NB-UVB phototherapy versus phototherapy alone<sup>9</sup></p>",
             "page": ""
           }
         },
         "collapsible_row_8TUaE6": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Melasma & hyperpigmentation",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Oral Fernblock® has been evaluated as an adjunct to standard regimens, with studies reporting greater improvements versus placebo when paired with topical therapy and sunscreen<sup>10</sup></p>",
             "page": ""
           }
         },
         "collapsible_row_Gpz9kQ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Photoageing & environmental oxidative stress",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Evidence highlights antioxidant and anti-inflammatory activity relevant to extrinsic ageing pathways<sup>11</sup></p>",
             "page": ""
           }
         },
         "collapsible_row_9nJGCn": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Actinic keratosis (AK)",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Reviews of <em>Polypodium leucotomos</em> extract report that orally administered Fernblock® may support protection against UV-mediated skin damage and has been studied in the context of photocarcinogenesis pathways<sup>12</sup></p>",
             "page": ""
           }
         }
@@ -413,7 +413,269 @@
         "desktop_layout": "image_second",
         "mobile_layout": "image_second",
         "padding_top": 0,
-        "padding_bottom": 64
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_waFdWq": {
+      "type": "rich-text",
+      "blocks": {
+        "text_pMMw44": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Oral Fernblock should be positioned as an adjunct to topical photoprotection, particularly for patients with pigment relapse risk, photosensitivity concerns, or those undergoing treatment plans where consistent sun protection is clinically important.</p>"
+          }
+        },
+        "button_cYgxTi": {
+          "type": "button",
+          "settings": {
+            "button_label": "Request More Information",
+            "button_link": "#contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_pMMw44",
+        "button_cYgxTi"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_rrmkTa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FpVwG9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introducing NEW ASPA-Fernblock® Technology",
+            "heading_size": "h2"
+          }
+        },
+        "text_TczHNr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ASPA-Fernblock® is the latest evolution in skin photoprotection - a next-generation patented bioactive complex designed to enhance the protective benefits of HELIOCARE while supporting skin health beyond UV protection.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FpVwG9",
+        "text_TczHNr"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "cl_single_image_yqMbYr": {
+      "type": "cl-single-image",
+      "name": "Single Image",
+      "settings": {
+        "image": "shopify://shop_images/CL-WEB-0002_-_HELIOCARE_BRAND_PAGE_-_TECH_INGREDIENTS_-_ASPA_FERNBLOCK_1.jpg",
+        "image_width_value": 600,
+        "image_width_unit": "px",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": true,
+        "container_id": ""
+      }
+    },
+    "rich_text_EAN37a": {
+      "type": "rich-text",
+      "blocks": {
+        "text_QUck39": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This innovative technology combines two powerful plant-based actives: Fernblock®+, Cantabria Labs' patented <em>Polypodium leucotomos</em> extract with clinically proven antioxidant and photoprotective properties, and ASPA, a patented extract derived from <em>Aspalathus linearis</em> (Rooibos), a plant naturally rich in flavonoids with recognised biological activity. Together, they create ASPA-Fernblock®, an additive complex exclusive to Cantabria Labs products. <br/><br/>ASPA-Fernblock® has been shown to enhance the efficacy of UV filters, supporting more comprehensive protection across the full spectrum of solar radiation, including UVA, UVB, visible light and infrared-A. It also delivers the OptiD Effect, helping to preserve vitamin D receptors under oxidative stress and supporting the skin's ability to utilise vitamin D more effectivtly. </p>"
+          }
+        },
+        "button_kdhWG4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Download Clinical Overview",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_QUck39",
+        "button_kdhWG4"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_r4c4Vy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dH4Ydd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Partner With HELIOCARE",
+            "heading_size": "h2"
+          }
+        },
+        "text_dk7N6c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HELIOCARE 360° represents advanced, evidence-based photoprotection designed to integrate into dermatological treatment plans and support patients requiring comprehensive daily protection. </p><p>To request samples, professional materials, or patient support initiatives, please contact our team below. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dH4Ydd",
+        "text_dk7N6c"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": "contact"
+      }
+    },
+    "1782743248a4e49455": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_WtizB9": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": ""
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_WtizB9"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "multicolumn_aRXzGA": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Azj6Gm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tatler_562f82d2-602a-48ec-866c-fdf144e847a4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9GYikm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Harpers_Bazaar.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fM7pfX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Telegraph_d9aaf191-f9ed-4b67-afde-7693c5c035e3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3gfqmU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sunday_Times_Style.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KYGbfH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Get_the_gloss.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_M3NU8e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Marie_Claire.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Azj6Gm",
+        "column_9GYikm",
+        "column_fM7pfX",
+        "column_3gfqmU",
+        "column_KYGbfH",
+        "column_M3NU8e"
+      ],
+      "settings": {
+        "title": "As seen in",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 96,
+        "padding_bottom": 64,
+        "container_id": ""
       }
     }
   },
@@ -425,6 +687,13 @@
     "rich_text_yhqkLA",
     "multicolumn_html_PTjtwB",
     "rich_text_NBTVdd",
-    "collapsible_content_html_zJhpAX"
+    "collapsible_content_html_zJhpAX",
+    "rich_text_waFdWq",
+    "rich_text_rrmkTa",
+    "cl_single_image_yqMbYr",
+    "rich_text_EAN37a",
+    "rich_text_r4c4Vy",
+    "1782743248a4e49455",
+    "multicolumn_aRXzGA"
   ]
 }
