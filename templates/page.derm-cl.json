@@ -17,35 +17,105 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_G6URFR": {
+    "custom_liquid_K7G7ee": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width center\"><h1>Dermatology-Led Innovation.<br>Clinically Proven Patient Support.</h1>\n</div>",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_3aFmYk": {
       "type": "rich-text",
       "blocks": {
-        "heading_MjNxCW": {
-          "type": "heading",
+        "text_jteY68": {
+          "type": "text",
           "settings": {
-            "heading": "<p>Dermatology-Led Innovation.<br/>Clinically Proven Patient Support.</p>",
-            "heading_size": "h1"
+            "text": "<p>Trusted by dermatologists worldwide, Cantabria Labs is dedicated to advancing skin health through evidence-based innovation. Together, we address some of the most common and challenging dermatological concerns - from photoprotection and acne to pigmentation, skin ageing and barrier repair - supporting better outcomes for both clinicians and patients. </p>"
           }
         }
       },
       "block_order": [
-        "heading_MjNxCW"
+        "text_jteY68"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-1",
+        "color_scheme": "",
         "full_width": true,
-        "is_heading": true,
-        "padding_top": 32,
-        "padding_bottom": 64,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 16,
         "container_id": ""
+      }
+    },
+    "multicolumn_with_buttons_z8676H": {
+      "type": "multicolumn-with-buttons",
+      "blocks": {
+        "column_LhbEAb": {
+          "type": "column",
+          "settings": {
+            "title": "Global Leader in Dermatology",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "link_new_tab": false
+          }
+        },
+        "column_mMP6hV": {
+          "type": "column",
+          "settings": {
+            "title": "Innovation & Scientific Excellence",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "link_new_tab": false
+          }
+        },
+        "column_iiFDTw": {
+          "type": "column",
+          "settings": {
+            "title": "6 Patented Technologies",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "link_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "column_LhbEAb",
+        "column_mMP6hV",
+        "column_iiFDTw"
+      ],
+      "name": "Multicolumn with Buttons",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "heading_align": "center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "button_link_new_tab": false,
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 64
       }
     }
   },
   "order": [
     "main",
-    "rich_text_G6URFR"
+    "custom_liquid_K7G7ee",
+    "rich_text_3aFmYk",
+    "multicolumn_with_buttons_z8676H"
   ]
 }
