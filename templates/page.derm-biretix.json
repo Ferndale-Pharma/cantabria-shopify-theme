@@ -11,13 +11,464 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_Crg99M": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Hff7pT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Adjunctive & Daily Management Solutions for your Acne-Prone Skin Patients",
+            "heading_size": "h1"
+          }
+        },
+        "text_axVjLp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BIRETIX is a dermatology-focused skincare range designed to support the long-term management of acne-prone and blemish-affected skin. Powered by RETINSPHERE® Technology, BIOPEP-15, and clinically proven, dermatological actives, BIRETIX helps target multiple pathogenic factors associated with acne-prone skin while supporting skin tolerance and barrier function. <br/><br/>Designed for regular use, BIRETIX supports every stage of the acne-prone skin cycle - helping to reduce imperfections, improve skin clarity, and support overall skin health. </p>"
+          }
+        },
+        "button_eaXnBG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get in Touch",
+            "button_link": "#contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Hff7pT",
+        "text_axVjLp",
+        "button_eaXnBG"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_html_F78BKH": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_zn9zRm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-01.png",
+            "title": "",
+            "text": "<h3>\n<b>Significantly reduce blemishes<sup>1,2,3,4</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ceyNDn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-02.png",
+            "title": "",
+            "text": "<h3>\n<b>Reduce spot-causing bacteria<sup>3</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_A4nWBn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-03.png",
+            "title": "",
+            "text": "<h3>\n<b>Control oil and shine<sup>1</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qHbx43": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-04.png",
+            "title": "",
+            "text": "<h3>\n<b>Hydrate and care for the skin<sup>1,2,3,4</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NKnYMB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-05.png",
+            "title": "",
+            "text": "<h3>\n<b>Improve the skin’s texture and firmness<sup>2</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CMFRUq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-06.png",
+            "title": "",
+            "text": "<h3>\n<b>Excellent skin tolerance<sup>1,2,3,4</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_zn9zRm",
+        "column_ceyNDn",
+        "column_A4nWBn",
+        "column_qHbx43",
+        "column_NKnYMB",
+        "column_CMFRUq"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "Clinically Proven Solutions",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_CnjD77": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_hBUHUA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_Triple_Action_Ingredients_1_145ff651-ab2b-469e-9eed-3abef3ba712d.jpg",
+            "title": "Exfoliation and Pore Clearance",
+            "text": "<p>Helps prevent follicular obstruction and comedone formation, supporting clearer pores and a reduction in visible blemishes. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_axABDR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_Triple_Action_Ingredients_2.jpg",
+            "title": "Sebum and Microbiome Support",
+            "text": "<p>Helps regulate excess sebum and supports control of acne-associated bacteria, contributing to reduced shine and fewer breakouts.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rAtBFa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_Triple_Action_Ingredients_3.jpg",
+            "title": "Anti-Redness and Barrier Support",
+            "text": "<p>Soothes irritated skin and helps reduce visible redness, supporting comfort and adherence in acne-prone patients.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_hBUHUA",
+        "column_axABDR",
+        "column_rAtBFa"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "A Targeted, Triple-Action Approach to Acne-Prone Skin",
+        "heading_size": "h2",
+        "richtext": "<p>BIRETIX formulations are designed to address the key clinical drivers of acne through a complementary, multi-mechanistic approach:</p>",
+        "narrow_text": true,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Download Clinical Overview",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "image_with_text_html_36qxk6": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_xBDDJg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Support Treatment Adherence During Prescription Acne Therapy",
+            "heading_size": "h2"
+          }
+        },
+        "text_jjgEEM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Isorepair range is specifically formulated to support patients undergoing prescription acne treatment, including oral isotretinoin. Developed with ceramides and biomimetic lipids to help restore barrier integrity, alongside hydrating ingredients including hyaluronic acid, Pentavitin® and glycerine, Isorepair provides clinically proven hydration support, helping to reduce transepidermal water loss (TEWL) by 46%<sup>5</sup> and maintain long-lasting skin hydration.</p><p>The range also contains niacinamide, panthenol and bisabolol to help calm sensitivity and reduce redness, supporting improved skin comfort and helping to minimise the dryness, flaking, tightness and irritation commonly associated with retinoid-based therapies.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_C6H6TB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Out More",
+            "button_link": "#contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xBDDJg",
+        "text_jjgEEM",
+        "button_C6H6TB"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00259_CanrabriaLabs_Blogs_SkinStories_Layflats1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_html_dagMFE": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_KjEECx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clinically Proven Triple-Action Support for Acne-Prone Skin",
+            "heading_size": "h2"
+          }
+        },
+        "text_4kWHeL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BIRETIX Tri-Active Anti-Blemish Gel combines exfoliating, sebum-regulating and skin-renewing ingredients to target multiple factors associated with blemish-prone skin. The triple-action formulation helps reduce imperfections, blemishes, excess oil and shine, while improving overall skin texture and promoting a more even-looking complexion.<sup>1</sup></p> \n\n<p>After just 28 days of use, BIRETIX Tri-Active Anti-Blemish Gel was shown to significantly reduce imperfections by 61% and blemishes by up to 76%.<sup>1,2</sup></p>",
+            "text_style": "body"
+          }
+        },
+        "button_bcTXQN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Out More",
+            "button_link": "#contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KjEECx",
+        "text_4kWHeL",
+        "button_bcTXQN"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "image": "shopify://shop_images/tri-active.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_ph8zkR": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_KcFpQp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_B_A_s_1aea7c4d-049c-468d-bdaf-10e4ed97d77a.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eaCEtX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_B_A_s_3_3a790d8d-b525-475c-9d25-3dcb0bb9b29e.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AiNMz4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_B_A_s_2_c65f8849-bab6-4951-862d-2ec791305b0f.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_KcFpQp",
+        "column_eaCEtX",
+        "column_AiNMz4"
+      ],
+      "settings": {
+        "title": "Effective and Caring Blemish Control",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_PPQrH8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Tg7hdz": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Partner With BIRETIX</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_yAW4VY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BIRETIX supports dermatologists in delivering effective, acne management strategies, whether as an adjuvant to prescription therapies or as a stand-alone solution for mild to moderate acne-prone skin. <br/><br/>To request samples, professional materials, or further support, please contact our dermatology team below.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Tg7hdz",
+        "text_yAW4VY"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": "contact"
+      }
+    },
+    "apps_mc4PXH": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_DAae9b": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTUyNTM3\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_DAae9b"
+      ],
+      "custom_css": [
+        "button.submit {background-color: #00843d; border-color: #00843d;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible_content_cREEAi": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_kqVNfn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "References",
+            "icon": "check_mark",
+            "row_content": "<ol><li>Hashtroody B, Bellas L, Pérez-Davó A. AEDV Poster, Spain, 2018.  </li><li>Martinez J, Pérez-Davó A. GEDET Poster, Spain, 2019.  </li><li>Milani M, Gonzales LC, Villalba M. J Clin Dermatol Ther 2021.7: 089. </li><li>Villani A, Annunziata MC, Cinelli E, Donnarumma M, Milani M, Fabbrocini G. G It Dermatol Venereol 2020. 155(5): 676-679. </li><li>Zurko Research, Evaluation of tolerance of a cosmetic under dermatological control of Biretix Isorepair Cream on 20 volunteers. Data on file. </li></ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_kqVNfn"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-3",
+        "container_color_scheme": "scheme-3",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_Crg99M",
+    "multicolumn_html_F78BKH",
+    "multicolumn_CnjD77",
+    "image_with_text_html_36qxk6",
+    "image_with_text_html_dagMFE",
+    "multicolumn_ph8zkR",
+    "rich_text_PPQrH8",
+    "apps_mc4PXH",
+    "collapsible_content_cREEAi"
   ]
 }
