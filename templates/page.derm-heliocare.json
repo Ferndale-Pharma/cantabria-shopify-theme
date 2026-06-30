@@ -566,7 +566,7 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_bottom": 0,
         "container_id": "contact"
       }
     },
@@ -576,12 +576,15 @@
         "powerful_form_builder_app_block_WtizB9": {
           "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
           "settings": {
-            "shortcode": ""
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTUyNTM3\"></div>"
           }
         }
       },
       "block_order": [
         "powerful_form_builder_app_block_WtizB9"
+      ],
+      "custom_css": [
+        "button.submit {background-color: #f2a900; color: #000; border-color: #f2a900;}"
       ],
       "settings": {
         "include_margins": true
