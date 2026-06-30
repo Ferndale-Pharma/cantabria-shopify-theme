@@ -681,6 +681,38 @@
         "padding_bottom": 64,
         "container_id": ""
       }
+    },
+    "collapsible_content_GWEc3P": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_qiJQ7q": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "References",
+            "icon": "question_mark",
+            "row_content": "<ol><li>González S, et al. PhotodermatolPhotoimmunol Photomed,1996,12(2):45-56 996 Apr;12(2):45-56. </li><li>González S, et.al. Int. J. Mol. Sci. 2018. Aug1;19(8):2250. </li><li>Amini S, et al. J Am Acad Dermatol. 2010 Mar;62(3):511-3. </li><li>Maritza A, et al. J. Am Acad Derm, 2004. 51(6):910-8. </li><li>Alonso-Lebrero JL, et.al. PhotochemPhotobiol B. 2003 Apr;70(1):31-7. </li><li>Aguilera J,et al. Front Med (Lausanne). 2021 Jun 2;8:684665. </li><li>Tanew A., Radakovic S., Gonzalez S., Venturini M., Calzavara-Pinton P., Oral administration of a hydrophilic extract of Polypodium leucotomos for the prevention of polymorphic light eruption. JAAD, 2010.09.773. </li><li>Stump, M.; Dhinsa, H.; Powers, J.; Stone, M. Attenuation of Actinic Prurigo Eruptions with Polypodium Leucotomos Supplementation.Pediatr. Dermatol. 2022, 39, 145–146. </li><li>Pacifico, A.; Damiani, G.; Iacovelli, P.; Conic, R.R.Z.; Gonzalez, S.; Morrone, A. NB-UVB plus Oral Polypodium Leucotomos Extract Display Higher Efficacy than NB-UVB Alone in Patients with Vitiligo. Dermatol. Ther. 2021, 34, e14776. </li><li>Mohammad, T.F.; Kohli, I.; Nicholson, C.L.; Do, G.T.; Chaowattanapanit, S.; Nahhas, A.F.; Braunberger, T.L.; Lim, H.W.; Mda, I.H.H. Oral Polypodium Leucotomos Extract and Its Impact on Visible Light-Induced Pigmentation in Human. Subjects. J. Drugs Dermatol. 2019, 18, 1198–1203. </li><li>Schalka, S.; Donato, L.C. Evaluation of Effectiveness of a Sunscreen Containing Polypodium Leucatomos Extract in Reducing the Sun Damage to the Skin. Surg. Cosmet. Dermatol. 2019, 11, 310–318. </li><li>Lamberti, A.; Cartocci, A.; Donelli, C.; Cortonesi, G.; Trovato, E.; Milani, M.; Rubegni, P.; Cinotti, E. Prevention Strategies in Patients Affected by Actinic Keratosis of the Head: A 12-Month, Prospective, Assessor-Blinded, Controlled Study with Lesion-Directed Treatment Associated with Medicalized Photoprotection; Longdom Publishing SL: Barcelona, Spain, 2022; Volume 13, p. 5. </li></ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_qiJQ7q"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-2",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -698,6 +730,7 @@
     "rich_text_EAN37a",
     "rich_text_r4c4Vy",
     "1782743248a4e49455",
-    "multicolumn_aRXzGA"
+    "multicolumn_aRXzGA",
+    "collapsible_content_GWEc3P"
   ]
 }
