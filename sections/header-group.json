@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_xknnKy": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "20% Off HELIOCARE & Receive A Free Beach Towel On All Orders Including HELIOCARE Over £40",
             "link": "shopify://collections/heliocare"
