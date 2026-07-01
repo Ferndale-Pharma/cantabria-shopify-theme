@@ -23,6 +23,7 @@
         },
         "announcement_bEigCT": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Receive a FREE Oil Control Solution worth £26.00 With All BIRETIX Orders",
             "link": "shopify://collections/biretix"
