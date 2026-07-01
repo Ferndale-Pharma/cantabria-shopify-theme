@@ -16,9 +16,8 @@
       "blocks": {
         "announcement_xknnKy": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "20% Off HELIOCARE & Receive A Free Beach Towel On All Orders Including HELIOCARE Over £40",
+            "text": "Buy One, Get One Half Price On HELIOCARE 360° This UV Awareness Month",
             "link": "shopify://collections/heliocare"
           }
         },

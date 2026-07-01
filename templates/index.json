@@ -68,14 +68,14 @@
         "heading_aYcLWa": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>20% OFF ALL HELIOCARE 360°</strong>",
+            "heading": "360° Sun Protection Starts Here. Buy One, Get One Half Price On HELIOCARE 360° This UV Awareness Month",
             "heading_size": "h1"
           }
         },
         "text_kyA6LM": {
           "type": "text",
           "settings": {
-            "text": "<strong>This Skin Cancer Awareness Month, prevention takes centre stage. HELIOCARE 360° delivers advanced, full-spectrum photoprotection & goes beyond sunscreen to protect, repair and support long-term skin health.</strong>",
+            "text": "<strong>Build your complete sun protection routine with Buy One, Get One Half Price on all HELIOCARE 360° for advanced, full-spectrum photoprotection that helps defend against UV, visible light and infrared-A.</strong>",
             "text_style": "subtitle"
           }
         },
@@ -105,12 +105,11 @@
         "buttons_RkjPdk",
         "text_6GfTtr"
       ],
-      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 767px) {.h1 {font-size: 1.9em; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00232_CantabriaLabs_20_offHeliocare_FreeTote_HomepageBanner_May26_2.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00190_CantabriaLabs.co.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -130,14 +129,14 @@
         "heading_jygfEA": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Get Ready for a Summer Without Compromise with 20% OFF ALL HELIOCARE 360°</strong>",
+            "heading": "360° Sun Protection Starts Here. Buy One, Get One Half Price On HELIOCARE 360° This UV Awareness Month",
             "heading_size": "h1"
           }
         },
         "text_6WMLKz": {
           "type": "text",
           "settings": {
-            "text": "<strong>Advanced, high-level, full-spectrum photoprotection that goes beyond sunscreen to protect, repair and support long-term skin health. Plus get a FREE HELIOCARE Beach Towel with all orders including HELIOCARE over £40.</strong>",
+            "text": "<strong>Build your complete sun protection routine with Buy One, Get One Half Price on all HELIOCARE 360° for advanced, full-spectrum photoprotection that helps defend against UV, visible light and infrared-A.</strong>",
             "text_style": "body"
           }
         },
@@ -158,6 +157,7 @@
         "text_6WMLKz",
         "buttons_PMtHzL"
       ],
+      "disabled": true,
       "name": "Image Banner v2",
       "settings": {
         "image": "shopify://shop_images/FERN-IMG-00246_-_DESKTOP_1.jpg",

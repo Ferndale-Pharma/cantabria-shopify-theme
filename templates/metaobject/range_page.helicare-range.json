@@ -114,14 +114,14 @@
         "heading_ENr7qe": {
           "type": "heading",
           "settings": {
-            "heading": "Get Ready for a Summer Without Compromise with 20% OFF ALL HELIOCARE 360°",
+            "heading": "Buy One, Get One Half Price On HELIOCARE 360° This UV Awareness Month",
             "heading_size": "h2"
           }
         },
         "text_HMQBJW": {
           "type": "text",
           "settings": {
-            "text": "<p>Advanced, high-level, full-spectrum photoprotection that goes beyond sunscreen to protect, repair and support long-term skin health.</p><p><strong>Plus get a FREE HELIOCARE Beach Towel with all orders including Heliocare over £40.</strong></p>"
+            "text": "<p><strong>Build your sun protection routine with Buy One, Get One Half Price on all HELIOCARE 360° products.</strong></p><p>From facial SPF and body sunscreens to oral supplements, enjoy advanced, high-level, full-spectrum photoprotection that goes beyond sunscreen to help defend against UV, visible light and infrared-A for comprehensive 360° sun protection.</p>"
           }
         },
         "button_gGdyxW": {
@@ -138,7 +138,7 @@
         "text_6CBw8q": {
           "type": "text",
           "settings": {
-            "text": "<p> <a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>Offer ends 09:00 1st July 2026 or while stocks last - Terms & Conditions apply.</em></a></p>"
+            "text": "<p> <a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>Offer ends 12:00 3rd August 2026 - Terms & Conditions apply.</em></a></p>"
           }
         }
       },
@@ -148,7 +148,6 @@
         "button_gGdyxW",
         "text_6CBw8q"
       ],
-      "disabled": true,
       "custom_css": [
         "p > a {color: #121212;}",
         "h2 {color: #f2a900;}"
