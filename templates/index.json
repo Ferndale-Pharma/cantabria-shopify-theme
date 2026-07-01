@@ -105,6 +105,7 @@
         "buttons_RkjPdk",
         "text_6GfTtr"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 767px) {.h1 {font-size: 1.9em; }}"
       ],
@@ -157,11 +158,10 @@
         "text_6WMLKz",
         "buttons_PMtHzL"
       ],
-      "disabled": true,
       "name": "Image Banner v2",
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00246_-_DESKTOP_1.jpg",
-        "mobile_image": "shopify://shop_images/FERN-IMG-00246_-_MOBILE_1.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00263_CL.co.uk_BOGSHP_HomepageBanner_Jul26_Desktop.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00263_CL.co.uk_BOGSHP_HomepageBanner_Jul26_Mobile.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
