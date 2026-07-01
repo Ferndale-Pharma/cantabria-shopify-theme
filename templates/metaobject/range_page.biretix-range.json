@@ -99,14 +99,14 @@
         "heading_Ce4iJj": {
           "type": "heading",
           "settings": {
-            "heading": "25% OFF All BIRETIX – PLUS a FREE Oil Control Solution worth £26 ",
+            "heading": "Strengthen your BIRETIX Regime with a FREE BIRETIX Oil Control Solution",
             "heading_size": "h2"
           }
         },
         "text_Kpc3BL": {
           "type": "text",
           "settings": {
-            "text": "<p>This Acne Awareness Month, we’re looking ‘beyond the blemishes’ to highlight the importance of a holistic, consistent skincare regime for acne-prone skin-helping to not only target active breakouts but also support overall skin health by addressing concerns such as oiliness, sensitivity and post-blemish marks.</p>"
+            "text": "<p>FREE with all BIRETIX orders, the Oil Control Solution is a retexturising facial toner for oily and acne-prone skin that helps exfoliate, refine skin texture and regulate excess oil supporting a clearer, smoother and more balanced complexion.</p>"
           }
         },
         "button_RDVdmH": {
@@ -123,7 +123,7 @@
         "text_RRGghP": {
           "type": "text",
           "settings": {
-            "text": "<p><a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>Offer ends 12:00 1st July 2026 - Terms and Conditions apply</em></a></p>"
+            "text": "<p><a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>While Stocks Last - Terms and Conditions apply</em></a></p>"
           }
         }
       },
@@ -133,7 +133,6 @@
         "button_RDVdmH",
         "text_RRGghP"
       ],
-      "disabled": true,
       "custom_css": [
         "h2 {color: #00843d;}",
         "p > a {color: #121212;}"
