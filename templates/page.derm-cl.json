@@ -58,6 +58,7 @@
         "column_LhbEAb": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Icon01.png",
             "title": "Global Leader in Dermatology",
             "text": "",
             "link_label": "",
@@ -68,6 +69,7 @@
         "column_mMP6hV": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Icon02.png",
             "title": "Innovation & Scientific Excellence",
             "text": "",
             "link_label": "",
@@ -78,6 +80,7 @@
         "column_iiFDTw": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Icon03.png",
             "title": "6 Patented Technologies",
             "text": "",
             "link_label": "",
@@ -91,13 +94,16 @@
         "column_mMP6hV",
         "column_iiFDTw"
       ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper--third-width {max-width: 120px;}"
+      ],
       "name": "Multicolumn with Buttons",
       "settings": {
         "title": "",
         "heading_size": "h1",
         "heading_align": "center",
-        "image_width": "full",
-        "image_ratio": "adapt",
+        "image_width": "third",
+        "image_ratio": "square",
         "button_label": "Get in Touch",
         "button_link": "#contact",
         "button_link_new_tab": false,
@@ -326,6 +332,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Image01.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -373,6 +380,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Image02.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -420,6 +428,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Image03.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -467,6 +476,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Image04.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -520,6 +530,7 @@
         "column_DiC7kn": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Icon04.png",
             "title": "Access to Clinical Data & Scientific Resources",
             "text": "<p>Dermatology-focused clinical evidence & published studies to support informed product recommendations.</p>",
             "link_label": "Request Clinical Data",
@@ -530,6 +541,7 @@
         "column_J6C6Qz": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Icon05.png",
             "title": "Patient Education Materials",
             "text": "<p>Evidence-based literature to reinforce clinical recommendations and daily routines.</p>",
             "link_label": "Request Educational Materials",
@@ -540,6 +552,7 @@
         "column_QGfz9b": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Icon06.png",
             "title": "Product Samples",
             "text": "<p>Support patient trial, tolerability, and long-term compliance.</p>",
             "link_label": "Request Product Samples",
@@ -550,6 +563,7 @@
         "column_NMhb8P": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Icon07.png",
             "title": "Ongoing Partnership & Training",
             "text": "<p>Clinical support and product education for your dermatology team.</p>",
             "link_label": "Request a Meeting",
@@ -572,8 +586,8 @@
         "title": "Professional Support Available",
         "heading_size": "h2",
         "heading_align": "center",
-        "image_width": "full",
-        "image_ratio": "adapt",
+        "image_width": "third",
+        "image_ratio": "square",
         "button_label": "",
         "button_link": "",
         "button_link_new_tab": false,
