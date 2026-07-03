@@ -11,13 +11,319 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_kBxDbG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4wFcnQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a BIRETIX Stockist",
+            "heading_size": "h1"
+          }
+        },
+        "text_MYP7qt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join leading skin clinics, pharmacies and specialist skincare retailers across the UK in offering BIRETIX - the clinically proven, dermatologically developed skincare range for blemish-prone and acne-prone skin from Cantabria Labs.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4wFcnQ",
+        "text_MYP7qt"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "cl_single_image_cYtcgn": {
+      "type": "cl-single-image",
+      "name": "Single Image",
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Image02.png",
+        "image_width_value": 800,
+        "image_width_unit": "px",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": true,
+        "container_id": ""
+      }
+    },
+    "rich_text_K3C4V7": {
+      "type": "rich-text",
+      "blocks": {
+        "button_wpePnT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Become a stockist",
+            "button_link": "#contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_wpePnT"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_html_8CK8ec": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_xUyWiA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-01.png",
+            "title": "",
+            "text": "<h3>\n<b>Significantly reduce blemishes<sup>1,2,3,4</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DUwbkX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-02.png",
+            "title": "",
+            "text": "<h3>\n<b>Reduce spot-causing bacteria<sup>3</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xMeDHk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-03.png",
+            "title": "",
+            "text": "<h3>\n<b>Control oil and shine<sup>1</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dQ3XgP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-04.png",
+            "title": "",
+            "text": "<h3>\n<b>Hydrate and care for the skin<sup>1,2,3,4</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aPjzPm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-05.png",
+            "title": "",
+            "text": "<h3>\n<b>Improve the skin’s texture and firmness<sup>2</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3zexdG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-06.png",
+            "title": "",
+            "text": "<h3>\n<b>Excellent skin tolerance<sup>1,2,3,4</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_xUyWiA",
+        "column_DUwbkX",
+        "column_xMeDHk",
+        "column_dQ3XgP",
+        "column_aPjzPm",
+        "column_3zexdG"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "Clinically proven solutions",
+        "heading_size": "h2",
+        "richtext": "<p>BIRETIX is an innovative skincare range from Cantabria Labs, designed to meet the growing demand for effective, science-led solutions for blemish-prone and acne-prone skin. <br/><br/>Combining RETINSPHERE® Technology, BIOPEP-15 and clinically proven dermatological actives, BIRETIX helps target the key factors associated with blemish-prone skin while supporting the skin barrier. Offering a solutions for prevention, treatment support and maintenance, BIRETIX provides clinics, pharmacies and specialist skincare retailers with a trusted range that delivers visible results and encourages long-term customer loyalty. </p>",
+        "narrow_text": true,
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Become a stockist",
+        "button_link": "#contact",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_html_MMRew6": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_4cJDMm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/tri-active.jpg",
+            "title": "",
+            "text": "<h3 class=\"inline-richtext\">BIRETIX<br> Tri-Active Anti-Blemish Gel</h3><p style=\"margin-top: 1rem;\">A daily treatment gel for mild – moderate acne-prone skin. Clinically proven to reduce blackheads by 61% and blemishes by up to 76% in just 28 days.<sup>1</sup></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hgGPxQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/double-correction.jpg",
+            "title": "",
+            "text": "<h3 class=\"inline-richtext\">BIRETIX<br> Double Correction Serum</h3><p style=\"margin-top: 1rem;\">A high-performance, dual-action solution designed for adult skin prone to acne and blemishes. Clinically proven to help regulate excess sebum, reduce shine and minimise the appearance of pores in just 14 days.<sup>5</sup></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_knECVK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/isorepair-cleanser.jpg",
+            "title": "",
+            "text": "<h3 class=\"inline-richtext\">BIRETIX<br> Isorepair Creamy Cleanser</h3><p style=\"margin-top: 1rem;\">A soothing daily face wash designed for dry, sensitive and acne-prone skin, and to support those undergoing prescription retinoid treatments. Clinically tested for high tolerance, with 89% of users reporting healthier-looking skin after use.<sup>6</sup></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XkXjKk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/biretix-isorepair-cream-layflat.jpg",
+            "title": "",
+            "text": "<h3 class=\"inline-richtext\">BIRETIX<br> Isorepair Cream</h3><p style=\"margin-top: 1rem;\">A comprehensive barrier-repair rcream designed to support dry and sensitive acne-prone skin as well as skin undergoing prescription retinoid treatment. Clinically proven to support skin hydration, reducing transepidermal water loss (TEWL) by 46%.<sup>7</sup></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4cJDMm",
+        "column_hgGPxQ",
+        "column_knECVK",
+        "column_XkXjKk"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "title": "Target every stage of the acne-prone skin cycle",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Become a stockist",
+        "button_link": "#contact",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_6Xphzi": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_NwfqnE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_B_A_s_1aea7c4d-049c-468d-bdaf-10e4ed97d77a.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zjHaPx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_B_A_s_3_3a790d8d-b525-475c-9d25-3dcb0bb9b29e.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NcAmX4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0003_-_Biretix_-_B_A_s_2_c65f8849-bab6-4951-862d-2ec791305b0f.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_NwfqnE",
+        "column_zjHaPx",
+        "column_NcAmX4"
+      ],
+      "settings": {
+        "title": "A targeted, triple-action approach to acne-prone skin",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_kBxDbG",
+    "cl_single_image_cYtcgn",
+    "rich_text_K3C4V7",
+    "multicolumn_html_8CK8ec",
+    "multicolumn_html_MMRew6",
+    "multicolumn_6Xphzi"
   ]
 }
