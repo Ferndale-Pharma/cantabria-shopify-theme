@@ -316,6 +316,39 @@
         "container_id": ""
       }
     },
+    "rich_text_html_UJUBhw": {
+      "type": "rich-text-html",
+      "blocks": {
+        "heading_baQ3LP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why stock BIRETIX?",
+            "heading_size": "h2"
+          }
+        },
+        "text_hkYTeL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BIRETIX is brought to skincare retailers and professionals across the UK by Ferndale Pharmaceuticals Ltd. – the exclusive UK partner of Cantabria Labs since 2008.</p> \n\n<p>With more than 70,000 patients referred for specialist acne care in the UK every year<sup>8</sup>, acne remains one of the most common reasons people seek professional skin advice. BIRETIX provides clinics, pharmacies and specialist skincare retailers with a clinically proven, science-led range that meets this ongoing demand.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_baQ3LP",
+        "text_hkYTeL"
+      ],
+      "name": "Rich text HTML",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": ""
+      }
+    },
     "multicolumn_qbc7zK": {
       "type": "multicolumn",
       "blocks": {
@@ -388,6 +421,143 @@
         "padding_bottom": 64,
         "container_id": ""
       }
+    },
+    "multicolumn_dhyzrM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_E4Ab6f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL---Skin-Clinic---Image.jpg",
+            "title": "Professional Skin Clinics",
+            "text": "<p>BIRETIX complements professional acne and blemish management with clinically proven homecare solutions that support treatment outcomes and encourage long-term patient compliance.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NYG3Ra": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL_-_Pharmacy_-_Image.jpg",
+            "title": "Pharmacies & Dermatological Skincare Retailers",
+            "text": "<p>Offer clients a clinically proven, over-the-counter solution for blemish-prone skin. BIRETIX complements prescription acne treatments and provides effective daily skincare for ongoing blemish management and maintenance.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_E4Ab6f",
+        "column_NYG3Ra"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "Who should stock BIRETIX?",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_qPPpVg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DHjWhG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a BIRETIX Stockist",
+            "heading_size": "h2"
+          }
+        },
+        "text_xGFXnr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ready to offer your customers clinically proven solutions for blemish-prone and acne-prone skin? <br/><br/>Join the growing network of BIRETIX partners today.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DHjWhG",
+        "text_xGFXnr"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": "contact"
+      }
+    },
+    "17830753877a7cbb22": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_4jGWYg": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTUzMzE2\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_4jGWYg"
+      ],
+      "custom_css": [
+        "button.submit {background-color: #00843d; border-color: #00843d;}",
+        ".globo-form-id-153316 .globo-form-app .globo-form-control .checkbox-wrapper .checkbox-input ~ .checkbox-label:before {border-color: #00843d;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible_content_qgf3fA": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_E9bdgP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "References",
+            "icon": "question_mark",
+            "row_content": "<ol><li>Hashtroody B, Bellas L, Pérez-Davó A. AEDV Poster, Spain, 2018.</li><li>Martinez J, Pérez-Davó A. GEDET Poster, Spain, 2019. </li><li>Milani M, Gonzales LC, Villalba M. J Clin Dermatol Ther 2021.7: 089.</li><li>Villani A, Annunziata MC, Cinelli E, Donnarumma M, Milani M, Fabbrocini G. G It Dermatol Venereol 2020. 155(5): 676-679.</li><li>Data on file. CRO Complife, Italy 2024. Clinical-Instrumental evaluation of the efficacy and tolerability of a cosmetic treatment in subjects with acne prone skin; 20 female subjects with mild to moderate acne symptoms applied Biretix Double Correction Serum twice daily for 42 days - results tested at baseline (T0) and after 14 (T14), 28 (T28) and 42 days (T42)​.</li><li>User test satisfaction questionnaire after 28 days use of Biretix Creamy Cleanser. Cantabria Labs Spain. Data on File.​</li><li>Zurko Research,Evaluation of tolerance of a cosmetic under dermatological control of Biretix Isorepair Cream on 20 volunteers. Data on file.</li><li>NICE Guideline NG198: Acne vulgaris: management (2021, updated 2023); BMJ summary of NICE guidance </li></ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_E9bdgP"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-3",
+        "container_color_scheme": "scheme-3",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -398,6 +568,11 @@
     "multicolumn_html_8CK8ec",
     "multicolumn_html_MMRew6",
     "multicolumn_6Xphzi",
-    "multicolumn_qbc7zK"
+    "rich_text_html_UJUBhw",
+    "multicolumn_qbc7zK",
+    "multicolumn_dhyzrM",
+    "rich_text_qPPpVg",
+    "17830753877a7cbb22",
+    "collapsible_content_qgf3fA"
   ]
 }
