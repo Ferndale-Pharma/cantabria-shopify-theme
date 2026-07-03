@@ -584,7 +584,9 @@
         "powerful_form_builder_app_block_WtizB9"
       ],
       "custom_css": [
-        "button.submit {background-color: #f2a900; color: #000; border-color: #f2a900;}"
+        "button.submit {background-color: #f2a900; color: #000; border-color: #f2a900;}",
+        ".globo-form-id-152537 .globo-form-app .globo-form-control .checkbox-wrapper .checkbox-input ~ .checkbox-label:before {border-color: #f2a900;}",
+        ".globo-form-input .checkbox-wrapper .checkbox-input:checked + .checkbox-label::before,.globo-form-input .checkbox-wrapper .checkbox-input:checked + .checkbox-label::after {background-color: #f2a900 !important; border-color: #f2a900 !important;}"
       ],
       "settings": {
         "include_margins": true
