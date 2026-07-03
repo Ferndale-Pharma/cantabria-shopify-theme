@@ -11,13 +11,481 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_KNTQbD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_k7UT6p": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become an ENDOCARE Stockist",
+            "heading_size": "h1"
+          }
+        },
+        "text_3p3qxW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join leading skin clinics, pharmacies and specialist skincare retailers across the UK in offering ENDOCARE – the clinically proven anti-ageing skincare range from Cantabria Labs, combining gold-standard active ingredients with patented technologies to target the visible signs of skin ageing and improve overall skin quality.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_k7UT6p",
+        "text_3p3qxW"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "cl_single_image_AYtPxG": {
+      "type": "cl-single-image",
+      "name": "Single Image",
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Image03.png",
+        "image_width_value": 800,
+        "image_width_unit": "px",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": true,
+        "container_id": ""
+      }
+    },
+    "rich_text_nz3Gad": {
+      "type": "rich-text",
+      "blocks": {
+        "button_TKnVBk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Become a stockist",
+            "button_link": "#contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_TKnVBk"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_cNBXXn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_z3JC7w": {
+          "type": "heading",
+          "settings": {
+            "heading": "Targeted formulations to prevent and correct key skin ageing concerns",
+            "heading_size": "h2"
+          }
+        },
+        "text_4ixiEF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Powered by expert dermatological knowledge, gold-standard active ingredients and patented technologies, including RETINDUO® advanced retinoid technology and EDAFENCE® anti-pollution technology, ENDOCARE delivers clinically proven improvements in skin brightness, barrier function and cell renewal while supporting long-term customer loyalty through targeted skincare routines. </p>"
+          }
+        },
+        "button_T4GXfW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Become a stockist",
+            "button_link": "#contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_z3JC7w",
+        "text_4ixiEF",
+        "button_T4GXfW"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_zFEidy": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_E6FgEc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ENDOCARE_-_SKIN_REGENERATION.png",
+            "title": "<strong>Targets the key causes of skin ageing</strong>",
+            "text": "<p>A dermatologist-approved system across Age Barrier, Radiance and Renewal that strengthens the skin barrier, defends against environmental stress and supports healthy cell turnover - delivering smarter prevention and visible correction at every stage of ageing.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Afkefp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ENDOCARE_-_INNOVTIVE_FORMULATIONS.png",
+            "title": "Powerful technologies & innovative formulations",
+            "text": "<p>Patented technologies, including RETINDUO® advanced retinoid technology  and EDAFENCE® anti-pollution, combined with gold-standard active ingredients for visible results.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_X8MHxi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ENDOCARE_-_CLINICALLY_PROVEN.png",
+            "title": "Clinically proven results",
+            "text": "<p>Backed by over 20 years of clinical research with numerous studies published in leading scientific and medical journals worldwide, ENDOCARE demonstrates scientific rigour and dermatological expertise, addressing the key biological drivers of skin ageing.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_E6FgEc",
+        "column_Afkefp",
+        "column_X8MHxi"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "Advanced dermatological innovation",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Become a stockist",
+        "button_link": "#contact",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_q4q4p3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_8Dmr9J": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/endocare-age-barrier-group.jpg",
+            "title": "Targeted barrier support for healthier, more resilient skin",
+            "text": "<p>ENDOCARE AGE BARRIER provides targeted skincare solutions designed to strengthen barrier function and improve skin resilience. Ideal for patients experiencing dryness, sensitivity or a compromised skin barrier, AGE BARRIER complements both professional treatments and daily skincare routines.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8djdz9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/endocare-radiance-group.jpg",
+            "title": "Antioxidant care for brighter, healthier-looking skin",
+            "text": "<p>Combining Vitamin C, Vitamin E, Ferulic Acid and patented EDAFENCE® technology, the ENDOCARE RADIANCE range helps defend against oxidative stress while visibly improving skin brightness and luminosity. Ideal for customers seeking brighter, more even-looking skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7Td9qV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/endocare-renewal-retinoids.jpg",
+            "title": "Accelerate skin renewal for smoother, firmer-looking skin",
+            "text": "<p>The ENDOCARE RENEWAL range is designed to support cell turnover and visibly improve skin texture, firmness and the appearance of fine lines. Powered by patented RETINDUO® Technology alongside AHAs and Azelaic Acid, it delivers targeted solutions for patients seeking advanced anti-ageing solutions. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_8Dmr9J",
+        "column_8djdz9",
+        "column_7Td9qV"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Complete anti-ageing solutions",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Become a stockist",
+        "button_link": "#contact",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_hyREUD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JWPJ6e": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why stock ENDOCARE?",
+            "heading_size": "h2"
+          }
+        },
+        "text_FPC7Y7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ENDOCARE is brought to skincare retailers and professionals across the UK by Ferndale Pharmaceuticals Ltd. – the exclusive UK partner of Cantabria Labs since 2008. </p><p>Ferndale Pharmaceuticals has a proven track record of delivering innovative, clinically proven dermatological skincare that helps clinics, pharmacies and specialist skincare retailers meet the growing demand for evidence-based anti-ageing solutions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JWPJ6e",
+        "text_FPC7Y7"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": ""
+      }
+    },
+    "multicolumn_bG46gk": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_9NtLeX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Clinically_proven_icon_5e3c216c-e0e8-49fa-a382-cbf035584b13.png",
+            "title": "",
+            "text": "<p>Clinically proven results that build trust and drive repeat purchases.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wWy9Rb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Boost_sales_icon_84c761a0-50d0-4110-8251-c0a4adaab426.png",
+            "title": "",
+            "text": "<p>Comprehensive marketing support to boost visibility and sales.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7kze7R": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Training_icon_09cc76ac-0145-430b-8367-f02444dcfc74.png",
+            "title": "",
+            "text": "<p>Professional training to educate and empower your team.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hKbMTG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/POS_materials_icon_c872ece4-a243-41f2-b0a4-6ad3a0838bdc.png",
+            "title": "",
+            "text": "<p>Point-of-sale materials to drive in-store engagement.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_9NtLeX",
+        "column_wWy9Rb",
+        "column_7kze7R",
+        "column_hKbMTG"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info {padding-left: 8px !important; padding-right: 8px !important;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Become a stockist",
+        "button_link": "#contact",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_Jga7hd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bKVRNF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL---Skin-Clinic---Image.jpg",
+            "title": "Professional Skin Clinics",
+            "text": "<p>Enhance your treatment protocols with clinically proven anti-ageing skincare that complements in-clinic procedures, supports patient outcomes and extends results through targeted homecare routines.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YWgEfR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL_-_Pharmacy_-_Image.jpg",
+            "title": "Pharmacies & Dermatological Skincare Retailers",
+            "text": "<p>Meet growing demand for premium, science-led anti-ageing skincare with clinically proven solutions that address barrier support, radiance and renewal while encouraging customer confidence and repeat purchases.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bKVRNF",
+        "column_YWgEfR"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "Who should stock ENDOCARE?",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_ULgicX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xDBQig": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become an ENDOCARE Stockist",
+            "heading_size": "h2"
+          }
+        },
+        "text_T4eDQ9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ready to offer your customers clinically proven anti-ageing skincare backed by dermatological science?</p><p>Join the growing network of ENDOCARE partners today.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xDBQig",
+        "text_T4eDQ9"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": "contact"
+      }
+    },
+    "apps_CADfTm": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_yLqBiQ": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTUzMzE2\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_yLqBiQ"
+      ],
+      "custom_css": [
+        "button.submit {background-color: #115e67; border-color: #115e67;}",
+        ".globo-form-id-153316 .globo-form-app .globo-form-control .checkbox-wrapper .checkbox-input ~ .checkbox-label:before {border-color: #115e67;}",
+        ".globo-form-input .checkbox-wrapper .checkbox-input:checked + .checkbox-label::before,.globo-form-input .checkbox-wrapper .checkbox-input:checked + .checkbox-label::after {background-color: #115e67 !important; border-color: #115e67 !important;}",
+        ".shopify-app-block {margin-bottom: 64px;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_KNTQbD",
+    "cl_single_image_AYtPxG",
+    "rich_text_nz3Gad",
+    "rich_text_cNBXXn",
+    "multicolumn_zFEidy",
+    "multicolumn_q4q4p3",
+    "rich_text_hyREUD",
+    "multicolumn_bG46gk",
+    "multicolumn_Jga7hd",
+    "rich_text_ULgicX",
+    "apps_CADfTm"
   ]
 }
