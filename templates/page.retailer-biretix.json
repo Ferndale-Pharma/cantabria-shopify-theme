@@ -315,6 +315,79 @@
         "padding_bottom": 64,
         "container_id": ""
       }
+    },
+    "multicolumn_qbc7zK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_fwDhAF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Clinically_proven_icon_5e3c216c-e0e8-49fa-a382-cbf035584b13.png",
+            "title": "",
+            "text": "<p>Clinically proven results that build trust and drive repeat purchases.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MHdjTx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Boost_sales_icon_84c761a0-50d0-4110-8251-c0a4adaab426.png",
+            "title": "",
+            "text": "<p>Comprehensive marketing support to boost visibility and sales.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_E3TaAb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Training_icon_09cc76ac-0145-430b-8367-f02444dcfc74.png",
+            "title": "",
+            "text": "<p>Professional training to educate and empower your team.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EpDFRE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/POS_materials_icon_c872ece4-a243-41f2-b0a4-6ad3a0838bdc.png",
+            "title": "",
+            "text": "<p>Point-of-sale materials to drive in-store engagement.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_fwDhAF",
+        "column_MHdjTx",
+        "column_E3TaAb",
+        "column_EpDFRE"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info {padding-left: 8px !important; padding-right: 8px !important;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Become a stockist",
+        "button_link": "#contact",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
@@ -324,6 +397,7 @@
     "rich_text_K3C4V7",
     "multicolumn_html_8CK8ec",
     "multicolumn_html_MMRew6",
-    "multicolumn_6Xphzi"
+    "multicolumn_6Xphzi",
+    "multicolumn_qbc7zK"
   ]
 }

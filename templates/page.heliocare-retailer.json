@@ -106,7 +106,7 @@
           "type": "heading",
           "settings": {
             "heading": "Scientifically proven, professionally recommended",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_4WymLJ": {
@@ -226,7 +226,7 @@
       ],
       "settings": {
         "title": "Fernblock is clinically proven to:",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "richtext": "",
         "narrow_text": false,
         "image_width": "third",
@@ -367,7 +367,7 @@
       ],
       "settings": {
         "title": "A range designed for every skin type",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "richtext": "",
         "narrow_text": false,
         "image_width": "full",
@@ -392,7 +392,7 @@
           "type": "heading",
           "settings": {
             "heading": "Why stock HELIOCARE 360°?",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_chBNWN": {
@@ -523,7 +523,7 @@
       ],
       "settings": {
         "title": "Who should stock HELIOCARE 360°?",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "richtext": "",
         "narrow_text": false,
         "image_width": "full",
@@ -585,7 +585,7 @@
       ],
       "settings": {
         "title": "What professionals say",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "richtext": "",
         "narrow_text": false,
         "image_width": "third",
@@ -610,7 +610,7 @@
           "type": "heading",
           "settings": {
             "heading": "Become a stockist",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_W9FgNd": {
@@ -726,7 +726,7 @@
       ],
       "settings": {
         "title": "As seen in",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "richtext": "",
         "narrow_text": false,
         "image_width": "full",
