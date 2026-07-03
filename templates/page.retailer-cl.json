@@ -11,13 +11,72 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_k6Jn9f": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KGg4Lq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a Cantabria Labs Stockist",
+            "heading_size": "h1"
+          }
+        },
+        "heading_NWmh78": {
+          "type": "heading",
+          "settings": {
+            "heading": "Innovators in dermatological skincare research & development",
+            "heading_size": "h2"
+          }
+        },
+        "text_4GRtkz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join leading skin clinics, pharmacies, aesthetic practitioners and specialist skincare retailers across the UK in offering the innovative dermatological solutions of Cantabria Labs.</p><p>Backed by decades of scientific research and dermatological expertise, Cantabria Labs develops clinically proven skincare and photoprotection solutions trusted by healthcare professionals worldwide.  </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KGg4Lq",
+        "heading_NWmh78",
+        "text_4GRtkz"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "video_KxW3EH": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_k6Jn9f",
+    "video_KxW3EH"
   ]
 }

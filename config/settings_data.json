@@ -16,7 +16,7 @@
     "heading_scale": 100,
     "type_body_font": "cabin_n4",
     "body_scale": 100,
-    "page_width": 1440,
+    "page_width": 1600,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 16,
     "spacing_grid_vertical": 16,
@@ -643,7 +643,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "/* Store Locator fix - 2026-04-02 */ #scasl-app-container {overflow: hidden; }"
+      "/* Store Locator fix - 2026-04-02 */#scasl-app-container {overflow: hidden;}"
     ]
   }
 }
