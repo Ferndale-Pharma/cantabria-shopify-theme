@@ -168,6 +168,612 @@
         "padding_bottom": 64,
         "container_id": ""
       }
+    },
+    "multicolumn_GUBfmL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_AVxmV6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Image01.png",
+            "title": "HELIOCARE",
+            "text": "<p><strong>Expert, very high-level, full-spectrum sun protection</strong></p>",
+            "link_label": "Find out more",
+            "link": ""
+          }
+        },
+        "column_EDKpzx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Image02.png",
+            "title": "BIRETIX",
+            "text": "<p><strong>Science-led skincare to purify, treat, and care for acne-prone skin </strong></p>",
+            "link_label": "Find out more",
+            "link": ""
+          }
+        },
+        "column_eXQL3K": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Image03.png",
+            "title": "ENDOCARE",
+            "text": "<p><strong>Science-led skincare for visible anti-ageing results </strong></p>",
+            "link_label": "Find out more",
+            "link": ""
+          }
+        },
+        "column_4rUPUw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Image04.png",
+            "title": "NEORETIN",
+            "text": "<p><strong>Pigmentation correction and skin tone renewal</strong></p>",
+            "link_label": "Find out more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_AVxmV6",
+        "column_EDKpzx",
+        "column_eXQL3K",
+        "column_4rUPUw"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Science-led solutions for every skin concern",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": true,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Become a stockist",
+        "button_link": "#contact",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_jbLCCD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Gz6LTx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Scientific innovation",
+            "heading_size": "h2"
+          }
+        },
+        "text_JgRrJh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Built on decades of dermatological research, we specialise in developing innovative, patented technologies, harnessing the power of nature and translating it into evidence-based skincare innovations.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Gz6LTx",
+        "text_JgRrJh"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "cl_slideshow_TndxFm": {
+      "type": "cl-slideshow",
+      "blocks": {
+        "slide_ikNCCC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FERNBLOCK_1.jpg",
+            "heading": "Fernblock® Technology",
+            "heading_size": "h1",
+            "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/6-benefits-of-fernblock",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Uz7zJc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0002_-_HELIOCARE_BRAND_PAGE_-_TECH_INGREDIENTS_-_ASPA_FERNBLOCK_1.jpg",
+            "heading": "ASPA-Fernblock®",
+            "heading_size": "h1",
+            "subheading": "ASPA-Fernblock® is a patented bioactive complex that combines Fernblock® with ASPA, a patented combination of extracts from the <em>Aspalathus linearis</em> plant, more commonly known as Rooibos. Together, they deliver powerful antioxidant activity and full-spectrum protection (UVA, UVB, visible light, infrared-A) while supporting vitamin D function - helping skin stay healthy, resilient and protected.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_DhmteH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/retinduo.jpg",
+            "heading": "RETINDUO® Technology",
+            "heading_size": "h1",
+            "subheading": "An exclusive dual-retinoid system that combines pure retinol in microsponges with AOX Tech-encapsulated retinal, supported by a targeted natural booster complex to optimise bioavailability, enhance retinoid stability and deliver powerful yet controlled skin renewal enhancing stability and skin comfort.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/retinduo-technology",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_d8B3n4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/RETINSPHERE_1.jpg",
+            "heading": "RETINSPHERE® Technology",
+            "heading_size": "h1",
+            "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. Encourages skin cell turnover and stimulates collagen production for smoother, firmer skin and improved appearance of fine lines and wrinkles.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/retinsphere-technology",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_wVNfEi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/EDAFENCE_1.jpg",
+            "heading": "EDAFENCE® Technology",
+            "heading_size": "h1",
+            "subheading": "A unique anti-pollution technology derived from hardy Antarctic grass, clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution. Its antioxidant properties prevent oxidative stress and skin inflammation, strengthening the skin barrier, improving hydration levels and promoting healthy skin.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/edafence-technology",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_DLiJ9J": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AZELAIC_AOX_TECH.jpg",
+            "heading": "AOX-TECH",
+            "heading_size": "h1",
+            "subheading": "AOX-TECH is an advanced delivery technology that uses multilamellar nanovesicles to protect, transport and release active ingredients within the skin. It helps support improved penetration, stability and tolerability, allowing formulations to work effectively while maintaining comfort, even in sensitive or compromised skin.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/discover-aox-tech",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_wdkzKh": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/SCA_GROWTH_FACTOR.jpg",
+            "heading": "SCA® Growth Factor Technology",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_VRRDky": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BIOPEP-15.jpg",
+            "heading": "BIOPEP-15",
+            "heading_size": "h1",
+            "subheading": "An incredible botanical-derived technology that fights against the main acne-causing bacteria <em>Cutibacterium acnes</em> and helps to reduce inflammation.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_ikNCCC",
+        "slide_Uz7zJc",
+        "slide_DhmteH",
+        "slide_d8B3n4",
+        "slide_wVNfEi",
+        "slide_DLiJ9J",
+        "slide_wdkzKh",
+        "slide_VRRDky"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "none",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "multicolumn_37jNQh": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_izcexT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00079_CantabriaLabs_Stockist_Icons_Jul26_09.png",
+            "title": "",
+            "text": "<p>Clinically proven results that build trust and drive repeat purchases.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FHkKhY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00079_CantabriaLabs_Stockist_Icons_Jul26_10.png",
+            "title": "",
+            "text": "<p>Comprehensive marketing & merchandising support to boost visibility and sales.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8MLLkJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00079_CantabriaLabs_Stockist_Icons_Jul26_11.png",
+            "title": "",
+            "text": "<p>Professional training to educate and empower your team.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_J7AqUy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00079_CantabriaLabs_Stockist_Icons_Jul26_12.png",
+            "title": "",
+            "text": "<p>Point-of-sale materials to drive in-store engagement.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_izcexT",
+        "column_FHkKhY",
+        "column_8MLLkJ",
+        "column_J7AqUy"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info {padding-left: 8px !important; padding-right: 8px !important;}"
+      ],
+      "settings": {
+        "title": "Why partner with Cantabria Labs?",
+        "heading_size": "h2",
+        "richtext": "<p>Cantabria Labs is one of Europe's leading dermatology-focused healthcare companies, trusted by healthcare professionals worldwide for its commitment to science, innovation and skin health. </p><p>As the exclusive UK partner of Cantabria Labs since 2008, Ferndale Pharmaceuticals has a proven track record of helping clinics, pharmacies and skincare retailers access clinically proven solutions that deliver visible results for patients – and meaningful growth opportunities for their business. </p>",
+        "narrow_text": true,
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Become a stockist",
+        "button_link": "#contact",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 96,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_LVn9fm": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Xmz3jq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL---Skin-Clinic---Image.jpg",
+            "title": "Professional Skin Clinics",
+            "text": "<p>Support your treatment protocols with a portfolio of clinically proven skincare solutions developed to improve patient outcomes, encourage treatment compliance and extend care beyond the clinic.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6efBdG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL_-_Pharmacy_-_Image.jpg",
+            "title": "Pharmacies & Specialist Skincare Retailers",
+            "text": "<p>Meet growing demand for evidence-based skincare with trusted dermatological brands that address a wide range of skin concerns, supported by professional education, marketing resources and commercial expertise.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Xmz3jq",
+        "column_6efBdG"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
+      ],
+      "settings": {
+        "title": "Who should partner with Cantabria Labs?",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_KnCpLj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_AiJ79z": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Expert_Quotes_1ddf1900-7482-4e16-922b-36f64e64190e.png",
+            "title": "",
+            "text": "<p><em>“Absolutely love it! Have been using and stocking it for years! Wouldn’t use or have any other SPF! There’s one for every skin type – you literally can’t go wrong!”<br/><br/></em><strong>Chandani Bhuida<br/></strong>Senior Aesthetician, Mayfair Practice</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kd7mjG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Expert_Quotes_copy.png",
+            "title": "",
+            "text": "<p><em>“I’m a huge fan of </em>HELIOCARE <em>and will often recommend it to my patients…With so many great products for different skin types there really is something for everyone!”<br/><br/></em><strong>Dr. Emma Wedgeworth<br/></strong>Consultant Dermatologist</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_piWp6A": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL.CO.UK_ICONS_Expert_Quotes_1ddf1900-7482-4e16-922b-36f64e64190e.png",
+            "title": "",
+            "text": "<p><em>“As a dermatologist, I'm passionate about helping people protect and care for their skin long-term. Heliocare's science-led approach and proven formulations make daily sun protection something people can genuinely trust.”<br/><br/></em><strong>Dr Amy Perkins<br/></strong>Speciality Doctor in Dermatology</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_AiJ79z",
+        "column_kd7mjG",
+        "column_piWp6A"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper--third-width {margin: 1rem auto;}"
+      ],
+      "settings": {
+        "title": "What professionals say",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_E3DEEb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9GaeCU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a stockist",
+            "heading_size": "h2"
+          }
+        },
+        "text_HcHt3w": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ready to offer your customers clinically proven skincare solutions backed by dermatological expertise? </p><p>Join the growing network of Cantabria Labs partners today. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9GaeCU",
+        "text_HcHt3w"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": "contact"
+      }
+    },
+    "apps_ABTrFX": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_pfM39h": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTUzMzE2\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_pfM39h"
+      ],
+      "custom_css": [
+        ".shopify-app-block {margin-bottom: 64px;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "multicolumn_a3yNRj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_iXNDRN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_Vogue.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Read article",
+            "link": "https://www.vogue.co.uk/article/best-tinted-sunscreens"
+          }
+        },
+        "column_FWGhdp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_Forbes.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Read article",
+            "link": "https://www.forbes.com/sites/angelinavillaclarke/2025/02/18/discover-the-most-travel-savvy-products-for-your-next-adventure--pt-1/"
+          }
+        },
+        "column_tKjDRe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_HarpersBazaar.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Read article",
+            "link": "https://www.harpersbazaar.com/uk/beauty/skincare/g38180/best-face-spf/"
+          }
+        },
+        "column_hFfVh7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_Glamour.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Read article",
+            "link": "https://www.glamourmagazine.co.uk/article/treatment-uneven-skin-tone"
+          }
+        },
+        "column_TG6BkU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_Stylist.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Read article",
+            "link": "https://www.stylist.co.uk/beauty/beauty-insiders-best-spf-recommendations/985154"
+          }
+        },
+        "column_gaegTM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00054_CantabriaLabs_Homepage_AsSeenInLogos_600x448px_EveningStandard.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Read article",
+            "link": "https://www.standard.co.uk/shopping/esbest/health-fitness/best-fastpacking-kit-b1202644.html"
+          }
+        }
+      },
+      "block_order": [
+        "column_iXNDRN",
+        "column_FWGhdp",
+        "column_tKjDRe",
+        "column_hFfVh7",
+        "column_TG6BkU",
+        "column_gaegTM"
+      ],
+      "settings": {
+        "title": "As seen in",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
@@ -175,6 +781,15 @@
     "rich_text_k6Jn9f",
     "video_KxW3EH",
     "rich_text_YG6WQ4",
-    "multicolumn_w4nyMM"
+    "multicolumn_w4nyMM",
+    "multicolumn_GUBfmL",
+    "rich_text_jbLCCD",
+    "cl_slideshow_TndxFm",
+    "multicolumn_37jNQh",
+    "multicolumn_LVn9fm",
+    "multicolumn_KnCpLj",
+    "rich_text_E3DEEb",
+    "apps_ABTrFX",
+    "multicolumn_a3yNRj"
   ]
 }
