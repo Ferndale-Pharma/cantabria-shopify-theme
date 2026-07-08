@@ -184,7 +184,7 @@
         "title": "Advanced dermatological innovation",
         "heading_size": "h2",
         "richtext": "",
-        "narrow_text": false,
+        "narrow_text": true,
         "image_width": "third",
         "image_ratio": "square",
         "columns_desktop": 3,

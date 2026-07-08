@@ -520,7 +520,7 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_bottom": 32,
         "container_id": ""
       }
     },
@@ -531,7 +531,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Icon04.png",
-            "title": "Access to Clinical Data & Scientific Resources",
+            "title": "Clinical Data & Scientific Resources",
             "text": "<p>Dermatology-focused clinical evidence & published studies to support informed product recommendations.</p>",
             "link_label": "Request Clinical Data",
             "link": "#contact",
@@ -583,7 +583,7 @@
       ],
       "name": "Multicolumn with Buttons",
       "settings": {
-        "title": "Professional Support Available",
+        "title": "",
         "heading_size": "h2",
         "heading_align": "center",
         "image_width": "third",
@@ -597,7 +597,7 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
