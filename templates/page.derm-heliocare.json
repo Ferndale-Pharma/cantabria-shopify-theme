@@ -183,6 +183,35 @@
         "padding_bottom": 64
       }
     },
+    "cl_featured_collection_3gNnbL": {
+      "type": "cl-featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "heliocare",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 32,
+        "padding_bottom": 64
+      }
+    },
     "rich_text_yhqkLA": {
       "type": "rich-text",
       "blocks": {
@@ -301,13 +330,13 @@
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "Download Clinical Overview",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 64
+        "padding_bottom": 0
       }
     },
     "apps_pctMXy": {
@@ -324,7 +353,9 @@
         "powerful_form_builder_app_block_7Q9UpM"
       ],
       "custom_css": [
-        "div {text-align: center;}"
+        "div {text-align: center;}",
+        ".button:after {box-shadow: none;}",
+        ".button:hover {background-color: rgba(242, 169, 0, 0.8) !important;}"
       ],
       "settings": {
         "include_margins": true
@@ -358,7 +389,7 @@
         "color_scheme": "scheme-2",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 64,
+        "padding_top": 96,
         "padding_bottom": 32,
         "container_id": ""
       }
@@ -528,22 +559,10 @@
           "settings": {
             "text": "<p>This innovative technology combines two powerful plant-based actives: Fernblock®+, Cantabria Labs' patented <em>Polypodium leucotomos</em> extract with clinically proven antioxidant and photoprotective properties, and ASPA, a patented extract derived from <em>Aspalathus linearis</em> (Rooibos), a plant naturally rich in flavonoids with recognised biological activity. Together, they create ASPA-Fernblock®, an additive complex exclusive to Cantabria Labs products. <br/><br/>ASPA-Fernblock® has been shown to enhance the efficacy of UV filters, supporting more comprehensive protection across the full spectrum of solar radiation, including UVA, UVB, visible light and infrared-A. It also delivers the OptiD Effect, helping to preserve vitamin D receptors under oxidative stress and supporting the skin's ability to utilise vitamin D more effectivtly. </p>"
           }
-        },
-        "button_kdhWG4": {
-          "type": "button",
-          "settings": {
-            "button_label": "Download Clinical Overview",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "text_QUck39",
-        "button_kdhWG4"
+        "text_QUck39"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -553,8 +572,30 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 32,
-        "padding_bottom": 64,
+        "padding_bottom": 32,
         "container_id": ""
+      }
+    },
+    "apps_K3Agzr": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_3tJbAN": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<button class=\"btn globo-formbuilder-open button button--primary\" data-id=\"MTU0MDQ1\" style=\"background-color: #f2a900; color: #000;\">Download Clinical Overview</button>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_3tJbAN"
+      ],
+      "custom_css": [
+        "div {text-align: center;}",
+        ".button:after {box-shadow: none;}",
+        ".button:hover {background-color: rgba(242, 169, 0, 0.8) !important;}"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "rich_text_r4c4Vy": {
@@ -585,7 +626,7 @@
         "color_scheme": "scheme-2",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 64,
+        "padding_top": 96,
         "padding_bottom": 0,
         "container_id": "contact"
       }
@@ -742,6 +783,7 @@
     "rich_text_DFCgPt",
     "multicolumn_mzUzFq",
     "image_with_text_dRKVKW",
+    "cl_featured_collection_3gNnbL",
     "rich_text_yhqkLA",
     "multicolumn_html_PTjtwB",
     "apps_pctMXy",
@@ -751,6 +793,7 @@
     "rich_text_rrmkTa",
     "cl_single_image_yqMbYr",
     "rich_text_EAN37a",
+    "apps_K3Agzr",
     "rich_text_r4c4Vy",
     "1782743248a4e49455",
     "multicolumn_aRXzGA",
