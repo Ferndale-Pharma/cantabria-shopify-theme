@@ -310,6 +310,26 @@
         "padding_bottom": 64
       }
     },
+    "apps_pctMXy": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_7Q9UpM": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<button class=\"btn globo-formbuilder-open button button--primary\" data-id=\"MTU0MDQ1\" style=\"background-color: #f2a900; color: #000;\">Download Clinical Overview</button>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_7Q9UpM"
+      ],
+      "custom_css": [
+        "div {text-align: center;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "rich_text_NBTVdd": {
       "type": "rich-text",
       "blocks": {
@@ -724,6 +744,7 @@
     "image_with_text_dRKVKW",
     "rich_text_yhqkLA",
     "multicolumn_html_PTjtwB",
+    "apps_pctMXy",
     "rich_text_NBTVdd",
     "collapsible_content_html_zJhpAX",
     "rich_text_waFdWq",
