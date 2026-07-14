@@ -99,14 +99,14 @@
         "heading_Ce4iJj": {
           "type": "heading",
           "settings": {
-            "heading": "Strengthen your BIRETIX Regime with a FREE BIRETIX Oil Control Solution",
+            "heading": "Complete your BIRETIX regime with 20% off selected HELIOCARE 360°",
             "heading_size": "h2"
           }
         },
         "text_Kpc3BL": {
           "type": "text",
           "settings": {
-            "text": "<p>FREE with all BIRETIX orders, the Oil Control Solution is a retexturising facial toner for oily and acne-prone skin that helps exfoliate, refine skin texture and regulate excess oil supporting a clearer, smoother and more balanced complexion.</p>"
+            "text": "<p>Daily photoprotection is an essential part of any acne-prone skincare routine. Complete your routine with 20% off selected HELIOCARE 360° sunscreens when you purchase any BIRETIX Regime for advanced, very high-level full-spectrum protection with formulas tailored to the needs of your acne-prone skin journey. </p>"
           }
         },
         "button_RDVdmH": {
@@ -133,7 +133,6 @@
         "button_RDVdmH",
         "text_RRGghP"
       ],
-      "disabled": true,
       "custom_css": [
         "h2 {color: #00843d;}",
         "p > a {color: #121212;}"
