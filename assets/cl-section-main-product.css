@@ -1538,7 +1538,7 @@ a.product__text {
   background-color: #f3f4f6;
   padding: 10px;
   text-align: center;
-  margin: 2em 0;
+  margin: 2em 0!important;
 }
 .product-offer a {
   color: #0d374b;
