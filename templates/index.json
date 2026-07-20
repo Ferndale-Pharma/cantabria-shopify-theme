@@ -306,7 +306,7 @@
             "image": "shopify://shop_images/FERNBLOCK_1.jpg",
             "heading": "Fernblock® Technology",
             "heading_size": "h1",
-            "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer.",
+            "subheading": "Developed through research by Cantabria Labs and Dr Fitzpatrick's team at Harvard Medical School, Fernblock® Technology was created to provide comprehensive protection against the damaging effects of the sun. Derived from the tropical fern <em>Polypodium leucotomos</em>, Fernblock delivers powerful antioxidant activity to help prevent and repair skin damage caused by UVA, UVB, Visible Light and Infrared A.",
             "button_label": "Learn more",
             "link": "shopify://blogs/skincare-guides/6-benefits-of-fernblock",
             "button_style_secondary": true,
@@ -324,9 +324,63 @@
             "image": "shopify://shop_images/CL-WEB-0002_-_HELIOCARE_BRAND_PAGE_-_TECH_INGREDIENTS_-_ASPA_FERNBLOCK_1.jpg",
             "heading": "ASPA-Fernblock®",
             "heading_size": "h1",
-            "subheading": "ASPA-Fernblock® is a patented bioactive complex that combines Fernblock® with ASPA, a patented combination of extracts from the <em>Aspalathus linearis</em> plant, more commonly known as Rooibos. Together, they deliver powerful antioxidant activity and full-spectrum protection (UVA, UVB, visible light, infrared-A) while supporting vitamin D function - helping skin stay healthy, resilient and protected.",
+            "subheading": "ASPA-Fernblock® is a patented, plant-derived technology developed by Cantabria Labs that combines Fernblock® (<em>Polypodium leucotomos</em>) with ASPA (<em>Aspalathus linearis</em>). This advanced bioactive complex provides powerful antioxidant activity and enhanced full-spectrum protection against UVA, UVB, visible light and infrared-A radiation, while supporting the skin's natural repair mechanisms and optimising vitamin D function to help keep skin healthy, resilient and protected.",
             "button_label": "Learn more",
             "link": "shopify://blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Ukfd37": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/retinduo.jpg",
+            "heading": "RETINDUO® Technology",
+            "heading_size": "h1",
+            "subheading": "An exclusive dual-retinoid system that combines pure retinol in microsponges with AOX Tech-encapsulated retinal, supported by a targeted natural booster complex to optimise bioavailability, enhance retinoid stability and deliver powerful yet controlled skin renewal enhancing stability and skin comfort.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/retinduo-technology",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_d7ANrH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/EDAFENCE_1.jpg",
+            "heading": "EDAFENCE® Technology",
+            "heading_size": "h1",
+            "subheading": "EDAFENCE® Technology is unique anti-pollution technology, derived from the Antarctic grass, <em>Deschampsia antarctica</em>, that is clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution such as oxidising agents, cigarette smoke, heavy metals and urban pollutants.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/edafence-technology",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_PjHGWp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AZELAIC_AOX_TECH.jpg",
+            "heading": "AOX-TECH",
+            "heading_size": "h1",
+            "subheading": "AOX-TECH is an advanced delivery technology that uses multilamellar nanovesicles to protect, transport and release active ingredients within the skin. It helps support improved penetration, stability and tolerability, allowing formulations to work effectively while maintaining comfort. By delivering active ingredients through multiple layers of the skin, AOX-TECH can enhance their action and effectiveness by up to five times.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/discover-aox-tech",
             "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -355,42 +409,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_Ukfd37": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/retinduo.jpg",
-            "heading": "RETINDUO® Technology",
-            "heading_size": "h1",
-            "subheading": "An exclusive dual-retinoid system that combines pure retinol in microsponges with AOX Tech-encapsulated retinal, supported by a targeted natural booster complex to optimise bioavailability, enhance retinoid stability and deliver powerful yet controlled skin renewal enhancing stability and skin comfort.",
-            "button_label": "Learn more",
-            "link": "shopify://blogs/expert-advice/retinduo-technology",
-            "button_style_secondary": true,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_d7ANrH": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/EDAFENCE_1.jpg",
-            "heading": "EDAFENCE® Technology",
-            "heading_size": "h1",
-            "subheading": "A unique anti-pollution technology derived from hardy Antarctic grass, clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution. Its antioxidant properties prevent oxidative stress and skin inflammation, strengthening the skin barrier, improving hydration levels and promoting healthy skin.",
-            "button_label": "Learn more",
-            "link": "shopify://blogs/skincare-guides/edafence-technology",
-            "button_style_secondary": true,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_E6LWAC": {
           "type": "slide",
           "disabled": true,
@@ -409,34 +427,16 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_PjHGWp": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/AZELAIC_AOX_TECH.jpg",
-            "heading": "AOX-TECH",
-            "heading_size": "h1",
-            "subheading": "AOX-TECH is an advanced delivery technology that uses multilamellar nanovesicles to protect, transport and release active ingredients within the skin. It helps support improved penetration, stability and tolerability, allowing formulations to work effectively while maintaining comfort, even in sensitive or compromised skin.",
-            "button_label": "Learn more",
-            "link": "shopify://blogs/skincare-guides/discover-aox-tech",
-            "button_style_secondary": true,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_CG69ez",
         "slide_cU8ABe",
-        "slide_YXx9Kj",
         "slide_Ukfd37",
         "slide_d7ANrH",
-        "slide_E6LWAC",
-        "slide_PjHGWp"
+        "slide_PjHGWp",
+        "slide_YXx9Kj",
+        "slide_E6LWAC"
       ],
       "settings": {
         "layout": "full_bleed",
