@@ -17,25 +17,66 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_KNTQbD": {
-      "type": "rich-text",
+    "image_banner_separate_bMbcke": {
+      "type": "image-banner-separate",
       "blocks": {
-        "heading_k7UT6p": {
+        "heading_43x3fL": {
           "type": "heading",
           "settings": {
             "heading": "Become an ENDOCARE Stockist",
             "heading_size": "h1"
           }
         },
-        "text_3p3qxW": {
+        "text_tiPiin": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>Join leading skin clinics, pharmacies and specialist skincare retailers across the UK in offering ENDOCARE – the clinically proven anti-ageing skincare range from Cantabria Labs, combining gold-standard active ingredients with patented technologies to target the visible signs of skin ageing and improve overall skin quality.</p>"
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_c7mfRc": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Become a stockist",
+            "button_link_1": "#contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_k7UT6p",
+        "heading_43x3fL",
+        "text_tiPiin",
+        "buttons_c7mfRc"
+      ],
+      "name": "Image Banner v2",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": true
+      }
+    },
+    "rich_text_KNTQbD": {
+      "type": "rich-text",
+      "blocks": {
+        "text_3p3qxW": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Join leading skin clinics, pharmacies and specialist skincare retailers across the UK in offering ENDOCARE – the clinically proven anti-ageing skincare range from Cantabria Labs. </strong></p><p>Combining gold-standard active ingredients with patented technologies to target the visible signs of skin ageing and improve overall skin quality.</p>"
+          }
+        }
+      },
+      "block_order": [
         "text_3p3qxW"
       ],
       "name": "t:sections.rich-text.presets.name",
@@ -45,7 +86,7 @@
         "color_scheme": "scheme-5",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 32,
+        "padding_top": 64,
         "padding_bottom": 32,
         "container_id": ""
       }
@@ -111,6 +152,7 @@
         },
         "button_T4GXfW": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Become a stockist",
             "button_link": "#contact",
@@ -134,8 +176,145 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_bottom": 32,
         "container_id": ""
+      }
+    },
+    "cl_slideshow_xahhRB": {
+      "type": "cl-slideshow",
+      "blocks": {
+        "slide_fUFX4z": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/EDAFENCE_1.jpg",
+            "heading": "EDAFENCE® Technology",
+            "heading_size": "h1",
+            "subheading": "EDAFENCE® Technology is unique anti-pollution technology, derived from the Antarctic grass, <em>Deschampsia antarctica</em>, that is clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution such as oxidising agents, cigarette smoke, heavy metals and urban pollutants.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/edafence-technology",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_MLLdaz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/retinduo.jpg",
+            "heading": "RETINDUO® Technology",
+            "heading_size": "h1",
+            "subheading": "An exclusive dual-retinoid system that combines pure retinol in microsponges with AOX Tech-encapsulated retinal, supported by a targeted natural booster complex to optimise bioavailability, enhance retinoid stability and deliver powerful yet controlled skin renewal enhancing stability and skin comfort.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/retinduo-technology",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_E6hRRm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AZELAIC_AOX_TECH.jpg",
+            "heading": "AOX-TECH",
+            "heading_size": "h1",
+            "subheading": "AOX-TECH is an advanced delivery technology that uses multilamellar nanovesicles to protect, transport and release active ingredients within the skin. It helps support improved penetration, stability and tolerability, allowing formulations to work effectively while maintaining comfort. By delivering active ingredients through multiple layers of the skin, AOX-TECH can enhance their action and effectiveness by up to five times.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/skincare-guides/discover-aox-tech",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_X8axiy": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/HYALURONIC_ACID.jpg",
+            "heading": "Hyaluronic Acid",
+            "heading_size": "h1",
+            "subheading": "A moisturise-retaining antioxidant that gives exceptional hydration, plumping the skin, improving elasticity, speeding up wound healing and reducing fine lines and wrinkles.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_KQp8xW": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/NIACINAMIDE.jpg",
+            "heading": "Niacinamide",
+            "heading_size": "h1",
+            "subheading": "A form of vitamin B3 with anti-inflammatory properties, helping to reduce pore size and lock in moisture for a strong, healthy skin barrier.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_6RriyQ": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/VITAMIN_C.jpg",
+            "heading": "Vitamin C",
+            "heading_size": "h1",
+            "subheading": "A powerful antioxidant that fights free radicals, protects against environmental stressors, reduces pigmentation and brightens the skin.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_fUFX4z",
+        "slide_MLLdaz",
+        "slide_E6hRRm",
+        "slide_X8axiy",
+        "slide_KQp8xW",
+        "slide_6RriyQ"
+      ],
+      "custom_css": [
+        ".banner__heading {color: #000;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "none",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our technologies"
       }
     },
     "multicolumn_zFEidy": {
@@ -146,7 +325,7 @@
           "settings": {
             "image": "shopify://shop_images/ENDOCARE_-_SKIN_REGENERATION.png",
             "title": "<strong>Targets the key causes of skin ageing</strong>",
-            "text": "<p>A dermatologist-approved system across Age Barrier, Radiance and Renewal that strengthens the skin barrier, defends against environmental stress and supports healthy cell turnover - delivering smarter prevention and visible correction at every stage of ageing.</p>",
+            "text": "<p>A dermatologist-approved system across Age Barrier, Radiance and Renewal that strengthens the skin barrier, defends against environmental stress and supports healthy cell turnover, delivering prevention and visible correction at every stage of ageing. </p>",
             "link_label": "",
             "link": ""
           }
@@ -156,7 +335,7 @@
           "settings": {
             "image": "shopify://shop_images/ENDOCARE_-_INNOVTIVE_FORMULATIONS.png",
             "title": "Powerful technologies & innovative formulations",
-            "text": "<p>Patented technologies, including RETINDUO® advanced retinoid technology  and EDAFENCE® anti-pollution, combined with gold-standard active ingredients for visible results.</p>",
+            "text": "<p>Patented technologies, including RETINDUO® retinoid technology and EDAFENCE® anti-pollution, combined with gold-standard active ingredients to maximise efficacy, enhance performance and deliver proven visible results across all formulations. </p>",
             "link_label": "",
             "link": ""
           }
@@ -166,7 +345,7 @@
           "settings": {
             "image": "shopify://shop_images/ENDOCARE_-_CLINICALLY_PROVEN.png",
             "title": "Clinically proven results",
-            "text": "<p>Backed by over 20 years of clinical research with numerous studies published in leading scientific and medical journals worldwide, ENDOCARE demonstrates scientific rigour and dermatological expertise, addressing the key biological drivers of skin ageing.</p>",
+            "text": "<p>Backed by over 20 years of clinical research with numerous studies published in leading scientific and medical journals worldwide, ENDOCARE demonstrates scientific rigour and dermatological expertise, addressing the key biological drivers of skin ageing. </p>",
             "link_label": "",
             "link": ""
           }
@@ -195,7 +374,7 @@
         "color_scheme": "scheme-5",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 64,
+        "padding_top": 96,
         "padding_bottom": 64,
         "container_id": ""
       }
@@ -207,7 +386,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/endocare-age-barrier-group.jpg",
-            "title": "Targeted barrier support for healthier, more resilient skin",
+            "title": "Protect, repair and strengthen a compromised skin barrier",
             "text": "<p>ENDOCARE AGE BARRIER provides targeted skincare solutions designed to strengthen barrier function and improve skin resilience. Ideal for patients experiencing dryness, sensitivity or a compromised skin barrier, AGE BARRIER complements both professional treatments and daily skincare routines.</p>",
             "link_label": "",
             "link": ""
@@ -217,7 +396,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/endocare-radiance-group.jpg",
-            "title": "Antioxidant care for brighter, healthier-looking skin",
+            "title": "Defend against environmental damage while enhancing brightness",
             "text": "<p>Combining Vitamin C, Vitamin E, Ferulic Acid and patented EDAFENCE® technology, the ENDOCARE RADIANCE range helps defend against oxidative stress while visibly improving skin brightness and luminosity. Ideal for customers seeking brighter, more even-looking skin.</p>",
             "link_label": "",
             "link": ""
@@ -227,7 +406,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/endocare-renewal-retinoids.jpg",
-            "title": "Accelerate skin renewal for smoother, firmer-looking skin",
+            "title": "Stimulate skin renewal for visible anti-ageing correction",
             "text": "<p>The ENDOCARE RENEWAL range is designed to support cell turnover and visibly improve skin texture, firmness and the appearance of fine lines. Powered by patented RETINDUO® Technology alongside AHAs and Azelaic Acid, it delivers targeted solutions for patients seeking advanced anti-ageing solutions. </p>",
             "link_label": "",
             "link": ""
@@ -238,6 +417,9 @@
         "column_8Dmr9J",
         "column_8djdz9",
         "column_7Td9qV"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -258,6 +440,66 @@
         "padding_top": 64,
         "padding_bottom": 64,
         "container_id": ""
+      }
+    },
+    "multicolumn_html_HCbe9L": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_HPHbeg": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h3 class=\"h3\">Protect and strengthen a compromised <br>skin barrier</h3><p>ENDOCARE AGE BARRIER provides targeted skincare solutions designed to strengthen barrier function and improve skin resilience. Ideal for patients experiencing dryness, sensitivity or a compromised skin barrier, AGE BARRIER complements both professional treatments and daily skincare routines.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8KMNdV": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h3 class=\"h3\">Defend against environmental damage while enhancing brightness</h3><p>Combining Vitamin C, Vitamin E, Ferulic Acid and patented EDAFENCE® technology, the ENDOCARE RADIANCE range helps defend against oxidative stress while visibly improving skin brightness and luminosity. Ideal for customers seeking brighter, more even-looking skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Yrffnm": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h3 class=\"h3\">Stimulate skin renewal for visible anti-ageing correction</h3><p>The ENDOCARE RENEWAL range is designed to support cell turnover and visibly improve skin texture, firmness and the appearance of fine lines. Powered by patented RETINDUO® Technology alongside AHAs and Azelaic Acid, it delivers targeted solutions for patients seeking advanced anti-ageing solutions.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_HPHbeg",
+        "column_8KMNdV",
+        "column_Yrffnm"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h3 {color: #000; margin-bottom: 1rem;}"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "title": "Complete anti-ageing solutions",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Become a stockist",
+        "button_link": "#contact",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "rich_text_hyREUD": {
@@ -476,12 +718,15 @@
   },
   "order": [
     "main",
+    "image_banner_separate_bMbcke",
     "rich_text_KNTQbD",
     "cl_single_image_AYtPxG",
     "rich_text_nz3Gad",
     "rich_text_cNBXXn",
+    "cl_slideshow_xahhRB",
     "multicolumn_zFEidy",
     "multicolumn_q4q4p3",
+    "multicolumn_html_HCbe9L",
     "rich_text_hyREUD",
     "multicolumn_bG46gk",
     "multicolumn_Jga7hd",
