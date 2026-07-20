@@ -17,33 +17,65 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_k6Jn9f": {
-      "type": "rich-text",
+    "image_banner_separate_zcgc3m": {
+      "type": "image-banner-separate",
       "blocks": {
-        "heading_KGg4Lq": {
+        "heading_wtqp7c": {
           "type": "heading",
           "settings": {
             "heading": "Become a Cantabria Labs Stockist",
             "heading_size": "h1"
           }
         },
-        "heading_NWmh78": {
-          "type": "heading",
-          "settings": {
-            "heading": "Innovators in dermatological skincare research & development",
-            "heading_size": "h2"
-          }
-        },
-        "text_4GRtkz": {
+        "text_yLwebc": {
           "type": "text",
           "settings": {
-            "text": "<p>Join leading skin clinics, pharmacies, aesthetic practitioners and specialist skincare retailers across the UK in offering the innovative dermatological solutions of Cantabria Labs.</p><p>Backed by decades of scientific research and dermatological expertise, Cantabria Labs develops clinically proven skincare and photoprotection solutions trusted by healthcare professionals worldwide.  </p>"
+            "text": "Innovators in dermatological skincare research & development",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_TecnVV": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Become a stockist",
+            "button_link_1": "#contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_KGg4Lq",
-        "heading_NWmh78",
+        "heading_wtqp7c",
+        "text_yLwebc",
+        "buttons_TecnVV"
+      ],
+      "name": "Image Banner v2",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": true
+      }
+    },
+    "rich_text_k6Jn9f": {
+      "type": "rich-text",
+      "blocks": {
+        "text_4GRtkz": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Join leading skin clinics, pharmacies, aesthetic practitioners and specialist skincare retailers across the UK in offering the innovative dermatological solutions of Cantabria Labs.</strong></p><p>Backed by decades of scientific research and dermatological expertise, Cantabria Labs develops clinically proven skincare and photoprotection solutions trusted by healthcare professionals worldwide.  </p>"
+          }
+        }
+      },
+      "block_order": [
         "text_4GRtkz"
       ],
       "name": "t:sections.rich-text.presets.name",
@@ -52,8 +84,8 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "is_heading": true,
-        "padding_top": 32,
+        "is_heading": false,
+        "padding_top": 64,
         "padding_bottom": 32,
         "container_id": ""
       }
@@ -114,7 +146,7 @@
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Icon01.png",
             "title": "Global leader in dermatology",
-            "text": "",
+            "text": "<p>Recognised as the No.1 dermatological prescription brand in Spain, Italy & Portugal, Cantabria Labs has built a trusted reputation among dermatologists, pharmacists, and healthcare professionals worldwide.</p>",
             "link_label": "",
             "link": ""
           }
@@ -124,7 +156,7 @@
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Icon02.png",
             "title": "Innovation & scientific excellence",
-            "text": "",
+            "text": "<p>Science underpins Cantabria Labs innovation, research and development, delivering evidence-based solutions through three specialised R&D centres that produce over 300 prototypes annually.</p>",
             "link_label": "",
             "link": ""
           }
@@ -134,7 +166,7 @@
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Icon03.png",
             "title": "6 patented technologies",
-            "text": "",
+            "text": "<p>Leaders in dermatological innovation, Cantabria Labs has developed six proprietary technologies that underpin the efficacy, performance and scientific excellence of its products through continuous research.</p>",
             "link_label": "",
             "link": ""
           }
@@ -280,9 +312,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/FERNBLOCK_1.jpg",
-            "heading": "Fernblock® Technology",
+            "heading": "Fernblock®",
             "heading_size": "h1",
-            "subheading": "A patented plant extract providing multiple levels of protection, preventing both immediate and long-term damage, including sunburn, sun allergies, skin ageing, pigmentation and skin cancer.",
+            "subheading": "Developed through research by Cantabria Labs and Dr Fitzpatrick's team at Harvard Medical School, Fernblock® Technology was created to provide comprehensive protection against the damaging effects of the sun. Derived from the tropical fern Polypodium leucotomos, Fernblock delivers powerful antioxidant activity to help prevent and repair skin damage caused by UVA, UVB, Visible Light and Infrared A.",
             "button_label": "Learn more",
             "link": "shopify://blogs/skincare-guides/6-benefits-of-fernblock",
             "button_style_secondary": true,
@@ -300,7 +332,7 @@
             "image": "shopify://shop_images/CL-WEB-0002_-_HELIOCARE_BRAND_PAGE_-_TECH_INGREDIENTS_-_ASPA_FERNBLOCK_1.jpg",
             "heading": "ASPA-Fernblock®",
             "heading_size": "h1",
-            "subheading": "ASPA-Fernblock® is a patented bioactive complex that combines Fernblock® with ASPA, a patented combination of extracts from the <em>Aspalathus linearis</em> plant, more commonly known as Rooibos. Together, they deliver powerful antioxidant activity and full-spectrum protection (UVA, UVB, visible light, infrared-A) while supporting vitamin D function - helping skin stay healthy, resilient and protected.",
+            "subheading": "ASPA-Fernblock® is a patented, plant-derived technology developed by Cantabria Labs that combines Fernblock® (<em>Polypodium leucotomos</em>) with ASPA (<em>Aspalathus linearis</em>). This advanced bioactive complex provides powerful antioxidant activity and enhanced full-spectrum protection against UVA, UVB, visible light and infrared-A radiation, while supporting the skin's natural repair mechanisms and optimising vitamin D function to help keep skin healthy, resilient and protected.",
             "button_label": "Learn more",
             "link": "shopify://blogs/skincare-guides/introducing-aspa-fernblock-the-next-generation-of-sunscreen-innovation",
             "button_style_secondary": true,
@@ -336,7 +368,7 @@
             "image": "shopify://shop_images/RETINSPHERE_1.jpg",
             "heading": "RETINSPHERE® Technology",
             "heading_size": "h1",
-            "subheading": "An innovative technology that offers retinol like no other, with a dual-delivery system of two powerful, high-tolerance retinoids, providing sustained and immediate release for maximum efficacy and minimal irritation. Encourages skin cell turnover and stimulates collagen production for smoother, firmer skin and improved appearance of fine lines and wrinkles.",
+            "subheading": "RETINSPHERE® combines two stable, effective retinoids with excellent tolerability - hydroxypinacolone retinoate and stabilised, encapsulated retinol - to deliver both immediate and sustained release, maximising efficacy while minimising irritation.",
             "button_label": "Learn more",
             "link": "shopify://blogs/expert-advice/retinsphere-technology",
             "button_style_secondary": true,
@@ -354,7 +386,7 @@
             "image": "shopify://shop_images/EDAFENCE_1.jpg",
             "heading": "EDAFENCE® Technology",
             "heading_size": "h1",
-            "subheading": "A unique anti-pollution technology derived from hardy Antarctic grass, clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution. Its antioxidant properties prevent oxidative stress and skin inflammation, strengthening the skin barrier, improving hydration levels and promoting healthy skin.",
+            "subheading": "EDAFENCE® Technology is unique anti-pollution technology, derived from the Antarctic grass, <em>Deschampsia antarctica</em>, that is clinically proven to reduce free radical damage and prevent the cascade of damage caused by pollution such as oxidising agents, cigarette smoke, heavy metals and urban pollutants.",
             "button_label": "Learn more",
             "link": "shopify://blogs/skincare-guides/edafence-technology",
             "button_style_secondary": true,
@@ -372,7 +404,7 @@
             "image": "shopify://shop_images/AZELAIC_AOX_TECH.jpg",
             "heading": "AOX-TECH",
             "heading_size": "h1",
-            "subheading": "AOX-TECH is an advanced delivery technology that uses multilamellar nanovesicles to protect, transport and release active ingredients within the skin. It helps support improved penetration, stability and tolerability, allowing formulations to work effectively while maintaining comfort, even in sensitive or compromised skin.",
+            "subheading": "AOX-TECH is an advanced delivery technology that uses multilamellar nanovesicles to protect, transport and release active ingredients within the skin. It helps support improved penetration, stability and tolerability, allowing formulations to work effectively while maintaining comfort. By delivering active ingredients through multiple layers of the skin, AOX-TECH can enhance their action and effectiveness by up to five times.",
             "button_label": "Learn more",
             "link": "shopify://blogs/skincare-guides/discover-aox-tech",
             "button_style_secondary": true,
@@ -778,6 +810,7 @@
   },
   "order": [
     "main",
+    "image_banner_separate_zcgc3m",
     "rich_text_k6Jn9f",
     "video_KxW3EH",
     "rich_text_YG6WQ4",
