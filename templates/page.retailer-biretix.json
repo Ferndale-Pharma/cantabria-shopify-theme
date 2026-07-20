@@ -17,25 +17,60 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_kBxDbG": {
-      "type": "rich-text",
+    "image_banner_separate_eAMjEV": {
+      "type": "image-banner-separate",
       "blocks": {
-        "heading_4wFcnQ": {
+        "heading_E4qxn8": {
           "type": "heading",
           "settings": {
             "heading": "Become a BIRETIX Stockist",
             "heading_size": "h1"
           }
         },
-        "text_MYP7qt": {
-          "type": "text",
+        "buttons_8LDwhC": {
+          "type": "buttons",
           "settings": {
-            "text": "<p>Join leading skin clinics, pharmacies and specialist skincare retailers across the UK in offering BIRETIX - the clinically proven, dermatologically developed skincare range for blemish-prone and acne-prone skin from Cantabria Labs.</p>"
+            "button_label_1": "Become a stockist",
+            "button_link_1": "#contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_4wFcnQ",
+        "heading_E4qxn8",
+        "buttons_8LDwhC"
+      ],
+      "custom_css": [
+        ".banner__heading {display: block;}"
+      ],
+      "name": "Image Banner v2",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": true
+      }
+    },
+    "rich_text_kBxDbG": {
+      "type": "rich-text",
+      "blocks": {
+        "text_MYP7qt": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Join leading skin clinics, pharmacies and specialist skincare retailers across the UK in offering BIRETIX - the clinically proven, dermatologically developed skincare range for blemish-prone and acne-prone skin from Cantabria Labs.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
         "text_MYP7qt"
       ],
       "name": "t:sections.rich-text.presets.name",
@@ -44,8 +79,8 @@
         "content_alignment": "center",
         "color_scheme": "scheme-3",
         "full_width": true,
-        "is_heading": true,
-        "padding_top": 32,
+        "is_heading": false,
+        "padding_top": 64,
         "padding_bottom": 32,
         "container_id": ""
       }
@@ -91,6 +126,154 @@
         "padding_top": 32,
         "padding_bottom": 64,
         "container_id": ""
+      }
+    },
+    "rich_text_RPYjUc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MCYYBJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Science-led skincare to purify, treat, and care for acne-prone skin",
+            "heading_size": "h2"
+          }
+        },
+        "text_gaFdCf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BIRETIX is an innovative skincare range from Cantabria Labs, designed to meet the growing demand for effective, science-led solutions for blemish-prone and acne-prone skin. Combining RETINSPHERE® Technology, BIOPEP-15 and clinically proven dermatological actives, BIRETIX helps target the key factors associated with blemish-prone skin while supporting the skin barrier. Offering solutions for prevention, treatment support and maintenance, BIRETIX provides clinics, pharmacies and specialist skincare retailers with a trusted range that delivers visible results and encourages long-term customer loyalty. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MCYYBJ",
+        "text_gaFdCf"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "cl_slideshow_jc4J3R": {
+      "type": "cl-slideshow",
+      "blocks": {
+        "slide_kUx8Kz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/RETINSPHERE_1.jpg",
+            "heading": "RETINSPHERE® Technology",
+            "heading_size": "h1",
+            "subheading": "RETINSPHERE® combines two stable, effective retinoids with excellent tolerability - hydroxypinacolone retinoate and stabilised, encapsulated retinol - to deliver both immediate and sustained release, maximising efficacy while minimising irritation.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/retinsphere-technology",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_MaTkM4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/GLYCOLIC_ACID.jpg",
+            "heading": "Glycolic Acid",
+            "heading_size": "h1",
+            "subheading": "An exfoliating alpha hydroxy acid (AHA) that increases skin cell turnover, helping to normalise blocked pores to soften and improve skin texture.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Xcy7NM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SALICYLIC_ACID.jpg",
+            "heading": "Salicylic Acid",
+            "heading_size": "h1",
+            "subheading": "A powerful beta hydroxy acid (BHA) that encourages the shedding of dead skin cells, reduces inflammation and redness and speeds up the healing of existing blemishes. ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_FktpiD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/BIOPEP-15.jpg",
+            "heading": "BIOPEP-15",
+            "heading_size": "h1",
+            "subheading": "An incredible botanical-derived technology that fights against the main acne-causing bacteria <em>Cutibacterium acnes</em> and helps to reduce inflammation.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/biopep-15",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_QcCmNR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/NIACINAMIDE.jpg",
+            "heading": "Niacinamide",
+            "heading_size": "h1",
+            "subheading": "A form of Vitamin B3 proven by dermatologists to be a key ingredient in managing acne-prone skin; reducing redness, regulating sebum control and helping prevent skin hyperpigmentation caused by blemishes.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_kUx8Kz",
+        "slide_MaTkM4",
+        "slide_Xcy7NM",
+        "slide_FktpiD",
+        "slide_QcCmNR"
+      ],
+      "custom_css": [
+        ".banner__heading {color: #000;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "none",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "multicolumn_html_8CK8ec": {
@@ -171,7 +354,7 @@
       "settings": {
         "title": "Clinically proven solutions",
         "heading_size": "h2",
-        "richtext": "<p>BIRETIX is an innovative skincare range from Cantabria Labs, designed to meet the growing demand for effective, science-led solutions for blemish-prone and acne-prone skin. <br/><br/>Combining RETINSPHERE® Technology, BIOPEP-15 and clinically proven dermatological actives, BIRETIX helps target the key factors associated with blemish-prone skin while supporting the skin barrier. Offering a solutions for prevention, treatment support and maintenance, BIRETIX provides clinics, pharmacies and specialist skincare retailers with a trusted range that delivers visible results and encourages long-term customer loyalty. </p>",
+        "richtext": "",
         "narrow_text": true,
         "image_width": "third",
         "image_ratio": "adapt",
@@ -195,7 +378,7 @@
           "settings": {
             "image": "shopify://shop_images/tri-active.jpg",
             "title": "",
-            "text": "<h3 class=\"inline-richtext\">BIRETIX<br> Tri-Active Anti-Blemish Gel</h3><p style=\"margin-top: 1rem;\">A daily treatment gel for mild – moderate acne-prone skin. Clinically proven to reduce blackheads by 61% and blemishes by up to 76% in just 28 days.<sup>1</sup></p>",
+            "text": "<h3 class=\"inline-richtext\">BIRETIX<br> Tri-Active Anti-Blemish Gel</h3><p style=\"margin-top: 1rem;\">Clinically proven to target multiple causes of acne-prone skin, helping exfoliate and unclog pores, control excess sebum and acne-causing bacteria while reducing visible redness. Clinically proven to reduce blemished by 76% and blackheads by 61% in 28 days.<sup>1</sup></p>",
             "link_label": "",
             "link": ""
           }
@@ -563,9 +746,12 @@
   },
   "order": [
     "main",
+    "image_banner_separate_eAMjEV",
     "rich_text_kBxDbG",
     "cl_single_image_cYtcgn",
     "rich_text_K3C4V7",
+    "rich_text_RPYjUc",
+    "cl_slideshow_jc4J3R",
     "multicolumn_html_8CK8ec",
     "multicolumn_html_MMRew6",
     "multicolumn_6Xphzi",
