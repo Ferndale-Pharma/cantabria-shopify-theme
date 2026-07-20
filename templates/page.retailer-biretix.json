@@ -27,6 +27,14 @@
             "heading_size": "h1"
           }
         },
+        "text_tz6AKA": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Join leading skin clinics, pharmacies and specialist skincare retailers across the UK in offering BIRETIX - the clinically proven, dermatologically developed skincare range for blemish-prone and acne-prone skin from Cantabria Labs.",
+            "text_style": "body"
+          }
+        },
         "buttons_8LDwhC": {
           "type": "buttons",
           "settings": {
@@ -41,6 +49,7 @@
       },
       "block_order": [
         "heading_E4qxn8",
+        "text_tz6AKA",
         "buttons_8LDwhC"
       ],
       "custom_css": [
