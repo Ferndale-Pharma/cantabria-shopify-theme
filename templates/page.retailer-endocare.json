@@ -29,9 +29,8 @@
         },
         "text_tiPiin": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Join leading skin clinics, pharmacies and specialist skincare retailers across the UK in offering ENDOCARE – the clinically proven anti-ageing skincare range from Cantabria Labs.<strong> </strong>Combining gold-standard active ingredients with patented technologies to target the visible signs of skin ageing and improve overall skin quality.",
             "text_style": "body"
           }
         },
@@ -79,6 +78,7 @@
       "block_order": [
         "text_3p3qxW"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -93,6 +93,7 @@
     },
     "cl_single_image_AYtPxG": {
       "type": "cl-single-image",
+      "disabled": true,
       "name": "Single Image",
       "settings": {
         "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Image03.png",
@@ -122,6 +123,7 @@
       "block_order": [
         "button_TKnVBk"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -175,7 +177,7 @@
         "color_scheme": "scheme-5",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 64,
+        "padding_top": 96,
         "padding_bottom": 32,
         "container_id": ""
       }
