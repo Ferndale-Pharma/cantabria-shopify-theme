@@ -3768,7 +3768,7 @@ details-disclosure > details {
 .bogos-mix-match-widget .bogos-mix-match-widget-description {
   font-size: 0.9em!important;
 }
-.blank-success message.success {
+.blank-success .message.success {
   background: initial!important;
   box-shadow: none!important;
   color: #000!important;
