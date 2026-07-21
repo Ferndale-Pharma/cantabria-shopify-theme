@@ -37,7 +37,7 @@
         "buttons_Ny3AiC": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Get in Touch",
+            "button_label_1": "Get Started",
             "button_link_1": "#contact",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -166,7 +166,7 @@
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "Get in Touch",
+        "button_label": "Get Started",
         "button_link": "#contact",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
@@ -250,7 +250,7 @@
         "columns_desktop": 5,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "Get in Touch",
+        "button_label": "Get Started",
         "button_link": "#contact",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
@@ -280,7 +280,7 @@
         "button_WcrwB4": {
           "type": "button",
           "settings": {
-            "button_label": "Get in Touch",
+            "button_label": "Get Started",
             "button_link": "#contact",
             "button_style_secondary": false
           }
@@ -328,7 +328,7 @@
         "button_gtFpXz": {
           "type": "button",
           "settings": {
-            "button_label": "Get in Touch",
+            "button_label": "Get Started",
             "button_link": "#contact",
             "button_style_secondary": false
           }
