@@ -3771,4 +3771,5 @@ details-disclosure > details {
 .blank-success {
   background: initial!important;
   box-shadow: none!important;
+  color: #000!important;
 }
