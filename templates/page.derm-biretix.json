@@ -17,24 +17,66 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_Crg99M": {
-      "type": "rich-text",
+    "image_banner_separate_b4Kgq9": {
+      "type": "image-banner-separate",
       "blocks": {
-        "heading_Hff7pT": {
+        "heading_9VLWBF": {
           "type": "heading",
           "settings": {
-            "heading": "Adjunctive & Daily Management Solutions for your Acne-Prone Skin Patients",
+            "heading": "Science-Led Skincare to Purify, Treat, and Care",
             "heading_size": "h1"
           }
         },
+        "text_xgCMJd": {
+          "type": "text",
+          "settings": {
+            "text": "Adjunctive & Daily Management Solutions for your Acne-Prone Skin Patients",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_HJhmPR": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Get in Touch",
+            "button_link_1": "#contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9VLWBF",
+        "text_xgCMJd",
+        "buttons_HJhmPR"
+      ],
+      "name": "Image Banner v2",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": true
+      }
+    },
+    "rich_text_Crg99M": {
+      "type": "rich-text",
+      "blocks": {
         "text_axVjLp": {
           "type": "text",
           "settings": {
-            "text": "<p>BIRETIX is a dermatology-focused skincare range designed to support the long-term management of acne-prone and blemish-affected skin. Powered by RETINSPHERE® Technology, BIOPEP-15, and clinically proven, dermatological actives, BIRETIX helps target multiple pathogenic factors associated with acne-prone skin while supporting skin tolerance and barrier function. <br/><br/>Designed for regular use, BIRETIX supports every stage of the acne-prone skin cycle - helping to reduce imperfections, improve skin clarity, and support overall skin health. </p>"
+            "text": "<p><strong>BIRETIX is a dermatology-focused skincare range designed to support the long-term management of acne-prone and blemish-affected skin. </strong></p><p>Powered by RETINSPHERE® Technology, BIOPEP-15, and clinically proven, dermatological actives, BIRETIX helps target multiple pathogenic factors associated with acne-prone skin while supporting skin tolerance and barrier function. Designed for regular use, BIRETIX supports every stage of the acne-prone skin cycle - helping to reduce imperfections, improve skin clarity, and support overall skin health. </p>"
           }
         },
         "button_eaXnBG": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Get in Touch",
             "button_link": "#contact",
@@ -46,7 +88,6 @@
         }
       },
       "block_order": [
-        "heading_Hff7pT",
         "text_axVjLp",
         "button_eaXnBG"
       ],
@@ -56,8 +97,8 @@
         "content_alignment": "center",
         "color_scheme": "scheme-3",
         "full_width": true,
-        "is_heading": true,
-        "padding_top": 32,
+        "is_heading": false,
+        "padding_top": 64,
         "padding_bottom": 64,
         "container_id": ""
       }
@@ -156,6 +197,28 @@
         "padding_bottom": 64
       }
     },
+    "apps_DyPHWU": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_HVcRbq": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<button class=\"btn globo-formbuilder-open button button--primary\" data-id=\"MTU1OTcy\" style=\"background-color: #00843d; \">Download Clinical Overview</button>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_HVcRbq"
+      ],
+      "custom_css": [
+        "div {text-align: center;}",
+        ".button:after {box-shadow: none;}",
+        ".button:hover {background-color: rgba(0, 132, 61, 0.8) !important;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "multicolumn_CnjD77": {
       "type": "multicolumn",
       "blocks": {
@@ -218,6 +281,156 @@
         "container_id": ""
       }
     },
+    "rich_text_7DK4pN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gwTAWt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Technologies & ingredients",
+            "heading_size": "h2"
+          }
+        },
+        "text_4nhkHM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BIRETIX strategically combines <a href=\"/blogs/expert-advice/retinsphere-technology\" title=\"RetinSphere® Technology\"><strong>RETINSPHERE® Technology</strong></a> and <a href=\"/blogs/expert-advice/biopep-15\" title=\"BIOPEP-15\"><strong>BIOPEP-15</strong></a>,  to support the management of acne-prone skin. Together, they help promote skin renewal, reduce blocked pores and target acne-causing bacteria to support visibly clearer skin. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gwTAWt",
+        "text_4nhkHM"
+      ],
+      "custom_css": [
+        "a {color: #000;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "cl_slideshow_VYmHxU": {
+      "type": "cl-slideshow",
+      "blocks": {
+        "slide_EYwdK7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/RETINSPHERE_1.jpg",
+            "heading": "RETINSPHERE® Technology",
+            "heading_size": "h1",
+            "subheading": "RETINSPHERE® combines two stable, effective retinoids with excellent tolerability - hydroxypinacolone retinoate and stabilised, encapsulated retinol - to deliver both immediate and sustained release, maximising efficacy while minimising irritation.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/retinsphere-technology",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_pwwNhM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/GLYCOLIC_ACID.jpg",
+            "heading": "Glycolic Acid",
+            "heading_size": "h1",
+            "subheading": "An exfoliating alpha hydroxy acid (AHA) that increases skin cell turnover, helping to normalise blocked pores to soften and improve skin texture.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_HdaEHF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SALICYLIC_ACID.jpg",
+            "heading": "Salicylic Acid",
+            "heading_size": "h1",
+            "subheading": "A powerful beta hydroxy acid (BHA) that encourages the shedding of dead skin cells, reduces inflammation and redness and speeds up the healing of existing blemishes. ",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_mh3epd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/BIOPEP-15.jpg",
+            "heading": "BIOPEP-15",
+            "heading_size": "h1",
+            "subheading": "An incredible botanical-derived technology that fights against the main acne-causing bacteria <em>Cutibacterium acnes</em> and helps to reduce inflammation.",
+            "button_label": "Learn more",
+            "link": "shopify://blogs/expert-advice/biopep-15",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Hy4m87": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/NIACINAMIDE.jpg",
+            "heading": "Niacinamide",
+            "heading_size": "h1",
+            "subheading": "A form of Vitamin B3 proven by dermatologists to be a key ingredient in managing acne-prone skin; reducing redness, regulating sebum control and helping prevent skin hyperpigmentation caused by blemishes.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_EYwdK7",
+        "slide_pwwNhM",
+        "slide_HdaEHF",
+        "slide_mh3epd",
+        "slide_Hy4m87"
+      ],
+      "custom_css": [
+        ".banner__heading {color: #000;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "none",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "image_with_text_html_36qxk6": {
       "type": "image-with-text-html",
       "blocks": {
@@ -262,7 +475,7 @@
         "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 64,
+        "padding_top": 96,
         "padding_bottom": 64
       }
     },
@@ -463,9 +676,13 @@
   },
   "order": [
     "main",
+    "image_banner_separate_b4Kgq9",
     "rich_text_Crg99M",
     "multicolumn_html_F78BKH",
+    "apps_DyPHWU",
     "multicolumn_CnjD77",
+    "rich_text_7DK4pN",
+    "cl_slideshow_VYmHxU",
     "image_with_text_html_36qxk6",
     "image_with_text_html_dagMFE",
     "multicolumn_ph8zkR",
