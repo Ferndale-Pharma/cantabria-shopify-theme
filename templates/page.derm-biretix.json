@@ -37,7 +37,7 @@
         "buttons_HJhmPR": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Get in Touch",
+            "button_label_1": "Get Started",
             "button_link_1": "#contact",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -576,14 +576,42 @@
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Get Started",
+        "button_link": "#contact",
         "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
         "padding_bottom": 64,
         "container_id": ""
+      }
+    },
+    "cl_featured_collection_6J7cMK": {
+      "type": "cl-featured-collection",
+      "settings": {
+        "title": "Find the Right BIRETIX Products for Your Patients",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "biretix",
+        "products_to_show": 20,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-3",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "rich_text_PPQrH8": {
@@ -686,6 +714,7 @@
     "image_with_text_html_36qxk6",
     "image_with_text_html_dagMFE",
     "multicolumn_ph8zkR",
+    "cl_featured_collection_6J7cMK",
     "rich_text_PPQrH8",
     "apps_mc4PXH",
     "collapsible_content_cREEAi"
