@@ -3775,3 +3775,6 @@ details-disclosure > details {
 .blank-success .message.success h2 {
   color: #000!important;
 }
+.blank-success .gfb__content-title {
+  font-family: var(--font-heading-family);
+}
