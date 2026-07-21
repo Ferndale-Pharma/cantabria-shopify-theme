@@ -17,24 +17,66 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_DFCgPt": {
-      "type": "rich-text",
+    "image_banner_separate_NErfpx": {
+      "type": "image-banner-separate",
       "blocks": {
-        "heading_M7THTE": {
+        "heading_eVDEeM": {
           "type": "heading",
           "settings": {
-            "heading": "Nothing Protects Skin Like HELIOCARE 360°: Expert, very high-level, full-spectrum sun protection",
+            "heading": "Nothing Protects Skin Like HELIOCARE 360°",
             "heading_size": "h1"
           }
         },
+        "text_CL7dhc": {
+          "type": "text",
+          "settings": {
+            "text": "Expert, very high-level, full-spectrum sun protection",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_Ny3AiC": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Get in Touch",
+            "button_link_1": "#contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_eVDEeM",
+        "text_CL7dhc",
+        "buttons_Ny3AiC"
+      ],
+      "name": "Image Banner v2",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": true
+      }
+    },
+    "rich_text_DFCgPt": {
+      "type": "rich-text",
+      "blocks": {
         "text_nwLBzL": {
           "type": "text",
           "settings": {
-            "text": "<p>HELIOCARE 360° is a comprehensive photoprotection range designed to support dermatologists in the prevention and management of photo-induced skin damage. Providing very high-level, full-spectrum daily protection against UVA (PA++++), UVB (SPF50&gt;), visible light and infrared-A, HELIOCARE 360° uses its unique Fernblock® & ASPA-Fernblock® antioxidant technologies to clinically protect beyond typical sunscreen by defending the skin from within and helping repair daylight-induced damage. </p>"
+            "text": "<p><strong>HELIOCARE 360° is a comprehensive photoprotection range designed to support dermatologists in the prevention and management of photo-induced skin damage. </strong></p><p>Providing very high-level, full-spectrum daily protection against UVA (PA++++), UVB (SPF50&gt;), visible light and infrared-A, HELIOCARE 360° uses its unique Fernblock® & ASPA-Fernblock® antioxidant technologies to clinically protect beyond typical sunscreen by defending the skin from within and helping repair daylight-induced damage. </p>"
           }
         },
         "button_NckKnL": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Get in Touch",
             "button_link": "#contact",
@@ -46,7 +88,6 @@
         }
       },
       "block_order": [
-        "heading_M7THTE",
         "text_nwLBzL",
         "button_NckKnL"
       ],
@@ -57,7 +98,7 @@
         "color_scheme": "scheme-2",
         "full_width": true,
         "is_heading": true,
-        "padding_top": 32,
+        "padding_top": 64,
         "padding_bottom": 64,
         "container_id": ""
       }
@@ -125,8 +166,8 @@
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Get in Touch",
+        "button_link": "#contact",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -135,40 +176,40 @@
         "container_id": ""
       }
     },
-    "image_with_text_dRKVKW": {
+    "image_with_text_kK6fdT": {
       "type": "image-with-text",
       "blocks": {
-        "heading_d6fD7L": {
+        "heading_kXtTjQ": {
           "type": "heading",
           "settings": {
-            "heading": "Personalised Daily Photoprotection for Every Patient Profile",
+            "heading": "Fernblock® & Dermatological Pathologies",
             "heading_size": "h2"
           }
         },
-        "text_ectxRp": {
+        "text_4cLMGj": {
           "type": "text",
           "settings": {
-            "text": "<p>HELIOCARE 360° is designed for everyday use across a wide range of patient needs, with advanced formulations tailored by skin type, indication, and finish preference. Each product provides dermatologist-aligned, full-spectrum protection against UVA, UVB, visible light and infrared-A, while also delivering targeted skincare benefits to support common dermatological concerns - such as acne-prone skin, pigmentation management, redness-prone skin, barrier support, hydration, and photoageing prevention.</p>",
+            "text": "<p>Every HELIOCARE sunscreen and oral supplement product contains the unique Fernblock® Technology, a patented extract derived from the fern Polypodium leucotomos, exclusive to Cantabria Labs. </p><p>More than 50 clinical and scientific studies have demonstrated Fernblock® as a potent, bioactive antioxidant technology that, when used in HELIOCARE sunscreens and oral supplements, helps protect the skin from damage caused by exposure to UVB, UVA, Visible Light and Infrared-A.</p>",
             "text_style": "body"
           }
         },
-        "button_gtFpXz": {
+        "button_WcrwB4": {
           "type": "button",
           "settings": {
-            "button_label": "View Product Range",
-            "button_link": "shopify://collections/heliocare",
-            "button_style_secondary": true
+            "button_label": "Get in Touch",
+            "button_link": "#contact",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_d6fD7L",
-        "text_ectxRp",
-        "button_gtFpXz"
+        "heading_kXtTjQ",
+        "text_4cLMGj",
+        "button_WcrwB4"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/heliocare-360-standing-range.jpg",
+        "image": "shopify://shop_images/FERNBLOCK_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -183,32 +224,51 @@
         "padding_bottom": 64
       }
     },
-    "cl_featured_collection_3gNnbL": {
-      "type": "cl-featured-collection",
-      "disabled": true,
+    "image_with_text_dRKVKW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_d6fD7L": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introducing NEW ASPA-Fernblock® Technology",
+            "heading_size": "h2"
+          }
+        },
+        "text_ectxRp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ASPA-Fernblock® is the latest evolution in skin photoprotection - a next-generation patented bioactive complex designed to enhance the protective benefits of HELIOCARE while supporting skin health beyond UV protection.</p><p>This innovative technology combines two powerful plant-based actives: Fernblock®+, Cantabria Labs' patented <em>Polypodium leucotomos</em> extract with clinically proven antioxidant and photoprotective properties, and ASPA, a patented extract derived from <em>Aspalathus linearis</em> (Rooibos), a plant naturally rich in flavonoids with recognised biological activity. Together, they create ASPA-Fernblock®, an additive complex exclusive to Cantabria Labs products.<br/><br/>ASPA-Fernblock® has been shown to enhance the efficacy of UV filters, supporting more comprehensive protection across the full spectrum of solar radiation, including UVA, UVB, visible light and infrared-A. It also delivers the OptiD Effect, helping to preserve vitamin D receptors under oxidative stress and supporting the skin's ability to utilise vitamin D more effectivtly.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_gtFpXz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get in Touch",
+            "button_link": "#contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_d6fD7L",
+        "text_ectxRp",
+        "button_gtFpXz"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "heliocare",
-        "products_to_show": 25,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
+        "image": "shopify://shop_images/CL-WEB-0002_-_HELIOCARE_BRAND_PAGE_-_TECH_INGREDIENTS_-_ASPA_FERNBLOCK_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
         "color_scheme": "scheme-2",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 32,
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
         "padding_bottom": 64
       }
     },
@@ -218,20 +278,13 @@
         "heading_W36NpM": {
           "type": "heading",
           "settings": {
-            "heading": "Fernblock® & Dermatological Pathologies",
+            "heading": "The scientific and clinical literature extensively documents Fernblock’s mechanism of action",
             "heading_size": "h2"
-          }
-        },
-        "text_g6QqDX": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Every HELIOCARE sunscreen and oral supplement product contains the unique Fernblock® Technology, a patented extract derived from the fern <em>Polypodium leucotomos</em>, exclusive to Cantabria Labs. More than 50 clinical and scientific studies have demonstrated Fernblock® as a potent, bioactive antioxidant technology that, when used in HELIOCARE sunscreens and oral supplements, helps protect the skin from damage caused by exposure to UVB, UVA, Visible Light and Infrared-A. <br/><br/>The scientific and clinical literature extensively documents Fernblock’s mechanism of action:</p>"
           }
         }
       },
       "block_order": [
-        "heading_W36NpM",
-        "text_g6QqDX"
+        "heading_W36NpM"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -324,7 +377,7 @@
         "title": "",
         "heading_size": "h2",
         "richtext": "",
-        "narrow_text": false,
+        "narrow_text": true,
         "image_width": "third",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -374,7 +427,7 @@
         "text_aeaRnm": {
           "type": "text",
           "settings": {
-            "text": "<p>HELIOCARE's oral supplement range provides photoprotection support using patented Fernblock® (<em>Polypodium leucotomos</em>) extract, developed as an adjuvant to topical sunscreen in patients where photoprotection is clinically critical. <br/><br/>The clinical literature supports oral Fernblock® as an adjuvant in dermatological pathways linked to UV and visible light exposure, including: </p>"
+            "text": "<p>HELIOCARE's oral supplement range provides photoprotection support using patented Fernblock® (<em>Polypodium leucotomos</em>) extract, developed as an adjuvant to topical sunscreen in patients where photoprotection is clinically critical. The clinical literature supports oral Fernblock® as an adjuvant in dermatological pathways linked to UV and visible light exposure, including: </p>"
           }
         }
       },
@@ -402,7 +455,7 @@
           "settings": {
             "heading": "Polymorphic light eruption (PMLE)",
             "icon": "check_mark",
-            "row_content": "<p>Studies report reduced skin reactions and symptoms during periods of sun exposure<sup>7,8</sup></p>",
+            "row_content": "<p>In placebo-controlled studies of around 80 PMLE patients, daily oral Fernblock® during sun exposure significantly reduced skin reactions and symptoms; 74% of those continuing use through summer reported minimal or no recurrence.<sup>7,8</sup></p>",
             "page": ""
           }
         },
@@ -411,7 +464,7 @@
           "settings": {
             "heading": "Vitiligo",
             "icon": "check_mark",
-            "row_content": "<p>Placebo-controlled studies indicate improved outcomes when combined with NB-UVB phototherapy versus phototherapy alone<sup>9</sup></p>",
+            "row_content": "<p>Placebo-controlled studies show improved re-pigmentation and higher response rates when oral Fernblock® is combined with NB-UVB phototherapy versus phototherapy alone, with effects also linked to reduced CD3/CD25 T-cell activity in PUVA regimens.<sup>9</sup></p>",
             "page": ""
           }
         },
@@ -420,7 +473,7 @@
           "settings": {
             "heading": "Melasma & hyperpigmentation",
             "icon": "check_mark",
-            "row_content": "<p>Oral Fernblock® has been evaluated as an adjunct to standard regimens, with studies reporting greater improvements versus placebo when paired with topical therapy and sunscreen<sup>10</sup></p>",
+            "row_content": "<p>Oral Fernblock® as an adjunct to hydroquinone and sunscreen produced significantly greater and faster mMASI score improvements than placebo, with 31% of patients achieving ≥75% improvement versus 6% on placebo alone.<sup>10</sup></p>",
             "page": ""
           }
         },
@@ -429,7 +482,7 @@
           "settings": {
             "heading": "Photoageing & environmental oxidative stress",
             "icon": "check_mark",
-            "row_content": "<p>Evidence highlights antioxidant and anti-inflammatory activity relevant to extrinsic ageing pathways<sup>11</sup></p>",
+            "row_content": "<p>Studies show Fernblock® reduces UV- and pollution-induced ROS, MMP-1 collagen breakdown, and mitochondrial damage, while protecting Langerhans cells and fibroblasts against visible light and infrared-A exposure in vitro and in vivo.<sup>11</sup></p>",
             "page": ""
           }
         },
@@ -438,7 +491,7 @@
           "settings": {
             "heading": "Actinic keratosis (AK)",
             "icon": "check_mark",
-            "row_content": "<p>Reviews of <em>Polypodium leucotomos</em> extract report that orally administered Fernblock® may support protection against UV-mediated skin damage and has been studied in the context of photocarcinogenesis pathways<sup>12</sup></p>",
+            "row_content": "<p>Studies show oral and topical Fernblock® as an adjunct to PDT and cryotherapy improves AK clearance and AKASI scores versus standard care alone, with reviews reporting reduced CPDs, p53 activation, and lower recurrence risk.<sup>12</sup></p>",
             "page": ""
           }
         }
@@ -505,99 +558,6 @@
         "container_id": ""
       }
     },
-    "rich_text_rrmkTa": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_FpVwG9": {
-          "type": "heading",
-          "settings": {
-            "heading": "Introducing NEW ASPA-Fernblock® Technology",
-            "heading_size": "h2"
-          }
-        },
-        "text_TczHNr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>ASPA-Fernblock® is the latest evolution in skin photoprotection - a next-generation patented bioactive complex designed to enhance the protective benefits of HELIOCARE while supporting skin health beyond UV protection.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_FpVwG9",
-        "text_TczHNr"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 32,
-        "container_id": ""
-      }
-    },
-    "cl_single_image_yqMbYr": {
-      "type": "cl-single-image",
-      "name": "Single Image",
-      "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_HELIOCARE_BRAND_PAGE_-_TECH_INGREDIENTS_-_ASPA_FERNBLOCK_1.jpg",
-        "image_width_value": 600,
-        "image_width_unit": "px",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "full_width": true,
-        "container_id": ""
-      }
-    },
-    "rich_text_EAN37a": {
-      "type": "rich-text",
-      "blocks": {
-        "text_QUck39": {
-          "type": "text",
-          "settings": {
-            "text": "<p>This innovative technology combines two powerful plant-based actives: Fernblock®+, Cantabria Labs' patented <em>Polypodium leucotomos</em> extract with clinically proven antioxidant and photoprotective properties, and ASPA, a patented extract derived from <em>Aspalathus linearis</em> (Rooibos), a plant naturally rich in flavonoids with recognised biological activity. Together, they create ASPA-Fernblock®, an additive complex exclusive to Cantabria Labs products. <br/><br/>ASPA-Fernblock® has been shown to enhance the efficacy of UV filters, supporting more comprehensive protection across the full spectrum of solar radiation, including UVA, UVB, visible light and infrared-A. It also delivers the OptiD Effect, helping to preserve vitamin D receptors under oxidative stress and supporting the skin's ability to utilise vitamin D more effectivtly. </p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_QUck39"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "is_heading": false,
-        "padding_top": 32,
-        "padding_bottom": 32,
-        "container_id": ""
-      }
-    },
-    "apps_K3Agzr": {
-      "type": "apps",
-      "blocks": {
-        "powerful_form_builder_app_block_3tJbAN": {
-          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
-          "settings": {
-            "shortcode": "<button class=\"btn globo-formbuilder-open button button--primary\" data-id=\"MTU0MDQ1\" style=\"background-color: #f2a900; color: #000;\">Download Clinical Overview</button>"
-          }
-        }
-      },
-      "block_order": [
-        "powerful_form_builder_app_block_3tJbAN"
-      ],
-      "custom_css": [
-        "div {text-align: center;}",
-        ".button:after {box-shadow: none;}",
-        ".button:hover {background-color: rgba(242, 169, 0, 0.8) !important;}"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "rich_text_r4c4Vy": {
       "type": "rich-text",
       "blocks": {
@@ -626,7 +586,7 @@
         "color_scheme": "scheme-2",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 96,
+        "padding_top": 64,
         "padding_bottom": 0,
         "container_id": "contact"
       }
@@ -780,20 +740,17 @@
   },
   "order": [
     "main",
+    "image_banner_separate_NErfpx",
     "rich_text_DFCgPt",
     "multicolumn_mzUzFq",
+    "image_with_text_kK6fdT",
     "image_with_text_dRKVKW",
-    "cl_featured_collection_3gNnbL",
     "rich_text_yhqkLA",
     "multicolumn_html_PTjtwB",
     "apps_pctMXy",
     "rich_text_NBTVdd",
     "collapsible_content_html_zJhpAX",
     "rich_text_waFdWq",
-    "rich_text_rrmkTa",
-    "cl_single_image_yqMbYr",
-    "rich_text_EAN37a",
-    "apps_K3Agzr",
     "rich_text_r4c4Vy",
     "1782743248a4e49455",
     "multicolumn_aRXzGA",

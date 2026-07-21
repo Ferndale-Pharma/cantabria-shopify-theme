@@ -38,7 +38,7 @@
           "type": "text",
           "settings": {
             "text": "Supporting dermatology professionals with science-led skincare, clinical evidence & expert education.",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "buttons_h38cMc": {
@@ -70,7 +70,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "show_text_below": true,
-        "is_heading": false
+        "is_heading": true
       }
     },
     "rich_text_3aFmYk": {
