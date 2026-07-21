@@ -44,7 +44,7 @@
         "buttons_h38cMc": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Get in Touch",
+            "button_label_1": "Get Started",
             "button_link_1": "#contact",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -151,7 +151,7 @@
         "heading_align": "center",
         "image_width": "third",
         "image_ratio": "square",
-        "button_label": "Get in Touch",
+        "button_label": "Get Started",
         "button_link": "#contact",
         "button_link_new_tab": false,
         "columns_desktop": 3,
