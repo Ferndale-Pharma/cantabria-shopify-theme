@@ -56,6 +56,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00274_CantabriaLabs.co.uk_StockistBanners_July26_03.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00274_CantabriaLabs.co.uk_StockistBanners_July26_07.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",

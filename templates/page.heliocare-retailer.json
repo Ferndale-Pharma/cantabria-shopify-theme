@@ -17,6 +17,57 @@
         "padding_bottom": 28
       }
     },
+    "image_banner_separate_ixHBTR": {
+      "type": "image-banner-separate",
+      "blocks": {
+        "heading_wdGNKQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a HELIOCARE Stockist",
+            "heading_size": "h1"
+          }
+        },
+        "text_x6XmeH": {
+          "type": "text",
+          "settings": {
+            "text": "Join leading skin clinics, pharmacies, and specialist skincare retailers across the UK in offering HELIOCARE 360° – the clinically proven, dermatologically developed sun protection range from Cantabria Labs.",
+            "text_style": "body"
+          }
+        },
+        "buttons_w6E8U7": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Become a stockist",
+            "button_link_1": "#contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wdGNKQ",
+        "text_x6XmeH",
+        "buttons_w6E8U7"
+      ],
+      "disabled": true,
+      "name": "Image Banner v2",
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00274_CantabriaLabs.co.uk_StockistBanners_July26_01.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00274_CantabriaLabs.co.uk_StockistBanners_July26_05.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": true
+      }
+    },
     "rich_text_DijfAB": {
       "type": "rich-text",
       "blocks": {
@@ -778,6 +829,7 @@
   },
   "order": [
     "main",
+    "image_banner_separate_ixHBTR",
     "rich_text_DijfAB",
     "video_tEL9tc",
     "rich_text_qzBQQN",
