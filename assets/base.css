@@ -3720,6 +3720,7 @@ details-disclosure > details {
   border-collapse: collapse;
   table-layout: fixed;
   min-width: 600px; /* allows horizontal scroll on smaller screens */
+  color: #000;
 }
 
 .custom-table th,
@@ -3736,6 +3737,8 @@ details-disclosure > details {
 .custom-table th {
   font-weight: 700;
   background-color: #f9f9f9;
+  color: #165c7d;
+  font-family: var(--font-heading-family);
 }
 
 /* 3 column default */
