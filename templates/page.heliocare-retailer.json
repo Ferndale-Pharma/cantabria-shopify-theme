@@ -51,7 +51,6 @@
         "text_x6XmeH",
         "buttons_w6E8U7"
       ],
-      "disabled": true,
       "name": "Image Banner v2",
       "settings": {
         "image": "shopify://shop_images/FERN-IMG-00274_CantabriaLabs.co.uk_StockistBanners_July26_01.jpg",
@@ -89,6 +88,7 @@
         "heading_LtUpKU",
         "text_kzj3wk"
       ],
+      "disabled": true,
       "custom_css": [
         "a {color: #000;}"
       ],
@@ -112,12 +112,12 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://vimeo.com/954719682?share=copy#t=0",
-        "cover_image": "shopify://shop_images/thumb.jpg",
+        "video_url": "https://vimeo.com/1105055557?share=copy#t=0",
+        "cover_image": "shopify://shop_images/FERN-IMG-00094_-_Heliocare_-_Stockist_Conversion_Video_-_Thumbnail_-_1920x1080_3.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
-        "padding_top": 0,
+        "padding_top": 64,
         "padding_bottom": 0
       }
     },
@@ -139,6 +139,7 @@
       "block_order": [
         "button_jFQf4x"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -196,7 +197,7 @@
         "color_scheme": "scheme-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "padding_top": 64,
+        "padding_top": 96,
         "padding_bottom": 64
       }
     },
