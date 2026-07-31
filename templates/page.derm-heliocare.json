@@ -240,7 +240,8 @@
         "column_3nnjmA"
       ],
       "custom_css": [
-        "h3 {color: #000;}"
+        "h3 {color: #000;}",
+        ".multi-richtext {margin-bottom: 16px;}"
       ],
       "settings": {
         "title": "Personalised Daily Photoprotection for Every Patient Profile",
@@ -299,54 +300,6 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-2",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "image_with_text_dRKVKW": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_d6fD7L": {
-          "type": "heading",
-          "settings": {
-            "heading": "Introducing NEW ASPA-Fernblock® Technology",
-            "heading_size": "h2"
-          }
-        },
-        "text_ectxRp": {
-          "type": "text",
-          "settings": {
-            "text": "<p>ASPA-Fernblock® is the latest evolution in skin photoprotection - a next-generation patented bioactive complex designed to enhance the protective benefits of HELIOCARE while supporting skin health beyond UV protection.</p><p>This innovative technology combines two powerful plant-based actives: Fernblock®+, Cantabria Labs' patented <em>Polypodium leucotomos</em> extract with clinically proven antioxidant and photoprotective properties, and ASPA, a patented extract derived from <em>Aspalathus linearis</em> (Rooibos), a plant naturally rich in flavonoids with recognised biological activity. Together, they create ASPA-Fernblock®, an additive complex exclusive to Cantabria Labs products.<br/><br/>ASPA-Fernblock® has been shown to enhance the efficacy of UV filters, supporting more comprehensive protection across the full spectrum of solar radiation, including UVA, UVB, visible light and infrared-A. It also delivers the OptiD Effect, helping to preserve vitamin D receptors under oxidative stress and supporting the skin's ability to utilise vitamin D more effectivtly.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_gtFpXz": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get Started",
-            "button_link": "#contact",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_d6fD7L",
-        "text_ectxRp",
-        "button_gtFpXz"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/CL-WEB-0002_-_HELIOCARE_BRAND_PAGE_-_TECH_INGREDIENTS_-_ASPA_FERNBLOCK_1.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
@@ -644,6 +597,54 @@
         "container_id": ""
       }
     },
+    "image_with_text_dRKVKW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_d6fD7L": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introducing NEW ASPA-Fernblock® Technology",
+            "heading_size": "h2"
+          }
+        },
+        "text_ectxRp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ASPA-Fernblock® is the latest evolution in skin photoprotection - a next-generation patented bioactive complex designed to enhance the protective benefits of HELIOCARE while supporting skin health beyond UV protection.</p><p>This innovative technology combines two powerful plant-based actives: Fernblock®+, Cantabria Labs' patented <em>Polypodium leucotomos</em> extract with clinically proven antioxidant and photoprotective properties, and ASPA, a patented extract derived from <em>Aspalathus linearis</em> (Rooibos), a plant naturally rich in flavonoids with recognised biological activity. Together, they create ASPA-Fernblock®, an additive complex exclusive to Cantabria Labs products.<br/><br/>ASPA-Fernblock® has been shown to enhance the efficacy of UV filters, supporting more comprehensive protection across the full spectrum of solar radiation, including UVA, UVB, visible light and infrared-A. It also delivers the OptiD Effect, helping to preserve vitamin D receptors under oxidative stress and supporting the skin's ability to utilise vitamin D more effectivtly.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_gtFpXz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "#contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_d6fD7L",
+        "text_ectxRp",
+        "button_gtFpXz"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/CL-WEB-0002_-_HELIOCARE_BRAND_PAGE_-_TECH_INGREDIENTS_-_ASPA_FERNBLOCK_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "rich_text_r4c4Vy": {
       "type": "rich-text",
       "blocks": {
@@ -831,13 +832,13 @@
     "multicolumn_mzUzFq",
     "multicolumn_cddqwF",
     "image_with_text_kK6fdT",
-    "image_with_text_dRKVKW",
     "rich_text_yhqkLA",
     "multicolumn_html_PTjtwB",
     "apps_pctMXy",
     "rich_text_NBTVdd",
     "collapsible_content_html_zJhpAX",
     "rich_text_waFdWq",
+    "image_with_text_dRKVKW",
     "rich_text_r4c4Vy",
     "1782743248a4e49455",
     "multicolumn_aRXzGA",
