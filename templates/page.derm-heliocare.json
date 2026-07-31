@@ -613,20 +613,14 @@
             "text": "<p>ASPA-Fernblock® is the latest evolution in skin photoprotection - a next-generation patented bioactive complex designed to enhance the protective benefits of HELIOCARE while supporting skin health beyond UV protection.</p><p>This innovative technology combines two powerful plant-based actives: Fernblock®+, Cantabria Labs' patented <em>Polypodium leucotomos</em> extract with clinically proven antioxidant and photoprotective properties, and ASPA, a patented extract derived from <em>Aspalathus linearis</em> (Rooibos), a plant naturally rich in flavonoids with recognised biological activity. Together, they create ASPA-Fernblock®, an additive complex exclusive to Cantabria Labs products.<br/><br/>ASPA-Fernblock® has been shown to enhance the efficacy of UV filters, supporting more comprehensive protection across the full spectrum of solar radiation, including UVA, UVB, visible light and infrared-A. It also delivers the OptiD Effect, helping to preserve vitamin D receptors under oxidative stress and supporting the skin's ability to utilise vitamin D more effectivtly.</p>",
             "text_style": "body"
           }
-        },
-        "button_gtFpXz": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get Started",
-            "button_link": "#contact",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_d6fD7L",
-        "text_ectxRp",
-        "button_gtFpXz"
+        "text_ectxRp"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 1023px) {.image-with-text__content {padding-bottom: 16px; }}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -642,7 +636,29 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 32
+      }
+    },
+    "178549423445409c69": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_FNFX9H": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<button class=\"btn globo-formbuilder-open button button--primary\" data-id=\"MTU3NTEy\" style=\"background-color: #f2a900; color: #000;\">Download Clinical Overview</button>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_FNFX9H"
+      ],
+      "custom_css": [
+        "div {text-align: center;}",
+        ".button:after {box-shadow: none;}",
+        ".button:hover {background-color: rgba(242, 169, 0, 0.8) !important;}"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "rich_text_r4c4Vy": {
@@ -673,7 +689,7 @@
         "color_scheme": "scheme-2",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 64,
+        "padding_top": 96,
         "padding_bottom": 0,
         "container_id": "contact"
       }
@@ -839,6 +855,7 @@
     "collapsible_content_html_zJhpAX",
     "rich_text_waFdWq",
     "image_with_text_dRKVKW",
+    "178549423445409c69",
     "rich_text_r4c4Vy",
     "1782743248a4e49455",
     "multicolumn_aRXzGA",
