@@ -130,14 +130,14 @@
         "heading_jygfEA": {
           "type": "heading",
           "settings": {
-            "heading": "360° Sun Protection Starts Here.",
+            "heading": "<strong>20% Off Selected HELIOCARE 360° Family Sun Protection and After Sun Care</strong>",
             "heading_size": "h1"
           }
         },
         "text_6WMLKz": {
           "type": "text",
           "settings": {
-            "text": "<strong>Make UV Awareness Month the perfect time to upgrade your daily sun protection routine with Buy One, Get One Half Price across the HELIOCARE 360° range. Providing very high-level, full-spectrum daily protection against UVA, UVB, visible light and infrared-A.</strong>",
+            "text": "Protect the whole family this summer with 20% off selected HELIOCARE 360° sunscreens and after sun care. Including our dedicated Pediatrics range and family favourites suitable from 2 years+, every formula delivers very high-level, full-spectrum protection against UVA, UVB, visible light and infrared-A.",
             "text_style": "body"
           }
         },
@@ -160,8 +160,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00263_CL.co.uk_BOGSHP_HomepageBanner_Jul26_Desktop.jpg",
-        "mobile_image": "shopify://shop_images/FERN-IMG-00263_CL.co.uk_BOGSHP_HomepageBanner_Jul26_Mobile.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00281_CantabriaLabs.co.uk_PediatricsSale_Banner_Aug26_01.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00281_CantabriaLabs.co.uk_PediatricsSale_Banner_Aug26_02.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
