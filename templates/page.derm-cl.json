@@ -377,7 +377,7 @@
           "type": "button",
           "settings": {
             "button_label": "Explore HELIOCARE",
-            "button_link": "",
+            "button_link": "shopify://pages/dermatologists-heliocare",
             "button_style_secondary": false
           }
         }
@@ -425,7 +425,7 @@
           "type": "button",
           "settings": {
             "button_label": "Explore BIRETIX",
-            "button_link": "",
+            "button_link": "shopify://pages/dermatologists-biretix",
             "button_style_secondary": false
           }
         }
