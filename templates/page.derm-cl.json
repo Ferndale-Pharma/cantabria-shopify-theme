@@ -611,7 +611,7 @@
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Icon06.png",
             "title": "Product Samples",
-            "text": "<p>Support patient trial, tolerability, and long-term compliance.</p>",
+            "text": "<p>Support patient sampling, tolerability and consistent daily photoprotection habits.</p>",
             "link_label": "Request Product Samples",
             "link": "#contact",
             "link_new_tab": false
@@ -622,7 +622,7 @@
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Icon07.png",
             "title": "Ongoing Partnership & Training",
-            "text": "<p>Clinical support and product education for your dermatology team.</p>",
+            "text": "<p>Clinical support and product education for your dermatology team and patients.</p>",
             "link_label": "Request a Meeting",
             "link": "#contact",
             "link_new_tab": false
