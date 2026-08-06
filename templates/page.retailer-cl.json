@@ -53,8 +53,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00274_CantabriaLabs.co.uk_StockistBanners_July26_04_1.jpg",
-        "mobile_image": "shopify://shop_images/FERN-IMG-00274_CantabriaLabs.co.uk_StockistBanners_July26_08_1.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00274_CantabriaLabs.co.uk_StockistBanners_July26_04_f528759a-91d4-4519-9298-633907770103.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00274_CantabriaLabs.co.uk_StockistBanners_July26_09.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -94,6 +94,7 @@
     },
     "video_KxW3EH": {
       "type": "video",
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 1440px) {div {width: 80%; margin: auto; }}"
       ],
@@ -128,6 +129,7 @@
       "block_order": [
         "button_QzhaYR"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
