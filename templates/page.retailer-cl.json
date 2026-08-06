@@ -229,7 +229,7 @@
             "title": "HELIOCARE",
             "text": "<p><strong>Expert, very high-level, full-spectrum sun protection</strong></p>",
             "link_label": "Find out more",
-            "link": ""
+            "link": "shopify://pages/become-a-heliocare-360-stockist"
           }
         },
         "column_EDKpzx": {
@@ -239,7 +239,7 @@
             "title": "BIRETIX",
             "text": "<p><strong>Science-led skincare to purify, treat, and care for acne-prone skin </strong></p>",
             "link_label": "Find out more",
-            "link": ""
+            "link": "shopify://pages/become-a-biretix-stockist"
           }
         },
         "column_eXQL3K": {
@@ -249,7 +249,7 @@
             "title": "ENDOCARE",
             "text": "<p><strong>Science-led skincare for visible anti-ageing results </strong></p>",
             "link_label": "Find out more",
-            "link": ""
+            "link": "shopify://pages/become-an-endocare-stockist"
           }
         },
         "column_4rUPUw": {
@@ -259,7 +259,7 @@
             "title": "NEORETIN",
             "text": "<p><strong>Pigmentation correction and skin tone renewal</strong></p>",
             "link_label": "Find out more",
-            "link": ""
+            "link": "shopify://metaobjects/range_page/neoretin"
           }
         }
       },
