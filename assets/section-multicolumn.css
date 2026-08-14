@@ -264,7 +264,8 @@
 }
 .multi-narrow-heading {
 	width: 100%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media only screen and (min-width: 750px){
 	.multi-narrow-heading {
