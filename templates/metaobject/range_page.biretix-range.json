@@ -93,170 +93,87 @@
         "container_id": ""
       }
     },
-    "rich_text_LimL7D": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Ce4iJj": {
-          "type": "heading",
-          "settings": {
-            "heading": "Complete your BIRETIX regime with 20% off selected HELIOCARE 360°",
-            "heading_size": "h2"
-          }
-        },
-        "text_Kpc3BL": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Daily photoprotection is an essential part of any acne-prone skincare routine. Complete your routine with 20% off selected HELIOCARE 360° sunscreens when you purchase any BIRETIX Regime for advanced, very high-level full-spectrum protection with formulas tailored to the needs of your acne-prone skin journey. </p>"
-          }
-        },
-        "button_RDVdmH": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop now",
-            "button_link": "shopify://collections/biretix",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "text_RRGghP": {
-          "type": "text",
-          "settings": {
-            "text": "<p><a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>While Stocks Last - Terms and Conditions apply</em></a></p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Ce4iJj",
-        "text_Kpc3BL",
-        "button_RDVdmH",
-        "text_RRGghP"
-      ],
-      "custom_css": [
-        "h2 {color: #00843d;}",
-        "p > a {color: #121212;}"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-c9cfcf6d-7e85-4c7a-8258-326efed9570c",
-        "full_width": false,
-        "is_heading": false,
-        "padding_top": 32,
-        "padding_bottom": 32,
-        "container_id": ""
-      }
-    },
-    "multicolumn_html_Khcgpc": {
+    "multicolumn_html_NwAPwU": {
       "type": "multicolumn-html",
       "blocks": {
-        "column_KCAwA3": {
+        "column_h4Y3eA": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/FERN-IMG-00266_CantabriaLabs_Biretix_RangePage_PurtifyGreen_Icons_250x250_0a3f4e1e-5132-4cf8-bedd-ed4ceb062bcf.png",
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-01.png",
             "title": "",
-            "text": "<p>Cleanse and prepare with:</p>\n<h3 class=\"h3\">PURIFY</h3>",
+            "text": "<h3>\n<b>Significantly reduce blemishes<sup>1,2,3,4</sup></b>\n</h3>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_QVRVbG": {
+        "column_it9a8X": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/FERN-IMG-00266_CantabriaLabs_Biretix_RangePage_TreatGreen_Icons_250x250_16d19927-f826-461d-87a1-cfbd8fa604fe.png",
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-02.png",
             "title": "",
-            "text": "<p>Prevent and correct with:</p>\n<h3 class=\"h3\">TREAT</h3>",
+            "text": "<h3>\n<b>Reduce spot-causing bacteria<sup>3</sup></b>\n</h3>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_KatYg6": {
+        "column_qMY8cz": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/FERN-IMG-00266_CantabriaLabs_Biretix_RangePage_CareGreen_Icons_250x250_0a33b976-b3e3-488e-9bff-a4d69c1f93d1.png",
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-03.png",
             "title": "",
-            "text": "<p>Hydrate and repair with:</p>\n<h3 class=\"h3\">CARE</h3>",
+            "text": "<h3>\n<b>Control oil and shine<sup>1</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9VJPPr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-04.png",
+            "title": "",
+            "text": "<h3>\n<b>Hydrate and care for the skin<sup>1,2,3,4</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xxGFfd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-05.png",
+            "title": "",
+            "text": "<h3>\n<b>Improve the skin’s texture and firmness<sup>2</sup></b>\n</h3>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VNLyzQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BIRETIX_-_ICONS-06.png",
+            "title": "",
+            "text": "<h3>\n<b>Excellent skin tolerance<sup>1,2,3,4</sup></b>\n</h3>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_KCAwA3",
-        "column_QVRVbG",
-        "column_KatYg6"
+        "column_h4Y3eA",
+        "column_it9a8X",
+        "column_qMY8cz",
+        "column_9VJPPr",
+        "column_xxGFfd",
+        "column_VNLyzQ"
       ],
       "custom_css": [
-        ".multicolumn-card__image-wrapper {max-width: 100px;}"
+        "h3 {color: #000;}"
       ],
-      "name": "Multicolumn HTML",
       "settings": {
-        "title": "PURIFY. TREAT. CARE.",
-        "heading_size": "h2",
-        "richtext": "<p>A simple philosophy rooted in dermatology for a holistic skincare approach in the management of acne-prone skin.</p>",
-        "narrow_text": true,
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-3",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "multicolumn_html_BWxTYb": {
-      "type": "multicolumn-html",
-      "blocks": {
-        "column_4KGaLf": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/regime-adolescent-acne-1x1.jpg",
-            "title": "BIRETIX Regime for Adolescent/Persistent Acne-Prone Skin",
-            "text": "<p>A dermatologist-developed 3-step routine designed for those with mild to moderate acne, including adolescent breakouts and ongoing adult blemishes. Proven to significantly reduce imperfections and sebum in just <b>28 days</b><sup>6</sup>, the routine is suitable for daily use and well tolerated, even by sensitive skin.</p>",
-            "link_label": "View product",
-            "link": "shopify://products/biretix-regime-for-adolescent-persistent-acne"
-          }
-        },
-        "column_HHbmN9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/regime-adult-acne-1x1.jpg",
-            "title": "BIRETIX Regime for Adult Acne-Prone Skin",
-            "text": "<p>Experience dermatologist-approved care for adult acne-prone skin with the BIRETIX Regime - tailored to meet the unique needs of adults with mild to moderate acne, this high-performance regime goes beyond breakout control. Clinically proven to deliver visible results in as little as <b>14 days</b><sup>7</sup>, this regime is suitable for daily use and offers excellent tolerability, even for sensitive skin. </p>",
-            "link_label": "View product",
-            "link": "shopify://products/biretix-regime-for-adult-acne"
-          }
-        },
-        "column_ryFAGD": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/isorepair-regime-1x1.jpg",
-            "title": "BIRETIX Isorepair Regime for Dry/Sensitised Acne-Prone Skin",
-            "text": "<p>Expertly formulated for dry, sensitive and compromised acne-prone skin, the BIRETIX Isorepair Regime helps support skin comfort throughout prescription retinoid treatment. Designed to strengthen the skin barrier and improve hydration, it has been clinically tested by users undergoing prescription retinoid treatment, shown to improve hydration and strengthen the skin barrier.<sup>8</sup></p>",
-            "link_label": "View product",
-            "link": "shopify://products/biretix-isorepair-regime"
-          }
-        }
-      },
-      "block_order": [
-        "column_4KGaLf",
-        "column_HHbmN9",
-        "column_ryFAGD"
-      ],
-      "name": "Multicolumn HTML",
-      "settings": {
-        "title": "Simple 3-step regimes to support acne-prone skin",
+        "title": "Clinically proven",
         "heading_size": "h2",
         "richtext": "",
         "narrow_text": false,
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
@@ -344,7 +261,7 @@
         "title": "Expert triple-action dermatological ingredients to target every aspect of acne-prone skin",
         "heading_size": "h2",
         "richtext": "",
-        "narrow_text": false,
+        "narrow_text": true,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -510,87 +427,114 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "multicolumn_html_NwAPwU": {
+    "multicolumn_html_Khcgpc": {
       "type": "multicolumn-html",
       "blocks": {
-        "column_h4Y3eA": {
+        "column_KCAwA3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/BIRETIX_-_ICONS-01.png",
+            "image": "shopify://shop_images/FERN-IMG-00266_CantabriaLabs_Biretix_RangePage_PurtifyGreen_Icons_250x250_0a3f4e1e-5132-4cf8-bedd-ed4ceb062bcf.png",
             "title": "",
-            "text": "<h3>\n<b>Significantly reduce blemishes<sup>1,2,3,4</sup></b>\n</h3>",
+            "text": "<p>Cleanse and prepare with:</p>\n<h3 class=\"h3\">PURIFY</h3>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_it9a8X": {
+        "column_QVRVbG": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/BIRETIX_-_ICONS-02.png",
+            "image": "shopify://shop_images/FERN-IMG-00266_CantabriaLabs_Biretix_RangePage_TreatGreen_Icons_250x250_16d19927-f826-461d-87a1-cfbd8fa604fe.png",
             "title": "",
-            "text": "<h3>\n<b>Reduce spot-causing bacteria<sup>3</sup></b>\n</h3>",
+            "text": "<p>Prevent and correct with:</p>\n<h3 class=\"h3\">TREAT</h3>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_qMY8cz": {
+        "column_KatYg6": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/BIRETIX_-_ICONS-03.png",
+            "image": "shopify://shop_images/FERN-IMG-00266_CantabriaLabs_Biretix_RangePage_CareGreen_Icons_250x250_0a33b976-b3e3-488e-9bff-a4d69c1f93d1.png",
             "title": "",
-            "text": "<h3>\n<b>Control oil and shine<sup>1</sup></b>\n</h3>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_9VJPPr": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/BIRETIX_-_ICONS-04.png",
-            "title": "",
-            "text": "<h3>\n<b>Hydrate and care for the skin<sup>1,2,3,4</sup></b>\n</h3>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_xxGFfd": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/BIRETIX_-_ICONS-05.png",
-            "title": "",
-            "text": "<h3>\n<b>Improve the skin’s texture and firmness<sup>2</sup></b>\n</h3>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_VNLyzQ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/BIRETIX_-_ICONS-06.png",
-            "title": "",
-            "text": "<h3>\n<b>Excellent skin tolerance<sup>1,2,3,4</sup></b>\n</h3>",
+            "text": "<p>Hydrate and repair with:</p>\n<h3 class=\"h3\">CARE</h3>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_h4Y3eA",
-        "column_it9a8X",
-        "column_qMY8cz",
-        "column_9VJPPr",
-        "column_xxGFfd",
-        "column_VNLyzQ"
+        "column_KCAwA3",
+        "column_QVRVbG",
+        "column_KatYg6"
       ],
       "custom_css": [
-        "h3 {color: #000;}"
+        ".multicolumn-card__image-wrapper {max-width: 100px;}"
       ],
+      "name": "Multicolumn HTML",
       "settings": {
-        "title": "Clinically proven",
+        "title": "PURIFY. TREAT. CARE.",
+        "heading_size": "h2",
+        "richtext": "<p>A simple philosophy rooted in dermatology for a holistic skincare approach in the management of acne-prone skin.</p>",
+        "narrow_text": true,
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 96,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_html_BWxTYb": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_4KGaLf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/regime-adolescent-acne-1x1.jpg",
+            "title": "BIRETIX Regime for Adolescent/Persistent Acne-Prone Skin",
+            "text": "<p>A dermatologist-developed 3-step routine designed for those with mild to moderate acne, including adolescent breakouts and ongoing adult blemishes. Proven to significantly reduce imperfections and sebum in just <b>28 days</b><sup>6</sup>, the routine is suitable for daily use and well tolerated, even by sensitive skin.</p>",
+            "link_label": "View product",
+            "link": "shopify://products/biretix-regime-for-adolescent-persistent-acne"
+          }
+        },
+        "column_HHbmN9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/regime-adult-acne-1x1.jpg",
+            "title": "BIRETIX Regime for Adult Acne-Prone Skin",
+            "text": "<p>Experience dermatologist-approved care for adult acne-prone skin with the BIRETIX Regime - tailored to meet the unique needs of adults with mild to moderate acne, this high-performance regime goes beyond breakout control. Clinically proven to deliver visible results in as little as <b>14 days</b><sup>7</sup>, this regime is suitable for daily use and offers excellent tolerability, even for sensitive skin. </p>",
+            "link_label": "View product",
+            "link": "shopify://products/biretix-regime-for-adult-acne"
+          }
+        },
+        "column_ryFAGD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/isorepair-regime-1x1.jpg",
+            "title": "BIRETIX Isorepair Regime for Dry/Sensitised Acne-Prone Skin",
+            "text": "<p>Expertly formulated for dry, sensitive and compromised acne-prone skin, the BIRETIX Isorepair Regime helps support skin comfort throughout prescription retinoid treatment. Designed to strengthen the skin barrier and improve hydration, it has been clinically tested by users undergoing prescription retinoid treatment, shown to improve hydration and strengthen the skin barrier.<sup>8</sup></p>",
+            "link_label": "View product",
+            "link": "shopify://products/biretix-isorepair-regime"
+          }
+        }
+      },
+      "block_order": [
+        "column_4KGaLf",
+        "column_HHbmN9",
+        "column_ryFAGD"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "title": "Simple 3-step regimes to support acne-prone skin",
         "heading_size": "h2",
         "richtext": "",
         "narrow_text": false,
-        "image_width": "third",
+        "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
@@ -649,7 +593,7 @@
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "Real skin results",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "richtext": "",
         "narrow_text": false,
         "image_width": "full",
@@ -663,55 +607,8 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_bottom": 0,
         "container_id": ""
-      }
-    },
-    "image_with_text_html_DGWMyN": {
-      "type": "image-with-text-html",
-      "blocks": {
-        "heading_UHmHqx": {
-          "type": "heading",
-          "settings": {
-            "heading": "BIRETIX Tri-Active Anti-Blemish Gel ",
-            "heading_size": "h2"
-          }
-        },
-        "text_EeLqga": {
-          "type": "text",
-          "settings": {
-            "text": "<p>BIRETIX Tri-Active Anti-Blemish Gel’s effective and caring triple-action formulation significantly reduces imperfections, blemishes, oil and shine to make the skin feel softer, with improved skin texture, and a more uniform complexion.<sup>1</sup></p>\n<p>After just 28 days use, BIRETIX Tri-Active Anti-Blemish Gel is dermatologically proven to significantly reduce imperfections by 61%, and blemishes by up to 76%.<sup>1,2</sup></p>",
-            "text_style": "body"
-          }
-        },
-        "button_HVky9W": {
-          "type": "button",
-          "settings": {
-            "button_label": "View product",
-            "button_link": "shopify://products/biretix-tri-active-anti-blemish-gel",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_UHmHqx",
-        "text_EeLqga",
-        "button_HVky9W"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Tri-active-gel.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-3",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 96,
-        "padding_bottom": 64
       }
     },
     "multicolumn_Q9V4Kp": {
@@ -754,10 +651,10 @@
         "column_7tN6mb"
       ],
       "settings": {
-        "title": "<strong>Effective and caring blemish control</strong>",
+        "title": "",
         "heading_size": "h2",
         "richtext": "",
-        "narrow_text": false,
+        "narrow_text": true,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -768,8 +665,64 @@
         "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_top": 0,
+        "padding_bottom": 96,
+        "container_id": ""
+      }
+    },
+    "rich_text_LimL7D": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Ce4iJj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Complete your BIRETIX regime with 20% off selected HELIOCARE 360°",
+            "heading_size": "h2"
+          }
+        },
+        "text_Kpc3BL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Daily photoprotection is an essential part of any acne-prone skincare routine. Complete your routine with 20% off selected HELIOCARE 360° sunscreens when you purchase any BIRETIX Regime for advanced, very high-level full-spectrum protection with formulas tailored to the needs of your acne-prone skin journey. </p>"
+          }
+        },
+        "button_RDVdmH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/biretix",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "text_RRGghP": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://cantabrialabs.co.uk/policies/terms-of-service#promotions\" title=\"Read the terms of service for promotions\"><em>While Stocks Last - Terms and Conditions apply</em></a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ce4iJj",
+        "text_Kpc3BL",
+        "button_RDVdmH",
+        "text_RRGghP"
+      ],
+      "custom_css": [
+        "h2 {color: #00843d;}",
+        "p > a {color: #121212;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-c9cfcf6d-7e85-4c7a-8258-326efed9570c",
+        "full_width": false,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 32,
         "container_id": ""
       }
     },
@@ -797,7 +750,7 @@
         "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 64,
+        "padding_top": 96,
         "padding_bottom": 64
       }
     },
@@ -932,17 +885,16 @@
   "order": [
     "image_banner_9qaB4e",
     "rich_text_CcYqft",
-    "rich_text_LimL7D",
-    "multicolumn_html_Khcgpc",
-    "multicolumn_html_BWxTYb",
+    "multicolumn_html_NwAPwU",
     "cl_featured_collection_MbjxVd",
     "multicolumn_CQCX7D",
     "rich_text_HUxECR",
     "cl_slideshow_4tCcxJ",
-    "multicolumn_html_NwAPwU",
+    "multicolumn_html_Khcgpc",
+    "multicolumn_html_BWxTYb",
     "multicolumn_NBphdm",
-    "image_with_text_html_DGWMyN",
     "multicolumn_Q9V4Kp",
+    "rich_text_LimL7D",
     "cl_featured_collection_gPpbQz",
     "cl_faqs_WFmpGD",
     "collapsible_content_dgkKCE",
