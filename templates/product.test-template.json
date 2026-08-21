@@ -201,82 +201,15 @@
         "include_margins": true
       }
     },
-    "collapsible_content_qQmEA9": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_JjhQDL": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "question_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_Yz9bQX": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "question_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_gwdNWw": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "question_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_K9DWJR": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "question_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_yX4iFL": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "question_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_YPwwJU": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "question_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_JjhQDL",
-        "collapsible_row_Yz9bQX",
-        "collapsible_row_gwdNWw",
-        "collapsible_row_K9DWJR",
-        "collapsible_row_yX4iFL",
-        "collapsible_row_YPwwJU"
-      ],
-      "custom_css": [
-        ".h4 {font-size: 2rem;}",
-        "@media screen and (max-width: 1024px){.h4 {font-size: 1.5rem; }}"
-      ],
-      "name": "t:sections.collapsible_content.presets.name",
+    "product_faqs_mjHtU9": {
+      "type": "product-faqs",
+      "name": "Product FAQs",
       "settings": {
         "caption": "",
         "heading": "FAQs",
         "heading_size": "h2",
         "heading_alignment": "center",
+        "icon": "question_mark",
         "layout": "none",
         "color_scheme": "",
         "container_color_scheme": "scheme-1",
@@ -404,7 +337,7 @@
     "main",
     "video_metafield_43XXKt",
     "1725440000dbba4c0d",
-    "collapsible_content_qQmEA9",
+    "product_faqs_mjHtU9",
     "image_banner_WXcyQc",
     "related-products",
     "1725375417ea1f4d2f",
