@@ -12,7 +12,7 @@
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
-    .h4.accordion__title {
+    .h4.accordion__title__product {
         font-size: 1.5rem;
     }
     @media screen and (min-width: 750px) {
@@ -20,7 +20,7 @@
         padding-top: {{ section.settings.padding_top }}px;
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
-      .h4.accordion__title {
+      .h4.accordion__title__product {
         font-size: 1.8rem;
       }
     }
@@ -112,7 +112,7 @@
 
                         {% render 'icon-accordion', icon: section.settings.icon %}
 
-                        <h3 class="accordion__title inline-richtext h4">
+                        <h3 class="accordion__title__product inline-richtext h4">
                           {{ faq_question.value | escape }}
                         </h3>
 
