@@ -159,6 +159,25 @@
         "include_margins": true
       }
     },
+    "product_faqs_7qTYPp": {
+      "type": "product-faqs",
+      "name": "Product FAQs",
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "icon": "question_mark",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 96,
+        "padding_bottom": 64
+      }
+    },
     "image_banner_CHDeVA": {
       "type": "image-banner",
       "blocks": {
@@ -278,6 +297,7 @@
   "order": [
     "main",
     "1725440000dbba4c0d",
+    "product_faqs_7qTYPp",
     "image_banner_CHDeVA",
     "related-products",
     "custom_liquid_9RgfFT",
