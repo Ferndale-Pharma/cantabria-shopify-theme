@@ -6,6 +6,7 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -13,41 +14,72 @@
     }
   }
 
-  /* Image sizing rules, driven purely by the theme‑editor inputs */
+  /* Base image styles */
+  .section-{{ section.id }} .single-image__img {
+    display: block;
+    margin-inline: auto;
+    height: auto;
+  }
+
+  /* Mobile image width */
   {%- if section.settings.image_width_unit == '%' -%}
     .section-{{ section.id }} .single-image__img {
-      display: block;
-      margin-inline: auto;
-      width: {{ section.settings.image_width_value }}%; /* percentage width */
-      height: auto;
+      width: {{ section.settings.image_width_mobile }}%;
     }
   {%- else -%}
     .section-{{ section.id }} .single-image__img {
-      display: block;
-      margin-inline: auto;
-      max-width: {{ section.settings.image_width_value }}px; /* fixed pixel width */
       width: 100%;
-      height: auto;
+      max-width: {{ section.settings.image_width_mobile }}px;
     }
   {%- endif -%}
+
+  /* Desktop image width */
+  @media screen and (min-width: 750px) {
+    {%- if section.settings.image_width_unit == '%' -%}
+      .section-{{ section.id }} .single-image__img {
+        width: {{ section.settings.image_width_desktop }}%;
+      }
+    {%- else -%}
+      .section-{{ section.id }} .single-image__img {
+        width: 100%;
+        max-width: {{ section.settings.image_width_desktop }}px;
+      }
+    {%- endif -%}
+  }
 {%- endstyle -%}
 
-<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}" id="{{ section.settings.container_id }}">
+<div
+  class="isolate{% unless section.settings.full_width %} page-width{% endunless %}"
+  id="{{ section.settings.container_id }}"
+>
   <div class="rich-text content-container gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper {% if section.settings.full_width %} page-width{% endif %}">
 
       {%- if section.settings.image != blank -%}
+
         {%- if section.settings.image_width_unit == 'px' -%}
-          {{ section.settings.image | image_url: width: section.settings.image_width_value | image_tag: 
-            class: 'single-image__img',
-            loading: 'lazy',
-            alt: section.settings.image.alt | escape }}
+          {%- capture image_sizes -%}
+            (min-width: 750px) {{ section.settings.image_width_desktop }}px,
+            {{ section.settings.image_width_mobile }}px
+          {%- endcapture -%}
         {%- else -%}
-          {{ section.settings.image | image_tag: 
+          {%- capture image_sizes -%}
+            (min-width: 750px) {{ section.settings.image_width_desktop }}vw,
+            {{ section.settings.image_width_mobile }}vw
+          {%- endcapture -%}
+        {%- endif -%}
+
+        {{
+          section.settings.image
+          | image_url: width: 2400
+          | image_tag:
             class: 'single-image__img',
             loading: 'lazy',
-            alt: section.settings.image.alt | escape }}
-        {%- endif -%}
+            widths: '320, 375, 480, 550, 640, 750, 900, 1100, 1300, 1500, 1800, 2000, 2400',
+            sizes: image_sizes,
+            alt: section.settings.image.alt
+        }}
+
       {%- endif -%}
 
     </div>
@@ -67,18 +99,31 @@
     },
     {
       "type": "number",
-      "id": "image_width_value",
-      "label": "Image width value",
+      "id": "image_width_mobile",
+      "label": "Mobile image width",
+      "default": 400,
+      "info": "Enter the image width for mobile."
+    },
+    {
+      "type": "number",
+      "id": "image_width_desktop",
+      "label": "Desktop image width",
       "default": 800,
-      "info": "Enter a pixel value or percentage, depending on the unit you select."
+      "info": "Enter the image width for desktop."
     },
     {
       "type": "select",
       "id": "image_width_unit",
       "label": "Width unit",
       "options": [
-        { "value": "px", "label": "px" },
-        { "value": "%", "label": "%" }
+        {
+          "value": "px",
+          "label": "px"
+        },
+        {
+          "value": "%",
+          "label": "%"
+        }
       ],
       "default": "px"
     },
@@ -119,7 +164,9 @@
     }
   ],
   "presets": [
-    { "name": "Single Image" }
+    {
+      "name": "Single Image"
+    }
   ]
 }
 {% endschema %}
