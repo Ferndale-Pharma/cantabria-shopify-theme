@@ -11,13 +11,77 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "cl_single_image_afeJzi": {
+      "type": "cl-single-image",
+      "custom_css": [
+        "@media screen and (min-width: 1023px) {.single-image__img {width: 300px; }}"
+      ],
+      "name": "Single Image",
+      "settings": {
+        "image": "shopify://shop_images/skinresist_logo_horizontal_grey_400.jpg",
+        "image_width_value": 200,
+        "image_width_unit": "px",
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "full_width": true,
+        "container_id": ""
+      }
+    },
+    "rich_text_w9PVdG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rL4G66": {
+          "type": "heading",
+          "settings": {
+            "heading": "You’re on the list!",
+            "heading_size": "h1"
+          }
+        },
+        "text_gmxf8K": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Something exciting is coming.</strong></p><p>Thank you for registering your interest in Skin Resist by Cantabria Labs - the new skin barrier protection range for sensitive and reactive skin.</p><p>You’ll be the first to know when it launches at CantabriaLabs.co.uk.</p>"
+          }
+        },
+        "button_GAwiE8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Continue shopping",
+            "button_link": "https://cantabrialabs.co.uk",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rL4G66",
+        "text_gmxf8K",
+        "button_GAwiE8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-b2751c5c-57b4-4278-9736-6f99fb9d79ee",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "cl_single_image_afeJzi",
+    "rich_text_w9PVdG"
   ]
 }
