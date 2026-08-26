@@ -19,6 +19,7 @@
     display: block;
     margin-inline: auto;
     height: auto;
+    max-width: 100%;
   }
 
   /* Mobile image width */
@@ -28,8 +29,7 @@
     }
   {%- else -%}
     .section-{{ section.id }} .single-image__img {
-      width: 100%;
-      max-width: {{ section.settings.image_width_mobile }}px;
+      width: {{ section.settings.image_width_mobile }}px;
     }
   {%- endif -%}
 
@@ -41,8 +41,7 @@
       }
     {%- else -%}
       .section-{{ section.id }} .single-image__img {
-        width: 100%;
-        max-width: {{ section.settings.image_width_desktop }}px;
+        width: {{ section.settings.image_width_desktop }}px;
       }
     {%- endif -%}
   }
@@ -71,12 +70,14 @@
 
         {{
           section.settings.image
-          | image_url: width: 2400
+          | image_url: width: 2000
           | image_tag:
             class: 'single-image__img',
             loading: 'lazy',
-            widths: '320, 375, 480, 550, 640, 750, 900, 1100, 1300, 1500, 1800, 2000, 2400',
+            widths: '200, 300, 400, 500, 600, 750, 900, 1100, 1500, 2000',
             sizes: image_sizes,
+            width: nil,
+            height: nil,
             alt: section.settings.image.alt
         }}
 
