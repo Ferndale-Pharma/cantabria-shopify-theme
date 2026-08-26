@@ -19,13 +19,12 @@
     },
     "cl_single_image_afeJzi": {
       "type": "cl-single-image",
-      "custom_css": [
-        "@media screen and (min-width: 1023px) {.single-image__img {width: 300px; }}"
-      ],
+      "custom_css": [],
       "name": "Single Image",
       "settings": {
         "image": "shopify://shop_images/skinresist_logo_horizontal_grey_400.jpg",
-        "image_width_value": 200,
+        "image_width_mobile": 200,
+        "image_width_desktop": 300,
         "image_width_unit": "px",
         "padding_top": 16,
         "padding_bottom": 16,
