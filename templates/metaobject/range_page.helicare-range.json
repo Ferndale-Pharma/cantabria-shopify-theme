@@ -148,6 +148,7 @@
         "button_gGdyxW",
         "text_6CBw8q"
       ],
+      "disabled": true,
       "custom_css": [
         "p > a {color: #121212;}",
         "h2 {color: #f2a900;}"

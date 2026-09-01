@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_xknnKy": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "20% Off Selected HELIOCARE 360° Family Sun Protection and After Sun Care",
             "link": "shopify://collections/heliocare"

@@ -43,7 +43,6 @@
         "text",
         "buttons_JLFrH9"
       ],
-      "disabled": true,
       "custom_css": [
         ".banner__text.caption-with-letter-spacing {text-transform: inherit;}"
       ],
@@ -158,6 +157,7 @@
         "text_6WMLKz",
         "buttons_PMtHzL"
       ],
+      "disabled": true,
       "name": "Image Banner v2",
       "settings": {
         "image": "shopify://shop_images/FERN-IMG-00281_CantabriaLabs.co.uk_PediatricsSale_Banner_Aug26_05_dedad245-e6b6-41bb-88d0-35c7b16ae8ec.jpg",
