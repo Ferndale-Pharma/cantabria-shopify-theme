@@ -30,7 +30,7 @@
         "text_kf6V9k": {
           "type": "text",
           "settings": {
-            "text": "<p>Shop Cantabria Labs dermatological skincare ranges directly from us and get fantastic loyalty rewards, exclusive community benefits and discounts or choose your preferred skincare retailer from our trusted retail partners across the UK.</p><p><br/></p><p>Are you a retailer looking to stock HELIOCARE 360°? <a href=\"/pages/become-a-heliocare-360-stockist\" title=\"Become a Heliocare 360° stockist\">You can find more information about becoming a stockist here.</a><br/></p>"
+            "text": "<p>Shop Cantabria Labs dermatological skincare ranges directly from us and get fantastic loyalty rewards, exclusive community benefits and discounts or choose your preferred skincare retailer from our trusted retail partners across the UK.</p><p><br/></p><p>Are you a retailer looking to stock Cantabria Labs products such as HELIOCARE 360°? <a href=\"/pages/become-a-stockist\" title=\"Become a Cantabria Labs Stockist\">You can find more information about becoming a stockist here.</a><br/></p>"
           }
         }
       },
@@ -256,7 +256,7 @@
         "heading_ypTtcd": {
           "type": "heading",
           "settings": {
-            "heading": "Are you a retailer looking to become a  HELIOCARE 360° stockist?",
+            "heading": "Are you a retailer looking to become a  Cantabria Labs stockist?",
             "heading_size": "h2"
           }
         },
@@ -264,7 +264,7 @@
           "type": "button",
           "settings": {
             "button_label": "Find out more",
-            "button_link": "shopify://pages/become-a-heliocare-360-stockist",
+            "button_link": "shopify://pages/become-a-stockist",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
