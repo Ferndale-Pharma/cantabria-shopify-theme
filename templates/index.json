@@ -903,7 +903,7 @@
             "show_instagram_link": true,
             "link_alignment": "center",
             "link_color": "#000000",
-            "background_color": "",
+            "background_color": "#FFFFFF",
             "feed_id": "",
             "html_area": ""
           }
