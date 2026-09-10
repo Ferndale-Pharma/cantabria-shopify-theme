@@ -887,6 +887,35 @@
         "container_id": ""
       }
     },
+    "178904263832c31584": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_WFWqpn": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "Follow us on Instagram",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 64,
+            "instafeed_margin_bottom": 64,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": true,
+            "link_alignment": "center",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_WFWqpn"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "newsletter_qHy7Hn": {
       "type": "newsletter",
       "blocks": {
@@ -937,6 +966,7 @@
     "multicolumn_NeKPxJ",
     "multicolumn_EPn7gK",
     "multicolumn_DNgG9V",
+    "178904263832c31584",
     "newsletter_qHy7Hn"
   ]
 }
