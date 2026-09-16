@@ -55,12 +55,24 @@
         "text_XwhcCd": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>A brand new ordering platform will be launching very soon!</strong></h3><p><strong>In the meantime, please can you contact the Customer Service Team customerservice@ferndalepharma.co.uk to place any orders or for any other queries.</strong><br/></p>"
+            "text": "<h3><strong>A brand new ordering platform has launched!</strong><br/></h3>"
+          }
+        },
+        "button_gNbjr8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Access Trade Shop",
+            "button_link": "https://trade.cantabrialabs.co.uk/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "text_XwhcCd"
+        "text_XwhcCd",
+        "button_gNbjr8"
       ],
       "settings": {
         "desktop_content_position": "center",
