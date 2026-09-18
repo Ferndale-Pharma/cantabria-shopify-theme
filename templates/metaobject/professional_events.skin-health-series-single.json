@@ -8,6 +8,372 @@
  * ------------------------------------------------------------
  */
 {
-  "sections": {},
-  "order": []
+  "sections": {
+    "image_banner_separate_8XX4Bq": {
+      "type": "image-banner-separate",
+      "blocks": {
+        "heading_MRY97K": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.banner_title.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_x8LWqm": {
+          "type": "text",
+          "settings": {
+            "text": "with {{ metaobject.banner_speaker.value }}",
+            "text_style": "body"
+          }
+        },
+        "buttons_k9dkqJ": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Register free",
+            "button_link_1": "#register",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MRY97K",
+        "text_x8LWqm",
+        "buttons_k9dkqJ"
+      ],
+      "name": "Image Banner v2",
+      "settings": {
+        "image": "{{ metaobject.banner_image_desktop.value }}",
+        "mobile_image": "{{ metaobject.banner_image_mobile.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": false
+      }
+    },
+    "rich_text_C8dG76": {
+      "type": "rich-text",
+      "blocks": {
+        "text_qMfTfi": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.section_1_body_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_qMfTfi"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 16,
+        "container_id": ""
+      }
+    },
+    "multicolumn_YLcxAV": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_7teeBz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Calendar.jpg",
+            "title": "Date(s):",
+            "text": "<p>{{ metaobject.multicolumn_1_body_text | metafield_tag }}</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UY4XKa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Info.png",
+            "title": "Who should attend:",
+            "text": "<p>{{ metaobject.multicolumn_2_body_text | metafield_tag }}</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jyjJpM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Money.png",
+            "title": "Cost:",
+            "text": "<p>{{ metaobject.multicolumn_3_body_text | metafield_tag }}</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_7teeBz",
+        "column_UY4XKa",
+        "column_jyjJpM"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper {max-width: 50px;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "rich_text_rTBxYe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Ae9KFn": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.section_2_heading.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_GczLCk": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.section_2_body_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ae9KFn",
+        "text_GczLCk"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 0,
+        "container_id": ""
+      }
+    },
+    "cl_single_image_jg7JPt": {
+      "type": "cl-single-image",
+      "name": "Single Image",
+      "settings": {
+        "image": "{{ metaobject.section_2_image.value }}",
+        "image_width_mobile": 400,
+        "image_width_desktop": 800,
+        "image_width_unit": "px",
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "full_width": true,
+        "container_id": ""
+      }
+    },
+    "rich_text_LVy4JY": {
+      "type": "rich-text",
+      "blocks": {
+        "text_DVU9eg": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.section_3_body_text | metafield_tag }}"
+          }
+        },
+        "button_wYV7gf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Register free",
+            "button_link": "#register",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_DVU9eg",
+        "button_wYV7gf"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 16,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_qbzTPt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RJU3wa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet Your Expert - {{ metaobject.banner_speaker.value }}",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RJU3wa"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 0,
+        "container_id": ""
+      }
+    },
+    "cl_single_image_HHk3Gn": {
+      "type": "cl-single-image",
+      "name": "Single Image",
+      "settings": {
+        "image": "{{ metaobject.speaker_image.value }}",
+        "image_width_mobile": 220,
+        "image_width_desktop": 300,
+        "image_width_unit": "px",
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "full_width": true,
+        "container_id": ""
+      }
+    },
+    "rich_text_pyQgte": {
+      "type": "rich-text",
+      "blocks": {
+        "text_jEf4wa": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.speaker_bio | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_jEf4wa"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_Qe4gWj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gNBcRn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who Should Attend?",
+            "heading_size": "h2"
+          }
+        },
+        "text_dXTfAa": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.section_4_body_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gNBcRn",
+        "text_dXTfAa"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_XMPMUN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YWUXJK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Secure Your Place",
+            "heading_size": "h2"
+          }
+        },
+        "text_nkTkKC": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Registration is free.</strong><br/>Simply enter your details below and you’ll receive your webinar invite via email.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YWUXJK",
+        "text_nkTkKC"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": "register"
+      }
+    }
+  },
+  "order": [
+    "image_banner_separate_8XX4Bq",
+    "rich_text_C8dG76",
+    "multicolumn_YLcxAV",
+    "rich_text_rTBxYe",
+    "cl_single_image_jg7JPt",
+    "rich_text_LVy4JY",
+    "rich_text_qbzTPt",
+    "cl_single_image_HHk3Gn",
+    "rich_text_pyQgte",
+    "rich_text_Qe4gWj",
+    "rich_text_XMPMUN"
+  ]
 }
