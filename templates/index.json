@@ -43,6 +43,7 @@
         "text",
         "buttons_JLFrH9"
       ],
+      "disabled": true,
       "custom_css": [
         ".banner__text.caption-with-letter-spacing {text-transform: inherit;}"
       ],
@@ -129,14 +130,14 @@
         "heading_jygfEA": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>20% Off Selected HELIOCARE 360° Family Sun Protection and After Sun Care</strong>",
+            "heading": "<strong>Science That Cares</strong>",
             "heading_size": "h1"
           }
         },
         "text_6WMLKz": {
           "type": "text",
           "settings": {
-            "text": "Protect the whole family this summer with 20% off selected HELIOCARE 360° sunscreens and after sun care. Including our dedicated Pediatrics range and family favourites suitable from 2 years+, every formula delivers very high-level, full-spectrum protection against UVA, UVB, visible light and infrared-A.",
+            "text": "Welcome to Cantabria Labs, the home of dermatological skincare expertly researched and developed to deliver proven results.",
             "text_style": "body"
           }
         },
@@ -144,7 +145,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now",
-            "button_link_1": "shopify://collections/heliocare",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -157,11 +158,10 @@
         "text_6WMLKz",
         "buttons_PMtHzL"
       ],
-      "disabled": true,
       "name": "Image Banner v2",
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00281_CantabriaLabs.co.uk_PediatricsSale_Banner_Aug26_05_dedad245-e6b6-41bb-88d0-35c7b16ae8ec.jpg",
-        "mobile_image": "shopify://shop_images/FERN-IMG-00281_CantabriaLabs.co.uk_PediatricsSale_Banner_Aug26_06_1.jpg",
+        "image": "shopify://shop_images/CL-WEB_-_Banner_-_Homepage.jpg",
+        "mobile_image": "shopify://shop_images/CL-WEB_-_Banner_-_Homepage1x1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -903,7 +903,7 @@
             "show_instagram_link": true,
             "link_alignment": "center",
             "link_color": "#000000",
-            "background_color": "#FFFFFF",
+            "background_color": "#ffffff",
             "feed_id": "",
             "html_area": ""
           }
