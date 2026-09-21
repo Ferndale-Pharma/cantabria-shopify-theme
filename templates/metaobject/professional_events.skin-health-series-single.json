@@ -358,8 +358,18 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 32,
-        "padding_bottom": 64,
+        "padding_bottom": 0,
         "container_id": "register"
+      }
+    },
+    "custom_liquid_iiLJ9n": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/262632605964058\"></script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 64
       }
     }
   },
@@ -374,6 +384,7 @@
     "cl_single_image_HHk3Gn",
     "rich_text_pyQgte",
     "rich_text_Qe4gWj",
-    "rich_text_XMPMUN"
+    "rich_text_XMPMUN",
+    "custom_liquid_iiLJ9n"
   ]
 }
