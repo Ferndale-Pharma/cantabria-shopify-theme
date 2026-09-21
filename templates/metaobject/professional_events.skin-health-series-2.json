@@ -151,8 +151,8 @@
         "color_scheme": "",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 16,
+        "padding_top": 32,
+        "padding_bottom": 32,
         "container_id": ""
       }
     },
@@ -261,6 +261,44 @@
         "padding_bottom": 32,
         "container_id": ""
       }
+    },
+    "button_row_4hcew3": {
+      "type": "button-row",
+      "blocks": {
+        "button_W4NNNV": {
+          "type": "button",
+          "settings": {
+            "button_label": "View details",
+            "button_link": "shopify://metaobjects/professional_events/introduction-to-the-cantabria-labs-dermocosmetic-skincare-supplement-portfolio",
+            "button_style": "secondary",
+            "color_scheme": "",
+            "open_new_tab": false
+          }
+        },
+        "button_HGdpT6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Register now",
+            "button_link": "#register",
+            "button_style": "primary",
+            "color_scheme": "",
+            "open_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "button_W4NNNV",
+        "button_HGdpT6"
+      ],
+      "name": "Button row",
+      "settings": {
+        "color_scheme": "",
+        "desktop_alignment": "center",
+        "mobile_layout": "stacked",
+        "button_gap": 32,
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -270,6 +308,7 @@
     "rich_text_kVMbTN",
     "rich_text_MKMezM",
     "image_with_text_iNxhfQ",
-    "multicolumn_VBAwmK"
+    "multicolumn_VBAwmK",
+    "button_row_4hcew3"
   ]
 }
