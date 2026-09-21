@@ -237,7 +237,7 @@
         "heading_RJU3wa": {
           "type": "heading",
           "settings": {
-            "heading": "Meet Your Expert - {{ metaobject.banner_speaker.value }}",
+            "heading": "{{ metaobject.speaker_heading.value }} - {{ metaobject.banner_speaker.value }}",
             "heading_size": "h2"
           }
         }
