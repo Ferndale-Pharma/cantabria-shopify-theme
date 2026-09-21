@@ -179,7 +179,7 @@
         "text_pg68VK"
       ],
       "custom_css": [
-        "@media screen and (max-width: 749px) {li {text-align: left; }}",
+        "@media screen and (max-width: 749px) {li {text-align: left; } }",
         "@media screen and (min-width: 750px) {.image-with-text__media-item {display: flex; align-items: center; justify-content: center; } .image-with-text__media {width: 70%; max-width: 32rem; min-height: 0 !important; height: auto !important; aspect-ratio: 1 / 1; padding-bottom: 0 !important; border: none; } .image-with-text__media img {object-fit: contain !important; }}"
       ],
       "name": "t:sections.image-with-text.presets.name",
