@@ -153,7 +153,7 @@
         "heading_Ae9KFn": {
           "type": "heading",
           "settings": {
-            "heading": "Science That Cares",
+            "heading": "{{ metaobject.section_2_heading.value }}",
             "heading_size": "h2"
           }
         },
