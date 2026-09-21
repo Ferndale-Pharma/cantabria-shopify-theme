@@ -119,7 +119,7 @@
         "column_9Yzga7": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/FERN-IMG-00287_CL_PostSummerSkinCorrection_ProductImage_1440x1440px_Sept26-_2.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00287_CL_PostSummerSkinCorrection_ProductImage_1440x1440px_Sept26-_2_aaa97683-bb35-4cd3-ab3e-f24c648bd9d5.jpg",
             "title": "Post-Summer Pigment Correction",
             "text": "<p><strong>For uneven pigmentation and visible signs of photodamage</strong></p>",
             "link_label": "View offer",
@@ -130,10 +130,11 @@
         "column_kHaf6k": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00288_CL_TextureRepairRegime_ProductImage_1440x1440px_Sept26-_2.jpg",
             "title": "Post-Summer Texture Repair",
             "text": "<p><strong>For uneven texture and visible signs of skin ageing</strong></p>",
-            "link_label": "",
-            "link": "",
+            "link_label": "View offer",
+            "link": "#texture",
             "link_new_tab": false
           }
         }
@@ -165,12 +166,109 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_Y9kRX7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Jyjkpt": {
+          "type": "heading",
+          "settings": {
+            "heading": "For Post-Summer Pigmentation Correction",
+            "heading_size": "h2"
+          }
+        },
+        "text_tPq3cj": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Help target uneven pigmentation and visible signs of photodamage </strong><br/><br/>A targeted three-step homecare regime combining pigment correction, barrier support and very high-level daily photoprotection to help promote clearer, more even-looking skin while protecting against further light-induced damage. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Jyjkpt",
+        "text_tPq3cj"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": "pigment"
+      }
+    },
+    "multicolumn_html_pTMBJ9": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_FnQQgP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-retinoid-pigment-control-emulsions-v2.jpg",
+            "title": "CORRECT",
+            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Pigment Control Emulsion</strong></h4> \n\n<p>Medical-grade, retinoid-led correction in three strengths targeting the key pathways involved in hyperpigmentation. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JJBRm8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00037_ALLSKINMED_BarrierDefenceEmulsion_ProductImage1_1440x1440px_May25.jpg",
+            "title": "SUPPORT",
+            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Barrier Defence Emulsion</strong></h4> \n\n<p>Helps reinforce the skin barrier and support optimal skin hydration. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mNgdGn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/h360-pigment-solution-1x1.jpg",
+            "title": "PROTECT",
+            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Pigment Solution Fluid SPF50+</strong></h4> \n\n<p>Very high-level SPF50+ and PA++++ daily photoprotection with a unique Depigmenting system. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_FnQQgP",
+        "column_JJBRm8",
+        "column_mNgdGn"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.multicolumn-card__image-wrapper {width: 60%; margin-left: auto; margin-right: auto; }}"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "main",
     "image_banner_separate_hq8rQR",
     "rich_text_aq3WJp",
-    "multicolumn_with_buttons_7efPwy"
+    "multicolumn_with_buttons_7efPwy",
+    "rich_text_Y9kRX7",
+    "multicolumn_html_pTMBJ9"
   ]
 }
