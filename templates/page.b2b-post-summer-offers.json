@@ -11,13 +11,166 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_separate_hq8rQR": {
+      "type": "image-banner-separate",
+      "blocks": {
+        "heading_Jpd9Pa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Support Post-Summer Skin Correction in Your Clinic",
+            "heading_size": "h1"
+          }
+        },
+        "text_BjFmFG": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>Added value for your clinic and your patients</strong>",
+            "text_style": "body"
+          }
+        },
+        "buttons_zabGg6": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Jpd9Pa",
+        "text_BjFmFG",
+        "buttons_zabGg6"
+      ],
+      "name": "Image Banner v2",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": false
+      }
+    },
+    "rich_text_aq3WJp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nrLPrb": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Added value for your clinic and your patients</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_8VwJep": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As patients return to clinic looking to address the visible effects of summer, now is an important time to review corrective homecare. Increased pigmentation, uneven texture and signs of photodamage can all become more noticeable following the summer months. </p><p>This autumn, we’re supporting your clinic with two targeted ALLSKIN | MED post-summer regimes, combining clinic-exclusive, science-led skincare with added-value promotions for both your clinic and your patients. </p>"
+          }
+        },
+        "button_QJ77yw": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_nrLPrb",
+        "text_8VwJep",
+        "button_QJ77yw"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_with_buttons_7efPwy": {
+      "type": "multicolumn-with-buttons",
+      "blocks": {
+        "column_9Yzga7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00287_CL_PostSummerSkinCorrection_ProductImage_1440x1440px_Sept26-_2.jpg",
+            "title": "Post-Summer Pigment Correction",
+            "text": "<p><strong>For uneven pigmentation and visible signs of photodamage</strong></p>",
+            "link_label": "View offer",
+            "link": "#pigment",
+            "link_new_tab": false
+          }
+        },
+        "column_kHaf6k": {
+          "type": "column",
+          "settings": {
+            "title": "Post-Summer Texture Repair",
+            "text": "<p><strong>For uneven texture and visible signs of skin ageing</strong></p>",
+            "link_label": "",
+            "link": "",
+            "link_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "column_9Yzga7",
+        "column_kHaf6k"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.multicolumn-card__image-wrapper {width: 60%; margin-left: auto; margin-right: auto; }}",
+        ".button--primary {max-width: 80%; min-width: 50%; margin: 4rem auto 4rem;}"
+      ],
+      "name": "Multicolumn with Buttons",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "heading_align": "center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "button_link_new_tab": false,
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_separate_hq8rQR",
+    "rich_text_aq3WJp",
+    "multicolumn_with_buttons_7efPwy"
   ]
 }
