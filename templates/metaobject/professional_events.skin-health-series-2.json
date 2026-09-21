@@ -8,6 +8,268 @@
  * ------------------------------------------------------------
  */
 {
-  "sections": {},
-  "order": []
+  "sections": {
+    "image_banner_separate_VgFjUc": {
+      "type": "image-banner-separate",
+      "blocks": {
+        "heading_xrxLct": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cantabria Labs Skin Health Education Series",
+            "heading_size": "h1"
+          }
+        },
+        "text_XEUaNL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_nAncQ3": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xrxLct",
+        "text_XEUaNL",
+        "buttons_nAncQ3"
+      ],
+      "name": "Image Banner v2",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": false
+      }
+    },
+    "rich_text_WQexiF": {
+      "type": "rich-text",
+      "blocks": {
+        "text_KK6pBY": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Join leading dermatology and medical aesthetic experts, alongside experienced aesthetic practitioners, for a new series of free expert-led online masterclasses exploring key skin, hair and scalp concerns seen in clinical practice.</strong></p><p>Combining scientific and clinical insight with practical, indication-led education, each session is designed to help you build your knowledge and apply evidence-based approaches within your clinic.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_KK6pBY"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "cl_single_image_DBne7b": {
+      "type": "cl-single-image",
+      "name": "Single Image",
+      "settings": {
+        "image": "shopify://shop_images/ASM-X-CL-Image.jpg",
+        "image_width_mobile": 400,
+        "image_width_desktop": 800,
+        "image_width_unit": "px",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": true,
+        "container_id": ""
+      }
+    },
+    "rich_text_kVMbTN": {
+      "type": "rich-text",
+      "blocks": {
+        "text_Jrafff": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Across the series, you’ll also discover the science behind the Cantabria Labs Dermocosmetic Skincare & Supplements portfolio and how its clinically proven solutions can support professional skin, hair and scalp management.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Jrafff"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_MKMezM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ARyFft": {
+          "type": "heading",
+          "settings": {
+            "heading": "Expert education. Clinical insight. Practical application.",
+            "heading_size": "h2"
+          }
+        },
+        "text_LBxXV9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose the webinars most relevant to you, your clinic and your patients - or register for the complete series.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ARyFft",
+        "text_LBxXV9"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 16,
+        "container_id": ""
+      }
+    },
+    "image_with_text_iNxhfQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_U6zLjA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introduction to the Cantabria Labs Dermocosmetic Skincare & Supplement Portfolio",
+            "heading_size": "h2"
+          }
+        },
+        "text_pg68VK": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>with The AesthetiCare Team</strong></p><p>In this session, you’ll:</p><ul><li>Discover the complete Cantabria Labs dermocosmetic skincare and supplements portfolio. </li><li>Understand where each range fits within your clinic and patient offering. </li><li>Explore the solutions available across different skin, hair and scalp needs.</li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_U6zLjA",
+        "text_pg68VK"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {li {text-align: left; }}",
+        "@media screen and (min-width: 750px) {.image-with-text__media-item {display: flex; align-items: center; justify-content: center; } .image-with-text__media {width: 70%; max-width: 32rem; min-height: 0 !important; height: auto !important; aspect-ratio: 1 / 1; padding-bottom: 0 !important; border: none; } .image-with-text__media img {object-fit: contain !important; }}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Headshot_-_RW.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_VBAwmK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_VkhFPM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Calendar.jpg",
+            "title": "Date(s):",
+            "text": "<p>5/10/2026 - 11:30</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wgtVJ9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Info.png",
+            "title": "Who should attend:",
+            "text": "<p>Ideal for all Professional Skin Clinics</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Nf7wQi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Money.png",
+            "title": "Cost:",
+            "text": "<p>FREE</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_VkhFPM",
+        "column_wgtVJ9",
+        "column_Nf7wQi"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper {max-width: 50px;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    }
+  },
+  "order": [
+    "image_banner_separate_VgFjUc",
+    "rich_text_WQexiF",
+    "cl_single_image_DBne7b",
+    "rich_text_kVMbTN",
+    "rich_text_MKMezM",
+    "image_with_text_iNxhfQ",
+    "multicolumn_VBAwmK"
+  ]
 }
