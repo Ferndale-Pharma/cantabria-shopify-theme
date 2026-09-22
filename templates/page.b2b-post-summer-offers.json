@@ -64,7 +64,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "show_text_below": true,
-        "is_heading": false
+        "is_heading": true
       }
     },
     "rich_text_aq3WJp": {
@@ -308,6 +308,324 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "rich_text_WXUgUe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DEmVht": {
+          "type": "heading",
+          "settings": {
+            "heading": "For Post-Summer Texture Repair",
+            "heading_size": "h2"
+          }
+        },
+        "text_zHrQVP": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Help refine uneven texture and visible signs of skin ageing</strong><br/><br/>An advanced three-step retinoid-led homecare regime for patients presenting with uneven texture, enlarged pores and visible signs of ageing following the summer months.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DEmVht",
+        "text_zHrQVP"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": "pigment"
+      }
+    },
+    "multicolumn_html_eFwyQX": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_GWzjTE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-retinoid-texture-repair-emulsion.jpg",
+            "title": "RENEW",
+            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Texture Repair Emulsion</strong></h4> \n\n<p>Medical-grade retinoid-led skin renewal to help refine uneven texture and support epidermal turnover.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hc7iVe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-aha-retexturisng-serum.jpg",
+            "title": "RESURFACE",
+            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED AHA Retexturising Serum</strong></h4> \n\n<p>Targeted exfoliating and resurfacing support designed to improve the appearance of uneven skin texture while supporting skin tolerance.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WFVCpR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/h360-sensation-1x1.jpg",
+            "title": "PROTECT",
+            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Sensation SPF50+</strong></h4> \n\n<p>Very high-level SPF50+ and PA++++ full-spectrum photoprotection with a lightweight daily finish.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_GWzjTE",
+        "column_hc7iVe",
+        "column_WFVCpR"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.multicolumn-card__image-wrapper {width: 60%; margin-left: auto; margin-right: auto; }}"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_html_BMxQxe": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_3CBiGp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Post-Summer Clinic & Patient Offer",
+            "heading_size": "h2"
+          }
+        },
+        "text_GJr7U9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Buy ALLSKIN | MED Texture Repair Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED AHA Retexturising Serum <strong>50% OFF</strong></p>\n<p>+ HELIOCARE 360° Sensation SPF50+ <strong>FREE</strong></p>",
+            "text_style": "body"
+          }
+        },
+        "button_fPtd8M": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3CBiGp",
+        "text_GJr7U9",
+        "button_fPtd8M"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_Rpzyfn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_QXM7FY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/retinduo-1200x800.jpg",
+            "title": "<strong>RETINDUO®</strong>",
+            "text": "<p>Patented dual-retinoid technology supporting controlled skin renewal.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tYccAp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00128_ALLSKINMED_ReoxdermTechnology_BlogCover_1200x800px_Sep25-1.jpg",
+            "title": "<strong>REOXDERM®</strong>",
+            "text": "<p>Advanced technology designed to support skin barrier function.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ijY3Pg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CL-WEB-0002_-_HELIOCARE_BRAND_PAGE_-_TECH_INGREDIENTS_-_ASPA_FERNBLOCK_1.jpg",
+            "title": "<strong>ASPA-FERNBLOCK®</strong>",
+            "text": "<p>Patented antioxidant technology supporting advanced daily photoprotection. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_QXM7FY",
+        "column_tYccAp",
+        "column_ijY3Pg"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Powered by Patented Technologies",
+        "heading_size": "h2",
+        "richtext": "<p>ALLSKIN | MED combines advanced formulations with patented Cantabria Labs technologies to support targeted, practitioner-led skincare regimes.</p>",
+        "narrow_text": true,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_EGNyiT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_igx8Nc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why ALLSKIN | MED?",
+            "heading_size": "h2"
+          }
+        },
+        "text_NeMnAJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ALLSKIN | MED is Cantabria Labs' clinic-exclusive skincare portfolio, developed specifically for professional skin and medical aesthetic practice. <br/><br/>With targeted solutions for concerns including skin ageing, photodamage and hyperpigmentation, ALLSKIN | MED enables practitioners to integrate evidence-based homecare throughout the patient journey, complementing professional treatments and supporting long-term skin health. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_igx8Nc",
+        "text_NeMnAJ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_hyW438": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FGTkND": {
+          "type": "column",
+          "settings": {
+            "title": "Comprehensive Product Training & Education",
+            "text": "<p>Build confidence in prescribing targeted homecare recommendations.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8hnRbH": {
+          "type": "column",
+          "settings": {
+            "title": "Patient-Facing Marketing & Promotional Support",
+            "text": "<p>Help communicate the value of professional skincare beyond the clinic.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_egdgLH": {
+          "type": "column",
+          "settings": {
+            "title": "Dedicated Business Development Support",
+            "text": "<p>Practical support to help develop your ALLSKIN | MED business.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_FGTkND",
+        "column_8hnRbH",
+        "column_egdgLH"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "More Than a Post-Summer Promotion",
+        "heading_size": "h2",
+        "richtext": "<p><strong>Supporting you and your clinic </strong></p><p>We're here to help you make the most of the post-summer skin correction opportunity and support stronger, longer-term patient relationships. </p>",
+        "narrow_text": true,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_PcfdMw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JkAmaE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to Support Post-Summer Skin Correction in Your Clinic?",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JkAmaE"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
@@ -317,6 +635,13 @@
     "multicolumn_with_buttons_7efPwy",
     "rich_text_Y9kRX7",
     "multicolumn_html_pTMBJ9",
-    "image_with_text_html_ThRJLd"
+    "image_with_text_html_ThRJLd",
+    "rich_text_WXUgUe",
+    "multicolumn_html_eFwyQX",
+    "image_with_text_html_BMxQxe",
+    "multicolumn_Rpzyfn",
+    "rich_text_EGNyiT",
+    "multicolumn_hyW438",
+    "rich_text_PcfdMw"
   ]
 }
