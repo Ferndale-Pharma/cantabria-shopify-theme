@@ -261,6 +261,53 @@
         "padding_top": 0,
         "padding_bottom": 64
       }
+    },
+    "image_with_text_html_ThRJLd": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_jMR9mE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Post-Summer Clinic & Patient Offer",
+            "heading_size": "h2"
+          }
+        },
+        "text_KVKf9B": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Buy ANY ALLSKIN | MED Pigment Control Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED Barrier Defence Emulsion <strong>50% OFF</strong></p>\n<p>+ HELIOCARE 360° Pigment Solution Fluid SPF50+ <strong>FREE</strong></p>",
+            "text_style": "body"
+          }
+        },
+        "button_XmVXtE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_jMR9mE",
+        "text_KVKf9B",
+        "button_XmVXtE"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -269,6 +316,7 @@
     "rich_text_aq3WJp",
     "multicolumn_with_buttons_7efPwy",
     "rich_text_Y9kRX7",
-    "multicolumn_html_pTMBJ9"
+    "multicolumn_html_pTMBJ9",
+    "image_with_text_html_ThRJLd"
   ]
 }
