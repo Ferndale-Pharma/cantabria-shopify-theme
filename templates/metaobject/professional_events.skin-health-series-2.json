@@ -179,11 +179,11 @@
         "text_pg68VK"
       ],
       "custom_css": [
-        ".image-with-text__media{border:0;min-height:0!important;height:auto!important;aspect-ratio:1;padding-bottom:0!important;margin:auto;width:100%;max-width:28rem}",
-        ".image-with-text__media img{object-fit:contain!important}",
-        ".image-with-text__media-item{display:flex}",
-        ".image-with-text__text li{text-align:left}",
-        "@media(min-width:750px){.image-with-text__media{width:70%}}"
+        ".image-with-text__media {border: 0; min-height: 0 !important; height: auto !important; aspect-ratio: 1; padding-bottom: 0 !important; margin: auto; width: 100%; max-width: 28rem;}",
+        ".image-with-text__media img {object-fit: contain !important;}",
+        ".image-with-text__media-item {display: flex;}",
+        ".image-with-text__text li {text-align: left;}",
+        "@media (min-width: 750px) {.image-with-text__media {width: 70%; }}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -210,7 +210,7 @@
           "settings": {
             "image": "shopify://shop_images/Calendar.jpg",
             "title": "Date(s):",
-            "text": "<p>5/10/2026 - 11:30</p>",
+            "text": "<p>05/10/2026 - 11:30</p>",
             "link_label": "",
             "link": ""
           }
@@ -302,6 +302,741 @@
         "padding_top": 0,
         "padding_bottom": 64
       }
+    },
+    "image_with_text_FL6AiT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rnjXgA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mastering Regenerative Haircare",
+            "heading_size": "h2"
+          }
+        },
+        "text_YgyGaR": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>with Caroline Hall, RGN, RM, BSc (Hons), INP and Trichologist</strong></p><p>In this session, you’ll:</p><ul><li>Explore current developments in regenerative hair and scalp treatments. </li><li>Understand key clinical considerations across presentations including androgenetic alopecia and telogen effluvium. </li><li>Learn how clinically proven hair and scalp protocols can be integrated into your clinic.</li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rnjXgA",
+        "text_YgyGaR"
+      ],
+      "custom_css": [
+        ".image-with-text__media {border: 0; min-height: 0 !important; height: auto !important; aspect-ratio: 1; padding-bottom: 0 !important; margin: auto; width: 100%; max-width: 28rem;}",
+        ".image-with-text__media img {object-fit: contain !important;}",
+        ".image-with-text__media-item {display: flex;}",
+        ".image-with-text__text li {text-align: left;}",
+        "@media (min-width: 750px) {.image-with-text__media {width: 70%; }}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Caroline-Hall-circle.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_BMNYMV": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_D4gpmf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Calendar.jpg",
+            "title": "Date(s):",
+            "text": "<p>08/10/2026 – 19:00</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Kw6K8C": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Info.png",
+            "title": "Who should attend:",
+            "text": "<p>Ideal for Medical Aesthetic Professionals</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mxAzV3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Money.png",
+            "title": "Cost:",
+            "text": "<p>FREE</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_D4gpmf",
+        "column_Kw6K8C",
+        "column_mxAzV3"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper {max-width: 50px;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "button_row_gKWbg8": {
+      "type": "button-row",
+      "blocks": {
+        "button_KPCMUB": {
+          "type": "button",
+          "settings": {
+            "button_label": "View details",
+            "button_link": "shopify://metaobjects/professional_events/mastering-regenerative-haircare",
+            "button_style": "secondary",
+            "color_scheme": "",
+            "open_new_tab": false
+          }
+        },
+        "button_JfHqNR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Register now",
+            "button_link": "#register",
+            "button_style": "primary",
+            "color_scheme": "",
+            "open_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "button_KPCMUB",
+        "button_JfHqNR"
+      ],
+      "name": "Button row",
+      "settings": {
+        "color_scheme": "",
+        "desktop_alignment": "center",
+        "mobile_layout": "stacked",
+        "button_gap": 32,
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_X8bfhd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_GNeHdy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Optimising Skin Health for Better Treatment Outcomes",
+            "heading_size": "h2"
+          }
+        },
+        "text_wbbRbC": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>with Dr Paris Acharya (BDS Hons, MBChB, MFDS, MRCS Ed)</strong></p><p>In this session, you’ll:</p><ul><li>Understand how barrier integrity, inflammation, hydration and baseline skin condition can influence treatment tolerance and recovery. </li><li>Explore how to assess whether a patient’s skin is ready for treatment. </li><li>Learn how to introduce active skincare progressively and build regimes around individual starting points and clinical objectives.</li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GNeHdy",
+        "text_wbbRbC"
+      ],
+      "custom_css": [
+        ".image-with-text__media {border: 0; min-height: 0 !important; height: auto !important; aspect-ratio: 1; padding-bottom: 0 !important; margin: auto; width: 100%; max-width: 28rem;}",
+        ".image-with-text__media img {object-fit: contain !important;}",
+        ".image-with-text__media-item {display: flex;}",
+        ".image-with-text__text li {text-align: left;}",
+        "@media (min-width: 750px) {.image-with-text__media {width: 70%; }}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/dr-paris-acharya-circle_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_HXXmbK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_kYWJ8h": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Calendar.jpg",
+            "title": "Date(s):",
+            "text": "<p>13/10/2026 – 12:00</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dVYDHf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Info.png",
+            "title": "Who should attend:",
+            "text": "<p>Ideal for Medical Aesthetic Professionals</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EtLEd9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Money.png",
+            "title": "Cost:",
+            "text": "<p>FREE</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_kYWJ8h",
+        "column_dVYDHf",
+        "column_EtLEd9"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper {max-width: 50px;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "button_row_ptezH7": {
+      "type": "button-row",
+      "blocks": {
+        "button_fjKC6p": {
+          "type": "button",
+          "settings": {
+            "button_label": "View details",
+            "button_link": "shopify://metaobjects/professional_events/optimising-skin-health-for-better-treatment-outcomes",
+            "button_style": "secondary",
+            "color_scheme": "",
+            "open_new_tab": false
+          }
+        },
+        "button_YzYYNx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Register now",
+            "button_link": "#register",
+            "button_style": "primary",
+            "color_scheme": "",
+            "open_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "button_fjKC6p",
+        "button_YzYYNx"
+      ],
+      "name": "Button row",
+      "settings": {
+        "color_scheme": "",
+        "desktop_alignment": "center",
+        "mobile_layout": "stacked",
+        "button_gap": 32,
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_U3Xyx4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zXT4jR": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Clinical Management of Acne-Prone Skin Across Life & Treatment Stages",
+            "heading_size": "h2"
+          }
+        },
+        "text_VDN7xr": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>with Lucy Stringer, Victoria Worthington and Amy Walters from KP Aesthetics, Hale</strong></p><p>In this session, you’ll:</p><ul><li>Understand the differing skincare needs of teenage, persistent and adult acne-prone skin. </li><li>Explore approaches for supporting skin undergoing prescription acne treatments. </li><li>Learn how experienced practitioners manage concerns including blemishes, excess sebum, visible pores, uneven texture, post-inflammatory hyperpigmentation and skin barrier tolerance.</li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zXT4jR",
+        "text_VDN7xr"
+      ],
+      "custom_css": [
+        ".image-with-text__media {border: 0; min-height: 0 !important; height: auto !important; aspect-ratio: 1; padding-bottom: 0 !important; margin: auto; width: 100%; max-width: 28rem;}",
+        ".image-with-text__media img {object-fit: contain !important;}",
+        ".image-with-text__media-item {display: flex;}",
+        ".image-with-text__text li {text-align: left;}",
+        "@media (min-width: 750px) {.image-with-text__media {width: 70%; }}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Headshot_-_VW_KP.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_6Y3m9F": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_j8Pzi9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Calendar.jpg",
+            "title": "Date(s):",
+            "text": "<p>14/10/2026 – 10:00</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MzqrEz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Info.png",
+            "title": "Who should attend:",
+            "text": "<p>Ideal for all Professional Skin Clinics</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cUkntE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Money.png",
+            "title": "Cost:",
+            "text": "<p>FREE</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_j8Pzi9",
+        "column_MzqrEz",
+        "column_cUkntE"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper {max-width: 50px;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "button_row_xAJyJ3": {
+      "type": "button-row",
+      "blocks": {
+        "button_pmMHzY": {
+          "type": "button",
+          "settings": {
+            "button_label": "View details",
+            "button_link": "shopify://metaobjects/professional_events/acne-prone-skin",
+            "button_style": "secondary",
+            "color_scheme": "",
+            "open_new_tab": false
+          }
+        },
+        "button_wQD7Va": {
+          "type": "button",
+          "settings": {
+            "button_label": "Register now",
+            "button_link": "#register",
+            "button_style": "primary",
+            "color_scheme": "",
+            "open_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "button_pmMHzY",
+        "button_wQD7Va"
+      ],
+      "name": "Button row",
+      "settings": {
+        "color_scheme": "",
+        "desktop_alignment": "center",
+        "mobile_layout": "stacked",
+        "button_gap": 32,
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_d6AFBB": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_d6iEmP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Retinoid Science in Pigmentation & Photoageing",
+            "heading_size": "h2"
+          }
+        },
+        "text_RMatjH": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>with Dr Catherine Fairris BSc (Hons), MB ChB, MRCP, MSc (Aesth), PG Cert</strong></p><p>In this session, you’ll:</p><ul><li>Explore the science and clinical application of topical retinoids in pigmentation and photoageing. </li><li>Understand how formulation, bioavailability and delivery systems can influence retinoid performance. </li><li>Examine how barrier condition and patient selection can affect efficacy, tolerability and compliance.</li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_d6iEmP",
+        "text_RMatjH"
+      ],
+      "custom_css": [
+        ".image-with-text__media {border: 0; min-height: 0 !important; height: auto !important; aspect-ratio: 1; padding-bottom: 0 !important; margin: auto; width: 100%; max-width: 28rem;}",
+        ".image-with-text__media img {object-fit: contain !important;}",
+        ".image-with-text__media-item {display: flex;}",
+        ".image-with-text__text li {text-align: left;}",
+        "@media (min-width: 750px) {.image-with-text__media {width: 70%; }}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/dr-catherine-fairris-circle.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_8dJmnL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_8jXCqx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Calendar.jpg",
+            "title": "Date(s):",
+            "text": "<p>02/11/2026 – 12:30</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gLAwFj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Info.png",
+            "title": "Who should attend:",
+            "text": "<p>Ideal for Medical Aesthetic Professionals</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LkDkaA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Money.png",
+            "title": "Cost:",
+            "text": "<p>FREE</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_8jXCqx",
+        "column_gLAwFj",
+        "column_LkDkaA"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper {max-width: 50px;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "button_row_VFXgeV": {
+      "type": "button-row",
+      "blocks": {
+        "button_mtpAgi": {
+          "type": "button",
+          "settings": {
+            "button_label": "View details",
+            "button_link": "shopify://metaobjects/professional_events/retinoid-science-in-pigmentation-photoageing",
+            "button_style": "secondary",
+            "color_scheme": "",
+            "open_new_tab": false
+          }
+        },
+        "button_Phe9Ue": {
+          "type": "button",
+          "settings": {
+            "button_label": "Register now",
+            "button_link": "#register",
+            "button_style": "primary",
+            "color_scheme": "",
+            "open_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "button_mtpAgi",
+        "button_Phe9Ue"
+      ],
+      "name": "Button row",
+      "settings": {
+        "color_scheme": "",
+        "desktop_alignment": "center",
+        "mobile_layout": "stacked",
+        "button_gap": 32,
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_pgd3dL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iULDXj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Data-Driven Clinic Marketing",
+            "heading_size": "h2"
+          }
+        },
+        "text_QargF7": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>with Lianne Sykes - Founder and Creative Director of Quirky Frog</strong></p><p>In this session, you’ll:</p><ul><li>Learn how to use the data already within your clinic to make smarter marketing decisions. </li><li>Identify opportunities to attract and engage the right patients more effectively. </li><li>Explore how clinic insight can help strengthen your reputation and support sustainable growth.</li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iULDXj",
+        "text_QargF7"
+      ],
+      "custom_css": [
+        ".image-with-text__media {border: 0; min-height: 0 !important; height: auto !important; aspect-ratio: 1; padding-bottom: 0 !important; margin: auto; width: 100%; max-width: 28rem;}",
+        ".image-with-text__media img {object-fit: contain !important;}",
+        ".image-with-text__media-item {display: flex;}",
+        ".image-with-text__text li {text-align: left;}",
+        "@media (min-width: 750px) {.image-with-text__media {width: 70%; }}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/lianne-sykes-circle.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_KBcxXM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_edF87C": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Calendar.jpg",
+            "title": "Date(s):",
+            "text": "<p>03/11/2026 – 19:00</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Mh7QJ4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Info.png",
+            "title": "Who should attend:",
+            "text": "<p>Ideal for all Professional Skin Clinics</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_z3TDfV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Money.png",
+            "title": "Cost:",
+            "text": "<p>FREE</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_edF87C",
+        "column_Mh7QJ4",
+        "column_z3TDfV"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper {max-width: 50px;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "button_row_hXAbAP": {
+      "type": "button-row",
+      "blocks": {
+        "button_Vzfjaq": {
+          "type": "button",
+          "settings": {
+            "button_label": "View details",
+            "button_link": "shopify://metaobjects/professional_events/data-driven-clinic-marketing",
+            "button_style": "secondary",
+            "color_scheme": "",
+            "open_new_tab": false
+          }
+        },
+        "button_CTbxAr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Register now",
+            "button_link": "#register",
+            "button_style": "primary",
+            "color_scheme": "",
+            "open_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "button_Vzfjaq",
+        "button_CTbxAr"
+      ],
+      "name": "Button row",
+      "settings": {
+        "color_scheme": "",
+        "desktop_alignment": "center",
+        "mobile_layout": "stacked",
+        "button_gap": 32,
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -312,6 +1047,21 @@
     "rich_text_MKMezM",
     "image_with_text_iNxhfQ",
     "multicolumn_VBAwmK",
-    "button_row_4hcew3"
+    "button_row_4hcew3",
+    "image_with_text_FL6AiT",
+    "multicolumn_BMNYMV",
+    "button_row_gKWbg8",
+    "image_with_text_X8bfhd",
+    "multicolumn_HXXmbK",
+    "button_row_ptezH7",
+    "image_with_text_U3Xyx4",
+    "multicolumn_6Y3m9F",
+    "button_row_xAJyJ3",
+    "image_with_text_d6AFBB",
+    "multicolumn_8dJmnL",
+    "button_row_VFXgeV",
+    "image_with_text_pgd3dL",
+    "multicolumn_KBcxXM",
+    "button_row_hXAbAP"
   ]
 }
