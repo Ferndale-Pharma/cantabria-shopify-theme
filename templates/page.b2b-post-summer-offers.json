@@ -624,7 +624,24 @@
         "is_heading": false,
         "padding_top": 64,
         "padding_bottom": 64,
-        "container_id": ""
+        "container_id": "enquire"
+      }
+    },
+    "1790076620c67662e7": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_Q9FJTe": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTY1NDY3\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_Q9FJTe"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
@@ -642,6 +659,7 @@
     "multicolumn_Rpzyfn",
     "rich_text_EGNyiT",
     "multicolumn_hyW438",
-    "rich_text_PcfdMw"
+    "rich_text_PcfdMw",
+    "1790076620c67662e7"
   ]
 }
