@@ -364,6 +364,7 @@
     },
     "custom_liquid_iiLJ9n": {
       "type": "custom-liquid",
+      "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/262632605964058\"></script>",
