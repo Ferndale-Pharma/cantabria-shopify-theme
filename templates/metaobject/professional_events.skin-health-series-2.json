@@ -1070,6 +1070,16 @@
         "padding_bottom": 0,
         "container_id": "register"
       }
+    },
+    "custom_liquid_agpDVj": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/262642540912353\"></script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -1096,6 +1106,7 @@
     "image_with_text_pgd3dL",
     "multicolumn_KBcxXM",
     "button_row_hXAbAP",
-    "rich_text_YV9FeL"
+    "rich_text_YV9FeL",
+    "custom_liquid_agpDVj"
   ]
 }
