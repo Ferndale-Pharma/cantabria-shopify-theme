@@ -1037,6 +1037,39 @@
         "padding_top": 0,
         "padding_bottom": 64
       }
+    },
+    "rich_text_YV9FeL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_K9xiDX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Secure Your Place",
+            "heading_size": "h2"
+          }
+        },
+        "text_PdnWVJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Registration is free.</strong><br/>Simply enter your details and select the sessions you'd like to attend.<br/><br/>Join the complete series or choose the masterclasses most relevant to you, your clinic and your patients.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_K9xiDX",
+        "text_PdnWVJ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": "register"
+      }
     }
   },
   "order": [
@@ -1062,6 +1095,7 @@
     "button_row_VFXgeV",
     "image_with_text_pgd3dL",
     "multicolumn_KBcxXM",
-    "button_row_hXAbAP"
+    "button_row_hXAbAP",
+    "rich_text_YV9FeL"
   ]
 }
