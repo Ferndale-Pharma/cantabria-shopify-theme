@@ -1,0 +1,598 @@
+{%- style -%}
+  #EventList-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  #EventList-{{ section.id }} .event-list__event + .event-list__event {
+    margin-top: {{ section.settings.event_gap | times: 0.75 | round: 0 }}px;
+  }
+
+  #EventList-{{ section.id }} .event-list__main {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  #EventList-{{ section.id }} .event-list__media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #EventList-{{ section.id }} .event-list__image-wrapper {
+    width: 100%;
+    max-width: {{ section.settings.mobile_image_max }}px;
+    aspect-ratio: 1 / 1;
+    margin: 0 auto;
+    border: 0;
+  }
+
+  #EventList-{{ section.id }} .event-list__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  #EventList-{{ section.id }} .event-list__content {
+    padding: 4rem calc(4rem / var(--font-body-scale)) 5rem;
+    text-align: center;
+  }
+
+  #EventList-{{ section.id }} .event-list__heading {
+    margin: 0;
+  }
+
+  #EventList-{{ section.id }} .event-list__text {
+    margin-top: 2rem;
+  }
+
+  #EventList-{{ section.id }} .event-list__text p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  #EventList-{{ section.id }} .event-list__text li {
+    text-align: left;
+  }
+
+  #EventList-{{ section.id }} .event-list__details {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    padding: 0 1.5rem 3.2rem;
+  }
+
+  #EventList-{{ section.id }} .event-list__detail {
+    text-align: center;
+  }
+
+  #EventList-{{ section.id }} .event-list__detail-image {
+    width: {{ section.settings.icon_width }}px;
+    height: {{ section.settings.icon_width }}px;
+    margin: 0 auto 2.5rem;
+  }
+
+  #EventList-{{ section.id }} .event-list__detail-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  #EventList-{{ section.id }} .event-list__detail h3 {
+    margin: 0;
+    line-height: calc(1 + 0.5 / max(1, var(--font-heading-scale)));
+  }
+
+  #EventList-{{ section.id }} .event-list__detail .rte {
+    margin-top: 1rem;
+  }
+
+  #EventList-{{ section.id }} .event-list__detail .rte p {
+    margin: 0;
+  }
+
+  #EventList-{{ section.id }} .event-list__buttons {
+    display: flex;
+    gap: {{ section.settings.button_gap }}px;
+    justify-content: center;
+  }
+
+  #EventList-{{ section.id }} .event-list__button-wrapper {
+    display: flex;
+  }
+
+  #EventList-{{ section.id }} .event-list__buttons .button {
+    margin: 0;
+  }
+
+  @media screen and (max-width: 749px) {
+    {% if section.settings.mobile_buttons == 'stacked' %}
+      #EventList-{{ section.id }} .event-list__buttons {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      #EventList-{{ section.id }} .event-list__button-wrapper,
+      #EventList-{{ section.id }} .event-list__buttons .button {
+        width: 100%;
+      }
+    {% else %}
+      #EventList-{{ section.id }} .event-list__buttons {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+
+      #EventList-{{ section.id }} .event-list__buttons::-webkit-scrollbar {
+        display: none;
+      }
+
+      #EventList-{{ section.id }} .event-list__button-wrapper {
+        flex: 0 0 auto;
+      }
+
+      #EventList-{{ section.id }} .event-list__buttons .button {
+        white-space: nowrap;
+      }
+    {% endif %}
+  }
+
+  @media screen and (min-width: 750px) {
+    #EventList-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+
+    #EventList-{{ section.id }} .event-list__event + .event-list__event {
+      margin-top: {{ section.settings.event_gap }}px;
+    }
+
+    #EventList-{{ section.id }} .event-list__main {
+      grid-template-columns: 1fr 2fr;
+    }
+
+    #EventList-{{ section.id }} .event-list__image-wrapper {
+      width: {{ section.settings.desktop_image_width }}%;
+      max-width: {{ section.settings.desktop_image_max }}px;
+    }
+
+    #EventList-{{ section.id }} .event-list__content {
+      padding: 4rem;
+      text-align: left;
+    }
+
+    #EventList-{{ section.id }} .event-list__details {
+      grid-template-columns: repeat(3, 1fr);
+      padding: 0 5rem 3.2rem;
+    }
+  }
+
+  @media screen and (min-width: 990px) {
+    #EventList-{{ section.id }} .event-list__content {
+      padding: 6rem 7rem 7rem;
+    }
+
+    #EventList-{{ section.id }} .event-list__details {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+{%- endstyle -%}
+
+<div
+  id="EventList-{{ section.id }}"
+  class="event-list color-{{ section.settings.color_scheme }} gradient"
+>
+  <div class="page-width">
+    {%- for block in section.blocks -%}
+      <article
+        class="event-list__event"
+        {{ block.shopify_attributes }}
+      >
+
+        <div class="event-list__main">
+          <div class="event-list__media">
+            {%- if block.settings.image != blank -%}
+              <div class="event-list__image-wrapper">
+                {{
+                  block.settings.image
+                  | image_url: width: 1000
+                  | image_tag:
+                    widths: '180, 240, 280, 320, 400, 500, 600, 750, 1000',
+                    class: 'event-list__image',
+                    loading: 'lazy'
+                }}
+              </div>
+            {%- endif -%}
+          </div>
+
+          <div class="event-list__content">
+            {%- if block.settings.heading != blank -%}
+              <h2 class="event-list__heading inline-richtext h2">
+                {{ block.settings.heading }}
+              </h2>
+            {%- endif -%}
+
+            {%- if block.settings.text != blank -%}
+              <div class="event-list__text rte">
+                {{ block.settings.text }}
+              </div>
+            {%- endif -%}
+          </div>
+        </div>
+
+        <div class="event-list__details">
+
+          <div class="event-list__detail">
+            {%- if section.settings.date_icon != blank -%}
+              <div class="event-list__detail-image">
+                {{
+                  section.settings.date_icon
+                  | image_url: width: 150
+                  | image_tag:
+                    widths: '50, 75, 100, 150',
+                    loading: 'lazy'
+                }}
+              </div>
+            {%- endif -%}
+
+            <h3>Date(s):</h3>
+
+            {%- if block.settings.date != blank -%}
+              <div class="rte">
+                {{ block.settings.date }}
+              </div>
+            {%- endif -%}
+          </div>
+
+          <div class="event-list__detail">
+            {%- if section.settings.audience_icon != blank -%}
+              <div class="event-list__detail-image">
+                {{
+                  section.settings.audience_icon
+                  | image_url: width: 150
+                  | image_tag:
+                    widths: '50, 75, 100, 150',
+                    loading: 'lazy'
+                }}
+              </div>
+            {%- endif -%}
+
+            <h3>Who should attend:</h3>
+
+            {%- if block.settings.audience != blank -%}
+              <div class="rte">
+                {{ block.settings.audience }}
+              </div>
+            {%- endif -%}
+          </div>
+
+          <div class="event-list__detail">
+            {%- if section.settings.cost_icon != blank -%}
+              <div class="event-list__detail-image">
+                {{
+                  section.settings.cost_icon
+                  | image_url: width: 150
+                  | image_tag:
+                    widths: '50, 75, 100, 150',
+                    loading: 'lazy'
+                }}
+              </div>
+            {%- endif -%}
+
+            <h3>Cost:</h3>
+
+            {%- if block.settings.cost != blank -%}
+              <div class="rte">
+                {{ block.settings.cost }}
+              </div>
+            {%- endif -%}
+          </div>
+
+        </div>
+
+        {%- if block.settings.details_label != blank
+          or block.settings.register_label != blank
+        -%}
+          <div class="event-list__buttons">
+
+            {%- if block.settings.details_label != blank -%}
+              <div class="event-list__button-wrapper color-{{ section.settings.details_scheme }} gradient">
+                <a
+                  class="button button--secondary"
+                  {% if block.settings.details_link == blank %}
+                    role="link"
+                    aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.details_link }}"
+                  {% endif %}
+                  {% if block.settings.details_new_tab %}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  {% endif %}
+                >
+                  {{ block.settings.details_label | escape }}
+                </a>
+              </div>
+            {%- endif -%}
+
+            {%- if block.settings.register_label != blank -%}
+              <div class="event-list__button-wrapper color-{{ section.settings.register_scheme }} gradient">
+                <a
+                  class="button button--primary"
+                  {% if block.settings.register_link == blank %}
+                    role="link"
+                    aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.register_link }}"
+                  {% endif %}
+                  {% if block.settings.register_new_tab %}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  {% endif %}
+                >
+                  {{ block.settings.register_label | escape }}
+                </a>
+              </div>
+            {%- endif -%}
+
+          </div>
+        {%- endif -%}
+
+      </article>
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Event list",
+  "tag": "section",
+  "class": "section",
+  "max_blocks": 20,
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "header",
+      "content": "Images"
+    },
+    {
+      "type": "image_picker",
+      "id": "date_icon",
+      "label": "Date icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "audience_icon",
+      "label": "Who should attend icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "cost_icon",
+      "label": "Cost icon"
+    },
+    {
+      "type": "range",
+      "id": "icon_width",
+      "min": 30,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "label": "Information icon width",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "desktop_image_width",
+      "min": 40,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Desktop event image width",
+      "default": 70
+    },
+    {
+      "type": "range",
+      "id": "desktop_image_max",
+      "min": 180,
+      "max": 500,
+      "step": 10,
+      "unit": "px",
+      "label": "Desktop event image max width",
+      "default": 280
+    },
+    {
+      "type": "range",
+      "id": "mobile_image_max",
+      "min": 180,
+      "max": 400,
+      "step": 10,
+      "unit": "px",
+      "label": "Mobile event image max width",
+      "default": 280
+    },
+    {
+      "type": "header",
+      "content": "Buttons"
+    },
+    {
+      "type": "color_scheme",
+      "id": "details_scheme",
+      "label": "View details colour scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color_scheme",
+      "id": "register_scheme",
+      "label": "Register button colour scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "button_gap",
+      "min": 4,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Space between buttons",
+      "default": 32
+    },
+    {
+      "type": "select",
+      "id": "mobile_buttons",
+      "label": "Mobile button layout",
+      "options": [
+        {
+          "value": "stacked",
+          "label": "Stacked"
+        },
+        {
+          "value": "horizontal",
+          "label": "Horizontal scroll"
+        }
+      ],
+      "default": "stacked"
+    },
+    {
+      "type": "header",
+      "content": "Section"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Colour scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "event_gap",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Space between events",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 64
+    }
+  ],
+  "blocks": [
+    {
+      "type": "event",
+      "name": "Event",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Event title"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Event description"
+        },
+        {
+          "type": "richtext",
+          "id": "date",
+          "label": "Date(s)"
+        },
+        {
+          "type": "richtext",
+          "id": "audience",
+          "label": "Who should attend"
+        },
+        {
+          "type": "richtext",
+          "id": "cost",
+          "label": "Cost",
+          "default": "<p>FREE</p>"
+        },
+        {
+          "type": "header",
+          "content": "View details button"
+        },
+        {
+          "type": "text",
+          "id": "details_label",
+          "label": "Label",
+          "default": "View details"
+        },
+        {
+          "type": "url",
+          "id": "details_link",
+          "label": "Link"
+        },
+        {
+          "type": "checkbox",
+          "id": "details_new_tab",
+          "label": "Open in a new tab",
+          "default": false
+        },
+        {
+          "type": "header",
+          "content": "Register button"
+        },
+        {
+          "type": "text",
+          "id": "register_label",
+          "label": "Label",
+          "default": "Register now"
+        },
+        {
+          "type": "url",
+          "id": "register_link",
+          "label": "Link"
+        },
+        {
+          "type": "checkbox",
+          "id": "register_new_tab",
+          "label": "Open in a new tab",
+          "default": false
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Event list",
+      "blocks": [
+        {
+          "type": "event"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
