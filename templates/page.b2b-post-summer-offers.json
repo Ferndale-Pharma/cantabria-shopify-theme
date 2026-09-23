@@ -589,8 +589,8 @@
       ],
       "custom_css": [
         ".multicolumn-card__image-wrapper--third-width {max-width: 50px;}",
-        ".multicolumn-list {margin-top: 1rem; }",
-        "@media screen and (min-width: 750px) {.multicolumn-card__image-wrapper--third-width {max-width: 75px; } }"
+        ".multicolumn-list {margin-top: 1rem;}",
+        "@media screen and (min-width: 750px) {.multicolumn-card__image-wrapper--third-width {max-width: 75px; }}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -655,6 +655,38 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "collapsible_content_VccwQM": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_eDnA9a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "References",
+            "icon": "question_mark",
+            "row_content": "<p>* “Over 30%” saving is based on comparing the combined SRP and Trade Price of the three products with the Promotional Consumer Price and Professional Promotional Bundle Price respectively, using ALLSKIN | MED Pigment Control Emulsion Retinoid Potency 1. Saving varies by strength selected. </p><p>** “Over 25%” saving is based on comparing the combined SRP and Trade Price of the three products with the Promotional Consumer Price and Professional Promotional Bundle Price respectively. </p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_eDnA9a"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -672,6 +704,7 @@
     "rich_text_EGNyiT",
     "multicolumn_hyW438",
     "rich_text_PcfdMw",
-    "1790076620c67662e7"
+    "1790076620c67662e7",
+    "collapsible_content_VccwQM"
   ]
 }
