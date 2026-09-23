@@ -3781,3 +3781,12 @@ details-disclosure > details {
 .blank-success .gfb__content-title {
   font-family: var(--font-heading-family);
 }
+/* clinic finder mobile adjustments */
+@media screen and (max-width: 749px){
+  .bh-sl-filters-container {
+    padding-left: 1rem;
+  }
+  .scasl-see-more-content>:not([hidden])~:not([hidden]) {
+    margin-left: 0;
+  }
+}
