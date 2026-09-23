@@ -111,7 +111,7 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 32,
-        "padding_bottom": 64,
+        "padding_bottom": 32,
         "container_id": ""
       }
     },
@@ -165,8 +165,8 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 32
       }
     },
     "rich_text_Y9kRX7": {
