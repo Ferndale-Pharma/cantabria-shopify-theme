@@ -47,6 +47,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00295_SkinHealthWebinar_Banner_Sep26_01.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00295_SkinHealthWebinar_Banner_Sep26_02.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -143,6 +145,9 @@
       "block_order": [
         "heading_ARyFft",
         "text_LBxXV9"
+      ],
+      "custom_css": [
+        ".rich-text__blocks{max-width: 100%;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
