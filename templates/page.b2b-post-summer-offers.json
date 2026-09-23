@@ -55,6 +55,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00296_ALLSKINMED_PostSummerCorrection_LandingPageAssets_Sep26_01.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00296_ALLSKINMED_PostSummerCorrection_LandingPageAssets_Sep26_02.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -295,6 +297,7 @@
       ],
       "name": "Image with text HTML",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00296_ALLSKINMED_PostSummerCorrection_LandingPageAssets_Sep26_03.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -304,7 +307,7 @@
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -437,6 +440,7 @@
       ],
       "name": "Image with text HTML",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00296_ALLSKINMED_PostSummerCorrection_LandingPageAssets_Sep26_04.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -446,7 +450,7 @@
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -550,6 +554,7 @@
         "column_FGTkND": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00296_ALLSKINMED_PostSummerCorrection_LandingPageAssets_Sep26_06.jpg",
             "title": "Comprehensive Product Training & Education",
             "text": "<p>Build confidence in prescribing targeted homecare recommendations.</p>",
             "link_label": "",
@@ -559,6 +564,7 @@
         "column_8hnRbH": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00296_ALLSKINMED_PostSummerCorrection_LandingPageAssets_Sep26_07.jpg",
             "title": "Patient-Facing Marketing & Promotional Support",
             "text": "<p>Help communicate the value of professional skincare beyond the clinic.</p>",
             "link_label": "",
@@ -568,6 +574,7 @@
         "column_egdgLH": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00296_ALLSKINMED_PostSummerCorrection_LandingPageAssets_Sep26_08.jpg",
             "title": "Dedicated Business Development Support",
             "text": "<p>Practical support to help develop your ALLSKIN | MED business.</p>",
             "link_label": "",
@@ -580,13 +587,18 @@
         "column_8hnRbH",
         "column_egdgLH"
       ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper--third-width {max-width: 50px;}",
+        ".multicolumn-list {margin-top: 1rem; }",
+        "@media screen and (min-width: 750px) {.multicolumn-card__image-wrapper--third-width {max-width: 75px; } }"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "More Than a Post-Summer Promotion",
         "heading_size": "h2",
         "richtext": "<p><strong>Supporting you and your clinic </strong></p><p>We're here to help you make the most of the post-summer skin correction opportunity and support stronger, longer-term patient relationships. </p>",
         "narrow_text": true,
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
