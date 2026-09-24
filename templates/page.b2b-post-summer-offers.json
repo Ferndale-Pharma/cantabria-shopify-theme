@@ -29,10 +29,9 @@
         },
         "text_BjFmFG": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<strong>Added value for your clinic and your patients</strong>",
-            "text_style": "body"
+            "text": "<strong>with ALLSKIN | MED</strong>",
+            "text_style": "subtitle"
           }
         },
         "buttons_zabGg6": {
@@ -75,7 +74,7 @@
         "text_8VwJep": {
           "type": "text",
           "settings": {
-            "text": "<p>As patients return to clinic looking to address the visible effects of summer, now is an important time to review corrective homecare as increased pigmentation, uneven texture and signs of photodamage can all become more noticeable following the summer months.&nbsp;</p><p><strong>This autumn, we’re supporting your clinic with two targeted ALLSKIN | MED post-summer regimes, combining clinic-exclusive, science-led skincare with added-value promotions for both your clinic and your patients.&nbsp;</strong></p>"
+            "text": "<p>As patients return to clinic looking to address the visible effects of summer, <strong>we’re supporting your clinic with two targeted post-summer regimes</strong> - <a href=\"#pigment\" title=\"#pigment\">ALLSKIN | MED Post-Summer Pigment Correction Bundle</a> and <a href=\"#texture\" title=\"#texture\">ALLSKIN | MED Texture Repair Regime</a> - combining clinic-exclusive, science-led skincare with added-value promotions for both your clinic and your patients.&nbsp;</p>"
           }
         },
         "button_QJ77yw": {
@@ -121,7 +120,7 @@
         "column_9Yzga7": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/FERN-IMG-00287_CL_PostSummerSkinCorrection_ProductImage_1440x1440px_Sept26-_2_aaa97683-bb35-4cd3-ab3e-f24c648bd9d5.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00296.jpg",
             "title": "Post-Summer Pigment Correction",
             "text": "<p><strong>For uneven pigmentation and visible signs of photodamage</strong></p>",
             "link_label": "View offer",
@@ -132,7 +131,7 @@
         "column_kHaf6k": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/FERN-IMG-00288_CL_TextureRepairRegime_ProductImage_1440x1440px_Sept26-_2.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00296b.jpg",
             "title": "Post-Summer Texture Repair",
             "text": "<p><strong>For uneven texture and visible signs of skin ageing</strong></p>",
             "link_label": "View offer",
@@ -174,6 +173,7 @@
       "blocks": {
         "heading_Jyjkpt": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "For Post-Summer Pigmentation Correction",
             "heading_size": "h2"
@@ -181,8 +181,9 @@
         },
         "text_tPq3cj": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p><strong>Help target uneven pigmentation and visible signs of photodamage </strong><br/><br/>A targeted three-step homecare regime combining pigment correction, barrier support and very high-level daily photoprotection to help promote clearer, more even-looking skin while protecting against further light-induced damage. </p>"
+            "text": "<p><strong>Help target uneven pigmentation and visible signs of photodamage&nbsp;</strong><br/><br/>A targeted three-step homecare regime combining pigment correction, barrier support and very high-level daily photoprotection to help promote clearer, more even-looking skin while protecting against further light-induced damage.&nbsp;</p>"
           }
         }
       },
@@ -197,9 +198,92 @@
         "color_scheme": "",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "container_id": "pigment"
+      }
+    },
+    "image_with_text_html_ThRJLd": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_jMR9mE": {
+          "type": "heading",
+          "settings": {
+            "heading": "&nbsp;For Post-Summer Pigmentation Correction",
+            "heading_size": "h2"
+          }
+        },
+        "text_KVKf9B": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Help target uneven pigmentation and visible signs of photodamage</strong></p><p>A targeted three-step homecare regime combining pigment correction, barrier support and very high-level daily photoprotection to help promote clearer, more even-looking skin while protecting against further light-induced damage.</p><br><b>Added-value promotion available for professional skin clinics, designed for you to pass on to your customers:</b>\n<br>\n<br><p><strong>Buy ANY ALLSKIN | MED Pigment Control Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED Barrier Defence Emulsion <strong>50% OFF</strong></p>\n<p>+ HELIOCARE 360° Pigment Solution Fluid SPF50+ <strong>FREE</strong></p><br><p> <strong>TOTAL PP SAVING - OVER 30%*</strong></p>",
+            "text_style": "body"
+          }
+        },
+        "button_XmVXtE": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Get started",
+            "button_link": "#enquire",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_jMR9mE",
+        "text_KVKf9B",
+        "button_XmVXtE"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00287_CL_PostSummerSkinCorrection_ProductImage_1440x1440px_Sept26-_2_aaa97683-bb35-4cd3-ab3e-f24c648bd9d5.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_Hcthyg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rndcVN": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "For Post-Summer Texture Repair",
+            "heading_size": "h2"
+          }
+        },
+        "text_xh3YMz": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Offer Contains:</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rndcVN",
+        "text_xh3YMz"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-8195847b-cf1a-4d7d-acae-bed48c36d0d6",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "container_id": ""
       }
     },
     "multicolumn_html_pTMBJ9": {
@@ -208,9 +292,8 @@
         "column_FnQQgP": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/asm-retinoid-pigment-control-emulsions-v2.jpg",
             "title": "CORRECT",
-            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Pigment Control Emulsion</strong></h4> \n\n<p>Medical-grade, retinoid-led correction in three strengths targeting the key pathways involved in hyperpigmentation. </p>",
+            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Pigment Control Emulsion</strong></h4> \n<h4>BUY</h4>\n<p>Medical-grade, retinoid-led correction in three strengths targeting the key pathways involved in hyperpigmentation. </p>",
             "link_label": "",
             "link": ""
           }
@@ -218,9 +301,8 @@
         "column_JJBRm8": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/FERN-IMG-00037_ALLSKINMED_BarrierDefenceEmulsion_ProductImage1_1440x1440px_May25.jpg",
             "title": "SUPPORT",
-            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Barrier Defence Emulsion</strong></h4> \n\n<p>Helps reinforce the skin barrier and support optimal skin hydration. </p>",
+            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Barrier Defence Emulsion</strong></h4> \n<h4>+ 50% OFF</h4>\n<p>Helps reinforce the skin barrier and support optimal skin hydration. </p>",
             "link_label": "",
             "link": ""
           }
@@ -228,9 +310,8 @@
         "column_mNgdGn": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/h360-pigment-solution-1x1.jpg",
             "title": "PROTECT",
-            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Pigment Solution Fluid SPF50+</strong></h4> \n\n<p>Very high-level SPF50+ and PA++++ daily photoprotection with a unique Depigmenting system. </p>",
+            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Pigment Solution Fluid SPF50+</strong></h4> \n<h4>FREE</h4>\n<p>Very high-level SPF50+ and PA++++ daily photoprotection with a unique Depigmenting system. </p>",
             "link_label": "",
             "link": ""
           }
@@ -264,59 +345,12 @@
         "padding_bottom": 64
       }
     },
-    "image_with_text_html_ThRJLd": {
-      "type": "image-with-text-html",
-      "blocks": {
-        "heading_jMR9mE": {
-          "type": "heading",
-          "settings": {
-            "heading": "Post-Summer Promotion - for Your Clinic & Your Patient",
-            "heading_size": "h2"
-          }
-        },
-        "text_KVKf9B": {
-          "type": "text",
-          "settings": {
-            "text": "Added-value promotion available for professional skin clinics, designed for you to pass on to your customers:\n<br>\n<br><p><strong>Buy ANY ALLSKIN | MED Pigment Control Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED Barrier Defence Emulsion <strong>50% OFF</strong></p>\n<p>+ HELIOCARE 360° Pigment Solution Fluid SPF50+ <strong>FREE</strong></p>",
-            "text_style": "body"
-          }
-        },
-        "button_XmVXtE": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get started",
-            "button_link": "#enquire",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_jMR9mE",
-        "text_KVKf9B",
-        "button_XmVXtE"
-      ],
-      "name": "Image with text HTML",
-      "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00296_ALLSKINMED_PostSummerCorrection_LandingPageAssets_Sep26_03.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
     "rich_text_WXUgUe": {
       "type": "rich-text",
       "blocks": {
         "heading_DEmVht": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "For Post-Summer Texture Repair",
             "heading_size": "h2"
@@ -324,6 +358,7 @@
         },
         "text_zHrQVP": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>Help refine uneven texture and visible signs of skin ageing</strong><br/><br/>An advanced three-step retinoid-led homecare regime for patients presenting with uneven texture, enlarged pores and visible signs of ageing following the summer months.</p>"
           }
@@ -340,9 +375,147 @@
         "color_scheme": "",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "container_id": "texture"
+      }
+    },
+    "button_row_mEhht4": {
+      "type": "button-row",
+      "blocks": {
+        "button_nWF4xc": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "#enquire",
+            "button_style": "primary",
+            "color_scheme": "scheme-1",
+            "open_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "button_nWF4xc"
+      ],
+      "name": "Button row",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "desktop_alignment": "center",
+        "mobile_layout": "stacked",
+        "button_gap": 16,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_html_BMxQxe": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_3CBiGp": {
+          "type": "heading",
+          "settings": {
+            "heading": "&nbsp;For Post-Summer Texture Repair&nbsp;",
+            "heading_size": "h2"
+          }
+        },
+        "text_GJr7U9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><b>Help refine uneven texture and visible signs of skin ageing.</b></p><p>An advanced three-step retinoid-led homecare regime for patients presenting with uneven texture, enlarged pores and visible signs of ageing following the summer months.</p>\n\n<br><b>Added-value promotion available for professional skin clinics, designed for you to pass on to your customers:</b>\n<br>\n<br><p><strong>Buy ALLSKIN | MED Texture Repair Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED AHA Retexturising Serum <strong>50% OFF</strong></p>\n<p>+ HELIOCARE 360° Sensation SPF50+ <strong>FREE</strong></p><br><p> <strong>TOTAL PP SAVING - OVER 25%**</strong></p>",
+            "text_style": "body"
+          }
+        },
+        "button_fPtd8M": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Get started",
+            "button_link": "#enquire",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3CBiGp",
+        "text_GJr7U9",
+        "button_fPtd8M"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00288_CL_TextureRepairRegime_ProductImage_1440x1440px_Sept26-_2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 16
+      }
+    },
+    "button_row_XUqgrU": {
+      "type": "button-row",
+      "blocks": {
+        "button_E9GzEw": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "#enquire",
+            "button_style": "primary",
+            "color_scheme": "scheme-1",
+            "open_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "button_E9GzEw"
+      ],
+      "name": "Button row",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "desktop_alignment": "center",
+        "mobile_layout": "stacked",
+        "button_gap": 16,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_nWnz4L": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rPpqgU": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "For Post-Summer Texture Repair",
+            "heading_size": "h2"
+          }
+        },
+        "text_6abJcD": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Offer Contains:</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rPpqgU",
+        "text_6abJcD"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-8195847b-cf1a-4d7d-acae-bed48c36d0d6",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "container_id": ""
       }
     },
     "multicolumn_html_eFwyQX": {
@@ -351,9 +524,8 @@
         "column_GWzjTE": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/asm-retinoid-texture-repair-emulsion.jpg",
             "title": "RENEW",
-            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Texture Repair Emulsion</strong></h4> \n\n<p>Medical-grade retinoid-led skin renewal to help refine uneven texture and support epidermal turnover.</p>",
+            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Texture Repair Emulsion</strong></h4> \n<h4>BUY</h4>\n<p>Medical-grade retinoid-led skin renewal to help refine uneven texture and support epidermal turnover.</p>",
             "link_label": "",
             "link": ""
           }
@@ -361,9 +533,8 @@
         "column_hc7iVe": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/asm-aha-retexturisng-serum.jpg",
             "title": "RESURFACE",
-            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED AHA Retexturising Serum</strong></h4> \n\n<p>Targeted exfoliating and resurfacing support designed to improve the appearance of uneven skin texture while supporting skin tolerance.</p>",
+            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED AHA Retexturising Serum</strong></h4> \n<h4>+ 50% OFF</h4>\n<p>Targeted exfoliating and resurfacing support designed to improve the appearance of uneven skin texture while supporting skin tolerance.</p>",
             "link_label": "",
             "link": ""
           }
@@ -371,9 +542,8 @@
         "column_WFVCpR": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/h360-sensation-1x1.jpg",
             "title": "PROTECT",
-            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Sensation SPF50+</strong></h4> \n\n<p>Very high-level SPF50+ and PA++++ full-spectrum photoprotection with a lightweight daily finish.</p>",
+            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Sensation SPF50+</strong></h4> \n<h4>+ FREE</h4>\n<p>Very high-level SPF50+ and PA++++ full-spectrum photoprotection with a lightweight daily finish.</p>",
             "link_label": "",
             "link": ""
           }
@@ -404,55 +574,34 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 64
+        "padding_bottom": 24
       }
     },
-    "image_with_text_html_BMxQxe": {
-      "type": "image-with-text-html",
+    "button_row_cjKnYk": {
+      "type": "button-row",
       "blocks": {
-        "heading_3CBiGp": {
-          "type": "heading",
-          "settings": {
-            "heading": "Post-Summer Promotion - for Your Clinic & Your Patient&nbsp;",
-            "heading_size": "h2"
-          }
-        },
-        "text_GJr7U9": {
-          "type": "text",
-          "settings": {
-            "text": "Added-value promotion available for professional skin clinics, designed for you to pass on to your customers:\n<br>\n<br><p><strong>Buy ALLSKIN | MED Texture Repair Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED AHA Retexturising Serum <strong>50% OFF</strong></p>\n<p>+ HELIOCARE 360° Sensation SPF50+ <strong>FREE</strong></p>",
-            "text_style": "body"
-          }
-        },
-        "button_fPtd8M": {
+        "button_nhGqEK": {
           "type": "button",
           "settings": {
-            "button_label": "Get started",
+            "button_label": "Get Started",
             "button_link": "#enquire",
-            "button_style_secondary": false
+            "button_style": "primary",
+            "color_scheme": "scheme-1",
+            "open_new_tab": false
           }
         }
       },
       "block_order": [
-        "heading_3CBiGp",
-        "text_GJr7U9",
-        "button_fPtd8M"
+        "button_nhGqEK"
       ],
-      "name": "Image with text HTML",
+      "name": "Button row",
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00296_ALLSKINMED_PostSummerCorrection_LandingPageAssets_Sep26_04.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 64,
-        "padding_bottom": 64
+        "color_scheme": "scheme-1",
+        "desktop_alignment": "center",
+        "mobile_layout": "stacked",
+        "button_gap": 16,
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     },
     "multicolumn_Rpzyfn": {
@@ -494,6 +643,7 @@
         "column_tYccAp",
         "column_ijY3Pg"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "Powered by Patented Technologies",
@@ -536,6 +686,7 @@
         "heading_igx8Nc",
         "text_NeMnAJ"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -619,7 +770,7 @@
         "heading_JkAmaE": {
           "type": "heading",
           "settings": {
-            "heading": "Ready to Support Post-Summer Skin Correction in Your Clinic?",
+            "heading": "Launch Post-Summer Skin Correction in Your Clinic",
             "heading_size": "h2"
           }
         }
@@ -695,11 +846,16 @@
     "rich_text_aq3WJp",
     "multicolumn_with_buttons_7efPwy",
     "rich_text_Y9kRX7",
-    "multicolumn_html_pTMBJ9",
     "image_with_text_html_ThRJLd",
+    "rich_text_Hcthyg",
+    "multicolumn_html_pTMBJ9",
     "rich_text_WXUgUe",
-    "multicolumn_html_eFwyQX",
+    "button_row_mEhht4",
     "image_with_text_html_BMxQxe",
+    "button_row_XUqgrU",
+    "rich_text_nWnz4L",
+    "multicolumn_html_eFwyQX",
+    "button_row_cjKnYk",
     "multicolumn_Rpzyfn",
     "rich_text_EGNyiT",
     "multicolumn_hyW438",
