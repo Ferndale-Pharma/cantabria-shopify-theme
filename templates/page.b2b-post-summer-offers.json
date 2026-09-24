@@ -72,17 +72,10 @@
     "rich_text_aq3WJp": {
       "type": "rich-text",
       "blocks": {
-        "heading_nrLPrb": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Added value for your clinic and your patients</strong>",
-            "heading_size": "h2"
-          }
-        },
         "text_8VwJep": {
           "type": "text",
           "settings": {
-            "text": "<p>As patients return to clinic looking to address the visible effects of summer, now is an important time to review corrective homecare. Increased pigmentation, uneven texture and signs of photodamage can all become more noticeable following the summer months. </p><p>This autumn, we’re supporting your clinic with two targeted ALLSKIN | MED post-summer regimes, combining clinic-exclusive, science-led skincare with added-value promotions for both your clinic and your patients. </p>"
+            "text": "<p>As patients return to clinic looking to address the visible effects of summer, now is an important time to review corrective homecare as increased pigmentation, uneven texture and signs of photodamage can all become more noticeable following the summer months.&nbsp;</p><p><strong>This autumn, we’re supporting your clinic with two targeted ALLSKIN | MED post-summer regimes, combining clinic-exclusive, science-led skincare with added-value promotions for both your clinic and your patients.&nbsp;</strong></p>"
           }
         },
         "button_QJ77yw": {
@@ -96,12 +89,19 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "heading_nrLPrb": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Added value for your clinic and your patients</strong>",
+            "heading_size": "h2"
+          }
         }
       },
       "block_order": [
-        "heading_nrLPrb",
         "text_8VwJep",
-        "button_QJ77yw"
+        "button_QJ77yw",
+        "heading_nrLPrb"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -270,14 +270,14 @@
         "heading_jMR9mE": {
           "type": "heading",
           "settings": {
-            "heading": "Post-Summer Clinic & Patient Offer",
+            "heading": "Post-Summer Promotion - for Your Clinic & Your Patient",
             "heading_size": "h2"
           }
         },
         "text_KVKf9B": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Buy ANY ALLSKIN | MED Pigment Control Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED Barrier Defence Emulsion <strong>50% OFF</strong></p>\n<p>+ HELIOCARE 360° Pigment Solution Fluid SPF50+ <strong>FREE</strong></p>",
+            "text": "Added-value promotion available for professional skin clinics, designed for you to pass on to your customers:\n<br>\n<br><p><strong>Buy ANY ALLSKIN | MED Pigment Control Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED Barrier Defence Emulsion <strong>50% OFF</strong></p>\n<p>+ HELIOCARE 360° Pigment Solution Fluid SPF50+ <strong>FREE</strong></p>",
             "text_style": "body"
           }
         },
@@ -413,14 +413,14 @@
         "heading_3CBiGp": {
           "type": "heading",
           "settings": {
-            "heading": "Post-Summer Clinic & Patient Offer",
+            "heading": "Post-Summer Promotion - for Your Clinic & Your Patient&nbsp;",
             "heading_size": "h2"
           }
         },
         "text_GJr7U9": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Buy ALLSKIN | MED Texture Repair Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED AHA Retexturising Serum <strong>50% OFF</strong></p>\n<p>+ HELIOCARE 360° Sensation SPF50+ <strong>FREE</strong></p>",
+            "text": "Added-value promotion available for professional skin clinics, designed for you to pass on to your customers:\n<br>\n<br><p><strong>Buy ALLSKIN | MED Texture Repair Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED AHA Retexturising Serum <strong>50% OFF</strong></p>\n<p>+ HELIOCARE 360° Sensation SPF50+ <strong>FREE</strong></p>",
             "text_style": "body"
           }
         },
@@ -594,9 +594,9 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "More Than a Post-Summer Promotion",
+        "title": "More Than Just Promotions",
         "heading_size": "h2",
-        "richtext": "<p><strong>Supporting you and your clinic </strong></p><p>We're here to help you make the most of the post-summer skin correction opportunity and support stronger, longer-term patient relationships. </p>",
+        "richtext": "<p><strong>Supporting you and your clinic&nbsp;</strong></p><p>We're here to help you make the most of the post-summer skin correction opportunity and support stronger, longer-term patient relationships.&nbsp;</p>",
         "narrow_text": true,
         "image_width": "third",
         "image_ratio": "adapt",
