@@ -121,7 +121,7 @@
         "heading_jqnBXj": {
           "type": "heading",
           "settings": {
-            "heading": "Added value promotions for your clinic and your patients",
+            "heading": "Added Value Promotions for Your Clinic and Your Patients",
             "heading_size": "h2"
           }
         },
@@ -146,7 +146,7 @@
         "is_heading": false,
         "padding_top": 20,
         "padding_bottom": 16,
-        "container_id": "pigment"
+        "container_id": ""
       }
     },
     "multicolumn_with_buttons_7efPwy": {
@@ -250,7 +250,7 @@
         "text_KVKf9B": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Help target uneven pigmentation and visible signs of photodamage</strong></p><p>A targeted three-step homecare regime combining pigment correction, barrier support and very high-level daily photoprotection to help promote clearer, more even-looking skin while protecting against further light-induced damage.</p><br><b>Added-value promotion available for professional skin clinics, designed for you to pass on to your customers:</b>\n<br>\n<br><p><strong>Buy ANY ALLSKIN | MED Pigment Control Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED Barrier Defence Emulsion <strong>50% OFF</strong></p>\n<p>+ HELIOCARE 360° Pigment Solution Fluid SPF50+ <strong>FREE</strong></p><br><p> <strong>TOTAL PP SAVING - OVER 30%*</strong></p>",
+            "text": "<p><strong>Help target uneven pigmentation and visible signs of photodamage</strong></p><p>A targeted three-step homecare regime combining pigment correction, barrier support and very high-level daily photoprotection to help promote clearer, more even-looking skin while protecting against further light-induced damage.</p><br><b>Added-value promotion available for professional skin clinics, designed for you to pass on to your customers:</b>\n<br>\n<br><p><strong>Buy ANY ALLSKIN | MED Pigment Control Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED Barrier Defence Emulsion <strong>50% OFF</strong></p>\n<p>+ HELIOCARE 360° Pigment Solution Fluid SPF50+ <strong>FREE</strong></p><br><p style=\"color:#165c7d;\"> <strong>TOTAL PP SAVING - OVER 30%*</strong></p>",
             "text_style": "body"
           }
         },
@@ -283,7 +283,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 24,
-        "padding_bottom": 12
+        "padding_bottom": 0
       }
     },
     "rich_text_Hcthyg": {
@@ -327,7 +327,7 @@
           "type": "column",
           "settings": {
             "title": "CORRECT",
-            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Pigment Control Emulsion</strong></h4> \n<h4>BUY</h4>\n<p>Medical-grade, retinoid-led correction in three strengths targeting the key pathways involved in hyperpigmentation. </p>",
+            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Pigment Control Emulsion</strong></h4> \n<h4 style=\"font-weight:700;\">BUY ANY</h4>\n<p>Medical-grade, retinoid-led correction in three strengths targeting the key pathways involved in hyperpigmentation. </p>",
             "link_label": "",
             "link": ""
           }
@@ -336,7 +336,7 @@
           "type": "column",
           "settings": {
             "title": "SUPPORT",
-            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Barrier Defence Emulsion</strong></h4> \n<h4>+ 50% OFF</h4>\n<p>Helps reinforce the skin barrier and support optimal skin hydration. </p>",
+            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Barrier Defence Emulsion</strong></h4> \n<h4 style=\"font-weight:700;\">+ 50% OFF</h4>\n<p>Helps reinforce the skin barrier and support optimal skin hydration. </p>",
             "link_label": "",
             "link": ""
           }
@@ -345,7 +345,7 @@
           "type": "column",
           "settings": {
             "title": "PROTECT",
-            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Pigment Solution Fluid SPF50+</strong></h4> \n<h4>FREE</h4>\n<p>Very high-level SPF50+ and PA++++ daily photoprotection with a unique Depigmenting system. </p>",
+            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Pigment Solution Fluid SPF50+</strong></h4> \n<h4 style=\"font-weight:700;\">+ FREE</h4>\n<p>Very high-level SPF50+ and PA++++ daily photoprotection with a unique Depigmenting system. </p>",
             "link_label": "",
             "link": ""
           }
@@ -376,7 +376,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 24
+        "padding_bottom": 12
       }
     },
     "button_row_mEhht4": {
@@ -453,7 +453,7 @@
         "text_GJr7U9": {
           "type": "text",
           "settings": {
-            "text": "<p><b>Help refine uneven texture and visible signs of skin ageing.</b></p><p>An advanced three-step retinoid-led homecare regime for patients presenting with uneven texture, enlarged pores and visible signs of ageing following the summer months.</p>\n\n<br><b>Added-value promotion available for professional skin clinics, designed for you to pass on to your customers:</b>\n<br>\n<br><p><strong>Buy ALLSKIN | MED Texture Repair Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED AHA Retexturising Serum <strong>50% OFF</strong></p>\n<p>+ HELIOCARE 360° Sensation SPF50+ <strong>FREE</strong></p><br><p> <strong>TOTAL PP SAVING - OVER 25%**</strong></p>",
+            "text": "<p><b>Help refine uneven texture and visible signs of skin ageing.</b></p><p>An advanced three-step retinoid-led homecare regime for patients presenting with uneven texture, enlarged pores and visible signs of ageing following the summer months.</p>\n\n<br><b>Added-value promotion available for professional skin clinics, designed for you to pass on to your customers:</b>\n<br>\n<br><p><strong>Buy ALLSKIN | MED Texture Repair Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED AHA Retexturising Serum <strong>50% OFF</strong></p>\n<p>+ HELIOCARE 360° Sensation SPF50+ <strong>FREE</strong></p><br><p style=\"color:#165c7d;\"> <strong>TOTAL PP SAVING - OVER 25%**</strong></p>",
             "text_style": "body"
           }
         },
@@ -486,36 +486,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 24,
-        "padding_bottom": 12
-      }
-    },
-    "button_row_XUqgrU": {
-      "type": "button-row",
-      "blocks": {
-        "button_E9GzEw": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Get Started",
-            "button_link": "#enquire",
-            "button_style": "primary",
-            "color_scheme": "scheme-1",
-            "open_new_tab": false
-          }
-        }
-      },
-      "block_order": [
-        "button_E9GzEw"
-      ],
-      "disabled": true,
-      "name": "Button row",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "desktop_alignment": "center",
-        "mobile_layout": "stacked",
-        "button_gap": 16,
-        "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "rich_text_nWnz4L": {
@@ -559,7 +530,7 @@
           "type": "column",
           "settings": {
             "title": "RENEW",
-            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Texture Repair Emulsion</strong></h4> \n<h4>BUY</h4>\n<p>Medical-grade retinoid-led skin renewal to help refine uneven texture and support epidermal turnover.</p>",
+            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Texture Repair Emulsion</strong></h4> \n<h4 style=\"font-weight:700;\">BUY</h4>\n<p>Medical-grade retinoid-led skin renewal to help refine uneven texture and support epidermal turnover.</p>",
             "link_label": "",
             "link": ""
           }
@@ -568,7 +539,7 @@
           "type": "column",
           "settings": {
             "title": "RESURFACE",
-            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED AHA Retexturising Serum</strong></h4> \n<h4>+ 50% OFF</h4>\n<p>Targeted exfoliating and resurfacing support designed to improve the appearance of uneven skin texture while supporting skin tolerance.</p>",
+            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED AHA Retexturising Serum</strong></h4> \n<h4 style=\"font-weight:700;\">+ 50% OFF</h4>\n<p>Targeted exfoliating and resurfacing support designed to improve the appearance of uneven skin texture while supporting skin tolerance.</p>",
             "link_label": "",
             "link": ""
           }
@@ -577,7 +548,7 @@
           "type": "column",
           "settings": {
             "title": "PROTECT",
-            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Sensation SPF50+</strong></h4> \n<h4>+ FREE</h4>\n<p>Very high-level SPF50+ and PA++++ full-spectrum photoprotection with a lightweight daily finish.</p>",
+            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Sensation SPF50+</strong></h4> \n<h4 style=\"font-weight:700;\">+ FREE</h4>\n<p>Very high-level SPF50+ and PA++++ full-spectrum photoprotection with a lightweight daily finish.</p>",
             "link_label": "",
             "link": ""
           }
@@ -804,7 +775,7 @@
         "heading_JkAmaE": {
           "type": "heading",
           "settings": {
-            "heading": "Launch Post-Summer Skin Correction in Your Clinic",
+            "heading": "Launch the Post-Summer Skin Correction Offers in Your Clinic",
             "heading_size": "h2"
           }
         }
@@ -887,7 +858,6 @@
     "button_row_mEhht4",
     "rich_text_WXUgUe",
     "image_with_text_html_BMxQxe",
-    "button_row_XUqgrU",
     "rich_text_nWnz4L",
     "multicolumn_html_eFwyQX",
     "button_row_cjKnYk",
