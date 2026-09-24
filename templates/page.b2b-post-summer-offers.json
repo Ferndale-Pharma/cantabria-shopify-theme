@@ -74,7 +74,7 @@
         "text_8VwJep": {
           "type": "text",
           "settings": {
-            "text": "<p>As patients return to clinic looking to address the visible effects of summer, <strong>we’re supporting your clinic with two targeted post-summer regimes</strong> - <a href=\"#pigment\" title=\"#pigment\">ALLSKIN | MED Post-Summer Pigment Correction Bundle</a> and <a href=\"#texture\" title=\"#texture\">ALLSKIN | MED Texture Repair Regime</a> - combining clinic-exclusive, science-led skincare with added-value promotions for both your clinic and your patients.&nbsp;</p>"
+            "text": "<p>As patients return to clinic looking to address the visible effects of summer, <strong>we’re supporting your clinic with two targeted post-summer regimes</strong> - <a href=\"#pigment\" title=\"#pigment\">ALLSKIN | MED Post-Summer Pigment Correction Bundle</a> and <a href=\"#texture\" title=\"#texture\">ALLSKIN | MED Texture Repair Regime</a> - combining clinic-exclusive, science-led skincare with added-value promotions for both your clinic and your patients.&nbsp;</p><p></p><p></p><p></p>"
           }
         },
         "button_QJ77yw": {
@@ -91,6 +91,7 @@
         },
         "heading_nrLPrb": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<strong>Added value for your clinic and your patients</strong>",
             "heading_size": "h2"
@@ -112,6 +113,40 @@
         "padding_top": 32,
         "padding_bottom": 32,
         "container_id": ""
+      }
+    },
+    "rich_text_pqDBbx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jqnBXj": {
+          "type": "heading",
+          "settings": {
+            "heading": "For Post-Summer Pigmentation Correction",
+            "heading_size": "h2"
+          }
+        },
+        "text_YVy9jt": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Help target uneven pigmentation and visible signs of photodamage&nbsp;</strong><br/><br/>A targeted three-step homecare regime combining pigment correction, barrier support and very high-level daily photoprotection to help promote clearer, more even-looking skin while protecting against further light-induced damage.&nbsp;</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jqnBXj",
+        "text_YVy9jt"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 20,
+        "padding_bottom": 16,
+        "container_id": "pigment"
       }
     },
     "multicolumn_with_buttons_7efPwy": {
@@ -368,7 +403,7 @@
         "mobile_layout": "stacked",
         "button_gap": 16,
         "padding_top": 0,
-        "padding_bottom": 64
+        "padding_bottom": 100
       }
     },
     "rich_text_WXUgUe": {
@@ -843,6 +878,7 @@
     "main",
     "image_banner_separate_hq8rQR",
     "rich_text_aq3WJp",
+    "rich_text_pqDBbx",
     "multicolumn_with_buttons_7efPwy",
     "rich_text_Y9kRX7",
     "image_with_text_html_ThRJLd",
