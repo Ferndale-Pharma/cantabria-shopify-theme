@@ -36,10 +36,9 @@
         },
         "buttons_zabGg6": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "SPEAK TO OUR CLINIC DEVELOPMENT TEAM",
+            "button_link_1": "#enquire",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -157,6 +156,7 @@
         "button_4qxicr",
         "heading_iBWzJA"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
