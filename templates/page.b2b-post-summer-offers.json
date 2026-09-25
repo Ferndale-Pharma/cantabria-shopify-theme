@@ -471,7 +471,7 @@
         "text_GJr7U9": {
           "type": "text",
           "settings": {
-            "text": "<p><b>Help refine uneven texture and visible signs of skin ageing.</b></p><p>An advanced three-step retinoid-led homecare regime for patients presenting with uneven texture, enlarged pores and visible signs of ageing following the summer months.</p>\n\n<br><b>Added-value promotion available for professional skin clinics, designed for you to pass on to your customers:</b>\n<br>\n<br><p><strong>Buy ALLSKIN | MED Texture Repair Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED AHA Retexturising Serum <strong>50% OFF</strong></p>\n<p>+ HELIOCARE 360° Sensation SPF50+ <strong>FREE</strong></p><br><p style=\"color:#165c7d;\"> <strong>TOTAL PP SAVING - OVER 25%**</strong></p>",
+            "text": "<p><b>Help refine uneven texture and visible signs of skin ageing.</b></p><p>An advanced three-step retinoid-led homecare regime for patients presenting with uneven texture, enlarged pores and visible signs of ageing following the summer months.</p><br><p style=\"color:#165c7d;\"><strong>Added-value promotion available for professional skin clinics</strong><br>- Designed for you to pass on to your customers:\n<br>\n<br></p><p><strong>Buy ALLSKIN | MED Texture Repair Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED AHA Retexturising Serum <strong> - 50% OFF</strong></p>\n<p>+ HELIOCARE 360° Sensation SPF50+ <strong> - FREE</strong></p><br><p style=\"color:#165c7d;\"> <strong>OVER 25% TOTAL SAVING FOR YOU AND YOUR PATIENTS**</strong></p>",
             "text_style": "body"
           }
         },
@@ -600,31 +600,50 @@
         "padding_bottom": 24
       }
     },
-    "button_row_cjKnYk": {
-      "type": "button-row",
+    "rich_text_mHRWi9": {
+      "type": "rich-text",
       "blocks": {
-        "button_nhGqEK": {
+        "text_TyXjz9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Considering offering ALLSKIN | MED Post-Summer Texture Repair in your clinic?&nbsp;<br/></strong>Our expert Clinic Development Team can help. Request a callback and they'll walk you through the products, promotion and wider ALLSKIN | MED opportunity, as well as the range of training and clinic support options that comes with it.<br/><br/></p>"
+          }
+        },
+        "button_ztb98A": {
           "type": "button",
           "settings": {
-            "button_label": "Get Started",
+            "button_label": "SPEAK TO OUR CLINIC DEVELOPMENT TEAM",
             "button_link": "#enquire",
-            "button_style": "primary",
-            "color_scheme": "scheme-1",
-            "open_new_tab": false
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "heading_wBKEqT": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<strong>Added value for your clinic and your patients</strong>",
+            "heading_size": "h2"
           }
         }
       },
       "block_order": [
-        "button_nhGqEK"
+        "text_TyXjz9",
+        "button_ztb98A",
+        "heading_wBKEqT"
       ],
-      "name": "Button row",
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "color_scheme": "scheme-1",
-        "desktop_alignment": "center",
-        "mobile_layout": "stacked",
-        "button_gap": 16,
-        "padding_top": 0,
-        "padding_bottom": 36
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 8,
+        "padding_bottom": 88,
+        "container_id": ""
       }
     },
     "multicolumn_Rpzyfn": {
@@ -793,13 +812,20 @@
         "heading_JkAmaE": {
           "type": "heading",
           "settings": {
-            "heading": "Launch the Post-Summer Skin Correction Offers in Your Clinic",
+            "heading": "Discover ALLSKIN | MED Post-Summer Skin Correction in Your Clinic",
             "heading_size": "h2"
+          }
+        },
+        "text_jFTte4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Interested in introducing ALLSKIN | MED to your clinic, taking advantage of the current promotions or simply learning more about the clinical opportunity?</strong></p><p>Complete the short form below and a member of our Clinic Development Team will contact you to discuss with no obligation:</p>"
           }
         }
       },
       "block_order": [
-        "heading_JkAmaE"
+        "heading_JkAmaE",
+        "text_jFTte4"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -809,7 +835,7 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_bottom": 16,
         "container_id": "enquire"
       }
     },
@@ -878,7 +904,7 @@
     "image_with_text_html_BMxQxe",
     "rich_text_nWnz4L",
     "multicolumn_html_eFwyQX",
-    "button_row_cjKnYk",
+    "rich_text_mHRWi9",
     "multicolumn_Rpzyfn",
     "rich_text_EGNyiT",
     "multicolumn_hyW438",
