@@ -23,14 +23,14 @@
         "heading_Jpd9Pa": {
           "type": "heading",
           "settings": {
-            "heading": "Support Post-Summer Skin Correction in Your Clinic",
+            "heading": "Support Post-Summer Skin Correction in Your Clinic with ALLSKIN | MED",
             "heading_size": "h1"
           }
         },
         "text_BjFmFG": {
           "type": "text",
           "settings": {
-            "text": "<strong>with ALLSKIN | MED</strong>",
+            "text": "You and your patients save up to 30%* with these limited-time added value promotions&nbsp;",
             "text_style": "subtitle"
           }
         },
@@ -74,15 +74,14 @@
         "text_8VwJep": {
           "type": "text",
           "settings": {
-            "text": "<p>As patients return to clinic looking to address the visible effects of summer, <strong>we’re supporting your clinic with two targeted post-summer regimes</strong> - <a href=\"#pigment\" title=\"#pigment\">ALLSKIN | MED Post-Summer Pigment Correction Bundle</a> and <a href=\"#texture\" title=\"#texture\">ALLSKIN | MED Texture Repair Regime</a> - combining clinic-exclusive, science-led skincare with added-value promotions for both your clinic and your patients.&nbsp;</p><p></p><p></p><p></p>"
+            "text": "<p>As patients return to clinic looking to address the visible effects of summer, support their next steps with ALLSKIN | MED homecare, designed specifically for Medical-aesthetic clinics.<br/></p><p>This autumn, discover two targeted post-summer regimes - <a href=\"#pigment\" title=\"#pigment\">ALLSKIN | MED Post-Summer Pigment Correction Bundle</a> and <a href=\"#texture\" title=\"#texture\">ALLSKIN | MED Texture Repair Regime</a> - combining clinic-exclusive, science-led skincare with added-value promotions for both your clinic and your patients.<br/>&nbsp;</p><p><strong>Interested in offering ALLSKIN | MED Post-Summer Skin Correction to your patients?&nbsp;<br/></strong>Our expert Clinic Development Team can talk you through the range, current offers and the support available to help you introduce it into your clinic.</p><p></p><p></p>"
           }
         },
         "button_QJ77yw": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "SPEAK TO OUR CLINIC DEVELOPMENT TEAM",
+            "button_link": "#enquire",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -121,7 +120,7 @@
         "heading_jqnBXj": {
           "type": "heading",
           "settings": {
-            "heading": "Added Value Promotions for Your Clinic and Your Patients",
+            "heading": "Two targeted, medical-grade post-summer skin correction regimes",
             "heading_size": "h2"
           }
         },
@@ -250,7 +249,7 @@
         "text_KVKf9B": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Help target uneven pigmentation and visible signs of photodamage</strong></p><p>A targeted three-step homecare regime combining pigment correction, barrier support and very high-level daily photoprotection to help promote clearer, more even-looking skin while protecting against further light-induced damage.</p><br><b>Added-value promotion available for professional skin clinics, designed for you to pass on to your customers:</b>\n<br>\n<br><p><strong>Buy ANY ALLSKIN | MED Pigment Control Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED Barrier Defence Emulsion <strong>50% OFF</strong></p>\n<p>+ HELIOCARE 360° Pigment Solution Fluid SPF50+ <strong>FREE</strong></p><br><p style=\"color:#165c7d;\"> <strong>TOTAL PP SAVING - OVER 30%*</strong></p>",
+            "text": "<p><strong>Help target uneven pigmentation and visible signs of photodamage</strong></p><p>A targeted three-step homecare regime combining pigment correction, barrier support and very high-level daily photoprotection to help promote clearer, more even-looking skin while protecting against further light-induced damage.</p><br><p style=\"color:#165c7d;\"><strong>Added-value promotion available for professional skin clinics</strong><br>- Designed for you to pass on to your customers:\n<br>\n<br></p><p><strong>Buy ANY ALLSKIN | MED Pigment Control Emulsion</strong> and get:</p>\n<p>+ ALLSKIN | MED Barrier Defence Emulsion <strong> - 50% OFF</strong></p>\n<p>+ HELIOCARE 360° Pigment Solution Fluid SPF50+ <strong> - FREE</strong></p><br><p style=\"color:#165c7d;\"> <strong>OVER 30% TOTAL SAVING FOR YOU AND YOUR PATIENTS*</strong></p>",
             "text_style": "body"
           }
         },
@@ -379,31 +378,50 @@
         "padding_bottom": 12
       }
     },
-    "button_row_mEhht4": {
-      "type": "button-row",
+    "rich_text_xUHPC6": {
+      "type": "rich-text",
       "blocks": {
-        "button_nWF4xc": {
+        "text_eFipqp": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Interested in offering ALLSKIN | MED Post-Summer Pigmentation Correction to your patients?&nbsp;<br/></strong>Our expert Clinic Development Team will talk you through the products, promotion and wider ALLSKIN | MED opportunity, as well as the ongoing education, marketing and business support available</p>"
+          }
+        },
+        "button_UikK4K": {
           "type": "button",
           "settings": {
-            "button_label": "Get Started",
+            "button_label": "SPEAK TO OUR CLINIC DEVELOPMENT TEAM",
             "button_link": "#enquire",
-            "button_style": "primary",
-            "color_scheme": "scheme-1",
-            "open_new_tab": false
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "heading_46zdD7": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<strong>Added value for your clinic and your patients</strong>",
+            "heading_size": "h2"
           }
         }
       },
       "block_order": [
-        "button_nWF4xc"
+        "text_eFipqp",
+        "button_UikK4K",
+        "heading_46zdD7"
       ],
-      "name": "Button row",
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "color_scheme": "scheme-1",
-        "desktop_alignment": "center",
-        "mobile_layout": "stacked",
-        "button_gap": 16,
-        "padding_top": 0,
-        "padding_bottom": 100
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 8,
+        "padding_bottom": 88,
+        "container_id": ""
       }
     },
     "rich_text_WXUgUe": {
@@ -855,7 +873,7 @@
     "image_with_text_html_ThRJLd",
     "rich_text_Hcthyg",
     "multicolumn_html_pTMBJ9",
-    "button_row_mEhht4",
+    "rich_text_xUHPC6",
     "rich_text_WXUgUe",
     "image_with_text_html_BMxQxe",
     "rich_text_nWnz4L",
