@@ -74,11 +74,12 @@
         "text_8VwJep": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>As patients return to clinic looking to address the visible effects of summer, support their next steps with ALLSKIN | MED homecare, designed specifically for medical aesthetic clinics.</strong><br/></p><p>This autumn, discover two targeted post-summer regimes - <a href=\"#pigment\" title=\"#pigment\">ALLSKIN | MED Post-Summer Pigment Correction Bundle</a> and <a href=\"#texture\" title=\"#texture\">ALLSKIN | MED Texture Repair Regime</a> - combining clinic-exclusive, science-led skincare with added-value promotions for both your clinic and your patients.<br/>&nbsp;</p><p><strong>Interested in offering ALLSKIN | MED Post-Summer Skin Correction to your patients?&nbsp;<br/></strong>Our expert Clinic Development Team can talk you through the range, current offers and the support available to help you introduce it into your clinic.</p><p></p><p></p>"
+            "text": "<p><strong>As patients return to clinic looking to address the visible effects of summer, support their next steps with ALLSKIN | MED homecare, designed specifically for medical aesthetic clinics.</strong><br/></p><p>This autumn, discover two targeted post-summer regimes - <a href=\"#pigment\" title=\"#pigment\">ALLSKIN | MED Post-Summer Pigment Correction Bundle</a> and <a href=\"#texture\" title=\"#texture\">ALLSKIN | MED Texture Repair Regime</a> - combining clinic-exclusive, science-led skincare with added-value promotions for both your clinic and your patients.</p>"
           }
         },
         "button_QJ77yw": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "SPEAK TO OUR CLINIC DEVELOPMENT TEAM",
             "button_link": "#enquire",
@@ -107,6 +108,60 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "rich_text_cpn7bE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kxEdkg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Interested in offering ALLSKIN | MED Post-Summer Skin Correction to your patients?&nbsp;",
+            "heading_size": "h2"
+          }
+        },
+        "text_88fncW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A member of our expert Clinic Development Team will talk you through the products, promotion and wider ALLSKIN | MED opportunity, including the education, marketing and ongoing support available to your clinic.</p>"
+          }
+        },
+        "button_4qxicr": {
+          "type": "button",
+          "settings": {
+            "button_label": "SPEAK TO OUR CLINIC DEVELOPMENT TEAM",
+            "button_link": "#enquire",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "heading_iBWzJA": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<strong>Added value for your clinic and your patients</strong>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kxEdkg",
+        "text_88fncW",
+        "button_4qxicr",
+        "heading_iBWzJA"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
         "full_width": true,
         "is_heading": false,
         "padding_top": 32,
@@ -381,10 +436,17 @@
     "rich_text_xUHPC6": {
       "type": "rich-text",
       "blocks": {
+        "heading_Wk7m9L": {
+          "type": "heading",
+          "settings": {
+            "heading": "Interested in offering ALLSKIN | MED Post-Summer Pigmentation Correction in your clinic?&nbsp;",
+            "heading_size": "h2"
+          }
+        },
         "text_eFipqp": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Interested in offering ALLSKIN | MED Post-Summer Pigmentation Correction in your clinic?&nbsp;<br/></strong>A member of our expert Clinic Development Team will talk you through the products, promotion and wider ALLSKIN | MED opportunity, including the education, marketing and ongoing support available to your clinic.</p>"
+            "text": "<p>A member of our expert Clinic Development Team will talk you through the products, promotion and wider ALLSKIN | MED opportunity, including the education, marketing and ongoing support available to your clinic.</p>"
           }
         },
         "button_UikK4K": {
@@ -408,6 +470,7 @@
         }
       },
       "block_order": [
+        "heading_Wk7m9L",
         "text_eFipqp",
         "button_UikK4K",
         "heading_46zdD7"
@@ -416,11 +479,11 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 8,
-        "padding_bottom": 88,
+        "padding_top": 32,
+        "padding_bottom": 32,
         "container_id": ""
       }
     },
@@ -453,7 +516,7 @@
         "color_scheme": "",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 0,
+        "padding_top": 32,
         "padding_bottom": 0,
         "container_id": "texture"
       }
@@ -603,10 +666,17 @@
     "rich_text_mHRWi9": {
       "type": "rich-text",
       "blocks": {
+        "heading_nf6VMe": {
+          "type": "heading",
+          "settings": {
+            "heading": "Considering offering ALLSKIN | MED Post-Summer Texture Repair in your clinic?&nbsp;",
+            "heading_size": "h2"
+          }
+        },
         "text_TyXjz9": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Considering offering ALLSKIN | MED Post-Summer Texture Repair in your clinic?&nbsp;<br/></strong>A member of our expert Clinic Development Team will talk you through the products, promotion and wider ALLSKIN | MED opportunity, including the education, marketing and ongoing support available to your clinic.<br/><br/></p>"
+            "text": "<p>A member of our expert Clinic Development Team will talk you through the products, promotion and wider ALLSKIN | MED opportunity, including the education, marketing and ongoing support available to your clinic.<br/><br/></p>"
           }
         },
         "button_ztb98A": {
@@ -630,6 +700,7 @@
         }
       },
       "block_order": [
+        "heading_nf6VMe",
         "text_TyXjz9",
         "button_ztb98A",
         "heading_wBKEqT"
@@ -638,11 +709,11 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 8,
-        "padding_bottom": 88,
+        "padding_top": 32,
+        "padding_bottom": 32,
         "container_id": ""
       }
     },
@@ -893,6 +964,7 @@
     "main",
     "image_banner_separate_hq8rQR",
     "rich_text_aq3WJp",
+    "rich_text_cpn7bE",
     "rich_text_pqDBbx",
     "multicolumn_with_buttons_7efPwy",
     "rich_text_Y9kRX7",
