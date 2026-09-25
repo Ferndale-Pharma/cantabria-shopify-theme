@@ -74,7 +74,7 @@
         "text_8VwJep": {
           "type": "text",
           "settings": {
-            "text": "<p>As patients return to clinic looking to address the visible effects of summer, support their next steps with ALLSKIN | MED homecare, designed specifically for Medical-aesthetic clinics.<br/></p><p>This autumn, discover two targeted post-summer regimes - <a href=\"#pigment\" title=\"#pigment\">ALLSKIN | MED Post-Summer Pigment Correction Bundle</a> and <a href=\"#texture\" title=\"#texture\">ALLSKIN | MED Texture Repair Regime</a> - combining clinic-exclusive, science-led skincare with added-value promotions for both your clinic and your patients.<br/>&nbsp;</p><p><strong>Interested in offering ALLSKIN | MED Post-Summer Skin Correction to your patients?&nbsp;<br/></strong>Our expert Clinic Development Team can talk you through the range, current offers and the support available to help you introduce it into your clinic.</p><p></p><p></p>"
+            "text": "<p>As patients return to clinic looking to address the visible effects of summer, support their next steps with ALLSKIN | MED homecare, designed specifically for medical aesthetic clinics.<br/></p><p>This autumn, discover two targeted post-summer regimes - <a href=\"#pigment\" title=\"#pigment\">ALLSKIN | MED Post-Summer Pigment Correction Bundle</a> and <a href=\"#texture\" title=\"#texture\">ALLSKIN | MED Texture Repair Regime</a> - combining clinic-exclusive, science-led skincare with added-value promotions for both your clinic and your patients.<br/>&nbsp;</p><p><strong>Interested in offering ALLSKIN | MED Post-Summer Skin Correction to your patients?&nbsp;<br/></strong>Our expert Clinic Development Team can talk you through the range, current offers and the support available to help you introduce it into your clinic.</p><p></p><p></p>"
           }
         },
         "button_QJ77yw": {
@@ -384,7 +384,7 @@
         "text_eFipqp": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Interested in offering ALLSKIN | MED Post-Summer Pigmentation Correction to your patients?&nbsp;<br/></strong>Our expert Clinic Development Team will talk you through the products, promotion and wider ALLSKIN | MED opportunity, as well as the ongoing education, marketing and business support available</p>"
+            "text": "<p><strong>Interested in offering ALLSKIN | MED Post-Summer Pigmentation Correction in your clinic?&nbsp;<br/></strong>A member of our expert Clinic Development Team will talk you through the products, promotion and wider ALLSKIN | MED opportunity, including the education, marketing and ongoing support available to your clinic.</p>"
           }
         },
         "button_UikK4K": {
@@ -606,7 +606,7 @@
         "text_TyXjz9": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Considering offering ALLSKIN | MED Post-Summer Texture Repair in your clinic?&nbsp;<br/></strong>Our expert Clinic Development Team can help. Request a callback and they'll walk you through the products, promotion and wider ALLSKIN | MED opportunity, as well as the range of training and clinic support options that comes with it.<br/><br/></p>"
+            "text": "<p><strong>Considering offering ALLSKIN | MED Post-Summer Texture Repair in your clinic?&nbsp;<br/></strong>A member of our expert Clinic Development Team will talk you through the products, promotion and wider ALLSKIN | MED opportunity, including the education, marketing and ongoing support available to your clinic.<br/><br/></p>"
           }
         },
         "button_ztb98A": {
@@ -768,8 +768,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/cl-blue-icon-business-support.png",
-            "title": "Dedicated Business Development Support",
-            "text": "<p>Practical support to help develop your ALLSKIN | MED business.</p>",
+            "title": "Dedicated Clinic Development Support",
+            "text": "<p>Practical support to help introduce and grow ALLSKIN | MED within your clinic.</p>",
             "link_label": "",
             "link": ""
           }
@@ -812,14 +812,14 @@
         "heading_JkAmaE": {
           "type": "heading",
           "settings": {
-            "heading": "Discover ALLSKIN | MED Post-Summer Skin Correction in Your Clinic",
+            "heading": "Request a Callback from Our Clinic Development Team",
             "heading_size": "h2"
           }
         },
         "text_jFTte4": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Interested in introducing ALLSKIN | MED to your clinic, taking advantage of the current promotions or simply learning more about the clinical opportunity?</strong></p><p>Complete the short form below and a member of our Clinic Development Team will contact you to discuss with no obligation:</p>"
+            "text": "<p>Whether you're interested in the current post-summer promotions, introducing ALLSKIN | MED into your clinic or simply finding out more, we're here to help.<br/><br/><strong>Complete the short form below and a member of our Clinic Development Team will contact you to discuss the opportunity with no obligation.</strong></p>"
           }
         }
       },
@@ -864,7 +864,7 @@
           "settings": {
             "heading": "References",
             "icon": "question_mark",
-            "row_content": "<p>* “Over 30%” saving is based on comparing the combined SRP and Trade Price of the three products with the Promotional Consumer Price and Professional Promotional Bundle Price respectively, using ALLSKIN | MED Pigment Control Emulsion Retinoid Potency 1. Saving varies by strength selected. </p><p>** “Over 25%” saving is based on comparing the combined SRP and Trade Price of the three products with the Promotional Consumer Price and Professional Promotional Bundle Price respectively. </p>",
+            "row_content": "<p>* “Over 30%” saving is based on comparing the combined SRP and Trade Price of the three products with the Promotional Consumer Price and Professional Promotional Bundle Price respectively, using ALLSKIN | MED Pigment Control Emulsion Retinoid Potency 1. Saving varies by strength selected.&nbsp;</p><p>** “Over 25%” saving is based on comparing the combined SRP and Trade Price of the three products with the Promotional Consumer Price and Professional Promotional Bundle Price respectively.&nbsp;</p>",
             "page": ""
           }
         }
