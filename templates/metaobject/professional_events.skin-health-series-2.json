@@ -253,8 +253,8 @@
           "type": "event",
           "settings": {
             "image": "shopify://shop_images/lianne-sykes-circle.jpg",
-            "heading": "{{ metaobjects.professional_events[\"retinoid-science-in-pigmentation-photoageing\"].banner_title.value }}",
-            "text": "<p><strong>with Lianne Sykes - Founder and Creative Director of Quirky Frog</strong></p><p>In this session, you’ll:</p><ul><li>Learn how to use the data already within your clinic to make smarter marketing decisions. </li><li>Identify opportunities to attract and engage the right patients more effectively. </li><li>Explore how clinic insight can help strengthen your reputation and support sustainable growth.</li></ul>",
+            "heading": "{{ metaobjects.professional_events[\"data-driven-clinic-marketing\"].banner_title.value }}",
+            "text": "<p><strong>with Lianne Sykes - Founder and Creative Director of Quirky Frog</strong></p><p>In this session, you’ll:</p><ul><li>Learn how to use the data already within your clinic to make smarter marketing decisions.&nbsp;</li><li>Identify opportunities to attract and engage the right patients more effectively.&nbsp;</li><li>Explore how clinic insight can help strengthen your reputation and support sustainable growth.</li></ul>",
             "date": "<p>03/11/2026 – 19:00</p>",
             "audience": "<p>Ideal for all Professional Skin Clinics</p>",
             "cost": "<p>FREE</p>",
