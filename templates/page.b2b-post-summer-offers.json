@@ -310,9 +310,8 @@
         },
         "button_XmVXtE": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Get started",
+            "button_label": "TELL ME MORE",
             "button_link": "#enquire",
             "button_style_secondary": false
           }
@@ -540,9 +539,8 @@
         },
         "button_fPtd8M": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Get started",
+            "button_label": "TELL ME MORE",
             "button_link": "#enquire",
             "button_style_secondary": false
           }
