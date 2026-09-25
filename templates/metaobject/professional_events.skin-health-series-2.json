@@ -186,8 +186,8 @@
           "settings": {
             "image": "shopify://shop_images/Caroline-Hall-circle.png",
             "heading": "{{ metaobjects.professional_events[\"mastering-regenerative-haircare\"].banner_title.value }}",
-            "text": "<p><strong>with Caroline Hall, RGN, RM, BSc (Hons), INP and Trichologist</strong></p><p>In this session, you’ll:</p><ul><li>Explore current developments in regenerative hair and scalp treatments. </li><li>Understand key clinical considerations across presentations including androgenetic alopecia and telogen effluvium. </li><li>Learn how clinically proven hair and scalp protocols can be integrated into your clinic.</li></ul>",
-            "date": "<p>05/10/2026 - 11:30</p>",
+            "text": "<p><strong>with Caroline Hall, RGN, RM, BSc (Hons), INP and Trichologist</strong></p><p>In this session, you’ll:</p><ul><li>Explore current developments in regenerative hair and scalp treatments.&nbsp;</li><li>Understand key clinical considerations across presentations including androgenetic alopecia and telogen effluvium.&nbsp;</li><li>Learn how clinically proven hair and scalp protocols can be integrated into your clinic.</li></ul>",
+            "date": "<p>08/10/2026 – 19:00</p>",
             "audience": "<p>Ideal for Medical Aesthetic Professionals</p>",
             "cost": "<p>FREE</p>",
             "details_label": "View details",
