@@ -121,7 +121,7 @@
         "heading_kxEdkg": {
           "type": "heading",
           "settings": {
-            "heading": "Interested in offering ALLSKIN | MED Post-Summer Skin Correction to your patients?&nbsp;",
+            "heading": "Interested in offering ALLSKIN | MED Post-Summer Skin Correction in your clinic?&nbsp;",
             "heading_size": "h2"
           }
         },
@@ -311,7 +311,7 @@
         "button_XmVXtE": {
           "type": "button",
           "settings": {
-            "button_label": "TELL ME MORE",
+            "button_label": "DISCUSS THIS OFFER",
             "button_link": "#enquire",
             "button_style_secondary": false
           }
@@ -398,7 +398,7 @@
           "type": "column",
           "settings": {
             "title": "PROTECT",
-            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Pigment Solution Fluid SPF50+</strong></h4> \n<h4 style=\"font-weight:700;\">+ FREE</h4>\n<p>Very high-level SPF50+ and PA++++ daily photoprotection with a unique Depigmenting system. </p>",
+            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Pigment Solution Fluid SPF50+</strong></h4> \n<h4 style=\"font-weight:700;\">+ FREE</h4>\n<p>Very high-level SPF50+ and PA++++ daily photoprotection with a unique Depigmenting System. </p>",
             "link_label": "",
             "link": ""
           }
@@ -540,7 +540,7 @@
         "button_fPtd8M": {
           "type": "button",
           "settings": {
-            "button_label": "TELL ME MORE",
+            "button_label": "DISCUSS THIS OFFER",
             "button_link": "#enquire",
             "button_style_secondary": false
           }
@@ -881,7 +881,7 @@
         "heading_JkAmaE": {
           "type": "heading",
           "settings": {
-            "heading": "Request a Callback from Our Clinic Development Team",
+            "heading": "Speak to Our Clinic Development Team",
             "heading_size": "h2"
           }
         },
