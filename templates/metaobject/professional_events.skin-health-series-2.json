@@ -232,6 +232,23 @@
             "register_new_tab": false
           }
         },
+        "event_nEFhHK": {
+          "type": "event",
+          "settings": {
+            "image": "{{ metaobjects.professional_events[\"the-science-of-advanced-photoprotection-introducing-aspa-fernblock\"].speaker_image.value }}",
+            "heading": "The Science of Advanced Photoprotection - Introducing ASPA-Fernblock",
+            "text": "<p><strong>with Dr. Emma Wedgeworth, Consultant Dermatologist</strong></p><p>In this session, you’ll:</p><ul><li>Understand the science and innovation behind Heliocare 360°, including the patented antioxidant technologies Fernblock® and ASPA-Fernblock® with Opti-D effect.</li><li>Learn how to make personalised photoprotection recommendations based on skin type, concerns, treatment needs and product preference.</li><li>Explore how the Heliocare 360° NO VAT*, NO COMPROMISE UK Skin Clinic Price Promise can support confident recommendation and retailing in clinic.</li></ul>",
+            "date": "<p>{{ metaobjects.professional_events[\"the-science-of-advanced-photoprotection-introducing-aspa-fernblock\"].multicolumn_1_body_text | metafield_tag }}</p>",
+            "audience": "<p>Ideal for all Professional Skin Clinics</p>",
+            "cost": "<p>FREE</p>",
+            "details_label": "View details",
+            "details_link": "shopify://metaobjects/professional_events/the-science-of-advanced-photoprotection-introducing-aspa-fernblock",
+            "details_new_tab": false,
+            "register_label": "Register now",
+            "register_link": "#register",
+            "register_new_tab": false
+          }
+        },
         "event_YPKi8A": {
           "type": "event",
           "settings": {
@@ -272,6 +289,7 @@
         "event_bjgABt",
         "event_CfCmyD",
         "event_3zAKRY",
+        "event_nEFhHK",
         "event_YPKi8A",
         "event_VHxbGC"
       ],
