@@ -284,6 +284,125 @@
         "padding_top": 0,
         "padding_bottom": 64
       }
+    },
+    "image_with_text_html_yhHLht": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "caption_Gm6LnE": {
+          "type": "caption",
+          "settings": {
+            "caption": "Limited Edition",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_F84NgT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Christmas Collagen Activation Treatment Plan",
+            "heading_size": "h2"
+          }
+        },
+        "text_LymLHr": {
+          "type": "text",
+          "settings": {
+            "text": "<ul>\n<li>\n<strong>Clinic price (PP):</strong> £74.00 ex VAT</li>\n<li>\n<strong>Christmas Gift RRP:</strong> £148.00</li>\n<li>\n<strong>Total value:</strong> £198.00</li>\n</ul>\n<p>For patients looking for a targeted anti-ageing gift, the Christmas Collagen Activation Treatment Plan combines a clinically proven two-step regime with a complimentary full-size ALLSKIN | MED Firming Eye Cream.</p>\n<p>Designed to support collagen activation, improve visible signs of ageing and enhance treatment results by up to 50%<sup>1</sup>, this limited edition plan comes with a festive gift wrap and offers added Christmas value with targeted care for the delicate eye area. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_TPt73R": {
+          "type": "button",
+          "settings": {
+            "button_label": "Talk to us about Christmas Gifting",
+            "button_link": "#contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_Gm6LnE",
+        "heading_F84NgT",
+        "text_LymLHr",
+        "button_TPt73R"
+      ],
+      "custom_css": [
+        "li {list-style: none;}"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "anchor_id": "collagen",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 32,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_html_KdFNTP": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_MxjMaz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-gf-regenerating-ampoules.jpg",
+            "title": "Regenerating Ampoules",
+            "text": "<p>Formulated with high-potency SCA® PRO to support skin recovery, provide lasting hydration and visibly improve fine lines, wrinkles and firmness. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iRzzWT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-replenishing-cream.jpg",
+            "title": "Replenishing Cream",
+            "text": "<p>A nourishing, soothing cream enriched with growth factors and a skin-firming complex to provide immediate and long-lasting hydration, leaving skin soft, supple and visibly rejuvenated.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FikrXq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-firming-eye-cream-free.jpg",
+            "title": "Firming Eye Cream",
+            "text": "<p>A lightweight cream-gel with SCA® PRO, peptides and hyaluronic acid to firm, brighten and smooth the eye area while reducing the appearance of fine lines, puffiness and dark circles.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_MxjMaz",
+        "column_iRzzWT",
+        "column_FikrXq"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "title": "What's inside",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -291,6 +410,8 @@
     "image_banner_separate_Bttgif",
     "multicolumn_UKLaEE",
     "image_with_text_html_3jAw7g",
-    "multicolumn_html_hcaahh"
+    "multicolumn_html_hcaahh",
+    "image_with_text_html_yhHLht",
+    "multicolumn_html_KdFNTP"
   ]
 }
