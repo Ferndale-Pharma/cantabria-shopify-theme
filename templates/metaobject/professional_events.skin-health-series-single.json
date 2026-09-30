@@ -372,6 +372,51 @@
         "padding_top": 0,
         "padding_bottom": 64
       }
+    },
+    "rich_text_hfMKL3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6jxKJb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore more Skin Health Education Series webinars",
+            "heading_size": "h2"
+          }
+        },
+        "text_43aYx6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hear from leading experts, strengthen your clinical knowledge and explore practical approaches to the skin, hair and scalp concerns you see every day in clinic.</p>"
+          }
+        },
+        "button_aAy43G": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore more webinars",
+            "button_link": "shopify://metaobjects/professional_events/the-skin-health-education-series",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6jxKJb",
+        "text_43aYx6",
+        "button_aAy43G"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-c96a5236-5eda-4b29-a1d3-491253493b70",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
@@ -386,6 +431,7 @@
     "rich_text_pyQgte",
     "rich_text_Qe4gWj",
     "rich_text_XMPMUN",
-    "custom_liquid_iiLJ9n"
+    "custom_liquid_iiLJ9n",
+    "rich_text_hfMKL3"
   ]
 }

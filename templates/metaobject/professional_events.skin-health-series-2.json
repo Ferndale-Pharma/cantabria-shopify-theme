@@ -47,8 +47,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00295_SkinHealthWebinar_Banner_Sep26_01.jpg",
-        "mobile_image": "shopify://shop_images/FERN-IMG-00295_SkinHealthWebinar_Banner_Sep26_02.jpg",
+        "image": "shopify://shop_images/intro-cl-webinar-banner-1.jpg",
+        "mobile_image": "shopify://shop_images/intro-cl-webinar-banner-1x1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -67,7 +67,7 @@
         "text_KK6pBY": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Join leading dermatology and medical aesthetic experts, alongside experienced aesthetic practitioners, for a new series of free expert-led online masterclasses exploring key skin, hair and scalp concerns seen in clinical practice.</strong></p><p>Combining scientific and clinical insight with practical, indication-led education, each session is designed to help you build your knowledge and apply evidence-based approaches within your clinic.</p>"
+            "text": "<p><strong>Join leading dermatology and medical aesthetic experts, alongside experienced aesthetic practitioners, for a new series of free expert-led online masterclasses exploring key skin, hair and scalp concerns seen in clinical practice.</strong></p><h3><strong>Explore the full series:</strong></h3><p><a href=\"#introduction\" title=\"#introduction\">Introduction to the Cantabria Labs Dermocosmetic Skincare & Supplement Portfolio ↓</a></p><p><a href=\"#hair\" title=\"#hair\">A Clinical Approach to Regenerative Hair & Scalp Health ↓</a></p><p><a href=\"#preparation\" title=\"#preparation\">The Biology of Skin Preparation & Barrier Health ↓</a></p><p><a href=\"#acne\" title=\"#acne\">From Consultation to Regime: The KP Aesthetics Approach to Treating Acne-Prone Skin ↓</a></p><p><a href=\"#photoprotection\" title=\"#photoprotection\">The Science of Advanced Photoprotection - Introducing ASPA-Fernblock® ↓</a></p><p><a href=\"#retinoids\" title=\"#retinoids\">The Science of Next Generation Retinoids ↓&nbsp;</a></p><p><a href=\"#marketing\" title=\"#marketing\">Data-Driven Clinic Marketing ↓</a></p>"
           }
         }
       },
@@ -88,6 +88,7 @@
     },
     "cl_single_image_DBne7b": {
       "type": "cl-single-image",
+      "disabled": true,
       "name": "Single Image",
       "settings": {
         "image": "shopify://shop_images/ASM-X-CL-Image.jpg",
@@ -113,6 +114,7 @@
       "block_order": [
         "text_Jrafff"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -138,7 +140,7 @@
         "text_LBxXV9": {
           "type": "text",
           "settings": {
-            "text": "<p>Choose the webinars most relevant to you, your clinic and your patients - or register for the complete series.</p>"
+            "text": "<p>Combining scientific and clinical insight with practical, indication-led education, each session is designed to help you build your knowledge and apply evidence-based approaches within your clinic.</p><p>Choose the webinars most relevant to you, your clinic and your patients - or register for the complete series.</p>"
           }
         }
       },
@@ -147,7 +149,8 @@
         "text_LBxXV9"
       ],
       "custom_css": [
-        ".rich-text__blocks {max-width: 100%;}"
+        ".rich-text__blocks {max-width: 100%;}",
+        "@media screen and (min-width: 750px) {p {max-width: 78rem; margin: 1rem auto; }}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {

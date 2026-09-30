@@ -193,6 +193,9 @@
   <div class="page-width">
     {%- for block in section.blocks -%}
       <article
+        {% if block.settings.anchor_id != blank %}
+          id="{{ block.settings.anchor_id | handleize }}"
+        {% endif %}
         class="event-list__event"
         {{ block.shopify_attributes }}
       >
@@ -508,6 +511,12 @@
       "type": "event",
       "name": "Event",
       "settings": [
+        {
+          "type": "text",
+          "id": "anchor_id",
+          "label": "Anchor ID",
+          "info": "Used for linking directly to this event. Example: pigmentation-webinar"
+        },
         {
           "type": "image_picker",
           "id": "image",
