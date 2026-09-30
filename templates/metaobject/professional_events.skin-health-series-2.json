@@ -170,6 +170,7 @@
         "event_fb67VG": {
           "type": "event",
           "settings": {
+            "anchor_id": "#introduction",
             "image": "{{ metaobjects.professional_events[\"introduction-to-the-cantabria-labs-dermocosmetic-skincare-supplement-portfolio\"].speaker_image.value }}",
             "heading": "{{ metaobjects.professional_events[\"introduction-to-the-cantabria-labs-dermocosmetic-skincare-supplement-portfolio\"].banner_title.value }}",
             "text": "<p><strong>with Rebecca O’Brien & Leanne Houlihan, Clinic Development Managers</strong></p><p>In this session, you’ll:</p><ul><li>Discover the complete Cantabria Labs dermocosmetic skincare and supplements portfolio.&nbsp;</li><li>Understand where each range fits within your clinic and patient offering.&nbsp;</li><li>Explore the solutions available across different skin, hair and scalp needs.</li></ul>",
@@ -187,6 +188,7 @@
         "event_bjgABt": {
           "type": "event",
           "settings": {
+            "anchor_id": "#hair",
             "image": "{{ metaobjects.professional_events[\"mastering-regenerative-haircare\"].speaker_image.value }}",
             "heading": "{{ metaobjects.professional_events[\"mastering-regenerative-haircare\"].banner_title.value }}",
             "text": "<p><strong>with Caroline Hall, RGN, RM, BSc (Hons), INP and Trichologist</strong></p><p>In this session, you’ll:</p><ul><li>Explore current developments in regenerative hair and scalp treatments.&nbsp;</li><li>Understand key clinical considerations across presentations including androgenetic alopecia and telogen effluvium.&nbsp;</li><li>Learn how clinically proven hair and scalp protocols can be integrated into your clinic.</li></ul>",
@@ -204,6 +206,7 @@
         "event_CfCmyD": {
           "type": "event",
           "settings": {
+            "anchor_id": "#preparation",
             "image": "{{ metaobjects.professional_events[\"optimising-skin-health-for-better-treatment-outcomes\"].speaker_image.value }}",
             "heading": "{{ metaobjects.professional_events[\"optimising-skin-health-for-better-treatment-outcomes\"].banner_title.value }}",
             "text": "<p><strong>with Dr Paris Acharya (BDS Hons, MBChB, MFDS, MRCS Ed)</strong></p><p>In this session, you’ll:</p><ul><li>Understand how barrier integrity, inflammation, hydration and baseline skin condition can influence treatment tolerance and recovery.&nbsp;</li><li>Explore how to assess whether a patient’s skin is ready for treatment.&nbsp;</li><li>Learn how to introduce active skincare progressively and build regimes around individual starting points and clinical objectives.</li></ul>",
@@ -221,6 +224,7 @@
         "event_3zAKRY": {
           "type": "event",
           "settings": {
+            "anchor_id": "#acne",
             "image": "{{ metaobjects.professional_events[\"acne-prone-skin\"].speaker_image.value }}",
             "heading": "{{ metaobjects.professional_events[\"acne-prone-skin\"].banner_title.value }}",
             "text": "<p><strong>with Lucy Stringer, Victoria Worthington and Amy Walters from KP Aesthetics, Hale</strong></p><p>In this session, you’ll:</p><ul><li>Understand the differing skincare needs of teenage, persistent and adult acne-prone skin.&nbsp;</li><li>Explore approaches for supporting skin undergoing prescription acne treatments.&nbsp;</li><li>Learn how experienced practitioners manage concerns including blemishes, excess sebum, visible pores, uneven texture, post-inflammatory hyperpigmentation and skin barrier tolerance.</li></ul>",
@@ -238,6 +242,7 @@
         "event_nEFhHK": {
           "type": "event",
           "settings": {
+            "anchor_id": "#photoprotection",
             "image": "{{ metaobjects.professional_events[\"the-science-of-advanced-photoprotection-introducing-aspa-fernblock\"].speaker_image.value }}",
             "heading": "{{ metaobjects.professional_events[\"the-science-of-advanced-photoprotection-introducing-aspa-fernblock\"].banner_title.value }}",
             "text": "<p><strong>with Dr. Emma Wedgeworth, Consultant Dermatologist</strong></p><p>In this session, you’ll:</p><ul><li>Understand the science and innovation behind Heliocare 360°, including the patented antioxidant technologies Fernblock® and ASPA-Fernblock® with Opti-D effect.</li><li>Learn how to make personalised photoprotection recommendations based on skin type, concerns, treatment needs and product preference.</li><li>Explore how the Heliocare 360° NO VAT*, NO COMPROMISE UK Skin Clinic Price Promise can support confident recommendation and retailing in clinic.</li></ul>",
@@ -255,6 +260,7 @@
         "event_YPKi8A": {
           "type": "event",
           "settings": {
+            "anchor_id": "#retinoids",
             "image": "{{ metaobjects.professional_events[\"retinoid-science-in-pigmentation-photoageing\"].speaker_image.value }}",
             "heading": "{{ metaobjects.professional_events[\"retinoid-science-in-pigmentation-photoageing\"].banner_title.value }}",
             "text": "<p><strong>with Dr Catherine Fairris BSc (Hons), MB ChB, MRCP, MSc (Aesth), PG Cert</strong></p><p>In this session, you’ll:</p><ul><li>Explore the science and clinical application of topical retinoids in pigmentation and photoageing.&nbsp;</li><li>Understand how formulation, bioavailability and delivery systems can influence retinoid performance.&nbsp;</li><li>Examine how barrier condition and patient selection can affect efficacy, tolerability and compliance.</li></ul>",
@@ -272,6 +278,7 @@
         "event_VHxbGC": {
           "type": "event",
           "settings": {
+            "anchor_id": "#marketing",
             "image": "{{ metaobjects.professional_events[\"data-driven-clinic-marketing\"].speaker_image.value }}",
             "heading": "{{ metaobjects.professional_events[\"data-driven-clinic-marketing\"].banner_title.value }}",
             "text": "<p><strong>with Lianne Sykes - Founder and Creative Director of Quirky Frog</strong></p><p>In this session, you’ll:</p><ul><li>Learn how to use the data already within your clinic to make smarter marketing decisions.&nbsp;</li><li>Identify opportunities to attract and engage the right patients more effectively.&nbsp;</li><li>Explore how clinic insight can help strengthen your reputation and support sustainable growth.</li></ul>",
