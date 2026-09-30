@@ -132,7 +132,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -165,15 +165,15 @@
         "text_p9AB9G": {
           "type": "text",
           "settings": {
-            "text": "<p>Give patients more value this Christmas with the limited-edition Collagen Activation Barrier+ Treatment Plan: a clinically proven three-step approach designed to support skin renewal and barrier health, and to enhance treatment results by up to 50%.<sup>1</sup></p>\n<p>For Christmas, the plan comes in an exclusive festive sleeve with a complimentary full-size ALLSKIN | MED Firming Eye Cream and ALLSKIN | MED Restore Cream, adding targeted eye care, hydration and skin-renewal benefits.</p>\n<ul>\n<li>\n<strong>Clinic price (PP):</strong> £117.50 ex VAT</li>\n<li>\n<strong>Christmas Gift RRP:</strong> £235</li>\n<li>\n<strong>Total value:</strong> £360, including £125 of complimentary full-size skincare</li>\n</ul>",
+            "text": "<ul>\n<li>\n<strong>Clinic price (PP):</strong> £117.50 ex VAT</li>\n<li>\n<strong>Christmas Gift RRP:</strong> £235.00</li>\n<li>\n<strong>Total value:</strong> £360.00</li>\n</ul>\n<p>Give patients more value this Christmas with the limited-edition Collagen Activation Barrier+ Treatment Plan: a clinically proven three-step approach designed to support skin renewal and barrier health, and to enhance treatment results by up to 50%.<sup>1</sup></p>\n<p>For Christmas, the plan comes in an exclusive festive sleeve with a complimentary full-size ALLSKIN | MED Firming Eye Cream and ALLSKIN | MED Restore Cream, adding targeted eye care, hydration and skin-renewal benefits.</p>",
             "text_style": "body"
           }
         },
         "button_YAT664": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Talk to us about Christmas Gifting",
+            "button_link": "#contact",
             "button_style_secondary": false
           }
         }
@@ -184,19 +184,104 @@
         "text_p9AB9G",
         "button_YAT664"
       ],
+      "custom_css": [
+        "li {list-style: none;}"
+      ],
       "name": "Image with text HTML",
       "settings": {
+        "anchor_id": "barrier",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 64,
+        "mobile_content_alignment": "center",
+        "padding_top": 32,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_html_hcaahh": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_Uz3D4x": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-gf-regenerating-ampoules.jpg",
+            "title": "Regenerating Ampoules",
+            "text": "<p>Formulated with high-potency SCA® PRO to support skin recovery, provide lasting hydration and visibly improve fine lines, wrinkles and firmness. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Dw6mRB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-barrier-defence-emulsion.jpg",
+            "title": "Barrier Defence Emulsion",
+            "text": "<p>An antioxidant, anti-ageing emulsion that hydrates, protects and strengthens the skin barrier for effective daily defence and healthier-looking skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dJ9zkJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-barrier-recovery-cream.jpg",
+            "title": "Barrier Recovery Cream",
+            "text": "<p>A deeply hydrating, antioxidant-rich cream that restores moisture, supports skin-barrier repair and helps improve comfort and resilience.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cCmWCh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-firming-eye-cream-free.jpg",
+            "title": "Firming Eye Cream",
+            "text": "<p>A lightweight cream-gel with SCA® PRO, peptides and hyaluronic acid to firm, brighten and smooth the eye area while reducing the appearance of fine lines, puffiness and dark circles.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Wcimdd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-restore-cream-free.jpg",
+            "title": "Restore Cream",
+            "text": "<p>An antioxidant-rich moisturiser with EDAFENCE®, RETINSPHERE® Technology and vitamins C and E to support skin renewal, improve hydration and protect against environmental damage.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Uz3D4x",
+        "column_Dw6mRB",
+        "column_dJ9zkJ",
+        "column_cCmWCh",
+        "column_Wcimdd"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "title": "What's inside",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
         "padding_bottom": 64
       }
     }
@@ -205,6 +290,7 @@
     "main",
     "image_banner_separate_Bttgif",
     "multicolumn_UKLaEE",
-    "image_with_text_html_3jAw7g"
+    "image_with_text_html_3jAw7g",
+    "multicolumn_html_hcaahh"
   ]
 }
