@@ -577,6 +577,39 @@
         "padding_top": 0,
         "padding_bottom": 64
       }
+    },
+    "rich_text_YyXPbG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TQRXrK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Supporting Your Christmas Retail Strategy",
+            "heading_size": "h2"
+          }
+        },
+        "text_kLQep6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From premium treatment plans to added-value patient gifts, our Christmas offers are designed to help you <strong>create compelling seasonal recommendations, increase retail opportunities and give patients even more reason to purchase through your clinic.</strong>&nbsp;</p><p>Speak to your Clinic Development Manager about our Cantabria Labs festive promotions, recommended stock levels and how to make the most of this year’s Christmas gifting opportunities.&nbsp;</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TQRXrK",
+        "text_kLQep6"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": "contact"
+      }
     }
   },
   "order": [
@@ -589,6 +622,7 @@
     "multicolumn_html_KdFNTP",
     "image_with_text_html_YKceDi",
     "multicolumn_html_MHTjKg",
-    "multicolumn_html_JR8cci"
+    "multicolumn_html_JR8cci",
+    "rich_text_YyXPbG"
   ]
 }
