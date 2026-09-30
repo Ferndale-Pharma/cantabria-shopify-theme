@@ -403,6 +403,176 @@
         "padding_top": 0,
         "padding_bottom": 64
       }
+    },
+    "image_with_text_html_YKceDi": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "caption_r998Cp": {
+          "type": "caption",
+          "settings": {
+            "caption": "Limited Edition",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_R89Gi9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Christmas Preparation Protocol",
+            "heading_size": "h2"
+          }
+        },
+        "text_car6EK": {
+          "type": "text",
+          "settings": {
+            "text": "<ul>\n<li>\n<strong>Clinic price (PP):</strong> £52.50 ex VAT</li>\n<li>\n<strong>Christmas Gift RRP:</strong> £105.00</li>\n<li>\n<strong>Total value:</strong> £139.00</li>\n</ul>\n<p>Complete the gifting collection with the limited-edition Preparation Protocol, combining a complete three-step skin preparation regimen with a complimentary full-size Hydrating Cleanser or Exfoliating Cleanser, selected to suit the patient’s skin.</p>\n<p>Designed to cleanse, refine and rebalance the skin ahead of active skincare and professional treatments, and delivered with an exclusive festive gift wrap, it offers a practical, high-value Christmas gift for patients looking to optimise their routine and treatment results.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_P6zJ8d": {
+          "type": "button",
+          "settings": {
+            "button_label": "Talk to us about Christmas Gifting",
+            "button_link": "#contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_r998Cp",
+        "heading_R89Gi9",
+        "text_car6EK",
+        "button_P6zJ8d"
+      ],
+      "custom_css": [
+        "li {list-style: none;}"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "anchor_id": "preparation",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 32,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_html_MHTjKg": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_BJcb9Y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-renewal-scrub.jpg",
+            "title": "Renewal Scrub",
+            "text": "<p>Provides surface exfoliation to remove dead skin cells, refine texture and clear superficial debris for smoother, more refined skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_L7xWdc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-renewal-pads.jpg",
+            "title": "Renewal Pads",
+            "text": "<p>Provide deeper exfoliation and rebalancing to resurface the skin, unclog pores and balance pH, helping to create a smoother, clearer and more radiant complexion. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_i4tFg4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-cleansers.jpg",
+            "title": "Hydrating / Exfoliating Cleanser",
+            "text": "<p>Selected according to skin type to remove impurities, excess oil and debris while preparing the skin for the next stages of the protocol.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BJcb9Y",
+        "column_L7xWdc",
+        "column_i4tFg4"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "title": "What's inside",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_html_JR8cci": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_d9ftqE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/placeholder-1000x500.jpg",
+            "title": "ALLSKIN | MED Clinic Offer: 5 Complimentary Christmas Gifting Packs",
+            "text": "<p>When you spend <strong>£500 ex VAT</strong> across ALLSKIN | MED. Each pack includes:</p>\n<ul>\n<li>1 × ALLSKIN | MED Barrier Defence Emulsion, worth £88.50\n</li>\n<li>Premium Cantabria Labs Christmas Gift Box</li>\n<li>Tissue paper, ribbon and gift card</li>\n</ul>\n<p><strong>Your Patient Offer:</strong> Gift patients a complimentary ALLSKIN | MED Barrier Defence Emulsion when they spend £125 or more on ALLSKIN | MED, presented in a premium Cantabria Labs Christmas Gift Box.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8pxVzK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/placeholder-1000x500_b1f40aa7-82ca-4683-9db7-4c78ee63eead.jpg",
+            "title": "Clinic Offer: 5 Complimentary Christmas Gifting Packs&nbsp;",
+            "text": "<p>When you spend <strong>£350 ex VAT</strong> across Heliocare, Biretix &amp; Endocare. Each pack includes:</p>\n<ul>\n<li>1 × ENDOCARE C Ferulic Serum, worth £55\n</li>\n<li>Premium Cantabria Labs Christmas Gift Box</li>\n<li>Tissue paper, ribbon and gift card</li>\n</ul>\n<p><strong>Your Patient Offer:</strong> Gift patients a complimentary ENDOCARE C Ferulic Serum when they spend £75 or more on Heliocare, Biretix &amp; Endocare, presented in a premium Cantabria Labs Christmas Gift Box.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_d9ftqE",
+        "column_8pxVzK"
+      ],
+      "custom_css": [
+        ".rte li {list-style: none; font-weight: 700;}"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "title": "More Value For Your Clinic This Christmas&nbsp;",
+        "heading_size": "h2",
+        "richtext": "<p>Stock up for the festive period and receive <strong>ready-to-gift skincare packs for your patients.</strong></p>",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -412,6 +582,9 @@
     "image_with_text_html_3jAw7g",
     "multicolumn_html_hcaahh",
     "image_with_text_html_yhHLht",
-    "multicolumn_html_KdFNTP"
+    "multicolumn_html_KdFNTP",
+    "image_with_text_html_YKceDi",
+    "multicolumn_html_MHTjKg",
+    "multicolumn_html_JR8cci"
   ]
 }
