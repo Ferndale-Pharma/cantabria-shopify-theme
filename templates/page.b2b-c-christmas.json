@@ -11,13 +11,200 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_separate_Bttgif": {
+      "type": "image-banner-separate",
+      "blocks": {
+        "text_RNpmR3": {
+          "type": "text",
+          "settings": {
+            "text": "CHRISTMAS GIFTING FOR CLINICS",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "heading_dWbqi3": {
+          "type": "heading",
+          "settings": {
+            "heading": "All Your Clinic Needs for Christmas Gifting",
+            "heading_size": "h1"
+          }
+        },
+        "text_DhrG8x": {
+          "type": "text",
+          "settings": {
+            "text": "Create more reasons for patients to purchase through your clinic this Christmas, with limited-edition Cantabria Labs promotions in festive packaging and added-value complimentary skincare.",
+            "text_style": "body"
+          }
+        },
+        "buttons_dXK9kJ": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_RNpmR3",
+        "heading_dWbqi3",
+        "text_DhrG8x",
+        "buttons_dXK9kJ"
+      ],
+      "name": "Image Banner v2",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": false
+      }
+    },
+    "multicolumn_UKLaEE": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_TgmfBY": {
+          "type": "column",
+          "settings": {
+            "title": "Christmas Collagen Activation Barrier+ Treatment Plan",
+            "text": "<p>In festive packaging with added value complimentary skincare!</p>",
+            "link_label": "View offer",
+            "link": "#barrier"
+          }
+        },
+        "column_kLVNbr": {
+          "type": "column",
+          "settings": {
+            "title": "Christmas Collagen Activation Treatment Plan",
+            "text": "<p>In festive packaging with added value complimentary skincare!</p>",
+            "link_label": "View offer",
+            "link": "#collagen"
+          }
+        },
+        "column_467GYt": {
+          "type": "column",
+          "settings": {
+            "title": "Christmas Preparation Protocol",
+            "text": "<p>In festive packaging with ALLSKIN | MED Cleanser!</p>",
+            "link_label": "View offer",
+            "link": "#preparation"
+          }
+        },
+        "column_7ictdB": {
+          "type": "column",
+          "settings": {
+            "title": "Ready-to-gift skincare packs for your patients",
+            "text": "<p>Presented in a premium Cantabria Labs Christmas Gift Box.</p>",
+            "link_label": "View offer",
+            "link": "#packs"
+          }
+        }
+      },
+      "block_order": [
+        "column_TgmfBY",
+        "column_kLVNbr",
+        "column_467GYt",
+        "column_7ictdB"
+      ],
+      "custom_css": [
+        "h3,.link__wrapper {padding-left: 1.5rem; padding-right: 1.5rem;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Limited-edition value for your patients this festive season",
+        "heading_size": "h2",
+        "richtext": "<p><strong>Browse the offers here:</strong></p>",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "image_with_text_html_3jAw7g": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "caption_CXmWJD": {
+          "type": "caption",
+          "settings": {
+            "caption": "Limited Edition",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_cBdjcT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Christmas Collagen Activation Barrier+ Treatment Plan",
+            "heading_size": "h2"
+          }
+        },
+        "text_p9AB9G": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give patients more value this Christmas with the limited-edition Collagen Activation Barrier+ Treatment Plan: a clinically proven three-step approach designed to support skin renewal and barrier health, and to enhance treatment results by up to 50%.<sup>1</sup></p>\n<p>For Christmas, the plan comes in an exclusive festive sleeve with a complimentary full-size ALLSKIN | MED Firming Eye Cream and ALLSKIN | MED Restore Cream, adding targeted eye care, hydration and skin-renewal benefits.</p>\n<ul>\n<li>\n<strong>Clinic price (PP):</strong> £117.50 ex VAT</li>\n<li>\n<strong>Christmas Gift RRP:</strong> £235</li>\n<li>\n<strong>Total value:</strong> £360, including £125 of complimentary full-size skincare</li>\n</ul>",
+            "text_style": "body"
+          }
+        },
+        "button_YAT664": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_CXmWJD",
+        "heading_cBdjcT",
+        "text_p9AB9G",
+        "button_YAT664"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_separate_Bttgif",
+    "multicolumn_UKLaEE",
+    "image_with_text_html_3jAw7g"
   ]
 }
