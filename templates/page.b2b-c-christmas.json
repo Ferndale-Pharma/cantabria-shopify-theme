@@ -267,6 +267,7 @@
       ],
       "name": "Multicolumn HTML",
       "settings": {
+        "anchor_id": "",
         "title": "What's inside",
         "heading_size": "h2",
         "richtext": "",
@@ -386,6 +387,7 @@
       ],
       "name": "Multicolumn HTML",
       "settings": {
+        "anchor_id": "",
         "title": "What's inside",
         "heading_size": "h2",
         "richtext": "",
@@ -505,6 +507,7 @@
       ],
       "name": "Multicolumn HTML",
       "settings": {
+        "anchor_id": "",
         "title": "What's inside",
         "heading_size": "h2",
         "richtext": "",
@@ -556,6 +559,7 @@
       ],
       "name": "Multicolumn HTML",
       "settings": {
+        "anchor_id": "packs",
         "title": "More Value For Your Clinic This Christmas&nbsp;",
         "heading_size": "h2",
         "richtext": "<p>Stock up for the festive period and receive <strong>ready-to-gift skincare packs for your patients.</strong></p>",
