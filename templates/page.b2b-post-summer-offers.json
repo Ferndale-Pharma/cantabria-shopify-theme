@@ -23,7 +23,7 @@
         "heading_Jpd9Pa": {
           "type": "heading",
           "settings": {
-            "heading": "Support Post-Summer Skin Correction in Your Clinic with ALLSKIN | MED",
+            "heading": "{{ page.metafields.custom.custom_page_title.value }}",
             "heading_size": "h1"
           }
         },
@@ -358,6 +358,7 @@
       ],
       "name": "Image with text HTML",
       "settings": {
+        "anchor_id": "",
         "image": "shopify://shop_images/FERN-IMG-00287_CL_PostSummerSkinCorrection_ProductImage_1440x1440px_Sept26-_2_aaa97683-bb35-4cd3-ab3e-f24c648bd9d5.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -414,6 +415,7 @@
       ],
       "name": "Multicolumn HTML",
       "settings": {
+        "anchor_id": "",
         "title": "",
         "heading_size": "h1",
         "richtext": "",
@@ -587,6 +589,7 @@
       ],
       "name": "Image with text HTML",
       "settings": {
+        "anchor_id": "",
         "image": "shopify://shop_images/FERN-IMG-00288_CL_TextureRepairRegime_ProductImage_1440x1440px_Sept26-_2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -643,6 +646,7 @@
       ],
       "name": "Multicolumn HTML",
       "settings": {
+        "anchor_id": "",
         "title": "",
         "heading_size": "h1",
         "richtext": "",
