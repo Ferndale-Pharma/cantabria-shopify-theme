@@ -17,13 +17,23 @@
         "padding_bottom": 28
       }
     },
+    "custom_liquid_zQHeXW": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% if page.url contains \"tell-me-more\" %}\n<div class=\"page-width\" style=\"background-color: #EFEFEF; text-align:center; padding-top: 1rem; padding-bottom: 1rem;\">\n<h2 >Thank you, someone will be in touch shortly.</h2>\n<h3>In the meantime, check out the offers below...</h3>\n</div>\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner_separate_hq8rQR": {
       "type": "image-banner-separate",
       "blocks": {
         "heading_Jpd9Pa": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.metafields.custom.custom_page_title.value }}",
+            "heading": "Support Post-Summer Skin Correction in Your Clinic with ALLSKIN | MED&nbsp;",
             "heading_size": "h1"
           }
         },
@@ -964,6 +974,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_zQHeXW",
     "image_banner_separate_hq8rQR",
     "rich_text_aq3WJp",
     "rich_text_cpn7bE",
