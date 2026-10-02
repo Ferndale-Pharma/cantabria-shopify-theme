@@ -584,33 +584,6 @@
         "padding_bottom": 16
       }
     },
-    "button_row_rFhHWf": {
-      "type": "button-row",
-      "blocks": {
-        "button_XAH8dj": {
-          "type": "button",
-          "settings": {
-            "button_label": "Talk to us about Christmas Gifting",
-            "button_link": "#contact",
-            "button_style": "primary",
-            "color_scheme": "",
-            "open_new_tab": false
-          }
-        }
-      },
-      "block_order": [
-        "button_XAH8dj"
-      ],
-      "name": "Button row",
-      "settings": {
-        "color_scheme": "",
-        "desktop_alignment": "center",
-        "mobile_layout": "stacked",
-        "button_gap": 16,
-        "padding_top": 0,
-        "padding_bottom": 64
-      }
-    },
     "rich_text_YyXPbG": {
       "type": "rich-text",
       "blocks": {
@@ -673,7 +646,6 @@
     "image_with_text_html_YKceDi",
     "multicolumn_html_MHTjKg",
     "multicolumn_html_JR8cci",
-    "button_row_rFhHWf",
     "rich_text_YyXPbG",
     "1790774719cb55995d"
   ]
