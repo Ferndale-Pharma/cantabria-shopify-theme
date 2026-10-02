@@ -63,8 +63,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00296_ALLSKINMED_PostSummerCorrection_LandingPageAssets_Sep26_01.jpg",
-        "mobile_image": "shopify://shop_images/FERN-IMG-00296_ALLSKINMED_PostSummerCorrection_LandingPageAssets_Sep26_02.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00303_CL_PostSummerSkinRenewal_WebsiteAssets_Oct26_01.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00303_CL_PostSummerSkinRenewal_WebsiteAssets_Oct26_02.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -130,7 +130,7 @@
         "column_9Yzga7": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/FERN-IMG-00296.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00303_CL_PostSummerSkinRenewal_WebsiteAssets_Oct26_03.jpg",
             "title": "Post Summer Skin Renewal with ENDOCARE&nbsp;",
             "text": "<p>A targeted approach to restoring hydration, supporting controlled skin renewal and improving overall skin quality</p>",
             "link_label": "View offer",
@@ -141,7 +141,7 @@
         "column_kHaf6k": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/FERN-IMG-00296b.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00303_CL_PostSummerSkinRenewal_WebsiteAssets_Oct26_04.jpg",
             "title": "Support Acne-Prone Skin with BIRETIX",
             "text": "<p>Bring together cleansing and targeted anti-blemish treatment with daily photoprotection</p>",
             "link_label": "View offer",
@@ -280,7 +280,7 @@
       "name": "Image with text HTML",
       "settings": {
         "anchor_id": "",
-        "image": "shopify://shop_images/FERN-IMG-00287_CL_PostSummerSkinCorrection_ProductImage_1440x1440px_Sept26-_2_aaa97683-bb35-4cd3-ab3e-f24c648bd9d5.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00303_CL_PostSummerSkinRenewal_WebsiteAssets_Oct26_05.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -511,7 +511,7 @@
       "name": "Image with text HTML",
       "settings": {
         "anchor_id": "",
-        "image": "shopify://shop_images/FERN-IMG-00288_CL_TextureRepairRegime_ProductImage_1440x1440px_Sept26-_2.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00303_CL_PostSummerSkinRenewal_WebsiteAssets_Oct26_06.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -752,7 +752,7 @@
       "name": "Image with text HTML",
       "settings": {
         "anchor_id": "",
-        "image": "shopify://shop_images/FERN-IMG-00288_CL_TextureRepairRegime_ProductImage_1440x1440px_Sept26-_2.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00303_CL_PostSummerSkinRenewal_WebsiteAssets_Oct26_07.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

@@ -124,7 +124,8 @@
         "column_jyjJpM"
       ],
       "custom_css": [
-        ".multicolumn-card__image-wrapper {max-width: 50px;}"
+        ".multicolumn-card__image-wrapper {max-width: 50px;}",
+        ".multicolumn .button {margin-top: 0;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -142,6 +143,32 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "rich_text_JPecti": {
+      "type": "rich-text",
+      "blocks": {
+        "text_BrxMKK": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"#unavailable\" title=\"#unavailable\">Can't make the date?</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_BrxMKK"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
         "padding_top": 0,
         "padding_bottom": 32,
         "container_id": ""
@@ -373,13 +400,47 @@
         "padding_bottom": 64
       }
     },
+    "collapsible_content_html_LrWwHL": {
+      "type": "collapsible-content-html",
+      "blocks": {
+        "collapsible_row_FKc99P": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can't make the date?",
+            "icon": "question_mark",
+            "row_content": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/262744090598366\"></script>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_FKc99P"
+      ],
+      "disabled": true,
+      "name": "Collapsible Content HTML",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "mobile_layout": "image_first",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
     "rich_text_hfMKL3": {
       "type": "rich-text",
       "blocks": {
         "heading_6jxKJb": {
           "type": "heading",
           "settings": {
-            "heading": "Explore more Skin Health Education Series webinars",
+            "heading": "Explore More Skin Health Education Series Webinars",
             "heading_size": "h2"
           }
         },
@@ -406,6 +467,10 @@
         "text_43aYx6",
         "button_aAy43G"
       ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 100%;}",
+        "@media screen and (min-width: 750px) {p {max-width: 78rem; margin: 1rem auto; }}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -423,6 +488,7 @@
     "image_banner_separate_8XX4Bq",
     "rich_text_C8dG76",
     "multicolumn_YLcxAV",
+    "rich_text_JPecti",
     "rich_text_rTBxYe",
     "cl_single_image_jg7JPt",
     "rich_text_LVy4JY",
@@ -432,6 +498,7 @@
     "rich_text_Qe4gWj",
     "rich_text_XMPMUN",
     "custom_liquid_iiLJ9n",
+    "collapsible_content_html_LrWwHL",
     "rich_text_hfMKL3"
   ]
 }
