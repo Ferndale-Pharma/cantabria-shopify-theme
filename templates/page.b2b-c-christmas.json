@@ -63,6 +63,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00302_CL_ProfessionalChristmasGifting_Banner_Oct26.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00302_CL_ProfessionalChristmasGifting_Banner_Oct26_1080x1080px.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -166,7 +168,7 @@
         "text_p9AB9G": {
           "type": "text",
           "settings": {
-            "text": "<ul>\n<li>\n<strong>Professional Price:</strong> £117.50 ex VAT</li>\n<li>\n<strong>Christmas Gift RRP:</strong> £235</li>\n<li>\n<strong>Total value:</strong> £360</li>\n</ul>\n<p>Give patients more value this Christmas with the limited-edition Collagen Activation Barrier+ Treatment Plan: a clinically proven three-step approach designed to support skin renewal and barrier health, and to enhance treatment results by up to 50%.<sup>1</sup></p>\n<p>For Christmas, the plan comes in an exclusive festive sleeve with a complimentary full-size ALLSKIN | MED Firming Eye Cream and ALLSKIN | MED Restore Cream, adding targeted eye care, hydration and skin-renewal benefits.</p>",
+            "text": "<ul>\n<li>\n<strong>Professional Price:</strong> £117.50 ex VAT</li>\n<li>\n</li>\n</ul>\n<p>Give patients more value this Christmas with the limited-edition Collagen Activation Barrier+ Treatment Plan: a clinically proven three-step approach designed to support skin renewal and barrier health, and to enhance treatment results by up to 50%.<sup>1</sup></p>\n<p>For Christmas, the plan comes in an exclusive festive sleeve with a complimentary full-size ALLSKIN | MED Firming Eye Cream and ALLSKIN | MED Restore Cream, adding targeted eye care, hydration and skin-renewal benefits.</p>",
             "text_style": "body"
           }
         },
@@ -191,6 +193,7 @@
       "name": "Image with text HTML",
       "settings": {
         "anchor_id": "barrier",
+        "image": "shopify://shop_images/FERN-IMG-00302_CantbariaLabs_ASMCAB__FestiveSleeve_ProductImage_1440x1440px_Oct26.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -308,7 +311,7 @@
         "text_LymLHr": {
           "type": "text",
           "settings": {
-            "text": "<ul>\n<li>\n<strong>Professional Price:</strong> £74 ex VAT</li>\n<li>\n<strong>Christmas Gift RRP:</strong> £148</li>\n<li>\n<strong>Total value:</strong> £198</li>\n</ul>\n<p>For patients looking for a targeted anti-ageing gift, the Christmas Collagen Activation Treatment Plan combines a clinically proven two-step regime with a complimentary full-size ALLSKIN | MED Firming Eye Cream.</p>\n<p>Designed to support collagen activation, improve visible signs of ageing and enhance treatment results by up to 50%<sup>1</sup>, this limited edition plan comes with a festive gift wrap and offers added Christmas value with targeted care for the delicate eye area. </p>",
+            "text": "<ul>\n<li>\n<strong>Professional Price:</strong> £74 ex VAT</li>\n<li>\n</li>\n</ul>\n<p>For patients looking for a targeted anti-ageing gift, the Christmas Collagen Activation Treatment Plan combines a clinically proven two-step regime with a complimentary full-size ALLSKIN | MED Firming Eye Cream.</p>\n<p>Designed to support collagen activation, improve visible signs of ageing and enhance treatment results by up to 50%<sup>1</sup>, this limited edition plan comes with a festive gift wrap and offers added Christmas value with targeted care for the delicate eye area. </p>",
             "text_style": "body"
           }
         },
@@ -333,6 +336,7 @@
       "name": "Image with text HTML",
       "settings": {
         "anchor_id": "collagen",
+        "image": "shopify://shop_images/FERN-IMG-00302_CantabriaLabs_ASMCAP_FestiveSleeve_ProductImage_1440x1440px_Oct26.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -428,7 +432,7 @@
         "text_car6EK": {
           "type": "text",
           "settings": {
-            "text": "<ul>\n<li>\n<strong>Professional Price:</strong> £52.50 ex VAT</li>\n<li>\n<strong>Christmas Gift RRP:</strong> £105</li>\n<li>\n<strong>Total value:</strong> £139</li>\n</ul>\n<p>Complete the gifting collection with the limited-edition Preparation Protocol, combining a complete three-step skin preparation regimen with a complimentary full-size Hydrating Cleanser or Exfoliating Cleanser, selected to suit the patient’s skin.</p>\n<p>Designed to cleanse, refine and rebalance the skin ahead of active skincare and professional treatments, and delivered with an exclusive festive gift wrap, it offers a practical, high-value Christmas gift for patients looking to optimise their routine and treatment results.</p>",
+            "text": "<ul>\n<li>\n<strong>Professional Price:</strong> £52.50 ex VAT</li>\n</ul>\n<p>Complete the gifting collection with the limited-edition Preparation Protocol, combining a complete three-step skin preparation regimen with a complimentary full-size Hydrating Cleanser or Exfoliating Cleanser, selected to suit the patient’s skin.</p>\n<p>Designed to cleanse, refine and rebalance the skin ahead of active skincare and professional treatments, and delivered with an exclusive festive gift wrap, it offers a practical, high-value Christmas gift for patients looking to optimise their routine and treatment results.</p>",
             "text_style": "body"
           }
         },
@@ -453,6 +457,7 @@
       "name": "Image with text HTML",
       "settings": {
         "anchor_id": "preparation",
+        "image": "shopify://shop_images/FERN-IMG-00302_CantabriaLabs_ASMPrepProtocol_FestiveSleeve_ProductImage_1440x1440px_Oct26.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
