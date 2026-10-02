@@ -259,7 +259,7 @@
         "text_KVKf9B": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>A targeted approach to restoring hydration, supporting controlled skin renewal and improving overall skin quality. </strong></p><p>A clinically-proven three-step skincare regime combining controlled skin renewal, barrier support and very high-level daily photoprotection to provide a balanced post-summer approach to renewal, hydration and barrier support. </p><br><h4 style=\"font-weight:700;\">OVER 30% TOTAL SAVING FOR YOU AND YOUR CUSTOMERS*</h4>",
+            "text": "<p><strong>A targeted approach to restoring hydration, supporting controlled skin renewal and improving overall skin quality. </strong></p><p>A clinically-proven three-step skincare regime combining controlled skin renewal, barrier support and very high-level daily photoprotection to provide a balanced post-summer approach to renewal, hydration and barrier support. </p><br><h4 style=\"font-weight:700;\">UP TO 35% TOTAL SAVING FOR YOU AND YOUR CUSTOMERS*</h4>",
             "text_style": "body"
           }
         },
@@ -490,7 +490,7 @@
         "text_GJr7U9": {
           "type": "text",
           "settings": {
-            "text": "<p><b>Simple 3-step regimes to support acne-prone skin.</b></p><p>Science-led skincare solutions designed, and clinically proven, to help manage blemishes and support healthier-looking skin at every stage of the acne-prone skin journey. </p><br><h4 style=\"font-weight:700;\">OVER 25% TOTAL SAVING FOR YOU AND YOUR PATIENTS**</h4>",
+            "text": "<p><b>Simple 3-step regimes to support acne-prone skin.</b></p><p>Science-led skincare solutions designed, and clinically proven, to help manage blemishes and support healthier-looking skin at every stage of the acne-prone skin journey. </p><br><h4 style=\"font-weight:700;\">UP TO 30% TOTAL SAVING FOR YOU AND YOUR PATIENTS**</h4>",
             "text_style": "body"
           }
         },
@@ -533,7 +533,7 @@
           "type": "column",
           "settings": {
             "title": "CLEANSE",
-            "text": "<h4 style=\"color:#000;\"><strong>BIRETIX Cleanser 400ml</strong></h4> \n<h4 style=\"font-weight:700;\">BUY</h4>\n<p></p>",
+            "text": "<h4 style=\"color:#000;\"><strong>BIRETIX Cleanser 400ml</strong></h4> \n<h4 style=\"font-weight:700;\">BUY</h4>\n<p>Gentle, purifying cleanser developed for acne-prone skin to remove excess oil, impurities and daily build-up without over-drying.</p>",
             "link_label": "",
             "link": ""
           }
@@ -731,7 +731,7 @@
         "text_KTJ9Ej": {
           "type": "text",
           "settings": {
-            "text": "<p><b>Designed for dry, sensitised or compromised acne-prone skin during prescription retinoid treatment.</b></p><p>Combine gentle cleansing with intensive barrier repair and targeted lip care. The Isorepair regime is designed to help maintain hydration, reduce dryness and irritation and improve skin comfort and tolerability during retinoid treatment </p><br><h4 style=\"font-weight:700;\">OVER 25% TOTAL SAVING FOR YOU AND YOUR PATIENTS**</h4>",
+            "text": "<p><b>Designed for dry, sensitised or compromised acne-prone skin during prescription retinoid treatment.</b></p><p>Combine gentle cleansing with intensive barrier repair and targeted lip care. The Isorepair regime is designed to help maintain hydration, reduce dryness and irritation and improve skin comfort and tolerability during retinoid treatment </p>",
             "text_style": "body"
           }
         },
@@ -1004,7 +1004,7 @@
           "settings": {
             "heading": "References",
             "icon": "question_mark",
-            "row_content": "<p>* “Over 30%” saving is based on comparing the combined SRP and Trade Price of the three products with the Promotional Consumer Price and Professional Promotional Bundle Price respectively, using ALLSKIN | MED Pigment Control Emulsion Retinoid Potency 1. Saving varies by strength selected.&nbsp;</p><p>** “Over 25%” saving is based on comparing the combined SRP and Trade Price of the three products with the Promotional Consumer Price and Professional Promotional Bundle Price respectively.&nbsp;</p>",
+            "row_content": "<p>* “Up to 35%” saving is based on comparing the combined SRP and Trade Price of the three products with the Promotional Consumer Price and Professional Promotional Bundle Price respectively.&nbsp;</p><p>** “Up to 30%” saving is based on comparing the combined SRP and Trade Price of the three products with the Promotional Consumer Price and Professional Promotional Bundle Price respectively.&nbsp;</p>",
             "page": ""
           }
         }
