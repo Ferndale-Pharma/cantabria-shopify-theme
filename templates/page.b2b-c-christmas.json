@@ -109,6 +109,7 @@
         },
         "column_7ictdB": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Ready-to-gift skincare packs for your patients",
             "text": "<p>Presented in a premium Cantabria Labs Christmas Gift Box.</p>",
@@ -134,7 +135,7 @@
         "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
@@ -560,6 +561,7 @@
         "column_d9ftqE",
         "column_8pxVzK"
       ],
+      "disabled": true,
       "custom_css": [
         ".rte li {list-style: none; font-weight: 700;}"
       ],
