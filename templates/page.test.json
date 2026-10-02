@@ -85,6 +85,9 @@
               "heliocare-360-invisible-spray",
               "heliocare-360-water-gel"
             ],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
             "star_rating": "5_star",
             "show_review_media": true,
             "display_order": "media_first",
@@ -107,7 +110,8 @@
             "arrows_color": "#000000",
             "transition_speed": 5,
             "header_text": "Customers are saying",
-            "show_average_rating": true
+            "show_average_rating": true,
+            "rating_display": "default"
           }
         }
       },
