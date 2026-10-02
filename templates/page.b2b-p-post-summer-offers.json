@@ -899,7 +899,7 @@
           "settings": {
             "image": "shopify://shop_images/cl-blue-icon-marketing.png",
             "title": "Patient-Facing Marketing & Promotional Support",
-            "text": "<p>Help communicate the value of professional skincare beyond the clinic.</p>",
+            "text": "<p>Help communicate the value of professional skincare beyond the pharmacy.</p>",
             "link_label": "",
             "link": ""
           }
@@ -908,8 +908,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/cl-blue-icon-business-support.png",
-            "title": "Dedicated Clinic Development Support",
-            "text": "<p>Practical support to help introduce and grow ALLSKIN | MED within your clinic.</p>",
+            "title": "Dedicated Business Development Support",
+            "text": "<p>Practical support to help introduce and grow Cantabria Labs within your pharmacy.</p>",
             "link_label": "",
             "link": ""
           }
@@ -929,7 +929,7 @@
       "settings": {
         "title": "More Than Just Promotions",
         "heading_size": "h2",
-        "richtext": "<p><strong>Supporting you and your clinic&nbsp;</strong></p><p>We're here to help you make the most of the post-summer skin correction opportunity and support stronger, longer-term patient relationships.&nbsp;</p>",
+        "richtext": "<p><strong>Supporting you and your pharmacy&nbsp;</strong></p><p>We're here to help you make the most of the post-summer skin correction opportunity and support stronger, longer-term customer relationships.&nbsp;</p>",
         "narrow_text": true,
         "image_width": "third",
         "image_ratio": "adapt",
@@ -952,14 +952,14 @@
         "heading_JkAmaE": {
           "type": "heading",
           "settings": {
-            "heading": "Speak to Our Clinic Development Team",
+            "heading": "Speak to Our Business Development Team",
             "heading_size": "h2"
           }
         },
         "text_jFTte4": {
           "type": "text",
           "settings": {
-            "text": "<p>Whether you're interested in the current post-summer promotions, introducing ALLSKIN | MED into your clinic or simply finding out more, we're here to help.<br/><br/><strong>Complete the short form below and a member of our Clinic Development Team will contact you to discuss the opportunity with no obligation.</strong></p>"
+            "text": "<p>Whether you're interested in the current post-summer promotions, introducing Cantabria Labs into your pharmacy or simply finding out more, we're here to help.<br/><br/><strong>Complete the short form below and a member of our Business Development Team will contact you to discuss the opportunity with no obligation.</strong></p>"
           }
         }
       },
