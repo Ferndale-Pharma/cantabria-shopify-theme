@@ -11,13 +11,158 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_separate_cMrQHt": {
+      "type": "image-banner-separate",
+      "blocks": {
+        "text_w9ajPH": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "CHRISTMAS GIFTING FOR CLINICS",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "heading_TbPwtW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Christmas Gifting with Cantabria Labs",
+            "heading_size": "h1"
+          }
+        },
+        "text_iHTrLb": {
+          "type": "text",
+          "settings": {
+            "text": "Limited-edition value-added offer for your patients this festive season",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_yRKaGb": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "View offer",
+            "button_link_1": "#offer",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_w9ajPH",
+        "heading_TbPwtW",
+        "text_iHTrLb",
+        "buttons_yRKaGb"
+      ],
+      "name": "Image Banner v2",
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00302_CL_ProfessionalChristmasGifting_Banner_Oct26.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00302_CL_ProfessionalChristmasGifting_Banner_Oct26_1080x1080px.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": false
+      }
+    },
+    "rich_text_GMhNTF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_By98gc": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_cj7xzX": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Create more reasons for patients to purchase through your pharmacy this Christmas with this limited-edition Cantabria Labs promotion featuring fantastic festive packing and added-value complimentary skincare.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_By98gc",
+        "text_cj7xzX"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "image_with_text_html_GJ4Raw": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_48PcK6": {
+          "type": "heading",
+          "settings": {
+            "heading": "&nbsp;Get 5 Complimentary Christmas Gifting Packs",
+            "heading_size": "h2"
+          }
+        },
+        "text_XL4M4q": {
+          "type": "text",
+          "settings": {
+            "text": "<h3 style=\"font-weight:700; color: #000;\">When you spend £350 ex VAT across Heliocare, Biretix &amp; Endocare</h3>\n<p>Each pack includes:</p>\n<ul>\n<li>1 x ENDOCARE C Ferulic Serum - worth £55</li>\n<li>Premium Cantabria Labs Christmas Gift Box</li>\n<li>Tissue paper, ribbon and gift card</li>\n</ul>\n<p><strong>Your customer offer:</strong> Gift customers a complimentary Endocare C Ferulic Serum when they spend £75 or more on Cantabria Labs Dermatological Skincare. Presented in a premium Cantabria Labs Christmas Gift Box.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_3Ld3di": {
+          "type": "button",
+          "settings": {
+            "button_label": "Talk to us about Christmas Gifting",
+            "button_link": "#contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_48PcK6",
+        "text_XL4M4q",
+        "button_3Ld3di"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "anchor_id": "offer",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_separate_cMrQHt",
+    "rich_text_GMhNTF",
+    "image_with_text_html_GJ4Raw"
   ]
 }
