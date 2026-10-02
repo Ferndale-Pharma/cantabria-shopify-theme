@@ -419,6 +419,7 @@
       "disabled": true,
       "name": "Collapsible Content HTML",
       "settings": {
+        "anchor_id": "unavailable",
         "caption": "",
         "heading": "",
         "heading_size": "h1",
