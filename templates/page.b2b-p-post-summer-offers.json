@@ -33,21 +33,21 @@
         "heading_Jpd9Pa": {
           "type": "heading",
           "settings": {
-            "heading": "Support Post-Summer Skin Correction in Your Clinic with ALLSKIN | MED&nbsp;",
+            "heading": "Support Post-Summer Skin Renewal in your Pharmacy with Cantabria Labs",
             "heading_size": "h1"
           }
         },
         "text_BjFmFG": {
           "type": "text",
           "settings": {
-            "text": "You and your patients save up to 30%* with these limited-time added value promotions&nbsp;",
+            "text": "You and your customers can save up to 35%* with these limited-time added value promotions",
             "text_style": "subtitle"
           }
         },
         "buttons_zabGg6": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SPEAK TO OUR CLINIC DEVELOPMENT TEAM",
+            "button_label_1": "Speak to our Business Development Team",
             "button_link_1": "#enquire",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -83,7 +83,7 @@
         "text_8VwJep": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>As patients return to clinic looking to address the visible effects of summer, support their next steps with ALLSKIN | MED homecare, designed specifically for medical aesthetic clinics.</strong><br/></p><p>This autumn, discover two targeted post-summer regimes - <a href=\"#pigment\" title=\"#pigment\">ALLSKIN | MED Post-Summer Pigment Correction Bundle</a> and <a href=\"#texture\" title=\"#texture\">ALLSKIN | MED Texture Repair Regime</a> - combining clinic-exclusive, science-led skincare with added-value promotions for both your clinic and your patients.</p>"
+            "text": "<p><strong>This autumn, discover targeted post-summer regimes combining clinic-exclusive, science-led skincare with added-value promotions for both your pharmacy and your customers.</strong></p>"
           }
         },
         "button_QJ77yw": {
@@ -124,95 +124,6 @@
         "container_id": ""
       }
     },
-    "rich_text_cpn7bE": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_kxEdkg": {
-          "type": "heading",
-          "settings": {
-            "heading": "Interested in offering ALLSKIN | MED Post-Summer Skin Correction in your clinic?&nbsp;",
-            "heading_size": "h2"
-          }
-        },
-        "text_88fncW": {
-          "type": "text",
-          "settings": {
-            "text": "<p>A member of our expert Clinic Development Team will talk you through the products, promotion and wider ALLSKIN | MED opportunity, including the education, marketing and ongoing support available to your clinic.</p>"
-          }
-        },
-        "button_4qxicr": {
-          "type": "button",
-          "settings": {
-            "button_label": "SPEAK TO OUR CLINIC DEVELOPMENT TEAM",
-            "button_link": "#enquire",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "heading_iBWzJA": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "<strong>Added value for your clinic and your patients</strong>",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_kxEdkg",
-        "text_88fncW",
-        "button_4qxicr",
-        "heading_iBWzJA"
-      ],
-      "disabled": true,
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
-        "full_width": true,
-        "is_heading": false,
-        "padding_top": 32,
-        "padding_bottom": 32,
-        "container_id": ""
-      }
-    },
-    "rich_text_pqDBbx": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_jqnBXj": {
-          "type": "heading",
-          "settings": {
-            "heading": "Two targeted, medical-grade post-summer skin correction regimes",
-            "heading_size": "h2"
-          }
-        },
-        "text_YVy9jt": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><strong>Help target uneven pigmentation and visible signs of photodamage&nbsp;</strong><br/><br/>A targeted three-step homecare regime combining pigment correction, barrier support and very high-level daily photoprotection to help promote clearer, more even-looking skin while protecting against further light-induced damage.&nbsp;</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_jqnBXj",
-        "text_YVy9jt"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 16,
-        "container_id": ""
-      }
-    },
     "multicolumn_with_buttons_7efPwy": {
       "type": "multicolumn-with-buttons",
       "blocks": {
@@ -220,10 +131,10 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00296.jpg",
-            "title": "Post-Summer Pigment Correction",
-            "text": "<p><strong>For uneven pigmentation and visible signs of photodamage</strong></p>",
+            "title": "Post Summer Skin Renewal with ENDOCARE&nbsp;",
+            "text": "<p>A targeted approach to restoring hydration, supporting controlled skin renewal and improving overall skin quality</p>",
             "link_label": "View offer",
-            "link": "#pigment",
+            "link": "#renewal",
             "link_new_tab": false
           }
         },
@@ -231,10 +142,10 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00296b.jpg",
-            "title": "Post-Summer Texture Repair",
-            "text": "<p><strong>For uneven texture and visible signs of skin ageing</strong></p>",
+            "title": "Support Acne-Prone Skin with BIRETIX",
+            "text": "<p>Bring together cleansing and targeted anti-blemish treatment with daily photoprotection</p>",
             "link_label": "View offer",
-            "link": "#texture",
+            "link": "#acne",
             "link_new_tab": false
           }
         }
@@ -273,7 +184,7 @@
         "heading_Jyjkpt": {
           "type": "heading",
           "settings": {
-            "heading": "For Post-Summer Pigmentation Correction",
+            "heading": "Post Summer Skin Renewal with ENDOCARE",
             "heading_size": "h2"
           }
         },
@@ -298,7 +209,7 @@
         "is_heading": false,
         "padding_top": 12,
         "padding_bottom": 12,
-        "container_id": "pigment"
+        "container_id": "renewal"
       }
     },
     "rich_text_Hcthyg": {
@@ -315,7 +226,7 @@
         "text_xh3YMz": {
           "type": "text",
           "settings": {
-            "text": "<h4><strong>Added-value promotion available for professional skin clinics</strong><br/></h4><p>Designed for you to pass on to your customers:</p>"
+            "text": "<h4><strong>Added-value promotion available for Pharmacy</strong></h4><p>Designed for you to pass on to your customers:</p>"
           }
         }
       },
@@ -341,21 +252,21 @@
         "heading_jMR9mE": {
           "type": "heading",
           "settings": {
-            "heading": "ALLSKIN | MED Post-Summer Pigmentation Correction Bundle",
+            "heading": "ENDOCARE Post-Summer Skin Renewal Bundle",
             "heading_size": "h2"
           }
         },
         "text_KVKf9B": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Help target uneven pigmentation and visible signs of photodamage</strong></p><p>A targeted three-step homecare regime combining pigment correction, barrier support and very high-level daily photoprotection to help promote clearer, more even-looking skin while protecting against further light-induced damage.</p><br><h4 style=\"font-weight:700;\">OVER 30% TOTAL SAVING FOR YOU AND YOUR PATIENTS*</h4>",
+            "text": "<p><strong>A targeted approach to restoring hydration, supporting controlled skin renewal and improving overall skin quality. </strong></p><p>A clinically-proven three-step skincare regime combining controlled skin renewal, barrier support and very high-level daily photoprotection to provide a balanced post-summer approach to renewal, hydration and barrier support. </p><br><h4 style=\"font-weight:700;\">OVER 30% TOTAL SAVING FOR YOU AND YOUR CUSTOMERS*</h4>",
             "text_style": "body"
           }
         },
         "button_XmVXtE": {
           "type": "button",
           "settings": {
-            "button_label": "DISCUSS THIS OFFER",
+            "button_label": "Discuss this offer",
             "button_link": "#enquire",
             "button_style_secondary": false
           }
@@ -390,8 +301,8 @@
         "column_FnQQgP": {
           "type": "column",
           "settings": {
-            "title": "CORRECT",
-            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Pigment Control Emulsion</strong></h4> \n<h4 style=\"font-weight:700;\">BUY ANY</h4>\n<p>Medical-grade, retinoid-led correction in three strengths targeting the key pathways involved in hyperpigmentation. </p>",
+            "title": "",
+            "text": "<h4 style=\"color:#000;\"><strong>ENDOCARE RENEWAL Retinoid Serum</strong></h4> \n<h4 style=\"font-weight:700;\">BUY ANY</h4>\n<p>Visibly smooths texture, reduces fine lines and wrinkles and supports brighter, renewed skin.</p>",
             "link_label": "",
             "link": ""
           }
@@ -399,8 +310,8 @@
         "column_JJBRm8": {
           "type": "column",
           "settings": {
-            "title": "SUPPORT",
-            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Barrier Defence Emulsion</strong></h4> \n<h4 style=\"font-weight:700;\">+ 50% OFF</h4>\n<p>Helps reinforce the skin barrier and support optimal skin hydration. </p>",
+            "title": "",
+            "text": "<h4 style=\"color:#000;\"><strong>ENDOCARE AGE BARRIER Hyaluboost Gel Cream</strong></h4> \n<h4 style=\"font-weight:700;\">+ 50% OFF</h4>\n<p>Provides sustained hydration, reinforces the skin barrier and supports long-term retinoid tolerance.</p>",
             "link_label": "",
             "link": ""
           }
@@ -408,8 +319,8 @@
         "column_mNgdGn": {
           "type": "column",
           "settings": {
-            "title": "PROTECT",
-            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Pigment Solution Fluid SPF50+</strong></h4> \n<h4 style=\"font-weight:700;\">+ FREE</h4>\n<p>Very high-level SPF50+ and PA++++ daily photoprotection with a unique Depigmenting System. </p>",
+            "title": "",
+            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Sensation SPF50+</strong></h4> \n<h4 style=\"font-weight:700;\">+ FREE</h4>\n<p>Very high-level SPF50+ and PA++++ daily photoprotection to help protect against further UV exposure and support long-term skin health.</p>",
             "link_label": "",
             "link": ""
           }
@@ -450,20 +361,20 @@
         "heading_Wk7m9L": {
           "type": "heading",
           "settings": {
-            "heading": "Interested in offering ALLSKIN | MED Post-Summer Pigmentation Correction in your clinic?&nbsp;",
+            "heading": "Interested in Offering ENDOCARE Post Summer Skin Renewal in Your Pharmacy?",
             "heading_size": "h2"
           }
         },
         "text_eFipqp": {
           "type": "text",
           "settings": {
-            "text": "<p>A member of our expert Clinic Development Team will talk you through the products, promotion and wider ALLSKIN | MED opportunity, including the education, marketing and ongoing support available to your clinic.</p>"
+            "text": "<p>A member of our expert Business Development Team will talk you through the products, promotion and wider Cantabria Labs opportunity, including the education, marketing and ongoing support available to your pharmacy.</p>"
           }
         },
         "button_UikK4K": {
           "type": "button",
           "settings": {
-            "button_label": "SPEAK TO OUR CLINIC DEVELOPMENT TEAM",
+            "button_label": "Speak to our Business Development Team",
             "button_link": "#enquire",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -504,7 +415,7 @@
         "heading_DEmVht": {
           "type": "heading",
           "settings": {
-            "heading": "For Post-Summer Texture Repair",
+            "heading": "Support Teenage/Persistent and Adult Acne-Prone Skin with BIRETIX",
             "heading_size": "h2"
           }
         },
@@ -529,7 +440,7 @@
         "is_heading": false,
         "padding_top": 64,
         "padding_bottom": 12,
-        "container_id": "texture"
+        "container_id": "acne"
       }
     },
     "rich_text_nWnz4L": {
@@ -546,7 +457,7 @@
         "text_6abJcD": {
           "type": "text",
           "settings": {
-            "text": "<h4><strong>Added-value promotion available for professional skin clinics</strong></h4><p>Designed for you to pass on to your customers:</p>"
+            "text": "<h4><strong>Added-value promotion available for Pharmacy</strong></h4><p>Designed for you to pass on to your customers:</p>"
           }
         }
       },
@@ -572,21 +483,21 @@
         "heading_3CBiGp": {
           "type": "heading",
           "settings": {
-            "heading": "ALLSKIN | MED Texture Repair Regime",
+            "heading": "BIRETIX Acne-Prone Skin Bundles",
             "heading_size": "h2"
           }
         },
         "text_GJr7U9": {
           "type": "text",
           "settings": {
-            "text": "<p><b>Help refine uneven texture and visible signs of skin ageing.</b></p><p>An advanced three-step retinoid-led homecare regime for patients presenting with uneven texture, enlarged pores and visible signs of ageing following the summer months.</p><br><h4 style=\"font-weight:700;\">OVER 25% TOTAL SAVING FOR YOU AND YOUR PATIENTS**</h4>",
+            "text": "<p><b>Simple 3-step regimes to support acne-prone skin.</b></p><p>Science-led skincare solutions designed, and clinically proven, to help manage blemishes and support healthier-looking skin at every stage of the acne-prone skin journey. </p><br><h4 style=\"font-weight:700;\">OVER 25% TOTAL SAVING FOR YOU AND YOUR PATIENTS**</h4>",
             "text_style": "body"
           }
         },
         "button_fPtd8M": {
           "type": "button",
           "settings": {
-            "button_label": "DISCUSS THIS OFFER",
+            "button_label": "Discuss this offer",
             "button_link": "#enquire",
             "button_style_secondary": false
           }
@@ -621,8 +532,8 @@
         "column_GWzjTE": {
           "type": "column",
           "settings": {
-            "title": "RENEW",
-            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED Texture Repair Emulsion</strong></h4> \n<h4 style=\"font-weight:700;\">BUY</h4>\n<p>Medical-grade retinoid-led skin renewal to help refine uneven texture and support epidermal turnover.</p>",
+            "title": "CLEANSE",
+            "text": "<h4 style=\"color:#000;\"><strong>BIRETIX Cleanser 400ml</strong></h4> \n<h4 style=\"font-weight:700;\">BUY</h4>\n<p></p>",
             "link_label": "",
             "link": ""
           }
@@ -630,8 +541,17 @@
         "column_hc7iVe": {
           "type": "column",
           "settings": {
-            "title": "RESURFACE",
-            "text": "<h4 style=\"color:#000;\"><strong>ALLSKIN | MED AHA Retexturising Serum</strong></h4> \n<h4 style=\"font-weight:700;\">+ 50% OFF</h4>\n<p>Targeted exfoliating and resurfacing support designed to improve the appearance of uneven skin texture while supporting skin tolerance.</p>",
+            "title": "TREAT (Persistent Acne-Prone Skin)",
+            "text": "<h4 style=\"color:#000;\"><strong>BIRETIX Tri-Active Anti-Blemish Gel</strong></h4> \n<h4 style=\"font-weight:700;\">BUY</h4>\n<p>Clinically proven to help reduce blemishes and blackheads, unclog pores and control excess oil.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_g9WFrh": {
+          "type": "column",
+          "settings": {
+            "title": "TREAT (Adult Acne-Prone Skin)",
+            "text": "<h4 style=\"color:#000;\"><strong>BIRETIX Double Correction Serum</strong></h4> \n<h4 style=\"font-weight:700;\">OR BUY</h4>\n<p>Addresses blemishes alongside excess oil, enlarged pores, uneven texture and the first visible signs of ageing.</p>",
             "link_label": "",
             "link": ""
           }
@@ -640,7 +560,7 @@
           "type": "column",
           "settings": {
             "title": "PROTECT",
-            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Sensation SPF50+</strong></h4> \n<h4 style=\"font-weight:700;\">+ FREE</h4>\n<p>Very high-level SPF50+ and PA++++ full-spectrum photoprotection with a lightweight daily finish.</p>",
+            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Acnimat SPF50+</strong></h4> \n<h4 style=\"font-weight:700;\">+ FREE</h4>\n<p>Very high-level SPF50+ and PA++++ daily photoprotection in a mattifying formulation suited to acne-prone skin.</p>",
             "link_label": "",
             "link": ""
           }
@@ -649,6 +569,7 @@
       "block_order": [
         "column_GWzjTE",
         "column_hc7iVe",
+        "column_g9WFrh",
         "column_WFVCpR"
       ],
       "custom_css": [
@@ -663,7 +584,7 @@
         "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -681,20 +602,20 @@
         "heading_nf6VMe": {
           "type": "heading",
           "settings": {
-            "heading": "Considering offering ALLSKIN | MED Post-Summer Texture Repair in your clinic?&nbsp;",
+            "heading": "Interested in Offering BIRETIX Acne-Prone Skin Support in Your Pharmacy?",
             "heading_size": "h2"
           }
         },
         "text_TyXjz9": {
           "type": "text",
           "settings": {
-            "text": "<p>A member of our expert Clinic Development Team will talk you through the products, promotion and wider ALLSKIN | MED opportunity, including the education, marketing and ongoing support available to your clinic.<br/><br/></p>"
+            "text": "<p>A member of our expert Business Development Team will talk you through the products, promotion and wider Cantabria Labs opportunity, including the education, marketing and ongoing support available to your pharmacy.</p>"
           }
         },
         "button_ztb98A": {
           "type": "button",
           "settings": {
-            "button_label": "SPEAK TO OUR CLINIC DEVELOPMENT TEAM",
+            "button_label": "Speak to our Business Development Team",
             "button_link": "#enquire",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -729,52 +650,169 @@
         "container_id": ""
       }
     },
-    "multicolumn_Rpzyfn": {
-      "type": "multicolumn",
+    "rich_text_cNrARk": {
+      "type": "rich-text",
       "blocks": {
-        "column_QXM7FY": {
+        "heading_4zz3EW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Barrier Support for Prescription Retinoid Treatments with BIRETIX",
+            "heading_size": "h2"
+          }
+        },
+        "text_KAkK4W": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Help refine uneven texture and visible signs of skin ageing</strong><br/><br/>An advanced three-step retinoid-led homecare regime for patients presenting with uneven texture, enlarged pores and visible signs of ageing following the summer months.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4zz3EW",
+        "text_KAkK4W"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 12,
+        "container_id": ""
+      }
+    },
+    "rich_text_HM97TK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kzE6rM": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "For Post-Summer Texture Repair",
+            "heading_size": "h2"
+          }
+        },
+        "text_DDkJNM": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><strong>Added-value promotion available for Pharmacy</strong></h4><p>Designed for you to pass on to your customers:</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kzE6rM",
+        "text_DDkJNM"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "container_id": ""
+      }
+    },
+    "image_with_text_html_mNLyeA": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_rdVXzh": {
+          "type": "heading",
+          "settings": {
+            "heading": "BIRETIX Prescription Acne Treatment: Barrier Support Regime Bundle",
+            "heading_size": "h2"
+          }
+        },
+        "text_KTJ9Ej": {
+          "type": "text",
+          "settings": {
+            "text": "<p><b>Designed for dry, sensitised or compromised acne-prone skin during prescription retinoid treatment.</b></p><p>Combine gentle cleansing with intensive barrier repair and targeted lip care. The Isorepair regime is designed to help maintain hydration, reduce dryness and irritation and improve skin comfort and tolerability during retinoid treatment </p><br><h4 style=\"font-weight:700;\">OVER 25% TOTAL SAVING FOR YOU AND YOUR PATIENTS**</h4>",
+            "text_style": "body"
+          }
+        },
+        "button_N8ENMM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discuss this offer",
+            "button_link": "#enquire",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rdVXzh",
+        "text_KTJ9Ej",
+        "button_N8ENMM"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "anchor_id": "",
+        "image": "shopify://shop_images/FERN-IMG-00288_CL_TextureRepairRegime_ProductImage_1440x1440px_Sept26-_2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_html_PyTJ9V": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_TymdXU": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/retinduo-1200x800.jpg",
-            "title": "<strong>RETINDUO®</strong>",
-            "text": "<p>Patented dual-retinoid technology supporting controlled skin renewal.</p>",
+            "title": "CLEANSE",
+            "text": "<h4 style=\"color:#000;\"><strong>BIRETIX Isorepair Cleanser </strong></h4> \n<h4 style=\"font-weight:700;\">BUY</h4>\n<p>Hydrating pH-balanced cleanser formulated to cleanse, soothe and reduce redness in dry and sensitised acne-prone skin.</p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_tYccAp": {
+        "column_xfQ3jF": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/FERN-IMG-00128_ALLSKINMED_ReoxdermTechnology_BlogCover_1200x800px_Sep25-1.jpg",
-            "title": "<strong>REOXDERM®</strong>",
-            "text": "<p>Advanced technology designed to support skin barrier function.</p>",
+            "title": "TREAT",
+            "text": "<h4 style=\"color:#000;\"><strong>BIRETIX Isorepair Cream</strong></h4> \n<h4 style=\"font-weight:700;\">BUY</h4>\n<p>A barrier-repair cream formulated to hydrate, soothe and restore comfort to compromised skin, reducing dryness, irritation and tightness.</p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_ijY3Pg": {
+        "column_G9aDtF": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/CL-WEB-0002_-_HELIOCARE_BRAND_PAGE_-_TECH_INGREDIENTS_-_ASPA_FERNBLOCK_1.jpg",
-            "title": "<strong>ASPA-FERNBLOCK®</strong>",
-            "text": "<p>Patented antioxidant technology supporting advanced daily photoprotection. </p>",
+            "title": "PROTECT",
+            "text": "<h4 style=\"color:#000;\"><strong>BIRETIX Isorepair Lip Balm</strong></h4> \n<h4 style=\"font-weight:700;\">+ FREE</h4>\n<p>An intensive repair lip balm formulated to soothe, restore and protect dry, sensitised lips.</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_QXM7FY",
-        "column_tYccAp",
-        "column_ijY3Pg"
+        "column_TymdXU",
+        "column_xfQ3jF",
+        "column_G9aDtF"
       ],
-      "disabled": true,
-      "name": "t:sections.multicolumn.presets.name",
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.multicolumn-card__image-wrapper {width: 60%; margin-left: auto; margin-right: auto; }}"
+      ],
+      "name": "Multicolumn HTML",
       "settings": {
-        "title": "Powered by Patented Technologies",
-        "heading_size": "h2",
-        "richtext": "<p>ALLSKIN | MED combines advanced formulations with patented Cantabria Labs technologies to support targeted, practitioner-led skincare regimes.</p>",
-        "narrow_text": true,
+        "anchor_id": "",
+        "title": "",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -785,42 +823,61 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 64,
-        "container_id": ""
+        "padding_top": 0,
+        "padding_bottom": 24
       }
     },
-    "rich_text_EGNyiT": {
+    "rich_text_CPrNFL": {
       "type": "rich-text",
       "blocks": {
-        "heading_igx8Nc": {
+        "heading_9C7T4t": {
           "type": "heading",
           "settings": {
-            "heading": "Why ALLSKIN | MED?",
+            "heading": "Interested in Offering BIRETIX Barrier Support for Prescription Retinoid Treatments in Your Pharmacy?",
             "heading_size": "h2"
           }
         },
-        "text_NeMnAJ": {
+        "text_JQzxYF": {
           "type": "text",
           "settings": {
-            "text": "<p>ALLSKIN | MED is Cantabria Labs' clinic-exclusive skincare portfolio, developed specifically for professional skin and medical aesthetic practice. <br/><br/>With targeted solutions for concerns including skin ageing, photodamage and hyperpigmentation, ALLSKIN | MED enables practitioners to integrate evidence-based homecare throughout the patient journey, complementing professional treatments and supporting long-term skin health. </p>"
+            "text": "<p>A member of our expert Business Development Team will talk you through the products, promotion and wider Cantabria Labs opportunity, including the education, marketing and ongoing support available to your pharmacy.</p>"
+          }
+        },
+        "button_yjfacm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Speak to our Business Development Team",
+            "button_link": "#enquire",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "heading_R6dLca": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<strong>Added value for your clinic and your patients</strong>",
+            "heading_size": "h2"
           }
         }
       },
       "block_order": [
-        "heading_igx8Nc",
-        "text_NeMnAJ"
+        "heading_9C7T4t",
+        "text_JQzxYF",
+        "button_yjfacm",
+        "heading_R6dLca"
       ],
-      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_top": 32,
+        "padding_bottom": 32,
         "container_id": ""
       }
     },
@@ -977,8 +1034,6 @@
     "custom_liquid_zQHeXW",
     "image_banner_separate_hq8rQR",
     "rich_text_aq3WJp",
-    "rich_text_cpn7bE",
-    "rich_text_pqDBbx",
     "multicolumn_with_buttons_7efPwy",
     "rich_text_Y9kRX7",
     "rich_text_Hcthyg",
@@ -990,8 +1045,11 @@
     "image_with_text_html_BMxQxe",
     "multicolumn_html_eFwyQX",
     "rich_text_mHRWi9",
-    "multicolumn_Rpzyfn",
-    "rich_text_EGNyiT",
+    "rich_text_cNrARk",
+    "rich_text_HM97TK",
+    "image_with_text_html_mNLyeA",
+    "multicolumn_html_PyTJ9V",
+    "rich_text_CPrNFL",
     "multicolumn_hyW438",
     "rich_text_PcfdMw",
     "1790076620c67662e7",
