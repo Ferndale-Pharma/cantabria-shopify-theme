@@ -407,7 +407,7 @@
           "settings": {
             "heading": "Can't make the date?",
             "icon": "question_mark",
-            "row_content": "<p class=\"center\">Don't worry - our dedicated Clinic Development Team are on hand to talk you through the key learnings and technologies at a time to suit you. Simply register your interest below and we'll be in tough ASAP to arrange a more suitable time.</p>\n<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/262744090598366\"></script>",
+            "row_content": "<p class=\"center\">Don't worry - our dedicated Clinic Development Team are on hand to talk you through the key learnings and technologies at a time to suit you. Simply register your interest below and we'll be in touch ASAP to arrange a more suitable time.</p>\n<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/262744090598366\"></script>",
             "page": ""
           }
         }
