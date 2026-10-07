@@ -38,15 +38,15 @@
         "text_iHTrLb": {
           "type": "text",
           "settings": {
-            "text": "Limited-edition value-added offer for your patients this festive season",
+            "text": "Limited-edition value-added offer for your customers this festive season",
             "text_style": "subtitle"
           }
         },
         "buttons_yRKaGb": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "View offer",
-            "button_link_1": "#offer",
+            "button_label_1": "Talk to us about Christmas Gifting",
+            "button_link_1": "#contact",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -62,8 +62,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00302_CL_ProfessionalChristmasGifting_Banner_Oct26.jpg",
-        "mobile_image": "shopify://shop_images/FERN-IMG-00302_CL_ProfessionalChristmasGifting_Banner_Oct26_1080x1080px.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00301_CantabriaLabs_ChristmasGifting_WebBanner_Oct26.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00301_CantabriaLabs_ChristmasGifting_WebBanner_Oct26_1080x1080px.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -110,6 +110,56 @@
         "container_id": ""
       }
     },
+    "rich_text_qWdJbT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YyhkUa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get 5 Complimentary Christmas Gifting Packs",
+            "heading_size": "h2"
+          }
+        },
+        "text_zcFK37": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>When you spend £350 ex VAT across Cantabria Labs Dermatological Skincare</strong></h3><p>Each pack includes:</p><ul><li><strong>1 x ENDOCARE C Ferulic Serum - worth £55</strong></li><li><strong>Premium Cantabria Labs Christmas Gift Box</strong></li><li><strong>Tissue paper, ribbon and gift card</strong></li></ul><p><strong>Your customer offer:</strong> Gift customers a complimentary Endocare C Ferulic Serum when they spend £75 or more on Cantabria Labs Dermatological Skincare. Presented in a premium Cantabria Labs Christmas Gift Box.</p>"
+          }
+        },
+        "button_bBqb4e": {
+          "type": "button",
+          "settings": {
+            "button_label": "Talk to us about Christmas Gifting",
+            "button_link": "#contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_YyhkUa",
+        "text_zcFK37",
+        "button_bBqb4e"
+      ],
+      "custom_css": [
+        "h3 {color: #000;}",
+        "li {list-style: none;}",
+        "ul {padding-top: 0 !important;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
     "image_with_text_html_GJ4Raw": {
       "type": "image-with-text-html",
       "blocks": {
@@ -141,6 +191,7 @@
         "text_XL4M4q",
         "button_3Ld3di"
       ],
+      "disabled": true,
       "custom_css": [
         "li {list-style: none; font-weight: 700;}"
       ],
@@ -249,6 +300,7 @@
     "main",
     "image_banner_separate_cMrQHt",
     "rich_text_GMhNTF",
+    "rich_text_qWdJbT",
     "image_with_text_html_GJ4Raw",
     "rich_text_9MBknh",
     "apps_FkimBj",
