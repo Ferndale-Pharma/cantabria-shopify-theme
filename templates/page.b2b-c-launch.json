@@ -56,6 +56,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
+        "image": "shopify://shop_images/intro-cl-webinar-banner-1.jpg",
+        "mobile_image": "shopify://shop_images/intro-cl-webinar-banner-1x1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -270,6 +272,246 @@
         "padding_bottom": 100,
         "anchor_id": "categories"
       }
+    },
+    "rich_text_iTB8rA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_phGcbD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Exclusive Clinic Launch Packages Available",
+            "heading_size": "h2"
+          }
+        },
+        "text_tHgUkJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Request a callback from your Clinic Development Manager today to discuss the Cantabria Labs portfolio, promotions and wider in-clinic opportunity, including the education, marketing and ongoing support available.</p>"
+          }
+        },
+        "button_jDABqU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Tell me more",
+            "button_link": "#contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_phGcbD",
+        "text_tHgUkJ",
+        "button_jDABqU"
+      ],
+      "custom_css": [
+        "p {color: #fff;}",
+        "a {color: #165c7d;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-fe2caf85-447f-433a-bc45-dfb94474e084",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "range_cards_d4dm8q": {
+      "type": "range-cards",
+      "blocks": {
+        "range_card_CjtgEz": {
+          "type": "range_card",
+          "settings": {
+            "name": "ALLSKIN | MED",
+            "tagline": "Where skin science meets medical aesthetic experience",
+            "tags": "Anti-Ageing, Pigmentation, Redness & Reactive Skin, Acne-Prone Skin, Hair & Scalp Health",
+            "tags_link": "#categories",
+            "summary": "<p>The ALLSKIN | MED medical-grade portfolio provides prescriptive solutions across multiple skin, hair and scalp concerns throughout the patient journey.</p>",
+            "outlet_medical": true,
+            "medical_exclusive": true,
+            "outlet_skin": false,
+            "outlet_pharmacy": false,
+            "outlet_retail": false,
+            "details": "<p>The ALLSKIN | MED portfolio features advanced formulations and strengths suitable for practitioner-led recommendations, supporting treatment preparation, recovery, downtime reduction, treatment result enhancement and long-term improvements in skin health through scientifically and clinically proven regimes.</p><p>ALLSKIN | MED HAIR provides in-clinic products to support treatment results alongside evidence-based home-use regimes to enhance scalp and hair health.</p>"
+          }
+        },
+        "range_card_xihrbw": {
+          "type": "range_card",
+          "settings": {
+            "name": "ENDOCARE",
+            "tagline": "Precision anti-ageing science",
+            "tags": "Anti-Ageing",
+            "tags_link": "#categories",
+            "summary": "<p>Precision anti-ageing solutions supporting the skin’s barrier, radiance, texture and renewal through different stages of skin ageing.</p>",
+            "outlet_medical": true,
+            "medical_exclusive": false,
+            "outlet_skin": true,
+            "outlet_pharmacy": true,
+            "outlet_retail": false,
+            "details": "<p>Formulated, developed and clinically proven through dermatological and scientific expertise, ENDOCARE regimes, combinations and targeted products provide precision anti-ageing solutions for healthcare professionals, skin professionals, patients and consumers throughout their anti-ageing and skin health journey.</p>"
+          }
+        },
+        "range_card_tMwCVK": {
+          "type": "range_card",
+          "settings": {
+            "name": "NEORETIN",
+            "tagline": "Advanced science for skin hyperpigmentation",
+            "tags": "Pigmentation",
+            "tags_link": "#categories",
+            "summary": "<p>Specialist solutions for the correction of uneven pigmentation and dark spots, helping support clearer, more even-looking skin.</p>",
+            "outlet_medical": true,
+            "medical_exclusive": false,
+            "outlet_skin": true,
+            "outlet_pharmacy": true,
+            "outlet_retail": false,
+            "details": "<p>Using expert formulations scientifically proven to address different stages of excess melanin production and presence, NEORETIN enhances evidence-based skincare regimes by reducing dark spots and evening skin tone in hyperpigmented areas.</p>"
+          }
+        },
+        "range_card_jAmHWp": {
+          "type": "range_card",
+          "settings": {
+            "name": "SKIN RESIST",
+            "tagline": "Advanced care for reactive & redness-prone skin",
+            "tags": "Redness & Reactive Skin",
+            "tags_link": "#categories",
+            "summary": "<p>Hydrobiome science designed to help improve the skin’s natural resistance, reduce sensitivity and redness and support the skin barrier, while providing anti-ageing care.</p>",
+            "outlet_medical": true,
+            "medical_exclusive": false,
+            "outlet_skin": true,
+            "outlet_pharmacy": true,
+            "outlet_retail": false,
+            "details": "<p>The hydrobiome science of Aquamunist® harnesses the exclusive soothing, protective and repairing properties of La Concha, Cantabria thermal waters and natural algae extracts, combined with clinically proven sensitivity-reducing and barrier-repairing dermatological ingredients.</p><p>SKIN RESIST is clinically proven to provide a regimen and targeted products that significantly reduce sensitivity, reactivity and redness while delivering significant anti-ageing benefits.</p>"
+          }
+        },
+        "range_card_3pxCzh": {
+          "type": "range_card",
+          "settings": {
+            "name": "BIRETIX",
+            "tagline": "Specialist care for acne-prone skin",
+            "tags": "Acne-Prone Skin",
+            "tags_link": "#categories",
+            "summary": "<p>Expertly formulated solutions designed to help reduce and prevent the main signs of acne-prone skin in young people and adults, while supporting skin undergoing medical acne treatments.</p>",
+            "outlet_medical": true,
+            "medical_exclusive": false,
+            "outlet_skin": true,
+            "outlet_pharmacy": true,
+            "outlet_retail": false,
+            "details": "<p>Formulated with unique active retinoid and dermatological ingredients, BIRETIX provides clinically proven regimes and targeted products for acne-prone skin and to help support medical acne treatments.</p>"
+          }
+        },
+        "range_card_hH4JD6": {
+          "type": "range_card",
+          "settings": {
+            "name": "HELIOCARE",
+            "tagline": "All the dermatological photoprotection science can give you",
+            "tags": "Photoprotection",
+            "tags_link": "#categories",
+            "summary": "<p>Advanced very high-level, full-spectrum photoprotection with options for different skin types, finishes, concerns, regimes and treatments.</p>",
+            "outlet_medical": true,
+            "medical_exclusive": false,
+            "outlet_skin": true,
+            "outlet_pharmacy": true,
+            "outlet_retail": true,
+            "details": "<p>Combining very high-level, full-spectrum protection against UVA, UVB, Visible Light, and Infrared-A with SPF 50+ and PA++++ protection, and exclusive ASPA-Fernblock® technology, HELIOCARE 360° sunscreens and supplements provide medical-grade personalised support for long-term skin health.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "range_card_CjtgEz",
+        "range_card_xihrbw",
+        "range_card_tMwCVK",
+        "range_card_jAmHWp",
+        "range_card_3pxCzh",
+        "range_card_hH4JD6"
+      ],
+      "name": "Range cards",
+      "settings": {
+        "caption": "Specialist Ranges",
+        "heading": "Tailored Professional Skincare Regimes",
+        "heading_size": "h1",
+        "intro": "<p>Cantabria Labs professional skincare regimes provide scientific solutions for anti-ageing, pigmentation, reactive & redness-prone skin, acne-prone skin, and hair and scalp concerns.</p><p>Each regime, with evidence-based products and key combinations, is supported by HELIOCARE 360° high-level full-spectrum photoprotection targeted to skin type, finish, or concern.</p><p>The Cantabria Labs portfolio enables these solutions to be tailored to an individual’s skin concerns and needs, providing efficacy with accessibility and flexibility.</p>",
+        "columns_desktop": 3,
+        "more_label": "View more",
+        "less_label": "View less",
+        "swipe_on_mobile": true,
+        "hide_on_mobile": false,
+        "color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "anchor_id": "ranges"
+      }
+    },
+    "multicolumn_zfyt3b": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Tg3hxQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cl-blue-icon-education.png",
+            "title": "Comprehensive Product Training & Education",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yrbqHg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cl-blue-icon-marketing.png",
+            "title": "Patient-Facing Marketing & Promotional Support",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FYxFfC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cl-blue-icon-business-support.png",
+            "title": "Dedicated Clinic Development Support",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Tg3hxQ",
+        "column_yrbqHg",
+        "column_FYxFfC"
+      ],
+      "custom_css": [
+        ".multicolumn.background-primary .multicolumn-card {background: #fff;}",
+        ".multicolumn-card__image-wrapper--third-width {max-width: 50px;}",
+        ".multicolumn-list {margin-top: 1rem;}",
+        "@media screen and (min-width: 750px) {.multicolumn-card__image-wrapper--third-width {max-width: 75px; }}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Supporting you and your clinic throughout the entire patient journey",
+        "heading_size": "h2",
+        "richtext": "<p>Cantabria Labs dermocosmetics and supplements can be integrated throughout the whole patient journey, alongside professional treatments and evidence-based approaches to long-term skin health.</p><p>Our experienced Clinic Development team supports you to confidently integrate Cantabria Labs into your services and recommendations through:</p>",
+        "narrow_text": true,
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
@@ -278,6 +520,9 @@
     "rich_text_9iWRYm",
     "webinar_cta_qba4yw",
     "rich_text_M6WV4U",
-    "category_cards_N7KYbA"
+    "category_cards_N7KYbA",
+    "rich_text_iTB8rA",
+    "range_cards_d4dm8q",
+    "multicolumn_zfyt3b"
   ]
 }
