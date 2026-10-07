@@ -38,7 +38,7 @@
         "text_iHTrLb": {
           "type": "text",
           "settings": {
-            "text": "Limited-edition value-added offer for your customers this festive season",
+            "text": "<strong>Get 5 FREE Christmas Gifting Packs when you spend £350 ex.VAT</strong> on Cantabria Labs Dermatological Skincare",
             "text_style": "subtitle"
           }
         },
@@ -106,7 +106,7 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 32,
-        "padding_bottom": 64,
+        "padding_bottom": 32,
         "container_id": ""
       }
     },
@@ -115,6 +115,7 @@
       "blocks": {
         "heading_YyhkUa": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Get 5 Complimentary Christmas Gifting Packs",
             "heading_size": "h2"
@@ -123,7 +124,7 @@
         "text_zcFK37": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>When you spend £350 ex VAT across Cantabria Labs Dermatological Skincare</strong></h3><p>Each pack includes:</p><ul><li><strong>1 x ENDOCARE C Ferulic Serum - worth £55</strong></li><li><strong>Premium Cantabria Labs Christmas Gift Box</strong></li><li><strong>Tissue paper, ribbon and gift card</strong></li></ul><p><strong>Your customer offer:</strong> Gift customers a complimentary Endocare C Ferulic Serum when they spend £75 or more on Cantabria Labs Dermatological Skincare. Presented in a premium Cantabria Labs Christmas Gift Box.</p>"
+            "text": "<h3><strong>Each complinetary Christmas Gifting Pack includes:</strong></h3><ul><li><h4><strong>1 x ENDOCARE C Ferulic Serum - worth £55</strong></h4></li><li><h4><strong>+ Premium Cantabria Labs Christmas Gift Box</strong></h4></li><li><h4><strong>+ Tissue paper, ribbon and gift card</strong></h4></li></ul>"
           }
         },
         "button_bBqb4e": {
@@ -136,12 +137,19 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "text_MytyFc": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Your customer offer:</strong>&nbsp;</h3><p><strong>Gift customers a complimentary Endocare C Ferulic Serum</strong>, presented in a premium Cantabria Labs Christmas gift box, <strong>when they spend £75 or more on Cantabria Labs Dermatological Skincare.</strong>&nbsp;</p>"
+          }
         }
       },
       "block_order": [
         "heading_YyhkUa",
         "text_zcFK37",
-        "button_bBqb4e"
+        "button_bBqb4e",
+        "text_MytyFc"
       ],
       "custom_css": [
         "h3 {color: #000;}",
@@ -156,7 +164,7 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 0,
-        "padding_bottom": 64,
+        "padding_bottom": 32,
         "container_id": ""
       }
     },
