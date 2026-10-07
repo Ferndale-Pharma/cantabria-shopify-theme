@@ -141,12 +141,53 @@
         "padding_bottom": 64,
         "container_id": ""
       }
+    },
+    "webinar_cta_qba4yw": {
+      "type": "webinar-cta",
+      "blocks": {
+        "detail_8U38xV": {
+          "type": "detail",
+          "settings": {
+            "label": "Date(s)",
+            "value": "19/10/2026 - 11:30",
+            "width": 2
+          }
+        },
+        "detail_wgUr9P": {
+          "type": "detail",
+          "settings": {
+            "label": "Cost",
+            "value": "FREE",
+            "width": 1
+          }
+        }
+      },
+      "block_order": [
+        "detail_8U38xV",
+        "detail_wgUr9P"
+      ],
+      "name": "Webinar CTA",
+      "settings": {
+        "badge": "CLINIC EXCLUSIVE LAUNCH PACKAGES",
+        "heading": "Discover what the new portfolio means for your clinic",
+        "heading_size": "h1",
+        "text": "<p>Join our free 30-minute introductory webinar to explore the new portfolio structure, discover how our specialist ranges fit across the six skincare categories and understand the support available to your clinic.</p>",
+        "button_label": "Register free",
+        "button_link": "",
+        "button_style_secondary": false,
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "details_color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "anchor_id": ""
+      }
     }
   },
   "order": [
     "main",
     "image_banner_separate_Lt8ffC",
     "rich_text_9iWRYm",
-    "rich_text_gXQrzV"
+    "rich_text_gXQrzV",
+    "webinar_cta_qba4yw"
   ]
 }
