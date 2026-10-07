@@ -1,0 +1,348 @@
+{% comment %}
+  Badge, heading and text on the left; an event details panel (one block per column,
+  e.g. "Date(s)" and "Cost") and a button on the right. Stacks on mobile.
+
+  The detail "Value" is a multi-line text setting, so it can be connected to a
+  metaobject field (multi-line text) through dynamic sources. Line breaks are kept.
+{% endcomment %}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<style>
+  .webinar-cta {
+    display: grid;
+    gap: 2.4rem;
+    align-items: center;
+  }
+
+  .webinar-cta__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+  }
+
+  .webinar-cta__badge {
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    border-radius: var(--buttons-radius, 4px);
+    background: rgb(var(--color-button));
+    color: rgb(var(--color-button-text));
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.16rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+
+  .webinar-cta__heading {
+    margin: 0;
+  }
+
+  .webinar-cta__text > *:first-child {
+    margin-top: 0;
+  }
+
+  .webinar-cta__text > *:last-child {
+    margin-bottom: 0;
+  }
+
+  .webinar-cta__aside {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .webinar-cta__details {
+    display: flex;
+    margin: 0;
+    background: rgb(var(--color-background));
+  }
+
+  .webinar-cta__detail {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    min-width: 0;
+    padding: 1.2rem 1.2rem;
+    border-left: 0.1rem solid rgba(var(--color-foreground), 0.15);
+  }
+
+  .webinar-cta__detail dt {
+    margin: 0;
+    font-size: 1.1rem;
+    letter-spacing: 0.14rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: rgb(var(--color-link));
+  }
+
+  .webinar-cta__detail dd {
+    margin: 0;
+    font-family: var(--font-heading-family);
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: rgb(var(--color-foreground));
+  }
+
+  .webinar-cta__aside .button {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 750px) {
+    .webinar-cta__detail {
+      padding: 1.4rem 1.6rem;
+    }
+
+    .webinar-cta__detail dt {
+      font-size: 1.2rem;
+      letter-spacing: 0.16rem;
+    }
+
+    .webinar-cta__detail dd {
+      font-size: 1.6rem;
+    }
+  }
+
+  @media screen and (min-width: 990px) {
+    .webinar-cta {
+      grid-template-columns: minmax(0, 7fr) minmax(0, 4fr);
+      column-gap: calc(var(--grid-desktop-horizontal-spacing, 16px) + 8.33%);
+    }
+  }
+</style>
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div
+    class="page-width section-{{ section.id }}-padding{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    {% if section.settings.anchor_id != blank %}
+      id="{{ section.settings.anchor_id | handle }}"
+    {% endif %}
+  >
+    <div class="webinar-cta">
+      <div class="webinar-cta__content">
+        {%- if section.settings.badge != blank -%}
+          <span class="webinar-cta__badge">{{ section.settings.badge | escape }}</span>
+        {%- endif -%}
+
+        {%- if section.settings.heading != blank -%}
+          <h2 class="webinar-cta__heading inline-richtext {{ section.settings.heading_size }}">
+            {{ section.settings.heading }}
+          </h2>
+        {%- endif -%}
+
+        {%- if section.settings.text != blank -%}
+          <div class="webinar-cta__text rte">{{ section.settings.text }}</div>
+        {%- endif -%}
+      </div>
+
+      <div class="webinar-cta__aside">
+        {%- if section.blocks.size > 0 -%}
+          <dl class="webinar-cta__details color-{{ section.settings.details_color_scheme }}">
+            {%- for block in section.blocks -%}
+              <div
+                class="webinar-cta__detail"
+                style="flex: {{ block.settings.width }} 1 0;"
+                {{ block.shopify_attributes }}
+              >
+                <dt>{{ block.settings.label | escape }}</dt>
+                <dd>{{ block.settings.value | escape | newline_to_br }}</dd>
+              </div>
+            {%- endfor -%}
+          </dl>
+        {%- endif -%}
+
+        {%- if section.settings.button_label != blank -%}
+          <a
+            {% if section.settings.button_link == blank %}
+              role="link" aria-disabled="true"
+            {% else %}
+              href="{{ section.settings.button_link }}"
+            {% endif %}
+            class="button{% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+          >
+            {{- section.settings.button_label | escape -}}
+          </a>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Webinar CTA",
+  "tag": "section",
+  "class": "section section-webinar-cta",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "badge",
+      "label": "Badge",
+      "default": "Free live webinar"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Discover what the new portfolio means for your clinic"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading size",
+      "options": [
+        { "value": "h2", "label": "Small" },
+        { "value": "h1", "label": "Medium" },
+        { "value": "h0", "label": "Large" }
+      ],
+      "default": "h1"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Join our free 30-minute introductory webinar to explore the new portfolio structure, discover how our specialist ranges fit across the six skincare categories and understand the support available to your clinic.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "Register free",
+      "info": "Leave blank to hide the button."
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link",
+      "info": "Use #register (or your form section's anchor) to scroll to the form."
+    },
+    {
+      "type": "checkbox",
+      "id": "button_style_secondary",
+      "label": "Use outline button style",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Colours"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Section colour scheme",
+      "default": "scheme-2"
+    },
+    {
+      "type": "color_scheme",
+      "id": "details_color_scheme",
+      "label": "Details panel colour scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 64
+    },
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID (optional)",
+      "info": "Lets other buttons link to this section, e.g. webinar"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "detail",
+      "name": "Detail",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label",
+          "default": "Date(s)"
+        },
+        {
+          "type": "textarea",
+          "id": "value",
+          "label": "Value",
+          "default": "19/10/2026 - 11:30",
+          "info": "Line breaks are kept. Connect a metaobject multi-line text field with the dynamic source button."
+        },
+        {
+          "type": "range",
+          "id": "width",
+          "min": 1,
+          "max": 3,
+          "step": 1,
+          "label": "Relative width",
+          "default": 2
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Webinar CTA",
+      "blocks": [
+        {
+          "type": "detail",
+          "settings": {
+            "label": "Date(s)",
+            "value": "19/10/2026 - 11:30",
+            "width": 2
+          }
+        },
+        {
+          "type": "detail",
+          "settings": {
+            "label": "Cost",
+            "value": "FREE",
+            "width": 1
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
