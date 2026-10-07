@@ -110,6 +110,64 @@
         "container_id": ""
       }
     },
+    "multicolumn_et68G4": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_fyVMz7": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mK8LV3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bqpdAa": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_fyVMz7",
+        "column_mK8LV3",
+        "column_bqpdAa"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
     "rich_text_qWdJbT": {
       "type": "rich-text",
       "blocks": {
@@ -308,6 +366,7 @@
     "main",
     "image_banner_separate_cMrQHt",
     "rich_text_GMhNTF",
+    "multicolumn_et68G4",
     "rich_text_qWdJbT",
     "image_with_text_html_GJ4Raw",
     "rich_text_9MBknh",
