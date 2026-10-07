@@ -93,55 +93,6 @@
         "container_id": ""
       }
     },
-    "rich_text_gXQrzV": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_bLKfqT": {
-          "type": "heading",
-          "settings": {
-            "heading": "Discover what the new portfolio means for your clinic",
-            "heading_size": "h2"
-          }
-        },
-        "text_xVzhrr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Join our free 30-minute introductory webinar to explore the new portfolio structure, discover how our specialist ranges fit across the six skincare categories and understand the support available to your clinic.</p>"
-          }
-        },
-        "button_4TW3Gx": {
-          "type": "button",
-          "settings": {
-            "button_label": "Register free",
-            "button_link": "shopify://metaobjects/professional_events/introduction-to-the-cantabria-labs-dermocosmetic-skincare-supplement-portfolio",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_bLKfqT",
-        "text_xVzhrr",
-        "button_4TW3Gx"
-      ],
-      "custom_css": [
-        ".rich-text__blocks {max-width: 100%;}",
-        "@media screen and (min-width: 750px) {p {max-width: 78rem; margin: 1rem auto; }}"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
-        "full_width": true,
-        "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 64,
-        "container_id": ""
-      }
-    },
     "webinar_cta_qba4yw": {
       "type": "webinar-cta",
       "blocks": {
@@ -149,7 +100,7 @@
           "type": "detail",
           "settings": {
             "label": "Date(s)",
-            "value": "19/10/2026 - 11:30",
+            "value": "<p>{{ metaobjects.professional_events[\"introduction-to-the-cantabria-labs-dermocosmetic-skincare-supplement-portfolio\"].multicolumn_1_body_text | metafield_tag }}</p>",
             "width": 2
           }
         },
@@ -157,7 +108,7 @@
           "type": "detail",
           "settings": {
             "label": "Cost",
-            "value": "FREE",
+            "value": "<p>FREE</p>",
             "width": 1
           }
         }
@@ -170,10 +121,10 @@
       "settings": {
         "badge": "CLINIC EXCLUSIVE LAUNCH PACKAGES",
         "heading": "Discover what the new portfolio means for your clinic",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "text": "<p>Join our free 30-minute introductory webinar to explore the new portfolio structure, discover how our specialist ranges fit across the six skincare categories and understand the support available to your clinic.</p>",
         "button_label": "Register free",
-        "button_link": "",
+        "button_link": "shopify://metaobjects/professional_events/introduction-to-the-cantabria-labs-dermocosmetic-skincare-supplement-portfolio",
         "button_style_secondary": false,
         "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
         "details_color_scheme": "",
@@ -181,13 +132,55 @@
         "padding_bottom": 64,
         "anchor_id": ""
       }
+    },
+    "rich_text_M6WV4U": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_7LQcnx": {
+          "type": "caption",
+          "settings": {
+            "caption": "One Portfolio",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_ChHyPN": {
+          "type": "heading",
+          "settings": {
+            "heading": "More science. More solutions. More ways to support skin health.",
+            "heading_size": "h2"
+          }
+        },
+        "text_HyAfFj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The <strong>Cantabria Labs Dermocosmetics & Supplements Portfolio</strong> brings together evidence-based solutions across a broad spectrum of skin, hair and scalp concerns, with specialist formulations, technologies and strengths designed to support different needs, treatment stages and professional settings.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "caption_7LQcnx",
+        "heading_ChHyPN",
+        "text_HyAfFj"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
     "main",
     "image_banner_separate_Lt8ffC",
     "rich_text_9iWRYm",
-    "rich_text_gXQrzV",
-    "webinar_cta_qba4yw"
+    "webinar_cta_qba4yw",
+    "rich_text_M6WV4U"
   ]
 }
