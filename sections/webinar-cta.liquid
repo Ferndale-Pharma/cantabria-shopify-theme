@@ -2,8 +2,8 @@
   Badge, heading and text on the left; an event details panel (one block per column,
   e.g. "Date(s)" and "Cost") and a button on the right. Stacks on mobile.
 
-  The detail "Value" is a multi-line text setting, so it can be connected to a
-  metaobject field (multi-line text) through dynamic sources. Line breaks are kept.
+  The detail "Value" is a rich text setting, so it can be connected to a
+  metaobject field through dynamic sources. Each paragraph shows on its own line.
 {% endcomment %}
 
 {%- style -%}
@@ -98,6 +98,10 @@
     color: rgb(var(--color-foreground));
   }
 
+  .webinar-cta__detail dd p {
+    margin: 0;
+  }
+
   .webinar-cta__aside .button {
     width: 100%;
   }
@@ -159,7 +163,7 @@
                 {{ block.shopify_attributes }}
               >
                 <dt>{{ block.settings.label | escape }}</dt>
-                <dd>{{ block.settings.value | escape | newline_to_br }}</dd>
+                <dd>{{ block.settings.value }}</dd>
               </div>
             {%- endfor -%}
           </dl>
@@ -251,7 +255,7 @@
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "Section colour scheme",
-      "default": "scheme-2"
+      "default": "scheme-7"
     },
     {
       "type": "color_scheme",
@@ -271,7 +275,7 @@
       "step": 4,
       "unit": "px",
       "label": "Top padding",
-      "default": 64
+      "default": 48
     },
     {
       "type": "range",
@@ -281,7 +285,7 @@
       "step": 4,
       "unit": "px",
       "label": "Bottom padding",
-      "default": 64
+      "default": 48
     },
     {
       "type": "text",
@@ -303,11 +307,11 @@
           "default": "Date(s)"
         },
         {
-          "type": "textarea",
+          "type": "richtext",
           "id": "value",
           "label": "Value",
-          "default": "19/10/2026 - 11:30",
-          "info": "Line breaks are kept. Connect a metaobject multi-line text field with the dynamic source button."
+          "default": "<p>19/10/2026 – 11:30</p><p>27/10/2026 – 9:30</p>",
+          "info": "Connect a metaobject field with the dynamic source button. Each paragraph shows on its own line."
         },
         {
           "type": "range",
@@ -329,7 +333,7 @@
           "type": "detail",
           "settings": {
             "label": "Date(s)",
-            "value": "19/10/2026 - 11:30",
+            "value": "<p>19/10/2026 – 11:30</p><p>27/10/2026 – 9:30</p>",
             "width": 2
           }
         },
@@ -337,7 +341,7 @@
           "type": "detail",
           "settings": {
             "label": "Cost",
-            "value": "FREE",
+            "value": "<p>FREE</p>",
             "width": 1
           }
         }
