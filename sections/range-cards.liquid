@@ -1,0 +1,701 @@
+{% comment %}
+  Centred header (caption, heading, intro text), then a grid of range cards:
+  logo, tagline, category tags, summary, where-to-buy list with icons and a
+  "View more" disclosure (native <details>, no JavaScript) revealing the full description.
+  3 columns on desktop, 2 on tablet, swipe slider (or stacked) on mobile.
+  Card and tag colours are set by the CSS rules below, not by colour schemes.
+{% endcomment %}
+
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<style>
+  .range-cards__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+    max-width: 90rem;
+    margin: 0 auto 3.2rem;
+    text-align: center;
+  }
+
+  .range-cards__caption {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.16rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #165c7d;
+  }
+
+  .range-cards__heading {
+    margin: 0;
+  }
+
+  .range-cards__intro > *:first-child {
+    margin-top: 0;
+  }
+
+  .range-cards__intro > *:last-child {
+    margin-bottom: 0;
+  }
+
+  .range-cards__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .range-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 2.4rem;
+    background: #f4f8f8;
+    color: #231f20;
+  }
+
+  .range-card__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9.6rem;
+    padding: 1.6rem;
+    box-sizing: border-box;
+    border-radius: var(--media-radius, 4px);
+    background: #ffffff;
+  }
+
+  .range-card__logo img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .range-card__logo-text {
+    font-family: var(--font-heading-family);
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    color: #0d374b;
+  }
+
+  .range-card__tagline {
+    margin: 0.6rem 0 0;
+    font-size: calc(var(--font-heading-scale) * 1.8rem);
+    color: #165c7d;
+  }
+
+  .range-card__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+
+  .range-card__tag {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border-radius: var(--buttons-radius, 4px);
+    background: #ffffff;
+    color: #165c7d;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    text-decoration: none;
+  }
+
+  a.range-card__tag:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+  }
+
+  .range-card__text > *:first-child,
+  .range-card__more-content > *:first-child {
+    margin-top: 0;
+  }
+
+  .range-card__text > *:last-child,
+  .range-card__more-content > *:last-child {
+    margin-bottom: 0;
+  }
+
+  .range-card__outlets {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: #0d374b;
+  }
+
+  .range-card__outlet {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .range-card__outlet svg {
+    flex-shrink: 0;
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-top: 0.1rem;
+    color: #165c7d;
+  }
+
+  .range-card__more {
+    margin-top: auto;
+  }
+
+  .range-card__more summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    min-height: 4.4rem;
+    list-style: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    color: #165c7d;
+  }
+
+  .range-card__more summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .range-card__more summary:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+  }
+
+  .range-card__more summary svg {
+    width: 1.8rem;
+    height: 1.8rem;
+    flex-shrink: 0;
+    transition: transform var(--duration-default, 200ms) ease;
+  }
+
+  .range-card__more[open] summary svg {
+    transform: rotate(180deg);
+  }
+
+  .range-card__more .range-card__less-label,
+  .range-card__more[open] .range-card__more-label {
+    display: none;
+  }
+
+  .range-card__more[open] .range-card__less-label {
+    display: inline;
+  }
+
+  .range-card__more-content {
+    margin-top: 0.4rem;
+    padding-top: 1.6rem;
+    border-top: 0.1rem solid #d0dee5;
+    font-size: 1.5rem;
+    line-height: 1.8;
+  }
+
+  @media screen and (min-width: 750px) {
+    .range-card {
+      padding: 3.2rem;
+    }
+
+    .range-card__logo {
+      height: 11.2rem;
+    }
+
+    .range-card__logo-text {
+      font-size: 2rem;
+    }
+
+    .range-card__tagline {
+      font-size: calc(var(--font-heading-scale) * 2rem);
+    }
+  }
+
+  @media screen and (min-width: 990px) {
+    .range-cards__header {
+      margin-bottom: 5.6rem;
+    }
+  }
+</style>
+
+{%- liquid
+  assign show_mobile_slider = false
+  if section.settings.swipe_on_mobile and section.blocks.size > 1
+    assign show_mobile_slider = true
+  endif
+-%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.hide_on_mobile %} small-hide{% endif %}">
+  <div
+    class="page-width section-{{ section.id }}-padding"
+    {% if section.settings.anchor_id != blank %}
+      id="{{ section.settings.anchor_id | handle }}"
+    {% endif %}
+  >
+    {%- if section.settings.caption != blank or section.settings.heading != blank or section.settings.intro != blank -%}
+      <div class="range-cards__header">
+        {%- if section.settings.caption != blank -%}
+          <p class="range-cards__caption">{{ section.settings.caption | escape }}</p>
+        {%- endif -%}
+        {%- if section.settings.heading != blank -%}
+          <h2 class="range-cards__heading inline-richtext {{ section.settings.heading_size }}">
+            {{ section.settings.heading }}
+          </h2>
+        {%- endif -%}
+        {%- if section.settings.intro != blank -%}
+          <div class="range-cards__intro rte">{{ section.settings.intro }}</div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    <slider-component class="slider-mobile-gutter">
+      <ul
+        class="range-cards__list grid grid--1-col-tablet-down grid--2-col-tablet grid--{{ section.settings.columns_desktop }}-col-desktop{% if show_mobile_slider %} slider slider--mobile grid--peek{% endif %}"
+        id="Slider-{{ section.id }}"
+        role="list"
+      >
+        {%- for block in section.blocks -%}
+          <li
+            id="Slide-{{ section.id }}-{{ forloop.index }}"
+            class="grid__item{% if show_mobile_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {{ block.shopify_attributes }}
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade style="--animation-order: {{ forloop.index }};"
+            {% endif %}
+          >
+            <article class="range-card">
+              <div class="range-card__logo">
+                {%- if block.settings.logo != blank -%}
+                  {{
+                    block.settings.logo
+                    | image_url: width: 600
+                    | image_tag:
+                      loading: 'lazy',
+                      widths: '200, 300, 400, 600',
+                      sizes: '(min-width: 990px) 300px, 50vw',
+                      alt: block.settings.name
+                  }}
+                {%- else -%}
+                  <span class="range-card__logo-text">{{ block.settings.name | escape }}</span>
+                {%- endif -%}
+              </div>
+
+              {%- if block.settings.tagline != blank -%}
+                <h3 class="range-card__tagline">{{ block.settings.tagline | escape }}</h3>
+              {%- endif -%}
+
+              {%- if block.settings.tags != blank -%}
+                {%- assign tags = block.settings.tags | split: ',' -%}
+                <div class="range-card__tags">
+                  {%- for tag in tags -%}
+                    {%- assign tag_label = tag | strip -%}
+                    {%- if tag_label != blank -%}
+                      {%- if block.settings.tags_link != blank -%}
+                        <a href="{{ block.settings.tags_link }}" class="range-card__tag">{{ tag_label | escape }}</a>
+                      {%- else -%}
+                        <span class="range-card__tag">{{ tag_label | escape }}</span>
+                      {%- endif -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+                </div>
+              {%- endif -%}
+
+              {%- if block.settings.summary != blank -%}
+                <div class="range-card__text rte">{{ block.settings.summary }}</div>
+              {%- endif -%}
+
+              {%- liquid
+                assign show_outlets = false
+                if block.settings.outlet_medical or block.settings.outlet_skin or block.settings.outlet_pharmacy or block.settings.outlet_retail
+                  assign show_outlets = true
+                endif
+              -%}
+              {%- if show_outlets -%}
+                <ul class="range-card__outlets" role="list" aria-label="Where to buy {{ block.settings.name | escape }}">
+                  {%- if block.settings.outlet_medical -%}
+                    <li class="range-card__outlet">
+                      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.94 15.5A2 2 0 0 0 8.5 14.06l-6.14-1.58a.5.5 0 0 1 0-.96L8.5 9.94A2 2 0 0 0 9.94 8.5l1.58-6.14a.5.5 0 0 1 .96 0l1.58 6.14a2 2 0 0 0 1.44 1.44l6.14 1.58a.5.5 0 0 1 0 .96l-6.14 1.58a2 2 0 0 0-1.44 1.44l-1.58 6.14a.5.5 0 0 1-.96 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/></svg>
+                      <span>{% if block.settings.medical_exclusive %}Exclusive to medical aesthetic clinics{% else %}Medical aesthetic clinics{% endif %}</span>
+                    </li>
+                  {%- endif -%}
+                  {%- if block.settings.outlet_skin -%}
+                    <li class="range-card__outlet">
+                      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg>
+                      <span>Professional skin clinics</span>
+                    </li>
+                  {%- endif -%}
+                  {%- if block.settings.outlet_pharmacy -%}
+                    <li class="range-card__outlet">
+                      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/></svg>
+                      <span>Dermocosmetic pharmacies</span>
+                    </li>
+                  {%- endif -%}
+                  {%- if block.settings.outlet_retail -%}
+                    <li class="range-card__outlet">
+                      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                      <span>Authorised skincare retailers</span>
+                    </li>
+                  {%- endif -%}
+                </ul>
+              {%- endif -%}
+
+              {%- if block.settings.details != blank -%}
+                <details class="range-card__more">
+                  <summary>
+                    <span class="range-card__more-label">{{ section.settings.more_label | escape }}</span>
+                    <span class="range-card__less-label">{{ section.settings.less_label | escape }}</span>
+                    <span class="visually-hidden"> – {{ block.settings.name | escape }}</span>
+                    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+                  </summary>
+                  <div class="range-card__more-content rte">{{ block.settings.details }}</div>
+                </details>
+              {%- endif -%}
+            </article>
+          </li>
+        {%- endfor -%}
+      </ul>
+
+      {%- if show_mobile_slider -%}
+        <div class="slider-buttons no-js-hidden medium-hide large-up-hide">
+          <button
+            type="button"
+            class="slider-button slider-button--prev"
+            name="previous"
+            aria-label="{{ 'general.slider.previous_slide' | t }}"
+            aria-controls="Slider-{{ section.id }}"
+          >
+            <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/></svg>
+          </button>
+          <div class="slider-counter caption">
+            <span class="slider-counter--current">1</span>
+            <span aria-hidden="true"> / </span>
+            <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+            <span class="slider-counter--total">{{ section.blocks.size }}</span>
+          </div>
+          <button
+            type="button"
+            class="slider-button slider-button--next"
+            name="next"
+            aria-label="{{ 'general.slider.next_slide' | t }}"
+            aria-controls="Slider-{{ section.id }}"
+          >
+            <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"/></svg>
+          </button>
+        </div>
+      {%- endif -%}
+    </slider-component>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Range cards",
+  "tag": "section",
+  "class": "section section-range-cards",
+  "max_blocks": 12,
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "caption",
+      "label": "Caption",
+      "default": "Specialist Ranges"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Tailored Professional Skincare Regimes"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading size",
+      "options": [
+        { "value": "h2", "label": "Small" },
+        { "value": "h1", "label": "Medium" },
+        { "value": "h0", "label": "Large" }
+      ],
+      "default": "h1"
+    },
+    {
+      "type": "richtext",
+      "id": "intro",
+      "label": "Intro text",
+      "default": "<p>Cantabria Labs professional skincare regimes provide scientific solutions for anti-ageing, pigmentation, reactive & redness-prone skin, acne-prone skin, and hair and scalp concerns.</p><p>Each regime, with evidence-based products and key combinations, is supported by HELIOCARE 360° high-level full-spectrum photoprotection targeted to skin type, finish, or concern.</p><p>The Cantabria Labs portfolio enables these solutions to be tailored to an individual’s skin concerns and needs, providing efficacy with accessibility and flexibility.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Cards"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "label": "Columns on desktop",
+      "default": 3
+    },
+    {
+      "type": "text",
+      "id": "more_label",
+      "label": "Expand label",
+      "default": "View more"
+    },
+    {
+      "type": "text",
+      "id": "less_label",
+      "label": "Collapse label",
+      "default": "View less"
+    },
+    {
+      "type": "header",
+      "content": "Mobile"
+    },
+    {
+      "type": "checkbox",
+      "id": "swipe_on_mobile",
+      "label": "Enable swipe on mobile",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_on_mobile",
+      "label": "Hide section on mobile",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Colours and spacing"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Section colour scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 100
+    },
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID (optional)",
+      "default": "ranges",
+      "info": "Lets buttons and tags link to this section, e.g. #ranges"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "range_card",
+      "name": "Range",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Range name",
+          "default": "RANGE",
+          "info": "Shown in place of the logo until one is added, and used as the logo's alt text."
+        },
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo"
+        },
+        {
+          "type": "text",
+          "id": "tagline",
+          "label": "Tagline"
+        },
+        {
+          "type": "text",
+          "id": "tags",
+          "label": "Category tags",
+          "info": "Separate tags with commas, e.g. Anti-Ageing, Pigmentation"
+        },
+        {
+          "type": "url",
+          "id": "tags_link",
+          "label": "Tags link (optional)",
+          "info": "Makes the tags clickable, e.g. #categories"
+        },
+        {
+          "type": "richtext",
+          "id": "summary",
+          "label": "Summary"
+        },
+        {
+          "type": "header",
+          "content": "Where to buy"
+        },
+        {
+          "type": "checkbox",
+          "id": "outlet_medical",
+          "label": "Medical aesthetic clinics",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "medical_exclusive",
+          "label": "Show as 'Exclusive to medical aesthetic clinics'",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "outlet_skin",
+          "label": "Professional skin clinics",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "outlet_pharmacy",
+          "label": "Dermocosmetic pharmacies",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "outlet_retail",
+          "label": "Authorised skincare retailers",
+          "default": false
+        },
+        {
+          "type": "header",
+          "content": "View more"
+        },
+        {
+          "type": "richtext",
+          "id": "details",
+          "label": "Full description",
+          "info": "Shown when 'View more' is opened. Leave blank to hide the toggle."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Range cards",
+      "blocks": [
+        {
+          "type": "range_card",
+          "settings": {
+            "name": "ALLSKIN | MED",
+            "tagline": "Where skin science meets medical aesthetic experience",
+            "tags": "Anti-Ageing, Pigmentation, Redness & Reactive Skin, Acne-Prone Skin, Hair & Scalp Health",
+            "tags_link": "#categories",
+            "summary": "<p>The ALLSKIN | MED medical-grade portfolio provides prescriptive solutions across multiple skin, hair and scalp concerns throughout the patient journey.</p>",
+            "outlet_medical": true,
+            "medical_exclusive": true,
+            "outlet_skin": false,
+            "outlet_pharmacy": false,
+            "outlet_retail": false,
+            "details": "<p>The ALLSKIN | MED portfolio features advanced formulations and strengths suitable for practitioner-led recommendations, supporting treatment preparation, recovery, downtime reduction, treatment result enhancement and long-term improvements in skin health through scientifically and clinically proven regimes.</p><p>ALLSKIN | MED HAIR provides in-clinic products to support treatment results alongside evidence-based home-use regimes to enhance scalp and hair health.</p>"
+          }
+        },
+        {
+          "type": "range_card",
+          "settings": {
+            "name": "ENDOCARE",
+            "tagline": "Precision anti-ageing science",
+            "tags": "Anti-Ageing",
+            "tags_link": "#categories",
+            "summary": "<p>Precision anti-ageing solutions supporting the skin’s barrier, radiance, texture and renewal through different stages of skin ageing.</p>",
+            "details": "<p>Formulated, developed and clinically proven through dermatological and scientific expertise, ENDOCARE regimes, combinations and targeted products provide precision anti-ageing solutions for healthcare professionals, skin professionals, patients and consumers throughout their anti-ageing and skin health journey.</p>"
+          }
+        },
+        {
+          "type": "range_card",
+          "settings": {
+            "name": "NEORETIN",
+            "tagline": "Advanced science for skin hyperpigmentation",
+            "tags": "Pigmentation",
+            "tags_link": "#categories",
+            "summary": "<p>Specialist solutions for the correction of uneven pigmentation and dark spots, helping support clearer, more even-looking skin.</p>",
+            "details": "<p>Using expert formulations scientifically proven to address different stages of excess melanin production and presence, NEORETIN enhances evidence-based skincare regimes by reducing dark spots and evening skin tone in hyperpigmented areas.</p>"
+          }
+        },
+        {
+          "type": "range_card",
+          "settings": {
+            "name": "SKIN RESIST",
+            "tagline": "Advanced care for reactive & redness-prone skin",
+            "tags": "Redness & Reactive Skin",
+            "tags_link": "#categories",
+            "summary": "<p>Hydrobiome science designed to help improve the skin’s natural resistance, reduce sensitivity and redness and support the skin barrier, while providing anti-ageing care.</p>",
+            "details": "<p>The hydrobiome science of Aquamunist® harnesses the exclusive soothing, protective and repairing properties of La Concha, Cantabria thermal waters and natural algae extracts, combined with clinically proven sensitivity-reducing and barrier-repairing dermatological ingredients.</p><p>SKIN RESIST is clinically proven to provide a regimen and targeted products that significantly reduce sensitivity, reactivity and redness while delivering significant anti-ageing benefits.</p>"
+          }
+        },
+        {
+          "type": "range_card",
+          "settings": {
+            "name": "BIRETIX",
+            "tagline": "Specialist care for acne-prone skin",
+            "tags": "Acne-Prone Skin",
+            "tags_link": "#categories",
+            "summary": "<p>Expertly formulated solutions designed to help reduce and prevent the main signs of acne-prone skin in young people and adults, while supporting skin undergoing medical acne treatments.</p>",
+            "details": "<p>Formulated with unique active retinoid and dermatological ingredients, BIRETIX provides clinically proven regimes and targeted products for acne-prone skin and to help support medical acne treatments.</p>"
+          }
+        },
+        {
+          "type": "range_card",
+          "settings": {
+            "name": "HELIOCARE",
+            "tagline": "All the dermatological photoprotection science can give you",
+            "tags": "Photoprotection",
+            "tags_link": "#categories",
+            "summary": "<p>Advanced very high-level, full-spectrum photoprotection with options for different skin types, finishes, concerns, regimes and treatments.</p>",
+            "outlet_retail": true,
+            "details": "<p>Combining very high-level, full-spectrum protection against UVA, UVB, Visible Light, and Infrared-A with SPF 50+ and PA++++ protection, and exclusive ASPA-Fernblock® technology, HELIOCARE 360° sunscreens and supplements provide medical-grade personalised support for long-term skin health.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
