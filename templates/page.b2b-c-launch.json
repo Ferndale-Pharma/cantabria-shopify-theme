@@ -598,6 +598,23 @@
         "padding_bottom": 64,
         "anchor_id": "register"
       }
+    },
+    "179145289243460bae": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_q4CEEX": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTUzMzE2\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_q4CEEX"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -610,6 +627,7 @@
     "rich_text_iTB8rA",
     "range_cards_d4dm8q",
     "multicolumn_zfyt3b",
-    "launch_packages_LQW6Hx"
+    "launch_packages_LQW6Hx",
+    "179145289243460bae"
   ]
 }
