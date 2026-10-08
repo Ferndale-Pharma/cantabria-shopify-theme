@@ -294,7 +294,7 @@
           "type": "button",
           "settings": {
             "button_label": "Tell me more",
-            "button_link": "#contact",
+            "button_link": "#tell-me-more",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
