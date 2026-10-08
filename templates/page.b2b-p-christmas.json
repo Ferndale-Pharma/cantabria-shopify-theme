@@ -116,8 +116,9 @@
         "column_fyVMz7": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Image01.png",
+            "title": "Heliocare",
+            "text": "<p>Advanced very high-level, full-spectrum photoprotection with options for different skin types, finishes, concerns, regimes and treatments.</p>",
             "link_label": "",
             "link": ""
           }
@@ -125,8 +126,9 @@
         "column_mK8LV3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Image02.png",
+            "title": "Biretix",
+            "text": "<p>Expertly formulated solutions designed to help reduce and prevent the main signs of acne-prone skin in young people and adults, while supporting skin undergoing medical acne treatments.</p>",
             "link_label": "",
             "link": ""
           }
@@ -134,8 +136,29 @@
         "column_bqpdAa": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Image03.png",
+            "title": "Endocare",
+            "text": "<p>Precision anti-ageing solutions supporting the skin’s barrier, radiance, texture and renewal through different stages of skin ageing.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KR4Npd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/skinresist_logo_horizontal_grey.jpg",
+            "title": "Skin Resist",
+            "text": "<p>Hydrobiome science designed to help improve the skin’s natural resistance, reduce sensitivity and redness and support the skin barrier, while providing anti-ageing care.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LBKMJK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00197_CantabriaLabs_Blog_RepairProtectPrevent.jpg",
+            "title": "Neoretin",
+            "text": "<p>Specialist solutions for the correction of uneven pigmentation and dark spots, helping support clearer, more even-looking skin.</p>",
             "link_label": "",
             "link": ""
           }
@@ -144,12 +167,14 @@
       "block_order": [
         "column_fyVMz7",
         "column_mK8LV3",
-        "column_bqpdAa"
+        "column_bqpdAa",
+        "column_KR4Npd",
+        "column_LBKMJK"
       ],
       "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Multicolumn",
+        "title": "Explore the Portfolio",
         "heading_size": "h1",
         "richtext": "",
         "narrow_text": false,
@@ -182,7 +207,7 @@
         "text_zcFK37": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>Each complinetary Christmas Gifting Pack includes:</strong></h3><ul><li><h4><strong>1 x ENDOCARE C Ferulic Serum - worth £55</strong></h4></li><li><h4><strong>+ Premium Cantabria Labs Christmas Gift Box</strong></h4></li><li><h4><strong>+ Tissue paper, ribbon and gift card</strong></h4></li></ul>"
+            "text": "<h3><strong>Each complimentary Christmas Gifting Pack includes:</strong></h3><ul><li><h4><strong>1 x ENDOCARE C Ferulic Serum - worth £55</strong></h4></li><li><h4><strong>+ Premium Cantabria Labs Christmas Gift Box</strong></h4></li><li><h4><strong>+ Tissue paper, ribbon and gift card</strong></h4></li></ul>"
           }
         },
         "button_bBqb4e": {
