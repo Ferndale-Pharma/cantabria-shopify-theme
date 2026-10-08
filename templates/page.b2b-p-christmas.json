@@ -219,6 +219,7 @@
         "range_card_GJxFHF",
         "range_card_8hgW3V"
       ],
+      "disabled": true,
       "name": "Range cards",
       "settings": {
         "caption": "Specialist Ranges",
