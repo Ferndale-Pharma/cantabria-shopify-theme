@@ -1,0 +1,592 @@
+{% comment %}
+  Centred heading, then one column per "Package" block (2 side by side on desktop):
+  image, heading, subheading, intro and three quick-reference tiles
+  (qualifying spend / qualifying brands / how to order).
+  Below, a full-width "support package" list built from "Benefit" blocks.
+  Colours are set by the CSS rules below, not by colour schemes.
+{% endcomment %}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<style>
+  .launch-packages__heading {
+    margin: 0 0 4rem;
+    text-align: center;
+    color: #165c7d;
+  }
+
+  .launch-packages__grid {
+    display: grid;
+    gap: 4rem;
+  }
+
+  .launch-package {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  .launch-package__media {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 16 / 10;
+    border-radius: var(--media-radius, 4px);
+    background: #cfdfe1;
+  }
+
+  .launch-package__media img,
+  .launch-package__media .placeholder-svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .launch-package__title {
+    margin: 0.4rem 0 0;
+    font-size: calc(var(--font-heading-scale) * 2.4rem);
+    line-height: 1.3;
+    color: #165c7d;
+  }
+
+  .launch-package__subheading {
+    margin: 0;
+    font-family: var(--font-heading-family);
+    font-weight: 700;
+    font-size: 1.7rem;
+    line-height: 1.4;
+    color: #0d374b;
+  }
+
+  .launch-package__intro {
+    font-family: var(--font-heading-family);
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    letter-spacing: 0.04rem;
+  }
+
+  .launch-package__intro > *:first-child {
+    margin-top: 0;
+  }
+
+  .launch-package__intro > *:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Tiles: stacked rows on mobile, three side-by-side tiles on desktop */
+  .launch-package__tiles {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #f4f8f8;
+  }
+
+  .launch-package__tile {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.4rem;
+    padding: 1.6rem;
+    border-bottom: 0.1rem solid #d0dee5;
+  }
+
+  .launch-package__tile:last-child {
+    border-bottom: 0;
+  }
+
+  .launch-package__tile svg {
+    flex-shrink: 0;
+    width: 2.4rem;
+    height: 2.4rem;
+    color: #165c7d;
+  }
+
+  .launch-package__tile-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .launch-package__tile-label {
+    font-family: var(--font-heading-family);
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #165c7d;
+  }
+
+  .launch-package__tile-value {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #0d374b;
+  }
+
+  .launch-package__tile-value--strong {
+    font-weight: 700;
+  }
+
+  .launch-package__tile-value p {
+    margin: 0;
+  }
+
+  .launch-package__tile-value a {
+    color: #165c7d;
+    font-weight: 700;
+  }
+
+  .launch-packages__benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-top: 4rem;
+    padding-top: 4rem;
+    border-top: 0.1rem solid #d0dee5;
+  }
+
+  .launch-packages__benefits-heading {
+    margin: 0;
+    font-size: calc(var(--font-heading-scale) * 2rem);
+    line-height: 1.3;
+    color: #165c7d;
+  }
+
+  .launch-packages__benefit-list {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .launch-packages__benefit {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 1.2rem 0;
+    border-bottom: 0.1rem solid #d0dee5;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #0d374b;
+  }
+
+  .launch-packages__benefit svg {
+    flex-shrink: 0;
+    width: 2.2rem;
+    height: 2.2rem;
+    color: #165c7d;
+  }
+
+  @media screen and (min-width: 750px) {
+    .launch-package__title {
+      font-size: calc(var(--font-heading-scale) * 3.2rem);
+    }
+
+    .launch-packages__benefit-list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      column-gap: 6.4rem;
+    }
+  }
+
+  @media screen and (min-width: 990px) {
+    .launch-packages__heading {
+      margin-bottom: 4.8rem;
+    }
+
+    .launch-packages__grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 7.2rem 6.4rem;
+      align-items: stretch;
+    }
+
+    .launch-package {
+      gap: 2rem;
+    }
+
+    .launch-package__media {
+      aspect-ratio: 2 / 1;
+    }
+
+    .launch-package__title {
+      font-size: calc(var(--font-heading-scale) * 4rem);
+    }
+
+    .launch-package__subheading {
+      font-size: 2rem;
+    }
+
+    .launch-package__intro {
+      font-size: 1.8rem;
+      line-height: 1.3;
+      letter-spacing: 0.06rem;
+    }
+
+    .launch-package__tiles {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.6rem;
+      margin-top: 0.8rem;
+      background: none;
+    }
+
+    .launch-package__tile {
+      flex-direction: column;
+      gap: 0.8rem;
+      padding: 2rem;
+      border-bottom: 0;
+      background: #f4f8f8;
+    }
+
+    .launch-package__tile svg {
+      width: 2.8rem;
+      height: 2.8rem;
+    }
+
+    .launch-package__tile-label {
+      font-size: 1.3rem;
+    }
+
+    .launch-packages__benefits {
+      gap: 2.8rem;
+      margin-top: 7.2rem;
+      padding-top: 7.2rem;
+    }
+
+    .launch-packages__benefits-heading {
+      font-size: calc(var(--font-heading-scale) * 2.4rem);
+    }
+
+    .launch-packages__benefit {
+      gap: 1.6rem;
+      padding: 1.8rem 0;
+      font-size: 1.8rem;
+    }
+
+    .launch-packages__benefit svg {
+      width: 2.6rem;
+      height: 2.6rem;
+    }
+  }
+</style>
+
+{%- liquid
+  assign package_blocks = section.blocks | where: 'type', 'package'
+  assign benefit_blocks = section.blocks | where: 'type', 'benefit'
+-%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div
+    class="page-width section-{{ section.id }}-padding"
+    {% if section.settings.anchor_id != blank %}
+      id="{{ section.settings.anchor_id | handle }}"
+    {% endif %}
+  >
+    {%- if section.settings.heading != blank -%}
+      <h2 class="launch-packages__heading inline-richtext {{ section.settings.heading_size }}">
+        {{ section.settings.heading }}
+      </h2>
+    {%- endif -%}
+
+    {%- if package_blocks.size > 0 -%}
+      <div class="launch-packages__grid">
+        {%- for block in package_blocks -%}
+          <div
+            class="launch-package{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            <div class="launch-package__media">
+              {%- if block.settings.image != blank -%}
+                {{
+                  block.settings.image
+                  | image_url: width: 1500
+                  | image_tag:
+                    loading: 'lazy',
+                    widths: '375, 550, 750, 1000, 1500',
+                    sizes: '(min-width: 990px) calc((100vw - 16.4rem) / 2), calc(100vw - 3rem)'
+                }}
+              {%- else -%}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {%- endif -%}
+            </div>
+
+            {%- if block.settings.title != blank -%}
+              <h3 class="launch-package__title">{{ block.settings.title | escape }}</h3>
+            {%- endif -%}
+
+            {%- if block.settings.subheading != blank -%}
+              <p class="launch-package__subheading">{{ block.settings.subheading | escape }}</p>
+            {%- endif -%}
+
+            {%- if block.settings.intro != blank -%}
+              <div class="launch-package__intro rte">{{ block.settings.intro }}</div>
+            {%- endif -%}
+
+            <ul class="launch-package__tiles" role="list">
+              {%- if block.settings.spend != blank -%}
+                <li class="launch-package__tile">
+                  <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 7c0-5.33-8-5.33-8 0"/><path d="M10 7v14"/><path d="M6 21h12"/><path d="M6 13h10"/></svg>
+                  <div class="launch-package__tile-body">
+                    <span class="launch-package__tile-label">{{ section.settings.spend_label | escape }}</span>
+                    <span class="launch-package__tile-value launch-package__tile-value--strong">{{ block.settings.spend | escape }}</span>
+                  </div>
+                </li>
+              {%- endif -%}
+              {%- if block.settings.brands != blank -%}
+                <li class="launch-package__tile">
+                  <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.2"/></svg>
+                  <div class="launch-package__tile-body">
+                    <span class="launch-package__tile-label">{{ section.settings.brands_label | escape }}</span>
+                    <span class="launch-package__tile-value">{{ block.settings.brands | escape }}</span>
+                  </div>
+                </li>
+              {%- endif -%}
+              {%- if block.settings.order != blank -%}
+                <li class="launch-package__tile">
+                  <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  <div class="launch-package__tile-body">
+                    <span class="launch-package__tile-label">{{ section.settings.order_label | escape }}</span>
+                    <span class="launch-package__tile-value">{{ block.settings.order }}</span>
+                  </div>
+                </li>
+              {%- endif -%}
+            </ul>
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+
+    {%- if benefit_blocks.size > 0 -%}
+      <div class="launch-packages__benefits">
+        {%- if section.settings.benefits_heading != blank -%}
+          <h3 class="launch-packages__benefits-heading">{{ section.settings.benefits_heading | escape }}</h3>
+        {%- endif -%}
+        <ul class="launch-packages__benefit-list" role="list">
+          {%- for block in benefit_blocks -%}
+            <li class="launch-packages__benefit" {{ block.shopify_attributes }}>
+              <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>
+              <span>{{ block.settings.text | escape }}</span>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Launch packages",
+  "tag": "section",
+  "class": "section section-launch-packages",
+  "max_blocks": 16,
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Clinic Exclusive Launch Packages Available"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading size",
+      "options": [
+        { "value": "h2", "label": "Small" },
+        { "value": "h1", "label": "Medium" },
+        { "value": "h0", "label": "Large" }
+      ],
+      "default": "h1"
+    },
+    {
+      "type": "header",
+      "content": "Tile labels"
+    },
+    {
+      "type": "text",
+      "id": "spend_label",
+      "label": "Spend label",
+      "default": "Qualifying spend"
+    },
+    {
+      "type": "text",
+      "id": "brands_label",
+      "label": "Brands label",
+      "default": "Qualifying brands"
+    },
+    {
+      "type": "text",
+      "id": "order_label",
+      "label": "Order label",
+      "default": "How to order"
+    },
+    {
+      "type": "header",
+      "content": "Support package list"
+    },
+    {
+      "type": "text",
+      "id": "benefits_heading",
+      "label": "Heading",
+      "default": "Your Clinic Launch Support Package Includes:",
+      "info": "Add 'Benefit' blocks to build the list."
+    },
+    {
+      "type": "header",
+      "content": "Colours and spacing"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Section colour scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 100
+    },
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID (optional)",
+      "default": "register",
+      "info": "Lets buttons link to this section, e.g. #register"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "package",
+      "name": "Package",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Launch the portfolio in your clinic"
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading",
+          "default": "Available Exclusively from your Clinic Development Manager"
+        },
+        {
+          "type": "richtext",
+          "id": "intro",
+          "label": "Intro"
+        },
+        {
+          "type": "header",
+          "content": "Tiles"
+        },
+        {
+          "type": "text",
+          "id": "spend",
+          "label": "Qualifying spend",
+          "default": "£500 ex. VAT or more"
+        },
+        {
+          "type": "text",
+          "id": "brands",
+          "label": "Qualifying brands"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "order",
+          "label": "How to order",
+          "default": "<a href=\"#register-form\">Request a call</a> from your Clinic Development Manager",
+          "info": "Link the text to your form section's anchor, e.g. #register-form"
+        }
+      ]
+    },
+    {
+      "type": "benefit",
+      "name": "Benefit",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Benefit"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Launch packages",
+      "blocks": [
+        {
+          "type": "package",
+          "settings": {
+            "title": "Launch the Cantabria Labs Portfolio in your Clinic",
+            "subheading": "Available Exclusively from your Clinic Development Manager",
+            "intro": "<p>Spend £500 ex. VAT across the Cantabria Labs Dermatological Skincare & Supplements portfolio and receive your complimentary Clinic Launch Support Package</p>",
+            "spend": "£500 ex. VAT or more",
+            "brands": "HELIOCARE, ENDOCARE, BIRETIX, NEORETIN & SKIN RESIST",
+            "order": "<a href=\"#register-form\">Request a call</a> from your Clinic Development Manager"
+          }
+        },
+        {
+          "type": "package",
+          "settings": {
+            "title": "Launch the ALLSKIN | MED Portfolio in your Clinic",
+            "subheading": "Available Exclusively from your Clinic Development Manager",
+            "intro": "<p>Spend £500 ex. VAT across the ALLSKIN | MED portfolio and receive your complimentary Clinic Launch Support Package</p>",
+            "spend": "£500 ex. VAT or more",
+            "brands": "ALLSKIN | MED & ALLSKIN | MED HAIR",
+            "order": "<a href=\"#register-form\">Request a call</a> from your Clinic Development Manager"
+          }
+        },
+        { "type": "benefit", "settings": { "text": "Virtual Training + Complimentary Product Allocation" } },
+        { "type": "benefit", "settings": { "text": "Complimentary Merchandising Stand & Exclusive Tester Pricing" } },
+        { "type": "benefit", "settings": { "text": "Patient Sample Allocation" } },
+        { "type": "benefit", "settings": { "text": "In-Clinic Marketing Support" } },
+        { "type": "benefit", "settings": { "text": "Complete Digital Marketing Launch Toolkit" } },
+        { "type": "benefit", "settings": { "text": "Dedicated Account Manager" } }
+      ]
+    }
+  ]
+}
+{% endschema %}
