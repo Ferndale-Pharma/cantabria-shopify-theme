@@ -38,10 +38,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Talk to the Team",
-            "button_link_1": "#contact",
+            "button_link_1": "#tell-me-more",
             "button_style_secondary_1": false,
             "button_label_2": "Explore the portfolio",
-            "button_link_2": "#",
+            "button_link_2": "#portfolio",
             "button_style_secondary_2": true
           }
         }
@@ -174,7 +174,7 @@
         "is_heading": false,
         "padding_top": 64,
         "padding_bottom": 64,
-        "container_id": ""
+        "container_id": "portfolio"
       }
     },
     "category_cards_N7KYbA": {
@@ -512,6 +512,92 @@
         "padding_bottom": 64,
         "container_id": ""
       }
+    },
+    "launch_packages_LQW6Hx": {
+      "type": "launch-packages",
+      "blocks": {
+        "package_chJDYj": {
+          "type": "package",
+          "settings": {
+            "title": "Launch the Cantabria Labs Portfolio in your Clinic",
+            "subheading": "Available Exclusively from your Clinic Development Manager",
+            "intro": "<p>Spend £500 ex. VAT across the Cantabria Labs Dermatological Skincare & Supplements portfolio and receive your complimentary Clinic Launch Support Package</p>",
+            "spend": "£500 ex. VAT or more",
+            "brands": "HELIOCARE, ENDOCARE, BIRETIX, NEORETIN & SKIN RESIST",
+            "order": "<a href=\"#register-form\">Request a call</a> from your Clinic Development Manager"
+          }
+        },
+        "package_7P6aBV": {
+          "type": "package",
+          "settings": {
+            "title": "Launch the ALLSKIN | MED Portfolio in your Clinic",
+            "subheading": "Available Exclusively from your Clinic Development Manager",
+            "intro": "<p>Spend £500 ex. VAT across the ALLSKIN | MED portfolio and receive your complimentary Clinic Launch Support Package</p>",
+            "spend": "£500 ex. VAT or more",
+            "brands": "ALLSKIN | MED & ALLSKIN | MED HAIR",
+            "order": "<a href=\"#register-form\">Request a call</a> from your Clinic Development Manager"
+          }
+        },
+        "benefit_cP9ryx": {
+          "type": "benefit",
+          "settings": {
+            "text": "Virtual Training + Complimentary Product Allocation"
+          }
+        },
+        "benefit_egFYRY": {
+          "type": "benefit",
+          "settings": {
+            "text": "Complimentary Merchandising Stand & Exclusive Tester Pricing"
+          }
+        },
+        "benefit_KaCbh7": {
+          "type": "benefit",
+          "settings": {
+            "text": "Patient Sample Allocation"
+          }
+        },
+        "benefit_CGHrtb": {
+          "type": "benefit",
+          "settings": {
+            "text": "In-Clinic Marketing Support"
+          }
+        },
+        "benefit_4kKamm": {
+          "type": "benefit",
+          "settings": {
+            "text": "Complete Digital Marketing Launch Toolkit"
+          }
+        },
+        "benefit_44TXDW": {
+          "type": "benefit",
+          "settings": {
+            "text": "Dedicated Account Manager"
+          }
+        }
+      },
+      "block_order": [
+        "package_chJDYj",
+        "package_7P6aBV",
+        "benefit_cP9ryx",
+        "benefit_egFYRY",
+        "benefit_KaCbh7",
+        "benefit_CGHrtb",
+        "benefit_4kKamm",
+        "benefit_44TXDW"
+      ],
+      "name": "Launch packages",
+      "settings": {
+        "heading": "Clinic Exclusive Launch Packages Available",
+        "heading_size": "h2",
+        "spend_label": "Qualifying spend",
+        "brands_label": "Qualifying brands",
+        "order_label": "How to order",
+        "benefits_heading": "Your Clinic Launch Support Package Includes:",
+        "color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "anchor_id": "register"
+      }
     }
   },
   "order": [
@@ -523,6 +609,7 @@
     "category_cards_N7KYbA",
     "rich_text_iTB8rA",
     "range_cards_d4dm8q",
-    "multicolumn_zfyt3b"
+    "multicolumn_zfyt3b",
+    "launch_packages_LQW6Hx"
   ]
 }
