@@ -31,14 +31,14 @@
         "heading_dWbqi3": {
           "type": "heading",
           "settings": {
-            "heading": "All Your Clinic Needs for Christmas Gifting",
+            "heading": "All Your Clinic Needs for the Festive Season",
             "heading_size": "h1"
           }
         },
         "text_DhrG8x": {
           "type": "text",
           "settings": {
-            "text": "Create more reasons for patients to purchase through your clinic this Christmas, with limited-edition Cantabria Labs promotions in festive packaging and added-value complimentary skincare.",
+            "text": "Create more reasons for patients to purchase through your clinic this holiday season, with limited-edition Cantabria Labs promotions in festive packaging and added-value complimentary skincare.",
             "text_style": "body"
           }
         },
@@ -83,7 +83,7 @@
         "column_TgmfBY": {
           "type": "column",
           "settings": {
-            "title": "Christmas Collagen Activation Barrier+ Treatment Plan",
+            "title": "ALLSKIN | MED Collagen Activation Barrier+ Treatment Plan",
             "text": "<p>In festive packaging with added value complimentary skincare!</p>",
             "link_label": "View offer",
             "link": "#barrier"
@@ -92,7 +92,7 @@
         "column_kLVNbr": {
           "type": "column",
           "settings": {
-            "title": "Christmas Collagen Activation Treatment Plan",
+            "title": "ALLSKIN | MED Collagen Activation Treatment Plan",
             "text": "<p>In festive packaging with added value complimentary skincare!</p>",
             "link_label": "View offer",
             "link": "#collagen"
@@ -101,8 +101,8 @@
         "column_467GYt": {
           "type": "column",
           "settings": {
-            "title": "Christmas Preparation Protocol",
-            "text": "<p>In festive packaging with ALLSKIN | MED Cleanser!</p>",
+            "title": "ALLSKIN | MED Preparation Protocol",
+            "text": "<p>In festive packaging with FREE ALLSKIN | MED Cleanser!</p>",
             "link_label": "View offer",
             "link": "#preparation"
           }
@@ -129,7 +129,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Limited-edition added value for you and your patients this festive season",
+        "title": "Limited-edition, value-added gifting promotions for you and your patients",
         "heading_size": "h2",
         "richtext": "<p><strong>Browse the offers here:</strong></p>",
         "narrow_text": false,
@@ -162,22 +162,22 @@
         "heading_cBdjcT": {
           "type": "heading",
           "settings": {
-            "heading": "Christmas Collagen Activation Barrier+ Treatment Plan",
+            "heading": "ALLSKIN | MED Collagen Activation Barrier+ Treatment Plan",
             "heading_size": "h2"
           }
         },
         "text_p9AB9G": {
           "type": "text",
           "settings": {
-            "text": "<ul>\n<li>\n<strong>Professional Price:</strong> £117.50 ex VAT</li>\n<li>\n</li>\n</ul>\n<p>Give patients more value this Christmas with the limited-edition Collagen Activation Barrier+ Treatment Plan: a clinically proven three-step approach designed to support skin renewal and barrier health, and to enhance treatment results by up to 50%.<sup>1</sup></p>\n<p>For Christmas, the plan comes in an exclusive festive sleeve with a complimentary full-size ALLSKIN | MED Firming Eye Cream and ALLSKIN | MED Restore Cream, adding targeted eye care, hydration and skin-renewal benefits.</p>",
+            "text": "<ul>\n<li>\n<strong>Professional Price:</strong> £117.50 ex VAT</li>\n<li>\n</li>\n</ul>\n<p>Give patients more value this festive season with the limited-edition Collagen Activation Barrier+ Treatment Plan: a clinically proven three-step approach designed to support skin renewal and barrier health, and to enhance treatment results by up to 50%.<sup>1</sup></p>\n<p>The plan comes in an exclusive festive sleeve with a complimentary full-size ALLSKIN | MED Firming Eye Cream and ALLSKIN | MED Restore Cream, adding targeted eye care, hydration and skin-renewal benefits.</p>",
             "text_style": "body"
           }
         },
         "button_YAT664": {
           "type": "button",
           "settings": {
-            "button_label": "Talk to us about Christmas Gifting",
-            "button_link": "#contact",
+            "button_label": "Talk to us about Festive Gifting",
+            "button_link": "#tell-me-more",
             "button_style_secondary": false
           }
         }
@@ -305,21 +305,21 @@
         "heading_F84NgT": {
           "type": "heading",
           "settings": {
-            "heading": "Christmas Collagen Activation Treatment Plan",
+            "heading": "ALLSKIN | MED Collagen Activation Treatment Plan",
             "heading_size": "h2"
           }
         },
         "text_LymLHr": {
           "type": "text",
           "settings": {
-            "text": "<ul>\n<li>\n<strong>Professional Price:</strong> £74 ex VAT</li>\n<li>\n</li>\n</ul>\n<p>For patients looking for a targeted anti-ageing gift, the Christmas Collagen Activation Treatment Plan combines a clinically proven two-step regime with a complimentary full-size ALLSKIN | MED Firming Eye Cream.</p>\n<p>Designed to support collagen activation, improve visible signs of ageing and enhance treatment results by up to 50%<sup>1</sup>, this limited edition plan comes with a festive gift wrap and offers added Christmas value with targeted care for the delicate eye area. </p>",
+            "text": "<ul>\n<li>\n<strong>Professional Price:</strong> £74 ex VAT</li>\n<li>\n</li>\n</ul>\n<p>For patients looking for a targeted anti-ageing gift, the ALLSKIN | MED Collagen Activation Treatment Plan combines a clinically proven two-step regime with a complimentary full-size ALLSKIN | MED Firming Eye Cream.</p>\n<p>Designed to support collagen activation, improve visible signs of ageing and enhance treatment results by up to 50%<sup>1</sup>, this limited edition plan comes with a festive gift wrap and offers added value with targeted care for the delicate eye area. </p>",
             "text_style": "body"
           }
         },
         "button_TPt73R": {
           "type": "button",
           "settings": {
-            "button_label": "Talk to us about Christmas Gifting",
+            "button_label": "Talk to us about Festive Gifting",
             "button_link": "#contact",
             "button_style_secondary": false
           }
@@ -426,22 +426,22 @@
         "heading_R89Gi9": {
           "type": "heading",
           "settings": {
-            "heading": "Christmas Preparation Protocol",
+            "heading": "ALLSKIN | MED Preparation Protocol",
             "heading_size": "h2"
           }
         },
         "text_car6EK": {
           "type": "text",
           "settings": {
-            "text": "<ul>\n<li>\n<strong>Professional Price:</strong> £52.50 ex VAT</li>\n</ul>\n<p>Complete the gifting collection with the limited-edition Preparation Protocol, combining a complete three-step skin preparation regimen with a complimentary full-size Hydrating Cleanser or Exfoliating Cleanser, selected to suit the patient’s skin.</p>\n<p>Designed to cleanse, refine and rebalance the skin ahead of active skincare and professional treatments, and delivered with an exclusive festive gift wrap, it offers a practical, high-value Christmas gift for patients looking to optimise their routine and treatment results.</p>",
+            "text": "<ul>\n<li>\n<strong>Professional Price:</strong> £52.50 ex VAT</li>\n</ul>\n<p>Complete the gifting collection with the limited-edition Preparation Protocol, combining a complete three-step skin preparation regimen with a complimentary full-size Hydrating Cleanser or Exfoliating Cleanser, selected to suit the patient’s skin.</p>\n<p>Designed to cleanse, refine and rebalance the skin ahead of active skincare and professional treatments, and delivered with an exclusive festive gift wrap, it offers a practical, high-value gift for patients looking to optimise their routine and treatment results.</p>",
             "text_style": "body"
           }
         },
         "button_P6zJ8d": {
           "type": "button",
           "settings": {
-            "button_label": "Talk to us about Christmas Gifting",
-            "button_link": "#contact",
+            "button_label": "Talk to us about Festive Gifting",
+            "button_link": "#tell-me-more",
             "button_style_secondary": false
           }
         }
@@ -592,14 +592,14 @@
         "heading_TQRXrK": {
           "type": "heading",
           "settings": {
-            "heading": "Supporting Your Christmas Retail Strategy",
+            "heading": "Supporting Your Festive Retail Strategy",
             "heading_size": "h2"
           }
         },
         "text_kLQep6": {
           "type": "text",
           "settings": {
-            "text": "<p>From premium treatment plans to added-value patient gifts, our Christmas offers are designed to help you <strong>create compelling seasonal recommendations, increase retail opportunities and give patients even more reason to purchase through your clinic.</strong>&nbsp;</p><p>Speak to your Clinic Development Manager about our Cantabria Labs festive promotions, recommended stock levels and how to make the most of this year’s Christmas gifting opportunities.&nbsp;</p>"
+            "text": "<p>From premium treatment plans to added-value patient gifts, our festive offers are designed to help you <strong>create compelling seasonal recommendations, increase retail opportunities and give patients even more reason to purchase through your clinic.</strong>&nbsp;</p><p>Speak to your Clinic Development Manager about our Cantabria Labs festive promotions, recommended stock levels and how to make the most of this year’s gifting opportunities.&nbsp;</p>"
           }
         }
       },
@@ -616,7 +616,7 @@
         "is_heading": false,
         "padding_top": 32,
         "padding_bottom": 0,
-        "container_id": "contact"
+        "container_id": "tell-me-more"
       }
     },
     "1790774719cb55995d": {
