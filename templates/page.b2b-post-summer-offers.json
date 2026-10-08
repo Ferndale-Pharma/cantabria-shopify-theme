@@ -33,14 +33,14 @@
         "heading_Jpd9Pa": {
           "type": "heading",
           "settings": {
-            "heading": "Support Post-Summer Skin Correction in Your Clinic with ALLSKIN | MED&nbsp;",
+            "heading": "Support Post-Summer Skin Correction in Your Clinic with Cantabria Labs",
             "heading_size": "h1"
           }
         },
         "text_BjFmFG": {
           "type": "text",
           "settings": {
-            "text": "You and your patients save up to 30%* with these limited-time added value promotions&nbsp;",
+            "text": "You and your patients can save over 30%* with these limited-time added value promotions&nbsp;",
             "text_style": "subtitle"
           }
         },
@@ -83,7 +83,7 @@
         "text_8VwJep": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>As patients return to clinic looking to address the visible effects of summer, support their next steps with ALLSKIN | MED homecare, designed specifically for medical aesthetic clinics.</strong><br/></p><p>This autumn, discover two targeted post-summer regimes - <a href=\"#pigment\" title=\"#pigment\">ALLSKIN | MED Post-Summer Pigment Correction Bundle</a> and <a href=\"#texture\" title=\"#texture\">ALLSKIN | MED Texture Repair Regime</a> - combining clinic-exclusive, science-led skincare with added-value promotions for both your clinic and your patients.</p>"
+            "text": "<p><strong>As patients return to clinic looking to address the visible effects of summer, support their next steps with Cantabria Labs dermocosmetic skincare.</strong></p><p>This autumn, discover three targeted post-summer regimes - <a href=\"#pigment\" title=\"#pigment\">ALLSKIN | MED Post-Summer Pigment Correction Bundle</a>, <a href=\"#texture\" title=\"#texture\">ALLSKIN | MED Texture Repair Regime</a> and <a href=\"#renewal\" title=\"#renewal\">ENDOCARE Post-Summer Skin Renewal Regime</a> - combining science-led skincare with added-value promotions for both your clinic and your patients.</p>"
           }
         },
         "button_QJ77yw": {
@@ -185,7 +185,7 @@
         "heading_jqnBXj": {
           "type": "heading",
           "settings": {
-            "heading": "Two targeted, medical-grade post-summer skin correction regimes",
+            "heading": "Three targeted, dermocosmetic post-summer skin correction regimes",
             "heading_size": "h2"
           }
         },
@@ -220,7 +220,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00296.jpg",
-            "title": "Post-Summer Pigment Correction",
+            "title": "Support Post-Summer Pigment Correction with ALLSKIN | MED",
             "text": "<p><strong>For uneven pigmentation and visible signs of photodamage</strong></p>",
             "link_label": "View offer",
             "link": "#pigment",
@@ -231,20 +231,32 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00296b.jpg",
-            "title": "Post-Summer Texture Repair",
+            "title": "Support Post-Summer Texture Repair with ALLSKIN | MED",
             "text": "<p><strong>For uneven texture and visible signs of skin ageing</strong></p>",
             "link_label": "View offer",
             "link": "#texture",
+            "link_new_tab": false
+          }
+        },
+        "column_8eYR8x": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00303_CL_PostSummerSkinRenewal_WebsiteAssets_Oct26_03_13a4c535-e86a-4f50-8b32-6ab4fb623d19.jpg",
+            "title": "Support Post-Summer Skin Renewal with ENDOCARE",
+            "text": "<p><strong>For controlled skin renewal and improving overall skin quality</strong></p>",
+            "link_label": "View offer",
+            "link": "#renewal",
             "link_new_tab": false
           }
         }
       },
       "block_order": [
         "column_9Yzga7",
-        "column_kHaf6k"
+        "column_kHaf6k",
+        "column_8eYR8x"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) {.multicolumn-card__image-wrapper {width: 60%; margin-left: auto; margin-right: auto; }}",
+        "@media screen and (min-width: 750px) {/* .multicolumn-card__image-wrapper {width: 60%; margin-left: auto; margin-right: auto; }*/}",
         ".button--primary {max-width: 80%; min-width: 50%; margin: 4rem auto 4rem;}"
       ],
       "name": "Multicolumn with Buttons",
@@ -257,12 +269,12 @@
         "button_label": "",
         "button_link": "",
         "button_link_new_tab": false,
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "color_scheme": "",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 32
       }
@@ -279,9 +291,8 @@
         },
         "text_tPq3cj": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p><strong>Help target uneven pigmentation and visible signs of photodamage&nbsp;</strong><br/><br/>A targeted three-step homecare regime combining pigment correction, barrier support and very high-level daily photoprotection to help promote clearer, more even-looking skin while protecting against further light-induced damage.&nbsp;</p>"
+            "text": "<h4><strong>Added-value promotion available for professional skin clinics</strong><br/></h4><p>Designed for you to pass on to your customers:</p>"
           }
         }
       },
@@ -299,40 +310,6 @@
         "padding_top": 12,
         "padding_bottom": 12,
         "container_id": "pigment"
-      }
-    },
-    "rich_text_Hcthyg": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_rndcVN": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "For Post-Summer Texture Repair",
-            "heading_size": "h2"
-          }
-        },
-        "text_xh3YMz": {
-          "type": "text",
-          "settings": {
-            "text": "<h4><strong>Added-value promotion available for professional skin clinics</strong><br/></h4><p>Designed for you to pass on to your customers:</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_rndcVN",
-        "text_xh3YMz"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
-        "full_width": true,
-        "is_heading": false,
-        "padding_top": 12,
-        "padding_bottom": 12,
-        "container_id": ""
       }
     },
     "image_with_text_html_ThRJLd": {
@@ -457,7 +434,7 @@
         "text_eFipqp": {
           "type": "text",
           "settings": {
-            "text": "<p>A member of our expert Clinic Development Team will talk you through the products, promotion and wider ALLSKIN | MED opportunity, including the education, marketing and ongoing support available to your clinic.</p>"
+            "text": "<p>A member of our expert Clinic Development Team will talk you through the products, promotion and wider Cantabria Labs opportunity, including the education, marketing and ongoing support available to your clinic.</p>"
           }
         },
         "button_UikK4K": {
@@ -510,9 +487,8 @@
         },
         "text_zHrQVP": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p><strong>Help refine uneven texture and visible signs of skin ageing</strong><br/><br/>An advanced three-step retinoid-led homecare regime for patients presenting with uneven texture, enlarged pores and visible signs of ageing following the summer months.</p>"
+            "text": "<h4><strong>Added-value promotion available for professional skin clinics</strong></h4><p>Designed for you to pass on to your customers:</p>"
           }
         }
       },
@@ -530,40 +506,6 @@
         "padding_top": 64,
         "padding_bottom": 12,
         "container_id": "texture"
-      }
-    },
-    "rich_text_nWnz4L": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_rPpqgU": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "For Post-Summer Texture Repair",
-            "heading_size": "h2"
-          }
-        },
-        "text_6abJcD": {
-          "type": "text",
-          "settings": {
-            "text": "<h4><strong>Added-value promotion available for professional skin clinics</strong></h4><p>Designed for you to pass on to your customers:</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_rPpqgU",
-        "text_6abJcD"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
-        "full_width": true,
-        "is_heading": false,
-        "padding_top": 12,
-        "padding_bottom": 12,
-        "container_id": ""
       }
     },
     "image_with_text_html_BMxQxe": {
@@ -688,7 +630,7 @@
         "text_TyXjz9": {
           "type": "text",
           "settings": {
-            "text": "<p>A member of our expert Clinic Development Team will talk you through the products, promotion and wider ALLSKIN | MED opportunity, including the education, marketing and ongoing support available to your clinic.<br/><br/></p>"
+            "text": "<p>A member of our expert Clinic Development Team will talk you through the products, promotion and wider Cantabria Labs opportunity, including the education, marketing and ongoing support available to your clinic.</p>"
           }
         },
         "button_ztb98A": {
@@ -729,52 +671,134 @@
         "container_id": ""
       }
     },
-    "multicolumn_Rpzyfn": {
-      "type": "multicolumn",
+    "rich_text_f9ibUa": {
+      "type": "rich-text",
       "blocks": {
-        "column_QXM7FY": {
+        "heading_WdX8je": {
+          "type": "heading",
+          "settings": {
+            "heading": "Post-Summer Skin Renewal with ENDOCARE",
+            "heading_size": "h2"
+          }
+        },
+        "text_Jtiqf8": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><strong>Added-value promotion available for professional skin clinics</strong></h4><p>Designed for you to pass on to your customers:</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WdX8je",
+        "text_Jtiqf8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 12,
+        "container_id": "renewal"
+      }
+    },
+    "image_with_text_html_Kpyhmk": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_nz4gfj": {
+          "type": "heading",
+          "settings": {
+            "heading": "ENDOCARE Post-Summer Skin Renewal Bundle",
+            "heading_size": "h2"
+          }
+        },
+        "text_DD43tw": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>A targeted approach to restoring hydration, supporting controlled skin renewal and improving overall skin quality. </strong></p><p>A clinically-proven three-step skincare regime combining controlled skin renewal, barrier support and very high-level daily photoprotection to provide a balanced post-summer approach to renewal, hydration and barrier support. </p><br><h4 style=\"font-weight:700;\">UP TO 35% TOTAL SAVING FOR YOU AND YOUR PATIENTS***</h4>",
+            "text_style": "body"
+          }
+        },
+        "button_6VMyNG": {
+          "type": "button",
+          "settings": {
+            "button_label": "DISCUSS THIS OFFER",
+            "button_link": "#enquire",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_nz4gfj",
+        "text_DD43tw",
+        "button_6VMyNG"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "anchor_id": "",
+        "image": "shopify://shop_images/FERN-IMG-00303_CL_PostSummerSkinRenewal_WebsiteAssets_Oct26_05.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_html_Xk46Uz": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_9dnBmm": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/retinduo-1200x800.jpg",
-            "title": "<strong>RETINDUO®</strong>",
-            "text": "<p>Patented dual-retinoid technology supporting controlled skin renewal.</p>",
+            "title": "",
+            "text": "<h4 style=\"color:#000;\"><strong>ENDOCARE RENEWAL Retinoid Serum</strong></h4> \n<h4 style=\"font-weight:700;\">BUY ANY</h4>\n<p>Visibly smooths texture, reduces fine lines and wrinkles and supports brighter, renewed skin.</p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_tYccAp": {
+        "column_zJXxN7": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/FERN-IMG-00128_ALLSKINMED_ReoxdermTechnology_BlogCover_1200x800px_Sep25-1.jpg",
-            "title": "<strong>REOXDERM®</strong>",
-            "text": "<p>Advanced technology designed to support skin barrier function.</p>",
+            "title": "",
+            "text": "<h4 style=\"color:#000;\"><strong>ENDOCARE AGE BARRIER Hyaluboost Gel Cream</strong></h4> \n<h4 style=\"font-weight:700;\">+ 50% OFF</h4>\n<p>Provides sustained hydration, reinforces the skin barrier and supports long-term retinoid tolerance.</p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_ijY3Pg": {
+        "column_QkTRkh": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/CL-WEB-0002_-_HELIOCARE_BRAND_PAGE_-_TECH_INGREDIENTS_-_ASPA_FERNBLOCK_1.jpg",
-            "title": "<strong>ASPA-FERNBLOCK®</strong>",
-            "text": "<p>Patented antioxidant technology supporting advanced daily photoprotection. </p>",
+            "title": "",
+            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Sensation SPF50+</strong></h4> \n<h4 style=\"font-weight:700;\">+ FREE</h4>\n<p>Very high-level SPF50+ and PA++++ daily photoprotection to help protect against further UV exposure and support long-term skin health.</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_QXM7FY",
-        "column_tYccAp",
-        "column_ijY3Pg"
+        "column_9dnBmm",
+        "column_zJXxN7",
+        "column_QkTRkh"
       ],
-      "disabled": true,
-      "name": "t:sections.multicolumn.presets.name",
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.multicolumn-card__image-wrapper {width: 60%; margin-left: auto; margin-right: auto; }}"
+      ],
+      "name": "Multicolumn HTML",
       "settings": {
-        "title": "Powered by Patented Technologies",
-        "heading_size": "h2",
-        "richtext": "<p>ALLSKIN | MED combines advanced formulations with patented Cantabria Labs technologies to support targeted, practitioner-led skincare regimes.</p>",
-        "narrow_text": true,
+        "anchor_id": "",
+        "title": "",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -785,42 +809,61 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 64,
-        "container_id": ""
+        "padding_top": 0,
+        "padding_bottom": 12
       }
     },
-    "rich_text_EGNyiT": {
+    "rich_text_UKLqK6": {
       "type": "rich-text",
       "blocks": {
-        "heading_igx8Nc": {
+        "heading_8DFrLK": {
           "type": "heading",
           "settings": {
-            "heading": "Why ALLSKIN | MED?",
+            "heading": "Interested in offering ENDOCARE Post-Summer Skin Renewal in your clinic?&nbsp;",
             "heading_size": "h2"
           }
         },
-        "text_NeMnAJ": {
+        "text_M3JFzM": {
           "type": "text",
           "settings": {
-            "text": "<p>ALLSKIN | MED is Cantabria Labs' clinic-exclusive skincare portfolio, developed specifically for professional skin and medical aesthetic practice. <br/><br/>With targeted solutions for concerns including skin ageing, photodamage and hyperpigmentation, ALLSKIN | MED enables practitioners to integrate evidence-based homecare throughout the patient journey, complementing professional treatments and supporting long-term skin health. </p>"
+            "text": "<p>A member of our expert Clinic Development Team will talk you through the products, promotion and wider Cantabria Labs opportunity, including the education, marketing and ongoing support available to your clinic.</p>"
+          }
+        },
+        "button_qBTLCb": {
+          "type": "button",
+          "settings": {
+            "button_label": "SPEAK TO OUR CLINIC DEVELOPMENT TEAM",
+            "button_link": "#enquire",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "heading_q7PzrM": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<strong>Added value for your clinic and your patients</strong>",
+            "heading_size": "h2"
           }
         }
       },
       "block_order": [
-        "heading_igx8Nc",
-        "text_NeMnAJ"
+        "heading_8DFrLK",
+        "text_M3JFzM",
+        "button_qBTLCb",
+        "heading_q7PzrM"
       ],
-      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_top": 32,
+        "padding_bottom": 32,
         "container_id": ""
       }
     },
@@ -947,7 +990,7 @@
           "settings": {
             "heading": "References",
             "icon": "question_mark",
-            "row_content": "<p>* “Over 30%” saving is based on comparing the combined SRP and Trade Price of the three products with the Promotional Consumer Price and Professional Promotional Bundle Price respectively, using ALLSKIN | MED Pigment Control Emulsion Retinoid Potency 1. Saving varies by strength selected.&nbsp;</p><p>** “Over 25%” saving is based on comparing the combined SRP and Trade Price of the three products with the Promotional Consumer Price and Professional Promotional Bundle Price respectively.&nbsp;</p>",
+            "row_content": "<p>* “Over 30%” saving is based on comparing the combined SRP and Trade Price of the three products with the Promotional Consumer Price and Professional Promotional Bundle Price respectively, using ALLSKIN | MED Pigment Control Emulsion Retinoid Potency 1. Saving varies by strength selected.&nbsp;</p><p>** “Over 25%” saving is based on comparing the combined SRP and Trade Price of the three products with the Promotional Consumer Price and Professional Promotional Bundle Price respectively.&nbsp;</p><p>*** “Up to 35%” saving is based on comparing the combined SRP and Trade Price of the three products with the Promotional Consumer Price and Professional Promotional Bundle Price respectively.&nbsp;</p>",
             "page": ""
           }
         }
@@ -981,17 +1024,17 @@
     "rich_text_pqDBbx",
     "multicolumn_with_buttons_7efPwy",
     "rich_text_Y9kRX7",
-    "rich_text_Hcthyg",
     "image_with_text_html_ThRJLd",
     "multicolumn_html_pTMBJ9",
     "rich_text_xUHPC6",
     "rich_text_WXUgUe",
-    "rich_text_nWnz4L",
     "image_with_text_html_BMxQxe",
     "multicolumn_html_eFwyQX",
     "rich_text_mHRWi9",
-    "multicolumn_Rpzyfn",
-    "rich_text_EGNyiT",
+    "rich_text_f9ibUa",
+    "image_with_text_html_Kpyhmk",
+    "multicolumn_html_Xk46Uz",
+    "rich_text_UKLqK6",
     "multicolumn_hyW438",
     "rich_text_PcfdMw",
     "1790076620c67662e7",
