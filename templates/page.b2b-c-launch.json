@@ -52,7 +52,8 @@
         "buttons_NiBWhN"
       ],
       "custom_css": [
-        ".banner__buttons .button:nth-child(2) {background-color: #fff; color: black; border: 2px solid #000;}"
+        ".banner__buttons .button:nth-child(2) {background-color: #fff; color: black; border: 2px solid #000;}",
+        ".banner__buttons {display: flex;}"
       ],
       "name": "Image Banner v2",
       "settings": {
@@ -524,7 +525,7 @@
             "intro": "<p>Spend £500 ex. VAT across the Cantabria Labs Dermatological Skincare & Supplements portfolio and receive your complimentary Clinic Launch Support Package</p>",
             "spend": "£500 ex. VAT or more",
             "brands": "HELIOCARE, ENDOCARE, BIRETIX, NEORETIN & SKIN RESIST",
-            "order": "<a href=\"#register-form\">Request a call</a> from your Clinic Development Manager"
+            "order": "<a href=\"#tell-me-more\" title=\"Tell me more\">Request a call</a> from your Clinic Development Manager"
           }
         },
         "package_7P6aBV": {
@@ -535,7 +536,7 @@
             "intro": "<p>Spend £500 ex. VAT across the ALLSKIN | MED portfolio and receive your complimentary Clinic Launch Support Package</p>",
             "spend": "£500 ex. VAT or more",
             "brands": "ALLSKIN | MED & ALLSKIN | MED HAIR",
-            "order": "<a href=\"#register-form\">Request a call</a> from your Clinic Development Manager"
+            "order": "<a href=\"#tell-me-more\" title=\"Tell me more\">Request a call</a> from your Clinic Development Manager"
           }
         },
         "benefit_cP9ryx": {
