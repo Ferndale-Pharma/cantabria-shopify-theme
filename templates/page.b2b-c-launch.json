@@ -600,6 +600,39 @@
         "anchor_id": "register"
       }
     },
+    "rich_text_GeR9M8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yFgNpH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Request a Callback Today",
+            "heading_size": "h2"
+          }
+        },
+        "text_i9JEmT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To get started, simply complete the form below and we'll be in touch ASAP to arrange a time to suit you where we can discuss your in-clinic options.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yFgNpH",
+        "text_i9JEmT"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": "tell-me-more"
+      }
+    },
     "179145289243460bae": {
       "type": "apps",
       "blocks": {
@@ -616,6 +649,39 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "rich_text_QqW6jt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cJnQmr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cantabria Labs UK x Ferndale Pharma",
+            "heading_size": "h2"
+          }
+        },
+        "text_ngDgqf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ferndale Pharma has operated the Cantabria Labs dermocosmetic business in the UK as its exclusive partner since 2008, sharing a commitment to advancing skin health and wellbeing and supporting professionals across the UK.&nbsp;</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cJnQmr",
+        "text_ngDgqf"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
@@ -629,6 +695,8 @@
     "range_cards_d4dm8q",
     "multicolumn_zfyt3b",
     "launch_packages_LQW6Hx",
-    "179145289243460bae"
+    "rich_text_GeR9M8",
+    "179145289243460bae",
+    "rich_text_QqW6jt"
   ]
 }
