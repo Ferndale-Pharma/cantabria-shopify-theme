@@ -31,22 +31,22 @@
         "heading_TbPwtW": {
           "type": "heading",
           "settings": {
-            "heading": "Christmas Gifting with Cantabria Labs",
+            "heading": "Festive Gifting with Cantabria Labs",
             "heading_size": "h1"
           }
         },
         "text_iHTrLb": {
           "type": "text",
           "settings": {
-            "text": "<strong>Get 5 FREE Christmas Gifting Packs when you spend £350 ex.VAT</strong> or more on Cantabria Labs Dermatological Skincare",
+            "text": "<strong>Get 5 FREE Festive Gifting Packs </strong>when you spend over £350 ex.VAT on Cantabria Labs Dermatological Skincare",
             "text_style": "subtitle"
           }
         },
         "buttons_yRKaGb": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Talk to us about Christmas Gifting",
-            "button_link_1": "#contact",
+            "button_label_1": "Talk to us about Festive Gifting",
+            "button_link_1": "#tell-me-more",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -90,7 +90,7 @@
         "text_cj7xzX": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Create more reasons for patients to purchase through your pharmacy this Christmas with this limited-edition Cantabria Labs promotion featuring fantastic festive packing and added-value complimentary skincare.</strong></p>"
+            "text": "<p><strong>Create more reasons for patients to purchase through your pharmacy this holiday season with this limited-edition Cantabria Labs promotion featuring fantastic festive packing and added-value complimentary skincare.</strong></p>"
           }
         }
       },
@@ -207,14 +207,14 @@
         "text_zcFK37": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>Each complimentary Christmas Gifting Pack includes:</strong></h3><ul><li><h4><strong>1 x ENDOCARE C Ferulic Serum - worth £55</strong></h4></li><li><h4><strong>+ Premium Cantabria Labs Christmas Gift Box</strong></h4></li><li><h4><strong>+ Tissue paper, ribbon and gift card</strong></h4></li></ul>"
+            "text": "<h3><strong>Each Complimentary Festive Gifting Pack includes:</strong></h3><ul><li><h4><strong>1 x FREE ENDOCARE C Ferulic Serum - worth £55</strong></h4></li><li><h4><strong>+ Premium Cantabria Labs Gift Box</strong></h4></li><li><h4><strong>+ Tissue paper, ribbon and gift card</strong></h4></li></ul>"
           }
         },
         "button_bBqb4e": {
           "type": "button",
           "settings": {
-            "button_label": "Talk to us about Christmas Gifting",
-            "button_link": "#contact",
+            "button_label": "Talk to us about Festive Gifting",
+            "button_link": "#tell-me-more",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -224,7 +224,7 @@
         "text_MytyFc": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>Your customer offer:</strong>&nbsp;</h3><p><strong>Gift customers a complimentary Endocare C Ferulic Serum</strong>, presented in a premium Cantabria Labs Christmas gift box, <strong>when they spend £75 or more on Cantabria Labs Dermatological Skincare.</strong>&nbsp;</p>"
+            "text": "<h2><strong>Your customer offer:</strong>&nbsp;</h2><p><strong>Gift customers a complimentary Endocare C Ferulic Serum, presented in a premium Cantabria Labs gift box</strong>, when they spend £75 or more on Cantabria Labs Dermatological Skincare.&nbsp;</p>"
           }
         }
       },
@@ -309,14 +309,14 @@
         "heading_yFA9Pj": {
           "type": "heading",
           "settings": {
-            "heading": "Supporting Your Christmas Retail Strategy",
+            "heading": "Supporting Your Festive Retail Strategy",
             "heading_size": "h2"
           }
         },
         "text_Q8aBVH": {
           "type": "text",
           "settings": {
-            "text": "<p>Speak to your Business Development Manager about our Cantabria Labs festive promotions, recommended stock levels and how to make the most of this year’s Christmas gifting opportunities.&nbsp;</p>"
+            "text": "<p>Speak to your Business Development Manager about our Cantabria Labs festive promotions, recommended stock levels and how to make the most of this year’s gifting opportunities.&nbsp;</p>"
           }
         }
       },
@@ -333,7 +333,7 @@
         "is_heading": false,
         "padding_top": 32,
         "padding_bottom": 0,
-        "container_id": "contact"
+        "container_id": "tell-me-more"
       }
     },
     "apps_FkimBj": {
