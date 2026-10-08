@@ -1,0 +1,51 @@
+{%- liquid
+  assign login_to_buy_url = product.metafields.custom.login_to_buy_url.value
+  assign primary_label = block.settings.primary_label | default: 'Login to buy'
+  assign secondary_label = block.settings.secondary_label | default: 'Find a skin clinic'
+  assign clinic_url = block.settings.clinic_url
+-%}
+
+<div
+  class="cl-external-buy-buttons"
+  {{ block.shopify_attributes }}
+>
+  {%- if login_to_buy_url != blank -%}
+    <a
+      href="{{ login_to_buy_url }}"
+      class="button button--full-width cl-external-buy-buttons__button cl-external-buy-buttons__button--primary"
+    >
+      {{ primary_label | escape }}
+    </a>
+  {%- endif -%}
+
+  {%- if clinic_url != blank -%}
+    <a
+      href="{{ clinic_url }}"
+      class="button button--secondary button--full-width cl-external-buy-buttons__button cl-external-buy-buttons__button--secondary"
+    >
+      {{ secondary_label | escape }}
+    </a>
+  {%- endif -%}
+</div>
+
+<style>
+  .cl-external-buy-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .cl-external-buy-buttons__button {
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 750px) {
+    .cl-external-buy-buttons {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>

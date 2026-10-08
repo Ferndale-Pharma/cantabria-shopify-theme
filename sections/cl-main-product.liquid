@@ -103,7 +103,7 @@
           class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
         >
           {% for range in product.metafields.custom.range.value %}
-            <a class="product-range__link" href="/collections/{{ range | handleize }}">{{ range }}</a>
+            <a class="product-range__link" href="/collections/{{ range | downcase }}">{{ range }}</a>
           {% endfor %}
           {%- assign product_form_id = 'product-form-' | append: section.id -%}
           {%- for block in section.blocks -%}
@@ -139,11 +139,13 @@
                       price_class: 'price--large'
                     -%}
                   </div>
+                  {% unless template.suffix == 'asm' %}
                   <div class="my-points twcss-justify-end twcss-flex twcss-flex-1">
                     <p class="my-points-text">
                       <span id="my-points-value">Earn {{ product.selected_or_first_available_variant.price | divided_by: 10 }} points</span>
                     </p>
                   </div>
+                {% endunless %}
                 {% comment %} Not ideal but couldn't get it to work any other way, {% endcomment %}
                  {% comment %}
                 {%- for block in section.blocks -%}
@@ -301,6 +303,11 @@
                     </div>
                   </details>
                 </div>
+                {%- when 'external_buy_buttons' -%}
+                  {% render 'asm-multiple-buttons',
+                    block: block,
+                    product: product
+                  %}
               {%- when 'buy_buttons' -%}
                 <div
                   id="Quantity-Form-{{ section.id }}"
@@ -979,6 +986,30 @@
             }
           ],
           "default": "circle"
+        }
+      ]
+    },
+    {
+      "type": "external_buy_buttons",
+      "name": "External buy buttons",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "primary_label",
+          "label": "Primary button label",
+          "default": "Login to buy"
+        },
+        {
+          "type": "text",
+          "id": "secondary_label",
+          "label": "Secondary button label",
+          "default": "Find a skin clinic"
+        },
+        {
+          "type": "url",
+          "id": "clinic_url",
+          "label": "Find a skin clinic URL"
         }
       ]
     },
