@@ -533,8 +533,8 @@
           "settings": {
             "title": "Launch the ALLSKIN | MED Portfolio in your Clinic",
             "subheading": "Available Exclusively from your Clinic Development Manager",
-            "intro": "<p>Spend £500 ex. VAT across the ALLSKIN | MED portfolio and receive your complimentary Clinic Launch Support Package</p>",
-            "spend": "£500 ex. VAT or more",
+            "intro": "<p>Spend £2,500 ex. VAT across the ALLSKIN | MED portfolio and receive your complimentary Clinic Launch Support Package</p>",
+            "spend": "£2,500 ex. VAT or more",
             "brands": "ALLSKIN | MED & ALLSKIN | MED HAIR",
             "order": "<a href=\"#tell-me-more\" title=\"Tell me more\">Request a call</a> from your Clinic Development Manager"
           }
@@ -595,7 +595,7 @@
         "order_label": "How to order",
         "benefits_heading": "Your Clinic Launch Support Package Includes:",
         "color_scheme": "",
-        "padding_top": 64,
+        "padding_top": 96,
         "padding_bottom": 64,
         "anchor_id": "register"
       }
