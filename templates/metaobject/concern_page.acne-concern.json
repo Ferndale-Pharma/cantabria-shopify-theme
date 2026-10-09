@@ -445,15 +445,15 @@
         "text_yp6phA": {
           "type": "text",
           "settings": {
-            "text": "<p>For adults experiencing persistent or recurring breakouts, BIRETIX Adult Acne Regime featuring the BIRETIX Double Correction Serum provides dual-action care.</p><p> Clinically proven to deliver visible improvements in just 14 days<sup>14</sup>, it helps reduce blemishes, regulate excess oil, minimise the appearance of pores and improve overall skin texture and radiance. It also helps support the skin barrier and addresses the first signs of ageing, making it particularly suitable for adult acne-prone skin. </p>\n<p><b>Discover the BIRETIX Regime for Adult Acne-Prone Skin.</b></p>",
+            "text": "<p>For adults experiencing persistent or recurring breakouts, BIRETIX Double Correction Serum provides dual-action care.</p><p> Clinically proven to deliver visible improvements in just 14 days<sup>14</sup>, it helps reduce blemishes, regulate excess oil, minimise the appearance of pores and improve overall skin texture and radiance. It also helps support the skin barrier and addresses the first signs of ageing, making it particularly suitable for adult acne-prone skin. </p>\n<p><b>Discover BIRETIX Double Correction Serum.</b></p>",
             "text_style": "body"
           }
         },
         "button_AYRzy9": {
           "type": "button",
           "settings": {
-            "button_label": "View regime",
-            "button_link": "shopify://products/biretix-regime-for-adult-acne",
+            "button_label": "View product",
+            "button_link": "shopify://products/biretix-double-correction-serum",
             "button_style_secondary": false
           }
         }
@@ -465,6 +465,7 @@
       ],
       "name": "Image with text HTML",
       "settings": {
+        "anchor_id": "",
         "image": "shopify://shop_images/FERN-IMG-00258_CantabriaLabs.co.uk_GuideToRetinoidSupport_Layflats3.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -493,15 +494,15 @@
         "text_8wdE6B": {
           "type": "text",
           "settings": {
-            "text": "<p>For those experiencing ongoing acne-prone skin from adolescence into adulthood, the BIRETIX Regime for Adolescent/Persistent Acne-Prone Skin featuring the BIRETIX Tri-Active Anti-Blemish Gel delivers triple-action daily care.</p><p> Clinically proven to reduce blemishes by up to 76% in 28 days<sup>15</sup>, it helps exfoliate congested pores, regulate excess sebum, reduce visible redness and minimise future breakouts. Powered by RETINSPHERE® Technology, BIOPEP-15, glycolic acid, salicylic acid and niacinamide, it provides effective care for acne-prone skin while maintaining skin comfort. </p><p><b>Discover the BIRETIX Regime for Persistent Acne-Prone Skin.</b></p>",
+            "text": "<p>For those experiencing ongoing acne-prone skin from adolescence into adulthood, the BIRETIX Tri-Active Anti-Blemish Gel delivers triple-action daily care.</p><p> Clinically proven to reduce blemishes by up to 76% in 28 days<sup>15</sup>, it helps exfoliate congested pores, regulate excess sebum, reduce visible redness and minimise future breakouts. Powered by RETINSPHERE® Technology, BIOPEP-15, glycolic acid, salicylic acid and niacinamide, it provides effective care for acne-prone skin while maintaining skin comfort. </p><p><b>Discover BIRETIX Tri-Active Anti-Blemish Gel.</b></p>",
             "text_style": "body"
           }
         },
         "button_hiHchW": {
           "type": "button",
           "settings": {
-            "button_label": "View regime",
-            "button_link": "shopify://products/biretix-regime-for-adolescent-persistent-acne",
+            "button_label": "View product",
+            "button_link": "shopify://products/biretix-tri-active-anti-blemish-gel",
             "button_style_secondary": false
           }
         }
@@ -513,6 +514,7 @@
       ],
       "name": "Image with text HTML",
       "settings": {
+        "anchor_id": "",
         "image": "shopify://shop_images/FERN-IMG-00259_CanrabriaLabs_Blogs_SkinStories_Layflats2FERN-IMG-00258_CantabriaLabs.co.uk_GuideToRetinoidSupport_Layflats2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -541,15 +543,15 @@
         "text_mg8XFT": {
           "type": "text",
           "settings": {
-            "text": "<p>For those with acne-prone skin undergoing prescription retinoid treatment, the BIRETIX Isorepair Regime supports treatment adherence and comfort by helping to maintain skin barrier integrity.</p><p>Featuring the BIRETIX Isorepair Cream, it has been clinically tested by users undergoing prescription retinoid treatment demonstrating a -46% reduction in water loss (TEWL), improving hydration and strengthening the skin barrier.<sup>16,17</sup></p>\n<p><b>Discover the BIRETIX Isorepair Regime.</b></p>",
+            "text": "<p>For those with acne-prone skin undergoing prescription retinoid treatment, the BIRETIX Isorepair products supports treatment adherence and comfort by helping to maintain skin barrier integrity.</p><p>Featuring the BIRETIX Isorepair Cream, it has been clinically tested by users undergoing prescription retinoid treatment demonstrating a -46% reduction in water loss (TEWL), improving hydration and strengthening the skin barrier.<sup>16,17</sup></p>\n<p><b>Discover BIRETIX Isorepair Cream.</b></p>",
             "text_style": "body"
           }
         },
         "button_9bNmYJ": {
           "type": "button",
           "settings": {
-            "button_label": "View regime",
-            "button_link": "shopify://products/biretix-isorepair-regime",
+            "button_label": "View product",
+            "button_link": "shopify://products/biretix-isorepair-cream",
             "button_style_secondary": false
           }
         }
@@ -561,6 +563,7 @@
       ],
       "name": "Image with text HTML",
       "settings": {
+        "anchor_id": "",
         "image": "shopify://shop_images/FERN-IMG-00259_CanrabriaLabs_Blogs_SkinStories_Layflats1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
