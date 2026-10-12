@@ -29,7 +29,7 @@
         "buttons_k9dkqJ": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Register free",
+            "button_label_1": "Watch On Demand Now",
             "button_link_1": "#register",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -101,7 +101,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Info.png",
-            "title": "Who should attend:",
+            "title": "Who should watch:",
             "text": "<p>{{ metaobject.multicolumn_2_body_text | metafield_tag }}</p>",
             "link_label": "",
             "link": ""
@@ -138,7 +138,7 @@
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "Register Free",
+        "button_label": "Watch On Demand Now",
         "button_link": "#register",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -161,6 +161,7 @@
       "block_order": [
         "text_BrxMKK"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -232,7 +233,7 @@
         "button_wYV7gf": {
           "type": "button",
           "settings": {
-            "button_label": "Register free",
+            "button_label": "Watch On Demand Now",
             "button_link": "#register",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -328,7 +329,7 @@
         "heading_gNBcRn": {
           "type": "heading",
           "settings": {
-            "heading": "Who Should Attend?",
+            "heading": "Who Should Watch?",
             "heading_size": "h2"
           }
         },
@@ -361,14 +362,14 @@
         "heading_YWUXJK": {
           "type": "heading",
           "settings": {
-            "heading": "Secure Your Place",
+            "heading": "Watch On Demand Now",
             "heading_size": "h2"
           }
         },
         "text_nkTkKC": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Registration is free.</strong><br/>Simply enter your details below and you’ll receive your webinar invite via email.<br/><br/></p>"
+            "text": "<p><strong>Registration is free.</strong><br/>Simply enter your details below and you’ll be able to watch the webinar now.<br/></p>"
           }
         }
       },
@@ -415,6 +416,7 @@
       "block_order": [
         "collapsible_row_FKc99P"
       ],
+      "disabled": true,
       "name": "Collapsible Content HTML",
       "settings": {
         "anchor_id": "unavailable",
