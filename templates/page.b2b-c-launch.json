@@ -545,10 +545,10 @@
           "type": "package",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_14.jpg",
-            "title": "Launch the ALLSKIN | MED Portfolio in your Clinic",
+            "title": "Launch ALLSKIN | MED in your Clinic",
             "subheading": "Available Exclusively from your Clinic Development Manager",
-            "intro": "<p>Spend £2,500 ex. VAT across the ALLSKIN | MED portfolio and receive your complimentary Clinic Launch Support Package</p>",
-            "spend": "£2,500 ex. VAT or more",
+            "intro": "<p>Talk to your Clinic Development Manager today to discuss the range of ALLSKIN | MED and ALLSKIN | MED Hair Launch packages available</p>",
+            "spend": "Tailored launch packages available",
             "brands": "ALLSKIN | MED & ALLSKIN | MED HAIR",
             "order": "<a href=\"#tell-me-more\" title=\"Tell me more\">Request a call</a> from your Clinic Development Manager"
           }
