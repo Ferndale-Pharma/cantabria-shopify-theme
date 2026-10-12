@@ -29,7 +29,7 @@
         "buttons_k9dkqJ": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Watch On Demand Now",
+            "button_label_1": "Watch on demand now",
             "button_link_1": "#register",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -138,7 +138,7 @@
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "Watch On Demand Now",
+        "button_label": "Watch on demand now",
         "button_link": "#register",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -233,7 +233,7 @@
         "button_wYV7gf": {
           "type": "button",
           "settings": {
-            "button_label": "Watch On Demand Now",
+            "button_label": "Watch on demand now",
             "button_link": "#register",
             "button_style_secondary": false,
             "button_label_2": "",
