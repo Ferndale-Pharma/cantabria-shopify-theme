@@ -97,7 +97,8 @@
       "name": "Single Image",
       "settings": {
         "image": "shopify://shop_images/cantabria-labs-mixed-products.jpg",
-        "image_width_value": 800,
+        "image_width_mobile": 400,
+        "image_width_desktop": 800,
         "image_width_unit": "px",
         "padding_top": 0,
         "padding_bottom": 64,
@@ -284,7 +285,7 @@
         "button_link": "#contact",
         "color_scheme": "",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 64,
         "padding_bottom": 64,
         "container_id": ""
@@ -674,7 +675,7 @@
         "button_link": "",
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 64,
         "padding_bottom": 64,
         "container_id": ""
