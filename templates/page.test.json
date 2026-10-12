@@ -226,6 +226,80 @@
         "padding_bottom": 64,
         "container_id": ""
       }
+    },
+    "launch_packages_Wm8eMa": {
+      "type": "launch-packages",
+      "blocks": {
+        "package_f8NA9m": {
+          "type": "package",
+          "settings": {
+            "title": "Launch the Cantabria Labs Portfolio in your Clinic",
+            "subheading": "Available Exclusively from your Clinic Development Manager",
+            "intro": "<p>Spend £500 ex. VAT across the Cantabria Labs Dermatological Skincare & Supplements portfolio and receive your complimentary Clinic Launch Support Package</p>",
+            "spend": "£500 ex. VAT or more",
+            "brands": "HELIOCARE, ENDOCARE, BIRETIX, NEORETIN & SKIN RESIST",
+            "order": "<a href=\"#register-form\">Request a call</a> from your Clinic Development Manager"
+          }
+        },
+        "benefit_LXdFHg": {
+          "type": "benefit",
+          "settings": {
+            "text": "Virtual Training + Complimentary Product Allocation"
+          }
+        },
+        "benefit_ihHXLT": {
+          "type": "benefit",
+          "settings": {
+            "text": "Complimentary Merchandising Stand & Exclusive Tester Pricing"
+          }
+        },
+        "benefit_g3i6UA": {
+          "type": "benefit",
+          "settings": {
+            "text": "Patient Sample Allocation"
+          }
+        },
+        "benefit_CPH6Ge": {
+          "type": "benefit",
+          "settings": {
+            "text": "In-Clinic Marketing Support"
+          }
+        },
+        "benefit_AaU3g6": {
+          "type": "benefit",
+          "settings": {
+            "text": "Complete Digital Marketing Launch Toolkit"
+          }
+        },
+        "benefit_QrqHc9": {
+          "type": "benefit",
+          "settings": {
+            "text": "Dedicated Account Manager"
+          }
+        }
+      },
+      "block_order": [
+        "package_f8NA9m",
+        "benefit_LXdFHg",
+        "benefit_ihHXLT",
+        "benefit_g3i6UA",
+        "benefit_CPH6Ge",
+        "benefit_AaU3g6",
+        "benefit_QrqHc9"
+      ],
+      "name": "Launch packages",
+      "settings": {
+        "heading": "Clinic Exclusive Launch Packages Available",
+        "heading_size": "h1",
+        "spend_label": "Qualifying spend",
+        "brands_label": "Qualifying brands",
+        "order_label": "How to order",
+        "benefits_heading": "Your Clinic Launch Support Package Includes:",
+        "color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "anchor_id": "register"
+      }
     }
   },
   "order": [
@@ -234,6 +308,7 @@
     "1771492143d1cbe830",
     "rich_text_yf9fd3",
     "177504151743358bdc",
-    "rich_text_pYtEF7"
+    "rich_text_pYtEF7",
+    "launch_packages_Wm8eMa"
   ]
 }

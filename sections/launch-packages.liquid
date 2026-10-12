@@ -1,7 +1,11 @@
 {% comment %}
-  Centred heading, then one column per "Package" block (2 side by side on desktop):
+  Centred heading, then one column per "Package" block (1 to 3 packages):
   image, heading, subheading, intro and three quick-reference tiles
   (qualifying spend / qualifying brands / how to order).
+  Desktop layout adapts to the number of packages:
+    1 package  – one centred column (max 96rem), tiles side by side
+    2 packages – two columns, tiles side by side
+    3 packages – three columns, tiles stacked as a list
   Below, a full-width "support package" list built from "Benefit" blocks.
   Colours are set by the CSS rules below, not by colour schemes.
 {% endcomment %}
@@ -93,7 +97,7 @@
     margin-bottom: 0;
   }
 
-  /* Tiles: stacked rows on mobile, three side-by-side tiles on desktop */
+  /* Tiles: stacked rows on mobile (and in 3-package layouts), side-by-side tiles on desktop */
   .launch-package__tiles {
     display: flex;
     flex-direction: column;
@@ -217,9 +221,23 @@
     }
 
     .launch-packages__grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 7.2rem 6.4rem;
       align-items: stretch;
+    }
+
+    /* Column count follows the number of Package blocks */
+    .launch-packages__grid--count-1 {
+      grid-template-columns: minmax(0, 96rem);
+      justify-content: center;
+    }
+
+    .launch-packages__grid--count-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .launch-packages__grid--count-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      column-gap: 4rem;
     }
 
     /* Each package spans 3 shared rows (image / text / tiles), so the tiles start
@@ -288,6 +306,43 @@
       font-size: 1.3rem;
     }
 
+    /* 3 packages: narrower columns, so smaller headings, taller images and stacked tiles */
+    .launch-packages__grid--count-3 .launch-package__media {
+      aspect-ratio: 16 / 10;
+    }
+
+    .launch-packages__grid--count-3 .launch-package__title {
+      font-size: calc(var(--font-heading-scale) * 2.8rem);
+    }
+
+    .launch-packages__grid--count-3 .launch-package__intro {
+      font-size: 1.6rem;
+    }
+
+    .launch-packages__grid--count-3 .launch-package__tiles {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      background: #f4f8f8;
+    }
+
+    .launch-packages__grid--count-3 .launch-package__tile {
+      flex-direction: row;
+      gap: 1.4rem;
+      padding: 1.6rem 2rem;
+      border-bottom: 0.1rem solid #d0dee5;
+      background: none;
+    }
+
+    .launch-packages__grid--count-3 .launch-package__tile:last-child {
+      border-bottom: 0;
+    }
+
+    .launch-packages__grid--count-3 .launch-package__tile svg {
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+
     .launch-packages__benefits {
       gap: 2.8rem;
       margin-top: 7.2rem;
@@ -314,6 +369,19 @@
 {%- liquid
   assign package_blocks = section.blocks | where: 'type', 'package'
   assign benefit_blocks = section.blocks | where: 'type', 'benefit'
+  assign package_count = package_blocks.size
+  if package_count > 3
+    assign package_count = 3
+  endif
+
+  case package_count
+    when 1
+      assign image_sizes = '(min-width: 990px) 960px, calc(100vw - 3rem)'
+    when 3
+      assign image_sizes = '(min-width: 990px) calc((100vw - 18rem) / 3), calc(100vw - 3rem)'
+    else
+      assign image_sizes = '(min-width: 990px) calc((100vw - 16.4rem) / 2), calc(100vw - 3rem)'
+  endcase
 -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
@@ -329,9 +397,9 @@
       </h2>
     {%- endif -%}
 
-    {%- if package_blocks.size > 0 -%}
-      <div class="launch-packages__grid">
-        {%- for block in package_blocks -%}
+    {%- if package_count > 0 -%}
+      <div class="launch-packages__grid launch-packages__grid--count-{{ package_count }}">
+        {%- for block in package_blocks limit: 3 -%}
           <div
             class="launch-package{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {{ block.shopify_attributes }}
@@ -344,7 +412,7 @@
                   | image_tag:
                     loading: 'lazy',
                     widths: '375, 550, 750, 1000, 1500',
-                    sizes: '(min-width: 990px) calc((100vw - 16.4rem) / 2), calc(100vw - 3rem)'
+                    sizes: image_sizes
                 }}
               {%- else -%}
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
@@ -519,8 +587,12 @@
     {
       "type": "package",
       "name": "Package",
-      "limit": 4,
+      "limit": 3,
       "settings": [
+        {
+          "type": "paragraph",
+          "content": "Add 1 to 3 packages. The desktop layout adjusts automatically: 1 centred column, 2 or 3 columns side by side."
+        },
         {
           "type": "image_picker",
           "id": "image",
