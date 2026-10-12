@@ -1,0 +1,503 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_separate_8XX4Bq": {
+      "type": "image-banner-separate",
+      "blocks": {
+        "heading_MRY97K": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.banner_title.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_x8LWqm": {
+          "type": "text",
+          "settings": {
+            "text": "with {{ metaobject.banner_speaker.value }}",
+            "text_style": "body"
+          }
+        },
+        "buttons_k9dkqJ": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Register free",
+            "button_link_1": "#register",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MRY97K",
+        "text_x8LWqm",
+        "buttons_k9dkqJ"
+      ],
+      "name": "Image Banner v2",
+      "settings": {
+        "image": "{{ metaobject.banner_image_desktop.value }}",
+        "mobile_image": "{{ metaobject.banner_image_mobile.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": false
+      }
+    },
+    "rich_text_C8dG76": {
+      "type": "rich-text",
+      "blocks": {
+        "text_qMfTfi": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.section_1_body_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_qMfTfi"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 16,
+        "container_id": ""
+      }
+    },
+    "multicolumn_YLcxAV": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_7teeBz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Calendar.jpg",
+            "title": "Date(s):",
+            "text": "<p>{{ metaobject.multicolumn_1_body_text | metafield_tag }}</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UY4XKa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Info.png",
+            "title": "Who should attend:",
+            "text": "<p>{{ metaobject.multicolumn_2_body_text | metafield_tag }}</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jyjJpM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Money.png",
+            "title": "Cost:",
+            "text": "<p>{{ metaobject.multicolumn_3_body_text | metafield_tag }}</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_7teeBz",
+        "column_UY4XKa",
+        "column_jyjJpM"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper {max-width: 50px;}",
+        ".multicolumn .button {margin-top: 0;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Register Free",
+        "button_link": "#register",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "rich_text_JPecti": {
+      "type": "rich-text",
+      "blocks": {
+        "text_BrxMKK": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"#unavailable\" title=\"#unavailable\"><strong>Can't make the date?</strong></a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_BrxMKK"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "rich_text_rTBxYe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Ae9KFn": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.section_2_heading.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_GczLCk": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.section_2_body_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ae9KFn",
+        "text_GczLCk"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": ""
+      }
+    },
+    "cl_single_image_jg7JPt": {
+      "type": "cl-single-image",
+      "name": "Single Image",
+      "settings": {
+        "image": "{{ metaobject.section_2_image.value }}",
+        "image_width_mobile": 400,
+        "image_width_desktop": 800,
+        "image_width_unit": "px",
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "full_width": true,
+        "container_id": ""
+      }
+    },
+    "rich_text_LVy4JY": {
+      "type": "rich-text",
+      "blocks": {
+        "text_DVU9eg": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.section_3_body_text | metafield_tag }}"
+          }
+        },
+        "button_wYV7gf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Register free",
+            "button_link": "#register",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_DVU9eg",
+        "button_wYV7gf"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 16,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_qbzTPt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RJU3wa": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.speaker_heading.value }} - {{ metaobject.banner_speaker.value }}",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RJU3wa"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 0,
+        "container_id": ""
+      }
+    },
+    "cl_single_image_HHk3Gn": {
+      "type": "cl-single-image",
+      "name": "Single Image",
+      "settings": {
+        "image": "{{ metaobject.speaker_image.value }}",
+        "image_width_mobile": 220,
+        "image_width_desktop": 300,
+        "image_width_unit": "px",
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "full_width": true,
+        "container_id": ""
+      }
+    },
+    "rich_text_pyQgte": {
+      "type": "rich-text",
+      "blocks": {
+        "text_jEf4wa": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.speaker_bio | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_jEf4wa"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_Qe4gWj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gNBcRn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who Should Attend?",
+            "heading_size": "h2"
+          }
+        },
+        "text_dXTfAa": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobject.section_4_body_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gNBcRn",
+        "text_dXTfAa"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_XMPMUN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YWUXJK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Secure Your Place",
+            "heading_size": "h2"
+          }
+        },
+        "text_nkTkKC": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Registration is free.</strong><br/>Simply enter your details below and you’ll receive your webinar invite via email.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YWUXJK",
+        "text_nkTkKC"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 0,
+        "container_id": "register"
+      }
+    },
+    "custom_liquid_iiLJ9n": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/262632605964058\"></script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "collapsible_content_html_LrWwHL": {
+      "type": "collapsible-content-html",
+      "blocks": {
+        "collapsible_row_FKc99P": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can't make the date?",
+            "icon": "question_mark",
+            "row_content": "<p class=\"center\">Don't worry - our dedicated Clinic Development Team are on hand to talk you through the key learnings and technologies at a time to suit you. Simply register your interest below and we'll be in touch ASAP to arrange a more suitable time.</p>\n<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/262744090598366\"></script>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_FKc99P"
+      ],
+      "name": "Collapsible Content HTML",
+      "settings": {
+        "anchor_id": "unavailable",
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "mobile_layout": "image_first",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_hfMKL3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6jxKJb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore More Skin Health Education Series Webinars",
+            "heading_size": "h2"
+          }
+        },
+        "text_43aYx6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hear from leading experts, strengthen your clinical knowledge and explore practical approaches to the skin, hair and scalp concerns you see every day in clinic.</p>"
+          }
+        },
+        "button_aAy43G": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore more webinars",
+            "button_link": "shopify://metaobjects/professional_events/the-skin-health-education-series",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6jxKJb",
+        "text_43aYx6",
+        "button_aAy43G"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 100%;}",
+        "@media screen and (min-width: 750px) {p {max-width: 78rem; margin: 1rem auto; }}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-c96a5236-5eda-4b29-a1d3-491253493b70",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    }
+  },
+  "order": [
+    "image_banner_separate_8XX4Bq",
+    "rich_text_C8dG76",
+    "multicolumn_YLcxAV",
+    "rich_text_JPecti",
+    "rich_text_rTBxYe",
+    "cl_single_image_jg7JPt",
+    "rich_text_LVy4JY",
+    "rich_text_qbzTPt",
+    "cl_single_image_HHk3Gn",
+    "rich_text_pyQgte",
+    "rich_text_Qe4gWj",
+    "rich_text_XMPMUN",
+    "custom_liquid_iiLJ9n",
+    "collapsible_content_html_LrWwHL",
+    "rich_text_hfMKL3"
+  ]
+}
