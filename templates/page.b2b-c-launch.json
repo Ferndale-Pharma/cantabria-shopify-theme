@@ -184,6 +184,7 @@
         "category_bGn99j": {
           "type": "category",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_01.jpg",
             "title": "Photoprotection",
             "tags": "HELIOCARE",
             "tags_link": "",
@@ -195,6 +196,7 @@
         "category_MbMPEp": {
           "type": "category",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_02.jpg",
             "title": "Anti-Ageing",
             "tags": "ALLSKIN | MED, ENDOCARE",
             "tags_link": "",
@@ -206,6 +208,7 @@
         "category_xTaNje": {
           "type": "category",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_03.jpg",
             "title": "Pigmentation",
             "tags": "ALLSKIN | MED, NEORETIN",
             "tags_link": "",
@@ -217,6 +220,7 @@
         "category_mKn3qT": {
           "type": "category",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_04.png",
             "title": "Redness & Reactive Skin",
             "tags": "ALLSKIN | MED, SKIN RESIST",
             "tags_link": "",
@@ -228,6 +232,7 @@
         "category_mBwhFi": {
           "type": "category",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_05.jpg",
             "title": "Acne-Prone Skin",
             "tags": "ALLSKIN | MED, BIRETIX",
             "tags_link": "",
@@ -239,6 +244,7 @@
         "category_bVtgdi": {
           "type": "category",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_06.jpg",
             "title": "Hair & Scalp Health",
             "tags": "ALLSKIN | MED",
             "tags_link": "",
@@ -330,6 +336,7 @@
           "type": "range_card",
           "settings": {
             "name": "ALLSKIN | MED",
+            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_07.png",
             "tagline": "Where skin science meets medical aesthetic experience",
             "tags": "Anti-Ageing, Pigmentation, Redness & Reactive Skin, Acne-Prone Skin, Hair & Scalp Health",
             "tags_link": "#categories",
@@ -346,6 +353,7 @@
           "type": "range_card",
           "settings": {
             "name": "ENDOCARE",
+            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_10.png",
             "tagline": "Precision anti-ageing science",
             "tags": "Anti-Ageing",
             "tags_link": "#categories",
@@ -362,6 +370,7 @@
           "type": "range_card",
           "settings": {
             "name": "NEORETIN",
+            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_12.png",
             "tagline": "Advanced science for skin hyperpigmentation",
             "tags": "Pigmentation",
             "tags_link": "#categories",
@@ -378,6 +387,7 @@
           "type": "range_card",
           "settings": {
             "name": "SKIN RESIST",
+            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_11.png",
             "tagline": "Advanced care for reactive & redness-prone skin",
             "tags": "Redness & Reactive Skin",
             "tags_link": "#categories",
@@ -394,6 +404,7 @@
           "type": "range_card",
           "settings": {
             "name": "BIRETIX",
+            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_00.png",
             "tagline": "Specialist care for acne-prone skin",
             "tags": "Acne-Prone Skin",
             "tags_link": "#categories",
@@ -410,6 +421,7 @@
           "type": "range_card",
           "settings": {
             "name": "HELIOCARE",
+            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_08.png",
             "tagline": "All the dermatological photoprotection science can give you",
             "tags": "Photoprotection",
             "tags_link": "#categories",
@@ -520,6 +532,7 @@
         "package_chJDYj": {
           "type": "package",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_13.jpg",
             "title": "Launch the Cantabria Labs Portfolio in your Clinic",
             "subheading": "Available Exclusively from your Clinic Development Manager",
             "intro": "<p>Spend £500 ex. VAT across the Cantabria Labs Dermatological Skincare & Supplements portfolio and receive your complimentary Clinic Launch Support Package</p>",
@@ -531,6 +544,7 @@
         "package_7P6aBV": {
           "type": "package",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_14.jpg",
             "title": "Launch the ALLSKIN | MED Portfolio in your Clinic",
             "subheading": "Available Exclusively from your Clinic Development Manager",
             "intro": "<p>Spend £2,500 ex. VAT across the ALLSKIN | MED portfolio and receive your complimentary Clinic Launch Support Package</p>",
