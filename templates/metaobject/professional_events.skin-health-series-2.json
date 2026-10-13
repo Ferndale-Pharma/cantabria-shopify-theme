@@ -213,11 +213,11 @@
             "date": "<p>{{ metaobjects.professional_events[\"optimising-skin-health-for-better-treatment-outcomes\"].multicolumn_1_body_text | metafield_tag }}</p>",
             "audience": "<p>{{ metaobjects.professional_events[\"optimising-skin-health-for-better-treatment-outcomes\"].multicolumn_2_body_text | metafield_tag }}</p>",
             "cost": "<p>FREE</p>",
-            "details_label": "View details",
-            "details_link": "shopify://metaobjects/professional_events/optimising-skin-health-for-better-treatment-outcomes",
+            "details_label": "",
+            "details_link": "",
             "details_new_tab": false,
-            "register_label": "Register now",
-            "register_link": "#register",
+            "register_label": "Watch on demand now",
+            "register_link": "shopify://metaobjects/professional_events/optimising-skin-health-for-better-treatment-outcomes",
             "register_new_tab": false
           }
         },
