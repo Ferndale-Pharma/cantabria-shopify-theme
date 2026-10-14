@@ -129,24 +129,14 @@
         "text_DgfDza": {
           "type": "text",
           "settings": {
-            "text": "<p class=\"statistic\"><strong>Up to 60%</strong> <span class=\"statistic-text\">of women report sensitive &amp; reactive skin<sup>1,2</sup></span></p>\n<p style=\"margin-top: 1rem;\">Sensitive &amp; reactive skin is more likely to respond to everyday triggers, including UV exposure, temperature changes, pollution, cosmetic products and stress, with visible redness and sensations such as itching, tingling or stinging. Reported in up to 60% of women, this heightened reactivity is often associated with a weakened skin barrier, leaving skin more vulnerable to external stressors and affecting everyday comfort and wellbeing.<sup>1,2</sup></p>\n<p><strong>Effective care should go beyond short-term soothing, helping to calm discomfort, reduce visible redness, strengthen the skin barrier and improve resilience to everyday triggers.</strong></p>",
+            "text": "<p>Sensitive &amp; reactive skin is more likely to respond to everyday triggers, including UV exposure, temperature changes, pollution, cosmetic products and stress, with visible redness and sensations such as itching, tingling or stinging. Reported in up to 60% of women, this heightened reactivity is often associated with a weakened skin barrier, leaving skin more vulnerable to external stressors and affecting everyday comfort and wellbeing.<sup>1,2</sup></p>\n<p><strong>Effective care should go beyond short-term soothing, helping to calm discomfort, reduce visible redness, strengthen the skin barrier and improve resilience to everyday triggers.</strong></p>",
             "text_style": "body"
-          }
-        },
-        "button_4QREeY": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_iKR8WP",
-        "text_DgfDza",
-        "button_4QREeY"
+        "text_DgfDza"
       ],
       "custom_css": [
         ".statistic {display: flex; align-items: center; gap: 2rem; margin: 0; padding: 2rem 0; border-top: 1px solid #f5c7ce; border-bottom: 1px solid #f5c7ce; font-size: 1.5rem; line-height: 1.5; letter-spacing: 0.06rem; color: rgb(var(--color-foreground));}",
