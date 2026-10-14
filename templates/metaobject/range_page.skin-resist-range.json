@@ -168,11 +168,134 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "multicolumn_html_L6aRyH": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_mprTtp": {
+          "type": "column",
+          "settings": {
+            "title": "Exclusive AQUAMMUNIST® Technology",
+            "text": "<p>Helps soothe discomfort, reduce visible redness and improve skin resilience.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iJqTdw": {
+          "type": "column",
+          "settings": {
+            "title": "Targeted formulas",
+            "text": "<p>Supports a stronger skin barrier while addressing visible signs of ageing.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FhGXK9": {
+          "type": "column",
+          "settings": {
+            "title": "Clinically proven efficacy & tolerability",
+            "text": "<p>Visible improvements in just 14 days.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6YUgUR": {
+          "type": "column",
+          "settings": {
+            "title": "Fragrance-free formulas",
+            "text": "<p>Dermatologically tested on sensitive &amp; reactive skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_mprTtp",
+        "column_iJqTdw",
+        "column_FhGXK9",
+        "column_6YUgUR"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "anchor_id": "",
+        "title": "Why choose SKIN RESIST for sensitive & reactive skin?",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-b2751c5c-57b4-4278-9736-6f99fb9d79ee",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_html_iA7eqe": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "caption_7ENp6i": {
+          "type": "caption",
+          "settings": {
+            "caption": "The Science",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_bUrEDg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introducing AQUAMMUNIST® Technology",
+            "heading_size": "h2"
+          }
+        },
+        "text_FY6JrH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Inspired by the science of the hydrobiome, AQUAMMUNIST® combines mineral-rich Solía Thermal Spring Water from Cantabria with encapsulated <em>Phaeodactylum tricornutum</em> microalgae extract to help calm skin reactivity and support the skin’s natural defences.</p>\n<dl class=\"aq-list\">\n<div>\n<dt>Solía Thermal Spring Water</dt>\n<dd>Mineral-rich, from Cantabria</dd>\n</div>\n<div>\n<dt><em>Phaeodactylum tricornutum</em></dt>\n<dd>Encapsulated microalgae extract</dd>\n</div>\n</dl>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_7ENp6i",
+        "heading_bUrEDg",
+        "text_FY6JrH"
+      ],
+      "custom_css": [
+        ".aq-list {margin: 0; border-top: 1px solid rgba(35, 31, 32, 0.25);}",
+        ".aq-list div {display: flex; flex-wrap: wrap; gap: 0.4rem 2.4rem; padding: 1.6rem 0; border-bottom: 1px solid rgba(35, 31, 32, 0.25);}",
+        ".aq-list dt,.aq-list dd {flex: 1 1 24rem; margin: 0; color: #231F20;}",
+        ".aq-list dt {font-family: var(--font-heading-family); font-weight: 700;}"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "anchor_id": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8b8d494a-3bbe-4264-bc18-ad67c0fe2ca1",
+        "color_scheme": "scheme-8b8d494a-3bbe-4264-bc18-ad67c0fe2ca1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "image_banner_separate_X6hYd6",
     "rich_text_ExBd7D",
-    "image_with_text_html_aVhXAY"
+    "image_with_text_html_aVhXAY",
+    "multicolumn_html_L6aRyH",
+    "image_with_text_html_iA7eqe"
   ]
 }
