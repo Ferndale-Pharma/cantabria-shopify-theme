@@ -126,6 +126,13 @@
             "heading_size": "h2"
           }
         },
+        "text_6MVfBR": {
+          "type": "text",
+          "settings": {
+            "text": "<div class=\"stat\">\n<b>Up to 60%</b><span>of women report sensitive &amp; reactive skin<sup>1,2</sup></span>\n</div>",
+            "text_style": "body"
+          }
+        },
         "text_DgfDza": {
           "type": "text",
           "settings": {
@@ -136,12 +143,14 @@
       },
       "block_order": [
         "heading_iKR8WP",
+        "text_6MVfBR",
         "text_DgfDza"
       ],
       "custom_css": [
-        ".statistic {display: flex; align-items: center; gap: 2rem; margin: 0; padding: 2rem 0; border-top: 1px solid #f5c7ce; border-bottom: 1px solid #f5c7ce; font-size: 1.5rem; line-height: 1.5; letter-spacing: 0.06rem; color: rgb(var(--color-foreground));}",
-        ".statistic strong {flex: none; font-family: var(--font-heading-family); font-weight: 700; font-size: 5.2rem; line-height: 1; color: #eb8f9e; white-space: nowrap;}",
-        "@media screen and (max-width: 749px) {.statistic {gap: 1.6rem; padding: 1.6rem 0; font-size: 1.4rem; } .statistic strong {font-size: 3.6rem; }}"
+        ".stat {display: flex; align-items: center; gap: clamp(1.6rem, 2vw, 2rem); padding: clamp(1.6rem, 2vw, 2rem) 0; border-block: 1px solid #f5c7ce; font-size: clamp(1.4rem, 1.2vw, 1.5rem); line-height: 1.5; color: #231f20;}",
+        ".stat b {flex: none; font: 700 clamp(3.6rem, 4vw, 5.2rem) / 1 var(--font-heading-family); color: #eb8f9e;}",
+        ".stat sup {font-size: 0.6em; line-height: 0;}",
+        "@media (max-width: 749px) {.stat {flex-direction: column; align-items: flex-start; gap: 0.4rem; } .stat b {white-space: normal; line-height: normal; }}"
       ],
       "name": "Image with text HTML",
       "settings": {
