@@ -9,215 +9,171 @@
  */
 {
   "sections": {
-    "image_banner_9qaB4e": {
-      "type": "image-banner",
+    "image_banner_separate_X6hYd6": {
+      "type": "image-banner-separate",
       "blocks": {
-        "heading_EG6cQt": {
+        "heading_3ifhLB": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>The </strong><strong>{{ metaobject.name.value }}</strong><strong> Range</strong>",
+            "heading": "SKIN RESIST",
             "heading_size": "h1"
           }
         },
-        "text_RggQnc": {
+        "text_y3ky84": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "<strong>Advanced care for sensitive & reactive skin</strong> inspired by the science of the hydrobiome",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_wfzRPQ": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "View products",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_EG6cQt",
-        "text_RggQnc"
+        "heading_3ifhLB",
+        "text_y3ky84",
+        "buttons_wfzRPQ"
       ],
+      "name": "Image Banner v2",
       "settings": {
-        "image": "shopify://shop_images/biretix_range.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-b2751c5c-57b4-4278-9736-6f99fb9d79ee",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": true
       }
     },
-    "image_with_text_3RMrKq": {
-      "type": "image-with-text",
+    "rich_text_ExBd7D": {
+      "type": "rich-text",
       "blocks": {
-        "heading_HDARyN": {
-          "type": "heading",
+        "caption_qr9RKE": {
+          "type": "caption",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "caption": "Introducing SKIN RESIST",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
           }
         },
-        "text_F9Xibt": {
+        "heading_H7QgxW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h2"
+          }
+        },
+        "text_zDTiKQ": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
+            "text": "<p>SKIN RESIST is Cantabria Labs’ advanced dermatological skincare range developed for sensitive, reactive and redness-prone skin. Featuring exclusive AQUAMMUNIST® Technology, its expert formulations help soothe discomfort, reduce visible redness, strengthen the skin barrier and improve skin resilience, while supporting the prevention and reduction of visible signs of ageing.</p>"
           }
         },
-        "button_LkzaWT": {
+        "button_yC8UCn": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
-            "button_link": "shopify://collections/biretix",
-            "button_style_secondary": true
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_HDARyN",
-        "text_F9Xibt",
-        "button_LkzaWT"
+        "caption_qr9RKE",
+        "heading_H7QgxW",
+        "text_zDTiKQ",
+        "button_yC8UCn"
       ],
+      "custom_css": [
+        ".rich-text__caption {color: #eb8f9e;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Image_44dc43db-3185-44ce-b7f8-44d511c9ca2d.png",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-b2751c5c-57b4-4278-9736-6f99fb9d79ee",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "image_with_text_html_aVhXAY": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_iKR8WP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why does sensitive & reactive skin need targeted care?",
+            "heading_size": "h2"
+          }
+        },
+        "text_DgfDza": {
+          "type": "text",
+          "settings": {
+            "text": "<p class=\"statistic\"><strong>Up to 60%</strong> <span class=\"statistic-text\">of women report sensitive &amp; reactive skin<sup>1,2</sup></span></p>\n<p style=\"margin-top: 1rem;\">Sensitive &amp; reactive skin is more likely to respond to everyday triggers, including UV exposure, temperature changes, pollution, cosmetic products and stress, with visible redness and sensations such as itching, tingling or stinging. Reported in up to 60% of women, this heightened reactivity is often associated with a weakened skin barrier, leaving skin more vulnerable to external stressors and affecting everyday comfort and wellbeing.<sup>1,2</sup></p>\n<p><strong>Effective care should go beyond short-term soothing, helping to calm discomfort, reduce visible redness, strengthen the skin barrier and improve resilience to everyday triggers.</strong></p>",
+            "text_style": "body"
+          }
+        },
+        "button_4QREeY": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iKR8WP",
+        "text_DgfDza",
+        "button_4QREeY"
+      ],
+      "custom_css": [
+        ".statistic {display: flex; align-items: center; gap: 2rem; margin: 0; padding: 2rem 0; border-top: 1px solid #f5c7ce; border-bottom: 1px solid #f5c7ce; font-size: 1.5rem; line-height: 1.5; letter-spacing: 0.06rem; color: rgb(var(--color-foreground));}",
+        ".statistic strong {flex: none; font-family: var(--font-heading-family); font-weight: 700; font-size: 5.2rem; line-height: 1; color: #eb8f9e; white-space: nowrap;}",
+        "@media screen and (max-width: 749px) {.statistic {gap: 1.6rem; padding: 1.6rem 0; font-size: 1.4rem; } .statistic strong {font-size: 3.6rem; }}"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "anchor_id": "",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "scheme-3",
+        "section_color_scheme": "scheme-b2751c5c-57b4-4278-9736-6f99fb9d79ee",
+        "color_scheme": "scheme-b2751c5c-57b4-4278-9736-6f99fb9d79ee",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "featured_collection_qTTAV4": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Title of Section",
-        "heading_size": "h2",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in sodales eros.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "{{ metaobject.linked_collection.value }}",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-c0567018-f62c-4177-87a9-2871cb3a1a3c",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_BeHYrm": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_pm4D9J": {
-          "type": "heading",
-          "settings": {
-            "heading": "Rich Text Title",
-            "heading_size": "h1"
-          }
-        },
-        "caption_ydpeyT": {
-          "type": "caption",
-          "settings": {
-            "caption": "Rich Text Subtitle",
-            "text_style": "subtitle",
-            "text_size": "small"
-          }
-        },
-        "text_BRdeJd": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus semper ipsum. Nunc in justo auctor, dictum est vel, luctus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
-          }
-        },
-        "text_qFHVRc": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><ul><li>Curabitur rhoncus semper ipsum.</li><li>Nunc in justo auctor, dictum est vel.</li><li>Luctus augue. Interdum et malesuada.</li></ul>"
-          }
-        },
-        "text_ANPeiR": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Fames ac ante ipsum primis in faucibus. Aenean aliquet orci nunc, vel tincidunt lectus cursus a. Donec luctus at justo tempor viverra. Nulla mattis velit est.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_pm4D9J",
-        "caption_ydpeyT",
-        "text_BRdeJd",
-        "text_qFHVRc",
-        "text_ANPeiR"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "collage_BepK8n": {
-      "type": "collage",
-      "blocks": {
-        "image_JhFang": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Image_68e7b212-5b65-426f-bd2b-7acaf8df9c16.png"
-          }
-        },
-        "image_JayM8E": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Image_b778c850-95ae-42c2-81d8-4132521ea152.png"
-          }
-        },
-        "video_i9qDy6": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video"
-          }
-        }
-      },
-      "block_order": [
-        "image_JhFang",
-        "image_JayM8E",
-        "video_i9qDy6"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "right",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
         "padding_top": 64,
         "padding_bottom": 64
       }
     }
   },
   "order": [
-    "image_banner_9qaB4e",
-    "image_with_text_3RMrKq",
-    "featured_collection_qTTAV4",
-    "rich_text_BeHYrm",
-    "collage_BepK8n"
+    "image_banner_separate_X6hYd6",
+    "rich_text_ExBd7D",
+    "image_with_text_html_aVhXAY"
   ]
 }
