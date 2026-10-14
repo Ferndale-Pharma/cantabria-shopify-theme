@@ -22,7 +22,7 @@
         "text_y3ky84": {
           "type": "text",
           "settings": {
-            "text": "<strong>Advanced care for sensitive & reactive skin</strong> inspired by the science of the hydrobiome",
+            "text": "Advanced care for sensitive & reactive skin inspired by the science of the hydrobiome",
             "text_style": "subtitle"
           }
         },
@@ -296,7 +296,7 @@
             "image": "shopify://shop_images/ProductOnly-ProductImages-SkinResist-VelvetCleanser-1100x1530.jpg",
             "title": "",
             "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 1 | Cleanse · AM &amp; PM</strong></p>\n<h3>SKIN RESIST Velvet Cleanser</h3>\n<p>Gently removes impurities while respecting the skin barrier, helping prepare sensitive-reactive skin for targeted treatment and moisturising care.</p>",
-            "link_label": "",
+            "link_label": "View product",
             "link": ""
           }
         },
@@ -306,7 +306,7 @@
             "image": "shopify://shop_images/ProductOnly-ProductImages-SkinResist-SensageSerum-1100x1530.jpg",
             "title": "",
             "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 2 | Treat · PM</strong></p>\n<h3>SKIN RESIST Sensage Serum</h3>\n<p>A targeted night-time serum designed to soothe sensitive-reactive skin, support barrier repair and help improve visible signs of ageing.</p>",
-            "link_label": "",
+            "link_label": "View product",
             "link": ""
           }
         },
@@ -316,7 +316,7 @@
             "image": "shopify://shop_images/ProductOnly-ProductImages-SkinResist-DailyFluid-1100x1530_1.jpg",
             "title": "",
             "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 3 | Care · AM</strong></p>\n<h3>SKIN RESIST Daily Fluid</h3>\n<p>A lightweight daily moisturiser that helps soothe discomfort, calm visible redness and reinforce the skin barrier for improved skin comfort and resilience.</p>",
-            "link_label": "",
+            "link_label": "View product",
             "link": ""
           }
         }
@@ -327,7 +327,7 @@
         "column_UL3cRC"
       ],
       "custom_css": [
-        "h3 {font-weight:700;margin-top:1rem;margin-bottom:1rem;}"
+        "h3 {font-weight: 700; margin-top: 1rem; margin-bottom: 1rem;}"
       ],
       "name": "Multicolumn HTML",
       "settings": {
@@ -349,6 +349,166 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "rich_text_gzMYFp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_M4yhz8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Are you a retailer looking to stock SKIN RESIST?",
+            "heading_size": "h2"
+          }
+        },
+        "text_hBxCJU": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_6fVxQ6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Become a stockist",
+            "button_link": "shopify://pages/become-a-stockist",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_M4yhz8",
+        "text_hBxCJU",
+        "button_6fVxQ6"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-8b8d494a-3bbe-4264-bc18-ad67c0fe2ca1",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "collapsible_content_mRYtCq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_QM4yUP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is sensitive & reactive skin?",
+            "icon": "question_mark",
+            "row_content": "<p>Sensitive & reactive skin is more prone to discomfort, redness and sensations such as itching, tingling or stinging in response to everyday triggers. It is often associated with a weakened skin barrier, which can make skin more vulnerable to external stressors.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_k9NYhm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is AQUAMMUNIST® Technology?",
+            "icon": "question_mark",
+            "row_content": "<p>AQUAMMUNIST® is Cantabria Labs' exclusive hydrobiome-inspired technology combining mineral-rich thermal spring water and microalgae extract. It is designed to help calm skin reactivity and improve skin resilience.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xUADNf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does SKIN RESIST help reduce visible redness?",
+            "icon": "question_mark",
+            "row_content": "<p>SKIN RESIST combines AQUAMMUNIST® Technology with complementary calming and barrier-supporting ingredients including Cherimoya Extract and Niacinamide to help reduce skin reactivity and visible redness. Clinical studies of the complete regime have demonstrated significant improvements from 14 days.⁵</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yxU7hJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is SKIN RESIST suitable for daily use?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes. SKIN RESIST features fragrance-free formulations dermatologically tested on sensitive skin, with excellent tolerability demonstrated when used as part of a daily skincare regime.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wxLnq6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can SKIN RESIST help address signs of ageing?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes. In addition to calming and barrier-supporting care, the range incorporates ingredients that help address visible signs of ageing. Clinical studies of the regime demonstrated improvements in firmness, elasticity and wrinkle depth.⁵</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_XyTMmx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why is daily photoprotection important for reactive and redness-prone skin?",
+            "icon": "question_mark",
+            "row_content": "<p>UV exposure is a common trigger for sensitive-reactive skin and can contribute to visible redness. Daily photoprotection helps defend against UV exposure, making it an important part of a complete skincare routine.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_QM4yUP",
+        "collapsible_row_k9NYhm",
+        "collapsible_row_xUADNf",
+        "collapsible_row_yxU7hJ",
+        "collapsible_row_wxLnq6",
+        "collapsible_row_XyTMmx"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-b2751c5c-57b4-4278-9736-6f99fb9d79ee",
+        "container_color_scheme": "scheme-b2751c5c-57b4-4278-9736-6f99fb9d79ee",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "collapsible_content_qRJKVd": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_XPr48c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "References",
+            "icon": "question_mark",
+            "row_content": "<ol><li>Wollenberg, A. and Giménez-Arnau, A. (2022). Journal of the European Academy of Dermatology and Venereology, 36(Suppl. 5), pp. 3–5.</li><li>Misery, L. et al. (2017). Acta Dermato-Venereologica, 97, pp. 4–6.</li><li>AQUAMMUNIST® laboratory study — data on file.</li><li>AQUAMMUNIST®, cherimoya and niacinamide clinical study — data on file.</li><li>SKIN RESIST complete-regime clinical study — data on file.<br/></li></ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_XPr48c"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-b2751c5c-57b4-4278-9736-6f99fb9d79ee",
+        "container_color_scheme": "scheme-b2751c5c-57b4-4278-9736-6f99fb9d79ee",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -357,6 +517,9 @@
     "image_with_text_html_aVhXAY",
     "multicolumn_html_L6aRyH",
     "image_with_text_html_iA7eqe",
-    "multicolumn_html_tLALKi"
+    "multicolumn_html_tLALKi",
+    "collapsible_content_mRYtCq",
+    "rich_text_gzMYFp",
+    "collapsible_content_qRJKVd"
   ]
 }
