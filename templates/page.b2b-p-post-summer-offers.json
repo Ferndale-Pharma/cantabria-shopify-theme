@@ -33,7 +33,7 @@
         "heading_Jpd9Pa": {
           "type": "heading",
           "settings": {
-            "heading": "Support Post-Summer Skin Renewal in your Pharmacy with Cantabria Labs",
+            "heading": "Support Skin Renewal in your Pharmacy with Cantabria Labs",
             "heading_size": "h1"
           }
         },
@@ -83,7 +83,7 @@
         "text_8VwJep": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>This autumn, discover targeted post-summer regimes combining science-led skincare with added-value promotions for both your pharmacy and your customers.</strong></p>"
+            "text": "<p><strong>This autumn, discover targeted regimes combining science-led skincare with added-value promotions for both your pharmacy and your customers.</strong></p>"
           }
         },
         "button_QJ77yw": {
@@ -131,7 +131,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00303_CL_PostSummerSkinRenewal_WebsiteAssets_Oct26_03.jpg",
-            "title": "Post-Summer Skin Renewal with ENDOCARE",
+            "title": "Skin Renewal with ENDOCARE",
             "text": "<p>A targeted approach to restoring hydration, supporting controlled skin renewal and improving overall skin quality</p>",
             "link_label": "View Offer",
             "link": "#renewal",
@@ -184,7 +184,7 @@
         "heading_Jyjkpt": {
           "type": "heading",
           "settings": {
-            "heading": "Post-Summer Skin Renewal with ENDOCARE",
+            "heading": "Skin Renewal with ENDOCARE",
             "heading_size": "h2"
           }
         },
@@ -310,6 +310,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
+        "column_link_style": "text",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -517,6 +518,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "center",
+        "column_link_style": "text",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -659,6 +661,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
+        "column_link_style": "text",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
