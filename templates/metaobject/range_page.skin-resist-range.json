@@ -331,7 +331,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "column_link_style": "button",
         "background_style": "none",
         "button_label": "",
