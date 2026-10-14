@@ -167,7 +167,7 @@
           "type": "column",
           "settings": {
             "title": "Exclusive AQUAMMUNIST® Technology",
-            "text": "<p>Helps soothe discomfort, reduce visible redness and improve skin resilience.</p>",
+            "text": "<p>Helps soothe discomfort, reduce visible redness and improve skin resilience.<sup>3</sup></p>",
             "link_label": "",
             "link": ""
           }
@@ -176,7 +176,7 @@
           "type": "column",
           "settings": {
             "title": "Targeted formulas",
-            "text": "<p>Supports a stronger skin barrier while addressing visible signs of ageing.</p>",
+            "text": "<p>Supports a stronger skin barrier while addressing visible signs of ageing.<sup>5</sup></p>",
             "link_label": "",
             "link": ""
           }
@@ -185,7 +185,7 @@
           "type": "column",
           "settings": {
             "title": "Clinically proven efficacy & tolerability",
-            "text": "<p>Visible improvements in just 14 days.</p>",
+            "text": "<p>Visible improvements in just 14 days.<sup>4</sup></p>",
             "link_label": "",
             "link": ""
           }
@@ -483,7 +483,7 @@
           "settings": {
             "heading": "References",
             "icon": "question_mark",
-            "row_content": "<ol><li>Wollenberg, A. and Giménez-Arnau, A. (2022). Journal of the European Academy of Dermatology and Venereology, 36(Suppl. 5), pp. 3–5.</li><li>Misery, L. et al. (2017). Acta Dermato-Venereologica, 97, pp. 4–6.</li><li>AQUAMMUNIST® laboratory study — data on file.</li><li>AQUAMMUNIST®, cherimoya and niacinamide clinical study — data on file.</li><li>SKIN RESIST complete-regime clinical study — data on file.<br/></li></ol>",
+            "row_content": "<ol><li>Wollenberg, A. and Giménez-Arnau, A. (2022). Journal of the European Academy of Dermatology and Venereology, 36(Suppl. 5), pp. 3–5.</li><li>Misery, L. et al. (2017). Acta Dermato-Venereologica, 97, pp. 4–6.</li><li>Mourelle, M.L., Segura de Yebra, J., Ayats, J., Vitale, M. and López Sánchez, A. (2024) ‘Potential benefits of a cosmetic ingredient combining thermal spring water and diatom algae extract’, <em>Cosmetics</em>, 11(2), p. 62. doi:10.3390/cosmetics11020062.</li><li>Vitale M et al. Controlled comparison evaluation of the soothing effect of 3 cosmetic products on skin discomfort induced by an irritant chemical agent (capsaicin). <em>J Cosmet Dermatol.&nbsp;</em>2024;23:4057–4065.</li><li>Vitale, M.; Truchuelo, M.T.; Nobile, V.; Gómez-Sánchez, M.J. Clinical Tolerability and Efficacy Establishment of a New Cosmetic Treatment Regimen Intended for Sensitive Skin. Appl. Sci. 2024, 14, 6252. <a href=\"https://doi.org/10.3390/app14146252\" target=\"_blank\" title=\"https://doi.org/10.3390/app14146252\">https://doi.org/10.3390/app14146252</a><br/></li></ol>",
             "page": ""
           }
         }
