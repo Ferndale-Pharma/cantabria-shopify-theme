@@ -300,6 +300,63 @@
         "padding_bottom": 100,
         "anchor_id": "register"
       }
+    },
+    "range_cards_Dhfmd4": {
+      "type": "range-cards",
+      "blocks": {
+        "range_card_jbYKVf": {
+          "type": "range_card",
+          "settings": {
+            "name": "ENDOCARE",
+            "tagline": "Precision anti-ageing science",
+            "tags": "Anti-Ageing",
+            "tags_link": "#categories",
+            "summary": "<p>Precision anti-ageing solutions supporting the skin’s barrier, radiance, texture and renewal through different stages of skin ageing.</p>",
+            "outlet_medical": true,
+            "medical_exclusive": false,
+            "outlet_skin": true,
+            "outlet_pharmacy": true,
+            "outlet_retail": false,
+            "details": "<p>Formulated, developed and clinically proven through dermatological and scientific expertise, ENDOCARE regimes, combinations and targeted products provide precision anti-ageing solutions for healthcare professionals, skin professionals, patients and consumers throughout their anti-ageing and skin health journey.</p>"
+          }
+        },
+        "range_card_M4jtr7": {
+          "type": "range_card",
+          "settings": {
+            "name": "NEORETIN",
+            "tagline": "Advanced science for skin hyperpigmentation",
+            "tags": "Pigmentation",
+            "tags_link": "#categories",
+            "summary": "<p>Specialist solutions for the correction of uneven pigmentation and dark spots, helping support clearer, more even-looking skin.</p>",
+            "outlet_medical": true,
+            "medical_exclusive": false,
+            "outlet_skin": true,
+            "outlet_pharmacy": true,
+            "outlet_retail": false,
+            "details": "<p>Using expert formulations scientifically proven to address different stages of excess melanin production and presence, NEORETIN enhances evidence-based skincare regimes by reducing dark spots and evening skin tone in hyperpigmented areas.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "range_card_jbYKVf",
+        "range_card_M4jtr7"
+      ],
+      "name": "Range cards",
+      "settings": {
+        "caption": "",
+        "heading": "Tailored Professional Skincare Regimes",
+        "heading_size": "h2",
+        "intro": "",
+        "columns_desktop": 3,
+        "more_label": "View more",
+        "less_label": "View less",
+        "swipe_on_mobile": true,
+        "hide_on_mobile": false,
+        "color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "anchor_id": "ranges"
+      }
     }
   },
   "order": [
@@ -309,6 +366,7 @@
     "rich_text_yf9fd3",
     "177504151743358bdc",
     "rich_text_pYtEF7",
-    "launch_packages_Wm8eMa"
+    "launch_packages_Wm8eMa",
+    "range_cards_Dhfmd4"
   ]
 }
