@@ -257,7 +257,7 @@
         "text_FY6JrH": {
           "type": "text",
           "settings": {
-            "text": "<p>Inspired by the science of the hydrobiome, AQUAMMUNIST® combines mineral-rich Solía Thermal Spring Water from Cantabria with encapsulated <em>Phaeodactylum tricornutum</em> microalgae extract to help calm skin reactivity and support the skin’s natural defences.</p>\n<dl class=\"aq-list\">\n<div>\n<dt>Solía Thermal Spring Water</dt>\n<dd>Mineral-rich, from Cantabria</dd>\n</div>\n<div>\n<dt><em>Phaeodactylum tricornutum</em></dt>\n<dd>Encapsulated microalgae extract</dd>\n</div>\n</dl>",
+            "text": "<p>Inspired by the science of the hydrobiome, AQUAMMUNIST® combines <strong>mineral-rich Solía Thermal Spring Water</strong> from Cantabria with <strong>encapsulated <em>Phaeodactylum tricornutum</em> microalgae extract</strong> to help calm skin reactivity and support the skin’s natural defences.</p>\n<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Laboratory research</strong></p>\n<p>Laboratory research has demonstrated the potential of AQUAMMUNIST® to help protect skin cells against factors associated with sensitivity and reactivity.<sup>3</sup></p>\n<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Clinical research</strong></p>\n<p>Clinical research on formulations combining AQUAMMUNIST®, cherimoya extract and niacinamide (all of which are used in SKIN RESIST products) demonstrated significant reductions in itching and burning sensations following exposure to external triggers, alongside improvements in skin sensitivity and resistance.<sup>4</sup></p>",
             "text_style": "body"
           }
         }
@@ -268,10 +268,7 @@
         "text_FY6JrH"
       ],
       "custom_css": [
-        ".aq-list {margin: 0; border-top: 1px solid rgba(35, 31, 32, 0.25);}",
-        ".aq-list div {display: flex; flex-wrap: wrap; gap: 0.4rem 2.4rem; padding: 1.6rem 0; border-bottom: 1px solid rgba(35, 31, 32, 0.25);}",
-        ".aq-list dt,.aq-list dd {flex: 1 1 24rem; margin: 0; color: #231F20;}",
-        ".aq-list dt {font-family: var(--font-heading-family); font-weight: 700;}"
+        ".caption-with-letter-spacing {margin-top: 2rem;}"
       ],
       "name": "Image with text HTML",
       "settings": {
@@ -289,6 +286,69 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "multicolumn_html_tLALKi": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_UzajFN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ProductOnly-ProductImages-SkinResist-VelvetCleanser-1100x1530.jpg",
+            "title": "",
+            "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 1 | Cleanse · AM &amp; PM</strong></p>\n<h3>SKIN RESIST Velvet Cleanser</h3>\n<p>Gently removes impurities while respecting the skin barrier, helping prepare sensitive-reactive skin for targeted treatment and moisturising care.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3aUrDJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ProductOnly-ProductImages-SkinResist-SensageSerum-1100x1530.jpg",
+            "title": "",
+            "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 2 | Treat · PM</strong></p>\n<h3>SKIN RESIST Sensage Serum</h3>\n<p>A targeted night-time serum designed to soothe sensitive-reactive skin, support barrier repair and help improve visible signs of ageing.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UL3cRC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ProductOnly-ProductImages-SkinResist-DailyFluid-1100x1530_1.jpg",
+            "title": "",
+            "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 3 | Care · AM</strong></p>\n<h3>SKIN RESIST Daily Fluid</h3>\n<p>A lightweight daily moisturiser that helps soothe discomfort, calm visible redness and reinforce the skin barrier for improved skin comfort and resilience.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UzajFN",
+        "column_3aUrDJ",
+        "column_UL3cRC"
+      ],
+      "custom_css": [
+        "h3 {font-weight:700;margin-top:1rem;margin-bottom:1rem;}"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "anchor_id": "",
+        "title": "Discover SKIN RESIST",
+        "heading_size": "h1",
+        "richtext": "<p>SKIN RESIST Velvet Cleanser, Daily Fluid and Sensage Serum work together to provide gentle cleansing, targeted calming and daily barrier support. Formulated with AQUAMMUNIST® Technology and complementary dermatological ingredients, the SKIN RESIST regime helps reduce skin reactivity and visible redness, improve comfort and address visible signs of ageing.</p>",
+        "narrow_text": true,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-b2751c5c-57b4-4278-9736-6f99fb9d79ee",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -296,6 +356,7 @@
     "rich_text_ExBd7D",
     "image_with_text_html_aVhXAY",
     "multicolumn_html_L6aRyH",
-    "image_with_text_html_iA7eqe"
+    "image_with_text_html_iA7eqe",
+    "multicolumn_html_tLALKi"
   ]
 }
