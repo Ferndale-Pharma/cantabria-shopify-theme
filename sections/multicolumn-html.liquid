@@ -13,6 +13,16 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+    .section-{{ section.id }}-padding .multicolumn-card__link-wrapper--button {
+    display: flex;
+    justify-content: {% if section.settings.column_alignment == 'center' %}center{% else %}flex-start{% endif %};
+    margin-top: 2rem;
+  }
+
+  .section-{{ section.id }}-padding .multicolumn-card__link-wrapper--button .button {
+    width: auto;
+    flex: 0 0 auto;
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -138,9 +148,9 @@
                     <div class="rte">{{ block.settings.text }}</div>
                   {%- endif -%}
                   {%- if block.settings.link_label != blank -%}
-                    <div class="link__wrapper">
+                    <div class="multicolumn-card__link-wrapper{% if section.settings.column_link_style == 'button' %} multicolumn-card__link-wrapper--button{% endif %}">
                       <a
-                        class="link animate-arrow{% if section.settings.column_alignment == 'center' %} twcss-justify-center{% endif %}"
+                        class="{% if section.settings.column_link_style == 'button' %}button button--primary{% else %}link animate-arrow{% if section.settings.column_alignment == 'center' %} twcss-justify-center{% endif %}{% endif %}"
                         {% if block.settings.link == blank %}
                           role="link" aria-disabled="true"
                         {% else %}
@@ -148,8 +158,10 @@
                         {% endif %}
                       >
                         {{- block.settings.link_label | escape -}}
-                        <span class="icon-wrap">{% render 'icon-arrow-full' %}</span></a
-                      >
+                        {%- unless section.settings.column_link_style == 'button' -%}
+                          <span class="icon-wrap">{% render 'icon-arrow-full' %}</span>
+                        {%- endunless -%}
+                      </a>
                     </div>
                   {%- endif -%}
                 </div>
@@ -330,6 +342,22 @@
       ],
       "default": "left",
       "label": "t:sections.multicolumn.settings.column_alignment.label"
+    },
+    {
+      "type": "select",
+      "id": "column_link_style",
+      "label": "Column Link Style",
+      "options": [
+        {
+          "value": "text",
+          "label": "Text Link"
+        },
+        {
+          "value": "button",
+          "label": "Primary Button"
+        }
+      ],
+      "default": "text"
     },
     {
       "type": "select",
