@@ -60,14 +60,6 @@
     "rich_text_ExBd7D": {
       "type": "rich-text",
       "blocks": {
-        "caption_qr9RKE": {
-          "type": "caption",
-          "settings": {
-            "caption": "Introducing SKIN RESIST",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
         "heading_H7QgxW": {
           "type": "heading",
           "disabled": true,
@@ -96,7 +88,6 @@
         }
       },
       "block_order": [
-        "caption_qr9RKE",
         "heading_H7QgxW",
         "text_zDTiKQ",
         "button_yC8UCn"
@@ -111,8 +102,8 @@
         "color_scheme": "scheme-b2751c5c-57b4-4278-9736-6f99fb9d79ee",
         "full_width": true,
         "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_top": 32,
+        "padding_bottom": 32,
         "container_id": ""
       }
     },
@@ -257,7 +248,7 @@
         "text_FY6JrH": {
           "type": "text",
           "settings": {
-            "text": "<p>Inspired by the science of the hydrobiome, AQUAMMUNIST® combines <strong>mineral-rich Solía Thermal Spring Water</strong> from Cantabria with <strong>encapsulated <em>Phaeodactylum tricornutum</em> microalgae extract</strong> to help calm skin reactivity and support the skin’s natural defences.</p>\n<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Laboratory research</strong></p>\n<p>Laboratory research has demonstrated the potential of AQUAMMUNIST® to help protect skin cells against factors associated with sensitivity and reactivity.<sup>3</sup></p>\n<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Clinical research</strong></p>\n<p>Clinical research on formulations combining AQUAMMUNIST®, cherimoya extract and niacinamide (all of which are used in SKIN RESIST products) demonstrated significant reductions in itching and burning sensations following exposure to external triggers, alongside improvements in skin sensitivity and resistance.<sup>4</sup></p>",
+            "text": "<p>Inspired by the science of the hydrobiome, AQUAMMUNIST® combines <strong>mineral-rich Solía Thermal Spring Water</strong> from Cantabria with <strong>encapsulated <em>Phaeodactylum tricornutum</em> microalgae extract</strong> to help calm skin reactivity and support the skin’s natural defences.</p>\n<p>Laboratory research has demonstrated the potential of AQUAMMUNIST® to <b>help protect skin cells against factors associated with sensitivity and reactivity</b>.<sup>3</sup></p>\n<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"></p>\n<p>Clinical research on formulations combining AQUAMMUNIST®, cherimoya extract and niacinamide (as found in SKIN RESIST products) <b>demonstrated significant reductions in itching and burning sensations following exposure to external triggers, alongside improvements in skin sensitivity and resistance</b>.<sup>4</sup></p>",
             "text_style": "body"
           }
         }
@@ -350,52 +341,6 @@
         "padding_bottom": 64
       }
     },
-    "rich_text_gzMYFp": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_M4yhz8": {
-          "type": "heading",
-          "settings": {
-            "heading": "Are you a retailer looking to stock SKIN RESIST?",
-            "heading_size": "h2"
-          }
-        },
-        "text_hBxCJU": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_6fVxQ6": {
-          "type": "button",
-          "settings": {
-            "button_label": "Become a stockist",
-            "button_link": "shopify://pages/become-a-stockist",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_M4yhz8",
-        "text_hBxCJU",
-        "button_6fVxQ6"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-8b8d494a-3bbe-4264-bc18-ad67c0fe2ca1",
-        "full_width": true,
-        "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 64,
-        "container_id": ""
-      }
-    },
     "collapsible_content_mRYtCq": {
       "type": "collapsible-content",
       "blocks": {
@@ -476,6 +421,52 @@
         "desktop_layout": "image_second",
         "padding_top": 64,
         "padding_bottom": 64
+      }
+    },
+    "rich_text_gzMYFp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_M4yhz8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Are you a retailer looking to stock SKIN RESIST?",
+            "heading_size": "h2"
+          }
+        },
+        "text_hBxCJU": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_6fVxQ6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Become a stockist",
+            "button_link": "shopify://pages/become-a-stockist",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_M4yhz8",
+        "text_hBxCJU",
+        "button_6fVxQ6"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-8b8d494a-3bbe-4264-bc18-ad67c0fe2ca1",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "collapsible_content_qRJKVd": {
