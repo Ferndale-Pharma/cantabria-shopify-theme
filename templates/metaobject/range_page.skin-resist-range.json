@@ -169,6 +169,7 @@
         "column_mprTtp": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00306_CantabriaLabs_SkinResist_RangePageImages_100x100_Icon1.png",
             "title": "Exclusive AQUAMMUNIST® Technology",
             "text": "<p>Helps soothe discomfort, reduce visible redness and improve skin resilience.<sup>3</sup></p>",
             "link_label": "",
@@ -178,6 +179,7 @@
         "column_iJqTdw": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00306_CantabriaLabs_SkinResist_RangePageImages_100x100_Icon2.png",
             "title": "Targeted formulas",
             "text": "<p>Supports a stronger skin barrier while addressing visible signs of ageing.<sup>5</sup></p>",
             "link_label": "",
@@ -187,6 +189,7 @@
         "column_FhGXK9": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00306_CantabriaLabs_SkinResist_RangePageImages_100x100_Icon3.png",
             "title": "Clinically proven efficacy & tolerability",
             "text": "<p>Visible improvements in just 14 days.<sup>4</sup></p>",
             "link_label": "",
@@ -196,6 +199,7 @@
         "column_6YUgUR": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00306_CantabriaLabs_SkinResist_RangePageImages_100x100_Icon4.png",
             "title": "Fragrance-free formulas",
             "text": "<p>Dermatologically tested on sensitive &amp; reactive skin.</p>",
             "link_label": "",
@@ -209,6 +213,9 @@
         "column_FhGXK9",
         "column_6YUgUR"
       ],
+      "custom_css": [
+        "h3 {color: #121212;}"
+      ],
       "name": "Multicolumn HTML",
       "settings": {
         "anchor_id": "",
@@ -216,7 +223,7 @@
         "heading_size": "h2",
         "richtext": "",
         "narrow_text": false,
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "center",
