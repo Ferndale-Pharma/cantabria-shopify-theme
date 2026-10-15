@@ -22,7 +22,7 @@
         "text_y3ky84": {
           "type": "text",
           "settings": {
-            "text": "Advanced care for sensitive & reactive skin inspired by the science of the hydrobiome",
+            "text": "Advanced care for sensitive & reactive skin with AQUAMMUNIST® hydrobiome-science",
             "text_style": "subtitle"
           }
         },
@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "View products",
-            "button_link_1": "",
+            "button_link_1": "shopify://collections/skin-resist",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -45,6 +45,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00305_CantabriaLabs_SkinResist_RangeImage_2560x1280_ef6d7f5b-23a6-4303-8404-9e17b3d35abe.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00305_CantabriaLabs_SkinResist_RangeImage_1080x1080_77208748-097d-47b7-8efd-63c854d9a10f.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -146,7 +148,8 @@
       "name": "Image with text HTML",
       "settings": {
         "anchor_id": "",
-        "height": "adapt",
+        "image": "shopify://shop_images/FERN-IMG-00306_CantabriaLabs_SkinResist_RangePageImages_1440x1440_1.jpg",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -265,7 +268,8 @@
       "name": "Image with text HTML",
       "settings": {
         "anchor_id": "",
-        "height": "adapt",
+        "image": "shopify://shop_images/FERN-IMG-00306_CantabriaLabs_SkinResist_RangePageImages_1440x1440_2.jpg",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
