@@ -337,7 +337,7 @@
         "anchor_id": "",
         "title": "Discover SKIN RESIST",
         "heading_size": "h1",
-        "richtext": "<p>SKIN RESIST Velvet Cleanser, Daily Fluid and Sensage Serum work together to provide gentle cleansing, targeted calming and daily barrier support. Formulated with AQUAMMUNIST® Technology and complementary dermatological ingredients, the SKIN RESIST regime helps reduce skin reactivity and visible redness, improve comfort and address visible signs of ageing.</p>",
+        "richtext": "<p>SKIN RESIST Velvet Cleanser, Daily Fluid and Sensage Serum work together to provide gentle cleansing, targeted calming and daily barrier support.&nbsp;</p><p>Formulated with AQUAMMUNIST® Technology and complementary dermatological ingredients, the SKIN RESIST regime helps reduce skin reactivity and visible redness, improve comfort and address visible signs of ageing.</p>",
         "narrow_text": true,
         "image_width": "full",
         "image_ratio": "adapt",
@@ -446,7 +446,7 @@
         "heading_M4yhz8": {
           "type": "heading",
           "settings": {
-            "heading": "Are you a retailer looking to stock SKIN RESIST?",
+            "heading": "Are you looking to stock SKIN RESIST?",
             "heading_size": "h2"
           }
         },
