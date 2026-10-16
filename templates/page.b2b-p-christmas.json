@@ -44,6 +44,7 @@
         },
         "buttons_yRKaGb": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Talk to us about Festive Gifting",
             "button_link_1": "#tell-me-more",

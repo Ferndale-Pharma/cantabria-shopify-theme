@@ -281,6 +281,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 5,
         "column_alignment": "center",
+        "column_link_style": "text",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
@@ -402,6 +403,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
+        "column_link_style": "text",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
@@ -523,6 +525,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
+        "column_link_style": "text",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
@@ -561,7 +564,6 @@
         "column_d9ftqE",
         "column_8pxVzK"
       ],
-      "disabled": true,
       "custom_css": [
         ".rte li {list-style: none; font-weight: 700;}"
       ],
@@ -576,6 +578,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 2,
         "column_alignment": "center",
+        "column_link_style": "text",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
