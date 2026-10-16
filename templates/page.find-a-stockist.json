@@ -287,6 +287,16 @@
         "padding_bottom": 52,
         "container_id": ""
       }
+    },
+    "custom_liquid_36TaGn": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script>\n(function () {\n  const customOrder = [\n    'ALLSKIN | MED',\n    'Biretix',\n    'Endocare',\n    'Heliocare',\n    'Neoretin',\n    'Skin Resist',\n    'Skin Clinic',\n    'Pharmacy'\n  ];\n\n  const listSelector = '#scasl-tag-list-container';\n  const normalise = text =>\n    text.replace(/\\s+/g, ' ').trim().toLowerCase();\n\n  const orderMap = new Map(\n    customOrder.map((tag, index) => [normalise(tag), index])\n  );\n\n  let attachedList = null;\n  let observer = null;\n\n  function sortTags(list) {\n    const items = Array.from(list.children)\n      .filter(item => item.tagName === 'LI');\n\n    if (!items.length) return;\n\n    function priority(item) {\n      const label = normalise(item.textContent);\n      return orderMap.has(label)\n        ? orderMap.get(label)\n        : customOrder.length;\n    }\n\n    const sorted = [...items].sort((a, b) => {\n      const difference = priority(a) - priority(b);\n      return difference || normalise(a.textContent)\n        .localeCompare(normalise(b.textContent));\n    });\n\n    // Avoid unnecessary DOM changes.\n    if (sorted.every((item, index) => item === items[index])) {\n      return;\n    }\n\n    const fragment = document.createDocumentFragment();\n\n    sorted.forEach(item => fragment.appendChild(item));\n    list.appendChild(fragment);\n  }\n\n  function initialise() {\n    const list = document.querySelector(listSelector);\n    if (!list) return;\n\n    if (list !== attachedList) {\n      if (observer) observer.disconnect();\n\n      attachedList = list;\n\n      observer = new MutationObserver(() => {\n        sortTags(list);\n      });\n\n      observer.observe(list, { childList: true });\n    }\n\n    sortTags(list);\n  }\n\n  // Wait for ProMap's asynchronously loaded filters.\n  const poll = setInterval(initialise, 250);\n\n  setTimeout(() => clearInterval(poll), 60000);\n\n  initialise();\n})();\n</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -297,6 +307,7 @@
     "rich_text_UH8FGg",
     "image_with_text_JbJr8G",
     "17750352184bde2d9b",
-    "rich_text_fFe8TY"
+    "rich_text_fFe8TY",
+    "custom_liquid_36TaGn"
   ]
 }
