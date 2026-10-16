@@ -63,7 +63,7 @@
       "name": "Image Banner v2",
       "settings": {
         "image": "shopify://shop_images/cantabria-black-friday-promotions_0cf73dd4-c4b5-442f-bd42-c77872dba81b.jpg",
-        "mobile_image": "shopify://shop_images/FERN-IMG-00301_CantabriaLabs_ChristmasGifting_WebBanner_Oct26_1080x1080px.jpg",
+        "mobile_image": "shopify://shop_images/cantabria-black-friday-promotions-mobile.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
