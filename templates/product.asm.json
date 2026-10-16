@@ -48,7 +48,7 @@
           "type": "external_buy_buttons",
           "settings": {
             "primary_label": "Login to buy",
-            "secondary_label": "Find a medical aesthetic clinic",
+            "secondary_label": "Find an ALLSKIN | MED clinic",
             "clinic_url": "shopify://pages/find-a-stockist"
           }
         },
