@@ -10,15 +10,8 @@
 {
   "sections": {
     "main": {
-      "type": "main-product",
+      "type": "cl-main-product",
       "blocks": {
-        "text_YCAafg": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.custom.range.value }}",
-            "text_style": "body"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -30,47 +23,75 @@
             "text_style": "body"
           }
         },
-        "rating_Rzyz7i": {
-          "type": "rating",
+        "judge_me_reviews_preview_badge_fmp8CP": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
         "price": {
           "type": "price",
           "settings": {}
         },
+        "joy_loyalty_program_joy_points_calculator_block_3E4En6": {
+          "type": "shopify://apps/joy-loyalty-program/blocks/joy-points-calculator-block/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
+          "settings": {
+            "points_calculator_alignment": "left"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
+            "picker_type": "dropdown",
+            "swatch_shape": "square"
+          }
+        },
+        "external_buy_buttons_DAn7rJ": {
+          "type": "external_buy_buttons",
+          "settings": {
+            "primary_label": "Login to buy",
+            "secondary_label": "Find a medical aesthetic clinic",
+            "clinic_url": "shopify://pages/find-a-stockist"
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
+          }
+        },
+        "bogos_io_free_gift_volume_discount_view_QPyXCw": {
+          "type": "shopify://apps/bogos-io-free-gift/blocks/volume-discount-view/0432bba6-720a-4e95-be5a-b868386f7aa6",
+          "disabled": true,
+          "settings": {
+            "product": ""
+          }
+        },
+        "textarea_6NCbfN": {
+          "type": "textarea",
+          "settings": {
+            "text_area": "<p>{{ product.metafields.custom.form_shortcode.value }}</p>"
           }
         },
         "description_4GfMrB": {
           "type": "description",
           "settings": {}
         },
-        "text_YWbJwy": {
-          "type": "text",
+        "textarea_jUnP9Y": {
+          "type": "textarea",
           "settings": {
-            "text": "",
-            "text_style": "body"
+            "text_area": "<p>{{ product.metafields.custom.product_offer_text.value }}</p>"
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Key Information",
+            "heading": "Key information",
             "icon": "none",
             "content": "{{ product.metafields.custom.long_description | metafield_tag }}",
             "page": ""
@@ -81,94 +102,91 @@
           "settings": {
             "heading": "How to use",
             "icon": "none",
-            "content": "",
+            "content": "{{ product.metafields.custom.how_to_use | metafield_tag }}",
             "page": ""
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
+        "ingredients_tab_4mt9Wd": {
+          "type": "ingredients_tab",
           "settings": {
             "heading": "Ingredients",
             "icon": "none",
-            "content": "{{ product.metafields.custom.key_ingredients | metafield_tag: field: 'name' }}",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Reviews",
-            "icon": "none",
-            "content": "",
-            "page": ""
+            "content": "<h3>Key Ingredients</h3>",
+            "all_ingredients": "<p>{{ product.metafields.custom.all_ingredients | metafield_tag }}</p>"
           }
         }
       },
       "block_order": [
-        "text_YCAafg",
         "title",
         "text_txweDz",
-        "rating_Rzyz7i",
+        "judge_me_reviews_preview_badge_fmp8CP",
         "price",
+        "joy_loyalty_program_joy_points_calculator_block_3E4En6",
         "variant_picker",
+        "external_buy_buttons_DAn7rJ",
         "quantity_selector",
         "buy_buttons",
+        "bogos_io_free_gift_volume_discount_view_QPyXCw",
+        "textarea_6NCbfN",
         "description_4GfMrB",
-        "text_YWbJwy",
+        "textarea_jUnP9Y",
         "collapsible-row-1",
         "collapsible-row-2",
-        "collapsible-row-0",
-        "collapsible-row-3"
+        "ingredients_tab_4mt9Wd"
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "",
-        "media_size": "large",
+        "color_scheme": "scheme-1",
+        "media_size": "small",
         "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "gallery_layout": "thumbnail",
+        "media_fit": "cover",
+        "gallery_layout": "thumbnail_slider",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "hover",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "enable_video_looping": true,
+        "padding_top": 32,
+        "padding_bottom": 64
       }
     },
     "1725440000dbba4c0d": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_featured_carousel_eNaJcH": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "judge_me_reviews_review_widget_D8HWxR": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "maxwidth": 1080
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
           }
         }
       },
       "block_order": [
-        "judge_me_reviews_featured_carousel_eNaJcH"
+        "judge_me_reviews_review_widget_D8HWxR"
       ],
       "settings": {
         "include_margins": true
       }
     },
     "related-products": {
-      "type": "related-products",
+      "type": "cl-related-products",
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
-        "products_to_show": 3,
-        "columns_desktop": 3,
+        "text": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
         "color_scheme": "scheme-1",
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "1725375417ea1f4d2f": {
@@ -177,20 +195,30 @@
         "include_margins": true
       }
     },
+    "custom_liquid_9RgfFT": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"rich-text content-container color-scheme-1 gradient rich-text--full-width content-container--full-width\">\n<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\"><p style=\"font-size:0.7em; text-align:left; padding-bottom: 64px;\">{{ product.metafields.custom.references.value }}</p>\n</div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "newsletter_VckrPM": {
       "type": "newsletter",
       "blocks": {
         "heading_GMYdP6": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
+            "heading": "Get 10% off your first order",
             "heading_size": "h1"
           }
         },
         "paragraph_rpRJba": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+            "text": "<p>Join the Cantabria Labs community for exclusive offers, expert advice and skincare guides direct to your inbox.</p>"
           }
         },
         "email_form_WnUWfi": {
@@ -216,6 +244,7 @@
     "1725440000dbba4c0d",
     "related-products",
     "1725375417ea1f4d2f",
+    "custom_liquid_9RgfFT",
     "newsletter_VckrPM"
   ]
 }
