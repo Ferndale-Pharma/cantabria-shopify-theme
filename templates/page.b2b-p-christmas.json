@@ -62,14 +62,14 @@
       ],
       "name": "Image Banner v2",
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00301_CantabriaLabs_ChristmasGifting_WebBanner_Oct26.jpg",
+        "image": "shopify://shop_images/cantabria-black-friday-promotions_0cf73dd4-c4b5-442f-bd42-c77872dba81b.jpg",
         "mobile_image": "shopify://shop_images/FERN-IMG-00301_CantabriaLabs_ChristmasGifting_WebBanner_Oct26_1080x1080px.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
-        "color_scheme": "",
+        "color_scheme": "scheme-fe2caf85-447f-433a-bc45-dfb94474e084",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "show_text_below": true,
@@ -108,6 +108,72 @@
         "padding_top": 32,
         "padding_bottom": 32,
         "container_id": ""
+      }
+    },
+    "multicolumn_with_buttons_AzGpK8": {
+      "type": "multicolumn-with-buttons",
+      "blocks": {
+        "column_rHyGeN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/black-friday-gifting.jpg",
+            "title": "Festive Gifting Packs",
+            "text": "<p>Limited-edition Cantabria Labs promotion featuring fantastic festive packing and added-value complimentary skincare.</p>",
+            "link_label": "View Offer",
+            "link": "#renewal",
+            "link_new_tab": false
+          }
+        },
+        "column_jrpQax": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00303_CL_PostSummerSkinRenewal_WebsiteAssets_Oct26_03.jpg",
+            "title": "Skin Renewal with ENDOCARE",
+            "text": "<p>A targeted approach to restoring hydration, supporting controlled skin renewal and improving overall skin quality</p>",
+            "link_label": "View Offer",
+            "link": "#renewal",
+            "link_new_tab": false
+          }
+        },
+        "column_PTfrFy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00303_CL_PostSummerSkinRenewal_WebsiteAssets_Oct26_04.jpg",
+            "title": "Support Acne-Prone Skin with BIRETIX",
+            "text": "<p>Bring together cleansing and targeted anti-blemish treatment with daily photoprotection</p>",
+            "link_label": "View Offer",
+            "link": "#acne",
+            "link_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "column_rHyGeN",
+        "column_jrpQax",
+        "column_PTfrFy"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.multicolumn-card__image-wrapper {width: 60%; margin-left: auto; margin-right: auto; }}",
+        ".button--primary {max-width: 80%; min-width: 50%; margin: 4rem auto 4rem;}"
+      ],
+      "name": "Multicolumn with Buttons",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "heading_align": "center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "button_link_new_tab": false,
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 32
       }
     },
     "range_cards_Ykrbek": {
@@ -243,24 +309,27 @@
         "heading_YyhkUa": {
           "type": "heading",
           "settings": {
-            "heading": "Get 5 Complimentary Christmas Gifting Packs",
+            "heading": "&nbsp;Festive Gifting Offer for Your Pharmacy & Your Customers&nbsp;",
             "heading_size": "h2"
           }
         },
         "text_zcFK37": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<h3><strong>when you spend over £350.00 ex. VAT</strong></h3>"
           }
         },
         "text_L49mD6": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<h3><strong>Each Complimentary Festive Gifting Pack includes:</strong></h3><ul><li><h4><strong>1 x FREE ENDOCARE C Ferulic Serum - worth £55</strong></h4></li><li><h4><strong>+ Premium Cantabria Labs Gift Box</strong></h4></li><li><h4><strong>+ Tissue paper, ribbon and gift card</strong></h4></li></ul>"
           }
         },
         "button_bBqb4e": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Talk to us about Festive Gifting",
             "button_link": "#tell-me-more",
@@ -272,6 +341,7 @@
         },
         "text_MytyFc": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<h2><strong>Your customer offer:</strong>&nbsp;</h2><p><strong>Gift customers a complimentary Endocare C Ferulic Serum, presented in a premium Cantabria Labs gift box</strong>, when they spend £75 or more on Cantabria Labs Dermatological Skincare.&nbsp;</p>"
           }
@@ -293,12 +363,220 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "is_heading": false,
         "padding_top": 0,
         "padding_bottom": 32,
-        "container_id": ""
+        "container_id": "gifting"
+      }
+    },
+    "image_with_text_html_YznnGQ": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_bqPdtc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get 5 Complimentary Festive Gifting Packs when you spend over £350.00 ex.VAT",
+            "heading_size": "h2"
+          }
+        },
+        "text_REXjmJ": {
+          "type": "text",
+          "settings": {
+            "text": "<b>Each Complimentary Festive Gifting Pack includes:</b>\n<br>\n<br><p>1 x FREE ENDOCARE C Ferulic Serum - worth £55</p>\n<p>+ Premium Cantabria Labs Gift Box</p>\n<p>+ Tissue paper, ribbon and gift card</p>",
+            "text_style": "body"
+          }
+        },
+        "text_VyUrbr": {
+          "type": "text",
+          "settings": {
+            "text": "<p><b>Your customer offer:</b></p><p></p>",
+            "text_style": "subtitle"
+          }
+        },
+        "text_DFnQy6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Gift customers a complimentary Endocare C Ferulic Serum, presented in a premium Cantabria Labs gift box, when they spend £75 or more on Cantabria Labs Dermatological Skincare.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_KGDmfe": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discuss this Offer",
+            "button_link": "#enquire",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bqPdtc",
+        "text_REXjmJ",
+        "text_VyUrbr",
+        "text_DFnQy6",
+        "button_KGDmfe"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "anchor_id": "",
+        "image": "shopify://shop_images/FERN-IMG-00301_CantabriaLabs_ChristmasGifting_WebBanner_Oct26_1080x1080px.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-c96a5236-5eda-4b29-a1d3-491253493b70",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_ni6gJj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CUeVhH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Skin Renewal with ENDOCARE",
+            "heading_size": "h2"
+          }
+        },
+        "text_JnCMjP": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><strong>Added-value promotion available for Pharmacy</strong></h4><p>Designed for you to pass on to your customers:</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CUeVhH",
+        "text_JnCMjP"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "container_id": "renewal"
+      }
+    },
+    "image_with_text_html_U7Le7W": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_xnaAPJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "ENDOCARE Post-Summer Skin Renewal Bundle",
+            "heading_size": "h2"
+          }
+        },
+        "text_GKVTfP": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>A targeted approach to restoring hydration, supporting controlled skin renewal and improving overall skin quality. </strong></p><p>A clinically-proven three-step skincare regime combining controlled skin renewal, barrier support and very high-level daily photoprotection to provide a balanced post-summer approach to renewal, hydration and barrier support. </p><br><h4 style=\"font-weight:700;\">UP TO 35% TOTAL SAVING FOR YOU AND YOUR CUSTOMERS*</h4>",
+            "text_style": "body"
+          }
+        },
+        "button_YXKT6h": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discuss this Offer",
+            "button_link": "#enquire",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xnaAPJ",
+        "text_GKVTfP",
+        "button_YXKT6h"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "anchor_id": "",
+        "image": "shopify://shop_images/FERN-IMG-00303_CL_PostSummerSkinRenewal_WebsiteAssets_Oct26_05.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_html_bqjJir": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_eBf4WL": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h4 style=\"color:#000;\"><strong>ENDOCARE RENEWAL Retinoid Serum</strong></h4> \n<h4 style=\"font-weight:700;\">BUY ANY</h4>\n<p>Visibly smooths texture, reduces fine lines and wrinkles and supports brighter, renewed skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BWUac9": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h4 style=\"color:#000;\"><strong>ENDOCARE AGE BARRIER Hyaluboost Gel Cream</strong></h4> \n<h4 style=\"font-weight:700;\">+ 50% OFF</h4>\n<p>Provides sustained hydration, reinforces the skin barrier and supports long-term retinoid tolerance.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BM7Vgz": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Sensation SPF50+</strong></h4> \n<h4 style=\"font-weight:700;\">+ FREE</h4>\n<p>Very high-level SPF50+ and PA++++ daily photoprotection to help protect against further UV exposure and support long-term skin health.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_eBf4WL",
+        "column_BWUac9",
+        "column_BM7Vgz"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.multicolumn-card__image-wrapper {width: 60%; margin-left: auto; margin-right: auto; }}"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "anchor_id": "",
+        "title": "What's inside",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "column_link_style": "text",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 12
       }
     },
     "image_with_text_html_GJ4Raw": {
@@ -353,13 +631,374 @@
         "padding_bottom": 64
       }
     },
+    "rich_text_LaLY8L": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WjnA6k": {
+          "type": "heading",
+          "settings": {
+            "heading": "Support Teenage/Persistent and Adult Acne-Prone Skin with BIRETIX",
+            "heading_size": "h2"
+          }
+        },
+        "text_d38Mk3": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><strong>Added-value promotion available for Pharmacy</strong></h4><p>Designed for you to pass on to your customers:</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WjnA6k",
+        "text_d38Mk3"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 12,
+        "container_id": "acne"
+      }
+    },
+    "image_with_text_html_ehnQp6": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_DCRccL": {
+          "type": "heading",
+          "settings": {
+            "heading": "BIRETIX Acne-Prone Skin Bundles",
+            "heading_size": "h2"
+          }
+        },
+        "text_xyeTU6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><b>Simple 3-step regimes to support acne-prone skin.</b></p><p>Science-led skincare solutions designed, and clinically proven, to help manage blemishes and support healthier-looking skin at every stage of the acne-prone skin journey. </p><br><h4 style=\"font-weight:700;\">UP TO 30% TOTAL SAVING FOR YOU AND YOUR PATIENTS*</h4>",
+            "text_style": "body"
+          }
+        },
+        "button_GFheai": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discuss this Offer",
+            "button_link": "#enquire",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DCRccL",
+        "text_xyeTU6",
+        "button_GFheai"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "anchor_id": "",
+        "image": "shopify://shop_images/FERN-IMG-00303_CL_PostSummerSkinRenewal_WebsiteAssets_Oct26_06.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_html_gKeVkq": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_43UUjY": {
+          "type": "column",
+          "settings": {
+            "title": "CLEANSE",
+            "text": "<h4 style=\"color:#000;\"><strong>BIRETIX Cleanser 400ml</strong></h4> \n<h4 style=\"font-weight:700;\">BUY</h4>\n<p>Gentle, purifying cleanser developed for acne-prone skin to remove excess oil, impurities and daily build-up without over-drying.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PHczPE": {
+          "type": "column",
+          "settings": {
+            "title": "TREAT (Persistent Acne-Prone Skin)",
+            "text": "<h4 style=\"color:#000;\"><strong>BIRETIX Tri-Active Anti-Blemish Gel</strong></h4> \n<h4 style=\"font-weight:700;\">BUY</h4>\n<p>Clinically proven to help reduce blemishes and blackheads, unclog pores and control excess oil.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gKwqGV": {
+          "type": "column",
+          "settings": {
+            "title": "TREAT (Adult Acne-Prone Skin)",
+            "text": "<h4 style=\"color:#000;\"><strong>BIRETIX Double Correction Serum</strong></h4> \n<h4 style=\"font-weight:700;\">OR BUY</h4>\n<p>Addresses blemishes alongside excess oil, enlarged pores, uneven texture and the first visible signs of ageing.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7FUzE3": {
+          "type": "column",
+          "settings": {
+            "title": "PROTECT",
+            "text": "<h4 style=\"color:#000;\"><strong>HELIOCARE 360° Acnimat SPF50+</strong></h4> \n<h4 style=\"font-weight:700;\">+ FREE</h4>\n<p>Very high-level SPF50+ and PA++++ daily photoprotection in a mattifying formulation suited to acne-prone skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_43UUjY",
+        "column_PHczPE",
+        "column_gKwqGV",
+        "column_7FUzE3"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.multicolumn-card__image-wrapper {width: 60%; margin-left: auto; margin-right: auto; }}"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "anchor_id": "",
+        "title": "",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "column_link_style": "text",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "rich_text_qLCjMY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rQNtHQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Barrier Support for Prescription Retinoid Treatments with BIRETIX",
+            "heading_size": "h2"
+          }
+        },
+        "text_WLgnLd": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><strong>Added-value promotion available for Pharmacy</strong></h4><p>Designed for you to pass on to your customers:</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rQNtHQ",
+        "text_WLgnLd"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 12,
+        "container_id": ""
+      }
+    },
+    "image_with_text_html_FiqihU": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_BX9JAi": {
+          "type": "heading",
+          "settings": {
+            "heading": "BIRETIX Prescription Acne Treatment: Barrier Support Regime Bundle",
+            "heading_size": "h2"
+          }
+        },
+        "text_H8ta4E": {
+          "type": "text",
+          "settings": {
+            "text": "<p><b>Designed for dry, sensitised or compromised acne-prone skin during prescription retinoid treatment.</b></p><p>Combine gentle cleansing with intensive barrier repair and targeted lip care. The Isorepair regime is designed to help maintain hydration, reduce dryness and irritation and improve skin comfort and tolerability during retinoid treatment </p>",
+            "text_style": "body"
+          }
+        },
+        "button_8XHCa4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discuss this Offer",
+            "button_link": "#enquire",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BX9JAi",
+        "text_H8ta4E",
+        "button_8XHCa4"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "anchor_id": "",
+        "image": "shopify://shop_images/FERN-IMG-00303_CL_PostSummerSkinRenewal_WebsiteAssets_Oct26_07.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_html_X4Uidx": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_rrypfT": {
+          "type": "column",
+          "settings": {
+            "title": "CLEANSE",
+            "text": "<h4 style=\"color:#000;\"><strong>BIRETIX Isorepair Cleanser </strong></h4> \n<h4 style=\"font-weight:700;\">BUY</h4>\n<p>Hydrating pH-balanced cleanser formulated to cleanse, soothe and reduce redness in dry and sensitised acne-prone skin.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pDE9UQ": {
+          "type": "column",
+          "settings": {
+            "title": "TREAT",
+            "text": "<h4 style=\"color:#000;\"><strong>BIRETIX Isorepair Cream</strong></h4> \n<h4 style=\"font-weight:700;\">BUY</h4>\n<p>A barrier-repair cream formulated to hydrate, soothe and restore comfort to compromised skin, reducing dryness, irritation and tightness.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ExzVpK": {
+          "type": "column",
+          "settings": {
+            "title": "PROTECT",
+            "text": "<h4 style=\"color:#000;\"><strong>BIRETIX Isorepair Lip Balm</strong></h4> \n<h4 style=\"font-weight:700;\">+ FREE</h4>\n<p>An intensive repair lip balm formulated to soothe, restore and protect dry, sensitised lips.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_rrypfT",
+        "column_pDE9UQ",
+        "column_ExzVpK"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.multicolumn-card__image-wrapper {width: 60%; margin-left: auto; margin-right: auto; }}"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "anchor_id": "",
+        "title": "",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "column_link_style": "text",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "multicolumn_WbxfMe": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Vq8FiK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cl-blue-icon-education.png",
+            "title": "Comprehensive Product Training & Education",
+            "text": "<p>Build confidence in prescribing targeted homecare recommendations.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RDP4eq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cl-blue-icon-marketing.png",
+            "title": "Patient-Facing Marketing & Promotional Support",
+            "text": "<p>Help communicate the value of professional skincare beyond the pharmacy.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eXfpGe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cl-blue-icon-business-support.png",
+            "title": "Dedicated Business Development Support",
+            "text": "<p>Practical support to help introduce and grow Cantabria Labs within your pharmacy.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Vq8FiK",
+        "column_RDP4eq",
+        "column_eXfpGe"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper--third-width {max-width: 50px;}",
+        ".multicolumn-list {margin-top: 1rem;}",
+        "@media screen and (min-width: 750px) {.multicolumn-card__image-wrapper--third-width {max-width: 75px; }}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "More Than Just Promotions",
+        "heading_size": "h2",
+        "richtext": "<p><strong>Supporting you and your pharmacy&nbsp;</strong></p><p>We're here to help you make the most of the post-summer skin correction opportunity and support stronger, longer-term customer relationships.&nbsp;</p>",
+        "narrow_text": true,
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
     "rich_text_9MBknh": {
       "type": "rich-text",
       "blocks": {
         "heading_yFA9Pj": {
           "type": "heading",
           "settings": {
-            "heading": "Supporting Your Festive Retail Strategy",
+            "heading": "Supporting Your Pharmacy Retail Strategy",
             "heading_size": "h2"
           }
         },
@@ -441,9 +1080,21 @@
     "main",
     "image_banner_separate_cMrQHt",
     "rich_text_GMhNTF",
+    "multicolumn_with_buttons_AzGpK8",
     "range_cards_Ykrbek",
     "rich_text_qWdJbT",
+    "image_with_text_html_YznnGQ",
+    "rich_text_ni6gJj",
+    "image_with_text_html_U7Le7W",
+    "multicolumn_html_bqjJir",
     "image_with_text_html_GJ4Raw",
+    "rich_text_LaLY8L",
+    "image_with_text_html_ehnQp6",
+    "multicolumn_html_gKeVkq",
+    "rich_text_qLCjMY",
+    "image_with_text_html_FiqihU",
+    "multicolumn_html_X4Uidx",
+    "multicolumn_WbxfMe",
     "rich_text_9MBknh",
     "apps_FkimBj",
     "rich_text_pCL6Kg"
