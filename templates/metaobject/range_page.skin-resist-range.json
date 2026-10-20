@@ -181,7 +181,7 @@
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00306_CantabriaLabs_SkinResist_RangePageImages_100x100_Icon2.png",
             "title": "Targeted formulas",
-            "text": "<p>Shown to significantly reduce trigger-related itching and burning, while improving skin sensitivity and resistance.<sup>4</sup></p>",
+            "text": "<p>Significantly reduces trigger-related itching and burning, while lowering sensitivity and improving resistance.<sup>4</sup></p>",
             "link_label": "",
             "link": ""
           }
@@ -201,7 +201,7 @@
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00306_CantabriaLabs_SkinResist_RangePageImages_100x100_Icon4.png",
             "title": "Fragrance-free formulas",
-            "text": "<p>Dermatologically tested on sensitive &amp; reactive skin.</p>",
+            "text": "<p>Dermatologically tested for suitability on sensitive and reactive skin types.</p>",
             "link_label": "",
             "link": ""
           }
