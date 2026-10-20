@@ -154,7 +154,7 @@
         "text_YicBRb"
       ],
       "custom_css": [
-        "h3 {font-weight: 700; color:#121212;}"
+        "h3 {font-weight: 700; color: #121212;}"
       ],
       "name": "Image with text HTML",
       "settings": {
@@ -172,12 +172,73 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "multicolumn_accordion_pjdjm4": {
+      "type": "multicolumn-accordion",
+      "blocks": {
+        "column_UAACN9": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "",
+            "hidden_text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qLNh4d": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "",
+            "hidden_text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cqyHK7": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "",
+            "hidden_text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UAACN9",
+        "column_qLNh4d",
+        "column_cqyHK7"
+      ],
+      "name": "Multicolumn with accordion",
+      "settings": {
+        "title": "Understanding sensitive & reactive skin",
+        "heading_size": "h2",
+        "title_alignment": "center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "read_more_label": "Read more",
+        "read_less_label": "Read less",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner_separate_qzKrm8",
     "custom_liquid_PJ88Yb",
     "multicolumn_qcFNdc",
-    "image_with_text_html_LnPKVG"
+    "image_with_text_html_LnPKVG",
+    "multicolumn_accordion_pjdjm4"
   ]
 }
