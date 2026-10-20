@@ -65,7 +65,7 @@
         "column_RGR9Ff": {
           "type": "column",
           "settings": {
-            "title": "Calm discomfort",
+            "title": "Calm and soothe discomfort",
             "text": "",
             "link_label": "",
             "link": ""
@@ -108,7 +108,7 @@
       "custom_css": [
         "h2 {color: #121212; font-size: 2rem;}",
         ".title-wrapper-with-link {margin-bottom: 1rem;}",
-        "multicolumn-card__info {padding-right: 5px !important; padding-left: 5px !important;}"
+        ".multicolumn-card__info {padding-right: 5px !important; padding-left: 5px !important;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
