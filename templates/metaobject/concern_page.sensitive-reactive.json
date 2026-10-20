@@ -130,11 +130,54 @@
         "padding_bottom": 64,
         "container_id": ""
       }
+    },
+    "image_with_text_html_LnPKVG": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_UXEnWi": {
+          "type": "heading",
+          "settings": {
+            "heading": "What is sensitive & reactive skin?",
+            "heading_size": "h2"
+          }
+        },
+        "text_YicBRb": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Sensitive skin</h3>\n<p>Characterised by stinging, burning, itching, tingling or tightness from triggers that wouldn’t normally cause discomfort. Skin may appear normal, or have visible redness.<sup>1</sup></p>\n<h3>Reactive skin</h3>\n<p>Skin which commonly responds quickly to internal or external triggers.</p>\n<h3>Redness-prone skin</h3>\n<p>Skin which is more likely to develop visible flushing or areas of persistent redness.</p>\n<p>These can occur on their own or together, and may be linked to changes in skin barrier function and heightened neurosensory reactivity.<sup>2,3</sup></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UXEnWi",
+        "text_YicBRb"
+      ],
+      "custom_css": [
+        "h3 {font-weight: 700; color:#121212;}"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "anchor_id": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "image_banner_separate_qzKrm8",
     "custom_liquid_PJ88Yb",
-    "multicolumn_qcFNdc"
+    "multicolumn_qcFNdc",
+    "image_with_text_html_LnPKVG"
   ]
 }
