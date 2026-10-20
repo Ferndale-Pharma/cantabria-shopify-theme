@@ -170,8 +170,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00306_CantabriaLabs_SkinResist_RangePageImages_100x100_Icon1.png",
-            "title": "Exclusive AQUAMMUNIST® Technology",
-            "text": "<p>Helps protect skin cells from sensitivity or reactivity triggers.<sup>3</sup></p>",
+            "title": "AQUAMMUNIST® Technology",
+            "text": "<p>Supports skin cell protection against sensitivity and reactivity triggers.<sup>3</sup></p>",
             "link_label": "",
             "link": ""
           }
@@ -180,8 +180,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00306_CantabriaLabs_SkinResist_RangePageImages_100x100_Icon2.png",
-            "title": "Targeted formulas",
-            "text": "<p>Significantly reduces trigger-related itching and burning, while lowering sensitivity and improving resistance.<sup>4</sup></p>",
+            "title": "Targeted sensitivity formulas",
+            "text": "<p>Helps reduce trigger-related itching and burning while improving skin resistance.<sup>4</sup></p>",
             "link_label": "",
             "link": ""
           }
@@ -190,8 +190,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00306_CantabriaLabs_SkinResist_RangePageImages_100x100_Icon3.png",
-            "title": "Clinically proven efficacy & tolerability",
-            "text": "<p>Measurable improvement to redness &amp; hydration in just 14 days.<sup>5</sup></p>",
+            "title": "Clinically proven results",
+            "text": "<p>Measurable improvement in redness &amp; hydration in just 14 days.<sup>5</sup></p>",
             "link_label": "",
             "link": ""
           }
@@ -200,8 +200,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00306_CantabriaLabs_SkinResist_RangePageImages_100x100_Icon4.png",
-            "title": "Fragrance-free formulas",
-            "text": "<p>Dermatologically tested for suitability on sensitive and reactive skin types.</p>",
+            "title": "Fragrance-free formulations",
+            "text": "<p>Dermatologically tested for sensitive and reactive skin types.</p>",
             "link_label": "",
             "link": ""
           }
