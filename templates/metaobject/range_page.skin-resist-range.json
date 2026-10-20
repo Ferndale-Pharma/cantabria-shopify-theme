@@ -122,14 +122,14 @@
         "text_6MVfBR": {
           "type": "text",
           "settings": {
-            "text": "<div class=\"stat\">\n<b>Up to 60%</b><span>of women report sensitive &amp; reactive skin<sup>1,2</sup></span>\n</div>",
+            "text": "<div class=\"stat\">\n<b>Up to 60%</b><span><strong>of women and up to 40% of men report sensitive &amp; reactive skin<sup>1,2</sup></strong></span>\n</div>",
             "text_style": "body"
           }
         },
         "text_DgfDza": {
           "type": "text",
           "settings": {
-            "text": "<p>Sensitive &amp; reactive skin is more likely to respond to everyday triggers, including UV exposure, temperature changes, pollution, cosmetic products and stress, with visible redness and sensations such as itching, tingling or stinging. Reported in up to 60% of women, this heightened reactivity is often associated with a weakened skin barrier, leaving skin more vulnerable to external stressors and affecting everyday comfort and wellbeing.<sup>1,2</sup></p>\n<p><strong>Effective care should go beyond short-term soothing, helping to calm discomfort, reduce visible redness, strengthen the skin barrier and improve resilience to everyday triggers.</strong></p>",
+            "text": "<p>Sensitive &amp; reactive skin is more likely to respond to everyday triggers, including UV exposure, temperature changes, pollution, cosmetic products and stress, with visible redness and sensations such as itching, tingling or stinging. Reported in up to 60% of women and up to 40% of men, this heightened reactivity is often associated with a weakened skin barrier, leaving skin more vulnerable to external stressors and affecting everyday comfort and wellbeing.<sup>1,2</sup></p>\n<p><strong>Effective care can provide short-term relief by helping to soothe and calm discomfort, reduce visible redness, strengthen the skin barrier and improve resilience to everyday triggers.</strong></p>",
             "text_style": "body"
           }
         }
@@ -171,7 +171,7 @@
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00306_CantabriaLabs_SkinResist_RangePageImages_100x100_Icon1.png",
             "title": "Exclusive AQUAMMUNIST® Technology",
-            "text": "<p>Helps soothe discomfort, reduce visible redness and improve skin resilience.<sup>3</sup></p>",
+            "text": "<p>Helps protect skin cells from sensitivity or reactivity triggers.<sup>3</sup></p>",
             "link_label": "",
             "link": ""
           }
@@ -181,7 +181,7 @@
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00306_CantabriaLabs_SkinResist_RangePageImages_100x100_Icon2.png",
             "title": "Targeted formulas",
-            "text": "<p>Supports a stronger skin barrier while addressing visible signs of ageing.<sup>5</sup></p>",
+            "text": "<p>Shown to significantly reduce trigger-related itching and burning, while improving skin sensitivity and resistance.<sup>4</sup></p>",
             "link_label": "",
             "link": ""
           }
@@ -191,7 +191,7 @@
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00306_CantabriaLabs_SkinResist_RangePageImages_100x100_Icon3.png",
             "title": "Clinically proven efficacy & tolerability",
-            "text": "<p>Visible improvements in just 14 days.<sup>4</sup></p>",
+            "text": "<p>Measurable improvement to redness &amp; hydration in just 14 days.<sup>5</sup></p>",
             "link_label": "",
             "link": ""
           }
@@ -259,7 +259,7 @@
         "text_FY6JrH": {
           "type": "text",
           "settings": {
-            "text": "<p>Inspired by the science of the hydrobiome, AQUAMMUNIST® combines <strong>mineral-rich Solía Thermal Spring Water</strong> from Cantabria with <strong>encapsulated <em>Phaeodactylum tricornutum</em> microalgae extract</strong> to help calm skin reactivity and support the skin’s natural defences.</p>\n<p>Laboratory research has demonstrated the potential of AQUAMMUNIST® to <b>help protect skin cells against factors associated with sensitivity and reactivity</b>.<sup>3</sup></p>\n<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"></p>\n<p>Clinical research on formulations combining AQUAMMUNIST®, cherimoya extract and niacinamide (as found in SKIN RESIST products) <b>demonstrated significant reductions in itching and burning sensations following exposure to external triggers, alongside improvements in skin sensitivity and resistance</b>.<sup>4</sup></p>",
+            "text": "<p>Inspired by the science of the hydrobiome, AQUAMMUNIST® combines <strong>mineral-rich Solía Thermal Spring Water</strong> from Cantabria with <strong>encapsulated <em>Phaeodactylum tricornutum</em> microalgae extract</strong> to help calm skin reactivity and support the skin’s natural defences.</p>\n<p>Laboratory research has demonstrated the potential of AQUAMMUNIST® to <b>help protect skin cells against factors associated with sensitivity and reactivity</b>.<sup>3</sup></p>\n<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"></p>\n<p>Clinical research on SKIN RESIST formulations combining AQUAMMUNIST®, cherimoya extract and niacinamide <b>demonstrated significant reductions in itching and burning sensations following exposure to external triggers, alongside improvements in skin sensitivity and resistance</b>.<sup>4</sup></p>",
             "text_style": "body"
           }
         }
@@ -337,7 +337,7 @@
         "anchor_id": "",
         "title": "Discover SKIN RESIST",
         "heading_size": "h1",
-        "richtext": "<p>SKIN RESIST Velvet Cleanser, Daily Fluid and Sensage Serum work together to provide gentle cleansing, targeted calming and daily barrier support.&nbsp;</p><p>Formulated with AQUAMMUNIST® Technology and complementary dermatological ingredients, the SKIN RESIST regime helps reduce skin reactivity and visible redness, improve comfort and address visible signs of ageing.</p>",
+        "richtext": "<p>SKIN RESIST Velvet Cleanser, Daily Fluid and Sensage Serum work together to provide gentle cleansing, targeted calming and daily barrier support.&nbsp;</p><p>Formulated with AQUAMMUNIST Technology and complementary dermatological ingredients, the SKIN RESIST regime significantly reduced redness and improved moisturisation, firmness and elasticity in just 14 days, with significant skin barrier strengthening after 28 days. <strong>97% of users would recommend it.</strong>⁵</p>",
         "narrow_text": true,
         "image_width": "full",
         "image_ratio": "adapt",
@@ -494,7 +494,7 @@
           "settings": {
             "heading": "References",
             "icon": "question_mark",
-            "row_content": "<ol><li>Wollenberg, A. and Giménez-Arnau, A. (2022). Journal of the European Academy of Dermatology and Venereology, 36(Suppl. 5), pp. 3–5.</li><li>Misery, L. et al. (2017). Acta Dermato-Venereologica, 97, pp. 4–6.</li><li>Mourelle, M.L., Segura de Yebra, J., Ayats, J., Vitale, M. and López Sánchez, A. (2024) ‘Potential benefits of a cosmetic ingredient combining thermal spring water and diatom algae extract’, <em>Cosmetics</em>, 11(2), p. 62. doi:10.3390/cosmetics11020062.</li><li>Vitale M et al. Controlled comparison evaluation of the soothing effect of 3 cosmetic products on skin discomfort induced by an irritant chemical agent (capsaicin). <em>J Cosmet Dermatol.&nbsp;</em>2024;23:4057–4065.</li><li>Vitale, M.; Truchuelo, M.T.; Nobile, V.; Gómez-Sánchez, M.J. Clinical Tolerability and Efficacy Establishment of a New Cosmetic Treatment Regimen Intended for Sensitive Skin. Appl. Sci. 2024, 14, 6252. <a href=\"https://doi.org/10.3390/app14146252\" target=\"_blank\" title=\"https://doi.org/10.3390/app14146252\">https://doi.org/10.3390/app14146252</a><br/></li></ol>",
+            "row_content": "<ol><li>Wollenberg, A. and Giménez-Arnau, A. (2022). Journal of the European Academy of Dermatology and Venereology, 36(Suppl. 5), pp. 3–5.</li><li>Misery, L. et al. (2017). Acta Dermato-Venereologica, 97, pp. 4–6.</li><li>Mourelle, M.L., Segura de Yebra, J., Ayats, J., Vitale, M. and López Sánchez, A. (2024) ‘Potential benefits of a cosmetic ingredient combining thermal spring water and diatom algae extract’, <em>Cosmetics</em>, 11(2), p. 62. doi:10.3390/cosmetics11020062.</li><li>Vitale M et al. Controlled comparison evaluation of the soothing effect of 3 cosmetic products on skin discomfort induced by an irritant chemical agent (capsaicin). <em>J Cosmet Dermatol.&nbsp;</em>2024;23:4057–4065.</li><li>Vitale, M.; Truchuelo, M.T.; Nobile, V.; Gómez-Sánchez, M.J. Clinical Tolerability and Efficacy Establishment of a New Cosmetic Treatment Regimen Intended for Sensitive Skin. Appl. Sci. 2024, 14, 6252. https://doi.org/10.3390/​<br/>app14146252​&nbsp;<br/></li></ol>",
             "page": ""
           }
         }
