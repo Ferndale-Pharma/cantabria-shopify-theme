@@ -480,10 +480,10 @@
       "name": "Multicolumn HTML",
       "settings": {
         "anchor_id": "",
-        "title": "Effective skincare regime for sensitive & reactive skin",
+        "title": "Targeted and effective skincare regime for sensitive & reactive skin",
         "heading_size": "h2",
         "richtext": "",
-        "narrow_text": true,
+        "narrow_text": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
