@@ -506,20 +506,90 @@
           "type": "faq",
           "settings": {
             "title": "Why does sensitive skin become red?",
-            "answer": "<p>Add your answer content here.</p>"
+            "answer": "<p>Visible redness can accompany sensitive skin and may develop when the skin reacts to environmental, physical or cosmetic triggers. Sensitive skin is also associated with altered neurosensory and inflammatory responses, although the mechanisms involved are complex and vary between individuals.²</p><p>Not everyone with sensitive skin experiences visible redness, and redness can have many different causes.</p>"
+          }
+        },
+        "faq_kEUHUQ": {
+          "type": "faq",
+          "settings": {
+            "title": "What can trigger sensitive & reactive skin?",
+            "answer": "<p>Triggers vary from person to person but may include temperature changes, cold weather, heat, wind, UV exposure, pollution, stress and certain cosmetic products.²</p><p>Understanding your individual triggers and maintaining a consistent, well-tolerated skincare routine can help minimise unnecessary skin reactivity.</p>"
+          }
+        },
+        "faq_zLgkFq": {
+          "type": "faq",
+          "settings": {
+            "title": "How should I build a routine for sensitive & reactive skin?",
+            "answer": "<p>Keep the routine simple and consistent. Begin with a gentle cleanser, followed by targeted soothing care and a moisturiser that supports the skin barrier. During the day, finish with broad-spectrum photoprotection.</p><p>Introducing new products gradually can also make it easier to understand how your skin responds.</p>"
+          }
+        },
+        "faq_BDqTCr": {
+          "type": "faq",
+          "settings": {
+            "title": "Is redness-prone skin the same as rosacea?",
+            "answer": "<p>No. Redness-prone skin is a descriptive skin concern and does not necessarily mean that you have rosacea. Persistent facial redness can have several causes, including recognised dermatological conditions.</p><p>If redness is persistent, worsening, uncomfortable or associated with other symptoms seek advice from a GP, dermatologist or qualified healthcare professional for an appropriate assessment.</p>"
+          }
+        },
+        "faq_bU4mEp": {
+          "type": "faq",
+          "settings": {
+            "title": "Is SPF important for sensitive & reactive skin?",
+            "answer": "<p>Yes. UV radiation can act as an environmental stressor, so daily broad-spectrum photoprotection is an important part of a comprehensive skincare routine for sensitive and reactive skin.</p><p>Choose a sunscreen suitable for your skin type and apply it as the final step of your morning skincare routine.</p>"
           }
         }
       },
       "block_order": [
-        "faq_rfpXGk"
+        "faq_rfpXGk",
+        "faq_kEUHUQ",
+        "faq_zLgkFq",
+        "faq_BDqTCr",
+        "faq_bU4mEp"
       ],
       "name": "Simple FAQs",
       "settings": {
-        "title": "",
+        "title": "FAQs",
         "color_scheme": "",
         "container_color_scheme": "",
         "padding_top": 64,
         "padding_bottom": 64
+      }
+    },
+    "rich_text_zLcDnN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wr7aKd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Are you looking to stock Cantabria Labs?",
+            "heading_size": "h2"
+          }
+        },
+        "button_ePgqDG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Become a stockist",
+            "button_link": "shopify://pages/become-a-stockist",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wr7aKd",
+        "button_ePgqDG"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
       }
     },
     "collapsible_content_FC44YP": {
@@ -567,6 +637,7 @@
     "cl_featured_collection_hPqdxi",
     "multicolumn_html_7Qpqw6",
     "cl_faqs_z7BwMQ",
+    "rich_text_zLcDnN",
     "collapsible_content_FC44YP"
   ]
 }
