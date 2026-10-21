@@ -296,7 +296,7 @@
         "text_xPfF6L": {
           "type": "text",
           "settings": {
-            "text": "<p>Inspired by the science of the hydrobiome, AQUAMMUNIST® combines <strong>mineral-rich Solía Thermal Spring Water</strong> from Cantabria with <strong>encapsulated <em>Phaeodactylum tricornutum</em> microalgae extract</strong> to help calm skin reactivity and support the skin’s natural defences.</p>\n<p>Laboratory research has demonstrated the potential of AQUAMMUNIST® to <b>help protect skin cells against factors associated with sensitivity and reactivity</b>.<sup>3</sup></p>\n<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"></p>\n<p>Clinical research on SKIN RESIST formulations combining AQUAMMUNIST®, cherimoya extract and niacinamide <b>demonstrated significant reductions in itching and burning sensations following exposure to external triggers, alongside improvements in skin sensitivity and resistance</b>.<sup>4</sup></p>",
+            "text": "<p>Inspired by the science of the hydrobiome, AQUAMMUNIST® combines <strong>mineral-rich Solía Thermal Spring Water</strong> from Cantabria with <strong>encapsulated <em>Phaeodactylum tricornutum</em> microalgae extract</strong> to help calm skin reactivity and support the skin’s natural defences.</p>\n<p>Laboratory research has demonstrated the potential of AQUAMMUNIST® to <b>help protect skin cells against factors associated with sensitivity and reactivity</b>.<sup>4</sup></p>\n<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"></p>\n<p>Clinical research on SKIN RESIST formulations combining AQUAMMUNIST®, cherimoya extract and niacinamide <b>demonstrated significant reductions in itching and burning sensations following exposure to external triggers, alongside improvements in skin sensitivity and resistance</b>.<sup>5</sup></p>",
             "text_style": "body"
           }
         }
@@ -326,6 +326,133 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "multicolumn_yDA3km": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_ym4tqM": {
+          "type": "column",
+          "settings": {
+            "title": "Cleanse",
+            "text": "<p>Start with a mild, gentle cleanser.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tDbEjK": {
+          "type": "column",
+          "settings": {
+            "title": "Soothe",
+            "text": "<p>Follow with targeted soothing care.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yjwYaB": {
+          "type": "column",
+          "settings": {
+            "title": "Moisturise",
+            "text": "<p>Maintain hydration with a moisturiser that supports the skin barrier.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GWVgej": {
+          "type": "column",
+          "settings": {
+            "title": "Protect",
+            "text": "<p>Every morning, finish with daily broad-spectrum photoprotection.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_ym4tqM",
+        "column_tDbEjK",
+        "column_yjwYaB",
+        "column_GWVgej"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Your routine in 4 simple steps",
+        "heading_size": "h2",
+        "richtext": "<p>Keep your routine simple, gentle and consistent, and support your skin barrier with well-tolerated formulations.²</p>",
+        "narrow_text": true,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "cl_featured_collection_hPqdxi": {
+      "type": "cl-featured-collection",
+      "settings": {
+        "title": "&nbsp;Find the right products for sensitive, reactive and redness-prone skin",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sensitive-skin",
+        "products_to_show": 16,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 32,
+        "padding_bottom": 64
+      }
+    },
+    "collapsible_content_FC44YP": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_X3BLPa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "References",
+            "icon": "question_mark",
+            "row_content": "<ol><li>Misery, L., Ständer, S., Szepietowski, J.C., Reich, A., Wallengren, J., Evers,<br/>A.W.M., Takamori, K., Brenaut, E., Gall-Ianotto, C., Fluhr, J.W. et al. (2017)<br/>‘Definition of sensitive skin: An expert position paper from the Special Interest<br/>Group on Sensitive Skin of the International Forum for the Study of Itch’, Acta<br/>Dermato-Venereologica, 97, pp. 4–6.</li><li>Misery, L., Weisshaar, E., Brenaut, E., Evers, A.W.M., Huet, F., Ständer, S., Reich,<br/>A., Berardesca, E., Serra-Baldrich, E., Wallengren, J. et al. (2020)<br/>‘Pathophysiology and management of sensitive skin: Position paper from the<br/>Special Interest Group on Sensitive Skin of the International Forum for the Study<br/>of Itch (IFSI)’, Journal of the European Academy of Dermatology and Venereology,<br/>34, pp. 222–229. doi:10.1111/jdv.16000.</li><li>Fluhr, J.W., Moore, D.J., Lane, M.E., Lachmann, N. and Rawlings, A.V. (2024)<br/>‘Epidermal barrier function in dry, flaky and sensitive skin: A narrative review’,<br/>Journal of the European Academy of Dermatology and Venereology, 38(5), pp.<br/>812–820. doi:10.1111/jdv.19745.</li><li>Mourelle, M.L., Segura de Yebra, J., Ayats, J., Vitale, M. and López Sánchez, A. (2024) ‘Potential benefits of a cosmetic ingredient combining thermal spring water and diatom algae extract’, <em>Cosmetics</em>, 11(2), p. 62. doi:10.3390/cosmetics11020062.</li><li>Vitale M et al. Controlled comparison evaluation of the soothing effect of 3 cosmetic products on skin discomfort induced by an irritant chemical agent (capsaicin). <em>J Cosmet Dermatol.&nbsp;</em>2024;23:4057–4065.</li></ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_X3BLPa"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -335,6 +462,9 @@
     "image_with_text_html_LnPKVG",
     "multicolumn_accordion_pjdjm4",
     "image_with_text_html_PkTVyN",
-    "image_with_text_html_LdULy3"
+    "image_with_text_html_LdULy3",
+    "multicolumn_yDA3km",
+    "cl_featured_collection_hPqdxi",
+    "collapsible_content_FC44YP"
   ]
 }
