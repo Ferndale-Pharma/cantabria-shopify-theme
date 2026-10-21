@@ -373,6 +373,7 @@
         "column_yjwYaB",
         "column_GWVgej"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "Your routine in 4 simple steps",
@@ -396,6 +397,7 @@
     },
     "cl_featured_collection_hPqdxi": {
       "type": "cl-featured-collection",
+      "disabled": true,
       "settings": {
         "title": "&nbsp;Find the right products for sensitive, reactive and redness-prone skin",
         "heading_size": "h2",
@@ -419,6 +421,81 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 32,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_html_7Qpqw6": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_gKaKHW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ProductOnly-ProductImages-SkinResist-VelvetCleanser-1100x1530.jpg",
+            "title": "",
+            "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 1 | Cleanse · AM &amp; PM</strong></p>\n<h3>SKIN RESIST Velvet Cleanser</h3>\n<p>Gently removes impurities while respecting the skin barrier, helping prepare sensitive-reactive skin for targeted treatment and moisturising care.</p>",
+            "link_label": "View product",
+            "link": "shopify://products/skin-resist-velvet-cleanser"
+          }
+        },
+        "column_gQpGA7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ProductOnly-ProductImages-SkinResist-SensageSerum-1100x1530.jpg",
+            "title": "",
+            "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 2 | Treat · PM</strong></p>\n<h3>SKIN RESIST Sensage Serum</h3>\n<p>A targeted night-time serum designed to soothe sensitive and reactive skin, support barrier repair and help improve visible signs of ageing.</p>",
+            "link_label": "View product",
+            "link": "shopify://products/skin-resist-sensage-serum"
+          }
+        },
+        "column_tbmpi9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ProductOnly-ProductImages-SkinResist-DailyFluid-1100x1530_1.jpg",
+            "title": "",
+            "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 3 | Care · AM</strong></p>\n<h3>SKIN RESIST Daily Fluid</h3>\n<p>A lightweight daily moisturiser that helps soothe discomfort, calm visible redness and reinforce the skin barrier for improved skin comfort and resilience.</p>",
+            "link_label": "View product",
+            "link": "shopify://products/skin-resist-daily-fluid"
+          }
+        },
+        "column_hgYngJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-A-REmulsion.jpg",
+            "title": "",
+            "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 4 | Protect · AM</strong></p>\n<h3>HELIOCARE 360° A-R Emulsion</h3>\n<p>A lightweight, tinted SPF 50 fluid that provides broad-spectrum sun protection while helping soothe visible redness, support the skin barrier and even skin tone.</p>",
+            "link_label": "View product",
+            "link": "shopify://products/skin-resist-daily-fluid"
+          }
+        }
+      },
+      "block_order": [
+        "column_gKaKHW",
+        "column_gQpGA7",
+        "column_tbmpi9",
+        "column_hgYngJ"
+      ],
+      "custom_css": [
+        "h3 {font-weight: 700; margin-top: 1rem; margin-bottom: 1rem;}"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "anchor_id": "",
+        "title": "Effective skincare regime for sensitive & reactive skin",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": true,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "column_link_style": "button",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
         "padding_bottom": 64
       }
     },
@@ -465,6 +542,7 @@
     "image_with_text_html_LdULy3",
     "multicolumn_yDA3km",
     "cl_featured_collection_hPqdxi",
+    "multicolumn_html_7Qpqw6",
     "collapsible_content_FC44YP"
   ]
 }
