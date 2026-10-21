@@ -34,7 +34,7 @@
     [data-faq-simple-accordion] summary:focus-visible {
         background-color: rgba(var(--color-foreground), .04);
     }
-    .h4.accordion__title {
+    .h4.accordion__title.faq__title {
         font-size: 18px;
     }
 {%- endstyle -%}
@@ -59,7 +59,7 @@
                 >
                 {% render 'icon-accordion', icon: 'question_mark' %}
 
-                <h3 class="accordion__title inline-richtext h4">
+                <h3 class="accordion__title faq__title inline-richtext h4">
                     {{ block.settings.title | escape }}
                 </h3>
 

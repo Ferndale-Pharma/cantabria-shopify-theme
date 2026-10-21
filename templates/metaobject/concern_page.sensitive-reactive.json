@@ -499,6 +499,29 @@
         "padding_bottom": 64
       }
     },
+    "cl_faqs_z7BwMQ": {
+      "type": "cl-faqs",
+      "blocks": {
+        "faq_rfpXGk": {
+          "type": "faq",
+          "settings": {
+            "title": "Why does sensitive skin become red?",
+            "answer": "<p>Add your answer content here.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_rfpXGk"
+      ],
+      "name": "Simple FAQs",
+      "settings": {
+        "title": "",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "collapsible_content_FC44YP": {
       "type": "collapsible-content",
       "blocks": {
@@ -543,6 +566,7 @@
     "multicolumn_yDA3km",
     "cl_featured_collection_hPqdxi",
     "multicolumn_html_7Qpqw6",
+    "cl_faqs_z7BwMQ",
     "collapsible_content_FC44YP"
   ]
 }
