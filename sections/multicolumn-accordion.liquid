@@ -17,8 +17,21 @@
 <style>
   .mc-acc .multicolumn-list__item { display: flex; }
   .mc-acc .multicolumn-card { display: flex; flex-direction: column; width: 100%; height: 100%; }
-  .mc-acc .multicolumn-card__info { display: flex; flex-direction: column; gap: 1.2rem; flex-grow: 1; padding-left:8px!important; padding-right:8px!important;}
-  .mc-acc .multicolumn-card__info > * { margin: 0; }
+  /* One padding value for the whole card body, so heading, text, toggle and link share the same edge */
+  .mc-acc .multicolumn-card__info {
+    display: flex; flex-direction: column; gap: 1.2rem; flex-grow: 1;
+    padding: 2.8rem 2.4rem;
+  }
+  @media screen and (min-width: 750px) {
+    .mc-acc .multicolumn-card__info { padding: 4rem; }
+  }
+  .mc-acc.background-none .multicolumn-card__info { padding-left: 0; padding-right: 0; }
+  /* Strip any inherited or pasted spacing from the children (lists keep their bullet indent) */
+  .mc-acc .multicolumn-card__info > *,
+  .mc-acc .multicolumn-card__info .rte { margin: 0; padding-left: 0; padding-right: 0; text-indent: 0; }
+  .mc-acc .multicolumn-card__info .rte > :not(ul):not(ol) { margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; text-indent: 0; }
+  .mc-acc .multicolumn-card__info .rte > * { margin-top: 0; margin-bottom: 0; }
+  .mc-acc .multicolumn-card__info .rte > * + * { margin-top: 1.2rem; }
   .mc-acc .rte sup { font-size: 0.6em; line-height: 0; vertical-align: super; }
   .mc-acc .rte sup a { text-decoration: none; font-weight: 700; }
   .mc-acc__toggle {
