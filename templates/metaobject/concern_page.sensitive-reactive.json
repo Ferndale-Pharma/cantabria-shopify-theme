@@ -235,6 +235,45 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_html_PkTVyN": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_wBmNzi": {
+          "type": "heading",
+          "settings": {
+            "heading": "The skin barrier and reactivity",
+            "heading_size": "h2"
+          }
+        },
+        "text_EUT67t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The outermost layer of the skin, the stratum corneum, forms an important protective barrier. It helps retain water while limiting exposure to potentially irritating external substances.<sup>3</sup></p>\n<p>In sensitive skin, barrier abnormalities are frequently reported, although barrier impairment is not considered the only cause of sensitivity.<sup>2,3</sup> Neurosensory signalling and inflammatory pathways may also contribute to sensations such as burning, stinging and discomfort.<sup>2</sup></p>\n<p>For this reason, an effective skincare approach for sensitive and reactive skin should go <b>beyond simply providing moisture, helping to support the skin barrier, calm discomfort and improve skin resilience.</b></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wBmNzi",
+        "text_EUT67t"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "anchor_id": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -242,6 +281,7 @@
     "custom_liquid_PJ88Yb",
     "multicolumn_qcFNdc",
     "image_with_text_html_LnPKVG",
-    "multicolumn_accordion_pjdjm4"
+    "multicolumn_accordion_pjdjm4",
+    "image_with_text_html_PkTVyN"
   ]
 }
