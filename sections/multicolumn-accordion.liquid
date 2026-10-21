@@ -1,3 +1,10 @@
+{%- comment -%}
+  Multicolumn with accordion – custom section for Dawn 15.0
+  Based on Dawn's Multicolumn. Each column has a visible text and an optional
+  hidden text revealed by a Read more / Read less button.
+  Save as: sections/multicolumn-accordion.liquid
+{%- endcomment -%}
+
 {{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 
@@ -15,36 +22,24 @@
 {%- endstyle -%}
 
 <style>
-  .mc-acc .multicolumn-list__item { display: flex; }
-  .mc-acc .multicolumn-card { display: flex; flex-direction: column; width: 100%; height: 100%; }
-  /* One padding value for the whole card body, so heading, text, toggle and link share the same edge */
-  .mc-acc .multicolumn-card__info {
-    display: flex; flex-direction: column; gap: 1.2rem; flex-grow: 1;
-    padding: 16px!important;
-  }
-  @media screen and (min-width: 750px) {
-    .mc-acc .multicolumn-card__info { padding: 8px!important; }
-  }
-  .mc-acc.background-none .multicolumn-card__info { padding-left: 0; padding-right: 0; }
-  /* Strip any inherited or pasted spacing from the children (lists keep their bullet indent) */
-  .mc-acc .multicolumn-card__info > *,
-  .mc-acc .multicolumn-card__info .rte { margin: 0; padding-left: 0; padding-right: 0; text-indent: 0; }
-  .mc-acc .multicolumn-card__info .rte > :not(ul):not(ol) { margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; text-indent: 0; }
-  .mc-acc .multicolumn-card__info .rte > * { margin-top: 0; margin-bottom: 0; }
-  .mc-acc .multicolumn-card__info .rte > * + * { margin-top: 1.2rem; }
+  /* Spacing and padding come from Dawn's section-multicolumn.css, exactly as the stock Multicolumn:
+     .multicolumn-card__info padding 2.5rem, 1rem above the text, 1.5rem above the link.
+     The rules below only add the accordion and keep the toggle at the bottom of equal-height cards. */
+  .mc-acc .multicolumn-card { display: flex; flex-direction: column; height: 100%; }
+  .mc-acc .multicolumn-card__info { display: flex; flex-direction: column; flex-grow: 1; }
+  .mc-acc .multicolumn-card__info > .rte + .rte { margin-top: 1rem; }
   .mc-acc .rte sup { font-size: 0.6em; line-height: 0; vertical-align: super; }
   .mc-acc .rte sup a { text-decoration: none; font-weight: 700; }
   .mc-acc__toggle {
     display: inline-flex; align-items: center; gap: 0.8rem; align-self: flex-start;
-    margin-top: auto; padding: 0; min-height: 4.4rem; background: none; border: 0; cursor: pointer;
-    font-family: inherit; font-size: 1.5rem; font-weight: 700; letter-spacing: 0.1rem;
+    margin-top: auto; padding: 1rem 0 0; min-height: 4.4rem; background: none; border: 0; cursor: pointer;
+    font-family: inherit; font-size: inherit; font-weight: 700; letter-spacing: 0.1rem;
     color: rgb(var(--color-link));
   }
   .mc-acc .center .mc-acc__toggle { align-self: center; }
   .mc-acc__toggle .svg-wrapper { width: 1rem; height: 1rem; transition: transform 0.2s ease; }
   .mc-acc__toggle[aria-expanded='true'] .svg-wrapper { transform: rotate(180deg); }
   .mc-acc__toggle:focus-visible { outline: 0.2rem solid rgba(var(--color-foreground), 0.5); outline-offset: 0.3rem; }
-  .mc-acc .multicolumn-card__info .link { margin-top: 0; }
 </style>
 
 {%- liquid
