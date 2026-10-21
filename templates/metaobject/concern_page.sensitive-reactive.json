@@ -179,9 +179,9 @@
         "column_UAACN9": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "",
-            "hidden_text": "",
+            "title": "Who is affected by sensitive & reactive skin?",
+            "text": "<p>Skin sensitivity can affect different skin types and may vary considerably from person to person. Some people experience occasional sensitivity following exposure to a particular trigger, while others find their skin is persistently reactive.</p>",
+            "hidden_text": "<p>Signs can include tightness, stinging, burning, itching or discomfort, with or without visible redness.<sup>1</sup> Sensitivity may also fluctuate over time depending on environmental exposure, skincare routines and individual skin condition.</p>",
             "link_label": "",
             "link": ""
           }
@@ -189,9 +189,9 @@
         "column_qLNh4d": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "",
-            "hidden_text": "",
+            "title": "What causes skin sensitivity and reactivity?",
+            "text": "<p>Sensitive skin is complex and can be influenced by several interacting factors. Changes to the skin barrier may make skin less effective at retaining water and protecting itself from external stressors, while altered neurosensory responses can make normally well-tolerated stimuli feel uncomfortable.<sup>2,3</sup></p>",
+            "hidden_text": "<p>Common triggers can include changes in temperature, wind, UV exposure, pollution, stress and certain cosmetic products or ingredients.<sup>2</sup> Identifying and minimising individual triggers can therefore be an important part of caring for reactive skin.</p>",
             "link_label": "",
             "link": ""
           }
