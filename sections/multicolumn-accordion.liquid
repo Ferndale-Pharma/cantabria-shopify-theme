@@ -30,37 +30,37 @@
   .mc-acc.background-none .multicolumn-card { border-radius: 0; }
 
   /* Inner padding: 2.5rem on every side (as .multicolumn-card__info) */
-  .mc-acc .multicolumn-card__info { display: flex; flex-direction: column; flex-grow: 1; padding: 2.5rem!important; }
-  .mc-acc.background-none .multicolumn-card__info { padding-top: 0!important; padding-left: 0!important; padding-right: 0!important; }
-  .mc-acc.background-none .multicolumn-card__image-wrapper + .multicolumn-card__info { padding-top: 2.5rem!important; }
-  .mc-acc.background-none .slider .multicolumn-card__info { padding-left: 0.5rem!important; padding-bottom: 0!important; }
-  .mc-acc.background-none .slider .multicolumn-card__image-wrapper + .multicolumn-card__info { padding-left: 1.5rem!important; }
-  .mc-acc.background-none .multicolumn-list:not(.slider) .center .multicolumn-card__info { padding-left: 2.5rem!important; padding-right: 2.5rem!important; }
+  .mc-acc .multicolumn-card__info { display: flex !important; flex-direction: column; flex-grow: 1; padding: 2.5rem !important; }
+  .mc-acc.background-none .multicolumn-card__info { padding-top: 0 !important; padding-left: 0 !important; padding-right: 0 !important; }
+  .mc-acc.background-none .multicolumn-card__image-wrapper + .multicolumn-card__info { padding-top: 2.5rem !important; }
+  .mc-acc.background-none .slider .multicolumn-card__info { padding-left: 0.5rem !important; padding-bottom: 0 !important; }
+  .mc-acc.background-none .slider .multicolumn-card__image-wrapper + .multicolumn-card__info { padding-left: 1.5rem !important; }
+  .mc-acc.background-none .multicolumn-list:not(.slider) .center .multicolumn-card__info { padding-left: 2.5rem !important; padding-right: 2.5rem !important; }
   @media screen and (max-width: 749px) {
-    .mc-acc.background-none .slider .multicolumn-card__info { padding-bottom: 1rem!important; }
+    .mc-acc.background-none .slider .multicolumn-card__info { padding-bottom: 1rem !important; }
   }
   @media screen and (min-width: 750px) {
     .mc-acc.background-none .multicolumn-list .multicolumn-card__info,
-    .mc-acc.background-none .multicolumn-list:not(.slider) .center .multicolumn-card__info { padding-left: 1.5rem!important; padding-right: 1.5rem!important; }
+    .mc-acc.background-none .multicolumn-list:not(.slider) .center .multicolumn-card__info { padding-left: 1.5rem !important; padding-right: 1.5rem !important; }
   }
 
   /* Image spacing (as .multicolumn-card-spacing) */
-  .mc-acc .multicolumn-card-spacing { padding-top: 2.5rem!important; margin-left: 2.5rem!important; margin-right: 2.5rem!important; }
-  .mc-acc.background-none .multicolumn-card-spacing { padding: 0!important; margin: 0!important; }
+  .mc-acc .multicolumn-card-spacing { padding-top: 2.5rem !important; margin-left: 2.5rem !important; margin-right: 2.5rem !important; }
+  .mc-acc.background-none .multicolumn-card-spacing { padding: 0 !important; margin: 0 !important; }
 
   /* Text: no margin or padding from .rte or pasted HTML – everything sits on the card's 2.5rem edge */
   .mc-acc .multicolumn-card__info h3,
   .mc-acc .multicolumn-card__info p,
-  .mc-acc .multicolumn-card__info .rte { margin: 0!important; padding: 0!important; }
+  .mc-acc .multicolumn-card__info .rte { margin: 0 !important; padding: 0 !important; }
   .mc-acc .multicolumn-card__info h3 { line-height: calc(1 + 0.5 / max(1, var(--font-heading-scale))); }
-  .mc-acc .multicolumn-card__info .rte > * + * { margin-top: 1rem!important; }
+  .mc-acc .multicolumn-card__info .rte > * + * { margin-top: 1rem !important; }
 
   /* Vertical rhythm: 1rem after the heading (as :nth-child(2)), 1rem before the hidden text,
      1.5rem before the link (as .multicolumn-card__info .link) */
-  .mc-acc .multicolumn-card__info > :nth-child(2) { margin-top: 1rem!important; }
-  .mc-acc .multicolumn-card__info > .rte + .rte { margin-top: 1rem!important; }
-  .mc-acc .multicolumn-card__info .link { text-decoration: none; font-size: inherit; margin-top: 1.5rem!important; }
-  .mc-acc .multicolumn-card__info .icon-wrap { margin-left: 0.8rem!important; white-space: nowrap; }
+  .mc-acc .multicolumn-card__info > :nth-child(2) { margin-top: 1rem !important; }
+  .mc-acc .multicolumn-card__info > .rte + .rte { margin-top: 1rem !important; }
+  .mc-acc .multicolumn-card__info .link { text-decoration: none; font-size: inherit; margin-top: 1.5rem !important; }
+  .mc-acc .multicolumn-card__info .icon-wrap { margin-left: 0.8rem !important; white-space: nowrap; }
 
   /* References */
   .mc-acc .rte sup { font-size: 0.6em; line-height: 0; vertical-align: super; }
@@ -69,13 +69,13 @@
   /* Read more / Read less toggle */
   .mc-acc .mc-acc__toggle {
     display: inline-flex; align-items: center; gap: 0.8rem; align-self: flex-start;
-    margin: auto 0 0!important; padding: 1.5rem 0 0!important; min-height: 4.4rem; background: none; border: 0; cursor: pointer;
+    margin: auto 0 0 !important; padding: 1.5rem 0 0 !important; min-height: 4.4rem; background: none; border: 0; cursor: pointer;
     font-family: inherit; font-size: inherit; font-weight: 700; letter-spacing: 0.1rem;
     color: rgb(var(--color-link));
   }
   .mc-acc .center .mc-acc__toggle { align-self: center; }
-  .mc-acc .mc-acc__toggle .svg-wrapper { width: 1rem; height: 1rem; transition: transform 0.2s ease; }
-  .mc-acc .mc-acc__toggle[aria-expanded='true'] .svg-wrapper { transform: rotate(180deg); }
+  .mc-acc .mc-acc__toggle .icon-caret { width: 1rem; height: 0.6rem; flex-shrink: 0; transition: transform 0.2s ease; }
+  .mc-acc .mc-acc__toggle[aria-expanded='true'] .icon-caret { transform: rotate(180deg); }
   .mc-acc .mc-acc__toggle:focus-visible { outline: 0.2rem solid rgba(var(--color-foreground), 0.5); outline-offset: 0.3rem; }
 </style>
 
@@ -175,7 +175,7 @@
                     data-less="{{ section.settings.read_less_label | escape }}"
                   >
                     <span class="mc-acc__label">{{ section.settings.read_more_label | escape }}</span>
-                    <span class="svg-wrapper" aria-hidden="true">{{- 'icon-caret.svg' | inline_asset_content -}}</span>
+                    {%- render 'icon-caret' -%}
                   </button>
                 {%- endif -%}
 
@@ -189,7 +189,7 @@
                     {% endif %}
                   >
                     {{- block.settings.link_label | escape -}}
-                    <span class="svg-wrapper"><span class="icon-wrap">&nbsp;{{ 'icon-arrow.svg' | inline_asset_content }}</span></span>
+                    <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>
                   </a>
                 {%- endif -%}
               </div>
@@ -199,9 +199,9 @@
       </ul>
 
       {%- if show_mobile_slider -%}
-        <div class="slider-buttons large-up-hide medium-hide">
+        <div class="slider-buttons no-js-hidden medium-hide large-up-hide">
           <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}">
-            <span class="svg-wrapper">{{- 'icon-caret.svg' | inline_asset_content -}}</span>
+            {%- render 'icon-caret' -%}
           </button>
           <div class="slider-counter caption">
             <span class="slider-counter--current">1</span>
@@ -210,7 +210,7 @@
             <span class="slider-counter--total">{{ section.blocks.size }}</span>
           </div>
           <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}">
-            <span class="svg-wrapper">{{- 'icon-caret.svg' | inline_asset_content -}}</span>
+            {%- render 'icon-caret' -%}
           </button>
         </div>
       {%- endif -%}
