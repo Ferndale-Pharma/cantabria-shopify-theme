@@ -1,10 +1,3 @@
-{%- comment -%}
-  Multicolumn with accordion – custom section for Dawn 15.0
-  Based on Dawn's Multicolumn. Each column has a visible text and an optional
-  hidden text revealed by a Read more / Read less button.
-  Save as: sections/multicolumn-accordion.liquid
-{%- endcomment -%}
-
 {{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 
@@ -22,24 +15,68 @@
 {%- endstyle -%}
 
 <style>
-  /* Spacing and padding come from Dawn's section-multicolumn.css, exactly as the stock Multicolumn:
-     .multicolumn-card__info padding 2.5rem, 1rem above the text, 1.5rem above the link.
-     The rules below only add the accordion and keep the toggle at the bottom of equal-height cards. */
-  .mc-acc .multicolumn-card { display: flex; flex-direction: column; height: 100%; }
-  .mc-acc .multicolumn-card__info { display: flex; flex-direction: column; flex-grow: 1; }
+  /* ------------------------------------------------------------------
+     Card spacing – same values as section-multicolumn.css, written here
+     and scoped to .mc-acc so this section always matches the stock
+     Multicolumn, whatever other theme CSS (e.g. .rte) loads.
+     ------------------------------------------------------------------ */
+
+  /* Card + equal heights (toggle pinned to the bottom) */
+  .mc-acc .multicolumn-card { position: relative; box-sizing: border-box; display: flex; flex-direction: column; height: 100%; }
+  .mc-acc:not(.background-none) .multicolumn-card { background: rgb(var(--color-background)); }
+  .mc-acc.background-primary .multicolumn-card {
+    background: rgb(var(--color-background)) linear-gradient(rgba(var(--color-foreground), 0.04), rgba(var(--color-foreground), 0.04));
+  }
+  .mc-acc.background-none .multicolumn-card { border-radius: 0; }
+
+  /* Inner padding: 2.5rem on every side (as .multicolumn-card__info) */
+  .mc-acc .multicolumn-card__info { display: flex; flex-direction: column; flex-grow: 1; padding: 2.5rem; }
+  .mc-acc.background-none .multicolumn-card__info { padding-top: 0; padding-left: 0; padding-right: 0; }
+  .mc-acc.background-none .multicolumn-card__image-wrapper + .multicolumn-card__info { padding-top: 2.5rem; }
+  .mc-acc.background-none .slider .multicolumn-card__info { padding-left: 0.5rem; padding-bottom: 0; }
+  .mc-acc.background-none .slider .multicolumn-card__image-wrapper + .multicolumn-card__info { padding-left: 1.5rem; }
+  .mc-acc.background-none .multicolumn-list:not(.slider) .center .multicolumn-card__info { padding-left: 2.5rem; padding-right: 2.5rem; }
+  @media screen and (max-width: 749px) {
+    .mc-acc.background-none .slider .multicolumn-card__info { padding-bottom: 1rem; }
+  }
+  @media screen and (min-width: 750px) {
+    .mc-acc.background-none .multicolumn-list .multicolumn-card__info,
+    .mc-acc.background-none .multicolumn-list:not(.slider) .center .multicolumn-card__info { padding-left: 1.5rem; padding-right: 1.5rem; }
+  }
+
+  /* Image spacing (as .multicolumn-card-spacing) */
+  .mc-acc .multicolumn-card-spacing { padding-top: 2.5rem; margin-left: 2.5rem; margin-right: 2.5rem; }
+  .mc-acc.background-none .multicolumn-card-spacing { padding: 0; margin: 0; }
+
+  /* Text: no margin or padding from .rte or pasted HTML – everything sits on the card's 2.5rem edge */
+  .mc-acc .multicolumn-card__info h3,
+  .mc-acc .multicolumn-card__info p,
+  .mc-acc .multicolumn-card__info .rte { margin: 0; padding: 0; }
+  .mc-acc .multicolumn-card__info h3 { line-height: calc(1 + 0.5 / max(1, var(--font-heading-scale))); }
+  .mc-acc .multicolumn-card__info .rte > * + * { margin-top: 1rem; }
+
+  /* Vertical rhythm: 1rem after the heading (as :nth-child(2)), 1rem before the hidden text,
+     1.5rem before the link (as .multicolumn-card__info .link) */
+  .mc-acc .multicolumn-card__info > :nth-child(2) { margin-top: 1rem; }
   .mc-acc .multicolumn-card__info > .rte + .rte { margin-top: 1rem; }
+  .mc-acc .multicolumn-card__info .link { text-decoration: none; font-size: inherit; margin-top: 1.5rem; }
+  .mc-acc .multicolumn-card__info .icon-wrap { margin-left: 0.8rem; white-space: nowrap; }
+
+  /* References */
   .mc-acc .rte sup { font-size: 0.6em; line-height: 0; vertical-align: super; }
   .mc-acc .rte sup a { text-decoration: none; font-weight: 700; }
-  .mc-acc__toggle {
+
+  /* Read more / Read less toggle */
+  .mc-acc .mc-acc__toggle {
     display: inline-flex; align-items: center; gap: 0.8rem; align-self: flex-start;
-    margin-top: auto; padding: 1rem 0 0; min-height: 4.4rem; background: none; border: 0; cursor: pointer;
+    margin: auto 0 0; padding: 1.5rem 0 0; min-height: 4.4rem; background: none; border: 0; cursor: pointer;
     font-family: inherit; font-size: inherit; font-weight: 700; letter-spacing: 0.1rem;
     color: rgb(var(--color-link));
   }
   .mc-acc .center .mc-acc__toggle { align-self: center; }
-  .mc-acc__toggle .svg-wrapper { width: 1rem; height: 1rem; transition: transform 0.2s ease; }
-  .mc-acc__toggle[aria-expanded='true'] .svg-wrapper { transform: rotate(180deg); }
-  .mc-acc__toggle:focus-visible { outline: 0.2rem solid rgba(var(--color-foreground), 0.5); outline-offset: 0.3rem; }
+  .mc-acc .mc-acc__toggle .svg-wrapper { width: 1rem; height: 1rem; transition: transform 0.2s ease; }
+  .mc-acc .mc-acc__toggle[aria-expanded='true'] .svg-wrapper { transform: rotate(180deg); }
+  .mc-acc .mc-acc__toggle:focus-visible { outline: 0.2rem solid rgba(var(--color-foreground), 0.5); outline-offset: 0.3rem; }
 </style>
 
 {%- liquid
