@@ -21,8 +21,11 @@
      Multicolumn, whatever other theme CSS (e.g. .rte) loads.
      ------------------------------------------------------------------ */
 
-  /* Card + equal heights (toggle pinned to the bottom) */
-  .mc-acc .multicolumn-card { position: relative; box-sizing: border-box; display: flex; flex-direction: column; height: 100%; }
+  /* Card + equal heights. Cards don't stretch to the row: the script below gives every card the
+     height of the tallest *closed* card, so opening one column only grows that column. */
+  .mc-acc .multicolumn-list { align-items: flex-start !important; }
+  .mc-acc .multicolumn-list__item { align-self: flex-start !important; }
+  .mc-acc .multicolumn-card { position: relative; box-sizing: border-box; display: flex; flex-direction: column; height: auto !important; min-height: var(--mc-acc-card-height, 0); }
   .mc-acc:not(.background-none) .multicolumn-card { background: rgb(var(--color-background)); }
   .mc-acc.background-primary .multicolumn-card {
     background: rgb(var(--color-background)) linear-gradient(rgba(var(--color-foreground), 0.04), rgba(var(--color-foreground), 0.04));
@@ -237,6 +240,21 @@
   (function () {
     var root = document.getElementById('shopify-section-{{ section.id }}');
     if (!root) return;
+    var list = root.querySelector('.multicolumn-list');
+    var cards = root.querySelectorAll('.multicolumn-card');
+
+    // Give every card the height of the tallest card with its hidden text closed.
+    function equalise() {
+      if (!list) return;
+      var open = root.querySelectorAll('[id^="McAccPanel-"]:not([hidden])');
+      open.forEach(function (p) { p.hidden = true; });          // measure closed state
+      list.style.setProperty('--mc-acc-card-height', '0px');
+      var tallest = 0;
+      cards.forEach(function (c) { tallest = Math.max(tallest, c.offsetHeight); });
+      list.style.setProperty('--mc-acc-card-height', tallest + 'px');
+      open.forEach(function (p) { p.hidden = false; });          // restore open columns
+    }
+
     root.querySelectorAll('.mc-acc__toggle').forEach(function (btn) {
       btn.addEventListener('click', function () {
         var panel = document.getElementById(btn.getAttribute('aria-controls'));
@@ -246,6 +264,12 @@
         btn.querySelector('.mc-acc__label').textContent = open ? btn.dataset.more : btn.dataset.less;
       });
     });
+
+    var timer;
+    window.addEventListener('resize', function () { clearTimeout(timer); timer = setTimeout(equalise, 150); });
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(equalise);
+    root.querySelectorAll('img').forEach(function (img) { if (!img.complete) img.addEventListener('load', equalise); });
+    equalise();
   })();
 </script>
 
