@@ -23,7 +23,7 @@
             </label>
         </div>
     </div>
-    {% paginate shop.metaobjects.ingredients.values by 100 %}
+    {% paginate shop.metaobjects.ingredients.values by 250 %}
         <ul id="ingredientIndex" class="">
             {% for metaobject in shop.metaobjects.ingredients.values %}
                 <li class="ingredient__item">
