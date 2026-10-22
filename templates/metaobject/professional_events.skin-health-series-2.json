@@ -249,11 +249,11 @@
             "date": "<p>{{ metaobjects.professional_events[\"the-science-of-advanced-photoprotection-introducing-aspa-fernblock\"].multicolumn_1_body_text | metafield_tag }}</p>",
             "audience": "<p>{{ metaobjects.professional_events[\"the-science-of-advanced-photoprotection-introducing-aspa-fernblock\"].multicolumn_2_body_text | metafield_tag }}</p>",
             "cost": "<p>FREE</p>",
-            "details_label": "View details",
-            "details_link": "shopify://metaobjects/professional_events/the-science-of-advanced-photoprotection-introducing-aspa-fernblock",
+            "details_label": "",
+            "details_link": "",
             "details_new_tab": false,
-            "register_label": "Register now",
-            "register_link": "#register",
+            "register_label": "Watch on demand now",
+            "register_link": "shopify://metaobjects/professional_events/the-science-of-advanced-photoprotection-introducing-aspa-fernblock",
             "register_new_tab": false
           }
         },
