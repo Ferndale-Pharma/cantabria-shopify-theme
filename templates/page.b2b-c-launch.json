@@ -625,6 +625,56 @@
         "anchor_id": "register"
       }
     },
+    "rich_text_TepxE8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ckqrkL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover More Exciting Offers",
+            "heading_size": "h2"
+          }
+        },
+        "text_TKn3WG": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_9fJPEB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Black Friday & Festive Offers",
+            "button_link": "shopify://pages/clinic-christmas-offers",
+            "button_style_secondary": false,
+            "button_label_2": "Regime Bundle Offers",
+            "button_link_2": "shopify://pages/support-post-summer-skin-correction-in-your-clinic",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ckqrkL",
+        "text_TKn3WG",
+        "button_9fJPEB"
+      ],
+      "custom_css": [
+        "p {color: #fff;}",
+        ".button {color: #121212;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-fe2caf85-447f-433a-bc45-dfb94474e084",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
     "rich_text_GeR9M8": {
       "type": "rich-text",
       "blocks": {
@@ -720,6 +770,7 @@
     "range_cards_d4dm8q",
     "multicolumn_zfyt3b",
     "launch_packages_LQW6Hx",
+    "rich_text_TepxE8",
     "rich_text_GeR9M8",
     "179145289243460bae",
     "rich_text_QqW6jt"
