@@ -30,7 +30,7 @@
         "heading_6J9K8a": {
           "type": "heading",
           "settings": {
-            "heading": "Introducing the Cantabria Labs Dermocosmetics & Supplements Portfolio",
+            "heading": "One portfolio. More opportunities for your clinic.&nbsp;",
             "heading_size": "h1"
           }
         },
@@ -41,7 +41,7 @@
             "button_link_1": "#tell-me-more",
             "button_style_secondary_1": false,
             "button_label_2": "Explore the portfolio",
-            "button_link_2": "#portfolio",
+            "button_link_2": "#categories",
             "button_style_secondary_2": true
           }
         }
@@ -77,7 +77,7 @@
         "text_4jndym": {
           "type": "text",
           "settings": {
-            "text": "<p>We’re bringing together the entire Cantabria Labs professional dermocosmetic portfolio under a clear, category-led structure, making it easier for clinics like yours to identify and recommend appropriate solutions for different patient needs.</p><p>Developed through scientific innovation and clinical research, the portfolio provides evidence-based solutions across a broad range of skin, hair and scalp concerns, enhancing skin health and wellbeing with prescriptive medical-grade and dermatological skincare and supplements.</p>"
+            "text": "<p><strong>Explore our science-led portfolio of dermocosmetics and supplements, combining advanced full-spectrum photoprotection with specialist dermatological skincare and clinic-exclusive ALLSKIN | MED.&nbsp;</strong><br/><br/>Developed through dermatological research, clinical expertise and innovative technologies, our brands support tailored professional skincare regimes, with a choice of formulations, active ingredient strengths and price points to meet different patient and client needs and treatment objectives.</p>"
           }
         }
       },
@@ -166,6 +166,7 @@
         "heading_ChHyPN",
         "text_HyAfFj"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -188,7 +189,7 @@
             "title": "Photoprotection",
             "tags": "HELIOCARE",
             "tags_link": "",
-            "text": "<p>For all skin types and concerns as an essential part of daily skin health, helping protect against UV-induced skin damage and photoageing while supporting the prevention and management of photosensitive skin conditions, including photodermatoses.</p>",
+            "text": "<p>Daily photoprotection helps protect skin against UV-induced damage and premature ageing, while supporting the management of pigmentation and other skin concerns as part of professional skincare regimes and treatment pathways.</p>",
             "link_label": "View more",
             "link": ""
           }
@@ -200,7 +201,7 @@
             "title": "Anti-Ageing",
             "tags": "ALLSKIN | MED, ENDOCARE",
             "tags_link": "",
-            "text": "<p>Solutions for different stages of skin ageing, supporting concerns including fine lines, wrinkles, rough texture, enlarged pores, dullness, barrier health and advanced skin renewal.</p>",
+            "text": "<p>Targeted skincare for different stages of skin ageing, addressing fine lines, wrinkles, uneven texture, enlarged pores and dullness. Professional regimes support skin barrier health, renewal and a smoother, brighter complexion.</p>",
             "link_label": "View more",
             "link": ""
           }
@@ -212,7 +213,7 @@
             "title": "Pigmentation",
             "tags": "ALLSKIN | MED, NEORETIN",
             "tags_link": "",
-            "text": "<p>Solutions for uneven skin tone and pigmentation concerns including dark spots, hyperpigmentation and post-inflammatory hyperpigmentation, alongside the ongoing management of melasma.</p>",
+            "text": "<p>Evidence-led skincare for uneven skin tone, dark spots and hyperpigmentation, including post-inflammatory pigmentation. Tailored professional regimes support ongoing management of pigmentation concerns, including melasma.</p>",
             "link_label": "View more",
             "link": ""
           }
@@ -224,7 +225,7 @@
             "title": "Sensitive & Reactive Skin",
             "tags": "ALLSKIN | MED, SKIN RESIST",
             "tags_link": "",
-            "text": "<p>Solutions for reactive and sensitive skin presenting with persistent redness, sensitivity, irritation or impaired barrier function, including sensitive and rosacea-prone skin.</p>",
+            "text": "<p>Specialist skincare for sensitive, reactive and redness-prone skin, addressing discomfort, irritation and weakened barrier function. Tailored regimes help soothe skin, strengthen the skin barrier and support skin resilience.</p>",
             "link_label": "View more",
             "link": ""
           }
@@ -236,7 +237,7 @@
             "title": "Acne-Prone Skin",
             "tags": "ALLSKIN | MED, BIRETIX",
             "tags_link": "",
-            "text": "<p>Solutions for acne and blemish-prone skin presenting with breakouts, imperfections, excess oil and shine, including additional skin support during prescription acne treatments.</p>",
+            "text": "<p>Targeted skincare for blemish-prone skin, addressing breakouts, imperfections, excess oil and shine. Professional regimes also provide additional skincare support for patients undergoing prescription acne treatments.</p>",
             "link_label": "View more",
             "link": ""
           }
@@ -248,7 +249,7 @@
             "title": "Hair & Scalp Health",
             "tags": "ALLSKIN | MED",
             "tags_link": "",
-            "text": "<p>Solutions supporting hair and scalp health, from weak or damaged hair to hair loss requiring medical intervention, including androgenetic alopecia and telogen effluvium.</p>",
+            "text": "<p>Advanced, clinic-exclusive skincare for hair and scalp concerns, including thinning, hair loss and weakened hair. Specialist formulations and professional regimes support scalp health and healthier-looking, more resilient hair. Dermatological offering coming soon.</p>",
             "link_label": "View more",
             "link": ""
           }
@@ -264,19 +265,19 @@
       ],
       "name": "Category cards",
       "settings": {
-        "heading": "Six Skincare Categories",
+        "heading": "Six Dermatological Categories",
         "heading_size": "h1",
-        "subheading": "A clear, category-led approach to professional skincare",
-        "intro": "<p>Combining innovative, exclusive technologies with expert formulations, Cantabria Labs dermocosmetics and dermatological supplements provide specialist solutions across six key areas of skin, hair and scalp health.</p><p>The new structure makes it easier to navigate the portfolio by concern, identify the relevant ranges and tailor recommendations to individual needs and treatment journeys.</p>",
-        "show_divider": true,
+        "subheading": "Connecting concerns with professionally-tailored solutions.",
+        "intro": "<p>The portfolio provides solutions across six key dermatological categories: <strong>photoprotection, anti-ageing, pigmentation, acne-prone skin, sensitive and reactive skin, and hair and scalp health. </strong>&nbsp;<br/><br/>The category-led approach makes it easier to navigate the portfolio by concern, identify the relevant ranges and tailor recommendations to individual needs, treatment journeys and budgets.&nbsp;</p>",
+        "show_divider": false,
         "columns_desktop": 3,
         "image_ratio": "landscape",
         "tag_color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
         "swipe_on_mobile": true,
         "hide_on_mobile": false,
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 100,
+        "padding_top": 64,
+        "padding_bottom": 64,
         "anchor_id": "categories"
       }
     },
@@ -286,14 +287,14 @@
         "heading_phGcbD": {
           "type": "heading",
           "settings": {
-            "heading": "Exclusive Clinic Launch Packages Available",
+            "heading": "Exclusive Clinic Launch Packages & Offers Available",
             "heading_size": "h2"
           }
         },
         "text_tHgUkJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Request a callback from your Clinic Development Manager today to discuss the Cantabria Labs portfolio, promotions and wider in-clinic opportunity, including the education, marketing and ongoing support available.</p>"
+            "text": "<p>Request a callback from your Clinic Development Manager today to discuss the Cantabria Labs portfolio, latest promotions and opportunities for your clinic, including professional education, marketing and ongoing support.</p>"
           }
         },
         "button_jDABqU": {
@@ -337,14 +338,14 @@
           "settings": {
             "name": "ALLSKIN | MED",
             "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_07.png",
-            "tagline": "Where skin science meets medical aesthetic experience",
+            "tagline": "Advanced Regimes & Treatment Enhancement",
             "tags": "Anti-Ageing, Pigmentation, Redness & Reactive Skin, Acne-Prone Skin, Hair & Scalp Health",
-            "tags_link": "#categories",
-            "summary": "<p>The ALLSKIN | MED medical-grade portfolio provides prescriptive solutions across multiple skin, hair and scalp concerns throughout the patient journey.</p>",
+            "tags_link": "",
+            "summary": "<p>ALLSKIN | MED is a clinic-exclusive range combining advanced formulations and active ingredient strengths with structured regimes for skin, hair and scalp concerns. Dedicated plans support aesthetic treatment preparation, recovery and enhancement, with SCA® PRO technology in selected Collagen Activation plans.</p>",
             "outlet_medical": true,
-            "medical_label": "",
-            "outlet_skin": false,
-            "skin_label": "",
+            "medical_label": "<strong>Full range:</strong> Authorised medical aesthetic clinics",
+            "outlet_skin": true,
+            "skin_label": "<strong>Selected Collagen Activation plans:</strong> Eligible professional skin clinics",
             "outlet_pharmacy": false,
             "pharmacy_label": "",
             "outlet_retail": false,
@@ -356,17 +357,17 @@
           "settings": {
             "name": "HELIOCARE",
             "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_08.png",
-            "tagline": "All the dermatological photoprotection science can give you",
+            "tagline": "The Science of Advanced Photoprotection",
             "tags": "Photoprotection",
-            "tags_link": "#categories",
-            "summary": "<p>Advanced very high-level, full-spectrum photoprotection with options for different skin types, finishes, concerns, regimes and treatments.</p>",
+            "tags_link": "",
+            "summary": "<p>Very high-level, full-spectrum SPF50+ and PA++++ sunscreens, alongside oral supplements. Exclusive Fernblock® technologies, including ASPA-Fernblock® in selected formulations, support personalised photoprotection across daily skincare and professional treatment pathways.</p>",
             "outlet_medical": true,
             "medical_label": "",
             "outlet_skin": true,
             "skin_label": "",
-            "outlet_pharmacy": true,
+            "outlet_pharmacy": false,
             "pharmacy_label": "",
-            "outlet_retail": true,
+            "outlet_retail": false,
             "retail_label": ""
           }
         },
@@ -375,15 +376,15 @@
           "settings": {
             "name": "ENDOCARE",
             "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_10.png",
-            "tagline": "Precision anti-ageing science",
+            "tagline": "Anti-Ageing, from Barrier Health to Renewal",
             "tags": "Anti-Ageing",
-            "tags_link": "#categories",
-            "summary": "<p>Precision anti-ageing solutions supporting the skin’s barrier, radiance, texture and renewal through different stages of skin ageing.</p>",
+            "tags_link": "",
+            "summary": "<p>Targeted anti-ageing skincare supporting skin barrier health, radiance and renewal at different stages of ageing. Selected formulations feature innovative RETINDUO® and EDAFENCE® technologies to address visible signs of skin ageing.</p>",
             "outlet_medical": true,
             "medical_label": "",
             "outlet_skin": true,
             "skin_label": "",
-            "outlet_pharmacy": true,
+            "outlet_pharmacy": false,
             "pharmacy_label": "",
             "outlet_retail": false,
             "retail_label": ""
@@ -394,15 +395,15 @@
           "settings": {
             "name": "NEORETIN",
             "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_12.png",
-            "tagline": "Advanced science for skin hyperpigmentation",
+            "tagline": "Targeted Science for Pigmentation",
             "tags": "Pigmentation",
-            "tags_link": "#categories",
-            "summary": "<p>Specialist solutions for the correction of uneven pigmentation and dark spots, helping support clearer, more even-looking skin.</p>",
+            "tags_link": "",
+            "summary": "<p>Specialist formulations for dark spots, uneven skin tone and hyperpigmentation. Featuring innovative technologies including RETINSPHERE® and Azelaic Aox-TECH in selected products, NEORETIN supports personalised pigment-control regimes and skin renewal.</p>",
             "outlet_medical": true,
             "medical_label": "",
             "outlet_skin": true,
             "skin_label": "",
-            "outlet_pharmacy": true,
+            "outlet_pharmacy": false,
             "pharmacy_label": "",
             "outlet_retail": false,
             "retail_label": ""
@@ -413,15 +414,15 @@
           "settings": {
             "name": "BIRETIX",
             "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_00.png",
-            "tagline": "Specialist care for acne-prone skin",
+            "tagline": "Specialist Care for Acne-Prone Skin",
             "tags": "Acne-Prone Skin",
-            "tags_link": "#categories",
-            "summary": "<p>Expertly formulated solutions designed to help reduce and prevent the main signs of acne-prone skin in young people and adults, while supporting skin undergoing medical acne treatments.</p>",
+            "tags_link": "",
+            "summary": "<p>Evidence-led skincare for adolescent and adult acne-prone skin, targeting blemishes, excess oil and congestion. Selected formulations feature RETINSPHERE® technology and BIOPEP-15, with products to support skin undergoing prescription acne treatments.</p>",
             "outlet_medical": true,
             "medical_label": "",
             "outlet_skin": true,
             "skin_label": "",
-            "outlet_pharmacy": true,
+            "outlet_pharmacy": false,
             "pharmacy_label": "",
             "outlet_retail": false,
             "retail_label": ""
@@ -432,15 +433,15 @@
           "settings": {
             "name": "SKIN RESIST",
             "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_11.png",
-            "tagline": "Advanced care for sensitive & reactive skin",
+            "tagline": "Advanced Sensitive & Reactive Skincare",
             "tags": "Sensitive & Reactive Skin",
-            "tags_link": "#categories",
-            "summary": "<p>Hydrobiome science designed to help improve the skin’s natural resistance, reduce sensitivity and redness and support the skin barrier, while providing anti-ageing care.</p>",
+            "tags_link": "",
+            "summary": "<p>Featuring exclusive AQUAMMUNIST® technology, Skin Resist helps soothe discomfort, reduce visible redness and strengthen the skin barrier, supporting greater comfort and resilience in sensitive and reactive skin.</p>",
             "outlet_medical": true,
             "medical_label": "",
             "outlet_skin": true,
             "skin_label": "",
-            "outlet_pharmacy": true,
+            "outlet_pharmacy": false,
             "pharmacy_label": "",
             "outlet_retail": false,
             "retail_label": ""
@@ -457,10 +458,10 @@
       ],
       "name": "Range cards",
       "settings": {
-        "caption": "Specialist Ranges",
-        "heading": "Tailored Professional Skincare Regimes",
+        "caption": "OUR SPECIALIST BRANDS",
+        "heading": "Specialist Science. More Opportunities for Your Clinic.&nbsp;",
         "heading_size": "h1",
-        "intro": "<p>Cantabria Labs professional skincare regimes provide scientific solutions for anti-ageing, pigmentation, reactive & redness-prone skin, acne-prone skin, and hair and scalp concerns.</p><p>Each regime, with evidence-based products and key combinations, is supported by HELIOCARE 360° high-level full-spectrum photoprotection targeted to skin type, finish, or concern.</p><p>The Cantabria Labs portfolio enables these solutions to be tailored to an individual’s skin concerns and needs, providing efficacy with accessibility and flexibility.</p>",
+        "intro": "<p>Discover our science-led brands, combining innovative technologies and specialist formulations to support professional skincare recommendations and aesthetic treatment pathways.</p>",
         "columns_desktop": 3,
         "swipe_on_mobile": true,
         "hide_on_mobile": false,
@@ -477,7 +478,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/cl-blue-icon-education.png",
-            "title": "Comprehensive Product Training & Education",
+            "title": "Professional Education & Training",
             "text": "",
             "link_label": "",
             "link": ""
@@ -487,7 +488,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/cl-blue-icon-marketing.png",
-            "title": "Patient-Facing Marketing & Promotional Support",
+            "title": "Marketing & Promotional Support",
             "text": "",
             "link_label": "",
             "link": ""
@@ -497,7 +498,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/cl-blue-icon-business-support.png",
-            "title": "Dedicated Clinic Development Support",
+            "title": "Dedicated Clinic Development",
             "text": "",
             "link_label": "",
             "link": ""
@@ -517,9 +518,9 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Supporting you and your clinic throughout the entire patient journey",
+        "title": "More Than Products. Dedicated Support for Your Clinic.",
         "heading_size": "h2",
-        "richtext": "<p>Cantabria Labs dermocosmetics and supplements can be integrated throughout the whole patient journey, alongside professional treatments and evidence-based approaches to long-term skin health.</p><p>Our experienced Clinic Development team supports you to confidently integrate Cantabria Labs into your services and recommendations through:</p>",
+        "richtext": "<p>Cantabria Labs dermocosmetics and supplements support tailored skincare recommendations, ongoing skin management and professional treatment pathways.<br/><br/>Our Clinic Development Team helps you make the most of the portfolio, providing the expertise and resources to develop your skincare offering through:</p>",
         "narrow_text": true,
         "image_width": "third",
         "image_ratio": "adapt",
