@@ -466,8 +466,8 @@
         "swipe_on_mobile": true,
         "hide_on_mobile": false,
         "color_scheme": "",
-        "padding_top": 100,
-        "padding_bottom": 100,
+        "padding_top": 64,
+        "padding_bottom": 64,
         "anchor_id": "ranges"
       }
     },
