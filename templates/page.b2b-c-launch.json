@@ -342,79 +342,13 @@
             "tags_link": "#categories",
             "summary": "<p>The ALLSKIN | MED medical-grade portfolio provides prescriptive solutions across multiple skin, hair and scalp concerns throughout the patient journey.</p>",
             "outlet_medical": true,
-            "medical_exclusive": true,
+            "medical_label": "",
             "outlet_skin": false,
+            "skin_label": "",
             "outlet_pharmacy": false,
+            "pharmacy_label": "",
             "outlet_retail": false,
-            "details": "<p>The ALLSKIN | MED portfolio features advanced formulations and strengths suitable for practitioner-led recommendations, supporting treatment preparation, recovery, downtime reduction, treatment result enhancement and long-term improvements in skin health through scientifically and clinically proven regimes.</p><p>ALLSKIN | MED HAIR provides in-clinic products to support treatment results alongside evidence-based home-use regimes to enhance scalp and hair health.</p>"
-          }
-        },
-        "range_card_xihrbw": {
-          "type": "range_card",
-          "settings": {
-            "name": "ENDOCARE",
-            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_10.png",
-            "tagline": "Precision anti-ageing science",
-            "tags": "Anti-Ageing",
-            "tags_link": "#categories",
-            "summary": "<p>Precision anti-ageing solutions supporting the skin’s barrier, radiance, texture and renewal through different stages of skin ageing.</p>",
-            "outlet_medical": true,
-            "medical_exclusive": false,
-            "outlet_skin": true,
-            "outlet_pharmacy": true,
-            "outlet_retail": false,
-            "details": "<p>Formulated, developed and clinically proven through dermatological and scientific expertise, ENDOCARE regimes, combinations and targeted products provide precision anti-ageing solutions for healthcare professionals, skin professionals, patients and consumers throughout their anti-ageing and skin health journey.</p>"
-          }
-        },
-        "range_card_tMwCVK": {
-          "type": "range_card",
-          "settings": {
-            "name": "NEORETIN",
-            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_12.png",
-            "tagline": "Advanced science for skin hyperpigmentation",
-            "tags": "Pigmentation",
-            "tags_link": "#categories",
-            "summary": "<p>Specialist solutions for the correction of uneven pigmentation and dark spots, helping support clearer, more even-looking skin.</p>",
-            "outlet_medical": true,
-            "medical_exclusive": false,
-            "outlet_skin": true,
-            "outlet_pharmacy": true,
-            "outlet_retail": false,
-            "details": "<p>Using expert formulations scientifically proven to address different stages of excess melanin production and presence, NEORETIN enhances evidence-based skincare regimes by reducing dark spots and evening skin tone in hyperpigmented areas.</p>"
-          }
-        },
-        "range_card_jAmHWp": {
-          "type": "range_card",
-          "settings": {
-            "name": "SKIN RESIST",
-            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_11.png",
-            "tagline": "Advanced care for sensitive & reactive skin",
-            "tags": "Sensitive & Reactive Skin",
-            "tags_link": "#categories",
-            "summary": "<p>Hydrobiome science designed to help improve the skin’s natural resistance, reduce sensitivity and redness and support the skin barrier, while providing anti-ageing care.</p>",
-            "outlet_medical": true,
-            "medical_exclusive": false,
-            "outlet_skin": true,
-            "outlet_pharmacy": true,
-            "outlet_retail": false,
-            "details": "<p>The hydrobiome science of AQUAMMUNIST® harnesses the exclusive soothing, protective and repairing properties of La Concha, Cantabria thermal waters and natural algae extracts, combined with clinically proven sensitivity-reducing and barrier-repairing dermatological ingredients.</p><p>SKIN RESIST is clinically proven to provide a regimen and targeted products that significantly reduce sensitivity, reactivity and redness while delivering significant anti-ageing benefits.</p>"
-          }
-        },
-        "range_card_3pxCzh": {
-          "type": "range_card",
-          "settings": {
-            "name": "BIRETIX",
-            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_00.png",
-            "tagline": "Specialist care for acne-prone skin",
-            "tags": "Acne-Prone Skin",
-            "tags_link": "#categories",
-            "summary": "<p>Expertly formulated solutions designed to help reduce and prevent the main signs of acne-prone skin in young people and adults, while supporting skin undergoing medical acne treatments.</p>",
-            "outlet_medical": true,
-            "medical_exclusive": false,
-            "outlet_skin": true,
-            "outlet_pharmacy": true,
-            "outlet_retail": false,
-            "details": "<p>Formulated with unique active retinoid and dermatological ingredients, BIRETIX provides clinically proven regimes and targeted products for acne-prone skin and to help support medical acne treatments.</p>"
+            "retail_label": ""
           }
         },
         "range_card_hH4JD6": {
@@ -427,21 +361,99 @@
             "tags_link": "#categories",
             "summary": "<p>Advanced very high-level, full-spectrum photoprotection with options for different skin types, finishes, concerns, regimes and treatments.</p>",
             "outlet_medical": true,
-            "medical_exclusive": false,
+            "medical_label": "",
             "outlet_skin": true,
+            "skin_label": "",
             "outlet_pharmacy": true,
+            "pharmacy_label": "",
             "outlet_retail": true,
-            "details": "<p>Combining very high-level, full-spectrum protection against UVA, UVB, Visible Light, and Infrared-A with SPF 50+ and PA++++ protection, and exclusive ASPA-Fernblock® technology, HELIOCARE 360° sunscreens and supplements provide medical-grade personalised support for long-term skin health.</p>"
+            "retail_label": ""
+          }
+        },
+        "range_card_xihrbw": {
+          "type": "range_card",
+          "settings": {
+            "name": "ENDOCARE",
+            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_10.png",
+            "tagline": "Precision anti-ageing science",
+            "tags": "Anti-Ageing",
+            "tags_link": "#categories",
+            "summary": "<p>Precision anti-ageing solutions supporting the skin’s barrier, radiance, texture and renewal through different stages of skin ageing.</p>",
+            "outlet_medical": true,
+            "medical_label": "",
+            "outlet_skin": true,
+            "skin_label": "",
+            "outlet_pharmacy": true,
+            "pharmacy_label": "",
+            "outlet_retail": false,
+            "retail_label": ""
+          }
+        },
+        "range_card_tMwCVK": {
+          "type": "range_card",
+          "settings": {
+            "name": "NEORETIN",
+            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_12.png",
+            "tagline": "Advanced science for skin hyperpigmentation",
+            "tags": "Pigmentation",
+            "tags_link": "#categories",
+            "summary": "<p>Specialist solutions for the correction of uneven pigmentation and dark spots, helping support clearer, more even-looking skin.</p>",
+            "outlet_medical": true,
+            "medical_label": "",
+            "outlet_skin": true,
+            "skin_label": "",
+            "outlet_pharmacy": true,
+            "pharmacy_label": "",
+            "outlet_retail": false,
+            "retail_label": ""
+          }
+        },
+        "range_card_3pxCzh": {
+          "type": "range_card",
+          "settings": {
+            "name": "BIRETIX",
+            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_00.png",
+            "tagline": "Specialist care for acne-prone skin",
+            "tags": "Acne-Prone Skin",
+            "tags_link": "#categories",
+            "summary": "<p>Expertly formulated solutions designed to help reduce and prevent the main signs of acne-prone skin in young people and adults, while supporting skin undergoing medical acne treatments.</p>",
+            "outlet_medical": true,
+            "medical_label": "",
+            "outlet_skin": true,
+            "skin_label": "",
+            "outlet_pharmacy": true,
+            "pharmacy_label": "",
+            "outlet_retail": false,
+            "retail_label": ""
+          }
+        },
+        "range_card_jAmHWp": {
+          "type": "range_card",
+          "settings": {
+            "name": "SKIN RESIST",
+            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_11.png",
+            "tagline": "Advanced care for sensitive & reactive skin",
+            "tags": "Sensitive & Reactive Skin",
+            "tags_link": "#categories",
+            "summary": "<p>Hydrobiome science designed to help improve the skin’s natural resistance, reduce sensitivity and redness and support the skin barrier, while providing anti-ageing care.</p>",
+            "outlet_medical": true,
+            "medical_label": "",
+            "outlet_skin": true,
+            "skin_label": "",
+            "outlet_pharmacy": true,
+            "pharmacy_label": "",
+            "outlet_retail": false,
+            "retail_label": ""
           }
         }
       },
       "block_order": [
         "range_card_CjtgEz",
+        "range_card_hH4JD6",
         "range_card_xihrbw",
         "range_card_tMwCVK",
-        "range_card_jAmHWp",
         "range_card_3pxCzh",
-        "range_card_hH4JD6"
+        "range_card_jAmHWp"
       ],
       "name": "Range cards",
       "settings": {
@@ -450,8 +462,6 @@
         "heading_size": "h1",
         "intro": "<p>Cantabria Labs professional skincare regimes provide scientific solutions for anti-ageing, pigmentation, reactive & redness-prone skin, acne-prone skin, and hair and scalp concerns.</p><p>Each regime, with evidence-based products and key combinations, is supported by HELIOCARE 360° high-level full-spectrum photoprotection targeted to skin type, finish, or concern.</p><p>The Cantabria Labs portfolio enables these solutions to be tailored to an individual’s skin concerns and needs, providing efficacy with accessibility and flexibility.</p>",
         "columns_desktop": 3,
-        "more_label": "View more",
-        "less_label": "View less",
         "swipe_on_mobile": true,
         "hide_on_mobile": false,
         "color_scheme": "",
