@@ -23,7 +23,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "View products",
-            "button_link_1": "",
+            "button_link_1": "shopify://collections/sensitive-skin",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -37,6 +37,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00307_CL.co.uk_Sensitive_ReactiveSkin_Images_Oct26_01.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00307_CL.co.uk_Sensitive_ReactiveSkin_Images_Oct26_02.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -65,6 +67,7 @@
         "column_RGR9Ff": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00307_CL.co.uk_Sensitive_ReactiveSkin_Icons_Oct26-01.png",
             "title": "Calm and soothe discomfort",
             "text": "",
             "link_label": "",
@@ -74,6 +77,7 @@
         "column_gzQF7x": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00307_CL.co.uk_Sensitive_ReactiveSkin_Icons_Oct26-02.png",
             "title": "Reduce visible redness",
             "text": "",
             "link_label": "",
@@ -83,6 +87,7 @@
         "column_gmwrLB": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00307_CL.co.uk_Sensitive_ReactiveSkin_Icons_Oct26-03.png",
             "title": "Strengthen the skin barrier",
             "text": "",
             "link_label": "",
@@ -92,6 +97,7 @@
         "column_rnqkyQ": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00307_CL.co.uk_Sensitive_ReactiveSkin_Icons_Oct26-04.png",
             "title": "Improve resilience to everyday triggers",
             "text": "",
             "link_label": "",
@@ -116,7 +122,7 @@
         "heading_size": "h2",
         "richtext": "",
         "narrow_text": false,
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "center",
@@ -159,6 +165,7 @@
       "name": "Image with text HTML",
       "settings": {
         "anchor_id": "",
+        "image": "shopify://shop_images/FERN-IMG-00307_CL.co.uk_Sensitive_ReactiveSkin_Images_Oct26_03.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -179,7 +186,7 @@
         "column_UAACN9": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/placeholder-1000x500_b1f40aa7-82ca-4683-9db7-4c78ee63eead.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00307_CL.co.uk_Sensitive_ReactiveSkin_Images_Oct26_04.jpg",
             "title": "Who is affected by sensitive & reactive skin?",
             "text": "<p>Skin sensitivity can affect different skin types and may vary considerably from person to person. Some people experience occasional sensitivity following exposure to a particular trigger, while others find their skin is persistently reactive.</p>",
             "hidden_text": "<p>Signs can include tightness, stinging, burning, itching or discomfort, with or without visible redness.<sup>1</sup> Sensitivity may also fluctuate over time depending on environmental exposure, skincare routines and individual skin condition.</p>",
@@ -190,7 +197,7 @@
         "column_qLNh4d": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/placeholder-1000x500_b1f40aa7-82ca-4683-9db7-4c78ee63eead.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00307_CL.co.uk_Sensitive_ReactiveSkin_Images_Oct26_05.jpg",
             "title": "What causes skin sensitivity and reactivity?",
             "text": "<p>Sensitive skin is complex and can be influenced by several interacting factors. Changes to the skin barrier may make skin less effective at retaining water and protecting itself from external stressors, while altered neurosensory responses can make normally well-tolerated stimuli feel uncomfortable.<sup>2,3</sup></p>",
             "hidden_text": "<p>Common triggers can include changes in temperature, wind, UV exposure, pollution, stress and certain cosmetic products or ingredients.<sup>2</sup> Identifying and minimising individual triggers can therefore be an important part of caring for reactive skin.</p>",
@@ -201,7 +208,7 @@
         "column_cqyHK7": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/placeholder-1000x500_b1f40aa7-82ca-4683-9db7-4c78ee63eead.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00307_CL.co.uk_Sensitive_ReactiveSkin_Images_Oct26_06.jpg",
             "title": "How to care for sensitive & reactive skin",
             "text": "<p>A consistent, gentle skincare routine can help support reactive skin. Focus on mild cleansing, maintaining hydration and supporting the skin barrier with well-tolerated formulations while avoiding known individual triggers.<sup>2</sup></p>",
             "hidden_text": "<p>Daily broad-spectrum photoprotection is also an important part of the routine, helping protect the skin against UV and environmental exposure. Products should be introduced gradually where necessary, particularly if skin is already feeling reactive or uncomfortable.</p>",
@@ -261,6 +268,7 @@
       "name": "Image with text HTML",
       "settings": {
         "anchor_id": "",
+        "image": "shopify://shop_images/FERN-IMG-00307_CL.co.uk_Sensitive_ReactiveSkin_Images_Oct26_07.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
