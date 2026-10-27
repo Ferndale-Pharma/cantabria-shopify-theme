@@ -37,8 +37,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00307_CL.co.uk_Sensitive_ReactiveSkin_Images_Oct26_01.jpg",
-        "mobile_image": "shopify://shop_images/FERN-IMG-00307_CL.co.uk_Sensitive_ReactiveSkin_Images_Oct26_02.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00307_CL.co.uk_Sensitive_ReactiveSkin_Images_Oct26_01_1_1.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00307_CL.co.uk_Sensitive_ReactiveSkin_Images_Oct26_02_1_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -197,7 +197,7 @@
         "column_qLNh4d": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/FERN-IMG-00307_CL.co.uk_Sensitive_ReactiveSkin_Images_Oct26_05.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00307_CL.co.uk_Sensitive_ReactiveSkin_Images_Oct26_06_1_1.jpg",
             "title": "What causes skin sensitivity and reactivity?",
             "text": "<p>Sensitive skin is complex and can be influenced by several interacting factors. Changes to the skin barrier may make skin less effective at retaining water and protecting itself from external stressors, while altered neurosensory responses can make normally well-tolerated stimuli feel uncomfortable.<sup>2,3</sup></p>",
             "hidden_text": "<p>Common triggers can include changes in temperature, wind, UV exposure, pollution, stress and certain cosmetic products or ingredients.<sup>2</sup> Identifying and minimising individual triggers can therefore be an important part of caring for reactive skin.</p>",
