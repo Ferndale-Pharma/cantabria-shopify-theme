@@ -96,87 +96,43 @@
         "container_id": ""
       }
     },
-    "webinar_cta_qba4yw": {
-      "type": "webinar-cta",
+    "launch_package_cta_LTxbFg": {
+      "type": "launch-package-cta",
       "blocks": {
-        "detail_8U38xV": {
+        "detail_FjeG3H": {
           "type": "detail",
           "settings": {
-            "label": "Date(s)",
-            "value": "<p>{{ metaobjects.professional_events[\"introduction-to-the-cantabria-labs-dermocosmetic-skincare-supplement-portfolio\"].multicolumn_1_body_text | metafield_tag }}</p>",
-            "width": 2
+            "label": "Qualifying spend",
+            "value": "£500 ex. VAT or more",
+            "width": 1
           }
         },
-        "detail_wgUr9P": {
+        "detail_MGTMFg": {
           "type": "detail",
           "settings": {
-            "label": "Cost",
-            "value": "<p>FREE</p>",
+            "label": "Qualifying brands",
+            "value": "HELIOCARE, ENDOCARE, BIRETIX, NEORETIN & SKIN RESIST",
             "width": 1
           }
         }
       },
       "block_order": [
-        "detail_8U38xV",
-        "detail_wgUr9P"
+        "detail_FjeG3H",
+        "detail_MGTMFg"
       ],
-      "name": "Webinar CTA",
+      "name": "Launch package CTA",
       "settings": {
-        "badge": "CLINIC EXCLUSIVE LAUNCH PACKAGES",
-        "heading": "Discover what the new portfolio means for your clinic",
-        "heading_size": "h2",
-        "text": "<p>Join our free 30-minute introductory webinar to explore the new portfolio structure, discover how our specialist ranges fit across the six skincare categories and understand the support available to your clinic.</p>",
-        "button_label": "Register free",
-        "button_link": "shopify://metaobjects/professional_events/introduction-to-the-cantabria-labs-dermocosmetic-skincare-supplement-portfolio",
+        "badge": "Pharmacy Exclusive Launch Package",
+        "heading": "Launch the Cantabria Labs Portfolio in your Pharmacy",
+        "heading_size": "h1",
+        "text": "<p>Spend £500 ex. VAT across the Cantabria Labs Dermatological Skincare & Supplements portfolio and receive your complimentary Pharmacy Launch Support Package.</p>",
+        "button_label": "Request a Callback",
+        "button_link": "",
         "button_style_secondary": false,
         "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
-        "details_color_scheme": "",
-        "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_top": 48,
+        "padding_bottom": 48,
         "anchor_id": ""
-      }
-    },
-    "rich_text_M6WV4U": {
-      "type": "rich-text",
-      "blocks": {
-        "caption_7LQcnx": {
-          "type": "caption",
-          "settings": {
-            "caption": "One Portfolio",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "heading_ChHyPN": {
-          "type": "heading",
-          "settings": {
-            "heading": "More science. More solutions. More ways to support skin health.",
-            "heading_size": "h2"
-          }
-        },
-        "text_HyAfFj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The <strong>Cantabria Labs Dermocosmetics & Supplements Portfolio</strong> brings together evidence-based solutions across a broad spectrum of skin, hair and scalp concerns, with specialist formulations, technologies and strengths designed to support different needs, treatment stages and professional settings.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "caption_7LQcnx",
-        "heading_ChHyPN",
-        "text_HyAfFj"
-      ],
-      "disabled": true,
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "is_heading": false,
-        "padding_top": 64,
-        "padding_bottom": 64,
-        "container_id": "portfolio"
       }
     },
     "category_cards_N7KYbA": {
@@ -763,8 +719,7 @@
     "main",
     "image_banner_separate_Lt8ffC",
     "rich_text_9iWRYm",
-    "webinar_cta_qba4yw",
-    "rich_text_M6WV4U",
+    "launch_package_cta_LTxbFg",
     "category_cards_N7KYbA",
     "rich_text_iTB8rA",
     "range_cards_d4dm8q",
