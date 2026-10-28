@@ -243,7 +243,7 @@
         "heading_phGcbD": {
           "type": "heading",
           "settings": {
-            "heading": "Exclusive Pharmacy Launch Packages & Offers Available",
+            "heading": "Exclusive Pharmacy Launch Package & Offers Available",
             "heading_size": "h2"
           }
         },
@@ -373,7 +373,7 @@
             "tagline": "Advanced Sensitive & Reactive Skincare",
             "tags": "Sensitive & Reactive Skin",
             "tags_link": "",
-            "summary": "<p>Featuring exclusive AQUAMMUNIST® technology, Skin Resist helps soothe discomfort, reduce visible redness and strengthen the skin barrier, supporting greater comfort and resilience in sensitive and reactive skin.</p>",
+            "summary": "<p>Featuring exclusive AQUAMMUNIST® technology, SKIN RESIST helps soothe discomfort, reduce visible redness and strengthen the skin barrier, supporting greater comfort and resilience in sensitive and reactive skin.</p>",
             "outlet_medical": false,
             "medical_label": "",
             "outlet_skin": false,
@@ -474,7 +474,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "More Than Products. Dedicated Support for Your Clinic.",
+        "title": "More Than Products. Dedicated Support for Your Pharmacy.",
         "heading_size": "h2",
         "richtext": "<p>Cantabria Labs dermocosmetics and supplements support tailored skincare recommendations, ongoing skin management and professional treatment pathways.<br/><br/>Our Pharmacy Development Team helps you make the most of the portfolio, providing the expertise and resources to develop your skincare offering through:</p>",
         "narrow_text": true,
