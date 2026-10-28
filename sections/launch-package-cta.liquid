@@ -1,0 +1,342 @@
+{% comment %}
+  Launch package CTA banner for Dawn 15.0
+  Save as: sections/launch-package-cta.liquid
+
+  Badge, heading and text on the left; an offer details panel (one block per column,
+  e.g. "Qualifying spend" and "Qualifying brands") and a button on the right.
+  Stacks on mobile. Separate from the Webinar CTA section so both can sit on one page.
+  Badge, panel, label and value colours are set by the CSS rules below; the section
+  background comes from the colour scheme setting.
+{% endcomment %}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<style>
+  .launch-cta {
+    display: grid;
+    gap: 2.4rem;
+    align-items: center;
+  }
+
+  .launch-cta__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+  }
+
+  .launch-cta__badge {
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    border-radius: var(--buttons-radius, 4px);
+    background: #165c7d;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.16rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+
+  .launch-cta__heading {
+    margin: 0;
+    color: #165c7d;
+  }
+
+  .launch-cta__text > *:first-child {
+    margin-top: 0;
+  }
+
+  .launch-cta__text > *:last-child {
+    margin-bottom: 0;
+  }
+
+  .launch-cta__aside {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .launch-cta__details {
+    display: flex;
+    margin: 0;
+    background: #ffffff;
+  }
+
+  .launch-cta__detail {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    min-width: 0;
+    padding: 1.2rem;
+    border-left: 0.1rem solid #d0dee5;
+  }
+
+  .launch-cta__detail dt {
+    margin: 0;
+    font-size: 1.1rem;
+    letter-spacing: 0.14rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #165c7d;
+  }
+
+  .launch-cta__detail dd {
+    margin: 0;
+    font-family: var(--font-heading-family);
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #0d374b;
+    overflow-wrap: break-word;
+  }
+
+  .launch-cta__aside .button {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 750px) {
+    .launch-cta__detail {
+      padding: 1.4rem 1.6rem;
+    }
+
+    .launch-cta__detail dt {
+      font-size: 1.2rem;
+      letter-spacing: 0.16rem;
+    }
+
+    .launch-cta__detail dd {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media screen and (min-width: 990px) {
+    .launch-cta {
+      grid-template-columns: minmax(0, 7fr) minmax(0, 4fr);
+      column-gap: calc(var(--grid-desktop-horizontal-spacing, 16px) + 8.33%);
+    }
+  }
+</style>
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div
+    class="page-width section-{{ section.id }}-padding{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    {% if section.settings.anchor_id != blank %}
+      id="{{ section.settings.anchor_id | handle }}"
+    {% endif %}
+  >
+    <div class="launch-cta">
+      <div class="launch-cta__content">
+        {%- if section.settings.badge != blank -%}
+          <span class="launch-cta__badge">{{ section.settings.badge | escape }}</span>
+        {%- endif -%}
+
+        {%- if section.settings.heading != blank -%}
+          <h2 class="launch-cta__heading inline-richtext {{ section.settings.heading_size }}">
+            {{ section.settings.heading }}
+          </h2>
+        {%- endif -%}
+
+        {%- if section.settings.text != blank -%}
+          <div class="launch-cta__text rte">{{ section.settings.text }}</div>
+        {%- endif -%}
+      </div>
+
+      <div class="launch-cta__aside">
+        {%- if section.blocks.size > 0 -%}
+          <dl class="launch-cta__details">
+            {%- for block in section.blocks -%}
+              <div
+                class="launch-cta__detail"
+                style="flex: {{ block.settings.width }} 1 0;"
+                {{ block.shopify_attributes }}
+              >
+                <dt>{{ block.settings.label | escape }}</dt>
+                <dd>{{ block.settings.value }}</dd>
+              </div>
+            {%- endfor -%}
+          </dl>
+        {%- endif -%}
+
+        {%- if section.settings.button_label != blank -%}
+          <a
+            {% if section.settings.button_link == blank %}
+              role="link" aria-disabled="true"
+            {% else %}
+              href="{{ section.settings.button_link }}"
+            {% endif %}
+            class="button{% if section.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+          >
+            {{- section.settings.button_label | escape -}}
+          </a>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Launch package CTA",
+  "tag": "section",
+  "class": "section section-launch-package-cta",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "badge",
+      "label": "Badge",
+      "default": "Pharmacy Exclusive Launch Package"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Launch the Cantabria Labs Portfolio in your Pharmacy"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading size",
+      "options": [
+        { "value": "h2", "label": "Small" },
+        { "value": "h1", "label": "Medium" },
+        { "value": "h0", "label": "Large" }
+      ],
+      "default": "h1"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Spend £500 ex. VAT across the Cantabria Labs Dermatological Skincare & Supplements portfolio and receive your complimentary Pharmacy Launch Support Package.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "Request a Callback",
+      "info": "Leave blank to hide the button."
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link",
+      "info": "Use #tell-me-more (or your form section's anchor) to scroll to the form."
+    },
+    {
+      "type": "checkbox",
+      "id": "button_style_secondary",
+      "label": "Use outline button style",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Colours and spacing"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Section colour scheme",
+      "default": "scheme-7"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 48
+    },
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID (optional)",
+      "info": "Lets other buttons link to this section, e.g. launch-package"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "detail",
+      "name": "Offer detail",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label",
+          "default": "Qualifying spend"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "value",
+          "label": "Value",
+          "default": "£500 ex. VAT or more"
+        },
+        {
+          "type": "range",
+          "id": "width",
+          "min": 1,
+          "max": 3,
+          "step": 1,
+          "label": "Relative width",
+          "default": 1
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Launch package CTA",
+      "blocks": [
+        {
+          "type": "detail",
+          "settings": {
+            "label": "Qualifying spend",
+            "value": "£500 ex. VAT or more",
+            "width": 1
+          }
+        },
+        {
+          "type": "detail",
+          "settings": {
+            "label": "Qualifying brands",
+            "value": "HELIOCARE, ENDOCARE, BIRETIX, NEORETIN & SKIN RESIST",
+            "width": 1
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
