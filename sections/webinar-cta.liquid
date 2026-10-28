@@ -65,10 +65,11 @@
     gap: 2rem;
   }
 
-  .webinar-cta__details {
+    .webinar-cta__details {
     display: flex;
     margin: 0;
-    background: rgb(var(--color-background));
+    background: #ffffff;
+    border: 0.1rem solid #d0dee5;
   }
 
   .webinar-cta__detail {
@@ -76,8 +77,11 @@
     flex-direction: column;
     gap: 0.4rem;
     min-width: 0;
-    padding: 1.2rem 1.2rem;
-    border-left: 0.1rem solid rgba(var(--color-foreground), 0.15);
+    padding: 1.2rem;
+  }
+
+  .webinar-cta__detail + .webinar-cta__detail {
+    border-left: 0.1rem solid #d0dee5;
   }
 
   .webinar-cta__detail dt {
