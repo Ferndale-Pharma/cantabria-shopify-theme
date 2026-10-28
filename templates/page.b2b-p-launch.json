@@ -1,0 +1,778 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_separate_Lt8ffC": {
+      "type": "image-banner-separate",
+      "blocks": {
+        "text_KKwkk8": {
+          "type": "text",
+          "settings": {
+            "text": "Science that Cares",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "heading_6J9K8a": {
+          "type": "heading",
+          "settings": {
+            "heading": "One portfolio. More opportunities for your clinic.&nbsp;",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_NiBWhN": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Talk to the Team",
+            "button_link_1": "#tell-me-more",
+            "button_style_secondary_1": false,
+            "button_label_2": "Explore the portfolio",
+            "button_link_2": "#categories",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "text_KKwkk8",
+        "heading_6J9K8a",
+        "buttons_NiBWhN"
+      ],
+      "custom_css": [
+        ".banner__buttons .button:nth-child(2) {background-color: #fff; color: black; border: 2px solid #000;}",
+        ".banner__buttons {display: flex;}"
+      ],
+      "name": "Image Banner v2",
+      "settings": {
+        "image": "shopify://shop_images/intro-cl-webinar-banner-1.jpg",
+        "mobile_image": "shopify://shop_images/intro-cl-webinar-banner-1x1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": false
+      }
+    },
+    "rich_text_9iWRYm": {
+      "type": "rich-text",
+      "blocks": {
+        "text_4jndym": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Explore our science-led portfolio of dermocosmetics and supplements, combining advanced full-spectrum photoprotection with specialist dermatological skincare and clinic-exclusive ALLSKIN | MED.&nbsp;</strong><br/><br/>Developed through dermatological research, clinical expertise and innovative technologies, our brands support tailored professional skincare regimes, with a choice of formulations, active ingredient strengths and price points to meet different patient and client needs and treatment objectives.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_4jndym"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "webinar_cta_qba4yw": {
+      "type": "webinar-cta",
+      "blocks": {
+        "detail_8U38xV": {
+          "type": "detail",
+          "settings": {
+            "label": "Date(s)",
+            "value": "<p>{{ metaobjects.professional_events[\"introduction-to-the-cantabria-labs-dermocosmetic-skincare-supplement-portfolio\"].multicolumn_1_body_text | metafield_tag }}</p>",
+            "width": 2
+          }
+        },
+        "detail_wgUr9P": {
+          "type": "detail",
+          "settings": {
+            "label": "Cost",
+            "value": "<p>FREE</p>",
+            "width": 1
+          }
+        }
+      },
+      "block_order": [
+        "detail_8U38xV",
+        "detail_wgUr9P"
+      ],
+      "name": "Webinar CTA",
+      "settings": {
+        "badge": "CLINIC EXCLUSIVE LAUNCH PACKAGES",
+        "heading": "Discover what the new portfolio means for your clinic",
+        "heading_size": "h2",
+        "text": "<p>Join our free 30-minute introductory webinar to explore the new portfolio structure, discover how our specialist ranges fit across the six skincare categories and understand the support available to your clinic.</p>",
+        "button_label": "Register free",
+        "button_link": "shopify://metaobjects/professional_events/introduction-to-the-cantabria-labs-dermocosmetic-skincare-supplement-portfolio",
+        "button_style_secondary": false,
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "details_color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "anchor_id": ""
+      }
+    },
+    "rich_text_M6WV4U": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_7LQcnx": {
+          "type": "caption",
+          "settings": {
+            "caption": "One Portfolio",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_ChHyPN": {
+          "type": "heading",
+          "settings": {
+            "heading": "More science. More solutions. More ways to support skin health.",
+            "heading_size": "h2"
+          }
+        },
+        "text_HyAfFj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The <strong>Cantabria Labs Dermocosmetics & Supplements Portfolio</strong> brings together evidence-based solutions across a broad spectrum of skin, hair and scalp concerns, with specialist formulations, technologies and strengths designed to support different needs, treatment stages and professional settings.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "caption_7LQcnx",
+        "heading_ChHyPN",
+        "text_HyAfFj"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": "portfolio"
+      }
+    },
+    "category_cards_N7KYbA": {
+      "type": "category-cards",
+      "blocks": {
+        "category_bGn99j": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchPromotion_Assets_02.jpg",
+            "title": "Photoprotection",
+            "tags": "HELIOCARE",
+            "tags_link": "",
+            "text": "<p>Daily photoprotection helps protect skin against UV-induced damage and premature ageing, while supporting the management of pigmentation and other skin concerns as part of professional skincare regimes and treatment pathways.</p>",
+            "link_label": "View more",
+            "link": ""
+          }
+        },
+        "category_MbMPEp": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_02.jpg",
+            "title": "Anti-Ageing",
+            "tags": "ALLSKIN | MED, ENDOCARE",
+            "tags_link": "",
+            "text": "<p>Targeted skincare for different stages of skin ageing, addressing fine lines, wrinkles, uneven texture, enlarged pores and dullness. Professional regimes support skin barrier health, renewal and a smoother, brighter complexion.</p>",
+            "link_label": "View more",
+            "link": ""
+          }
+        },
+        "category_xTaNje": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_03.jpg",
+            "title": "Pigmentation",
+            "tags": "ALLSKIN | MED, NEORETIN",
+            "tags_link": "",
+            "text": "<p>Evidence-led skincare for uneven skin tone, dark spots and hyperpigmentation, including post-inflammatory pigmentation. Tailored professional regimes support ongoing management of pigmentation concerns, including melasma.</p>",
+            "link_label": "View more",
+            "link": ""
+          }
+        },
+        "category_mKn3qT": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_04_1.jpg",
+            "title": "Sensitive & Reactive Skin",
+            "tags": "ALLSKIN | MED, SKIN RESIST",
+            "tags_link": "",
+            "text": "<p>Specialist skincare for sensitive, reactive and redness-prone skin, addressing discomfort, irritation and weakened barrier function. Tailored regimes help soothe skin, strengthen the skin barrier and support skin resilience.</p>",
+            "link_label": "View more",
+            "link": ""
+          }
+        },
+        "category_mBwhFi": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_05.jpg",
+            "title": "Acne-Prone Skin",
+            "tags": "ALLSKIN | MED, BIRETIX",
+            "tags_link": "",
+            "text": "<p>Targeted skincare for blemish-prone skin, addressing breakouts, imperfections, excess oil and shine. Professional regimes also provide additional skincare support for patients undergoing prescription acne treatments.</p>",
+            "link_label": "View more",
+            "link": ""
+          }
+        },
+        "category_bVtgdi": {
+          "type": "category",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_06.jpg",
+            "title": "Hair & Scalp Health",
+            "tags": "ALLSKIN | MED",
+            "tags_link": "",
+            "text": "<p>Advanced, clinic-exclusive skincare for hair and scalp concerns, including thinning, hair loss and weakened hair. Specialist formulations and professional regimes support scalp health and healthier-looking, more resilient hair. Dermatological offering coming soon.</p>",
+            "link_label": "View more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "category_bGn99j",
+        "category_MbMPEp",
+        "category_xTaNje",
+        "category_mKn3qT",
+        "category_mBwhFi",
+        "category_bVtgdi"
+      ],
+      "name": "Category cards",
+      "settings": {
+        "heading": "Six Dermatological Categories",
+        "heading_size": "h1",
+        "subheading": "Connecting concerns with professionally-tailored solutions.",
+        "intro": "<p>The portfolio provides solutions across six key dermatological categories: <strong>photoprotection, anti-ageing, pigmentation, acne-prone skin, sensitive & reactive skin, and hair & scalp health. </strong>&nbsp;<br/><br/>The category-led approach makes it easier to navigate the portfolio by concern, identify the relevant ranges and tailor recommendations to individual needs, treatment journeys and budgets.&nbsp;</p>",
+        "show_divider": false,
+        "columns_desktop": 3,
+        "image_ratio": "landscape",
+        "tag_color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "swipe_on_mobile": true,
+        "hide_on_mobile": false,
+        "color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "anchor_id": "categories"
+      }
+    },
+    "rich_text_iTB8rA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_phGcbD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Exclusive Clinic Launch Packages & Offers Available",
+            "heading_size": "h2"
+          }
+        },
+        "text_tHgUkJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Request a callback from your Clinic Development Manager today to discuss the Cantabria Labs portfolio, latest promotions and opportunities for your clinic, including professional education, marketing and ongoing support.</p>"
+          }
+        },
+        "button_jDABqU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Tell me more",
+            "button_link": "#tell-me-more",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_phGcbD",
+        "text_tHgUkJ",
+        "button_jDABqU"
+      ],
+      "custom_css": [
+        "p {color: #fff;}",
+        "a {color: #165c7d;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-fe2caf85-447f-433a-bc45-dfb94474e084",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "range_cards_d4dm8q": {
+      "type": "range-cards",
+      "blocks": {
+        "range_card_CjtgEz": {
+          "type": "range_card",
+          "settings": {
+            "name": "ALLSKIN | MED",
+            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_07.png",
+            "tagline": "Advanced Regimes & Treatment Enhancement",
+            "tags": "Anti-Ageing, Pigmentation, Redness & Reactive Skin, Acne-Prone Skin, Hair & Scalp Health",
+            "tags_link": "",
+            "summary": "<p>ALLSKIN | MED is a clinic-exclusive range combining advanced formulations and active ingredient strengths with structured regimes for skin, hair and scalp concerns. Dedicated plans support aesthetic treatment preparation, recovery and enhancement, with SCA® PRO technology in selected Collagen Activation plans.</p>",
+            "outlet_medical": true,
+            "medical_label": "<strong>Full range:</strong> Authorised medical aesthetic clinics",
+            "outlet_skin": true,
+            "skin_label": "<strong>Selected Collagen Activation plans:</strong> Eligible professional skin clinics",
+            "outlet_pharmacy": false,
+            "pharmacy_label": "",
+            "outlet_retail": false,
+            "retail_label": ""
+          }
+        },
+        "range_card_hH4JD6": {
+          "type": "range_card",
+          "settings": {
+            "name": "HELIOCARE",
+            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_08.png",
+            "tagline": "The Science of Advanced Photoprotection",
+            "tags": "Photoprotection",
+            "tags_link": "",
+            "summary": "<p>Very high-level, full-spectrum SPF50+ and PA++++ sunscreens, alongside oral supplements. Exclusive Fernblock® technologies, including ASPA-Fernblock® in selected formulations, support personalised photoprotection across daily skincare and professional treatment pathways.</p>",
+            "outlet_medical": true,
+            "medical_label": "",
+            "outlet_skin": true,
+            "skin_label": "",
+            "outlet_pharmacy": false,
+            "pharmacy_label": "",
+            "outlet_retail": false,
+            "retail_label": ""
+          }
+        },
+        "range_card_xihrbw": {
+          "type": "range_card",
+          "settings": {
+            "name": "ENDOCARE",
+            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_10.png",
+            "tagline": "Anti-Ageing, from Barrier Health to Renewal",
+            "tags": "Anti-Ageing",
+            "tags_link": "",
+            "summary": "<p>Targeted anti-ageing skincare supporting skin barrier health, radiance and renewal at different stages of ageing. Selected formulations feature innovative RETINDUO® and EDAFENCE® technologies to address visible signs of skin ageing.</p>",
+            "outlet_medical": true,
+            "medical_label": "",
+            "outlet_skin": true,
+            "skin_label": "",
+            "outlet_pharmacy": false,
+            "pharmacy_label": "",
+            "outlet_retail": false,
+            "retail_label": ""
+          }
+        },
+        "range_card_tMwCVK": {
+          "type": "range_card",
+          "settings": {
+            "name": "NEORETIN",
+            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_12.png",
+            "tagline": "Targeted Science for Pigmentation",
+            "tags": "Pigmentation",
+            "tags_link": "",
+            "summary": "<p>Specialist formulations for dark spots, uneven skin tone and hyperpigmentation. Featuring innovative technologies including RETINSPHERE® and Azelaic Aox-TECH in selected products, NEORETIN supports personalised pigment-control regimes and skin renewal.</p>",
+            "outlet_medical": true,
+            "medical_label": "",
+            "outlet_skin": true,
+            "skin_label": "",
+            "outlet_pharmacy": false,
+            "pharmacy_label": "",
+            "outlet_retail": false,
+            "retail_label": ""
+          }
+        },
+        "range_card_3pxCzh": {
+          "type": "range_card",
+          "settings": {
+            "name": "BIRETIX",
+            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_00.png",
+            "tagline": "Specialist Care for Acne-Prone Skin",
+            "tags": "Acne-Prone Skin",
+            "tags_link": "",
+            "summary": "<p>Evidence-led skincare for adolescent and adult acne-prone skin, targeting blemishes, excess oil and congestion. Selected formulations feature RETINSPHERE® technology and BIOPEP-15, with products to support skin undergoing prescription acne treatments.</p>",
+            "outlet_medical": true,
+            "medical_label": "",
+            "outlet_skin": true,
+            "skin_label": "",
+            "outlet_pharmacy": false,
+            "pharmacy_label": "",
+            "outlet_retail": false,
+            "retail_label": ""
+          }
+        },
+        "range_card_jAmHWp": {
+          "type": "range_card",
+          "settings": {
+            "name": "SKIN RESIST",
+            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_11.png",
+            "tagline": "Advanced Sensitive & Reactive Skincare",
+            "tags": "Sensitive & Reactive Skin",
+            "tags_link": "",
+            "summary": "<p>Featuring exclusive AQUAMMUNIST® technology, Skin Resist helps soothe discomfort, reduce visible redness and strengthen the skin barrier, supporting greater comfort and resilience in sensitive and reactive skin.</p>",
+            "outlet_medical": true,
+            "medical_label": "",
+            "outlet_skin": true,
+            "skin_label": "",
+            "outlet_pharmacy": false,
+            "pharmacy_label": "",
+            "outlet_retail": false,
+            "retail_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "range_card_CjtgEz",
+        "range_card_hH4JD6",
+        "range_card_xihrbw",
+        "range_card_tMwCVK",
+        "range_card_3pxCzh",
+        "range_card_jAmHWp"
+      ],
+      "name": "Range cards",
+      "settings": {
+        "caption": "OUR SPECIALIST BRANDS",
+        "heading": "Specialist Science. More Opportunities for Your Clinic.&nbsp;",
+        "heading_size": "h1",
+        "intro": "<p>Discover our science-led brands, combining innovative technologies and specialist formulations to support professional skincare recommendations and aesthetic treatment pathways.</p>",
+        "columns_desktop": 3,
+        "swipe_on_mobile": true,
+        "hide_on_mobile": false,
+        "color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "anchor_id": "ranges"
+      }
+    },
+    "multicolumn_zfyt3b": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Tg3hxQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cl-blue-icon-education.png",
+            "title": "Professional Education & Training",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yrbqHg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cl-blue-icon-marketing.png",
+            "title": "Marketing & Promotional Support",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FYxFfC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cl-blue-icon-business-support.png",
+            "title": "Dedicated Clinic Development",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Tg3hxQ",
+        "column_yrbqHg",
+        "column_FYxFfC"
+      ],
+      "custom_css": [
+        ".multicolumn.background-primary .multicolumn-card {background: #fff;}",
+        ".multicolumn-card__image-wrapper--third-width {max-width: 50px;}",
+        ".multicolumn-list {margin-top: 1rem;}",
+        "@media screen and (min-width: 750px) {.multicolumn-card__image-wrapper--third-width {max-width: 75px; }}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "More Than Products. Dedicated Support for Your Clinic.",
+        "heading_size": "h2",
+        "richtext": "<p>Cantabria Labs dermocosmetics and supplements support tailored skincare recommendations, ongoing skin management and professional treatment pathways.<br/><br/>Our Clinic Development Team helps you make the most of the portfolio, providing the expertise and resources to develop your skincare offering through:</p>",
+        "narrow_text": true,
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "launch_packages_LQW6Hx": {
+      "type": "launch-packages",
+      "blocks": {
+        "package_chJDYj": {
+          "type": "package",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_13.jpg",
+            "title": "Launch the Cantabria Labs Portfolio in your Clinic",
+            "subheading": "Available Exclusively from your Clinic Development Manager",
+            "intro": "<p>Spend £500 ex. VAT across the Cantabria Labs Dermatological Skincare & Supplements portfolio and receive your complimentary Clinic Launch Support Package</p>",
+            "spend": "£500 ex. VAT or more",
+            "brands": "HELIOCARE, ENDOCARE, BIRETIX, NEORETIN & SKIN RESIST",
+            "order": "<a href=\"#tell-me-more\" title=\"Tell me more\">Request a call</a> from your Clinic Development Manager"
+          }
+        },
+        "package_7P6aBV": {
+          "type": "package",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_14.jpg",
+            "title": "Launch ALLSKIN | MED in your Clinic",
+            "subheading": "Available Exclusively from your Clinic Development Manager",
+            "intro": "<p>Talk to your Clinic Development Manager today to discuss the range of ALLSKIN | MED and ALLSKIN | MED Hair Launch packages available</p>",
+            "spend": "Tailored launch packages available",
+            "brands": "ALLSKIN | MED & ALLSKIN | MED HAIR",
+            "order": "<a href=\"#tell-me-more\" title=\"Tell me more\">Request a call</a> from your Clinic Development Manager"
+          }
+        },
+        "benefit_cP9ryx": {
+          "type": "benefit",
+          "settings": {
+            "text": "Virtual Training + Complimentary Product Allocation"
+          }
+        },
+        "benefit_egFYRY": {
+          "type": "benefit",
+          "settings": {
+            "text": "Complimentary Merchandising Stand & Exclusive Tester Pricing"
+          }
+        },
+        "benefit_KaCbh7": {
+          "type": "benefit",
+          "settings": {
+            "text": "Patient Sample Allocation"
+          }
+        },
+        "benefit_CGHrtb": {
+          "type": "benefit",
+          "settings": {
+            "text": "In-Clinic Marketing Support"
+          }
+        },
+        "benefit_4kKamm": {
+          "type": "benefit",
+          "settings": {
+            "text": "Complete Digital Marketing Launch Toolkit"
+          }
+        },
+        "benefit_44TXDW": {
+          "type": "benefit",
+          "settings": {
+            "text": "Dedicated Account Manager"
+          }
+        }
+      },
+      "block_order": [
+        "package_chJDYj",
+        "package_7P6aBV",
+        "benefit_cP9ryx",
+        "benefit_egFYRY",
+        "benefit_KaCbh7",
+        "benefit_CGHrtb",
+        "benefit_4kKamm",
+        "benefit_44TXDW"
+      ],
+      "name": "Launch packages",
+      "settings": {
+        "heading": "Clinic Exclusive Launch Packages Available",
+        "heading_size": "h2",
+        "spend_label": "Qualifying spend",
+        "brands_label": "Qualifying brands",
+        "order_label": "How to order",
+        "benefits_heading": "Your Clinic Launch Support Package Includes:",
+        "color_scheme": "",
+        "padding_top": 96,
+        "padding_bottom": 64,
+        "anchor_id": "register"
+      }
+    },
+    "rich_text_TepxE8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ckqrkL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover More Exciting Offers",
+            "heading_size": "h2"
+          }
+        },
+        "text_TKn3WG": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_9fJPEB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Black Friday & Festive Offers",
+            "button_link": "shopify://pages/clinic-christmas-offers",
+            "button_style_secondary": false,
+            "button_label_2": "Regime Bundle Offers",
+            "button_link_2": "shopify://pages/support-post-summer-skin-correction-in-your-clinic",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ckqrkL",
+        "text_TKn3WG",
+        "button_9fJPEB"
+      ],
+      "custom_css": [
+        "p {color: #fff;}",
+        ".button {color: #121212;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-fe2caf85-447f-433a-bc45-dfb94474e084",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_GeR9M8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yFgNpH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Request a Callback Today",
+            "heading_size": "h2"
+          }
+        },
+        "text_i9JEmT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To get started, simply complete the form below and we'll be in touch ASAP to arrange a time to suit you where we can discuss your in-clinic options.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yFgNpH",
+        "text_i9JEmT"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": "tell-me-more"
+      }
+    },
+    "179145289243460bae": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_q4CEEX": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTUzMzE2\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_q4CEEX"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_QqW6jt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cJnQmr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cantabria Labs UK x Ferndale Pharma",
+            "heading_size": "h2"
+          }
+        },
+        "text_ngDgqf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ferndale Pharma has operated the Cantabria Labs dermocosmetic business in the UK as its exclusive partner since 2008, sharing a commitment to advancing skin health and wellbeing and supporting professionals across the UK.&nbsp;</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cJnQmr",
+        "text_ngDgqf"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_separate_Lt8ffC",
+    "rich_text_9iWRYm",
+    "webinar_cta_qba4yw",
+    "rich_text_M6WV4U",
+    "category_cards_N7KYbA",
+    "rich_text_iTB8rA",
+    "range_cards_d4dm8q",
+    "multicolumn_zfyt3b",
+    "launch_packages_LQW6Hx",
+    "rich_text_TepxE8",
+    "rich_text_GeR9M8",
+    "179145289243460bae",
+    "rich_text_QqW6jt"
+  ]
+}
