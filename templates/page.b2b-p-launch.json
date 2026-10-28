@@ -289,25 +289,6 @@
     "range_cards_d4dm8q": {
       "type": "range-cards",
       "blocks": {
-        "range_card_CjtgEz": {
-          "type": "range_card",
-          "settings": {
-            "name": "ALLSKIN | MED",
-            "logo": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_07.png",
-            "tagline": "Advanced Regimes & Treatment Enhancement",
-            "tags": "Anti-Ageing, Pigmentation, Redness & Reactive Skin, Acne-Prone Skin, Hair & Scalp Health",
-            "tags_link": "",
-            "summary": "<p>ALLSKIN | MED is a clinic-exclusive range combining advanced formulations and active ingredient strengths with structured regimes for skin, hair and scalp concerns. Dedicated plans support aesthetic treatment preparation, recovery and enhancement, with SCA® PRO technology in selected Collagen Activation plans.</p>",
-            "outlet_medical": true,
-            "medical_label": "<strong>Full range:</strong> Authorised medical aesthetic clinics",
-            "outlet_skin": true,
-            "skin_label": "<strong>Selected Collagen Activation plans:</strong> Eligible professional skin clinics",
-            "outlet_pharmacy": false,
-            "pharmacy_label": "",
-            "outlet_retail": false,
-            "retail_label": ""
-          }
-        },
         "range_card_hH4JD6": {
           "type": "range_card",
           "settings": {
@@ -317,11 +298,11 @@
             "tags": "Photoprotection",
             "tags_link": "",
             "summary": "<p>Very high-level, full-spectrum SPF50+ and PA++++ sunscreens, alongside oral supplements. Exclusive Fernblock® technologies, including ASPA-Fernblock® in selected formulations, support personalised photoprotection across daily skincare and professional treatment pathways.</p>",
-            "outlet_medical": true,
+            "outlet_medical": false,
             "medical_label": "",
-            "outlet_skin": true,
+            "outlet_skin": false,
             "skin_label": "",
-            "outlet_pharmacy": false,
+            "outlet_pharmacy": true,
             "pharmacy_label": "",
             "outlet_retail": false,
             "retail_label": ""
@@ -336,11 +317,11 @@
             "tags": "Anti-Ageing",
             "tags_link": "",
             "summary": "<p>Targeted anti-ageing skincare supporting skin barrier health, radiance and renewal at different stages of ageing. Selected formulations feature innovative RETINDUO® and EDAFENCE® technologies to address visible signs of skin ageing.</p>",
-            "outlet_medical": true,
+            "outlet_medical": false,
             "medical_label": "",
-            "outlet_skin": true,
+            "outlet_skin": false,
             "skin_label": "",
-            "outlet_pharmacy": false,
+            "outlet_pharmacy": true,
             "pharmacy_label": "",
             "outlet_retail": false,
             "retail_label": ""
@@ -355,11 +336,11 @@
             "tags": "Pigmentation",
             "tags_link": "",
             "summary": "<p>Specialist formulations for dark spots, uneven skin tone and hyperpigmentation. Featuring innovative technologies including RETINSPHERE® and Azelaic Aox-TECH in selected products, NEORETIN supports personalised pigment-control regimes and skin renewal.</p>",
-            "outlet_medical": true,
+            "outlet_medical": false,
             "medical_label": "",
-            "outlet_skin": true,
+            "outlet_skin": false,
             "skin_label": "",
-            "outlet_pharmacy": false,
+            "outlet_pharmacy": true,
             "pharmacy_label": "",
             "outlet_retail": false,
             "retail_label": ""
@@ -374,11 +355,11 @@
             "tags": "Acne-Prone Skin",
             "tags_link": "",
             "summary": "<p>Evidence-led skincare for adolescent and adult acne-prone skin, targeting blemishes, excess oil and congestion. Selected formulations feature RETINSPHERE® technology and BIOPEP-15, with products to support skin undergoing prescription acne treatments.</p>",
-            "outlet_medical": true,
+            "outlet_medical": false,
             "medical_label": "",
-            "outlet_skin": true,
+            "outlet_skin": false,
             "skin_label": "",
-            "outlet_pharmacy": false,
+            "outlet_pharmacy": true,
             "pharmacy_label": "",
             "outlet_retail": false,
             "retail_label": ""
@@ -393,11 +374,30 @@
             "tags": "Sensitive & Reactive Skin",
             "tags_link": "",
             "summary": "<p>Featuring exclusive AQUAMMUNIST® technology, Skin Resist helps soothe discomfort, reduce visible redness and strengthen the skin barrier, supporting greater comfort and resilience in sensitive and reactive skin.</p>",
-            "outlet_medical": true,
+            "outlet_medical": false,
             "medical_label": "",
-            "outlet_skin": true,
+            "outlet_skin": false,
             "skin_label": "",
-            "outlet_pharmacy": false,
+            "outlet_pharmacy": true,
+            "pharmacy_label": "",
+            "outlet_retail": false,
+            "retail_label": ""
+          }
+        },
+        "range_card_CjtgEz": {
+          "type": "range_card",
+          "settings": {
+            "name": "IRALTONE",
+            "logo": "shopify://shop_images/iraltone-logo.jpg",
+            "tagline": "Science & Innovation for Comprehensive Hair Care",
+            "tags": "Hair & Scalp Health",
+            "tags_link": "",
+            "summary": "",
+            "outlet_medical": false,
+            "medical_label": "<strong>Full range:</strong> Authorised medical aesthetic clinics",
+            "outlet_skin": false,
+            "skin_label": "<strong>Selected Collagen Activation plans:</strong> Eligible professional skin clinics",
+            "outlet_pharmacy": true,
             "pharmacy_label": "",
             "outlet_retail": false,
             "retail_label": ""
@@ -405,19 +405,19 @@
         }
       },
       "block_order": [
-        "range_card_CjtgEz",
         "range_card_hH4JD6",
         "range_card_xihrbw",
         "range_card_tMwCVK",
         "range_card_3pxCzh",
-        "range_card_jAmHWp"
+        "range_card_jAmHWp",
+        "range_card_CjtgEz"
       ],
       "name": "Range cards",
       "settings": {
         "caption": "OUR SPECIALIST BRANDS",
         "heading": "Specialist Science. More Opportunities for Your Pharmacy.&nbsp;",
         "heading_size": "h1",
-        "intro": "<p>Discover our science-led brands, combining innovative technologies and specialist formulations to support professional skincare recommendations and aesthetic treatment pathways.</p>",
+        "intro": "<p>Discover our science-led brands, combining innovative technologies and specialist formulations to support professional skincare recommendations.</p>",
         "columns_desktop": 3,
         "swipe_on_mobile": true,
         "hide_on_mobile": false,
@@ -454,7 +454,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/cl-blue-icon-business-support.png",
-            "title": "Dedicated Clinic Development",
+            "title": "Dedicated Pharmacy Development",
             "text": "",
             "link_label": "",
             "link": ""
@@ -476,7 +476,7 @@
       "settings": {
         "title": "More Than Products. Dedicated Support for Your Clinic.",
         "heading_size": "h2",
-        "richtext": "<p>Cantabria Labs dermocosmetics and supplements support tailored skincare recommendations, ongoing skin management and professional treatment pathways.<br/><br/>Our Clinic Development Team helps you make the most of the portfolio, providing the expertise and resources to develop your skincare offering through:</p>",
+        "richtext": "<p>Cantabria Labs dermocosmetics and supplements support tailored skincare recommendations, ongoing skin management and professional treatment pathways.<br/><br/>Our Pharmacy Development Team helps you make the most of the portfolio, providing the expertise and resources to develop your skincare offering through:</p>",
         "narrow_text": true,
         "image_width": "third",
         "image_ratio": "adapt",
@@ -500,16 +500,17 @@
           "type": "package",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_13.jpg",
-            "title": "Launch the Cantabria Labs Portfolio in your Clinic",
-            "subheading": "Available Exclusively from your Clinic Development Manager",
-            "intro": "<p>Spend £500 ex. VAT across the Cantabria Labs Dermatological Skincare & Supplements portfolio and receive your complimentary Clinic Launch Support Package</p>",
+            "title": "Launch the Cantabria Labs Portfolio in your Pharmacy",
+            "subheading": "Available Exclusively from your Pharmacy Development Manager",
+            "intro": "<p>Spend £500 ex. VAT across the Cantabria Labs Dermatological Skincare & Supplements portfolio and receive your complimentary Pharmacy Launch Support Package</p>",
             "spend": "£500 ex. VAT or more",
             "brands": "HELIOCARE, ENDOCARE, BIRETIX, NEORETIN & SKIN RESIST",
-            "order": "<a href=\"#tell-me-more\" title=\"Tell me more\">Request a call</a> from your Clinic Development Manager"
+            "order": "<a href=\"#tell-me-more\" title=\"Tell me more\">Request a call</a> from your Pharmacy Development Manager"
           }
         },
         "package_7P6aBV": {
           "type": "package",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00304_CL_DermocosmeticClinicLaunchProposition_Assets_Oct26_14.jpg",
             "title": "Launch ALLSKIN | MED in your Clinic",
@@ -535,13 +536,13 @@
         "benefit_KaCbh7": {
           "type": "benefit",
           "settings": {
-            "text": "Patient Sample Allocation"
+            "text": "Customer Sample Allocation"
           }
         },
         "benefit_CGHrtb": {
           "type": "benefit",
           "settings": {
-            "text": "In-Clinic Marketing Support"
+            "text": "In-Store Marketing Support"
           }
         },
         "benefit_4kKamm": {
@@ -569,12 +570,12 @@
       ],
       "name": "Launch packages",
       "settings": {
-        "heading": "Clinic Exclusive Launch Packages Available",
+        "heading": "Pharmacy Exclusive Launch Package Available",
         "heading_size": "h2",
         "spend_label": "Qualifying spend",
         "brands_label": "Qualifying brands",
         "order_label": "How to order",
-        "benefits_heading": "Your Clinic Launch Support Package Includes:",
+        "benefits_heading": "Your Pharmacy Launch Support Package Includes:",
         "color_scheme": "",
         "padding_top": 96,
         "padding_bottom": 64,
@@ -601,11 +602,11 @@
         "button_9fJPEB": {
           "type": "button",
           "settings": {
-            "button_label": "Black Friday & Festive Offers",
-            "button_link": "shopify://pages/clinic-christmas-offers",
+            "button_label": "View Latest Offers",
+            "button_link": "shopify://pages/pharmacy-christmas-offers",
             "button_style_secondary": false,
-            "button_label_2": "Regime Bundle Offers",
-            "button_link_2": "shopify://pages/support-post-summer-skin-correction-in-your-clinic",
+            "button_label_2": "",
+            "button_link_2": "",
             "button_style_secondary_2": false
           }
         }
