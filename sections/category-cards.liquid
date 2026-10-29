@@ -249,8 +249,8 @@
                       sizes: '(min-width: 990px) calc((100vw - 10rem) / 3), (min-width: 750px) calc((100vw - 10rem) / 2), calc(100vw - 4rem)',
                       alt: block.settings.image.alt
                   }}
-                {%- else -%}
-                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% comment %} {%- else -%}
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }} {% endcomment %}
                 {%- endif -%}
               </div>
 
