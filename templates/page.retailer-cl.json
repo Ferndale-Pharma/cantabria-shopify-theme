@@ -437,6 +437,9 @@
       "block_order": [
         "button_9zzTPX"
       ],
+      "custom_css": [
+        ".button-row__button-wrapper .button {width: initial;margin-left: auto;margin-right: auto;}"
+      ],
       "name": "Button row",
       "settings": {
         "color_scheme": "",
