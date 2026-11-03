@@ -104,8 +104,8 @@
     "drawer_shadow_blur": 5,
     "badge_position": "bottom left",
     "badge_corner_radius": 4,
-    "sale_badge_color_scheme": "scheme-c96a5236-5eda-4b29-a1d3-491253493b70",
-    "sold_out_badge_color_scheme": "scheme-c96a5236-5eda-4b29-a1d3-491253493b70",
+    "sale_badge_color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+    "sold_out_badge_color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
     "brand_image": "{{ shop.brand.logo }}",
     "social_facebook_link": "https://facebook.com/cantabrialabsuk",
     "social_instagram_link": "https://instagram.com/cantabrialabsuk",
@@ -348,17 +348,6 @@
           "text": "#0d374b",
           "button": "#8ec2c9",
           "button_label": "#0d374b",
-          "secondary_button_label": "#0d374b",
-          "shadow": "#121212"
-        }
-      },
-      "scheme-b69f710d-e34d-4505-bb55-6aa62456c660": {
-        "settings": {
-          "background": "#ffffff",
-          "background_gradient": "",
-          "text": "#165c7d",
-          "button": "#d0dee5",
-          "button_label": "#ffffff",
           "secondary_button_label": "#0d374b",
           "shadow": "#121212"
         }
