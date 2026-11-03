@@ -313,11 +313,13 @@
             "tags_link": "#categories",
             "summary": "<p>Precision anti-ageing solutions supporting the skin’s barrier, radiance, texture and renewal through different stages of skin ageing.</p>",
             "outlet_medical": true,
-            "medical_exclusive": false,
+            "medical_label": "",
             "outlet_skin": true,
+            "skin_label": "",
             "outlet_pharmacy": true,
+            "pharmacy_label": "",
             "outlet_retail": false,
-            "details": "<p>Formulated, developed and clinically proven through dermatological and scientific expertise, ENDOCARE regimes, combinations and targeted products provide precision anti-ageing solutions for healthcare professionals, skin professionals, patients and consumers throughout their anti-ageing and skin health journey.</p>"
+            "retail_label": ""
           }
         },
         "range_card_M4jtr7": {
@@ -329,11 +331,13 @@
             "tags_link": "#categories",
             "summary": "<p>Specialist solutions for the correction of uneven pigmentation and dark spots, helping support clearer, more even-looking skin.</p>",
             "outlet_medical": true,
-            "medical_exclusive": false,
+            "medical_label": "",
             "outlet_skin": true,
+            "skin_label": "",
             "outlet_pharmacy": true,
+            "pharmacy_label": "",
             "outlet_retail": false,
-            "details": "<p>Using expert formulations scientifically proven to address different stages of excess melanin production and presence, NEORETIN enhances evidence-based skincare regimes by reducing dark spots and evening skin tone in hyperpigmented areas.</p>"
+            "retail_label": ""
           }
         }
       },
@@ -348,14 +352,102 @@
         "heading_size": "h2",
         "intro": "",
         "columns_desktop": 3,
-        "more_label": "View more",
-        "less_label": "View less",
         "swipe_on_mobile": true,
         "hide_on_mobile": false,
         "color_scheme": "",
         "padding_top": 100,
         "padding_bottom": 100,
         "anchor_id": "ranges"
+      }
+    },
+    "rich_text_D6rXEx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_C8RPh3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_enQCKj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_UHxGCE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_C8RPh3",
+        "text_enQCKj",
+        "button_UHxGCE"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-7c0ecaf6-dfaf-478b-a34d-ba08f44347ec",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "rich_text_AQx7dg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bHUitU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_LUWDWP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_dAaGky": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bHUitU",
+        "text_LUWDWP",
+        "button_dAaGky"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-ecb6c164-bd77-4487-ad61-6f2f46a38964",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
       }
     }
   },
@@ -367,6 +459,8 @@
     "177504151743358bdc",
     "rich_text_pYtEF7",
     "launch_packages_Wm8eMa",
-    "range_cards_Dhfmd4"
+    "range_cards_Dhfmd4",
+    "rich_text_D6rXEx",
+    "rich_text_AQx7dg"
   ]
 }
