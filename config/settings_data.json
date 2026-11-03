@@ -464,12 +464,12 @@
       },
       "scheme-ecb6c164-bd77-4487-ad61-6f2f46a38964": {
         "settings": {
-          "background": "#A78B9D",
+          "background": "#E3CDDB",
           "background_gradient": "",
-          "text": "#4A3041",
-          "button": "#4A3041",
+          "text": "#4a3041",
+          "button": "#4a3041",
           "button_label": "#ffffff",
-          "secondary_button_label": "#4A3041",
+          "secondary_button_label": "#4a3041",
           "shadow": "#121212"
         }
       }
