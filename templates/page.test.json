@@ -393,11 +393,14 @@
         "text_enQCKj",
         "button_UHxGCE"
       ],
+      "custom_css": [
+        "p {color:#fff}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-7c0ecaf6-dfaf-478b-a34d-ba08f44347ec",
+        "color_scheme": "scheme-2ccc306f-a2d2-4b6b-aeff-f100be8ec2bb",
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
