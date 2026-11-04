@@ -218,7 +218,6 @@
         "heading_ynhqb4",
         "text_wLcQgq"
       ],
-      "disabled": true,
       "custom_css": [
         "p {color: #fff;}"
       ],
@@ -231,12 +230,12 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-2ccc306f-a2d2-4b6b-aeff-f100be8ec2bb",
+        "section_color_scheme": "scheme-7c0ecaf6-dfaf-478b-a34d-ba08f44347ec",
         "color_scheme": "scheme-2ccc306f-a2d2-4b6b-aeff-f100be8ec2bb",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 64,
-        "padding_bottom": 0
+        "padding_bottom": 64
       }
     },
     "image_with_text_html_c7ChUF": {
@@ -261,6 +260,7 @@
         "heading_YhBbUT",
         "text_gWeCEz"
       ],
+      "disabled": true,
       "custom_css": [
         "p {color: #fff;}"
       ],
@@ -317,9 +317,10 @@
         "column_4hWdjf",
         "column_dmiRGY"
       ],
+      "disabled": true,
       "custom_css": [
         "p {color: #fff;}",
-        "@media screen and (min-width: 750px){.multicolumn {padding-top: 32px;}}"
+        "@media screen and (min-width: 750px) {.multicolumn {padding-top: 32px; }}"
       ],
       "name": "Multicolumn HTML",
       "settings": {
@@ -342,6 +343,218 @@
         "padding_top": 0,
         "padding_bottom": 64
       }
+    },
+    "rich_text_6cJMzB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3yCqa3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Enhancing results at every stage of the patient journey",
+            "heading_size": "h2"
+          }
+        },
+        "text_3BVKDr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ALLSKIN | MED goes beyond traditional skincare, combining advanced formulations<br/>with professional protocols to support skin health and treatment enhancement through<br/>three essential stages.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3yCqa3",
+        "text_3BVKDr"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-7c0ecaf6-dfaf-478b-a34d-ba08f44347ec",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": ""
+      }
+    },
+    "multirow_XitdhC": {
+      "type": "multirow",
+      "blocks": {
+        "row_n6qLer": {
+          "type": "row",
+          "settings": {
+            "caption": "01. PRE-PROCEDURE",
+            "heading": "Prepare the Skin. Optimise Its Potential.",
+            "text": "<p>Healthy, resilient skin provides the foundation for effective treatment preparation. Our targeted skincare regimes help optimise skin condition, reinforce barrier function and support skin readiness ahead of professional aesthetic procedures.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_krPywW": {
+          "type": "row",
+          "settings": {
+            "caption": "02. IN-CLINIC",
+            "heading": "Support Recovery. Enhance Results.",
+            "text": "<p>Clinically developed formulations work alongside professional aesthetic treatments to support the skin's natural repair and regeneration processes, helping soothe post-procedure skin, improve comfort and reduce visible signs of irritation.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_dEVkan": {
+          "type": "row",
+          "settings": {
+            "caption": "03. AT-HOME",
+            "heading": "Extend the Benefits Beyond the Clinic.",
+            "text": "<p>Our targeted homecare regimes complement professional treatments, supporting skin recovery, ongoing regeneration and long-term skin health while helping maintain results between clinic visits.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_n6qLer",
+        "row_krPywW",
+        "row_dEVkan"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-7c0ecaf6-dfaf-478b-a34d-ba08f44347ec",
+        "row_color_scheme": "scheme-7c0ecaf6-dfaf-478b-a34d-ba08f44347ec",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_html_Frf4Rx": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_Wh66FD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-regeneration-ampoules-1200x800_c42bcb7b-745c-4643-83e5-c7f3b4cfe460.jpg",
+            "title": "",
+            "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\">REGENERATION &amp; RECOVERY</p>\n<h3>ALLSKIN | MED<br>Regenerating Ampoules</h3>\n<p>An intensive regenerative concentrate powered by 40% SCA® PRO Growth Factor Technology. Developed to support skin renewal, improve visible signs of ageing and soothe skin following professional aesthetic treatments.</p>",
+            "link_label": "Discover Regenerating Ampoules",
+            "link": ""
+          }
+        },
+        "column_kiBcy9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-collagen-activation-barrier_-1200x800.jpg",
+            "title": "",
+            "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\">COLLAGEN ACTIVATION &amp; BARRIER SUPPORT</p>\n<h3>ALLSKIN | MED<br>Collagen Activation Barrier+ Plan</h3>\n<p>A structured, three-product homecare plan combining targeted collagen activation with\nadvanced skin barrier support. Designed to prepare the skin for aesthetic treatments,\nsupport recovery and optimise skin health throughout the treatment journey.</p>",
+            "link_label": "Discover Collagen Activation Barrier+",
+            "link": ""
+          }
+        },
+        "column_kzjaC9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-pigment-control-plan-1200x800.jpg",
+            "title": "",
+            "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\">PIGMENTATION MANAGEMENT</p>\n<h3>ALLSKIN | MED<br>Pigment Control Plan</h3>\n<p>A comprehensive homecare protocol combining targeted depigmenting ingredients, oral supplementation and advanced photoprotection. Developed to help improve uneven skin tone, complement professional pigmentation treatments and maintain\nresults.</p>",
+            "link_label": "Discover Pigment Control Plan",
+            "link": ""
+          }
+        },
+        "column_awVYQ6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/asm-hair-regeneration-plan-1200x800.jpg",
+            "title": "",
+            "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\">HAIR &amp; SCALP REGENERATION</p>\n<h3>ALLSKIN | MED<br>Hair Regeneration Plan</h3>\n<p>A science-led, three-step homecare regime combining Wharton Gel Complex® Growth Factor Technology with targeted scalp care and nutritional support. Designed to complement professional hair regeneration treatments and support healthier, fuller looking\nhair.</p>",
+            "link_label": "Discover Hair Regeneration Plan",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Wh66FD",
+        "column_kiBcy9",
+        "column_kzjaC9",
+        "column_awVYQ6"
+      ],
+      "custom_css": [
+        "h3 {font-weight: 700; padding-top: 1rem; padding-bottom: 1rem;}"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "anchor_id": "",
+        "title": "Discover ALLSKIN | MED",
+        "heading_size": "h2",
+        "richtext": "<p>From skin preparation, correction and stabilisation to stimulation, protection and<br/>haircare, ALLSKIN | MED offers targeted formulations, professional skincare regimes<br/>and dedicated treatment-enhancement plans designed to complement aesthetic<br/>procedures and support individual skin needs.</p>",
+        "narrow_text": true,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "column_link_style": "text",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-7c0ecaf6-dfaf-478b-a34d-ba08f44347ec",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_BK3w6a": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WQx4ze": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unlock the benefits of ALLSKIN | MED for your clinic",
+            "heading_size": "h2"
+          }
+        },
+        "text_tXTnHL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Developed exclusively for professional skin clinics, ALLSKIN | MED combines patented<br/>innovation, clinically researched formulations and structured skincare protocols to<br/>complement advanced aesthetic treatments.</p><p>Discover how our range can support patient skin health, enhance your treatment<br/>offering and extend professional care beyond the clinic.</p>"
+          }
+        },
+        "button_rP7kqD": {
+          "type": "button",
+          "settings": {
+            "button_label": "Become a stockist",
+            "button_link": "shopify://pages/become-a-stockist",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_WQx4ze",
+        "text_tXTnHL",
+        "button_rP7kqD"
+      ],
+      "custom_css": [
+        "p {color:#fff;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2ccc306f-a2d2-4b6b-aeff-f100be8ec2bb",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
@@ -351,6 +564,10 @@
     "multicolumn_fLGkGW",
     "image_with_text_html_9bLHQV",
     "image_with_text_html_c7ChUF",
-    "multicolumn_html_AKReVe"
+    "multicolumn_html_AKReVe",
+    "rich_text_6cJMzB",
+    "multirow_XitdhC",
+    "multicolumn_html_Frf4Rx",
+    "rich_text_BK3w6a"
   ]
 }
