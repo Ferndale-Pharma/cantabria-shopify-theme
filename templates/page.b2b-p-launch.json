@@ -216,7 +216,7 @@
       "name": "Category cards",
       "settings": {
         "heading": "Six Dermatological Categories",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "subheading": "Connecting concerns with professionally-tailored solutions.",
         "intro": "<p>The portfolio provides solutions across six key dermatological categories: <strong>photoprotection, anti-ageing, pigmentation, acne-prone skin, sensitive & reactive skin, and hair & scalp health. </strong>&nbsp;<br/><br/>The category-led approach makes it easier to navigate the portfolio by concern, identify the relevant ranges and tailor recommendations to individual needs, treatment journeys and budgets.&nbsp;</p>",
         "show_divider": false,
@@ -266,7 +266,9 @@
       ],
       "custom_css": [
         "p {color: #fff;}",
-        "a {color: #165c7d;}"
+        "a {color: #165c7d;}",
+        ".rich-text__blocks {max-width: 100%;}",
+        "@media screen and (min-width: 750px) {p {max-width: 78rem; margin: 1rem auto; }}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -406,11 +408,12 @@
         "range_card_jAmHWp",
         "range_card_CjtgEz"
       ],
+      "custom_css": [],
       "name": "Range cards",
       "settings": {
         "caption": "OUR SPECIALIST BRANDS",
         "heading": "Specialist Science. More Opportunities for Your Pharmacy.&nbsp;",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "intro": "<p>Discover our science-led brands, combining innovative technologies and specialist formulations to support professional skincare recommendations.</p>",
         "columns_desktop": 3,
         "swipe_on_mobile": true,
