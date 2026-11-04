@@ -365,6 +365,10 @@
         "heading_3yCqa3",
         "text_3BVKDr"
       ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 100%;}",
+        "@media screen and (min-width: 750px) {p {max-width: 78rem; margin: 1rem auto; }}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -542,7 +546,9 @@
         "button_rP7kqD"
       ],
       "custom_css": [
-        "p {color:#fff;}"
+        "p {color: #fff;}",
+        ".rich-text__blocks {max-width: 100%;}",
+        "@media screen and (min-width: 750px) {p {max-width: 78rem; margin: 1rem auto; }}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -554,6 +560,38 @@
         "padding_top": 64,
         "padding_bottom": 64,
         "container_id": ""
+      }
+    },
+    "collapsible_content_Eewyxq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_g4L3JG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "References",
+            "icon": "question_mark",
+            "row_content": "<ol><li>Iglesias-de la Cruz MC, et al. (2012). Secretion of the mollusc Cryptomphalus<br/>aspersa promotes proliferation, migration and survival of keratinocytes and dermal<br/>fibroblasts in vitro. International Journal of Cosmetic Science, 34(2), 183–189.</li><li>Truchuelo MT, et al. (2020). A cosmetic treatment based on the secretion of<br/>Cryptomphalus aspersa 40% improves the clinical results after the use of non-ablative<br/>fractional laser in skin aging. Journal of Cosmetic Dermatology, 19(3), 622–628.</li><li>Fernández-González P, Vitale M, Truchuelo MT. (2020). Early and maintained<br/>application of the secretion of Cryptomphalus aspersa (SCA) 40% improves cutaneous<br/>healing after ablative fractional laser in skin aging. Journal of Cosmetic Dermatology.</li></ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_g4L3JG"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-7c0ecaf6-dfaf-478b-a34d-ba08f44347ec",
+        "container_color_scheme": "scheme-7c0ecaf6-dfaf-478b-a34d-ba08f44347ec",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     }
   },
@@ -568,6 +606,7 @@
     "rich_text_6cJMzB",
     "multirow_XitdhC",
     "multicolumn_html_Frf4Rx",
-    "rich_text_BK3w6a"
+    "rich_text_BK3w6a",
+    "collapsible_content_Eewyxq"
   ]
 }
