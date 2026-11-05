@@ -102,7 +102,8 @@
       "name": "Single Image",
       "settings": {
         "image": "shopify://shop_images/FERN-IMG-00265_CLDermLandingPage_Assets_Jul26_Image02.png",
-        "image_width_value": 800,
+        "image_width_mobile": 400,
+        "image_width_desktop": 800,
         "image_width_unit": "px",
         "padding_top": 0,
         "padding_bottom": 0,
@@ -365,6 +366,7 @@
         "h3 {color: #000;}"
       ],
       "settings": {
+        "anchor_id": "",
         "title": "Clinically proven solutions",
         "heading_size": "h2",
         "richtext": "",
@@ -373,6 +375,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
+        "column_link_style": "text",
         "background_style": "none",
         "button_label": "Become a stockist",
         "button_link": "#contact",
@@ -435,6 +438,7 @@
       ],
       "name": "Multicolumn HTML",
       "settings": {
+        "anchor_id": "",
         "title": "Target every stage of the acne-prone skin cycle",
         "heading_size": "h2",
         "richtext": "",
@@ -443,6 +447,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "center",
+        "column_link_style": "text",
         "background_style": "none",
         "button_label": "Become a stockist",
         "button_link": "#contact",
@@ -715,6 +720,7 @@
       "block_order": [
         "powerful_form_builder_app_block_4jGWYg"
       ],
+      "disabled": true,
       "custom_css": [
         "button.submit {background-color: #00843d; border-color: #00843d;}",
         ".globo-form-id-153316 .globo-form-app .globo-form-control .checkbox-wrapper .checkbox-input ~ .checkbox-label:before {border-color: #00843d;}",
@@ -722,6 +728,16 @@
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "custom_liquid_xepyqN": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/263063175770357\"></script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "collapsible_content_qgf3fA": {
@@ -773,6 +789,7 @@
     "multicolumn_dhyzrM",
     "rich_text_qPPpVg",
     "17830753877a7cbb22",
+    "custom_liquid_xepyqN",
     "collapsible_content_qgf3fA"
   ]
 }
