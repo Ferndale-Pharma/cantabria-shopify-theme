@@ -277,6 +277,7 @@
         "h3 {color: #000;}"
       ],
       "settings": {
+        "anchor_id": "",
         "title": "Fernblock is clinically proven to:",
         "heading_size": "h2",
         "richtext": "",
@@ -285,6 +286,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
+        "column_link_style": "text",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
@@ -700,8 +702,19 @@
       "block_order": [
         "powerful_form_builder_app_block_zxbgeM"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
+      }
+    },
+    "custom_liquid_Ae7kra": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/263063175770357\"></script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "multicolumn_E3Gq6a": {
@@ -844,6 +857,7 @@
     "multicolumn_JJ4kVD",
     "rich_text_FQ9WL3",
     "17431563177635ae7a",
+    "custom_liquid_Ae7kra",
     "multicolumn_E3Gq6a",
     "collapsible_content_V3kJN7"
   ]
