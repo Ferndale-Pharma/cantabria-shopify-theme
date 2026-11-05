@@ -62,23 +62,14 @@
     "rich_text_qQbXgr": {
       "type": "rich-text",
       "blocks": {
-        "heading_X6CNRn": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h2"
-          }
-        },
         "text_TkEfEn": {
           "type": "text",
           "settings": {
-            "text": "<p>ALLSKIN | MED is Cantabria Labs' clinic-exclusive range of advanced skin, scalp and haircare, developed for medical aesthetic practice. The medical-grade solutions combine patented technologies with evidence-based ingredients to deliver targeted skincare regimes and professional treatment-enhancement plans, supporting skin health and aesthetic treatment outcomes.</p>"
+            "text": "<p>ALLSKIN | MED is Cantabria Labs' clinic-exclusive range of advanced skin, scalp and haircare, bringing together dermatological innovation, patented technologies and professional expertise.</p><p>Designed to work alongside aesthetic treatments, the range offers targeted formulations and structured skincare protocols to support skin health, optimise treatment preparation and recovery, and extend care beyond the clinic.</p>"
           }
         }
       },
       "block_order": [
-        "heading_X6CNRn",
         "text_TkEfEn"
       ],
       "name": "t:sections.rich-text.presets.name",
@@ -99,14 +90,14 @@
         "heading_kJeedY": {
           "type": "heading",
           "settings": {
-            "heading": "Why is skin health essential to aesthetic treatment results?",
+            "heading": "A philosophy rooted in complete skin health",
             "heading_size": "h2"
           }
         },
         "text_XUXtJF": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Healthy, resilient skin is the foundation of effective treatment preparation, recovery and results.</strong></p><p>Skin health plays a vital role in how the skin responds to professional aesthetic treatments. A weakened skin barrier, dehydration and inflammation can impact treatment outcomes and recovery. Targeted skincare helps prepare the skin before procedures, support regeneration and recovery, and maintain results for long-term skin health.</p><p><strong>ALLSKIN | MED combines patented technologies, evidence-based ingredients and professional treatment protocols to enhance skin readiness, support recovery and help optimise aesthetic treatment outcomes.</strong></p>",
+            "text": "<p><strong>At ALLSKIN | MED, we believe that achieving exceptional aesthetic outcomes begins with understanding the skin</strong></p><p>Recognising the complexity of the skin and the different needs of each individual, the range brings together patented technologies and established dermatological active ingredients in advanced formulations.<br/>At the heart of this philosophy is the Integral Layer System, an approach designed to target different layers of the skin through complementary active ingredients and technologies.</p><p><strong>Developed exclusively for clinics, ALLSKIN | MED provides the tools to create tailored skincare protocols and regimes that address individual skin needs.</strong></p>",
             "text_style": "body"
           }
         }
@@ -117,7 +108,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00309_CL.co.uk_ASMRangePageAssets_Nov26_01.jpg",
+        "image": "shopify://shop_images/allskinmed_correction-stabilisation_retinol-pigment-control-emulsion_model-woman-01.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
