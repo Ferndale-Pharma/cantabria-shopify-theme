@@ -405,7 +405,8 @@
         "column_fdrJL7"
       ],
       "custom_css": [
-        "h3 {font-weight: 700; margin-top: 1rem; margin-bottom: 1rem;}"
+        "h3 {font-weight: 700; margin-top: 1rem; margin-bottom: 1rem;}",
+        ".multicolumn-card__info>:nth-child(2) {margin-top: auto;}"
       ],
       "name": "Multicolumn HTML",
       "settings": {
