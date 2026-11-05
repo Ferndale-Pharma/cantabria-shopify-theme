@@ -264,7 +264,7 @@
       "name": "Category cards",
       "settings": {
         "heading": "Six Dermatological Categories",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "subheading": "Connecting concerns with professionally-tailored solutions.",
         "intro": "<p>The portfolio provides solutions across six key dermatological categories: <strong>photoprotection, anti-ageing, pigmentation, acne-prone skin, sensitive & reactive skin, and hair & scalp health. </strong>&nbsp;<br/><br/>The category-led approach makes it easier to navigate the portfolio by concern, identify the relevant ranges and tailor recommendations to individual needs, treatment journeys and budgets.&nbsp;</p>",
         "show_divider": false,
@@ -409,7 +409,7 @@
       "settings": {
         "caption": "OUR SPECIALIST BRANDS",
         "heading": "Specialist Science. More Opportunities for Your Business.&nbsp;",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "intro": "<p>Discover our science-led brands, combining innovative technologies and specialist formulations to support professional skincare recommendations and aesthetic treatment pathways.</p>",
         "columns_desktop": 3,
         "swipe_on_mobile": true,
@@ -438,7 +438,7 @@
         "button_9zzTPX"
       ],
       "custom_css": [
-        ".button-row__button-wrapper .button {width: initial;margin-left: auto;margin-right: auto;}"
+        ".button-row__button-wrapper .button {width: initial; margin-left: auto; margin-right: auto;}"
       ],
       "name": "Button row",
       "settings": {
@@ -886,11 +886,22 @@
       "block_order": [
         "powerful_form_builder_app_block_pfM39h"
       ],
+      "disabled": true,
       "custom_css": [
         ".shopify-app-block {margin-bottom: 64px;}"
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "custom_liquid_qLtzyN": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/263063175770357\"></script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "multicolumn_a3yNRj": {
@@ -1002,6 +1013,7 @@
     "multicolumn_KnCpLj",
     "rich_text_E3DEEb",
     "apps_ABTrFX",
+    "custom_liquid_qLtzyN",
     "multicolumn_a3yNRj"
   ]
 }
