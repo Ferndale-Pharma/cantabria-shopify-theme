@@ -97,7 +97,7 @@
         "text_XUXtJF": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>At ALLSKIN | MED, we believe that achieving exceptional aesthetic outcomes begins with understanding the skin</strong></p><p>Recognising the complexity of the skin and the different needs of each individual, the range brings together patented technologies and established dermatological active ingredients in advanced formulations.<br/>At the heart of this philosophy is the Integral Layer System, an approach designed to target different layers of the skin through complementary active ingredients and technologies.</p><p><strong>Developed exclusively for clinics, ALLSKIN | MED provides the tools to create tailored skincare protocols and regimes that address individual skin needs.</strong></p>",
+            "text": "<p><strong>We believe that achieving exceptional aesthetic outcomes begins with understanding the skin</strong></p><p>Recognising the complexity of the skin and the different needs of each individual, the range brings together patented technologies and established dermatological active ingredients in advanced formulations.&nbsp;</p><p>At the heart of this philosophy is the Integral Layer System, an approach designed to target different layers of the skin through complementary active ingredients and technologies.</p><p><strong>Developed exclusively for clinics, ALLSKIN | MED provides the tools to create tailored skincare protocols and regimes that address individual skin needs.</strong></p>",
             "text_style": "body"
           }
         }
@@ -387,7 +387,7 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00309_CL.co.uk_ASMRangePageAssets_Nov26_02_1.jpg",
-            "caption": "01. PRE-PROCEDURE",
+            "caption": "1. PRE-PROCEDURE",
             "heading": "Prepare the Skin. Optimise Its Potential.",
             "text": "<p>Healthy, resilient skin provides the foundation for effective treatment preparation. Our targeted skincare regimes help optimise skin condition, reinforce barrier function and support skin readiness ahead of professional aesthetic procedures.</p>",
             "button_label": "",
@@ -398,7 +398,7 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00309_CL.co.uk_ASMRangePageAssets_Nov26_03.jpg",
-            "caption": "02. IN-CLINIC",
+            "caption": "2. IN-CLINIC",
             "heading": "Support Recovery. Enhance Results.",
             "text": "<p>Clinically developed formulations work alongside professional aesthetic treatments to support the skin's natural repair and regeneration processes, helping soothe post-procedure skin, improve comfort and reduce visible signs of irritation.</p>",
             "button_label": "",
@@ -409,7 +409,7 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00309_CL.co.uk_ASMRangePageAssets_Nov26_04.jpg",
-            "caption": "03. AT-HOME",
+            "caption": "3. AT-HOME",
             "heading": "Extend the Benefits Beyond the Clinic.",
             "text": "<p>Our targeted homecare regimes complement professional treatments, supporting skin recovery, ongoing regeneration and long-term skin health while helping maintain results between clinic visits.</p>",
             "button_label": "",
