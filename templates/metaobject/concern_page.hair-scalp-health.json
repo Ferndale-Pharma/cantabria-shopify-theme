@@ -203,12 +203,241 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "multicolumn_accordion_ffmKrY": {
+      "type": "multicolumn-accordion",
+      "blocks": {
+        "column_rgdmjn": {
+          "type": "column",
+          "settings": {
+            "title": "Who is affected by hair thinning?",
+            "text": "<p>Hair thinning can affect both men and women, from early changes in density to more noticeable hair loss. Concerns may include reduced volume, weakened strands or changes in scalp condition.</p>",
+            "hidden_text": "<p>Targeted haircare can support individuals experiencing thinning and those looking to maintain scalp health, particularly alongside professional hair regeneration treatments.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WDdVK3": {
+          "type": "column",
+          "settings": {
+            "title": "Why is scalp health important for hair regeneration?",
+            "text": "<p>The scalp provides the environment in which hair follicles function. Excess sebum, dead skin cells and flaking can contribute to scalp imbalance, making effective cleansing and exfoliation essential for maintaining scalp condition.</p>",
+            "hidden_text": "<p>Targeted regenerative ingredients can provide additional support for follicular activity and healthier-looking hair.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9G846d": {
+          "type": "column",
+          "settings": {
+            "title": "How can professional treatments and homecare work together?",
+            "text": "<p>Professional hair regeneration treatments are designed to target follicular activity and improve hair density and quality. Advanced technologies, including Wharton Gel Complex®, can be incorporated into targeted clinical protocols.</p>",
+            "hidden_text": "<p>When combined with structured homecare, these treatments provide a comprehensive approach to scalp health and ongoing haircare.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_rgdmjn",
+        "column_WDdVK3",
+        "column_9G846d"
+      ],
+      "name": "Multicolumn with accordion",
+      "settings": {
+        "title": "Understanding hair & scalp health",
+        "heading_size": "h2",
+        "title_alignment": "center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "read_more_label": "Read more",
+        "read_less_label": "Read less",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_html_RfFfaL": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "heading_ab8Ucp": {
+          "type": "heading",
+          "settings": {
+            "heading": "The importance of scalp health",
+            "heading_size": "h2"
+          }
+        },
+        "text_7kYypx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The scalp is an extension of the skin and requires targeted care to maintain a healthy environment for hair follicles.</p>\n<p>Effective scalp care helps manage excess sebum, flaking and build-up while supporting hydration and scalp balance. For those experiencing hair thinning, combining scalp care\nwith regenerative formulations provides a more comprehensive approach to hair health.</p>\n<p><strong>ALLSKIN | MED combines advanced scalp care, patented growth factor technology and professional treatment protocols to support healthier, stronger and fuller looking hair.</strong></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ab8Ucp",
+        "text_7kYypx"
+      ],
+      "custom_css": [
+        "h3 {font-weight: 700; color: #121212;}"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "anchor_id": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_html_9JTXge": {
+      "type": "image-with-text-html",
+      "blocks": {
+        "caption_maKMDE": {
+          "type": "caption",
+          "settings": {
+            "caption": "THE SCIENCE",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_tdTXxw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introducing Wharton Gel Complex® Technology",
+            "heading_size": "h2"
+          }
+        },
+        "text_aiTEkH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wharton Gel Complex® is a patented growth factor technology developed to support scalp regeneration and follicular activity. Rich in <strong>growth factors, hyaluronic acid and glycosaminoglycans</strong>, it helps support the scalp environment and promote stronger, healthier-looking hair.</p>\n<p>The technology features in ALLSKIN | MED’s professional <strong>Anti-Hair Loss &amp; Redensifying Booster (1.5%)</strong> and complementary <strong>Anti-Hair Loss &amp; Redensifying Lotion (1%)</strong>, providing targeted support through in-clinic treatments and ongoing homecare.</p>\n<p style=\"font-size:15px;line-height:1.6;margin-top:24px;\">In a clinical evaluation involving 16 patients, the professional Redensifying Booster used alongside microneedling demonstrated, after 90 days:<sup>1</sup></p>\n<ul style=\"list-style:none;margin:16px 0;padding:0;display:flex;flex-wrap:wrap;gap:12px;\">\n<li style=\"flex:1 1 140px;background:#ffffff;padding:20px 16px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:4px;\">\n<span style=\"font-family:var(--font-heading-family);font-weight:700;font-size:40px;line-height:1.1;letter-spacing:.6px;color:#165c7d;\">79%</span><span style=\"font-size:15px;line-height:1.4;\">reduction in hair loss</span>\n</li>\n<li style=\"flex:1 1 140px;background:#ffffff;padding:20px 16px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:4px;\">\n<span style=\"font-family:var(--font-heading-family);font-weight:700;font-size:40px;line-height:1.1;letter-spacing:.6px;color:#165c7d;\">67%</span><span style=\"font-size:15px;line-height:1.4;\">increase in hair thickness</span>\n</li>\n<li style=\"flex:1 1 140px;background:#ffffff;padding:20px 16px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:4px;\">\n<span style=\"font-family:var(--font-heading-family);font-weight:700;font-size:40px;line-height:1.1;letter-spacing:.6px;color:#165c7d;\">9%</span><span style=\"font-size:15px;line-height:1.4;\">increase in hair density</span>\n</li>\n</ul>\n<p style=\"font-size:13px;line-height:1.6;letter-spacing:.4px;\">Results relate to the professional Booster and microneedling protocol, not the standalone at-home Hair Regeneration Plan.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_maKMDE",
+        "heading_tdTXxw",
+        "text_aiTEkH"
+      ],
+      "name": "Image with text HTML",
+      "settings": {
+        "anchor_id": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_html_MRizCB": {
+      "type": "multicolumn-html",
+      "blocks": {
+        "column_q8W4KE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ProductOnly-ProductImages-SkinResist-VelvetCleanser-1100x1530.jpg",
+            "title": "",
+            "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 1 | Cleanse &amp; Exfoliate</strong></p>\n<h3>ALLSKIN | MED Exfoliating Shampoo</h3>\n<p>Gently exfoliates and removes excess sebum and flaking, helping maintain scalp balance and create a healthier environment for hair follicles.</p>",
+            "link_label": "View product",
+            "link": ""
+          }
+        },
+        "column_zeWrFn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ProductOnly-ProductImages-SkinResist-SensageSerum-1100x1530.jpg",
+            "title": "",
+            "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 2 | Stimulate &amp; Strengthen</strong></p>\n<h3>ALLSKIN | MED Anti-Hair Loss &amp; Redensifying Lotion</h3>\n<p>Powered by 1% Wharton Gel Complex® Technology, melatonin and caffeine to support scalp vitality, follicular activity and stronger, fuller-looking hair.</p>",
+            "link_label": "View product",
+            "link": ""
+          }
+        },
+        "column_XQ8r7w": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ProductOnly-ProductImages-SkinResist-DailyFluid-1100x1530_1.jpg",
+            "title": "",
+            "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 3 | Nourish</strong></p>\n<h3>ALLSKIN | MED Oral Hair Capsules</h3>\n<p>A targeted blend of vitamins, minerals, amino acids and botanical extracts to provide nutritional support for hair strength, quality and resilience.</p>",
+            "link_label": "View product",
+            "link": ""
+          }
+        },
+        "column_fdrJL7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-A-REmulsion.jpg",
+            "title": "",
+            "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Professional In-Clinic Treatment</strong></p>\n<h3>ALLSKIN | MED Anti-Hair Loss &amp; Redensifying Booster</h3>\n<p>An advanced treatment powered by 1.5% Wharton Gel Complex®, designed for professional use with microneedling to support follicular activity and improve hair thickness and density.</p>",
+            "link_label": "View product",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_q8W4KE",
+        "column_zeWrFn",
+        "column_XQ8r7w",
+        "column_fdrJL7"
+      ],
+      "custom_css": [
+        "h3 {font-weight: 700; margin-top: 1rem; margin-bottom: 1rem;}"
+      ],
+      "name": "Multicolumn HTML",
+      "settings": {
+        "anchor_id": "",
+        "title": "Targeted hair & scalp care for thinning hair",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "column_link_style": "button",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "image_banner_separate_VfDREC",
     "rich_text_KNHTFK",
     "multicolumn_YUjttE",
-    "image_with_text_html_q6DMhJ"
+    "image_with_text_html_q6DMhJ",
+    "multicolumn_accordion_ffmKrY",
+    "image_with_text_html_RfFfaL",
+    "image_with_text_html_9JTXge",
+    "multicolumn_html_MRizCB"
   ]
 }
