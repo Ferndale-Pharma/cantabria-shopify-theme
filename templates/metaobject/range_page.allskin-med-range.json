@@ -45,6 +45,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00309_CantabriaLabs_ASM_RangeImage_2560x1280_12023832-4175-486e-9edb-2edfd758bb67.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00309_CantabriaLabs_ASM_RangeImage_1080x1080_88e38fd2-15df-4269-9ee7-6e8d17b14ea6.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
