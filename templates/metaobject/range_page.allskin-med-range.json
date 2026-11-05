@@ -115,6 +115,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00309_CL.co.uk_ASMRangePageAssets_Nov26_01.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -135,6 +136,7 @@
         "column_ae9Xej": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00309_CL.co.uk_ASMRangePageAssets_Nov26_Icon01.png",
             "title": "Patented Technologies",
             "text": "<p>Innovative technologies designed to support skin regeneration, barrier defence and scalp health.</p>",
             "link_label": "",
@@ -144,6 +146,7 @@
         "column_b7i3HV": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00309_CL.co.uk_ASMRangePageAssets_Nov26_Icon03.png",
             "title": "Treatment-Enhancement Plans",
             "text": "<p>Targeted protocols to prepare skin, support recovery and enhance aesthetic treatment outcomes.</p>",
             "link_label": "",
@@ -153,6 +156,7 @@
         "column_wazPk6": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00309_CL.co.uk_ASMRangePageAssets_Nov26_Icon04.png",
             "title": "20+ Scientific Publications",
             "text": "<p>Over two decades of research supporting the regenerative properties of SCA® PRO<br/>Growth Factor Technology.</p>",
             "link_label": "",
@@ -162,6 +166,7 @@
         "column_wCwq6d": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00309_CL.co.uk_ASMRangePageAssets_Nov26_Icon02.png",
             "title": "Clinic-Exclusive Skincare",
             "text": "<p>Advanced skin, scalp and haircare developed for medical aesthetic practice.</p>",
             "link_label": "",
@@ -181,7 +186,7 @@
         "heading_size": "h2",
         "richtext": "",
         "narrow_text": false,
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "center",
@@ -224,6 +229,7 @@
       "name": "Image with text HTML",
       "settings": {
         "anchor_id": "",
+        "image": "shopify://shop_images/FERN-IMG-00309_CL.co.uk_ASMRangePageAssets_Nov26_05.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -357,7 +363,7 @@
         "text_3BVKDr": {
           "type": "text",
           "settings": {
-            "text": "<p>ALLSKIN | MED goes beyond traditional skincare, combining advanced formulations<br/>with professional protocols to support skin health and treatment enhancement through<br/>three essential stages.</p>"
+            "text": "<p>ALLSKIN | MED goes beyond traditional skincare, combining advanced formulations with professional protocols to support skin health and treatment enhancement through three essential stages.</p>"
           }
         }
       },
@@ -387,6 +393,7 @@
         "row_n6qLer": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00309_CL.co.uk_ASMRangePageAssets_Nov26_02_1.jpg",
             "caption": "01. PRE-PROCEDURE",
             "heading": "Prepare the Skin. Optimise Its Potential.",
             "text": "<p>Healthy, resilient skin provides the foundation for effective treatment preparation. Our targeted skincare regimes help optimise skin condition, reinforce barrier function and support skin readiness ahead of professional aesthetic procedures.</p>",
@@ -397,6 +404,7 @@
         "row_krPywW": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00309_CL.co.uk_ASMRangePageAssets_Nov26_03.jpg",
             "caption": "02. IN-CLINIC",
             "heading": "Support Recovery. Enhance Results.",
             "text": "<p>Clinically developed formulations work alongside professional aesthetic treatments to support the skin's natural repair and regeneration processes, helping soothe post-procedure skin, improve comfort and reduce visible signs of irritation.</p>",
@@ -407,6 +415,7 @@
         "row_dEVkan": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00309_CL.co.uk_ASMRangePageAssets_Nov26_04.jpg",
             "caption": "03. AT-HOME",
             "heading": "Extend the Benefits Beyond the Clinic.",
             "text": "<p>Our targeted homecare regimes complement professional treatments, supporting skin recovery, ongoing regeneration and long-term skin health while helping maintain results between clinic visits.</p>",
@@ -434,7 +443,7 @@
         "row_color_scheme": "scheme-7c0ecaf6-dfaf-478b-a34d-ba08f44347ec",
         "mobile_content_alignment": "center",
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 32
       }
     },
     "multicolumn_html_Frf4Rx": {
