@@ -360,7 +360,7 @@
         "column_q8W4KE": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ProductOnly-ProductImages-SkinResist-VelvetCleanser-1100x1530.jpg",
+            "image": "shopify://shop_images/ExfoliatingShampoo-ProductOnly-ProductImages-1100x1530.jpg",
             "title": "",
             "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 1 | Cleanse &amp; Exfoliate</strong></p>\n<h3>ALLSKIN | MED Exfoliating Shampoo</h3>\n<p>Gently exfoliates and removes excess sebum and flaking, helping maintain scalp balance and create a healthier environment for hair follicles.</p>",
             "link_label": "View product",
@@ -370,7 +370,7 @@
         "column_zeWrFn": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ProductOnly-ProductImages-SkinResist-SensageSerum-1100x1530.jpg",
+            "image": "shopify://shop_images/Anti-HairLoss_RedensifyingLotion-ProductOnly-ProductImages-1100x1530.jpg",
             "title": "",
             "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 2 | Stimulate &amp; Strengthen</strong></p>\n<h3>ALLSKIN | MED Anti-Hair Loss &amp; Redensifying Lotion</h3>\n<p>Powered by 1% Wharton Gel Complex® Technology, melatonin and caffeine to support scalp vitality, follicular activity and stronger, fuller-looking hair.</p>",
             "link_label": "View product",
@@ -380,7 +380,7 @@
         "column_XQ8r7w": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ProductOnly-ProductImages-SkinResist-DailyFluid-1100x1530_1.jpg",
+            "image": "shopify://shop_images/Anti-HairLossCapsules-ProductandBox-ProductImages-1100x1530.jpg",
             "title": "",
             "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 3 | Nourish</strong></p>\n<h3>ALLSKIN | MED Oral Hair Capsules</h3>\n<p>A targeted blend of vitamins, minerals, amino acids and botanical extracts to provide nutritional support for hair strength, quality and resilience.</p>",
             "link_label": "View product",
@@ -390,7 +390,7 @@
         "column_fdrJL7": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ProductOnly-ProductImages-1100x1530-A-REmulsion.jpg",
+            "image": "shopify://shop_images/Anti-HairLossRedensifyingBooster-ProductandBox-ProductImages-1100x1530.jpg",
             "title": "",
             "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Professional In-Clinic Treatment</strong></p>\n<h3>ALLSKIN | MED Anti-Hair Loss &amp; Redensifying Booster</h3>\n<p>An advanced treatment powered by 1.5% Wharton Gel Complex®, designed for professional use with microneedling to support follicular activity and improve hair thickness and density.</p>",
             "link_label": "View product",
@@ -406,7 +406,7 @@
       ],
       "custom_css": [
         "h3 {font-weight: 700; margin-top: 1rem; margin-bottom: 1rem;}",
-        ".multicolumn-card__info>:nth-child(2) {margin-top: auto;}"
+        ".multicolumn-card__info > :nth-child(2) {margin-top: auto;}"
       ],
       "name": "Multicolumn HTML",
       "settings": {
@@ -429,6 +429,194 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "cl_faqs_WUiFMi": {
+      "type": "cl-faqs",
+      "blocks": {
+        "faq_CAmxR8": {
+          "type": "faq",
+          "settings": {
+            "title": "What causes hair thinning?",
+            "answer": "<p>Hair thinning can have different underlying causes, including conditions such as<br/>androgenetic alopecia and telogen effluvium. Changes in follicular activity can affect<br/>hair density, thickness and overall quality.</p><p>A qualified healthcare professional can help assess the cause and recommend<br/>appropriate treatment and care.</p>"
+          }
+        },
+        "faq_Fr8tC8": {
+          "type": "faq",
+          "settings": {
+            "title": "Why is scalp health important for healthy hair?",
+            "answer": "<p>The scalp provides the environment in which hair follicles function. Maintaining scalp<br/>balance through effective cleansing, exfoliation and targeted care helps support<br/>follicular health and stronger, healthier-looking hair.</p>"
+          }
+        },
+        "faq_TtLf3G": {
+          "type": "faq",
+          "settings": {
+            "title": "What is Wharton Gel Complex® Technology?",
+            "answer": "<p>Wharton Gel Complex® is a patented growth factor technology containing growth<br/>factors, hyaluronic acid and glycosaminoglycans. It is designed to support scalp regeneration and follicular activity, helping improve hair strength, thickness and density when incorporated into appropriate professional protocols.</p>"
+          }
+        },
+        "faq_tKFX3w": {
+          "type": "faq",
+          "settings": {
+            "title": "How does the ALLSKIN | MED Hair Regeneration Plan work?",
+            "answer": "<p>The three-step plan combines Exfoliating Shampoo to cleanse and balance the scalp,<br/>Anti-Hair Loss & Redensifying Lotion to support follicular activity, and Oral Hair<br/>Capsules to provide nutritional support.</p><p>Designed for at-home use, it complements professional hair regeneration treatments<br/>and supports ongoing scalp care.</p>"
+          }
+        },
+        "faq_tL6wWV": {
+          "type": "faq",
+          "settings": {
+            "title": "How long does it take to see results?",
+            "answer": "<p>Results vary according to individual concerns and treatment protocols. In a 16-patient<br/>clinical evaluation, improvements in hair loss, thickness and density were reported after<br/>90 days using the professional Redensifying Booster with microneedling.¹</p><p>These results have not been established for the standalone Hair Regeneration Plan.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_CAmxR8",
+        "faq_Fr8tC8",
+        "faq_TtLf3G",
+        "faq_tKFX3w",
+        "faq_tL6wWV"
+      ],
+      "name": "Simple FAQs",
+      "settings": {
+        "title": "FAQs",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image_with_text_k8PA6i": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_VWAPyz": {
+          "type": "caption",
+          "settings": {
+            "caption": "Discover Advanced Hair & Scalp Care",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_qBzPyn": {
+          "type": "heading",
+          "settings": {
+            "heading": "When Science Meets Experience.",
+            "heading_size": "h2"
+          }
+        },
+        "text_njBKJb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ALLSKIN | MED combines patented growth factor technology, targeted homecare and professional treatment protocols to support healthier scalps and fuller-looking hair.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_YYUn4g": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore ALLSKIN | MED",
+            "button_link": "shopify://metaobjects/range_page/allskin-med",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_VWAPyz",
+        "heading_qBzPyn",
+        "text_njBKJb",
+        "button_YYUn4g"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_3fqMWp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UNHkG8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Are you looking to stock ALLSKIN | MED?",
+            "heading_size": "h2"
+          }
+        },
+        "text_FEPeiW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover our clinic-exclusive hair and scalp solutions, developed to complement professional hair regeneration treatments and support personalised patient care.</p>"
+          }
+        },
+        "button_CRA6x6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Become a Stockist",
+            "button_link": "shopify://pages/become-a-stockist",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UNHkG8",
+        "text_FEPeiW",
+        "button_CRA6x6"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "collapsible_content_HNYwPK": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_Qe4RLd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "References",
+            "icon": "question_mark",
+            "row_content": "<ol><li>Muñoz O, Vaño S. Measurement of the effectiveness of ALLSKIN | MED Redensifying Booster in 16 male and female patients using microneedling (1.5mm), across four sessions spaced four weeks apart. Data on file. Referenced in the ALLSKIN | MED Marketing & Campaign Plan, February 2026.</li></ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_Qe4RLd"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -439,6 +627,10 @@
     "multicolumn_accordion_ffmKrY",
     "image_with_text_html_RfFfaL",
     "image_with_text_html_9JTXge",
-    "multicolumn_html_MRizCB"
+    "multicolumn_html_MRizCB",
+    "cl_faqs_WUiFMi",
+    "image_with_text_k8PA6i",
+    "rich_text_3fqMWp",
+    "collapsible_content_HNYwPK"
   ]
 }
