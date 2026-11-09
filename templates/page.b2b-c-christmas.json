@@ -84,7 +84,7 @@
           "type": "column",
           "settings": {
             "title": "ALLSKIN | MED Collagen Activation Barrier+ Treatment Plan",
-            "text": "<p>In festive packaging with added value complimentary skincare!</p>",
+            "text": "<p>In festive packaging with added value complimentary skincare.</p>",
             "link_label": "View offer",
             "link": "#barrier"
           }
@@ -93,7 +93,7 @@
           "type": "column",
           "settings": {
             "title": "ALLSKIN | MED Collagen Activation Treatment Plan",
-            "text": "<p>In festive packaging with added value complimentary skincare!</p>",
+            "text": "<p>In festive packaging with added value complimentary skincare.</p>",
             "link_label": "View offer",
             "link": "#collagen"
           }
@@ -102,7 +102,7 @@
           "type": "column",
           "settings": {
             "title": "ALLSKIN | MED Preparation Protocol",
-            "text": "<p>In festive packaging with FREE ALLSKIN | MED Cleanser!</p>",
+            "text": "<p>In festive packaging with FREE ALLSKIN | MED Cleanser.</p>",
             "link_label": "View offer",
             "link": "#preparation"
           }
