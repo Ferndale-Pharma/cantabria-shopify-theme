@@ -133,7 +133,7 @@
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00303_CL_PostSummerSkinRenewal_WebsiteAssets_Oct26_03.jpg",
             "title": "Skin Renewal with ENDOCARE",
-            "text": "<p>A targeted approach to restoring hydration, supporting controlled skin renewal and improving overall skin quality</p>",
+            "text": "<p>A targeted approach to restoring hydration, supporting controlled skin renewal and improving overall skin quality.</p>",
             "link_label": "View Offer",
             "link": "#renewal",
             "link_new_tab": false
@@ -144,7 +144,7 @@
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00303_CL_PostSummerSkinRenewal_WebsiteAssets_Oct26_04.jpg",
             "title": "Support Acne-Prone Skin with BIRETIX",
-            "text": "<p>Bring together cleansing and targeted anti-blemish treatment with daily photoprotection</p>",
+            "text": "<p>Bring together cleansing and targeted anti-blemish treatment with daily photoprotection.</p>",
             "link_label": "View Offer",
             "link": "#acne",
             "link_new_tab": false
