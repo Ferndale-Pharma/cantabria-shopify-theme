@@ -38,7 +38,7 @@
         "text_DhrG8x": {
           "type": "text",
           "settings": {
-            "text": "Create more reasons for patients to purchase through your clinic this holiday season, with limited-edition Cantabria Labs promotions in festive packaging and added-value complimentary skincare.",
+            "text": "Create more reasons for patients to purchase through your clinic this holiday season, with <strong>Cantabria Labs' Black Friday promotions</strong> in festive packaging and added-value complimentary skincare.",
             "text_style": "body"
           }
         },
@@ -569,10 +569,10 @@
       "name": "Multicolumn HTML",
       "settings": {
         "anchor_id": "packs",
-        "title": "More Value For Your Clinic This Christmas&nbsp;",
+        "title": "Give the Gift of Healthy Skin - Our Black Friday Promotion",
         "heading_size": "h2",
-        "richtext": "<p>Stock up for the festive period and receive <strong>ready-to-gift skincare packs for your patients.</strong></p>",
-        "narrow_text": false,
+        "richtext": "<p>Stock up ahead of Black Friday and receive complimentary, <strong>ready-to-gift skincare packs </strong>to reward your patients throughout the festive season.</p>",
+        "narrow_text": true,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
@@ -594,14 +594,14 @@
         "heading_TQRXrK": {
           "type": "heading",
           "settings": {
-            "heading": "Supporting Your Festive Retail Strategy",
+            "heading": "Supporting your Black Friday & Festive Retail Strategy",
             "heading_size": "h2"
           }
         },
         "text_kLQep6": {
           "type": "text",
           "settings": {
-            "text": "<p>From premium treatment plans to added-value patient gifts, our festive offers are designed to help you <strong>create compelling seasonal recommendations, increase retail opportunities and give patients even more reason to purchase through your clinic.</strong>&nbsp;</p><p>Speak to your Clinic Development Manager about our Cantabria Labs festive promotions, recommended stock levels and how to make the most of this year’s gifting opportunities.&nbsp;</p>"
+            "text": "<p>Maximise your Black Friday and festive retail opportunities with exclusive Cantabria Labs offers, from limited-edition ALLSKIN | MED treatment plans to our Give the Gift of Healthy Skin promotion, designed to drive sales, reward patients and deliver added value.</p><p><strong>Speak to your Clinic Development Manager </strong>about our Black Friday and festive promotions, recommended stock levels and the tools available to help you maximise your seasonal retail opportunities.</p>"
           }
         }
       },
