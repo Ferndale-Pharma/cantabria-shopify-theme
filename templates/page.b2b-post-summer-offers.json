@@ -290,7 +290,7 @@
           "type": "button",
           "settings": {
             "button_label": "Discuss this Offer",
-            "button_link": "#enquire",
+            "button_link": "#contact",
             "button_style_secondary": false
           }
         }
@@ -368,6 +368,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
+        "column_link_style": "text",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -432,7 +433,7 @@
           "type": "button",
           "settings": {
             "button_label": "Discuss this Offer",
-            "button_link": "#enquire",
+            "button_link": "#contact",
             "button_style_secondary": false
           }
         }
@@ -510,6 +511,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
+        "column_link_style": "text",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -574,7 +576,7 @@
           "type": "button",
           "settings": {
             "button_label": "Discuss this Offer",
-            "button_link": "#enquire",
+            "button_link": "#contact",
             "button_style_secondary": false
           }
         }
@@ -652,6 +654,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
+        "column_link_style": "text",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -716,7 +719,7 @@
           "type": "button",
           "settings": {
             "button_label": "Discuss this Offer",
-            "button_link": "#enquire",
+            "button_link": "#contact",
             "button_style_secondary": false
           }
         }
@@ -804,6 +807,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "center",
+        "column_link_style": "text",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -868,7 +872,7 @@
           "type": "button",
           "settings": {
             "button_label": "Discuss this Offer",
-            "button_link": "#enquire",
+            "button_link": "#contact",
             "button_style_secondary": false
           }
         }
@@ -946,6 +950,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
+        "column_link_style": "text",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -1051,7 +1056,7 @@
         "is_heading": false,
         "padding_top": 64,
         "padding_bottom": 16,
-        "container_id": "enquire"
+        "container_id": "contact"
       }
     },
     "1790076620c67662e7": {
