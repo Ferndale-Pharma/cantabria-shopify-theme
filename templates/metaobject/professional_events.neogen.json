@@ -432,9 +432,10 @@
         "row_XKrJw6"
       ],
       "custom_css": [
-        ".image-with-text__media,.image-with-text__media--small,.image-with-text__media--medium,.image-with-text__media--large,.image-with-text__media--adapt {height: auto !important; padding-bottom: 0 !important; aspect-ratio: 1 / 1; width: 100%; max-width: 360px; margin-inline: auto; border-radius: 50%; overflow: hidden;}",
+        ".image-with-text__media--medium {height: auto !important; padding-bottom: 0 !important; aspect-ratio: 1 / 1; width: 100%; max-width: 360px; margin-inline: auto; border-radius: 50%; overflow: hidden;}",
         ".image-with-text__media img {position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top;}",
-        ".image-with-text__media-item {align-self: center;}"
+        ".image-with-text__media-item {align-self: center;}",
+        "@media screen and (max-width: 749px){.image-with-text__media--medium {max-width: 260px;}}"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
@@ -607,16 +608,59 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
-        "button_label": "Book your place – £25",
-        "button_link": "#book",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
         "padding_bottom": 64,
         "container_id": ""
+      }
+    },
+    "rich_text_jNYgRc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6Qx8g7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Book your place",
+            "heading_size": "h2"
+          }
+        },
+        "text_WjHwhH": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Limited to 100 places.</em></p><p><strong>Buy your ticket now to confirm your place.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6Qx8g7",
+        "text_WjHwhH"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": "book"
+      }
+    },
+    "custom_liquid_WT7xeq": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/263143416113345\"></script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 64
       }
     }
   },
@@ -630,6 +674,8 @@
     "rich_text_4Uan7h",
     "multirow_VtzhhF",
     "event_agenda_nR8tWg",
-    "multicolumn_wmxXLN"
+    "multicolumn_wmxXLN",
+    "rich_text_jNYgRc",
+    "custom_liquid_WT7xeq"
   ]
 }
