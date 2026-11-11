@@ -176,7 +176,7 @@
           "type": "button",
           "settings": {
             "button_label": "Talk to us about Festive Gifting",
-            "button_link": "#tell-me-more",
+            "button_link": "#contact",
             "button_style_secondary": false
           }
         }
@@ -442,7 +442,7 @@
           "type": "button",
           "settings": {
             "button_label": "Talk to us about Festive Gifting",
-            "button_link": "#tell-me-more",
+            "button_link": "#contact",
             "button_style_secondary": false
           }
         }
@@ -618,7 +618,7 @@
         "is_heading": false,
         "padding_top": 32,
         "padding_bottom": 0,
-        "container_id": "tell-me-more"
+        "container_id": "contact"
       }
     },
     "1790774719cb55995d": {
