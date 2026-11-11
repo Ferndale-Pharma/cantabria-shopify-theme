@@ -36,7 +36,7 @@
         "buttons_WpTKUk": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Book your place",
+            "button_label_1": "Book your place – £25",
             "button_link_1": "#book",
             "button_style_secondary_1": false,
             "button_label_2": "View agenda",
@@ -169,7 +169,7 @@
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "Book your place",
+        "button_label": "Book your place – £25",
         "button_link": "#book",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -399,7 +399,7 @@
             "caption": "Joolia Gilvey · 12:45–1:30pm",
             "heading": "NeoGen: Technology, Treatment & Clinical Outcomes",
             "text": "<p>What makes NeoGen different, which patients can benefit and what results can you realistically achieve? Joolia takes you behind the technology, sharing her practical experience of delivering NeoGen treatments alongside clinical case studies and patient results, from indications and patient selection to recovery profiles, safety and the high-profile treatments building demand.</p>",
-            "button_label": "Book your place",
+            "button_label": "Book your place – £25",
             "button_link": "#book"
           }
         },
@@ -410,7 +410,7 @@
             "caption": "Caroline Hall · 2:00–2:45pm",
             "heading": "Beyond The Device: The Critical Role of Medical-Grade Skincare Before and After NeoGen&nbsp;",
             "text": "<p>A successful treatment journey doesn’t begin and end with the procedure itself. Caroline explores how she incorporates ALLSKIN | MED alongside NeoGen in clinical practice: skin preparation, SCA® PRO Growth Factor Ampoules before and after treatment, recovery and barrier support, reducing downtime, ongoing collagen stimulation and practitioner-led homecare.</p>",
-            "button_label": "Book your place",
+            "button_label": "Book your place – £25",
             "button_link": "#book"
           }
         },
@@ -421,7 +421,7 @@
             "caption": "Lianne Sykes · 2:45–3:15pm",
             "heading": "From New Device to Fully Booked: Marketing NeoGen to Your Ideal Patients",
             "text": "<p>Investing in a device is only the beginning. In this practical, marketing-focused session, Lianne covers how to position NeoGen for your ideal patients, build anticipation before launch, create social content that educates and builds confidence, use results and patient journeys, turn interest into consultations and bookings, and keep momentum beyond launch.</p>",
-            "button_label": "Book your place",
+            "button_label": "Book your place – £25",
             "button_link": "#book"
           }
         }
@@ -506,7 +506,7 @@
           "settings": {
             "time": "2:45–3:15",
             "speaker": "Lianne Sykes",
-            "title": "Launching NeoGen: From Investment to Patient Demand",
+            "title": "From New Device to Fully Booked: Marketing NeoGen to Your Ideal Patients",
             "text": "<p>From new device to fully booked: marketing NeoGen to your ideal patients.</p>"
           }
         },
@@ -545,10 +545,10 @@
         "heading": "Agenda",
         "heading_size": "h1",
         "button_label": "Book your place – £25",
-        "button_link": "",
+        "button_link": "#book",
         "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
-        "padding_top": 96,
-        "padding_bottom": 96
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     }
   },
