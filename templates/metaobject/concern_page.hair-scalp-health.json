@@ -190,7 +190,8 @@
       "name": "Image with text HTML",
       "settings": {
         "anchor_id": "",
-        "height": "adapt",
+        "image": "shopify://shop_images/FERN-IMG-00311_CL.co.uk_SkinandScalpHealth_Assets_Nov26_01.jpg",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -220,6 +221,7 @@
         "column_WDdVK3": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00311_CL.co.uk_SkinandScalpHealth_Assets_Nov26_04.jpg",
             "title": "Why is scalp health important for hair regeneration?",
             "text": "<p>The scalp provides the environment in which hair follicles function. Excess sebum, dead skin cells and flaking can contribute to scalp imbalance, making effective cleansing and exfoliation essential for maintaining scalp condition.</p>",
             "hidden_text": "<p>Targeted regenerative ingredients can provide additional support for follicular activity and healthier-looking hair.</p>",
@@ -230,6 +232,7 @@
         "column_9G846d": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00311_CL.co.uk_SkinandScalpHealth_Assets_Nov26_05.jpg",
             "title": "How can professional treatments and homecare work together?",
             "text": "<p>Professional hair regeneration treatments are designed to target follicular activity and improve hair density and quality. Advanced technologies, including Wharton Gel Complex®, can be incorporated into targeted clinical protocols.</p>",
             "hidden_text": "<p>When combined with structured homecare, these treatments provide a comprehensive approach to scalp health and ongoing haircare.</p>",
@@ -292,6 +295,7 @@
       "name": "Image with text HTML",
       "settings": {
         "anchor_id": "",
+        "image": "shopify://shop_images/FERN-IMG-00311_CL.co.uk_SkinandScalpHealth_Assets_Nov26_06.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -340,6 +344,7 @@
       "name": "Image with text HTML",
       "settings": {
         "anchor_id": "",
+        "image": "shopify://shop_images/FERN-IMG-00311_CL.co.uk_SkinandScalpHealth_Assets_Nov26_02_fd211eeb-ad95-4576-85da-adef42ef62a1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -527,6 +532,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00311_CL.co.uk_SkinandScalpHealth_Assets_Nov26_07.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
