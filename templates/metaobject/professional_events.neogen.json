@@ -8,6 +8,460 @@
  * ------------------------------------------------------------
  */
 {
-  "sections": {},
-  "order": []
+  "sections": {
+    "image_banner_separate_8AFyRy": {
+      "type": "image-banner-separate",
+      "blocks": {
+        "text_MnzcAP": {
+          "type": "text",
+          "settings": {
+            "text": "8th February 2026 - manchester deansgate hotel",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "heading_LGwXWf": {
+          "type": "heading",
+          "settings": {
+            "heading": "NeoGen x ALLSKIN&nbsp;|&nbsp;MED",
+            "heading_size": "h1"
+          }
+        },
+        "text_CyFGfG": {
+          "type": "text",
+          "settings": {
+            "text": "The Treatment. The Results. The Opportunity.&nbsp;",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_WpTKUk": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Book your place",
+            "button_link_1": "#book",
+            "button_style_secondary_1": false,
+            "button_label_2": "View agenda",
+            "button_link_2": "#agenda",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_MnzcAP",
+        "heading_LGwXWf",
+        "text_CyFGfG",
+        "buttons_WpTKUk"
+      ],
+      "name": "Image Banner v2",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": true
+      }
+    },
+    "rich_text_hKHWVJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rfgK8J": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_Xp3HXi": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>What does it take to turn an innovative aesthetics treatment into a successful, in-demand service within your clinic?</h2><p>Join us for an exclusive afternoon on <strong>NeoGen nitrogen plasma technology</strong>, bringing together clinical expertise, real treatment results and practical marketing strategies. Alongside NeoGen, explore the role of <strong>ALLSKIN | MED</strong>, Cantabria Labs’ clinic-exclusive range of advanced medical-grade skincare and supplements, across skin preparation, post-procedure recovery and ongoing skin health.<br/><br/></p>"
+          }
+        },
+        "button_tqF4hm": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rfgK8J",
+        "text_Xp3HXi",
+        "button_tqF4hm"
+      ],
+      "custom_css": [
+        "h2 {font-size: 2.2rem;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 32,
+        "padding_bottom": 0,
+        "container_id": ""
+      }
+    },
+    "multicolumn_jPNybq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nhM4qt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Calendar.jpg",
+            "title": "Date:",
+            "text": "<p>Monday 8th February 2027, 12:00–4:00pm<br/>The Manchester Deansgate Hotel, Manchester, M3 4LQ</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NfB8L7": {
+          "type": "column",
+          "settings": {
+            "title": "Who should attend:",
+            "text": "<p>Aesthetic practitioners, nurse prescribers, doctors, dermatology professionals and clinic owners</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3HNqMW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Money.png",
+            "title": "Cost:",
+            "text": "<p>£25.00</p><p>(including a complimentary gift bag)</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nhM4qt",
+        "column_NfB8L7",
+        "column_3HNqMW"
+      ],
+      "custom_css": [
+        ".media {width: 50px; height: 50px; margin: 0 auto 1rem; padding-bottom: 0 !important;}",
+        ".media img {display: block; width: 100%; height: 100%; object-fit: contain;}",
+        ".multicolumn-list__item.center .media--adapt img {left: initial; transform: initial;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Book your place",
+        "button_link": "#book",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "event_list_khpPiT": {
+      "type": "event-list",
+      "blocks": {
+        "event_qytyUC": {
+          "type": "event",
+          "settings": {
+            "anchor_id": "",
+            "heading": "An afternoon dedicated to NeoGen",
+            "text": "<p>What does it take to turn an innovative aesthetics treatment into a successful, in-demand service within your clinic? Join us for an exclusive afternoon on <strong>NeoGen nitrogen plasma technology</strong>, bringing together clinical expertise, real treatment results and practical marketing strategies. Alongside NeoGen, explore the role of <strong>ALLSKIN | MED</strong>, Cantabria Labs’ clinic-exclusive range of advanced medical-grade skincare and supplements, across skin preparation, post-procedure recovery and ongoing skin health.</p>",
+            "date": "<p>Monday 8th February 2027, 12:00–4:00pm</p><p>The Manchester Deansgate Hotel, Manchester, M3 4LQ</p>",
+            "audience": "<p>Aesthetic practitioners, nurse prescribers, doctors, dermatology professionals and clinic owners</p>",
+            "cost": "<p>£25.00</p><p>(including a complimentary gift bag)</p>",
+            "details_label": "",
+            "details_link": "",
+            "details_new_tab": false,
+            "register_label": "Book your place",
+            "register_link": "#book",
+            "register_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "event_qytyUC"
+      ],
+      "disabled": true,
+      "name": "Event list",
+      "settings": {
+        "date_icon": "shopify://shop_images/Calendar.jpg",
+        "audience_icon": "shopify://shop_images/Info.png",
+        "cost_icon": "shopify://shop_images/Money.png",
+        "icon_width": 50,
+        "desktop_image_width": 70,
+        "desktop_image_max": 280,
+        "mobile_image_max": 280,
+        "details_scheme": "",
+        "register_scheme": "",
+        "button_gap": 32,
+        "mobile_buttons": "stacked",
+        "color_scheme": "",
+        "event_gap": 64,
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_8gfefi": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_U9KCXz": {
+          "type": "column",
+          "settings": {
+            "title": "Healthcare and aesthetic professionals",
+            "text": "<p>Medical aesthetic practitioners, nurse prescribers, aesthetic nurses, doctors, and dermatology professionals.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fVDQay": {
+          "type": "column",
+          "settings": {
+            "title": "Clinic owners",
+            "text": "<p>Considering investment in a new device and wanting to understand the technology and patient demand.&nbsp;</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4ttXKV": {
+          "type": "column",
+          "settings": {
+            "title": "Existing NeoGen practitioners",
+            "text": "<p>Looking to strengthen the skincare pathway around treatment.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cUTTgj": {
+          "type": "column",
+          "settings": {
+            "title": "Existing ALLSKIN&nbsp;|&nbsp;MED clinics",
+            "text": "<p>Interested in introducing or expanding device-based treatments.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hyYmzD": {
+          "type": "column",
+          "settings": {
+            "title": "Clinics already working with both brands",
+            "text": "<p>Looking to maximise treatment uptake, patient engagement, and the wider commercial opportunity.&nbsp;</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_U9KCXz",
+        "column_fVDQay",
+        "column_4ttXKV",
+        "column_cUTTgj",
+        "column_hyYmzD"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Who is it for?",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 32,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "collapsible_content_itTxdB": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_rqFYC8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "NeoGen technology and clinical outcomes",
+            "icon": "check_mark",
+            "row_content": "<p>The principles of NeoGen nitrogen plasma technology, its mechanism of action and treatment considerations; appropriate indications and patient selection; treatment parameters and differences in recovery profiles; contraindications, safety and risk management; clinical photography, case studies and a portfolio of results; and how high-profile patient treatments are building awareness and patient demand.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xtJV4E": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Medical-grade skincare before and after NeoGen",
+            "icon": "check_mark",
+            "row_content": "<p>How ALLSKIN | MED can prepare the skin ahead of treatment, how medical-grade skincare can support recovery and help reduce downtime, the role of SCA® PRO Growth Factor technology, and how ongoing collagen support and homecare can help enhance treatment results.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_MKUqLU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Launching NeoGen and building patient demand",
+            "icon": "check_mark",
+            "row_content": "<p>How to successfully launch NeoGen within your clinic, how to build patient awareness through marketing and social media, and how to convert interest into consultations and bookings.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_rqFYC8",
+        "collapsible_row_xtJV4E",
+        "collapsible_row_MKUqLU"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.h4.accordion__title {font-size: 20px; }}"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "What you'll learn",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "scheme-1",
+        "open_first_collapsible_row": true,
+        "image": "shopify://shop_images/placeholder-1000x550.jpg",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_4Uan7h": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TJf8GG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet the speakers",
+            "heading_size": "h2"
+          }
+        },
+        "text_JgMhwV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Three expert speakers. Three essential perspectives. One afternoon designed to help you get more from NeoGen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TJf8GG",
+        "text_JgMhwV"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multirow_VtzhhF": {
+      "type": "multirow",
+      "blocks": {
+        "row_DcQe4J": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/caroline-hall-v2-circle.jpg",
+            "caption": "Joolia Gilvey · 12:45–1:30pm",
+            "heading": "NeoGen: Technology, Treatment & Clinical Outcomes",
+            "text": "<p>What makes NeoGen different, which patients can benefit and what results can you realistically achieve? Joolia takes you behind the technology, sharing her practical experience of delivering NeoGen treatments alongside clinical case studies and patient results, from indications and patient selection to recovery profiles, safety and the high-profile treatments building demand.</p>",
+            "button_label": "Book your place",
+            "button_link": "#book"
+          }
+        },
+        "row_344kdH": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/caroline-hall-v2-circle.jpg",
+            "caption": "Caroline Hall · 2:00–2:45pm",
+            "heading": "Beyond The Device: The Critical Role of Medical-Grade Skincare Before and After NeoGen&nbsp;",
+            "text": "<p>A successful treatment journey doesn’t begin and end with the procedure itself. Caroline explores how she incorporates ALLSKIN | MED alongside NeoGen in clinical practice: skin preparation, SCA® PRO Growth Factor Ampoules before and after treatment, recovery and barrier support, reducing downtime, ongoing collagen stimulation and practitioner-led homecare.</p>",
+            "button_label": "Book your place",
+            "button_link": "#book"
+          }
+        },
+        "row_XKrJw6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/lianne-sykes-circle.jpg",
+            "caption": "Lianne Sykes · 2:45–3:15pm",
+            "heading": "From New Device to Fully Booked: Marketing NeoGen to Your Ideal Patients",
+            "text": "<p>Investing in a device is only the beginning. In this practical, marketing-focused session, Lianne covers how to position NeoGen for your ideal patients, build anticipation before launch, create social content that educates and builds confidence, use results and patient journeys, turn interest into consultations and bookings, and keep momentum beyond launch.</p>",
+            "button_label": "Book your place",
+            "button_link": "#book"
+          }
+        }
+      },
+      "block_order": [
+        "row_DcQe4J",
+        "row_344kdH",
+        "row_XKrJw6"
+      ],
+      "custom_css": [
+        ".image-with-text__media,.image-with-text__media--small,.image-with-text__media--medium,.image-with-text__media--large,.image-with-text__media--adapt {height: auto !important; padding-bottom: 0 !important; aspect-ratio: 1 / 1; width: 100%; max-width: 360px; margin-inline: auto; border-radius: 50%; overflow: hidden;}",
+        ".image-with-text__media img {position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top;}",
+        ".image-with-text__media-item {align-self: center;}"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "small",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "image_banner_separate_8AFyRy",
+    "rich_text_hKHWVJ",
+    "multicolumn_jPNybq",
+    "event_list_khpPiT",
+    "multicolumn_8gfefi",
+    "collapsible_content_itTxdB",
+    "rich_text_4Uan7h",
+    "multirow_VtzhhF"
+  ]
 }
