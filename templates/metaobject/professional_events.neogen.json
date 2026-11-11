@@ -546,9 +546,77 @@
         "heading_size": "h1",
         "button_label": "Book your place – £25",
         "button_link": "#book",
+        "anchor_id": "agenda",
         "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
         "padding_top": 64,
         "padding_bottom": 64
+      }
+    },
+    "multicolumn_wmxXLN": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_kCKqp4": {
+          "type": "column",
+          "settings": {
+            "title": "Treat with confidence",
+            "text": "<p>See real NeoGen results and case studies, and learn how an experienced practitioner selects patients, sets parameters and manages recovery, safety and risk.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KDLcRf": {
+          "type": "column",
+          "settings": {
+            "title": "Get more from every treatment",
+            "text": "<p>Learn how to prepare the skin before NeoGen and support it afterwards with ALLSKIN | MED and SCA® PRO Growth Factor technology, to help reduce downtime and extend results.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kDdCxc": {
+          "type": "column",
+          "settings": {
+            "title": "Turn interest into bookings",
+            "text": "<p>Leave with a practical plan to launch NeoGen, build demand on social media, convert enquiries into consultations and keep patients coming back with structured skincare plans.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rAKbAE": {
+          "type": "column",
+          "settings": {
+            "title": "Your questions, answered",
+            "text": "<p>Bring your real clinical and commercial challenges to the expert panel, and meet fellow practitioners across two networking sessions.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_kCKqp4",
+        "column_KDLcRf",
+        "column_kDdCxc",
+        "column_rAKbAE"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "&nbsp;Why attend?",
+        "heading_size": "h2",
+        "richtext": "<p>This isn’t just an opportunity to learn more about a device. It’s a chance to explore the complete NeoGen treatment opportunity, from the technology and clinical results to supporting the skin before and after treatment with ALLSKIN | MED.</p>",
+        "narrow_text": true,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Book your place – £25",
+        "button_link": "#book",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
       }
     }
   },
@@ -561,6 +629,7 @@
     "collapsible_content_itTxdB",
     "rich_text_4Uan7h",
     "multirow_VtzhhF",
-    "event_agenda_nR8tWg"
+    "event_agenda_nR8tWg",
+    "multicolumn_wmxXLN"
   ]
 }
