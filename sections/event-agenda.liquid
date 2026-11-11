@@ -12,6 +12,7 @@
 {%- endstyle -%}
 
 <style>
+  .event-agenda { scroll-margin-top: 10rem; }
   .event-agenda__inner { max-width: 104rem; margin: 0 auto; }
   .event-agenda__header { text-align: center; margin-bottom: 4rem; }
   .event-agenda__header .caption-with-letter-spacing { margin: 0 0 1.2rem; }
@@ -20,12 +21,11 @@
   .event-agenda__item { display: grid; grid-template-columns: 1fr; gap: 0.4rem; padding: 2rem 0; border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.15); }
   .event-agenda__time { margin: 0; font-family: var(--font-heading-family); font-weight: 700; font-size: 1.5rem; line-height: 1.5; letter-spacing: 0.06rem; }
   .event-agenda__speaker { margin: 0.4rem 0 0; font-size: 1.2rem; letter-spacing: 0.13rem; text-transform: uppercase; line-height: 1.7; color: #121212; }
-  .event-agenda__title { margin: 0; font-size: 1.6rem; line-height: 1.4; font-weight: 700;}
+  .event-agenda__title { margin: 0; font-size: 1.6rem; line-height: 1.4; font-weight: 700; }
   .event-agenda__item--session .event-agenda__title { font-size: 1.8rem; }
   .event-agenda__text { margin: 0; }
   .event-agenda__text p { margin: 0; }
   .event-agenda__button { display: flex; justify-content: center; margin-top: 4rem; }
-
   @media screen and (min-width: 750px) {
     .event-agenda__item { grid-template-columns: 20rem minmax(0, 1fr); column-gap: 4rem; padding: 2.4rem 0; }
     .event-agenda__item--session { padding: 2.8rem 0; }
@@ -35,9 +35,16 @@
   }
 </style>
 
+{%- liquid
+  assign anchor_id = section.settings.anchor_id | handleize
+  if anchor_id == blank
+    assign anchor_id = 'agenda'
+  endif
+-%}
+
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <section
-    id="agenda"
+    id="{{ anchor_id }}"
     class="event-agenda page-width section-{{ section.id }}-padding"
     {% if section.settings.heading != blank %}aria-labelledby="EventAgendaTitle-{{ section.id }}"{% endif %}
   >
@@ -96,7 +103,7 @@
   "class": "section",
   "disabled_on": { "groups": ["header", "footer"] },
   "settings": [
-    { "type": "text", "id": "caption", "label": "Caption", "default": "Monday 8 February 2027 · The Manchester Deansgate Hotel" },
+    { "type": "text", "id": "caption", "label": "Caption", "default": "Monday 8th February 2027 · Manchester Deansgate Hotel" },
     { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Agenda" },
     {
       "type": "select", "id": "heading_size", "label": "Heading size", "default": "h1",
@@ -108,6 +115,7 @@
     },
     { "type": "text", "id": "button_label", "label": "Button label", "default": "Book your place – £25" },
     { "type": "url", "id": "button_link", "label": "Button link" },
+    { "type": "text", "id": "anchor_id", "label": "Anchor ID", "default": "agenda", "info": "Link to this section with #agenda (or #your-id). Use lowercase letters, numbers and hyphens." },
     { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
     { "type": "header", "content": "Section padding" },
     { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Top padding", "default": 96 },
@@ -134,7 +142,7 @@
         { "type": "item", "settings": { "time": "12:45–1:30", "speaker": "Joolia Gilvey", "title": "NeoGen: Technology, Treatment & Clinical Outcomes", "text": "<p>Understanding the technology, perfecting the treatment.</p>" } },
         { "type": "item", "settings": { "time": "1:30–2:00", "title": "Break and networking" } },
         { "type": "item", "settings": { "time": "2:00–2:45", "speaker": "Caroline Hall", "title": "Beyond the Device: The Critical Role of Medical-Grade Skincare Before and After NeoGen", "text": "<p>Why skincare matters before and after NeoGen.</p>" } },
-        { "type": "item", "settings": { "time": "2:45–3:15", "speaker": "Lianne Sykes", "title": "Launching NeoGen: From Investment to Patient Demand", "text": "<p>From new device to fully booked: marketing NeoGen to your ideal patients.</p>" } },
+        { "type": "item", "settings": { "time": "2:45–3:15", "speaker": "Lianne Sykes", "title": "From New Device to Fully Booked: Marketing NeoGen to Your Ideal Patients", "text": "<p>From new device to fully booked: marketing NeoGen to your ideal patients.</p>" } },
         { "type": "item", "settings": { "time": "3:15–3:45", "speaker": "All speakers", "title": "Expert panel discussion and Q&A", "text": "<p>Your opportunity to ask questions, explore real clinical and commercial challenges and hear directly from our speakers.</p>" } },
         { "type": "item", "settings": { "time": "3:45–4:00", "title": "Closing remarks and next steps" } }
       ]
