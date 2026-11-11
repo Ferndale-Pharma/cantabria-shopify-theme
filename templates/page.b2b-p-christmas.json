@@ -283,7 +283,7 @@
           "type": "button",
           "settings": {
             "button_label": "Discuss this Offer",
-            "button_link": "#enquire",
+            "button_link": "#contact",
             "button_style_secondary": false
           }
         }
@@ -367,7 +367,7 @@
           "type": "button",
           "settings": {
             "button_label": "Discuss this Offer",
-            "button_link": "#enquire",
+            "button_link": "#contact",
             "button_style_secondary": false
           }
         }
@@ -562,7 +562,7 @@
           "type": "button",
           "settings": {
             "button_label": "Discuss this Offer",
-            "button_link": "#enquire",
+            "button_link": "#contact",
             "button_style_secondary": false
           }
         }
@@ -715,7 +715,7 @@
           "type": "button",
           "settings": {
             "button_label": "Discuss this Offer",
-            "button_link": "#enquire",
+            "button_link": "#contact",
             "button_style_secondary": false
           }
         }
@@ -899,7 +899,7 @@
         "is_heading": false,
         "padding_top": 32,
         "padding_bottom": 0,
-        "container_id": "tell-me-more"
+        "container_id": "contact"
       }
     },
     "apps_FkimBj": {
