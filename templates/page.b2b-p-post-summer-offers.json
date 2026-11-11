@@ -48,7 +48,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Speak to our Business Development Team",
-            "button_link_1": "#enquire",
+            "button_link_1": "#contact",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -232,7 +232,7 @@
           "type": "button",
           "settings": {
             "button_label": "Discuss this Offer",
-            "button_link": "#enquire",
+            "button_link": "#contact",
             "button_style_secondary": false
           }
         }
@@ -430,7 +430,7 @@
           "type": "button",
           "settings": {
             "button_label": "Discuss this Offer",
-            "button_link": "#enquire",
+            "button_link": "#contact",
             "button_style_secondary": false
           }
         }
@@ -583,7 +583,7 @@
           "type": "button",
           "settings": {
             "button_label": "Discuss this Offer",
-            "button_link": "#enquire",
+            "button_link": "#contact",
             "button_style_secondary": false
           }
         }
@@ -767,7 +767,7 @@
         "is_heading": false,
         "padding_top": 64,
         "padding_bottom": 16,
-        "container_id": "enquire"
+        "container_id": "contact"
       }
     },
     "1790076620c67662e7": {
