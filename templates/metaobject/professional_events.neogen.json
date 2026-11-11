@@ -15,7 +15,7 @@
         "text_MnzcAP": {
           "type": "text",
           "settings": {
-            "text": "8th February 2026 - manchester deansgate hotel",
+            "text": "8th February 2027 - manchester deansgate hotel",
             "text_style": "caption-with-letter-spacing"
           }
         },
@@ -452,6 +452,104 @@
         "padding_top": 0,
         "padding_bottom": 64
       }
+    },
+    "event_agenda_nR8tWg": {
+      "type": "event-agenda",
+      "blocks": {
+        "item_6NQcbp": {
+          "type": "item",
+          "settings": {
+            "time": "12:00–12:30",
+            "speaker": "",
+            "title": "Arrival and networking",
+            "text": "<p>Meet fellow practitioners, connect with the teams and enjoy an opportunity to network.</p>"
+          }
+        },
+        "item_xh9Jkc": {
+          "type": "item",
+          "settings": {
+            "time": "12:30–12:45",
+            "speaker": "",
+            "title": "Welcome and introduction",
+            "text": ""
+          }
+        },
+        "item_NaWjnx": {
+          "type": "item",
+          "settings": {
+            "time": "12:45–1:30",
+            "speaker": "Joolia Gilvey",
+            "title": "NeoGen: Technology, Treatment & Clinical Outcomes",
+            "text": "<p>Understanding the technology, perfecting the treatment.</p>"
+          }
+        },
+        "item_zq6eKG": {
+          "type": "item",
+          "settings": {
+            "time": "1:30–2:00",
+            "speaker": "",
+            "title": "Break and networking",
+            "text": ""
+          }
+        },
+        "item_MPtVhe": {
+          "type": "item",
+          "settings": {
+            "time": "2:00–2:45",
+            "speaker": "Caroline Hall",
+            "title": "Beyond the Device: The Critical Role of Medical-Grade Skincare Before and After NeoGen",
+            "text": "<p>Why skincare matters before and after NeoGen.</p>"
+          }
+        },
+        "item_KDfnB7": {
+          "type": "item",
+          "settings": {
+            "time": "2:45–3:15",
+            "speaker": "Lianne Sykes",
+            "title": "Launching NeoGen: From Investment to Patient Demand",
+            "text": "<p>From new device to fully booked: marketing NeoGen to your ideal patients.</p>"
+          }
+        },
+        "item_6gHBMT": {
+          "type": "item",
+          "settings": {
+            "time": "3:15–3:45",
+            "speaker": "All speakers",
+            "title": "Expert panel discussion and Q&A",
+            "text": "<p>Your opportunity to ask questions, explore real clinical and commercial challenges and hear directly from our speakers.</p>"
+          }
+        },
+        "item_8a9pJC": {
+          "type": "item",
+          "settings": {
+            "time": "3:45–4:00",
+            "speaker": "",
+            "title": "Closing remarks and next steps",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_6NQcbp",
+        "item_xh9Jkc",
+        "item_NaWjnx",
+        "item_zq6eKG",
+        "item_MPtVhe",
+        "item_KDfnB7",
+        "item_6gHBMT",
+        "item_8a9pJC"
+      ],
+      "name": "Event agenda",
+      "settings": {
+        "caption": "Monday 8th February 2027 · Manchester Deansgate Hotel",
+        "heading": "Agenda",
+        "heading_size": "h1",
+        "button_label": "Book your place – £25",
+        "button_link": "",
+        "color_scheme": "scheme-2c99df23-144f-4c5b-8d2f-9454cc0070bd",
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
     }
   },
   "order": [
@@ -462,6 +560,7 @@
     "multicolumn_8gfefi",
     "collapsible_content_itTxdB",
     "rich_text_4Uan7h",
-    "multirow_VtzhhF"
+    "multirow_VtzhhF",
+    "event_agenda_nR8tWg"
   ]
 }
