@@ -23,14 +23,14 @@
           "type": "text",
           "settings": {
             "text": "Advanced, clinic-exclusive hair and scalp care, powered by patented Wharton Gel Complex® Growth Factor Technology.",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "buttons_R77eGa": {
           "type": "buttons",
           "settings": {
             "button_label_1": "View products",
-            "button_link_1": "",
+            "button_link_1": "shopify://collections/hair-scalp-health-products",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -45,6 +45,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00311_CantabriaLabs_Skin_ScalpHealth_2560x1280_2e100c34-74b8-43fd-850b-e46c5d19fc30.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00311_CantabriaLabs_Skin_ScalpHealth_1080x1080_ef16638b-4826-4130-a913-6a7211ff6346.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -96,6 +98,7 @@
         "column_ehffT3": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00311_CL.co.uk_SkinandScalpHealth_Assets_Nov26_08.png",
             "title": "Optimise scalp health",
             "text": "<p>Remove excess sebum, flaking and build-up to maintain scalp balance.</p>",
             "link_label": "",
@@ -105,6 +108,7 @@
         "column_hEAdnG": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00311_CL.co.uk_SkinandScalpHealth_Assets_Nov26_09.png",
             "title": "Support hair follicle activity",
             "text": "<p>Promote a healthier scalp environment for hair regeneration.</p>",
             "link_label": "",
@@ -114,6 +118,7 @@
         "column_DY4Pe3": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00311_CL.co.uk_SkinandScalpHealth_Assets_Nov26_10.png",
             "title": "Improve hair strength & density",
             "text": "<p>Support stronger strands and fuller-looking hair.</p>",
             "link_label": "",
@@ -123,6 +128,7 @@
         "column_iNacGX": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00311_CL.co.uk_SkinandScalpHealth_Assets_Nov26_11.png",
             "title": "Enhance in-clinic treatment results",
             "text": "<p>Complement in-clinic hair regeneration with targeted homecare.</p>",
             "link_label": "",
@@ -211,6 +217,7 @@
         "column_rgdmjn": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00311_CL.co.uk_SkinandScalpHealth_Assets_Nov26_03_1.jpg",
             "title": "Who is affected by hair thinning?",
             "text": "<p>Hair thinning can affect both men and women, from early changes in density to more noticeable hair loss. Concerns may include reduced volume, weakened strands or changes in scalp condition.</p>",
             "hidden_text": "<p>Targeted haircare can support individuals experiencing thinning and those looking to maintain scalp health, particularly alongside professional hair regeneration treatments.</p>",
@@ -369,7 +376,7 @@
             "title": "",
             "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 1 | Cleanse &amp; Exfoliate</strong></p>\n<h3>ALLSKIN | MED Exfoliating Shampoo</h3>\n<p>Gently exfoliates and removes excess sebum and flaking, helping maintain scalp balance and create a healthier environment for hair follicles.</p>",
             "link_label": "View product",
-            "link": ""
+            "link": "shopify://products/allskin-med-exfoliating-shampoo"
           }
         },
         "column_zeWrFn": {
@@ -379,7 +386,7 @@
             "title": "",
             "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 2 | Stimulate &amp; Strengthen</strong></p>\n<h3>ALLSKIN | MED Anti-Hair Loss &amp; Redensifying Lotion</h3>\n<p>Powered by 1% Wharton Gel Complex® Technology, melatonin and caffeine to support scalp vitality, follicular activity and stronger, fuller-looking hair.</p>",
             "link_label": "View product",
-            "link": ""
+            "link": "shopify://products/allskin-med-anti-hair-loss-redensifying-lotion"
           }
         },
         "column_XQ8r7w": {
@@ -389,7 +396,7 @@
             "title": "",
             "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Step 3 | Nourish</strong></p>\n<h3>ALLSKIN | MED Oral Hair Capsules</h3>\n<p>A targeted blend of vitamins, minerals, amino acids and botanical extracts to provide nutritional support for hair strength, quality and resilience.</p>",
             "link_label": "View product",
-            "link": ""
+            "link": "shopify://products/allskin-med-anti-hair-loss-oral-capsules"
           }
         },
         "column_fdrJL7": {
@@ -399,7 +406,7 @@
             "title": "",
             "text": "<p class=\"caption-with-letter-spacing caption-with-letter-spacing--medium\"><strong>Professional In-Clinic Treatment</strong></p>\n<h3>ALLSKIN | MED Anti-Hair Loss &amp; Redensifying Booster</h3>\n<p>An advanced treatment powered by 1.5% Wharton Gel Complex®, designed for professional use with microneedling to support follicular activity and improve hair thickness and density.</p>",
             "link_label": "View product",
-            "link": ""
+            "link": "shopify://products/allskin-med-anti-hair-loss-redensifying-booster"
           }
         }
       },
