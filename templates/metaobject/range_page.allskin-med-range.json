@@ -23,7 +23,7 @@
           "type": "text",
           "settings": {
             "text": "Clinic-exclusive advanced care for skin, hair & scalp, with science-led skincare regimes and aesthetic treatment-enhancement plans.",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "buttons_rcGCwW": {
@@ -65,7 +65,7 @@
         "text_TkEfEn": {
           "type": "text",
           "settings": {
-            "text": "<p>ALLSKIN | MED is Cantabria Labs' clinic-exclusive range of advanced skin, scalp and haircare, bringing together dermatological innovation, patented technologies and professional expertise.</p><p>Designed to work alongside aesthetic treatments, the range offers targeted formulations and structured skincare protocols to support skin health, optimise treatment preparation and recovery, and extend care beyond the clinic.</p>"
+            "text": "<p>ALLSKIN | MED is Cantabria Labs' clinic-exclusive range of advanced skin, scalp and haircare, bringing together dermatological innovation, patented technologies and professional expertise.</p><p>Designed to work alongside aesthetic treatments, the range offers targeted formulations, strengths and formulations suited to medical aesthetics, and structured skincare protocols to support skin health, optimise treatment preparation and recovery, and extend care beyond the clinic.</p>"
           }
         }
       },
@@ -123,10 +123,10 @@
         "padding_bottom": 32
       }
     },
-    "multicolumn_fLGkGW": {
-      "type": "multicolumn",
+    "multicolumn_html_AKReVe": {
+      "type": "multicolumn-html",
       "blocks": {
-        "column_ae9Xej": {
+        "column_6khjXN": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00309_CL.co.uk_ASMRangePageAssets_Nov26_Icon01.png",
@@ -136,7 +136,7 @@
             "link": ""
           }
         },
-        "column_b7i3HV": {
+        "column_4hWdjf": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00309_CL.co.uk_ASMRangePageAssets_Nov26_Icon03.png",
@@ -146,17 +146,17 @@
             "link": ""
           }
         },
-        "column_wazPk6": {
+        "column_dmiRGY": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00309_CL.co.uk_ASMRangePageAssets_Nov26_Icon04.png",
             "title": "20+ Scientific Publications",
-            "text": "<p>Over two decades of research supporting the regenerative properties of SCA® PRO<br/>Growth Factor Technology.</p>",
+            "text": "<p>Over two decades of dermatological research and innovation underpinning the advanced patented technologies within the <span style=\"white-space: nowrap;\">ALLSKIN | MED</span> range.</p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_wCwq6d": {
+        "column_N7ydHK": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/FERN-IMG-00309_CL.co.uk_ASMRangePageAssets_Nov26_Icon02.png",
@@ -168,13 +168,15 @@
         }
       },
       "block_order": [
-        "column_ae9Xej",
-        "column_b7i3HV",
-        "column_wazPk6",
-        "column_wCwq6d"
+        "column_6khjXN",
+        "column_4hWdjf",
+        "column_dmiRGY",
+        "column_N7ydHK"
       ],
-      "name": "t:sections.multicolumn.presets.name",
+      "custom_css": [],
+      "name": "Multicolumn HTML",
       "settings": {
+        "anchor_id": "",
         "title": "Why choose ALLSKIN | MED?",
         "heading_size": "h2",
         "richtext": "",
@@ -183,6 +185,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "center",
+        "column_link_style": "text",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
@@ -190,8 +193,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 64,
-        "padding_bottom": 64,
-        "container_id": ""
+        "padding_bottom": 64
       }
     },
     "image_with_text_html_9bLHQV": {
@@ -216,6 +218,7 @@
         "heading_ynhqb4",
         "text_wLcQgq"
       ],
+      "disabled": true,
       "custom_css": [
         "p {color: #fff;}"
       ],
@@ -234,112 +237,6 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "image_with_text_html_c7ChUF": {
-      "type": "image-with-text-html",
-      "blocks": {
-        "heading_YhBbUT": {
-          "type": "heading",
-          "settings": {
-            "heading": "The science behind ALLSKIN | MED",
-            "heading_size": "h2"
-          }
-        },
-        "text_gWeCEz": {
-          "type": "text",
-          "settings": {
-            "text": "<p>ALLSKIN | MED combines patented SCA® PRO Growth Factor Technology and\nREOXDERM® antioxidant technology to support skin regeneration, barrier defence and recovery. Targeted depigmenting ingredients and Wharton Gel Complex® extend its scientific approach to pigmentation and scalp health.</p>\n<p>Laboratory studies of SCA have demonstrated increased proliferation and migration of keratinocytes and dermal fibroblasts, key processes involved in skin renewal and repair.<sup>1</sup></p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_YhBbUT",
-        "text_gWeCEz"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "p {color: #fff;}"
-      ],
-      "name": "Image with text HTML",
-      "settings": {
-        "anchor_id": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-2ccc306f-a2d2-4b6b-aeff-f100be8ec2bb",
-        "color_scheme": "scheme-2ccc306f-a2d2-4b6b-aeff-f100be8ec2bb",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 64,
-        "padding_bottom": 0
-      }
-    },
-    "multicolumn_html_AKReVe": {
-      "type": "multicolumn-html",
-      "blocks": {
-        "column_6khjXN": {
-          "type": "column",
-          "settings": {
-            "title": "50% Wrinkle Reduction",
-            "text": "<p>Clinical research on SCA 40% skincare following non-ablative fractional laser treatment reported 50% greater average wrinkle reduction after 28 days compared with treatment without the skincare.<sup>2</sup></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_4hWdjf": {
-          "type": "column",
-          "settings": {
-            "title": "Improved Skin Healing",
-            "text": "<p>Separate research demonstrated improved skin healing following ablative fractional laser treatment with early and continued application of SCA 40%.<sup>3</sup></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_dmiRGY": {
-          "type": "column",
-          "settings": {
-            "title": "20+ Scientific Publications",
-            "text": "<p>SCA technology is backed by more than 20 scientific publications.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_6khjXN",
-        "column_4hWdjf",
-        "column_dmiRGY"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "p {color: #fff;}",
-        "@media screen and (min-width: 750px) {.multicolumn {padding-top: 32px; }}"
-      ],
-      "name": "Multicolumn HTML",
-      "settings": {
-        "anchor_id": "",
-        "title": "",
-        "heading_size": "h1",
-        "richtext": "",
-        "narrow_text": false,
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "column_link_style": "text",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-2ccc306f-a2d2-4b6b-aeff-f100be8ec2bb",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
         "padding_bottom": 64
       }
     },
@@ -601,10 +498,8 @@
     "image_banner_separate_bV7TEE",
     "rich_text_qQbXgr",
     "image_with_text_MMwC96",
-    "multicolumn_fLGkGW",
-    "image_with_text_html_9bLHQV",
-    "image_with_text_html_c7ChUF",
     "multicolumn_html_AKReVe",
+    "image_with_text_html_9bLHQV",
     "rich_text_6cJMzB",
     "multirow_XitdhC",
     "multicolumn_html_Frf4Rx",
