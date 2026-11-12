@@ -376,8 +376,9 @@
     <!-- UTM Tracking Script -->
     <script>
       document.addEventListener('DOMContentLoaded', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+
         function getUTMParam(name) {
-          const urlParams = new URLSearchParams(window.location.search);
           let value = urlParams.get(name);
           if (value) {
             sessionStorage.setItem(name, value);
@@ -386,14 +387,27 @@
           }
           return value || '';
         }
-      
+
+        // Store the full URL (including all UTM params) only when the current
+        // page actually carries UTMs, so later pages don't overwrite it.
+        function getUTMLandingURL() {
+          const utmKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'];
+          const hasUTM = utmKeys.some(function(key) { return urlParams.get(key); });
+          if (hasUTM) {
+            sessionStorage.setItem('utm_landing_url', window.location.href);
+            return window.location.href;
+          }
+          return sessionStorage.getItem('utm_landing_url') || '';
+        }
+
         const utmSource = getUTMParam('utm_source');
         const utmMedium = getUTMParam('utm_medium');
         const utmCampaign = getUTMParam('utm_campaign');
         const utmContent = getUTMParam('utm_content');
-      
+        const utmLandingURL = getUTMLandingURL();
+
         // If no UTM at all, don't bother
-        if (utmSource || utmMedium || utmCampaign || utmContent) {
+        if (utmSource || utmMedium || utmCampaign || utmContent || utmLandingURL) {
           fetch('/cart/update.js', {
             method: 'POST',
             headers: {
@@ -404,7 +418,8 @@
                 'utm_source': utmSource,
                 'utm_medium': utmMedium,
                 'utm_campaign': utmCampaign,
-                'utm_content': utmContent
+                'utm_content': utmContent,
+                'utm_landing_url': utmLandingURL
               }
             })
           }).then(function(response) {
