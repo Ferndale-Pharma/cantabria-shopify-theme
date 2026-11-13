@@ -388,16 +388,19 @@
           return value || '';
         }
 
-        // Store the full URL (including all UTM params) only when the current
-        // page actually carries UTMs, so later pages don't overwrite it.
+        // Always record the full landing URL:
+        // - the first page of the session is stored, with or without UTMs
+        // - a later page with UTMs replaces it, so UTM links always win
+        // - later pages without UTMs leave the stored URL alone
         function getUTMLandingURL() {
           const utmKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'];
           const hasUTM = utmKeys.some(function(key) { return urlParams.get(key); });
-          if (hasUTM) {
+          const stored = sessionStorage.getItem('utm_landing_url');
+          if (hasUTM || !stored) {
             sessionStorage.setItem('utm_landing_url', window.location.href);
             return window.location.href;
           }
-          return sessionStorage.getItem('utm_landing_url') || '';
+          return stored;
         }
 
         const utmSource = getUTMParam('utm_source');
@@ -406,8 +409,8 @@
         const utmContent = getUTMParam('utm_content');
         const utmLandingURL = getUTMLandingURL();
 
-        // If no UTM at all, don't bother
-        if (utmSource || utmMedium || utmCampaign || utmContent || utmLandingURL) {
+        // Landing URL is always set, so this always sends
+        if (utmLandingURL) {
           fetch('/cart/update.js', {
             method: 'POST',
             headers: {
