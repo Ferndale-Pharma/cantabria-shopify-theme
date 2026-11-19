@@ -53,6 +53,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00312_CantabriaLabs_NEOGENxASM_Event_2560x1280_8f9a7a32-d0f9-4ca9-b86b-0a7d029957d5.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00312_CantabriaLabs_NEOGENxASM_Event_1080x1080_8a220267-d35d-4584-98fc-5eefb607d198.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -121,7 +123,7 @@
         "column_nhM4qt": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Calendar.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00312_CantabriaLabs_NEOGENxASM_Event_100x100_Calender.png",
             "title": "Date:",
             "text": "<p>Monday 8th February 2027, 12:00–4:00pm<br/>The Manchester Deansgate Hotel, Manchester, M3 4LQ</p>",
             "link_label": "",
@@ -131,6 +133,7 @@
         "column_NfB8L7": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00312_CantabriaLabs_NEOGENxASM_Event_100x100_People.png",
             "title": "Who should attend:",
             "text": "<p>Aesthetic practitioners, nurse prescribers, doctors, dermatology professionals and clinic owners</p>",
             "link_label": "",
@@ -140,7 +143,7 @@
         "column_3HNqMW": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Money.png",
+            "image": "shopify://shop_images/FERN-IMG-00312_CantabriaLabs_NEOGENxASM_Event_100x100_Cost.png",
             "title": "Cost:",
             "text": "<p>£25.00</p><p>(including a complimentary gift bag)</p>",
             "link_label": "",
@@ -349,7 +352,7 @@
         "color_scheme": "",
         "container_color_scheme": "scheme-1",
         "open_first_collapsible_row": true,
-        "image": "shopify://shop_images/placeholder-1000x550.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00312_CantabriaLabs_NEOGENxASM_Event_1000x550_6efcca3f-ba14-4b5d-a9da-266ca47dc533.jpg",
         "image_ratio": "adapt",
         "desktop_layout": "image_first",
         "padding_top": 64,
@@ -435,7 +438,7 @@
         ".image-with-text__media--medium {height: auto !important; padding-bottom: 0 !important; aspect-ratio: 1 / 1; width: 100%; max-width: 360px; margin-inline: auto; border-radius: 50%; overflow: hidden;}",
         ".image-with-text__media img {position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top;}",
         ".image-with-text__media-item {align-self: center;}",
-        "@media screen and (max-width: 749px){.image-with-text__media--medium {max-width: 260px;}}"
+        "@media screen and (max-width: 749px) {.image-with-text__media--medium {max-width: 260px; }}"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
@@ -559,6 +562,7 @@
         "column_kCKqp4": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00312_CantabriaLabs_NEOGENxASM_Event_100x100_Treat.png",
             "title": "Treat with confidence",
             "text": "<p>See real NeoGen results and case studies, and learn how an experienced practitioner selects patients, sets parameters and manages recovery, safety and risk.</p>",
             "link_label": "",
@@ -568,6 +572,7 @@
         "column_KDLcRf": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00312_CantabriaLabs_NEOGENxASM_Event_100x100_Treatment.png",
             "title": "Get more from every treatment",
             "text": "<p>Learn how to prepare the skin before NeoGen and support it afterwards with ALLSKIN | MED and SCA® PRO Growth Factor technology, to help reduce downtime and extend results.</p>",
             "link_label": "",
@@ -577,6 +582,7 @@
         "column_kDdCxc": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00312_CantabriaLabs_NEOGENxASM_Event_100x100_Bookings.png",
             "title": "Turn interest into bookings",
             "text": "<p>Leave with a practical plan to launch NeoGen, build demand on social media, convert enquiries into consultations and keep patients coming back with structured skincare plans.</p>",
             "link_label": "",
@@ -586,6 +592,7 @@
         "column_rAKbAE": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00312_CantabriaLabs_NEOGENxASM_Event_100x100_Questions.png",
             "title": "Your questions, answered",
             "text": "<p>Bring your real clinical and commercial challenges to the expert panel, and meet fellow practitioners across two networking sessions.</p>",
             "link_label": "",
@@ -599,13 +606,18 @@
         "column_kDdCxc",
         "column_rAKbAE"
       ],
+      "custom_css": [
+        ".media {width: 75px; height: 75px; margin: 0 auto 1rem; padding-bottom: 0 !important;}",
+        ".media img {display: block; width: 100%; height: 100%; object-fit: contain;}",
+        ".multicolumn-list__item.center .media--adapt img {left: initial; transform: initial;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "&nbsp;Why attend?",
         "heading_size": "h2",
         "richtext": "<p>This isn’t just an opportunity to learn more about a device. It’s a chance to explore the complete NeoGen treatment opportunity, from the technology and clinical results to supporting the skin before and after treatment with ALLSKIN | MED.</p>",
         "narrow_text": true,
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "center",
