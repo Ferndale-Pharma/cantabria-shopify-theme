@@ -193,8 +193,8 @@
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/263223090196050\"></script>",
-        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
-        "padding_top": 64,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
         "padding_bottom": 64
       }
     }
