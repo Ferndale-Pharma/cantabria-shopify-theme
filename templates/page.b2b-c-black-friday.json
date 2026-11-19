@@ -50,7 +50,7 @@
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
-        "color_scheme": "scheme-fe2caf85-447f-433a-bc45-dfb94474e084",
+        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "show_text_below": true,
@@ -120,8 +120,8 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "",
-        "heading_size": "h1",
+        "title": "YOUR BLACK FRIDAY TRADE DEALS",
+        "heading_size": "h2",
         "richtext": "",
         "narrow_text": false,
         "image_width": "full",
@@ -131,18 +131,79 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 64,
         "padding_bottom": 64,
         "container_id": ""
       }
+    },
+    "multirow_KemzBQ": {
+      "type": "multirow",
+      "blocks": {
+        "row_WViJwN": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/1080x1080.jpg",
+            "caption": "",
+            "heading": "BIRETIX Cleanser & Refill Bundle",
+            "text": "<p><strong>BUNDLE PRICE: £31.60&nbsp;</strong><br/></p><p>TRADE PRICE EX VAT: <strong>£13.65&nbsp;</strong><br/>INC VAT: <strong>£16.38&nbsp;</strong></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_QbwdAV": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "ENDOCARE Overnight Skin Renewal Bundle&nbsp;",
+            "text": "<p><strong>BUNDLE PRICE: £34.99</strong></p><p>TRADE PRICE EX VAT: <strong>£17.50</strong>&nbsp;<br/>INC VAT: <strong>£21.00</strong></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_WViJwN",
+        "row_QbwdAV"
+      ],
+      "custom_css": [
+        "p {color: #fff;}"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "small",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "row_color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "custom_liquid_VjNdeE": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/263223090196050\"></script>",
+        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "main",
     "image_banner_separate_fAWcYV",
-    "multicolumn_NhK8Xe"
+    "multicolumn_NhK8Xe",
+    "multirow_KemzBQ",
+    "custom_liquid_VjNdeE"
   ]
 }
