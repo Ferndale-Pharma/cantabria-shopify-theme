@@ -11,13 +11,138 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_separate_fAWcYV": {
+      "type": "image-banner-separate",
+      "blocks": {
+        "heading_h9gWFj": {
+          "type": "heading",
+          "settings": {
+            "heading": "BLACK FRIDAY HAS LANDED",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_6cBF7w": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_h9gWFj",
+        "buttons_6cBF7w"
+      ],
+      "name": "Image Banner v2",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-fe2caf85-447f-433a-bc45-dfb94474e084",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": true
+      }
+    },
+    "multicolumn_NhK8Xe": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4CkxM8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1080x1080.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LJhHNy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1080x1080.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LJbpiz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1080x1080.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ir8mTC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1080x1080.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eHGeLb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1080x1080.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4CkxM8",
+        "column_LJhHNy",
+        "column_LJbpiz",
+        "column_ir8mTC",
+        "column_eHGeLb"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_separate_fAWcYV",
+    "multicolumn_NhK8Xe"
   ]
 }
