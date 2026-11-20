@@ -57,6 +57,50 @@
         "is_heading": true
       }
     },
+    "rich_text_jBNy3A": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7ixLxQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "YOUR BLACK FRIDAY TRADE DEALS",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7ixLxQ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "image_banner_separate_UXrqFB": {
+      "type": "image-banner-separate",
+      "name": "Image Banner v2",
+      "settings": {
+        "image": "shopify://shop_images/placeholder-2560x560.jpg",
+        "mobile_image": "shopify://shop_images/placeholder-1080x1440.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": false
+      }
+    },
     "multicolumn_NhK8Xe": {
       "type": "multicolumn",
       "blocks": {
@@ -118,6 +162,7 @@
         "column_ir8mTC",
         "column_eHGeLb"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "YOUR BLACK FRIDAY TRADE DEALS",
@@ -127,6 +172,58 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_eaETEP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Ur7z9b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1080x1080.jpg",
+            "title": "BIRETIX Cleanser & Refill Bundle",
+            "text": "<h3><strong>BUNDLE PRICE: £31.60</strong></h3><h4>TRADE PRICE EX VAT: <strong>£13.65&nbsp;</strong><br/>INC VAT: <strong>£16.38&nbsp;</strong></h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kLbBqC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1080x1080.jpg",
+            "title": "ENDOCARE Overnight Skin Renewal Bundle",
+            "text": "<h3><strong>BUNDLE PRICE: £34.99</strong></h3><h4>TRADE PRICE EX VAT: <strong>£17.50&nbsp;</strong><br/>INC VAT: <strong>£21.00&nbsp;</strong></h4>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Ur7z9b",
+        "column_kLbBqC"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.multicolumn-list {justify-content: center; }}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "BLACK FRIDAY EXCLUSIVE BUNDLES",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -169,6 +266,7 @@
         "row_WViJwN",
         "row_QbwdAV"
       ],
+      "disabled": true,
       "custom_css": [
         "p {color: #fff;}"
       ],
@@ -203,7 +301,10 @@
   "order": [
     "main",
     "image_banner_separate_fAWcYV",
+    "rich_text_jBNy3A",
+    "image_banner_separate_UXrqFB",
     "multicolumn_NhK8Xe",
+    "multicolumn_eaETEP",
     "multirow_KemzBQ",
     "custom_liquid_VjNdeE"
   ]
