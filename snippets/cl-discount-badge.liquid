@@ -4,6 +4,14 @@
     <span class="cl-badge cl-badge--new">&#9733; NEW</span>
   {%- endif -%}
 
+  {%- if product.tags contains 'black-friday-20' -%}
+    <span class="cl-badge cl-badge--discount">20% Off</span>
+  {%- elsif product.tags contains 'black-friday-30' -%}
+    <span class="cl-badge cl-badge--discount">30% Off</span>
+  {%- elsif product.tags contains 'black-friday-50' -%}
+    <span class="cl-badge cl-badge--discount">50% Off</span>
+  {%- endif -%}
+
   {%- if product.tags contains 'h360-sale' -%}
     <span class="cl-badge cl-badge--discount">Buy One, Get One Half Price</span>
   {%- elsif product.tags contains 'pediatrics-sale' -%}
