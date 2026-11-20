@@ -45,6 +45,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_Banner_2560x1280px.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_Banner_1080x1080px.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -87,8 +89,8 @@
       "type": "image-banner-separate",
       "name": "Image Banner v2",
       "settings": {
-        "image": "shopify://shop_images/placeholder-2560x560.jpg",
-        "mobile_image": "shopify://shop_images/placeholder-1080x1440.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_Offers_Desktop_1.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_Offers_Mobile_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-left",
@@ -190,7 +192,7 @@
         "column_Ur7z9b": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/1080x1080.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_BiretixBundle_1080x1080_eb994f05-182c-4912-a549-fc171831e4ca.png",
             "title": "BIRETIX Cleanser & Refill Bundle",
             "text": "<h3><strong>BUNDLE PRICE: £31.60</strong></h3><h4>TRADE PRICE EX VAT: <strong>£13.65&nbsp;</strong><br/>INC VAT: <strong>£16.38&nbsp;</strong></h4>",
             "link_label": "",
@@ -200,7 +202,7 @@
         "column_kLbBqC": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/1080x1080.jpg",
+            "image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_EndocareBundle_1080x1080px.png",
             "title": "ENDOCARE Overnight Skin Renewal Bundle",
             "text": "<h3><strong>BUNDLE PRICE: £34.99</strong></h3><h4>TRADE PRICE EX VAT: <strong>£17.50&nbsp;</strong><br/>INC VAT: <strong>£21.00&nbsp;</strong></h4>",
             "link_label": "",
