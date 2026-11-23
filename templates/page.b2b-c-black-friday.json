@@ -89,7 +89,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<script src=\"https://cdn.logwork.com/widget/countdown.js\"></script>\n<a href=\"https://logwork.com/countdown-un1d\" class=\"countdown-timer\" data-timezone=\"Europe/London\" data-date=\"2026-11-25 07:00\" data-background=\"#ffffff\" data-digitscolor=\"#000000\">Countdown Timer</a>",
+        "custom_liquid": "<script src=\"https://cdn.logwork.com/widget/countdown.js\"></script>\n<a href=\"https://logwork.com/countdown-un1d\" class=\"countdown-timer\" data-timezone=\"Europe/London\" data-date=\"2026-11-25 07:00\" data-background=\"#ffffff\" data-digitscolor=\"#000000\">Officially starting in:</a>",
         "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
         "padding_top": 0,
         "padding_bottom": 64
