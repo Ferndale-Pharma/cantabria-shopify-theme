@@ -85,6 +85,16 @@
         "container_id": ""
       }
     },
+    "custom_liquid_7dEq8J": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script src=\"https://cdn.logwork.com/widget/countdown.js\"></script>\n<a href=\"https://logwork.com/countdown-un1d\" class=\"countdown-timer\" data-timezone=\"Europe/London\" data-date=\"2026-11-25 07:00\" data-background=\"#ffffff\" data-digitscolor=\"#000000\">Countdown Timer</a>",
+        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
     "image_banner_separate_UXrqFB": {
       "type": "image-banner-separate",
       "name": "Image Banner v2",
@@ -338,6 +348,7 @@
     "main",
     "image_banner_separate_fAWcYV",
     "rich_text_jBNy3A",
+    "custom_liquid_7dEq8J",
     "image_banner_separate_UXrqFB",
     "multicolumn_NhK8Xe",
     "multicolumn_eaETEP",
