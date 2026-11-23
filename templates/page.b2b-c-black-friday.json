@@ -81,7 +81,7 @@
         "text_hnmRHh"
       ],
       "custom_css": [
-        "h3{font-weight:700;}"
+        "h3 {font-weight: 700;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -316,23 +316,30 @@
     "rich_text_Ny9DhK": {
       "type": "rich-text",
       "blocks": {
-        "heading_LNcg3p": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h2"
-          }
-        },
         "text_pztEeb": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>PRE-SALE ACCESS</li><li>PRIZE DRAW</li></ul>"
+            "text": "<p><strong>Our best professional pricing of the year is almost here with up to 50% off Cantabria Labs and up to 75% off ALLSKIN | MED, from Wednesday 25 November to Tuesday 1 December.&nbsp;</strong></p><p>Register below and we'll tell you the moment the offers go live, so you can stock up before the January rush. You'll also be entered into our prize draw for the chance to win a full regime of your choice for your clinic.&nbsp;</p>"
+          }
+        },
+        "heading_LNcg3p": {
+          "type": "heading",
+          "settings": {
+            "heading": "Win a full regime of your choice for your clinic",
+            "heading_size": "h2"
+          }
+        },
+        "text_mddhAi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>One winner will receive a full regime of their choice, featuring a cleanser, serum, moisturiser and SPF. Pick the one that suits your clinic best, whether you want to try something new or stock up on a client favourite.</p>"
           }
         }
       },
       "block_order": [
+        "text_pztEeb",
         "heading_LNcg3p",
-        "text_pztEeb"
+        "text_mddhAi"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -342,7 +349,7 @@
         "full_width": true,
         "is_heading": false,
         "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_bottom": 0,
         "container_id": ""
       }
     },
