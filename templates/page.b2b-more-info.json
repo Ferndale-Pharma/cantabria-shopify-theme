@@ -11,13 +11,59 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_6Lcahi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ByfeDi": {
+          "type": "heading",
+          "settings": {
+            "heading": "More information needed",
+            "heading_size": "h1"
+          }
+        },
+        "text_GiUY9q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To help us locate your details and direct your enquiry to the right team, could you please complete the short form below?</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ByfeDi",
+        "text_GiUY9q"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": true,
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "container_id": ""
+      }
+    },
+    "custom_liquid_iQPAjr": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/263063175770357\"></script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_6Lcahi",
+    "custom_liquid_iQPAjr"
   ]
 }
