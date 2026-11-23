@@ -89,8 +89,8 @@
       "type": "image-banner-separate",
       "name": "Image Banner v2",
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_Offers_Desktop_1.jpg",
-        "mobile_image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_Offers_Mobile_1.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_Offers_Desktop_2.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_Offers_Mobile_2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-left",
