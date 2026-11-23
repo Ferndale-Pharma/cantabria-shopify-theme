@@ -1,0 +1,362 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_separate_fAWcYV": {
+      "type": "image-banner-separate",
+      "blocks": {
+        "heading_h9gWFj": {
+          "type": "heading",
+          "settings": {
+            "heading": "BLACK FRIDAY HAS LANDED",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_6cBF7w": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_h9gWFj",
+        "buttons_6cBF7w"
+      ],
+      "name": "Image Banner v2",
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_Banner_2560x1280px.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_Banner_1080x1080px.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": true
+      }
+    },
+    "rich_text_jBNy3A": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7ixLxQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "YOUR BLACK FRIDAY PROFESSIONAL DEALS",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7ixLxQ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 32,
+        "container_id": ""
+      }
+    },
+    "custom_liquid_7dEq8J": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".text{font-size: 1rem;}"
+      ],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script src=\"https://cdn.logwork.com/widget/countdown.js\"></script>\n<a href=\"https://logwork.com/countdown-un13\" class=\"countdown-timer\" data-timezone=\"Europe/London\" data-textcolor=\"#ffffff\" data-date=\"2026-11-25 07:00\" data-background=\"#ffffff\" data-digitscolor=\"#000000\" data-unitscolor=\"#ffffff\">Officially starting in:</a>",
+        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "image_banner_separate_UXrqFB": {
+      "type": "image-banner-separate",
+      "name": "Image Banner v2",
+      "settings": {
+        "image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_Offers_Desktop_2.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_Offers_Mobile_2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "is_heading": false
+      }
+    },
+    "multicolumn_NhK8Xe": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4CkxM8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1080x1080.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LJhHNy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1080x1080.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LJbpiz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1080x1080.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ir8mTC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1080x1080.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eHGeLb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1080x1080.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4CkxM8",
+        "column_LJhHNy",
+        "column_LJbpiz",
+        "column_ir8mTC",
+        "column_eHGeLb"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "YOUR BLACK FRIDAY TRADE DEALS",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multicolumn_eaETEP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Ur7z9b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_BiretixBundle_1080x1080_eb994f05-182c-4912-a549-fc171831e4ca.png",
+            "title": "BIRETIX Cleanser & Refill Bundle",
+            "text": "<h3><strong>BUNDLE PRICE: £31.60</strong></h3><h4>TRADE PRICE EX VAT: <strong>£13.65&nbsp;</strong><br/>INC VAT: <strong>£16.38&nbsp;</strong></h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kLbBqC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_EndocareBundle_1080x1080px.png",
+            "title": "ENDOCARE Overnight Skin Renewal Bundle",
+            "text": "<h3><strong>BUNDLE PRICE: £34.99</strong></h3><h4>TRADE PRICE EX VAT: <strong>£17.50&nbsp;</strong><br/>INC VAT: <strong>£21.00&nbsp;</strong></h4>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Ur7z9b",
+        "column_kLbBqC"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.multicolumn-list {justify-content: center; }}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "BLACK FRIDAY EXCLUSIVE BUNDLES",
+        "heading_size": "h2",
+        "richtext": "",
+        "narrow_text": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "multirow_KemzBQ": {
+      "type": "multirow",
+      "blocks": {
+        "row_WViJwN": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/1080x1080.jpg",
+            "caption": "",
+            "heading": "BIRETIX Cleanser & Refill Bundle",
+            "text": "<p><strong>BUNDLE PRICE: £31.60&nbsp;</strong><br/></p><p>TRADE PRICE EX VAT: <strong>£13.65&nbsp;</strong><br/>INC VAT: <strong>£16.38&nbsp;</strong></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_QbwdAV": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/1080x1080.jpg",
+            "caption": "",
+            "heading": "ENDOCARE Overnight Skin Renewal Bundle&nbsp;",
+            "text": "<p><strong>BUNDLE PRICE: £34.99</strong></p><p>TRADE PRICE EX VAT: <strong>£17.50</strong>&nbsp;<br/>INC VAT: <strong>£21.00</strong></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_WViJwN",
+        "row_QbwdAV"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "p {color: #fff;}"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "small",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "row_color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_Ny9DhK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LNcg3p": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h2"
+          }
+        },
+        "text_pztEeb": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>PRE-SALE ACCESS</li><li>PRIZE DRAW</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LNcg3p",
+        "text_pztEeb"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
+    "custom_liquid_VjNdeE": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/263223090196050\"></script>",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_separate_fAWcYV",
+    "rich_text_jBNy3A",
+    "custom_liquid_7dEq8J",
+    "image_banner_separate_UXrqFB",
+    "multicolumn_NhK8Xe",
+    "multicolumn_eaETEP",
+    "multirow_KemzBQ",
+    "rich_text_Ny9DhK",
+    "custom_liquid_VjNdeE"
+  ]
+}
