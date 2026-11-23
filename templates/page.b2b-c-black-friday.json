@@ -65,7 +65,7 @@
         "heading_7ixLxQ": {
           "type": "heading",
           "settings": {
-            "heading": "YOUR BLACK FRIDAY TRADE DEALS",
+            "heading": "YOUR BLACK FRIDAY PROFESSIONAL DEALS",
             "heading_size": "h2"
           }
         }
@@ -214,6 +214,7 @@
         "column_Ur7z9b",
         "column_kLbBqC"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 750px) {.multicolumn-list {justify-content: center; }}"
       ],
@@ -289,6 +290,39 @@
         "padding_bottom": 64
       }
     },
+    "rich_text_Ny9DhK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LNcg3p": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h2"
+          }
+        },
+        "text_pztEeb": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>PRE-SALE ACCESS</li><li>PRIZE DRAW</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LNcg3p",
+        "text_pztEeb"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
     "custom_liquid_VjNdeE": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -308,6 +342,7 @@
     "multicolumn_NhK8Xe",
     "multicolumn_eaETEP",
     "multirow_KemzBQ",
+    "rich_text_Ny9DhK",
     "custom_liquid_VjNdeE"
   ]
 }
