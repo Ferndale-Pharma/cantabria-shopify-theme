@@ -20,18 +20,32 @@
     "image_banner_separate_fAWcYV": {
       "type": "image-banner-separate",
       "blocks": {
+        "text_gD8bkr": {
+          "type": "text",
+          "settings": {
+            "text": "Wed 25 Nov – Tue 1 Dec",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
         "heading_h9gWFj": {
           "type": "heading",
           "settings": {
-            "heading": "BLACK FRIDAY HAS LANDED",
+            "heading": "Black Friday 2026",
             "heading_size": "h1"
+          }
+        },
+        "text_AVq3rx": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Something special is coming… Up to 50% off your Cantabria Labs favourites</strong>",
+            "text_style": "body"
           }
         },
         "buttons_6cBF7w": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "",
-            "button_link_1": "",
+            "button_label_1": "Get early access",
+            "button_link_1": "#enter",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -40,8 +54,13 @@
         }
       },
       "block_order": [
+        "text_gD8bkr",
         "heading_h9gWFj",
+        "text_AVq3rx",
         "buttons_6cBF7w"
+      ],
+      "custom_css": [
+        "p {color: #fff;}"
       ],
       "name": "Image Banner v2",
       "settings": {
@@ -314,21 +333,28 @@
     "rich_text_Ny9DhK": {
       "type": "rich-text",
       "blocks": {
+        "text_a7GzfM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our biggest offers of the year are almost here. Sign up below and we'll let you know the moment they go live, so you can stock up on your skincare favourites before anyone else.&nbsp;</p><p><strong>As a thank you, you'll also be entered into our prize draw for the chance to win a full skincare regime.&nbsp;</strong></p>"
+          }
+        },
         "heading_LNcg3p": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Win a full skincare regime",
             "heading_size": "h2"
           }
         },
         "text_pztEeb": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>PRE-SALE ACCESS</li><li>PRIZE DRAW</li></ul>"
+            "text": "<p>One lucky winner will receive a full Cantabria Labs regime of your choice, worth up to £211, and featuring a cleanser, serum, moisturiser and SPF.</p>"
           }
         }
       },
       "block_order": [
+        "text_a7GzfM",
         "heading_LNcg3p",
         "text_pztEeb"
       ],
@@ -341,7 +367,7 @@
         "is_heading": false,
         "padding_top": 64,
         "padding_bottom": 64,
-        "container_id": ""
+        "container_id": "enter"
       }
     },
     "custom_liquid_VjNdeE": {
@@ -352,6 +378,34 @@
         "color_scheme": "scheme-1",
         "padding_top": 0,
         "padding_bottom": 64
+      }
+    },
+    "rich_text_ktRcmG": {
+      "type": "rich-text",
+      "blocks": {
+        "text_LyqG3h": {
+          "type": "text",
+          "settings": {
+            "text": "<p>UK residents 18+ only, excluding employees of the promoter and their families. No purchase necessary. To enter, complete the form at https://cantabrialabs.co.uk/pages/black-friday-giveaway and comment \"BLACK FRIDAY\" on our Instagram post. One entry per person. Closes 9am, Wednesday 25 November 2026. One winner will be picked at random and contacted by email or Instagram DM on Tuesday 1st December 2026, and must reply within 7 days. Prize: a full Cantabria Labs skincare regime worth up to £211. No cash alternative. Black Friday offers run 25 November–1 December 2026, while stocks last. Promoter: Ferndale Pharma. Not sponsored, endorsed or administered by Instagram.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_LyqG3h"
+      ],
+      "custom_css": [
+        "p{font-size:0.8em;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
       }
     }
   },
@@ -365,6 +419,7 @@
     "multicolumn_eaETEP",
     "multirow_KemzBQ",
     "rich_text_Ny9DhK",
-    "custom_liquid_VjNdeE"
+    "custom_liquid_VjNdeE",
+    "rich_text_ktRcmG"
   ]
 }
