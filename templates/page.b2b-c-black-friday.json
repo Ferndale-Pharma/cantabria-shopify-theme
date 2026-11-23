@@ -68,10 +68,20 @@
             "heading": "YOUR BLACK FRIDAY PROFESSIONAL DEALS",
             "heading_size": "h2"
           }
+        },
+        "text_hnmRHh": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Officially starting in:</h3>"
+          }
         }
       },
       "block_order": [
-        "heading_7ixLxQ"
+        "heading_7ixLxQ",
+        "text_hnmRHh"
+      ],
+      "custom_css": [
+        "h3{font-weight:700;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -88,11 +98,11 @@
     "custom_liquid_7dEq8J": {
       "type": "custom-liquid",
       "custom_css": [
-        ".text{font-size: 1rem;}"
+        ".text {font-size: 1rem;}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<script src=\"https://cdn.logwork.com/widget/countdown.js\"></script>\n<a href=\"https://logwork.com/countdown-un13\" class=\"countdown-timer\" data-timezone=\"Europe/London\" data-textcolor=\"#ffffff\" data-date=\"2026-11-25 07:00\" data-background=\"#ffffff\" data-digitscolor=\"#000000\" data-unitscolor=\"#ffffff\">Officially starting in:</a>",
+        "custom_liquid": "<div id=\"JFWebsiteWidget-01a208fd3a58700082a30d590016a8ece6fe\"></div>\n<script src=\"https://eu.jotform.com/website-widgets/embed/01a208fd3a58700082a30d590016a8ece6fe\" defer></script>",
         "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
         "padding_top": 0,
         "padding_bottom": 64
