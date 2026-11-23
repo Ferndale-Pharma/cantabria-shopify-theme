@@ -349,7 +349,7 @@
         "text_pztEeb": {
           "type": "text",
           "settings": {
-            "text": "<p>One lucky winner will receive a full Cantabria Labs regime of your choice, worth up to £211, and featuring a cleanser, serum, moisturiser and SPF.</p>"
+            "text": "<p>One lucky winner will receive a full Cantabria Labs regime of your choice, worth up to £200, and featuring a cleanser, serum, moisturiser and SPF.</p>"
           }
         }
       },
@@ -386,7 +386,7 @@
         "text_LyqG3h": {
           "type": "text",
           "settings": {
-            "text": "<p>UK residents 18+ only, excluding employees of the promoter and their families. No purchase necessary. To enter, complete the form at https://cantabrialabs.co.uk/pages/black-friday-giveaway and comment \"BLACK FRIDAY\" on our Instagram post. One entry per person. Closes 9am, Wednesday 25 November 2026. One winner will be picked at random and contacted by email or Instagram DM on Tuesday 1st December 2026, and must reply within 7 days. Prize: a full Cantabria Labs skincare regime worth up to £211. No cash alternative. Black Friday offers run 25 November–1 December 2026, while stocks last. Promoter: Ferndale Pharma. Not sponsored, endorsed or administered by Instagram.</p>"
+            "text": "<p>UK residents 18+ only, excluding employees of the promoter and their families. No purchase necessary. To enter, complete the form at https://cantabrialabs.co.uk/pages/black-friday-giveaway and comment \"BLACK FRIDAY\" on our Instagram post. One entry per person. Closes 9am, Wednesday 25 November 2026. One winner will be picked at random and contacted by email or Instagram DM on Tuesday 1st December 2026, and must reply within 7 days. Prize: a full Cantabria Labs skincare regime worth up to £200. No cash alternative. Black Friday offers run 25 November–1 December 2026, while stocks last. Promoter: Ferndale Pharma. Not sponsored, endorsed or administered by Instagram.</p>"
           }
         }
       },
@@ -394,7 +394,7 @@
         "text_LyqG3h"
       ],
       "custom_css": [
-        "p{font-size:0.8em;}"
+        "p {font-size: 0.8em;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
