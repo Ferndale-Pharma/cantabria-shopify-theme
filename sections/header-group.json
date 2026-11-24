@@ -16,18 +16,16 @@
       "blocks": {
         "announcement_xknnKy": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "20% Off Selected HELIOCARE 360° Family Sun Protection and After Sun Care",
-            "link": "shopify://collections/heliocare"
+            "text": "BLACK FRIDAY SALE IS LIVE - UP TO 30% OFF SITEWIDE - SHOP NOW",
+            "link": "shopify://collections/promotions"
           }
         },
         "announcement_bEigCT": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Receive a FREE Oil Control Solution worth £26.00 With All BIRETIX Orders",
-            "link": "shopify://collections/biretix"
+            "text": "Receive a FREE ENDOCARE RADIANCE C Ferulic Serum Gel (SRP £54.99) With All Orders over £75",
+            "link": "shopify://collections/promotions"
           }
         },
         "announcement_H6wiei": {
