@@ -3793,3 +3793,9 @@ details-disclosure > details {
 .section-featured-product .cl-badge-stack {
 display: none;
 }
+/* Desktop: last top-level menu item */
+.header__inline-menu .list-menu--inline > li:first-child > .header__menu-item,
+/* Mobile drawer: last top-level menu item */
+.menu-drawer__navigation > .menu-drawer__menu > li:first-child > .menu-drawer__menu-item {
+  font-weight: 700;
+}
