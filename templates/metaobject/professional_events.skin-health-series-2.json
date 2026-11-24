@@ -185,11 +185,11 @@
             "date": "<p>{{ metaobjects.professional_events[\"introduction-to-the-cantabria-labs-dermocosmetic-skincare-supplement-portfolio\"].multicolumn_1_body_text | metafield_tag }}</p>",
             "audience": "<p>{{ metaobjects.professional_events[\"introduction-to-the-cantabria-labs-dermocosmetic-skincare-supplement-portfolio\"].multicolumn_2_body_text | metafield_tag }}</p>",
             "cost": "<p>FREE</p>",
-            "details_label": "View details",
-            "details_link": "shopify://metaobjects/professional_events/introduction-to-the-cantabria-labs-dermocosmetic-skincare-supplement-portfolio",
+            "details_label": "",
+            "details_link": "",
             "details_new_tab": false,
-            "register_label": "Register now",
-            "register_link": "#register",
+            "register_label": "Watch on demand now",
+            "register_link": "shopify://metaobjects/professional_events/introduction-to-the-cantabria-labs-dermocosmetic-skincare-supplement-portfolio",
             "register_new_tab": false
           }
         },
@@ -351,6 +351,7 @@
         "heading_K9xiDX",
         "text_PdnWVJ"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -365,6 +366,7 @@
     },
     "custom_liquid_fGiWNG": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/262642540912353\"></script>",
