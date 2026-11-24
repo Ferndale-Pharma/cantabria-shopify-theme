@@ -73,8 +73,9 @@
         "column_jGdpXb": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/bf-30-discount.png",
             "title": "",
-            "text": "<h3> Up to 30% off sitewide!</h3>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -82,8 +83,9 @@
         "column_4TawyH": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/bf-biretix.png",
             "title": "",
-            "text": "<h3>50% off BIRETIX Double Correction Serum</h3>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -91,8 +93,9 @@
         "column_wdaTUi": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/bf-endocare.png",
             "title": "",
-            "text": "<h3>FREE ENDOCARE RADIANCE C Ferulic Serum with orders over £75</h3>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -100,8 +103,9 @@
         "column_KUxPkz": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/bf-bundles.png",
             "title": "",
-            "text": "<h3>Fantastic value bundle offers</h3>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -114,7 +118,7 @@
         "column_KUxPkz"
       ],
       "custom_css": [
-        "h3 {font-weight:700;}"
+        "h3 {font-weight: 700;}"
       ],
       "name": "Multicolumn HTML",
       "settings": {
@@ -128,10 +132,10 @@
         "columns_desktop": 4,
         "column_alignment": "center",
         "column_link_style": "text",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
