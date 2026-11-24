@@ -222,8 +222,8 @@
       ],
       "name": "Image Banner v2",
       "settings": {
-        "image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_Banner_2560x1280px.jpg",
-        "mobile_image": "shopify://shop_images/FERN-IMG-00316_CL_BlackFriday_Banner_1080x1080px.jpg",
+        "image": "shopify://shop_images/FERN-IMG-00313_CL_BlackFriday_WebsiteBanners_2560x1280px_Nov26.jpg",
+        "mobile_image": "shopify://shop_images/FERN-IMG-00313_CL_BlackFriday_WebsiteBanners_1080x1080px_Nov26.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
