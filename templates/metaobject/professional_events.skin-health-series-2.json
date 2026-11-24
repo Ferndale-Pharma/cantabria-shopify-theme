@@ -12,6 +12,13 @@
     "image_banner_separate_VgFjUc": {
       "type": "image-banner-separate",
       "blocks": {
+        "text_TR8G7a": {
+          "type": "text",
+          "settings": {
+            "text": "for professionals",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
         "heading_xrxLct": {
           "type": "heading",
           "settings": {
@@ -41,6 +48,7 @@
         }
       },
       "block_order": [
+        "text_TR8G7a",
         "heading_xrxLct",
         "text_XEUaNL",
         "buttons_nAncQ3"
