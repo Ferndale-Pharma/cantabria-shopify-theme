@@ -148,10 +148,17 @@
             "heading": "{{ product.metafields.custom.bundle_upsell_title.value }}",
             "heading_size": "h2"
           }
+        },
+        "text_QjJe3W": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.bundle_upsell_description.value }}</p>"
+          }
         }
       },
       "block_order": [
-        "heading_wbzLNm"
+        "heading_wbzLNm",
+        "text_QjJe3W"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
