@@ -3790,3 +3790,6 @@ details-disclosure > details {
     margin-left: 0;
   }
 }
+.section-featured-product .cl-badge-stack {
+display: none;
+}
