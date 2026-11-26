@@ -77,6 +77,54 @@
         "is_heading": false
       }
     },
+    "rich_text_FWPDk7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_K7Ad3z": {
+          "type": "heading",
+          "settings": {
+            "heading": "BLACK FRIDAY PROFESSIONAL OFFERS - UP TO 75% OFF",
+            "heading_size": "h2"
+          }
+        },
+        "text_cm8Rm4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stock up on your skincare favourites with our exclusive Black Friday offers with up to 75% off across our full product range.</p>"
+          }
+        },
+        "button_EpUpUy": {
+          "type": "button",
+          "settings": {
+            "button_label": "Talk to us about Black Friday",
+            "button_link": "#contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_K7Ad3z",
+        "text_cm8Rm4",
+        "button_EpUpUy"
+      ],
+      "custom_css": [
+        "p {color: #fff;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-b7def379-8dc0-416f-8d07-e1c39d860c82",
+        "full_width": true,
+        "is_heading": false,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "container_id": ""
+      }
+    },
     "multicolumn_UKLaEE": {
       "type": "multicolumn",
       "blocks": {
@@ -642,6 +690,7 @@
   "order": [
     "main",
     "image_banner_separate_Bttgif",
+    "rich_text_FWPDk7",
     "multicolumn_UKLaEE",
     "image_with_text_html_3jAw7g",
     "multicolumn_html_hcaahh",
